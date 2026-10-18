@@ -1,0 +1,2486 @@
+{
+  "source_commit": "7dd7353e8772a1f6dc6312155a906393327eb6b9",
+  "purpose": "Explicit build-source, manuscript, original artwork, cipher, and font inputs for the author-requested Codex-Intervallorum public migration. No git history, unreviewed research notes, red-team reviews, generated reading PDFs, or workspace files.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "493658c4cdd378bd61728875a1210dae59e23bb8",
+      "size": 11424
+    },
+    {
+      "path": "SOURCES.json",
+      "sha": "1dfa3185fb18d58624179a037b81e3221f268196",
+      "size": 3741
+    },
+    {
+      "path": "binding/README.md",
+      "sha": "0d116b9457fdc2ac1c8ecd8ed0d9a8c82d1f7222",
+      "size": 8360
+    },
+    {
+      "path": "binding/backmatter.py",
+      "sha": "c5d3e9c6a8449e0cb406ac55fafc0bffaac6dcb2",
+      "size": 22131
+    },
+    {
+      "path": "binding/bind.py",
+      "sha": "cd0b41e095b69834aea5396db65b58083f027900",
+      "size": 18425
+    },
+    {
+      "path": "binding/bind_illustrated.py",
+      "sha": "77df9520bd6ac644b20414562d6519e1fa2dc489",
+      "size": 6451
+    },
+    {
+      "path": "binding/scribal.py",
+      "sha": "17f1e3b293ccb3e1f570d6bbbda5012a81ef265a",
+      "size": 12635
+    },
+    {
+      "path": "binding/tests/test_backmatter.py",
+      "sha": "88d1217ea0bdd0ccaaa124d279eade24fc71657d",
+      "size": 9259
+    },
+    {
+      "path": "binding/tests/test_binding.py",
+      "sha": "bd46beaca18ca053ed5bb3c35b81f3a167e1a193",
+      "size": 6041
+    },
+    {
+      "path": "binding/tests/test_scribal.py",
+      "sha": "f2da745363a395bd6c548c4e929c6d68c8f0082f",
+      "size": 3148
+    },
+    {
+      "path": "binding/tests/test_vellum.py",
+      "sha": "e872802608d5dc884c32044ad1c90a6479d001c1",
+      "size": 5763
+    },
+    {
+      "path": "binding/unified.py",
+      "sha": "008f0453264bd41ee6b2879643ecb565d092a38c",
+      "size": 13678
+    },
+    {
+      "path": "binding/validate.py",
+      "sha": "1a6785209a6ffa6555f22d03704cbd85aa52e59c",
+      "size": 7457
+    },
+    {
+      "path": "binding/validate_typeset.py",
+      "sha": "e669fda5d678545cc485ef7929a9e73015d495a9",
+      "size": 8835
+    },
+    {
+      "path": "binding/vellum.py",
+      "sha": "d7bf08b81de6db10e3098f436556297b57612efc",
+      "size": 13829
+    },
+    {
+      "path": "books/00_accusator/README.md",
+      "sha": "476f6bd12164e4472da29e3fd7b66570368b300e",
+      "size": 3204
+    },
+    {
+      "path": "books/00_accusator/assets/exhibit-i-the-office.png",
+      "sha": "7391fa53bd71c5cb62904dad27106e599c556861",
+      "size": 4144973
+    },
+    {
+      "path": "books/00_accusator/assets/exhibit-ii-the-man-in-uz.png",
+      "sha": "93caea93e6da61c5eda3f65febf3b721276b097e",
+      "size": 4152819
+    },
+    {
+      "path": "books/00_accusator/assets/figures.json",
+      "sha": "f1e2e686ed45c6c2a706aa294eb5811fc035b9bb",
+      "size": 1909
+    },
+    {
+      "path": "books/00_accusator/build.py",
+      "sha": "892981a80c8b69a9865365dbdd952cd2655317c3",
+      "size": 13488
+    },
+    {
+      "path": "books/00_accusator/manuscript/de-officio-accusatoris.md",
+      "sha": "61e40f562339f3ca999053b3e8dc4b2707aca1b0",
+      "size": 9979
+    },
+    {
+      "path": "books/00_accusator/manuscript/references.json",
+      "sha": "ca456542372cd9296fe5da47c1cfae59b19c6ae7",
+      "size": 8744
+    },
+    {
+      "path": "books/00_accusator/validate.py",
+      "sha": "7f4dc5b82ef3ea28ee0e4ad95304d7d9cff6921c",
+      "size": 5658
+    },
+    {
+      "path": "books/00_matres/README.md",
+      "sha": "8790f3ad4b9b631f6fb28e9fb85b655dde06c536",
+      "size": 2507
+    },
+    {
+      "path": "books/00_matres/build.py",
+      "sha": "b840608a49475d07300cf03ecfb8eebf00aed588",
+      "size": 10578
+    },
+    {
+      "path": "books/00_matres/manuscript/de-matribus-noctis.md",
+      "sha": "d01c79cbece1027087ccff16ab0dfd8a42ba7a7c",
+      "size": 9748
+    },
+    {
+      "path": "books/00_matres/manuscript/references.json",
+      "sha": "57404ae363ceb89637f5db463b225478cbfec4d2",
+      "size": 18600
+    },
+    {
+      "path": "books/00_matres/validate.py",
+      "sha": "d656ea34ec36bcbe8181353c5c6e51f5c0e0b295",
+      "size": 5392
+    },
+    {
+      "path": "books/01_matricis/generator/cipher.py",
+      "sha": "b482a3ccf8ed56c9d18e289c4988ae26df3dd8ba",
+      "size": 7741
+    },
+    {
+      "path": "books/01_matricis/pdf/Clavicula_Matricis_ereader.pdf",
+      "sha": "2533bfce573646f710e18449cbe90bfe85e566cd",
+      "size": 6805974
+    },
+    {
+      "path": "books/01_matricis_intervallorum/README.md",
+      "sha": "81ea139f1e34be9e2a4e3620a63e438053f33538",
+      "size": 3240
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/fed-vessel.jpeg",
+      "sha": "f98bd0c52c4e5506e90ed866d70ed5aa51af8ac1",
+      "size": 235981
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/figures.json",
+      "sha": "dcd7352c71b997b667956c3af018c9dfed70ee34",
+      "size": 3021
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/frontispiece-prompt.txt",
+      "sha": "4fd2240226795b0c0b8a0829d5595490e7bb8e55",
+      "size": 1795
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/house-kept-in-abeyance.jpeg",
+      "sha": "661476599bc134eae78bc86b84950a850210c932",
+      "size": 297608
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/keeper-of-intervals-original.jpeg",
+      "sha": "af45382b130f4a84ba231b553ace1b6b9955afc1",
+      "size": 285248
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/open-inventory.jpeg",
+      "sha": "23e6c904102ed35a43a5935dfbd7dfa49ff406cc",
+      "size": 380882
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/second-neck.jpeg",
+      "sha": "fb5e05cfe1d5e24a4a2bf8fcd62d267b2621231d",
+      "size": 161152
+    },
+    {
+      "path": "books/01_matricis_intervallorum/assets/the-maintained-workshop.jpg",
+      "sha": "4851af201bb1b4c178851d7b3bf17226d4bc05f7",
+      "size": 907440
+    },
+    {
+      "path": "books/01_matricis_intervallorum/build.py",
+      "sha": "cdc2427c52c7ddee19600e94a7c0d07a379a1d32",
+      "size": 31298
+    },
+    {
+      "path": "books/01_matricis_intervallorum/manuscript/book.json",
+      "sha": "a426f8d92aff67b50842746899cb1d739cc90140",
+      "size": 88605
+    },
+    {
+      "path": "books/01_matricis_intervallorum/manuscript/reading-edition.md",
+      "sha": "9b4efab54649b554d06e1e286366f9183264dde2",
+      "size": 77303
+    },
+    {
+      "path": "books/01_matricis_intervallorum/tests/test_combined.py",
+      "sha": "48411a9347e7d551cbf8ba2de2b5508711752f67",
+      "size": 3256
+    },
+    {
+      "path": "books/02_intervallorum/NOTICES.md",
+      "sha": "d6e79d12ecc3be9e47d219c21606b64814293a11",
+      "size": 2335
+    },
+    {
+      "path": "books/02_intervallorum/README.md",
+      "sha": "005210da8d6295119c96679fe8d3cef124c04cce",
+      "size": 4658
+    },
+    {
+      "path": "books/02_intervallorum/docs/ARGUMENT.md",
+      "sha": "3d866af19fc068feb63237b06de5c2238aa9fb4b",
+      "size": 4047
+    },
+    {
+      "path": "books/02_intervallorum/docs/EDITORIAL.md",
+      "sha": "61fff5322688c9580aa6047bf02b1956ba3ee990",
+      "size": 2978
+    },
+    {
+      "path": "books/02_intervallorum/docs/IMPORT.md",
+      "sha": "68ee28f6e3421349ca8cf38344de30a1e7966192",
+      "size": 880
+    },
+    {
+      "path": "books/02_intervallorum/docs/SEPARATE_REPOSITORY.md",
+      "sha": "33521ffba9e5fcec75b4a69ebad28edb7c91aacf",
+      "size": 1119
+    },
+    {
+      "path": "books/02_intervallorum/docs/SOURCES.md",
+      "sha": "8e8c5a8e59c8de82e24cd70ba7942dc779565acb",
+      "size": 4596
+    },
+    {
+      "path": "books/02_intervallorum/docs/VALIDATION.md",
+      "sha": "c98fbb9b212753efa2a5cce2cf081c8a6c20747d",
+      "size": 1272
+    },
+    {
+      "path": "books/02_intervallorum/fonts/IBMPlexMono-Regular.ttf",
+      "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "size": 135580
+    },
+    {
+      "path": "books/02_intervallorum/fonts/IMFeENit28P.ttf",
+      "sha": "d9afa7e097d525cefa294f2575efc4bef66e1dda",
+      "size": 202368
+    },
+    {
+      "path": "books/02_intervallorum/fonts/IMFeENrm28P.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/02_intervallorum/fonts/IMFeENsc28P.ttf",
+      "sha": "c97d4a0748328052055f42ab27c0659981ce8be7",
+      "size": 183932
+    },
+    {
+      "path": "books/02_intervallorum/fonts/SueEllenFrancisco-Regular.ttf",
+      "sha": "a4217a825ae82db452a491b1c3a17632523b1d08",
+      "size": 60728
+    },
+    {
+      "path": "books/02_intervallorum/fonts/licenses/ebgaramond-OFL.txt",
+      "sha": "c1ec5e1818415eab6f8fca95a230af477d64eb61",
+      "size": 4398
+    },
+    {
+      "path": "books/02_intervallorum/fonts/licenses/ibmplexmono-OFL.txt",
+      "sha": "c35c4c618fab33da8695177b3a6cefe0810b7b28",
+      "size": 4456
+    },
+    {
+      "path": "books/02_intervallorum/fonts/licenses/imfellenglish-OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/02_intervallorum/fonts/licenses/imfellenglishsc-OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/02_intervallorum/fonts/licenses/sueellenfrancisco-OFL.txt",
+      "sha": "06117d9dfe08e8ac9818115cc1898c05a197c27f",
+      "size": 4362
+    },
+    {
+      "path": "books/02_intervallorum/fonts/static/EBGaramond-Italic400.ttf",
+      "sha": "9e2ccfb1df49224fdba3ca4ba2b8eb78838b1db3",
+      "size": 463492
+    },
+    {
+      "path": "books/02_intervallorum/fonts/static/EBGaramond-Regular400.ttf",
+      "sha": "ac096d6334bb7f18db723d167feec981abbb08ee",
+      "size": 518872
+    },
+    {
+      "path": "books/02_intervallorum/generator/__init__.py",
+      "sha": "92af19297d935b42a41d4c607684a33ea1384a3f",
+      "size": 84
+    },
+    {
+      "path": "books/02_intervallorum/generator/build.py",
+      "sha": "cc31a952fa87bdb23641d654d6a65ddb4cbfec1e",
+      "size": 24512
+    },
+    {
+      "path": "books/02_intervallorum/generator/core.py",
+      "sha": "9479a29a25b8fb4feb95597a660159f0a497dfee",
+      "size": 12270
+    },
+    {
+      "path": "books/02_intervallorum/generator/hands.py",
+      "sha": "08b58f62d6540575cac4096d0980af5e0bbfa949",
+      "size": 2140
+    },
+    {
+      "path": "books/02_intervallorum/generator/marks.py",
+      "sha": "d00d3ff509a4f8b2e147dd9c816d2f40e24cd964",
+      "size": 24948
+    },
+    {
+      "path": "books/02_intervallorum/generator/plates.py",
+      "sha": "a3bdbb06456d8e841d33ee74b83b562eba117970",
+      "size": 21548
+    },
+    {
+      "path": "books/02_intervallorum/generator/reachability.py",
+      "sha": "46db45ac4760b7f4cb6fe2df60bf3868d704b8df",
+      "size": 3737
+    },
+    {
+      "path": "books/02_intervallorum/generator/tx.py",
+      "sha": "06ba1ad76e469093e8c12678e404697565112453",
+      "size": 4696
+    },
+    {
+      "path": "books/02_intervallorum/illustrated/build.py",
+      "sha": "676476afaa8ad1ea4700df94ff88f3bea812e795",
+      "size": 11952
+    },
+    {
+      "path": "books/02_intervallorum/illustrated/captions.json",
+      "sha": "1f89d6a7db6f53203366bc9f24fb905b64166207",
+      "size": 1783
+    },
+    {
+      "path": "books/02_intervallorum/manuscript/book.json",
+      "sha": "c43c990a2f0effc8326b6005ebadf514fbd7c42a",
+      "size": 50980
+    },
+    {
+      "path": "books/02_intervallorum/manuscript/reading-edition.md",
+      "sha": "1bde989000c87389a7e0824b95d3ba5d45ed4793",
+      "size": 45370
+    },
+    {
+      "path": "books/02_intervallorum/tests/test_portability.py",
+      "sha": "d13c2292d32dc34b8ed043311e37c990714fe0d9",
+      "size": 1752
+    },
+    {
+      "path": "books/02_intervallorum/tests/test_reachability.py",
+      "sha": "088306c31271d7acd9d7270dcff95634e832eff8",
+      "size": 1837
+    },
+    {
+      "path": "books/03_escalationum/NOTICES.md",
+      "sha": "7df3b69ead487d23f62add79b851b8e2d8071935",
+      "size": 1842
+    },
+    {
+      "path": "books/03_escalationum/docs/PROVENANCE.json",
+      "sha": "7d7ecfd8499cd5ccecf05330f06156abeef5904b",
+      "size": 997
+    },
+    {
+      "path": "books/03_escalationum/fonts/IBMPlexMono-Regular.ttf",
+      "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "size": 135580
+    },
+    {
+      "path": "books/03_escalationum/fonts/IMFeENit28P.ttf",
+      "sha": "d9afa7e097d525cefa294f2575efc4bef66e1dda",
+      "size": 202368
+    },
+    {
+      "path": "books/03_escalationum/fonts/IMFeENrm28P.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/03_escalationum/fonts/IMFeENsc28P.ttf",
+      "sha": "c97d4a0748328052055f42ab27c0659981ce8be7",
+      "size": 183932
+    },
+    {
+      "path": "books/03_escalationum/fonts/SueEllenFrancisco-Regular.ttf",
+      "sha": "a4217a825ae82db452a491b1c3a17632523b1d08",
+      "size": 60728
+    },
+    {
+      "path": "books/03_escalationum/fonts/licenses/ebgaramond-OFL.txt",
+      "sha": "206cb7b5505b518310f1ec7a782fa952f469a810",
+      "size": 4399
+    },
+    {
+      "path": "books/03_escalationum/fonts/licenses/ibmplexmono-OFL.txt",
+      "sha": "ef89108cef7ca226d16664b01d57234ec4ac26ae",
+      "size": 4364
+    },
+    {
+      "path": "books/03_escalationum/fonts/licenses/imfellenglish-OFL.txt",
+      "sha": "ffdcf33df73d774a320d071c1a7dbe3f8c2b5bab",
+      "size": 4360
+    },
+    {
+      "path": "books/03_escalationum/fonts/licenses/imfellenglishsc-OFL.txt",
+      "sha": "ffdcf33df73d774a320d071c1a7dbe3f8c2b5bab",
+      "size": 4360
+    },
+    {
+      "path": "books/03_escalationum/fonts/licenses/sueellenfrancisco-OFL.txt",
+      "sha": "710acf2b591c4b96f65ccda1a1ccfd466fcb8a3e",
+      "size": 4363
+    },
+    {
+      "path": "books/03_escalationum/fonts/static/EBGaramond-Italic400.ttf",
+      "sha": "9e2ccfb1df49224fdba3ca4ba2b8eb78838b1db3",
+      "size": 463492
+    },
+    {
+      "path": "books/03_escalationum/fonts/static/EBGaramond-Regular400.ttf",
+      "sha": "ac096d6334bb7f18db723d167feec981abbb08ee",
+      "size": 518872
+    },
+    {
+      "path": "books/03_escalationum/generator/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "books/03_escalationum/generator/art.py",
+      "sha": "8babec1ef8fb08716e85db75a1c9f5ac9e6971a7",
+      "size": 16264
+    },
+    {
+      "path": "books/03_escalationum/generator/build.py",
+      "sha": "2aafbae37c901739619d4783ff7b6013476b62a5",
+      "size": 16866
+    },
+    {
+      "path": "books/03_escalationum/generator/core.py",
+      "sha": "9a1068bf73bc9ee2c5651421075e03e48142ff5c",
+      "size": 12271
+    },
+    {
+      "path": "books/03_escalationum/generator/marks.py",
+      "sha": "c238e34bd79fae3ee76e44bcd101dbaeef3a7c7e",
+      "size": 24950
+    },
+    {
+      "path": "books/03_escalationum/generator/reachability.py",
+      "sha": "d8427d1d2c47c81f364279eb40fc97efe272a28b",
+      "size": 4778
+    },
+    {
+      "path": "books/03_escalationum/generator/tx.py",
+      "sha": "2162ee0c4cb7e12143b5a1b23e1e92aee0fc3a7c",
+      "size": 4698
+    },
+    {
+      "path": "books/03_escalationum/illustrated/build.py",
+      "sha": "fc19186a45f2f6cbfcd28dcc76a2062d4bf72b93",
+      "size": 18492
+    },
+    {
+      "path": "books/03_escalationum/manuscript/catalogue.json",
+      "sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "size": 40139
+    },
+    {
+      "path": "books/03_escalationum/requirements-lock.txt",
+      "sha": "a6efc38a6044ac2bf80d399043513b02460e371e",
+      "size": 217
+    },
+    {
+      "path": "books/03_escalationum/tests/test_book.py",
+      "sha": "6a8d34f837df4771b404a04fac62f502c75a98e1",
+      "size": 7081
+    },
+    {
+      "path": "books/04_graduum/build_book.py",
+      "sha": "bb8bd158b165723831eb88e65a68fb7a9b8f3424",
+      "size": 13458
+    },
+    {
+      "path": "books/04_graduum/illustrated/build.py",
+      "sha": "c151e8ef45ec175a2041cf4a810e662d947626f6",
+      "size": 6810
+    },
+    {
+      "path": "books/04_graduum/illustrated/captions.json",
+      "sha": "5385b67c7f06c652e24010a8da7addfed99f53bc",
+      "size": 4733
+    },
+    {
+      "path": "books/04_graduum/illustrated/plates.py",
+      "sha": "1bbc019da576f71f90dc2ce3a76f790ae686081b",
+      "size": 44459
+    },
+    {
+      "path": "books/04_graduum/manuscript/README.md",
+      "sha": "1069997219e21d3d4b324a6bda88027e52ac8479",
+      "size": 1333
+    },
+    {
+      "path": "books/04_graduum/manuscript/book.json",
+      "sha": "960a8ba0fd91d50bf661ca7b9aa85b2d05d8140d",
+      "size": 40658
+    },
+    {
+      "path": "books/04_graduum/manuscript/make_book.py",
+      "sha": "c77c1960083b1e710eb2176df1bd2de11cb79551",
+      "size": 43057
+    },
+    {
+      "path": "books/04_graduum/manuscript/reading-edition.md",
+      "sha": "f4d196226db686ec472a0922ae1f94d767f55a0f",
+      "size": 36981
+    },
+    {
+      "path": "books/04_graduum/plates/i-native/tabula_i.py",
+      "sha": "6e51b540d4a9b10c66af89f6a7de5873595cfdcd",
+      "size": 4823
+    },
+    {
+      "path": "books/04_graduum/plates/ii-native/tabula_ii.py",
+      "sha": "f84b5888b594530a41961e3b4aa4ebd081b1877d",
+      "size": 8991
+    },
+    {
+      "path": "books/04_graduum/plates/iii-native/tabula_iii.py",
+      "sha": "bd6d1ab19e711c0ebc9f57c2d72cb014c6b1e2e6",
+      "size": 9117
+    },
+    {
+      "path": "books/04_graduum/plates/iv-native/tabula_iv.py",
+      "sha": "ebf6438a62ffa9490fa07465a8b2214c7efdd14a",
+      "size": 4943
+    },
+    {
+      "path": "books/04_graduum/plates/v-native/figure.py",
+      "sha": "cff926fc1aa8a3ae17bd1d373a333a3c148b3bbe",
+      "size": 10922
+    },
+    {
+      "path": "books/04_graduum/plates/v-native/tabula_v.py",
+      "sha": "65050a97a3bd848082d69f610722f7a4739fa305",
+      "size": 11350
+    },
+    {
+      "path": "books/04_graduum/plates/v-native/validate.py",
+      "sha": "9ac4bc6898719ef7ed7aa945b2cf5a66e29a6984",
+      "size": 6261
+    },
+    {
+      "path": "books/04_graduum/plates/vi-native/tabula_vi.py",
+      "sha": "3d7dcc0bda58cfa4e05700b9e67e734e887b75fa",
+      "size": 15855
+    },
+    {
+      "path": "books/04_graduum/plates/vi-native/validate.py",
+      "sha": "fb16720af0e256d1098726252557f8313db2f547",
+      "size": 6620
+    },
+    {
+      "path": "books/04_graduum/plates/vii-native/figures.py",
+      "sha": "fa415f9f8c73fd3c43528199b014cda90f993f54",
+      "size": 5907
+    },
+    {
+      "path": "books/04_graduum/plates/vii-native/tabula_vii.py",
+      "sha": "183e97dfd4264cd516c488a05190cf4d3ab4020a",
+      "size": 16093
+    },
+    {
+      "path": "books/04_graduum/plates/vii-native/validate.py",
+      "sha": "f6e9a70b925778260b73d24808e1c49f9f1535ba",
+      "size": 6455
+    },
+    {
+      "path": "books/04_graduum/plates/viii-native/apparatus.py",
+      "sha": "2ad1fff410fa34cb6d9a114d03372c27c1104051",
+      "size": 17743
+    },
+    {
+      "path": "books/04_graduum/plates/viii-native/tabula_viii.py",
+      "sha": "481e6c482af792ebe6747e9d22c3627192971ad5",
+      "size": 16710
+    },
+    {
+      "path": "books/04_graduum/plates/viii-native/validate.py",
+      "sha": "942ab40c72ac0b8b2583683fec3da3042ec7550b",
+      "size": 6758
+    },
+    {
+      "path": "books/04_graduum/proofs/i-viii-gpt-reading/fonts/IMFellEnglish-Regular.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/04_graduum/proofs/i-viii-gpt-reading/fonts/OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/04_graduum/proofs/i-viii-gpt-reading/pixel-and-cipher-QA.json",
+      "sha": "31eed353ff8b8b444138e2b2b2177199ff55f571",
+      "size": 3424
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/build.py",
+      "sha": "6822a12d586a3a441d55b4216331d910c695a3a2",
+      "size": 20309
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/codec.py",
+      "sha": "25aee9aeec86cdd5cee8c9fdde6e274d0d43e939",
+      "size": 2910
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/fonts/EMSNixish.svg",
+      "sha": "6710f2b80ff6ce82fd1278c0258cf8a039b4f757",
+      "size": 56860
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/fonts/IBMPlexMono-Regular.ttf",
+      "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "size": 135580
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/fonts/IMFeENrm28P.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/fonts/licenses/ems-svg-fonts-OFL.txt",
+      "sha": "f1a20ac1a8ade9c6aa7dea55d39661b7e4e7624c",
+      "size": 4696
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/fonts/licenses/ibmplexmono-OFL.txt",
+      "sha": "c35c4c618fab33da8695177b3a6cefe0810b7b28",
+      "size": 4456
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/fonts/licenses/imfellenglish-OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/ix-square-table.svg",
+      "sha": "b4d3e4fdd8c9c567b729025cc0cfe3d30df545e4",
+      "size": 440979
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/lettering.py",
+      "sha": "51860ea3bf4b7f6308c34f56da88e7734d915150",
+      "size": 1772
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/manuscript.json",
+      "sha": "abc777828c1bf78a81b86392c3e139f55873a41b",
+      "size": 5644
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/vendor/core.py",
+      "sha": "9479a29a25b8fb4feb95597a660159f0a497dfee",
+      "size": 12270
+    },
+    {
+      "path": "books/04_graduum/proofs/ix-gpt/vendor/tx.py",
+      "sha": "06ba1ad76e469093e8c12678e404697565112453",
+      "size": 4696
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/build.py",
+      "sha": "daf0babe2bd7d2d3c41821b89035c2194c1b5557",
+      "size": 28891
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/ciphers.py",
+      "sha": "b5697710c3f50a964c51252aae134d21a08e7813",
+      "size": 2637
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/fonts/EMSNixish.svg",
+      "sha": "6710f2b80ff6ce82fd1278c0258cf8a039b4f757",
+      "size": 56860
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/fonts/IBMPlexMono-Regular.ttf",
+      "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "size": 135580
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/fonts/IMFeENrm28P.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/fonts/licenses/ems-svg-fonts-OFL.txt",
+      "sha": "f1a20ac1a8ade9c6aa7dea55d39661b7e4e7624c",
+      "size": 4696
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/fonts/licenses/ibmplexmono-OFL.txt",
+      "sha": "c35c4c618fab33da8695177b3a6cefe0810b7b28",
+      "size": 4456
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/fonts/licenses/imfellenglish-OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/ix_codec.py",
+      "sha": "25aee9aeec86cdd5cee8c9fdde6e274d0d43e939",
+      "size": 2910
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/lettering.py",
+      "sha": "51860ea3bf4b7f6308c34f56da88e7734d915150",
+      "size": 1772
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/manuscript.json",
+      "sha": "1908bf3c792ef5382316621c668677c425983d9e",
+      "size": 9622
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/office-litany.csv",
+      "sha": "242a774a9aa7d3dbd0ec0f11c561070d63afd62d",
+      "size": 308
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/office-litany.json",
+      "sha": "76b382eeff06a06a09cc6718719b85b434f3e231",
+      "size": 616
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/sheet.py",
+      "sha": "b315bf9661219dd8e485f18e9f2f89ca8ecda039",
+      "size": 4544
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/source/foras.svg",
+      "sha": "bd9249897697995300c9f21a51a1932051dba578",
+      "size": 170138
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/source/keeper-face-plot.svg",
+      "sha": "a4ecfae164903b9f740865640926af57083ddba0",
+      "size": 346341
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/vendor/core.py",
+      "sha": "9479a29a25b8fb4feb95597a660159f0a497dfee",
+      "size": 12270
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/vendor/tx.py",
+      "sha": "06ba1ad76e469093e8c12678e404697565112453",
+      "size": 4696
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/x-prayer-of-the-office.svg",
+      "sha": "6c3fd84321770d38a55c6a4fc6cd3d2fd9d2e78c",
+      "size": 426064
+    },
+    {
+      "path": "books/04_graduum/proofs/x-xi-v-gpt/xi-lifted-pen.svg",
+      "sha": "24b488c01159ce6225eb4fe83f51aab74dc7a640",
+      "size": 30855
+    },
+    {
+      "path": "books/04_graduum/reading/build.py",
+      "sha": "c47bb303ee319b35d4eeee6f9269aff1b5aa8a66",
+      "size": 2912
+    },
+    {
+      "path": "books/05_notoria/fields/physarum.py",
+      "sha": "8d5459b203eaa4125961185997654bc8ded73e5b",
+      "size": 9139
+    },
+    {
+      "path": "books/05_notoria/manuscript/EDITORIAL.md",
+      "sha": "5b4503e2ba4809b6ed81b64eda06e8f4f8220871",
+      "size": 8684
+    },
+    {
+      "path": "books/05_notoria/manuscript/README.md",
+      "sha": "57fbc73797cadc769305c14ebcd9c596d91cfe93",
+      "size": 2912
+    },
+    {
+      "path": "books/05_notoria/manuscript/check_math.py",
+      "sha": "934a3dadd5694a080c33d52dd8b8013d439e5e91",
+      "size": 1680
+    },
+    {
+      "path": "books/05_notoria/manuscript/make_book.py",
+      "sha": "87cc66efd73242202735182dec7c8bcfd2f12d27",
+      "size": 18429
+    },
+    {
+      "path": "books/05_notoria/manuscript/reading-edition.md",
+      "sha": "8ca0d2b5d930c6fe05937819377e9ce1f22a978e",
+      "size": 41892
+    },
+    {
+      "path": "books/05_notoria/plates/notae.py",
+      "sha": "243aa35d461ab52b77176f883e0278bd44e36957",
+      "size": 33091
+    },
+    {
+      "path": "books/05_notoria/plates/validate.py",
+      "sha": "2001a494c5cecbecde6a2f9169173442092a20bd",
+      "size": 2222
+    },
+    {
+      "path": "books/05_notoria/reading/build.py",
+      "sha": "f52eb80f93482f60cdc57d372d04c6367c4572f5",
+      "size": 3005
+    },
+    {
+      "path": "books/06_tarot/book/make_book.py",
+      "sha": "30241556eefc3cc5d64a28f1b88828ed5ea5ce51",
+      "size": 23403
+    },
+    {
+      "path": "books/06_tarot/book/validate_book.py",
+      "sha": "3b1c249d82c053d8782c19fe2afd44b0cb94f225",
+      "size": 8216
+    },
+    {
+      "path": "books/06_tarot/cups/art/01-ace-of-cups-v01.png",
+      "sha": "8956b38c28771e6966cdef6c3ccb3085daae390c",
+      "size": 1992612
+    },
+    {
+      "path": "books/06_tarot/cups/art/02-two-of-cups-v01.png",
+      "sha": "4668889de0ec9cd362ccfc13c8f1f62c092888a4",
+      "size": 2460234
+    },
+    {
+      "path": "books/06_tarot/cups/art/03-three-of-cups-v01.png",
+      "sha": "539991a5322101b40470bc86f7ae13e780184153",
+      "size": 2806900
+    },
+    {
+      "path": "books/06_tarot/cups/art/04-four-of-cups-v01.png",
+      "sha": "6fc05372359a231343727f93ce037af64e6c4778",
+      "size": 2467016
+    },
+    {
+      "path": "books/06_tarot/cups/art/05-five-of-cups-v01.png",
+      "sha": "dc62cfdb78dec3a0b49860e6916c0fd26c62b7aa",
+      "size": 2450136
+    },
+    {
+      "path": "books/06_tarot/cups/art/06-six-of-cups-v01.png",
+      "sha": "8cb64eb713006c8a43ca5ed0963761adcd97a538",
+      "size": 2696365
+    },
+    {
+      "path": "books/06_tarot/cups/art/07-seven-of-cups-v01.png",
+      "sha": "73cb30a80fc9621bca2727e41aab0d6f052070bc",
+      "size": 2231397
+    },
+    {
+      "path": "books/06_tarot/cups/art/08-eight-of-cups-v01.png",
+      "sha": "5ddbabc302eacb43118ffb9de00349ba4bf149f9",
+      "size": 2040019
+    },
+    {
+      "path": "books/06_tarot/cups/art/09-nine-of-cups-v01.png",
+      "sha": "af1575c60e596398a6c1d42a0a9c613f3325257a",
+      "size": 2619969
+    },
+    {
+      "path": "books/06_tarot/cups/art/10-ten-of-cups-v02.png",
+      "sha": "dbcf6961f37d18f66592dc06a6e49a6b8b89de88",
+      "size": 2423752
+    },
+    {
+      "path": "books/06_tarot/cups/art/11-page-of-cups-v01.png",
+      "sha": "deee83a9c5c82dd894951e3c78cce3a4a1584de0",
+      "size": 2308949
+    },
+    {
+      "path": "books/06_tarot/cups/art/12-knight-of-cups-v01.png",
+      "sha": "f6eed55448ec501b391149c4de61fd9909e83bed",
+      "size": 2712304
+    },
+    {
+      "path": "books/06_tarot/cups/art/13-queen-of-cups-v01.png",
+      "sha": "7ca5d510ec7d512834ae145e8409267768cf17fb",
+      "size": 2634286
+    },
+    {
+      "path": "books/06_tarot/cups/art/14-king-of-cups-v01.png",
+      "sha": "773adf6f8b471ee4be22e728b240de392cac4903",
+      "size": 2616569
+    },
+    {
+      "path": "books/06_tarot/cups/cards/01-ace-of-cups.png",
+      "sha": "9a912ab3e9bfa6244d5f5d611e2b0721fce0dc84",
+      "size": 849395
+    },
+    {
+      "path": "books/06_tarot/cups/cards/02-two-of-cups.png",
+      "sha": "1878a12cb714b1a92c0b5f7e182cc1cd8bb515c7",
+      "size": 1092704
+    },
+    {
+      "path": "books/06_tarot/cups/cards/03-three-of-cups.png",
+      "sha": "bdb03b8656ca737fb090b33bde6f5c68f4ec10b5",
+      "size": 1221047
+    },
+    {
+      "path": "books/06_tarot/cups/cards/04-four-of-cups.png",
+      "sha": "829e90f039b2a27068a80b49f6635f5767dd957c",
+      "size": 1058236
+    },
+    {
+      "path": "books/06_tarot/cups/cards/05-five-of-cups.png",
+      "sha": "0c9a4734eaa2dd87f9629b4907aa48ca4f6c6a5e",
+      "size": 1048129
+    },
+    {
+      "path": "books/06_tarot/cups/cards/06-six-of-cups.png",
+      "sha": "67641dd771ad4e3f8f696f62cb91771fa1965519",
+      "size": 1186077
+    },
+    {
+      "path": "books/06_tarot/cups/cards/07-seven-of-cups.png",
+      "sha": "1063606a2da1a1a04000f58662bdcfd72ab23662",
+      "size": 978140
+    },
+    {
+      "path": "books/06_tarot/cups/cards/08-eight-of-cups.png",
+      "sha": "99d8629ac4116962aecdfde0837558f2c4311b4e",
+      "size": 876319
+    },
+    {
+      "path": "books/06_tarot/cups/cards/09-nine-of-cups.png",
+      "sha": "40a4ad3b85f474db41b877418cc942315ddfaabf",
+      "size": 1140783
+    },
+    {
+      "path": "books/06_tarot/cups/cards/10-ten-of-cups.png",
+      "sha": "f1d69fdd3580e8b1098a8d5f4386f2abea520943",
+      "size": 1096764
+    },
+    {
+      "path": "books/06_tarot/cups/cards/11-page-of-cups.png",
+      "sha": "23c242242dfe000fb171f6bd5d78e15b8a6b1a1f",
+      "size": 1018334
+    },
+    {
+      "path": "books/06_tarot/cups/cards/12-knight-of-cups.png",
+      "sha": "088c33d2ea81b6e750525ab32d888676fbddefaf",
+      "size": 1147930
+    },
+    {
+      "path": "books/06_tarot/cups/cards/13-queen-of-cups.png",
+      "sha": "d01265d99b299cf7b5be8dfc6116e4e8250aa7c1",
+      "size": 1142466
+    },
+    {
+      "path": "books/06_tarot/cups/cards/14-king-of-cups.png",
+      "sha": "88b566b1ac2cd7bdd45da019188f97f6da2f9eba",
+      "size": 1147644
+    },
+    {
+      "path": "books/06_tarot/cups/cards/card-back.png",
+      "sha": "db702405b8ebe48caf0035523f9fc178fbb85d88",
+      "size": 70190
+    },
+    {
+      "path": "books/06_tarot/cups/cups.json",
+      "sha": "aacd22298793aa085d8dc786e3111880b4b8dd77",
+      "size": 116452
+    },
+    {
+      "path": "books/06_tarot/cups/fonts/IMFellEnglish-Regular.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/06_tarot/cups/fonts/LICENSE-NOTICE.txt",
+      "sha": "a6a9b55b526d31a541238335eebbe5985353fea6",
+      "size": 249
+    },
+    {
+      "path": "books/06_tarot/cups/fonts/OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/06_tarot/extras/choronzon/choronzon-the-dispersal-v01.png",
+      "sha": "6ed80d6ad203443c7127bcb6caeb9c1c814fd268",
+      "size": 2392996
+    },
+    {
+      "path": "books/06_tarot/extras/choronzon/choronzon-the-dispersal-v02.png",
+      "sha": "6756b347f0d95b253d6751d5540c06e19d4f75d3",
+      "size": 2333794
+    },
+    {
+      "path": "books/06_tarot/extras/choronzon/choronzon.json",
+      "sha": "005369ff0073fbae7b025194a83273025b7d8a43",
+      "size": 7476
+    },
+    {
+      "path": "books/06_tarot/inventory.json",
+      "sha": "6006d779925d2370d87f258559733874ad6ef887",
+      "size": 48664
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/15-the-devil-native.png",
+      "sha": "8c86d382f7c5f684f2c52339944ed47610c2b730",
+      "size": 2676582
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/16-the-tower-native.png",
+      "sha": "72f8412d827463411e10893998e7729475ec619e",
+      "size": 2212789
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/17-the-star-native.png",
+      "sha": "e3729a1ddf7716d917dff9fd85486b81e7fee44c",
+      "size": 2230544
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/19-the-sun-native.png",
+      "sha": "5fcf68b634cecb91fa1679b125661f07a6507973",
+      "size": 2436422
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/bael-raster-reference-v03.png",
+      "sha": "de2d17527c0b0e5caf51dbc39922afc4c05561db",
+      "size": 1718821
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/choraz-raster-reference-v02.png",
+      "sha": "16255b12e88b701acebd27845120dec0c62879ed",
+      "size": 2308644
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/cut-keeper-raster-reference-v01.png",
+      "sha": "5d7f68ed3fcdf58f171e7313032af29f4ba7ca1b",
+      "size": 2089436
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/fed-vessel-raster-reference-v01.png",
+      "sha": "060f1ffbf7e48b6b1bd8eee8874dbcfb48f980fb",
+      "size": 2067489
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/figure-beneath-cord-raster-reference-v01.png",
+      "sha": "083c67c161e99dcff11785feae849fd3d717c36d",
+      "size": 1962744
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/foras-raster-reference-v02.png",
+      "sha": "f092d6ff7681c3355416d0278f8bbfb58f825de4",
+      "size": 2008791
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/hora-and-tempus-raster-reference-v01.png",
+      "sha": "cbab052f9ae66210a2363ef8e0f6e405a638c04f",
+      "size": 2382793
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/house-kept-in-abeyance-raster-reference-v01.png",
+      "sha": "2a6073f07df6a05397be30b242f6ab7d976d3586",
+      "size": 2100325
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/keeper-of-intervals-original-raster-reference-v01.png",
+      "sha": "62b2009e76f5542bcf8568e05cff78c6377deb8b",
+      "size": 1923485
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/keeper-wearing-dial-raster-reference-v02.png",
+      "sha": "428c1d5659121f5b552be8bb4f58d27ee5b4f516",
+      "size": 2025901
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/measurer-of-absences-original-raster-reference-v01.png",
+      "sha": "37478feab2b33a21deb1b0172be95c5a57fc5c51",
+      "size": 2356456
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/open-inventory-raster-reference-v01.png",
+      "sha": "1660a9e1d83d08f3bbf2e4c484a739b74a9cfb94",
+      "size": 2334844
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/orobas-raster-reference-v01.png",
+      "sha": "d77b9d5908d3a48c45b3dfd7ce9f19030f4b3ace",
+      "size": 2068247
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/redacth-raster-reference-v01.png",
+      "sha": "a3729eb256fd52b7b5eb680179499099ba5476aa",
+      "size": 2124274
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/scriptorax-raster-reference-v01.png",
+      "sha": "90404b41d1917f0521bb6f9c776e4fe44edda058",
+      "size": 2427734
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/second-neck-raster-reference-v01.png",
+      "sha": "029b89248689597c6ee6b53aa0fc6089e0ed5291",
+      "size": 1601014
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/severion-raster-reference-v01.png",
+      "sha": "b0210f0a6cc0f5a672d5528523df8b61acd47a93",
+      "size": 1838770
+    },
+    {
+      "path": "books/06_tarot/major-arcana/art/twin-register-raster-reference-v01.png",
+      "sha": "fdfac82f077334a148a211292f6858758875eff6",
+      "size": 2491163
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/00-the-open-inventory.png",
+      "sha": "71e9bda314182348555e102a3fa60d432ba4be2b",
+      "size": 800886
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/01-the-operator.png",
+      "sha": "4347e1ea8757beb465f67967f0411594eaa208d0",
+      "size": 886763
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/02-the-veiled-record.png",
+      "sha": "7193117662b7ad38376a269b5d2a51820ae2b768",
+      "size": 921290
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/03-the-fed-vessel.png",
+      "sha": "e7480c79e5f0b54fe8bca7a38ecd41338c125b6f",
+      "size": 653860
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/04-the-empty-seat.png",
+      "sha": "c228e52447f60a3346327e4d348cc56e02731ff4",
+      "size": 746700
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/05-the-runbook.png",
+      "sha": "b90f158572470d520c34dda83f174c5e3193533b",
+      "size": 1074925
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/06-the-two-watchmakers.png",
+      "sha": "a11ce3fec4f81bb78c74029c0b7b5db1503160be",
+      "size": 1063958
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/07-the-divided-horse.png",
+      "sha": "11ddb67d1f14a64ac68e5b014b1a7f04c299409b",
+      "size": 914758
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/08-the-unused-hand.png",
+      "sha": "adb555b3aa58925e33f521c549320c8d73f0ba43",
+      "size": 880187
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/09-the-measurer-of-absences.png",
+      "sha": "ee5bc087171e34627a706f543b7ad7c0416e6018",
+      "size": 1034038
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/10-the-keeper-of-intervals.png",
+      "sha": "231ba48c0a9c4d55b7800540c05f81381f3d115c",
+      "size": 927324
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/11-the-balance.png",
+      "sha": "ceb97d29e6afb40379fd0968c16c1751a2cbe233",
+      "size": 757245
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/12-the-house-in-abeyance.png",
+      "sha": "1aa7481c2813c71969a94c17df762e54ee67be16",
+      "size": 715160
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/13-the-cut.png",
+      "sha": "05a16a14e416a8496039b08223827fdf10d8fea3",
+      "size": 949095
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/14-the-second-neck.png",
+      "sha": "a35af7a6b5584d27d05bc39a0c482169b97c8b21",
+      "size": 527836
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/15-the-bond.png",
+      "sha": "09e8e0c3cbba14ad266fda5beddfb61f37f217d1",
+      "size": 1184835
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/16-the-exposed-support.png",
+      "sha": "d6e6d768b2d92d6703ef861dda7f802f1409caea",
+      "size": 951864
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/17-the-renewal.png",
+      "sha": "9d79ad94614cc636693cb77154d0e54a602fc5fa",
+      "size": 956876
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/18-the-interval.png",
+      "sha": "f6942fef50b95e2f3334ca644e409029e2ecb569",
+      "size": 855594
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/19-the-visible-ground.png",
+      "sha": "283485a33a79561c007f50d0d4139ad68eb57e6d",
+      "size": 1043951
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/20-the-summons.png",
+      "sha": "94ef6638653e03f7bb590b8449e85a6a2463e48b",
+      "size": 1003796
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/21-the-twin-register.png",
+      "sha": "832112f5890253bf1d10eea3fded3fd50e78649e",
+      "size": 790580
+    },
+    {
+      "path": "books/06_tarot/major-arcana/cards/22-card-back.png",
+      "sha": "db702405b8ebe48caf0035523f9fc178fbb85d88",
+      "size": 70190
+    },
+    {
+      "path": "books/06_tarot/major-arcana/deck.json",
+      "sha": "513bb4982af8da2f3c274524542a621a6c30ceb4",
+      "size": 119916
+    },
+    {
+      "path": "books/06_tarot/major-arcana/fonts/IMFellEnglish-Regular.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/06_tarot/major-arcana/fonts/LICENSE-NOTICE.txt",
+      "sha": "a6a9b55b526d31a541238335eebbe5985353fea6",
+      "size": 249
+    },
+    {
+      "path": "books/06_tarot/major-arcana/fonts/OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/01-ace-of-pentacles-art-v01.png",
+      "sha": "b3720dbe8e2eef00e932623f1555cf7e6711a1a7",
+      "size": 1927681
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/02-two-of-pentacles-art-v01.png",
+      "sha": "bdb326d8093e2941f4d2371278db9fa0ea134c44",
+      "size": 2048131
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/03-three-of-pentacles-art-v01.png",
+      "sha": "2dfb44d60917b55444ca65808e8e2b59accb0ab9",
+      "size": 2438779
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/04-four-of-pentacles-art-v01.png",
+      "sha": "5e49e44876bd5d866ef606473ee8c747629e01d9",
+      "size": 2096112
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/05-five-of-pentacles-art-v01.png",
+      "sha": "a2ea47bd906f5e151996be849b8dca9b4dfdcce6",
+      "size": 1948130
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/06-six-of-pentacles-art-v01.png",
+      "sha": "27a853eaa2edcf30e6b2b4d0681d2253a1b0d26f",
+      "size": 2279319
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/07-seven-of-pentacles-art-v01.png",
+      "sha": "95e3e19934b078ef6276b78aed9bec8ded57f353",
+      "size": 2187547
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/08-eight-of-pentacles-art-v01.png",
+      "sha": "984f78f610bd3be03b3edf18219c43804c2632e6",
+      "size": 2432114
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/09-nine-of-pentacles-art-v01.png",
+      "sha": "dd24562c291b15f2bf1ceb038fae42ca8e501b43",
+      "size": 2361015
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/10-ten-of-pentacles-art-v01.png",
+      "sha": "27551da524748a410af903e525ee509ea54f8314",
+      "size": 2602641
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/11-page-of-pentacles-art-v01.png",
+      "sha": "5cfe91684a3a49356ad3d326cd4698924f1f07c0",
+      "size": 2012610
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/12-knight-of-pentacles-art-v01.png",
+      "sha": "8d549168cd62e5acfb96483363d5d28989f9f027",
+      "size": 2028978
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/13-queen-of-pentacles-art-v01.png",
+      "sha": "197be4630827389bc1d8277de606a010a76ab683",
+      "size": 1985651
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/art/14-king-of-pentacles-art-v01.png",
+      "sha": "3a34992376a48acf127693a69933c3419661e02c",
+      "size": 2347808
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/01-ace-of-pentacles.png",
+      "sha": "1d5ffc7a2e38169dd110e162a2e7e9ed95e50e59",
+      "size": 939808
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/02-two-of-pentacles.png",
+      "sha": "92316402128023aa7fcab47e8c6e5dde69f90d0d",
+      "size": 983043
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/03-three-of-pentacles.png",
+      "sha": "c0f030a5eefdc6cccc0c0029570740b066c06fb4",
+      "size": 1134100
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/04-four-of-pentacles.png",
+      "sha": "701d2ab0b8ad969d9b708c7f986b0e75a0214315",
+      "size": 1006179
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/05-five-of-pentacles.png",
+      "sha": "709448f36e29eec8002c993d422ec35fdb388c35",
+      "size": 926270
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/06-six-of-pentacles.png",
+      "sha": "6cb2db0a6086e53eec6728b1288f97e9ac9d4225",
+      "size": 1074025
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/07-seven-of-pentacles.png",
+      "sha": "33f1d240e50dd59f647f8c0645b9e3f248e1ead9",
+      "size": 1043943
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/08-eight-of-pentacles.png",
+      "sha": "bbdf1e88fa25a2c69c07488181709fbed6510aa3",
+      "size": 1133650
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/09-nine-of-pentacles.png",
+      "sha": "6d4c07660ae1e77ab59b41ebe8f752537301bcd7",
+      "size": 1113124
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/10-ten-of-pentacles.png",
+      "sha": "658234d1e773d79bd7a2a91e7d2d578f6b8485f1",
+      "size": 1208494
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/11-page-of-pentacles.png",
+      "sha": "c06a33494f869c453fdf97382b64d883cccb8ef9",
+      "size": 950444
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/12-knight-of-pentacles.png",
+      "sha": "6589dd275023d7ed7c9d5e200cb60efabcad7f7a",
+      "size": 943043
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/13-queen-of-pentacles.png",
+      "sha": "8fbf49bdb6895baf54bd3a05a9c472dca2cc7a83",
+      "size": 952183
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/14-king-of-pentacles.png",
+      "sha": "c64c0ffe28910a65416e81496f53de23b34aa591",
+      "size": 1094842
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/cards/card-back.png",
+      "sha": "fc0f4946d7b92cbb89e34d3da902e69269a6af65",
+      "size": 80243
+    },
+    {
+      "path": "books/06_tarot/pentacles/delivered/pentacles-delivered.json",
+      "sha": "b2da33d2a6e69ea9a788aee2a7af6de8a818ed1b",
+      "size": 13055
+    },
+    {
+      "path": "books/06_tarot/swords/art/01-ace-of-swords-v01.png",
+      "sha": "37f0f41a572cf315fa7c160686694553f7bf8344",
+      "size": 1530927
+    },
+    {
+      "path": "books/06_tarot/swords/art/02-two-of-swords-v01.png",
+      "sha": "dff5d29c2c091c98f363af8b7a2717aeac44de10",
+      "size": 2235634
+    },
+    {
+      "path": "books/06_tarot/swords/art/03-three-of-swords-v03.png",
+      "sha": "e8647250bc4337cae495105b75daf48d627828a7",
+      "size": 2105454
+    },
+    {
+      "path": "books/06_tarot/swords/art/04-four-of-swords-v01.png",
+      "sha": "e25e23ded1e232462a75cd720db9f173d4c61e4b",
+      "size": 1810083
+    },
+    {
+      "path": "books/06_tarot/swords/art/05-five-of-swords-v02.png",
+      "sha": "fb982a8499e6f46527be8ddc0dd3428d9c674ab6",
+      "size": 2463966
+    },
+    {
+      "path": "books/06_tarot/swords/art/06-six-of-swords-v02.png",
+      "sha": "a179dac03336e32833c48374bbae4385c345af47",
+      "size": 2163438
+    },
+    {
+      "path": "books/06_tarot/swords/art/07-seven-of-swords-v02.png",
+      "sha": "03f01eb6228c438b79903deb3b667845f704fff5",
+      "size": 2193243
+    },
+    {
+      "path": "books/06_tarot/swords/art/08-eight-of-swords-v01.png",
+      "sha": "03371f6f959c339e1e496aa6380d3fce510060b3",
+      "size": 2040815
+    },
+    {
+      "path": "books/06_tarot/swords/art/09-nine-of-swords-v02.png",
+      "sha": "21796fa08032a959b2e1061fb74aad2bf207560a",
+      "size": 2290235
+    },
+    {
+      "path": "books/06_tarot/swords/art/10-ten-of-swords-v03.png",
+      "sha": "0ebd98d418a784f1f3e96e2ce89f2866949175e5",
+      "size": 2173992
+    },
+    {
+      "path": "books/06_tarot/swords/art/11-page-of-swords-v01.png",
+      "sha": "425ab7d67f67629c8f7d62a587430041bf5ef148",
+      "size": 2013227
+    },
+    {
+      "path": "books/06_tarot/swords/art/12-knight-of-swords-v01.png",
+      "sha": "c604b899850541ffb2f31cff7e5741f70dbf3e73",
+      "size": 2600097
+    },
+    {
+      "path": "books/06_tarot/swords/art/13-queen-of-swords-v01.png",
+      "sha": "112320b78e715228b05841890f58aadbe5a3f6ff",
+      "size": 2376718
+    },
+    {
+      "path": "books/06_tarot/swords/art/14-king-of-swords-v01.png",
+      "sha": "5737757fdef0b5c4bd5c1a53dcbcd3995cc2080f",
+      "size": 2348892
+    },
+    {
+      "path": "books/06_tarot/swords/cards/01-ace-of-swords.png",
+      "sha": "cce1ff1734c546ae6751fe872ae5d91e398f2711",
+      "size": 699531
+    },
+    {
+      "path": "books/06_tarot/swords/cards/02-two-of-swords.png",
+      "sha": "2d79bfe6c4abfe26615084d423d64c088dddaaeb",
+      "size": 968748
+    },
+    {
+      "path": "books/06_tarot/swords/cards/03-three-of-swords.png",
+      "sha": "7b87fd9ae1436f5fc5fd467026c7953140f5dfdc",
+      "size": 926977
+    },
+    {
+      "path": "books/06_tarot/swords/cards/04-four-of-swords.png",
+      "sha": "a37c1199af155ab2dc28ab72c00ff4034330d71a",
+      "size": 778043
+    },
+    {
+      "path": "books/06_tarot/swords/cards/05-five-of-swords.png",
+      "sha": "329483010cc476fd5ac73dca7d49eaa365d38c35",
+      "size": 1102751
+    },
+    {
+      "path": "books/06_tarot/swords/cards/06-six-of-swords.png",
+      "sha": "0d0060337d88e4b72ce776237eeb3a5cb6c0cdd5",
+      "size": 927218
+    },
+    {
+      "path": "books/06_tarot/swords/cards/07-seven-of-swords.png",
+      "sha": "c7842cdc1d7885baffe0367a31ad00ee6b25178d",
+      "size": 1006064
+    },
+    {
+      "path": "books/06_tarot/swords/cards/08-eight-of-swords.png",
+      "sha": "9adc235cfc79cb187166f7a32f9463ad4bb514f1",
+      "size": 961112
+    },
+    {
+      "path": "books/06_tarot/swords/cards/09-nine-of-swords.png",
+      "sha": "e63a657050e5c45f63009f67c02d7cf9f8342240",
+      "size": 1007563
+    },
+    {
+      "path": "books/06_tarot/swords/cards/10-ten-of-swords.png",
+      "sha": "4d677845a5893b555b573213d03fe31934866885",
+      "size": 966354
+    },
+    {
+      "path": "books/06_tarot/swords/cards/11-page-of-swords.png",
+      "sha": "45cb3fee411f959f3c19444b285b3754befe4fdf",
+      "size": 875178
+    },
+    {
+      "path": "books/06_tarot/swords/cards/12-knight-of-swords.png",
+      "sha": "d40ad283d9f3f8d390e485ab06095c8b25df56bc",
+      "size": 1078993
+    },
+    {
+      "path": "books/06_tarot/swords/cards/13-queen-of-swords.png",
+      "sha": "9094f537b1f616f3166aa61e0c958585f7c0bdcb",
+      "size": 1032089
+    },
+    {
+      "path": "books/06_tarot/swords/cards/14-king-of-swords.png",
+      "sha": "bf3a658a1ade681b693ef047de19e971964fcd75",
+      "size": 1033459
+    },
+    {
+      "path": "books/06_tarot/swords/cards/card-back.png",
+      "sha": "db702405b8ebe48caf0035523f9fc178fbb85d88",
+      "size": 70190
+    },
+    {
+      "path": "books/06_tarot/swords/fonts/IMFellEnglish-Regular.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "books/06_tarot/swords/fonts/LICENSE-NOTICE.txt",
+      "sha": "a6a9b55b526d31a541238335eebbe5985353fea6",
+      "size": 249
+    },
+    {
+      "path": "books/06_tarot/swords/fonts/OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "books/06_tarot/swords/swords.json",
+      "sha": "a80b23007c682a4cd85057237a832c3581e0fab2",
+      "size": 157220
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/01-ace-of-wands-art-v01.png",
+      "sha": "5b262a6881447aa628fe1fbb410b93a34dd4e9a3",
+      "size": 1955969
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/02-two-of-wands-art-v01.png",
+      "sha": "402702f778949f6b93e168af3d982b75bcfc19ba",
+      "size": 1957211
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/03-three-of-wands-art-v01.png",
+      "sha": "416092290d3b2fa272081725cadccae473ee56c1",
+      "size": 2450146
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/04-four-of-wands-art-v01.png",
+      "sha": "cc183106f33659d9ccb2ef331e5a1fc1ab7c5bd9",
+      "size": 2332879
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/05-five-of-wands-art-v01.png",
+      "sha": "d4d49a9a25f0d0a3d1e78bcfe90e93058fbb9b57",
+      "size": 2051545
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/06-six-of-wands-art-v01.png",
+      "sha": "ed2ddca7187dc295e0adb68433c50bb14826c255",
+      "size": 2558415
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/07-seven-of-wands-art-v01.png",
+      "sha": "759940350e2bbf4344b9d3ffb626acd60068f862",
+      "size": 2133813
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/08-eight-of-wands-art-v01.png",
+      "sha": "e714587858ce668de9f41572fc0f7fbdbe162328",
+      "size": 1896868
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/09-nine-of-wands-art-v01.png",
+      "sha": "878d00beb9dfe569f17a79bbb0de68667574fbf9",
+      "size": 2116822
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/10-ten-of-wands-art-v01.png",
+      "sha": "c27cad1c6a7617b69408054c1537baf8cede95d0",
+      "size": 2194621
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/11-page-of-wands-art-v01.png",
+      "sha": "bb5d226eed490c1cc04186c2d4e66c875953fe06",
+      "size": 1867269
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/12-knight-of-wands-art-v01.png",
+      "sha": "d0c111443c01277641275ec6483b1a8aa685d95e",
+      "size": 2080270
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/13-queen-of-wands-art-v01.png",
+      "sha": "e6f6b9af3b8701ebfc6fb6196edf3fecc79524db",
+      "size": 2179371
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/art/14-king-of-wands-art-v01.png",
+      "sha": "5859b4aaa43197530222400b73d4c4fdd7ccdcc8",
+      "size": 2397647
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/01-ace-of-wands.png",
+      "sha": "41f1e65d5578329205969f533822a0d7f3f72c42",
+      "size": 935986
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/02-two-of-wands.png",
+      "sha": "f49a1375257e876a2848b81db3cc65108175c248",
+      "size": 921984
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/03-three-of-wands.png",
+      "sha": "12bd5138c3ac3d4d7e4ddb43ea53720579bc353f",
+      "size": 1139931
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/04-four-of-wands.png",
+      "sha": "1e7426697251c2be6d0e31c9fdac62138a6d429c",
+      "size": 1069173
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/05-five-of-wands.png",
+      "sha": "8c83e04cd926c2eb25267e160fd54a978779d872",
+      "size": 976171
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/06-six-of-wands.png",
+      "sha": "d701815f5ea566208156bccd54447dc7d4cbad07",
+      "size": 1186497
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/07-seven-of-wands.png",
+      "sha": "f1e0b74527ceea975309998a3c193fb27b9102ba",
+      "size": 1001924
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/08-eight-of-wands.png",
+      "sha": "e5b17332543bb860d9481c1f872b9f80f94f1ce3",
+      "size": 907456
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/09-nine-of-wands.png",
+      "sha": "4371bb373b3b1db2b4fc6abcbb1606a68c8cc5de",
+      "size": 982530
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/10-ten-of-wands.png",
+      "sha": "9f4b6850fd7b07fa2914fdd70d4a2a8359350ba9",
+      "size": 1019758
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/11-page-of-wands.png",
+      "sha": "d827ef5636448029b8db93501043ca5d411f3278",
+      "size": 918599
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/12-knight-of-wands.png",
+      "sha": "2f2f7d1a69798d4917ae4e73384bf850c2b93079",
+      "size": 975945
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/13-queen-of-wands.png",
+      "sha": "a205a74e6a1dc18691dc7ffb9da7ae22b1d420f3",
+      "size": 1042122
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/14-king-of-wands.png",
+      "sha": "746d195d68ae2248f70c0af2bb0fd3c5265b5969",
+      "size": 1112064
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/cards/card-back.png",
+      "sha": "fc0f4946d7b92cbb89e34d3da902e69269a6af65",
+      "size": 80243
+    },
+    {
+      "path": "books/06_tarot/wands/delivered/wands-delivered.json",
+      "sha": "434363017d45b394f571f514411dd0d98e4538d1",
+      "size": 12718
+    },
+    {
+      "path": "books/06_tarot/wands/draft/wands.json",
+      "sha": "2cffa6cdaecfbcbf7e380e285406fe1613d1b4b4",
+      "size": 31178
+    },
+    {
+      "path": "books/07_septimus/assets/figures.json",
+      "sha": "a086bda5f8d865c036ea55822877209bb5e220c3",
+      "size": 1138
+    },
+    {
+      "path": "books/07_septimus/assets/the-empty-cabinet.jpg",
+      "sha": "004ea70975ad0b8ddb4e7f64da86efd83e71d615",
+      "size": 965065
+    },
+    {
+      "path": "books/07_septimus/assets/the-open-workshop.jpg",
+      "sha": "f0adac09d5a21f32798035553aa28770d6a652a0",
+      "size": 908383
+    },
+    {
+      "path": "books/07_septimus/build.py",
+      "sha": "ffd635d720eff00f33edcf27c92c63e8b0ee038a",
+      "size": 16569
+    },
+    {
+      "path": "books/07_septimus/clausa/README.md",
+      "sha": "e2e0cbba469133adae44f4c57423fa7a21f7ae93",
+      "size": 2691
+    },
+    {
+      "path": "books/07_septimus/clausa/REGULA.md",
+      "sha": "cb138da781bef2440d7399a9c1125ca4b64e05f7",
+      "size": 7319
+    },
+    {
+      "path": "books/07_septimus/clausa/TABULA.md",
+      "sha": "2959ef8ee6283a5334baff5a89801518015b842d",
+      "size": 1937
+    },
+    {
+      "path": "books/07_septimus/clausa/build.py",
+      "sha": "9f5a35585babbe9c3d93d06746fb5ff7e47afd50",
+      "size": 9696
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-1.svg",
+      "sha": "30d7a83fb56233477b18e0912affe9153e33df6c",
+      "size": 820579
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-2.svg",
+      "sha": "c21b0c94d40e5c2251e56f406d67aef027c12d34",
+      "size": 819682
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-3.svg",
+      "sha": "7cbeb6df2845c9026a9ec72a60206a64e68315bc",
+      "size": 819065
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-4.svg",
+      "sha": "21742b963e9309d0203409bf7c4d336d879541bc",
+      "size": 819550
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-5.svg",
+      "sha": "897d8f080607d76329ae4beb50d937cb828db831",
+      "size": 823647
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-6.svg",
+      "sha": "e5b016eb1fca727cf233f4fd2bbc9ace347004f7",
+      "size": 819269
+    },
+    {
+      "path": "books/07_septimus/clausa/plates/nota-clausa-7.svg",
+      "sha": "a257ca67eba534da0e64ab90ebb8764e478064fb",
+      "size": 825760
+    },
+    {
+      "path": "books/07_septimus/clausa/validate.py",
+      "sha": "ac4ee0dfd13a19718668321f3938238d2184bc30",
+      "size": 3279
+    },
+    {
+      "path": "books/07_septimus/manuscript/clavis.md",
+      "sha": "b47906e62c7866190ba087b1e704730f2c1c11ad",
+      "size": 9778
+    },
+    {
+      "path": "books/07_septimus/manuscript/de-vinculis.md",
+      "sha": "448d24a74785a344a32634d5e2c1d9b526ea41e9",
+      "size": 36557
+    },
+    {
+      "path": "books/07_septimus/manuscript/references.json",
+      "sha": "098f0e7e3d68ca8ec73c01acac9194b410f2b786",
+      "size": 11266
+    },
+    {
+      "path": "books/07_septimus/semiphoras/semiphoras.py",
+      "sha": "dc7e251e0a38ed1c296e522171c70d45cfd8717a",
+      "size": 4456
+    },
+    {
+      "path": "books/07_septimus/tests/test_semiphoras.py",
+      "sha": "19f78f5c0f4b7470b6395a26e618be825a8ffc2e",
+      "size": 1462
+    },
+    {
+      "path": "books/07_septimus/validate.py",
+      "sha": "98228d69b7e1830d2919a0becf68eae1cd36def3",
+      "size": 4612
+    },
+    {
+      "path": "common/fonts/Cedarville-Cursive.ttf",
+      "sha": "61a7b8273bfee98693103a588a0c66ec73d3ebc2",
+      "size": 69436
+    },
+    {
+      "path": "common/fonts/CormorantGaramond-Italic[wght].ttf",
+      "sha": "0d914e7663b7a1429d06ec60a5c5bb026031a2ef",
+      "size": 715644
+    },
+    {
+      "path": "common/fonts/CormorantGaramond[wght].ttf",
+      "sha": "d992a83ce525c330fad3a19087746bcb2dc038ee",
+      "size": 1195560
+    },
+    {
+      "path": "common/fonts/CormorantSC-Medium.ttf",
+      "sha": "17eed98943cf625359680c08c190598370f669ac",
+      "size": 762320
+    },
+    {
+      "path": "common/fonts/CutiveMono-Regular.ttf",
+      "sha": "dd7c2474d901c22fa035c586c9a92d1b9e51b8a8",
+      "size": 80004
+    },
+    {
+      "path": "common/fonts/DMSerifDisplay-Italic.ttf",
+      "sha": "5369414a2df59bf462a88aa0f04a81ff18f1eb80",
+      "size": 71208
+    },
+    {
+      "path": "common/fonts/DMSerifDisplay-Regular.ttf",
+      "sha": "bc5ed0cea657f264ea9c2a11a54da62ed619c5da",
+      "size": 76580
+    },
+    {
+      "path": "common/fonts/EBGaramond-Italic[wght].ttf",
+      "sha": "f9ad996001c8ee72fd43b4b8e67c8924b7f615b1",
+      "size": 754468
+    },
+    {
+      "path": "common/fonts/EBGaramond[wght].ttf",
+      "sha": "52d34b86ec20977f222ce37e8158e6b3002c0a31",
+      "size": 851176
+    },
+    {
+      "path": "common/fonts/EMSNixish.svg",
+      "sha": "6710f2b80ff6ce82fd1278c0258cf8a039b4f757",
+      "size": 56860
+    },
+    {
+      "path": "common/fonts/HomemadeApple-Regular.ttf",
+      "sha": "bea3c3094de8340f5287e40ef84fe7f670e06f2e",
+      "size": 110004
+    },
+    {
+      "path": "common/fonts/IBMPlexMono-Italic.ttf",
+      "sha": "d7f69134614ebdcaa10ebd36b0be1a44a035e157",
+      "size": 143920
+    },
+    {
+      "path": "common/fonts/IBMPlexMono-Medium.ttf",
+      "sha": "33c546f68b6007a45a3f10e845523abb2db25399",
+      "size": 136704
+    },
+    {
+      "path": "common/fonts/IBMPlexMono-Regular.ttf",
+      "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "size": 135580
+    },
+    {
+      "path": "common/fonts/IMFeENit28P.ttf",
+      "sha": "d9afa7e097d525cefa294f2575efc4bef66e1dda",
+      "size": 202368
+    },
+    {
+      "path": "common/fonts/IMFeENrm28P.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "common/fonts/IMFeENsc28P.ttf",
+      "sha": "c97d4a0748328052055f42ab27c0659981ce8be7",
+      "size": 183932
+    },
+    {
+      "path": "common/fonts/IMFePIit28P.ttf",
+      "sha": "401eb519e020610d962aa169d73c6bdcff3fddc8",
+      "size": 244584
+    },
+    {
+      "path": "common/fonts/IMFePIrm28P.ttf",
+      "sha": "ab4c10f69c0704fcf82fb40b305e4feb83dba542",
+      "size": 216968
+    },
+    {
+      "path": "common/fonts/IMFePIsc28P.ttf",
+      "sha": "4827ba2e96128e6774bbc78b5730d43129a35068",
+      "size": 198012
+    },
+    {
+      "path": "common/fonts/IMFellEnglish-Regular.ttf",
+      "sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f",
+      "size": 194992
+    },
+    {
+      "path": "common/fonts/JustMeAgainDownHere.ttf",
+      "sha": "10a4a549f6ff0546a6767fda387041466bf91fd8",
+      "size": 72060
+    },
+    {
+      "path": "common/fonts/Kalam-Light.ttf",
+      "sha": "cc5fd24ae151bda2cdb8b47477435e5b4a0762fd",
+      "size": 437512
+    },
+    {
+      "path": "common/fonts/Kalam-Regular.ttf",
+      "sha": "0c956a29348e69bff24a1ae8952fd0b42569311c",
+      "size": 427360
+    },
+    {
+      "path": "common/fonts/LaBelleAurore.ttf",
+      "sha": "df0b59ef27b8bb8e315cbf558a395469109038d6",
+      "size": 59364
+    },
+    {
+      "path": "common/fonts/NanumPenScript-Regular.ttf",
+      "sha": "565747d0573126bb057d0675151c894bf019d7a5",
+      "size": 3201664
+    },
+    {
+      "path": "common/fonts/NothingYouCouldDo.ttf",
+      "sha": "5ff49fb944e0df19d6a68dea53d2c43c69141e77",
+      "size": 34920
+    },
+    {
+      "path": "common/fonts/OFL-IMFellEnglish.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "common/fonts/ReenieBeanie.ttf",
+      "sha": "e910d08d2c3f0c19788f96f3ef5b87ee003d373e",
+      "size": 147036
+    },
+    {
+      "path": "common/fonts/SpecialElite-Regular.ttf",
+      "sha": "6654876f95f11cb2b55c7c4254727ef68dbea74c",
+      "size": 166180
+    },
+    {
+      "path": "common/fonts/Spectral-Italic.ttf",
+      "sha": "99d6c2def129dea2daa47652c2168c271c7a59a7",
+      "size": 270468
+    },
+    {
+      "path": "common/fonts/Spectral-Medium.ttf",
+      "sha": "77420e8ea8155bd3a36960a94d6edd1fcc0e3661",
+      "size": 272920
+    },
+    {
+      "path": "common/fonts/Spectral-Regular.ttf",
+      "sha": "25a6c47f8050e4ea3c9713a02a4843a8d6c503d5",
+      "size": 261088
+    },
+    {
+      "path": "common/fonts/SpectralSC-Medium.ttf",
+      "sha": "221830a07d0e103f167e1a15f506bad0b14f979e",
+      "size": 272768
+    },
+    {
+      "path": "common/fonts/SpectralSC-Regular.ttf",
+      "sha": "6a1724d4b1a842d8176cf007724b2b7ec3a43c3c",
+      "size": 260936
+    },
+    {
+      "path": "common/fonts/SueEllenFrancisco-Regular.ttf",
+      "sha": "a4217a825ae82db452a491b1c3a17632523b1d08",
+      "size": 60728
+    },
+    {
+      "path": "common/fonts/UnifrakturMaguntia-Book.ttf",
+      "sha": "6429ce25445be1568534f5bd7f2b42f42fb6ff17",
+      "size": 88508
+    },
+    {
+      "path": "common/fonts/WaitingfortheSunrise.ttf",
+      "sha": "ef89efdaae560c70678ede2da5ba61bf8826dcdb",
+      "size": 59240
+    },
+    {
+      "path": "common/fonts/Zeyada.ttf",
+      "sha": "47620f900bbda00eb087ca56478d400e665af6c1",
+      "size": 63064
+    },
+    {
+      "path": "common/fonts/licenses/ebgaramond-OFL.txt",
+      "sha": "c1ec5e1818415eab6f8fca95a230af477d64eb61",
+      "size": 4398
+    },
+    {
+      "path": "common/fonts/licenses/ibmplexmono-OFL.txt",
+      "sha": "c35c4c618fab33da8695177b3a6cefe0810b7b28",
+      "size": 4456
+    },
+    {
+      "path": "common/fonts/licenses/imfellenglish-OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "common/fonts/licenses/imfellenglishsc-OFL.txt",
+      "sha": "68632c17836e943c708fa94b0ac067265867d1bf",
+      "size": 4452
+    },
+    {
+      "path": "common/fonts/licenses/sueellenfrancisco-OFL.txt",
+      "sha": "06117d9dfe08e8ac9818115cc1898c05a197c27f",
+      "size": 4362
+    },
+    {
+      "path": "common/fonts/static/EBGaramond-Italic400.ttf",
+      "sha": "9e2ccfb1df49224fdba3ca4ba2b8eb78838b1db3",
+      "size": 463492
+    },
+    {
+      "path": "common/fonts/static/EBGaramond-Regular400.ttf",
+      "sha": "ac096d6334bb7f18db723d167feec981abbb08ee",
+      "size": 518872
+    },
+    {
+      "path": "common/geometry/core.py",
+      "sha": "9479a29a25b8fb4feb95597a660159f0a497dfee",
+      "size": 12270
+    },
+    {
+      "path": "common/geometry/marks.py",
+      "sha": "d00d3ff509a4f8b2e147dd9c816d2f40e24cd964",
+      "size": 24948
+    },
+    {
+      "path": "common/geometry/tx.py",
+      "sha": "dc2a7f4fa426294caca89899d57241ae7625a3f0",
+      "size": 4747
+    },
+    {
+      "path": "common/illum/furniture.py",
+      "sha": "7f56a6b856138ec754eb18e11be41c1ff893d06d",
+      "size": 17171
+    },
+    {
+      "path": "common/illum/platekit.py",
+      "sha": "431f685696840ca534a0c8c5002fa29ba7d76139",
+      "size": 7722
+    },
+    {
+      "path": "common/illum/raster.py",
+      "sha": "8fd8ee2c4574cce7c920b8fa02bf21eaa5e87eae",
+      "size": 12841
+    },
+    {
+      "path": "common/plot/bookpage.py",
+      "sha": "8c02b9da90bbe69ea01c57af4802b9111bf2e218",
+      "size": 4906
+    },
+    {
+      "path": "common/plot/ornament.py",
+      "sha": "2d46266955135d6d5ca83a164459554f3ed72b7b",
+      "size": 3856
+    },
+    {
+      "path": "common/plot/plate.py",
+      "sha": "22d2b95faeff079a48bc882e0f8e7fe4ba02ac48",
+      "size": 13963
+    },
+    {
+      "path": "common/plot/plotkit.py",
+      "sha": "d2093a500356a5adad2bc26fb55cb36c4df3fcf2",
+      "size": 15054
+    },
+    {
+      "path": "common/plot/svgimport.py",
+      "sha": "2f28abcf646ae8e6af9780da72f1f4b1782f62a5",
+      "size": 4634
+    },
+    {
+      "path": "references/raster/batch-01/bael-raster-reference-v03.png",
+      "sha": "de2d17527c0b0e5caf51dbc39922afc4c05561db",
+      "size": 1718821
+    },
+    {
+      "path": "references/raster/batch-01/bune-raster-reference-v01.png",
+      "sha": "dbb304308831c3d7480b4fbc4ec855693e3dd705",
+      "size": 2073384
+    },
+    {
+      "path": "references/raster/batch-01/contact-sheet.png",
+      "sha": "5c26f734f6a7a572266147d1fa579f480a6a46c7",
+      "size": 1699972
+    },
+    {
+      "path": "references/raster/batch-01/figures.json",
+      "sha": "c2905f6297377896d1f773a6c28822013fcc2cad",
+      "size": 51974
+    },
+    {
+      "path": "references/raster/batch-01/gremory-raster-reference-v01.png",
+      "sha": "ddff72df7d9183af4f3bab908240c8a61a0e682b",
+      "size": 2291312
+    },
+    {
+      "path": "references/raster/batch-01/orobas-raster-reference-v01.png",
+      "sha": "d77b9d5908d3a48c45b3dfd7ce9f19030f4b3ace",
+      "size": 2068247
+    },
+    {
+      "path": "references/raster/batch-01/paimon-raster-reference-v01.png",
+      "sha": "a0cab4161980bc8681abb1d4cc05014a888bb36a",
+      "size": 2145200
+    },
+    {
+      "path": "references/raster/batch-01/repetiel-raster-reference-v01.png",
+      "sha": "2e3206f82e114cb5a9beb20668e406735522ea31",
+      "size": 1740467
+    },
+    {
+      "path": "references/raster/batch-01/vassago-raster-reference-v01.png",
+      "sha": "e5739a703062531fbec3dc7230672e4d8a48acf2",
+      "size": 1995128
+    },
+    {
+      "path": "references/raster/batch-02/calmor-raster-reference-v01.png",
+      "sha": "52ae8826f80d59e6fcde4d591d66ab41482d60c8",
+      "size": 2238856
+    },
+    {
+      "path": "references/raster/batch-02/contact-sheet.png",
+      "sha": "e1c1eaa37061d5efc6625e2fbd041f383c740c58",
+      "size": 1633255
+    },
+    {
+      "path": "references/raster/batch-02/culpax-raster-reference-v01.png",
+      "sha": "3847ca802881551fda42f32d9fad08bedc65be42",
+      "size": 1863472
+    },
+    {
+      "path": "references/raster/batch-02/figures.json",
+      "sha": "517f275e4e068eb677a66815a0da78bfc73acbe4",
+      "size": 34959
+    },
+    {
+      "path": "references/raster/batch-02/instantor-raster-reference-v01.png",
+      "sha": "cfaf7b1698b583019c3883ec430eabb3d9ede4bc",
+      "size": 1560774
+    },
+    {
+      "path": "references/raster/batch-02/novaroth-raster-reference-v01.png",
+      "sha": "abef6fd0021158bf19ebaa8c1bcc116e935bb5fb",
+      "size": 2136765
+    },
+    {
+      "path": "references/raster/batch-02/scriptorax-raster-reference-v01.png",
+      "sha": "90404b41d1917f0521bb6f9c776e4fe44edda058",
+      "size": 2427734
+    },
+    {
+      "path": "references/raster/batch-02/severion-raster-reference-v01.png",
+      "sha": "b0210f0a6cc0f5a672d5528523df8b61acd47a93",
+      "size": 1838770
+    },
+    {
+      "path": "references/raster/batch-02/solaciel-raster-reference-v01.png",
+      "sha": "0f93ec57b661a24bd63198b40883d13f0844bd62",
+      "size": 2155084
+    },
+    {
+      "path": "references/raster/batch-03/choraz-raster-reference-v02.png",
+      "sha": "16255b12e88b701acebd27845120dec0c62879ed",
+      "size": 2308644
+    },
+    {
+      "path": "references/raster/batch-03/consenth-raster-reference-v01.png",
+      "sha": "7b62923b52bb8350f851b0a36f1d47bdca8c6aef",
+      "size": 2224902
+    },
+    {
+      "path": "references/raster/batch-03/contact-sheet.png",
+      "sha": "d3ee75668344a8c6269273e323ccdbdf1c6211eb",
+      "size": 1642681
+    },
+    {
+      "path": "references/raster/batch-03/figures.json",
+      "sha": "1799a1be3874592fe2a424f65e0d5059e4bc0ec0",
+      "size": 47304
+    },
+    {
+      "path": "references/raster/batch-03/probator-raster-reference-v03.png",
+      "sha": "6d8e79acabc972d804a3da94d8bed3a59210d319",
+      "size": 1819232
+    },
+    {
+      "path": "references/raster/batch-03/promissor-raster-reference-v01.png",
+      "sha": "18773a3dcb8d2d12b05894d85afbe3860f3c66a2",
+      "size": 2179482
+    },
+    {
+      "path": "references/raster/batch-03/redacth-raster-reference-v01.png",
+      "sha": "a3729eb256fd52b7b5eb680179499099ba5476aa",
+      "size": 2124274
+    },
+    {
+      "path": "references/raster/batch-03/velaroth-raster-reference-v01.png",
+      "sha": "9b26470c29605947038bc82810cee75d16f4e168",
+      "size": 1876421
+    },
+    {
+      "path": "references/raster/batch-03/viridon-raster-reference-v01.png",
+      "sha": "c5a88370594d4bc295a8738247f7e2b66e177fc2",
+      "size": 1486722
+    },
+    {
+      "path": "references/raster/batch-04/absentiel-raster-reference-v01.png",
+      "sha": "c462959ba273e762d834bb0c752e2cb2fc27e412",
+      "size": 1974498
+    },
+    {
+      "path": "references/raster/batch-04/contact-sheet.png",
+      "sha": "ace56a215d7dd9f0ced5906dfdc363e41a94688f",
+      "size": 1570322
+    },
+    {
+      "path": "references/raster/batch-04/exceptor-raster-reference-v01.png",
+      "sha": "a096dc325e18c8ea632d3c1baf66f94dfb5b1a97",
+      "size": 1969220
+    },
+    {
+      "path": "references/raster/batch-04/fed-vessel-raster-reference-v01.png",
+      "sha": "060f1ffbf7e48b6b1bd8eee8874dbcfb48f980fb",
+      "size": 2067489
+    },
+    {
+      "path": "references/raster/batch-04/figures.json",
+      "sha": "d8ac5ab80aa8a384d63e0420af7bae34d5788831",
+      "size": 46407
+    },
+    {
+      "path": "references/raster/batch-04/jurisiel-raster-reference-v01.png",
+      "sha": "292175a540712ad892c184ff1f86e0881a0aaa09",
+      "size": 2080415
+    },
+    {
+      "path": "references/raster/batch-04/margor-raster-reference-v01.png",
+      "sha": "f9655e0194e203dceeb3e88814bbdd4867f0088b",
+      "size": 2128800
+    },
+    {
+      "path": "references/raster/batch-04/posthum-raster-reference-v01.png",
+      "sha": "b82f8e0c3644ce40d6f36f5efafda2b73ae5fd4d",
+      "size": 1904541
+    },
+    {
+      "path": "references/raster/batch-04/quarteroth-raster-reference-v01.png",
+      "sha": "d824f0d84152de7a0f07bb1936895c3682b8cefc",
+      "size": 2163932
+    },
+    {
+      "path": "references/raster/batch-05/contact-sheet.png",
+      "sha": "44f0357ae776084f6163410fbc7650bc8d5f38e8",
+      "size": 1522186
+    },
+    {
+      "path": "references/raster/batch-05/cut-keeper-raster-reference-v01.png",
+      "sha": "5d7f68ed3fcdf58f171e7313032af29f4ba7ca1b",
+      "size": 2089436
+    },
+    {
+      "path": "references/raster/batch-05/figures.json",
+      "sha": "06e5565635c752a745bd1c3fd1b9669274240c21",
+      "size": 66105
+    },
+    {
+      "path": "references/raster/batch-05/hora-and-tempus-raster-reference-v01.png",
+      "sha": "cbab052f9ae66210a2363ef8e0f6e405a638c04f",
+      "size": 2382793
+    },
+    {
+      "path": "references/raster/batch-05/house-kept-in-abeyance-raster-reference-v01.png",
+      "sha": "2a6073f07df6a05397be30b242f6ab7d976d3586",
+      "size": 2100325
+    },
+    {
+      "path": "references/raster/batch-05/keeper-of-intervals-original-raster-reference-v01.png",
+      "sha": "62b2009e76f5542bcf8568e05cff78c6377deb8b",
+      "size": 1923485
+    },
+    {
+      "path": "references/raster/batch-05/keeper-wearing-dial-raster-reference-v02.png",
+      "sha": "428c1d5659121f5b552be8bb4f58d27ee5b4f516",
+      "size": 2025901
+    },
+    {
+      "path": "references/raster/batch-05/open-inventory-raster-reference-v01.png",
+      "sha": "1660a9e1d83d08f3bbf2e4c484a739b74a9cfb94",
+      "size": 2334844
+    },
+    {
+      "path": "references/raster/batch-05/second-neck-raster-reference-v01.png",
+      "sha": "029b89248689597c6ee6b53aa0fc6089e0ed5291",
+      "size": 1601014
+    },
+    {
+      "path": "references/raster/batch-06/contact-sheet.png",
+      "sha": "23432701acfb540eca09189673e9bc17469efa8c",
+      "size": 1727898
+    },
+    {
+      "path": "references/raster/batch-06/decision-demon-raster-reference-v01.png",
+      "sha": "0870ac848a5ea6f8a2c7288c72a7cfdffca1edb2",
+      "size": 1912429
+    },
+    {
+      "path": "references/raster/batch-06/figure-beneath-cord-raster-reference-v01.png",
+      "sha": "083c67c161e99dcff11785feae849fd3d717c36d",
+      "size": 1962744
+    },
+    {
+      "path": "references/raster/batch-06/figures.json",
+      "sha": "f737036887d2a0ce9a5b6dc4d23ca2017e72467a",
+      "size": 42372
+    },
+    {
+      "path": "references/raster/batch-06/hooded-manager-01-raster-reference-v01.png",
+      "sha": "bfc6c167e6f55103cb1e4b43a1e7d86e134ff7ec",
+      "size": 1910452
+    },
+    {
+      "path": "references/raster/batch-06/hooded-manager-02-raster-reference-v01.png",
+      "sha": "ca1f6e25471c18b4e0b1f3276d6d748bafc66f66",
+      "size": 2083063
+    },
+    {
+      "path": "references/raster/batch-06/hooded-manager-03-raster-reference-v01.png",
+      "sha": "2fd8fa58b66dc130b6395838e8c80fe413706c5f",
+      "size": 2085685
+    },
+    {
+      "path": "references/raster/batch-06/hooded-manager-04-leaked-tile-raster-reference-v01.png",
+      "sha": "7796a069e403cd107d40be0d6412d697e011d6d8",
+      "size": 1898913
+    },
+    {
+      "path": "references/raster/batch-06/shouting-tiers-raster-reference-v01.png",
+      "sha": "2380c79c159e316e8fee1d706191b0170f62cf47",
+      "size": 2347819
+    },
+    {
+      "path": "references/raster/batch-07/contact-sheet.png",
+      "sha": "7bdb68473ce61fff1f0fc4cfd56c9ffb65afdee6",
+      "size": 749386
+    },
+    {
+      "path": "references/raster/batch-07/figures.json",
+      "sha": "1ed9cb9ce2defe70825c23512142f8d193e27421",
+      "size": 19297
+    },
+    {
+      "path": "references/raster/batch-07/measurer-of-absences-original-raster-reference-v01.png",
+      "sha": "37478feab2b33a21deb1b0172be95c5a57fc5c51",
+      "size": 2356456
+    },
+    {
+      "path": "references/raster/batch-07/returning-trace-raster-reference-v01.png",
+      "sha": "bc0f28036acc680b3732ec849315609f8fa16cca",
+      "size": 2328043
+    },
+    {
+      "path": "references/raster/batch-07/series-figures.json",
+      "sha": "85b48a73ab93e120198d02686a2f18a4f9eb7c9a",
+      "size": 280734
+    },
+    {
+      "path": "references/raster/batch-07/twin-register-raster-reference-v01.png",
+      "sha": "fdfac82f077334a148a211292f6858758875eff6",
+      "size": 2491163
+    },
+    {
+      "path": "references/raster/integrated-01/extraction-of-the-hand-v01.jpg",
+      "sha": "e4c2f910c18f62a8e0ceafa13982297156927ba6",
+      "size": 661410
+    },
+    {
+      "path": "references/raster/integrated-01/office-without-a-seal-v01.jpg",
+      "sha": "cae59cb74e9daaba745bc4984bdb254e2e5fd965",
+      "size": 785091
+    },
+    {
+      "path": "references/raster/integrated-01/prompts.json",
+      "sha": "278cdbe38d707b19e4f5e56833b30c19be05bb09",
+      "size": 3021
+    },
+    {
+      "path": "requirements.txt",
+      "sha": "299de1a76523b8666d4d5c9f79001d64eb90d790",
+      "size": 211
+    }
+  ]
+}

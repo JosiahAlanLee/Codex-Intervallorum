@@ -1,0 +1,82 @@
+name: Import reviewed book inputs
+on:
+  push:
+    branches: [codex/migrate-book]
+    paths: [.github/workflows/import-reviewed-source.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Transfer the explicitly reviewed artwork and build inputs
+        env:
+          TRANSFER_URL_BASE64: 'aHR0cHM6Ly9wcm9kdWN0aW9ucmVzdWx0c3NhNC5ibG9iLmNvcmUud2luZG93cy5uZXQvYWN0aW9ucy1yZXN1bHRzL2JhMjIzNjYxLTRiN2EtOGZhZi05MjBhLTQwZTVlOWFjMzZmNy93b3JrZmxvdy1qb2ItcnVuLTY2NTEwZjMxLTQ4OTEtNTAyNi05YzM5LTFiZTJiMjkzYWMxZS9hcnRpZmFjdHMvNGU5ZDRmYjg4ZTI2Y2M1MTdmYjY2NDYzNmIyNDgwYjI4Y2MxNGQ0MjdmOWViNzdjMWUwMzVmMDIzMGYxYTAyMi56aXA/cnNjZD1hdHRhY2htZW50JTNCK2ZpbGVuYW1lJTNEJTIyY29kZXgtcmV2aWV3ZWQtaW5wdXRzLnppcCUyMiZyc2N0PWFwcGxpY2F0aW9uJTJGemlwJnNlPTIwMjYtMTAtMThUMTclM0EyOCUzQTUyWiZzaWc9aWFXMHZGNUxJVnZKbEJVeE9FVnhnTXh2QlMxSWhYd2FDOVVaUWNCbjRXVSUzRCZza2U9MjAyNi0xMC0xOFQxOSUzQTAzJTNBMDNaJnNrb2lkPWNhNzU5M2Q0LWVlNDItNDZjZC1hZjg4LThiODg2YTJmODRlYiZza3M9YiZza3Q9MjAyNi0xMC0xOFQxNSUzQTAzJTNBMDNaJnNrdGlkPTM5OGE2NjU0LTk5N2ItNDdlOS1iMTJiLTk1MTViODk2YjRkZSZza3Y9MjAyNS0xMS0wNSZzcD1yJnNwcj1odHRwcyZzcj1iJnN0PTIwMjYtMTAtMThUMTclM0ExOCUzQTQ3WiZzdj0yMDI1LTExLTA1'
+        run: |
+          python - <<'PY'
+          import base64, hashlib, io, json, os, pathlib, shutil, tarfile, urllib.request, zipfile
+          archive = pathlib.Path("/tmp/codex-inputs.zip")
+          url = base64.b64decode(os.environ["TRANSFER_URL_BASE64"]).decode()
+          with urllib.request.urlopen(url, timeout=120) as source, archive.open("wb") as output:
+              shutil.copyfileobj(source, output)
+          with zipfile.ZipFile(archive) as z:
+              z.extract("codex-reviewed-inputs.tar.gz", "/tmp")
+          package = pathlib.Path("/tmp/codex-reviewed-inputs.tar.gz")
+          assert hashlib.sha256(package.read_bytes()).hexdigest() == "711eb759e4a866aa30ec69e3c666392eba03bdc1e64da7ae958ed67f38240c68"
+          with tarfile.open(package) as t:
+              spec = json.load(t.extractfile("migration-source-manifest.json"))
+              expected = {x["path"]:x for x in spec["files"]}
+              for m in t.getmembers():
+                  if m.name == "migration-source-manifest.json": continue
+                  assert m.isfile() and m.name in expected
+                  assert not m.name.startswith("/") and ".." not in pathlib.PurePosixPath(m.name).parts
+                  data = t.extractfile(m).read()
+                  assert hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest() == expected[m.name]["sha"]
+                  p = pathlib.Path(m.name)
+                  if not p.exists():
+                      p.parent.mkdir(parents=True, exist_ok=True)
+                      p.write_bytes(data)
+          pathlib.Path(".github/workflows/import-reviewed-source.yml").unlink()
+          PY
+      - name: Install build dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify the scoped import
+        run: python scripts/check_project.py
+      - name: Commit the source import
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Import reviewed book sources and original artwork'
+          git push origin HEAD:codex/migrate-book
+      - name: Build and validate both editions
+        run: python scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Codex-Intervallorum-reading
+          path: |
+            binding/out/*.pdf
+            binding/out/*.json
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Codex-Intervallorum-illustrated
+          path: binding/out/illustrated/*
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Codex-Intervallorum-components
+          path: |
+            books/01_matricis_intervallorum/out/*.pdf
+            books/06_tarot/book/out/*.pdf
+            books/06_tarot/book/out/*-log.json
+            books/07_septimus/out/*
+            books/00_accusator/out/*
+            books/00_matres/out/*
+            books/05_notoria/manuscript/out/*.pdf
+          if-no-files-found: error

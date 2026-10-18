@@ -1,0 +1,46 @@
+name: Build Codex Intervallorum
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  books:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Verify source selection and local links
+        run: python scripts/check_project.py
+      - name: Build and validate both editions
+        run: python scripts/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Codex-Intervallorum-reading
+          path: |
+            binding/out/*.pdf
+            binding/out/*.json
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Codex-Intervallorum-illustrated
+          path: binding/out/illustrated/*
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Codex-Intervallorum-components
+          path: |
+            books/01_matricis_intervallorum/out/*.pdf
+            books/06_tarot/book/out/*.pdf
+            books/06_tarot/book/out/*-log.json
+            books/07_septimus/out/*
+            books/00_accusator/out/*
+            books/00_matres/out/*
+            books/05_notoria/manuscript/out/*.pdf
+          if-no-files-found: error

@@ -1,0 +1,1871 @@
+{
+  "cards": [
+    {
+      "index": 0,
+      "slug": "01-ace-of-swords",
+      "rank": "A",
+      "name": "Ace of Swords",
+      "title": "The First Distinction",
+      "keywords": "CLARITY / CUT",
+      "expected_sword_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: ACE OF SWORDS.\nExactly ONE sword. A single articulated human hand and forearm rise through a small porous black open ring, gripping one long upright sword by its hilt. Above the sword tip floats an empty openwork crown, unoccupied, with one sparse leafy branch on each side. The sword passes through the crown's hollow centre without merging with it. One continuous RED thread makes a single loose turn around the wrist, descends and ends in one dot. One hand only; no full body, no cloud, no sun, no extra weapon. The clear blade divides air without claiming that its distinction is the whole world.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A clean upright blade passes through an empty crown. The hand can make a distinction; the unoccupied crown leaves its authority open to question.",
+      "upright": "Clarity; a useful distinction; a question made precise.",
+      "reversed": "A sharp formulation that cuts away necessary context.",
+      "question": "What does this distinction let me see, and what does it leave out?",
+      "numeral": "A",
+      "archetype": "Ace of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: ACE OF SWORDS.\nExactly ONE sword. A single articulated human hand and forearm rise through a small porous black open ring, gripping one long upright sword by its hilt. Above the sword tip floats an empty openwork crown, unoccupied, with one sparse leafy branch on each side. The sword passes through the crown's hollow centre without merging with it. One continuous RED thread makes a single loose turn around the wrist, descends and ends in one dot. One hand only; no full body, no cloud, no sun, no extra weapon. The clear blade divides air without claiming that its distinction is the whole world.",
+          "status": "selected",
+          "file": "art/01-ace-of-swords-v01.png",
+          "sha256": "b96e99955236104513353f35d641ad49b6249825848720303b9a87e762ee0c01"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Rank count checked."
+      },
+      "source_art": {
+        "file": "art/01-ace-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "b96e99955236104513353f35d641ad49b6249825848720303b9a87e762ee0c01"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/01-ace-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "68f0d739ce9b5327399aa3971e5d6eb81eba263df2c6189808c47f3533a9ba79",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/01-ace-of-swords-v01.png",
+        "sha256": "b96e99955236104513353f35d641ad49b6249825848720303b9a87e762ee0c01",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 716,
+        "eroded_core_pixels": 28,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          179.0,
+          13.5,
+          7.5
+        ],
+        "median_red_hex_rounded": "#b30e08",
+        "modal_red_hex": "#a50201",
+        "modal_frequency": 2,
+        "unique_sample_colours": 26,
+        "nearest_candidate_hex": "#a52f26",
+        "median_max_channel_error": 40.0,
+        "p95_max_channel_error": 50.3,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ace of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 1,
+      "slug": "02-two-of-swords",
+      "rank": "II",
+      "name": "Two of Swords",
+      "title": "The Held Decision",
+      "keywords": "PAUSE / CHOICE",
+      "expected_sword_count": 2,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: TWO OF SWORDS.\nExactly TWO swords. One fully clothed seated androgynous keeper faces the viewer in a spare openwork chair. The keeper holds one sword in each hand; forearms cross at the chest, and the two blades cross clearly above the hands, making a wide X with two distinct handles and two distinct tips. A single flat muted RED blindfold covers the eyes; it is the only red intervention. An empty crescent ring sits well behind the head, black, not a weapon. Robe cellular but calm, no other figures, no landscape or water. The seated body is composed, not triumphant. All fingers and both sword tips readable.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Two blades cross above a seated keeper whose eyes are covered. The pause can hold a choice open, while the blindfold limits what can inform it.",
+      "upright": "A held decision; a boundary; time to consider.",
+      "reversed": "Deadlock; a decision postponed beyond its useful moment.",
+      "question": "What information would actually change this choice?",
+      "numeral": "2",
+      "archetype": "Two of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: TWO OF SWORDS.\nExactly TWO swords. One fully clothed seated androgynous keeper faces the viewer in a spare openwork chair. The keeper holds one sword in each hand; forearms cross at the chest, and the two blades cross clearly above the hands, making a wide X with two distinct handles and two distinct tips. A single flat muted RED blindfold covers the eyes; it is the only red intervention. An empty crescent ring sits well behind the head, black, not a weapon. Robe cellular but calm, no other figures, no landscape or water. The seated body is composed, not triumphant. All fingers and both sword tips readable.",
+          "status": "selected",
+          "file": "art/02-two-of-swords-v01.png",
+          "sha256": "f558e70b06aa679817d9fe9442e94bee95bdb921ff63b27c61dff056155691a3"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 2,
+        "observed": 2,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Rank count checked."
+      },
+      "source_art": {
+        "file": "art/02-two-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "f558e70b06aa679817d9fe9442e94bee95bdb921ff63b27c61dff056155691a3"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/02-two-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "5baad32d37ff4ef62911d0d0aa55b4fb5d4661f8e5cdafbed5f781594dfc896a",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/02-two-of-swords-v01.png",
+        "sha256": "f558e70b06aa679817d9fe9442e94bee95bdb921ff63b27c61dff056155691a3",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 3454,
+        "eroded_core_pixels": 2965,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          166.0,
+          55.0,
+          43.0
+        ],
+        "median_red_hex_rounded": "#a6372b",
+        "modal_red_hex": "#aa392d",
+        "modal_frequency": 21,
+        "unique_sample_colours": 1652,
+        "nearest_candidate_hex": "#a52b26",
+        "median_max_channel_error": 14.0,
+        "p95_max_channel_error": 36.0,
+        "sample_fraction_within_5_per_channel": 0.014165261382799325,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Two of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 2,
+      "slug": "03-three-of-swords",
+      "rank": "III",
+      "name": "Three of Swords",
+      "title": "The Pierced Vessel",
+      "keywords": "GRIEF / EXPOSURE",
+      "expected_sword_count": 3,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: THREE OF SWORDS.\nExactly THREE swords, each hilt and tip distinct. A large anatomically suggestive heart-shaped VESSEL made of open cellular lace floats alone: a symbolic heart-object, no realistic organ, blood or gore. One vertical sword points downward through its centre; two diagonal swords point down toward opposite lower corners, making three clear separate passages. Their three handles sit above the vessel at left, centre and right. A SINGLE short RED seam runs down one cracked chamber of the vessel, without colouring any sword. No face, hands, birds, rain, scenery or additional weapons. Fine line, sparse slate cavity insets, abundant cream void. The vessel remains an object that held something.",
+      "attempt": 3,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Three swords pass through a heart-shaped vessel. Its red seam keeps the loss visible without turning the wound into a lesson that justifies it.",
+      "upright": "Grief acknowledged; painful truth; an exposed fracture.",
+      "reversed": "A hurt made into the whole account; pain used as proof.",
+      "question": "What has been lost that an explanation cannot replace?",
+      "numeral": "3",
+      "archetype": "Three of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: THREE OF SWORDS.\nExactly THREE swords, each hilt and tip distinct. A large anatomically suggestive heart-shaped VESSEL made of open cellular lace floats alone: a symbolic heart-object, no realistic organ, blood or gore. One vertical sword points downward through its centre; two diagonal swords point down toward opposite lower corners, making three clear separate passages. Their three handles sit above the vessel at left, centre and right. A SINGLE short RED seam runs down one cracked chamber of the vessel, without colouring any sword. No face, hands, birds, rain, scenery or additional weapons. Fine line, sparse slate cavity insets, abundant cream void. The vessel remains an object that held something.",
+          "status": "superseded",
+          "reason": "The two diagonal blade segments do not share straight axes through the vessel; exit sides are wrong.",
+          "file": "attempts/03-three-of-swords-v01.png",
+          "sha256": "c7113d4c384e682f5a42a431f18d8d166eac64764cac027f26a8101656a78079"
+        },
+        {
+          "attempt": 2,
+          "prompt": "Use case: precise-object-edit. Input image is the edit target: the existing Three of Swords illustration.\nCorrect ONLY the physical geometry of the THREE swords piercing the heart-shaped cellular vessel. Preserve the vessel outline, every possible part of its cellular ornament, single red cracked seam, cream ground, muted slate insets, tiny ochre seams, line weight, scale and margins. No text or card frame.\nThere must be exactly THREE complete straight swords. Every sword has one hilt, one crossguard, and one continuous straight blade axis; the hidden segment inside the vessel must align perfectly with the visible segments.\n1. The CENTRE sword runs vertically from the top centre hilt straight down through the heart and exits at the bottom centre.\n2. The sword entering from the UPPER LEFT hilt runs diagonally DOWN AND RIGHT through the heart. Its point must emerge on the LOWER RIGHT. Move its currently wrong lower-left exit to the lower right, aligned with the upper-left blade on ONE straight line.\n3. The sword entering from the UPPER RIGHT hilt runs diagonally DOWN AND LEFT through the heart. Its point must emerge on the LOWER LEFT. Move its currently wrong lower-right exit to the lower left, aligned with the upper-right blade on ONE straight line.\nThe two diagonals cross inside the vessel. Use consistent occlusion by its tissue/lattice so there are no extra loose blade segments. Do NOT bend a blade inside the heart to meet the old exit. Exactly three hilts above and exactly three aligned sword points below, no extra weapon. Keep the interior blades near-black outlines with cream interiors; the only red stays the existing seam. No blood, new cracks, new ornament, gradients or additional colours.",
+          "status": "superseded",
+          "reason": "Exit sides corrected, but both diagonal axes still bent within the vessel.",
+          "references": [
+            {
+              "file": "03-three-of-swords-v01.png",
+              "sha256": "c7113d4c384e682f5a42a431f18d8d166eac64764cac027f26a8101656a78079",
+              "role": "edit target"
+            }
+          ],
+          "file": "attempts/03-three-of-swords-v02.png",
+          "sha256": "edb4bf410aff5509e051ddf1361dc87a87905e77a91d1447e3982f9a0c639ce8"
+        },
+        {
+          "attempt": 3,
+          "prompt": "Use case: precise-object-edit. Image 1 is the Three of Swords edit target. Image 2 is an exact sword-geometry guide, not a style reference.\nReplace ONLY the three sword paths in image 1 so that their axes and positions follow image 2. Preserve the cellular heart-vessel, red seam, near-black engraved line, slate insets, ochre seams, cream ground, scale and margins. The previous result still BENDS both diagonal blades inside the vessel. Correct that error.\nUse image 2's complete straight swords as the underlying rigid structure. Place the original heart-vessel over their middle segments. Any blade visible through a cream opening in the lattice must continue on exactly the SAME straight axis as its segment above the vessel and its point below it. The vessel may occlude the blades; the blades cannot bend around its lattice or change direction at a hole.\nThe upper-left sword has its crossguard around (220,430) and its tip around (830,1260) on the 1024x1536 composition. Its whole blade, above, within and below the heart, follows that ONE straight diagonal.\nThe upper-right sword has its crossguard around (804,430) and its tip around (194,1260); it follows that ONE straight diagonal.\nThe centre sword stays vertical at x=512, its tip around y=1395.\nThe diagonal axes cross around (512,827), well within the heart. Tilt/reposition the side HILTS to match these new axes too. Do not retain the old steeper upper blade directions. A crossguard is perpendicular to its own blade; each hilt is collinear with its blade. Keep exactly three full swords, three ornate handles above and three points below. Preserve the reference's fine ornate hilts while giving the blades this simple physically straight structure.\nNo new diagram labels, coordinate text, extra lines, red blade, additional red mark, gore, frame or background detail. The result should be the same finished artwork with physically coherent swords.",
+          "status": "selected",
+          "reason": "Straight-line geometry guide used to align hilt, entry and exit segments.",
+          "references": [
+            {
+              "file": "exec-dbeb91fe-f9f2-45d9-8458-b4ae7bfcfb05.png",
+              "sha256": "edb4bf410aff5509e051ddf1361dc87a87905e77a91d1447e3982f9a0c639ce8",
+              "role": "edit target"
+            },
+            {
+              "file": "three-swords-straight-geometry.png",
+              "sha256": "3a306088efb8a0994729cf457dc253c8b14deccd3d701bbe2c672950cafc8c58",
+              "role": "geometry guide"
+            }
+          ],
+          "file": "art/03-three-of-swords-v03.png",
+          "sha256": "02a53f7e299318208b40825ece51519445a206bdb802e8e011e86b42acb3ebab"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 3,
+        "observed": 3,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Three complete swords. Central axis vertical; upper-left sword exits lower-right, upper-right exits lower-left. Alignment checked against the straight-line guide."
+      },
+      "geometry_check": {
+        "status": "manually inspected",
+        "method": "Compared upper, interior and lower blade segments against the straight-axis guide.",
+        "guide": "guides/three-swords-straight-geometry.png"
+      },
+      "source_art": {
+        "file": "art/03-three-of-swords-v03.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "02a53f7e299318208b40825ece51519445a206bdb802e8e011e86b42acb3ebab"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/03-three-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "461e035e7ec07df072604e45815a583f31401b646f7868f5514a1706e315aeec",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/03-three-of-swords-v03.png",
+        "sha256": "02a53f7e299318208b40825ece51519445a206bdb802e8e011e86b42acb3ebab",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1969,
+        "eroded_core_pixels": 472,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          184.0,
+          14.0,
+          11.0
+        ],
+        "median_red_hex_rounded": "#b80e0b",
+        "modal_red_hex": "#b60907",
+        "modal_frequency": 2,
+        "unique_sample_colours": 469,
+        "nearest_candidate_hex": "#a22d23",
+        "median_max_channel_error": 34.0,
+        "p95_max_channel_error": 46.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Three of Swords",
+        "attempt": 3
+      }
+    },
+    {
+      "index": 3,
+      "slug": "04-four-of-swords",
+      "rank": "IV",
+      "name": "Four of Swords",
+      "title": "The Kept Silence",
+      "keywords": "REST / RESERVE",
+      "expected_sword_count": 4,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: FOUR OF SWORDS.\nExactly FOUR swords. A fully clothed slender human figure lies on an openwork bier in profile, head to viewer's left, hands together on the chest, awake or asleep but not a corpse. Above the figure hang THREE horizontal swords parallel in three clean rows, all pointed to the right, separated by cream air. A FOURTH horizontal sword lies below the body along the bier, also clearly distinct. No other blades. The bier and clothing carry the cellular lattice detail, the blades are simple. One RED wrist thread hangs down from the resting hands and ends in a dot; this is the only red. No stone tomb, cathedral background, halo or gravestone. The subject is protected rest, not death.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A resting figure lies beneath three blades while a fourth remains below the bier. The red wrist thread carries no command to resume.",
+      "upright": "Protected rest; reserve; a deliberate withdrawal.",
+      "reversed": "A pause without support; exhaustion hidden behind composure.",
+      "question": "What would let this rest restore capacity rather than merely delay collapse?",
+      "numeral": "4",
+      "archetype": "Four of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: FOUR OF SWORDS.\nExactly FOUR swords. A fully clothed slender human figure lies on an openwork bier in profile, head to viewer's left, hands together on the chest, awake or asleep but not a corpse. Above the figure hang THREE horizontal swords parallel in three clean rows, all pointed to the right, separated by cream air. A FOURTH horizontal sword lies below the body along the bier, also clearly distinct. No other blades. The bier and clothing carry the cellular lattice detail, the blades are simple. One RED wrist thread hangs down from the resting hands and ends in a dot; this is the only red. No stone tomb, cathedral background, halo or gravestone. The subject is protected rest, not death.",
+          "status": "selected",
+          "file": "art/04-four-of-swords-v01.png",
+          "sha256": "10333872778884add95bfa8782e26070377e4883248b54e7ac99f214b29b394a"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 4,
+        "observed": 4,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Rank count checked."
+      },
+      "source_art": {
+        "file": "art/04-four-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "10333872778884add95bfa8782e26070377e4883248b54e7ac99f214b29b394a"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/04-four-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "45b7d84f8896d7c098ce8ddcd68d2c593d5d6b6244292593e6d96a7cae5a9f1c",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/04-four-of-swords-v01.png",
+        "sha256": "10333872778884add95bfa8782e26070377e4883248b54e7ac99f214b29b394a",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1060,
+        "eroded_core_pixels": 155,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          176.0,
+          8.0,
+          7.0
+        ],
+        "median_red_hex_rounded": "#b00807",
+        "modal_red_hex": "#7f0000",
+        "modal_frequency": 1,
+        "unique_sample_colours": 155,
+        "nearest_candidate_hex": "#a72a22",
+        "median_max_channel_error": 35.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Four of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 4,
+      "slug": "05-five-of-swords",
+      "rank": "V",
+      "name": "Five of Swords",
+      "title": "The Taken Field",
+      "keywords": "VICTORY / COST",
+      "expected_sword_count": 5,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: FIVE OF SWORDS.\nExactly FIVE swords. Three clothed adult figures arranged as an airy aftermath: one dominant narrow-faced keeper in the foreground, two smaller figures turning away behind on opposite sides. The foreground keeper holds THREE swords: TWO distinct hilts together in the left hand, their two blades fanning apart, and ONE sword lowered in the right hand. TWO additional complete swords lie separately near the foreground feet, each hilt and tip visible. This is 3 held plus 2 on the ground, no more. One RED thread is caught loosely around the foreground keeper's ankle, ending in a dot. The expression is watchful, not celebratory. No fighting, wounds, blood, battlefield, flags or landscape. Open cream space separates all bodies and weapons.",
+      "attempt": 2,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "One figure gathers weapons while two others leave. The taken field records a result without establishing that the encounter was worth its cost.",
+      "upright": "A conflict seen clearly; recognition of a costly win.",
+      "reversed": "Humiliation; domination; the dispute prolonged by its aftermath.",
+      "question": "What remains damaged after someone has been declared the winner?",
+      "numeral": "5",
+      "archetype": "Five of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: FIVE OF SWORDS.\nExactly FIVE swords. Three clothed adult figures arranged as an airy aftermath: one dominant narrow-faced keeper in the foreground, two smaller figures turning away behind on opposite sides. The foreground keeper holds THREE swords: TWO distinct hilts together in the left hand, their two blades fanning apart, and ONE sword lowered in the right hand. TWO additional complete swords lie separately near the foreground feet, each hilt and tip visible. This is 3 held plus 2 on the ground, no more. One RED thread is caught loosely around the foreground keeper's ankle, ending in a dot. The expression is watchful, not celebratory. No fighting, wounds, blood, battlefield, flags or landscape. Open cream space separates all bodies and weapons.",
+          "status": "superseded",
+          "reason": "One raised sword hilt floats behind the grip instead of being visibly held.",
+          "file": "attempts/05-five-of-swords-v01.png",
+          "sha256": "9595b80c311de60535e36b81c2215e4136885cbec3c7a314815fb96c68123e3c"
+        },
+        {
+          "attempt": 2,
+          "prompt": "Use case: precise-object-edit. Input image is the edit target: the existing Five of Swords illustration.\nCorrect ONLY the dominant foreground figure's grip on the TWO raised swords at viewer-right. Preserve the face, hood, body, robe, feet, two departing background figures, red ankle thread, cream ground, exact palette and engraved cellular line quality.\nThe foreground figure has exactly TWO arms and TWO hands. Do NOT add a third hand or second left hand. Its lower hand at viewer-left must continue holding the single downward-pointed sword exactly as before.\nAt viewer-right, redraw the ONE existing raised hand so it unmistakably grips BOTH raised sword handles together. Put the two handles SIDE BY SIDE through the same palm; show the thumb pressing across BOTH handles and the four fingers wrapping around their far side. Both handles must physically enter this closed grip, with their two pommels visible just below the hand and two separate crossguards visible just above it. Keep the two blades fanning apart upward with both tips fully inside the image. Neither hilt may float behind the wrist, pass through the back of the hand, or connect to an invisible extra hand. The wrist and forearm must join this one hand naturally. Slightly reposition the two raised hilts and guards if needed to create this coherent grip; preserve the remainder.\nFinal total exactly FIVE swords: TWO raised held together in ONE hand, ONE lowered in the other hand, TWO lying on the ground. All five sword silhouettes remain readable. No additional person, hand, arm, weapon, red mark, text, border, gradient or other change.",
+          "status": "selected",
+          "reason": "One raised sword hilt floats behind the grip instead of being visibly held.",
+          "references": [
+            {
+              "file": "05-five-of-swords-v01.png",
+              "sha256": "9595b80c311de60535e36b81c2215e4136885cbec3c7a314815fb96c68123e3c",
+              "role": "edit target"
+            }
+          ],
+          "file": "art/05-five-of-swords-v02.png",
+          "sha256": "8a97b6a6a406bb9772f2564b21beb0a1fdc07b7a9dc9d19759cdeeb9cbd3fcb4"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 5,
+        "observed": 5,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Five swords: two raised with both handles visibly held in one hand, one lowered in the other, and two on the ground."
+      },
+      "geometry_check": {
+        "status": "manually inspected",
+        "method": "Two foreground hands; one encloses both raised grips, with two pommels emerging below it."
+      },
+      "source_art": {
+        "file": "art/05-five-of-swords-v02.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "8a97b6a6a406bb9772f2564b21beb0a1fdc07b7a9dc9d19759cdeeb9cbd3fcb4"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/05-five-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "512d371b7ccf39bea4ee333b05c21065b687e6a5c218f8a8b48532e353b41a1c",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/05-five-of-swords-v02.png",
+        "sha256": "8a97b6a6a406bb9772f2564b21beb0a1fdc07b7a9dc9d19759cdeeb9cbd3fcb4",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 659,
+        "eroded_core_pixels": 9,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          194.0,
+          22.0,
+          18.0
+        ],
+        "median_red_hex_rounded": "#c21612",
+        "modal_red_hex": "#5e0403",
+        "modal_frequency": 2,
+        "unique_sample_colours": 654,
+        "nearest_candidate_hex": "#a42e1d",
+        "median_max_channel_error": 39.0,
+        "p95_max_channel_error": 61.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Five of Swords",
+        "attempt": 2
+      }
+    },
+    {
+      "index": 5,
+      "slug": "06-six-of-swords",
+      "rank": "VI",
+      "name": "Six of Swords",
+      "title": "The Crossing",
+      "keywords": "PASSAGE / BURDEN",
+      "expected_sword_count": 6,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: SIX OF SWORDS.\nExactly SIX swords, all planted upright in the boat in TWO visible rows of THREE. Every sword has a separate simple crossguard, handle and complete blade; no sword is held by a person. A long shallow boat is made from porous black cellular lace with sparse slate hull insets. A standing ferryman uses one obviously ROUND-ENDED wooden pole with no blade or crossguard, and carries two seated hooded passengers, one adult and one smaller figure, both fully clothed. The passengers face away. A single thin RED thread runs from the boat's bow toward a small empty black ring suspended ahead; it is the only red. The six swords travel with them. No river landscape or horizon, just a few very sparse black curved marks beneath the boat. Full boat, pole and all sword tips visible.",
+      "attempt": 2,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The ferry carries its blades as well as its passengers. A red line reaches toward an opening ahead; passage changes a location without guaranteeing that every burden can be left behind.",
+      "upright": "Transition; help accepted; a workable passage.",
+      "reversed": "Old constraints carried into a new setting; leaving without support.",
+      "question": "What travels with me, and what can this crossing genuinely change?",
+      "numeral": "6",
+      "archetype": "Six of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: SIX OF SWORDS.\nExactly SIX swords, all planted upright in the boat in TWO visible rows of THREE. Every sword has a separate simple crossguard, handle and complete blade; no sword is held by a person. A long shallow boat is made from porous black cellular lace with sparse slate hull insets. A standing ferryman uses one obviously ROUND-ENDED wooden pole with no blade or crossguard, and carries two seated hooded passengers, one adult and one smaller figure, both fully clothed. The passengers face away. A single thin RED thread runs from the boat's bow toward a small empty black ring suspended ahead; it is the only red. The six swords travel with them. No river landscape or horizon, just a few very sparse black curved marks beneath the boat. Full boat, pole and all sword tips visible.",
+          "status": "superseded",
+          "file": "attempts/06-six-of-swords-v01.png",
+          "sha256": "00ce86b899e850192bb95fff659f3e61d9b14721268e12f2077249610366ff85"
+        },
+        {
+          "attempt": 2,
+          "prompt": "Edit only the sword count in this SIX OF SWORDS illustration. Preserve the ferryman, two seated passengers, round-ended pole, full boat, red bow thread, cream background, cellular linework, palette, scale and composition. There are currently FIVE sword hilts visible in the boat. Keep those five intact and ADD exactly ONE matching complete sword in the visible gap between the two rightmost hilts, centre-right of the boat. Final total exactly SIX distinct swords, each with one hilt, guard and blade. Do not add a dagger or a sword-shaped pole. No new person, text, border or red mark. All six blade silhouettes must be distinguishable. No other changes.",
+          "status": "selected",
+          "reason": "First attempt has five visible swords, not six.",
+          "file": "art/06-six-of-swords-v02.png",
+          "sha256": "1158f1c50191835167152ae1ac788abe2d1dcf95f6c887a7465b6d445843c80a"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 6,
+        "observed": 6,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Six separate hilts in the boat; the ferryman's round-ended pole is not a sword."
+      },
+      "source_art": {
+        "file": "art/06-six-of-swords-v02.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "1158f1c50191835167152ae1ac788abe2d1dcf95f6c887a7465b6d445843c80a"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/06-six-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "4b54286aa7de5fab76e25ce3e5531ce6321fa339b392884676f23fc65ef2f78d",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/06-six-of-swords-v02.png",
+        "sha256": "1158f1c50191835167152ae1ac788abe2d1dcf95f6c887a7465b6d445843c80a",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 538,
+        "eroded_core_pixels": 2,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          164.0,
+          34.5,
+          28.0
+        ],
+        "median_red_hex_rounded": "#a4231c",
+        "modal_red_hex": "#8c0504",
+        "modal_frequency": 2,
+        "unique_sample_colours": 526,
+        "nearest_candidate_hex": "#a32b22",
+        "median_max_channel_error": 30.0,
+        "p95_max_channel_error": 72.14999999999998,
+        "sample_fraction_within_5_per_channel": 0.026022304832713755,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Six of Swords",
+        "attempt": 2
+      }
+    },
+    {
+      "index": 6,
+      "slug": "07-seven-of-swords",
+      "rank": "VII",
+      "name": "Seven of Swords",
+      "title": "The Removed Record",
+      "keywords": "STRATEGY / CONCEALMENT",
+      "expected_sword_count": 7,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: SEVEN OF SWORDS.\nExactly SEVEN swords: FIVE carried, TWO left behind. One hooded adult moves sideways on slender bare feet and glances over a shoulder. The figure gathers FIVE swords in both forearms; show a clearly countable fan of FIVE distinct straight blades and FIVE distinct crossguards/handles, separated by cream slivers. Behind the figure, TWO complete upright swords remain planted on a small openwork footing, spaced apart. No extra weapons or blade-shaped robe ornaments. One thin RED thread is caught at the carrier's wrist and trails backward toward the gap between the two retained swords. No victim, tent, camp, scenery or written record. The theft or tactical withdrawal remains ambiguous.",
+      "attempt": 2,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The carrier removes five blades and leaves two behind. The trailing thread makes an incomplete departure visible without deciding whether it is theft, strategy or retreat.",
+      "upright": "Tactical discretion; an indirect route; a deliberate omission.",
+      "reversed": "Concealment that harms others; an account arranged to evade scrutiny.",
+      "question": "What is being withheld, from whom, and at whose expense?",
+      "numeral": "7",
+      "archetype": "Seven of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: SEVEN OF SWORDS.\nExactly SEVEN swords: FIVE carried, TWO left behind. One hooded adult moves sideways on slender bare feet and glances over a shoulder. The figure gathers FIVE swords in both forearms; show a clearly countable fan of FIVE distinct straight blades and FIVE distinct crossguards/handles, separated by cream slivers. Behind the figure, TWO complete upright swords remain planted on a small openwork footing, spaced apart. No extra weapons or blade-shaped robe ornaments. One thin RED thread is caught at the carrier's wrist and trails backward toward the gap between the two retained swords. No victim, tent, camp, scenery or written record. The theft or tactical withdrawal remains ambiguous.",
+          "status": "superseded",
+          "file": "attempts/07-seven-of-swords-v01.png",
+          "sha256": "b35f231f9e85b226c1f80b5f76244e046464251aa10cc0b3900eb38276dc183d"
+        },
+        {
+          "attempt": 2,
+          "prompt": "Make one precise removal from this SEVEN OF SWORDS illustration. Keep the hooded carrier, face, hands, feet, red wrist thread, two planted swords at left and the five carried swords whose handles point up and blades point down. There is one EXTRA unpaired blade pointing UPWARD just in front of the carrier's face, its tip near the upper right of the hood and its lower end in the hands. Remove ONLY that extra upward-pointing blade and any of its unattached lines, restoring flat cream air in that narrow region. Preserve the FIVE existing carried swords with their FIVE clearly visible handles/crossguards and downward-pointed blades. Preserve the TWO planted swords. Final total exactly SEVEN swords: five carried pointing down plus two planted at left. No new blade, no red addition, no change to anatomy or robe, no text or frame.",
+          "status": "selected",
+          "reason": "Five carried hilts and two planted swords are present, but an additional unpaired upward-pointing blade makes the total ambiguous.",
+          "file": "art/07-seven-of-swords-v02.png",
+          "sha256": "89cd461a15804dfef163ea8bb9f60b5c1c282da0e62e181b5cea724e889888a5"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 7,
+        "observed": 7,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Five carried hilts and two planted swords; the extra unpaired upward blade was removed."
+      },
+      "source_art": {
+        "file": "art/07-seven-of-swords-v02.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "89cd461a15804dfef163ea8bb9f60b5c1c282da0e62e181b5cea724e889888a5"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/07-seven-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "cb6404d484189b8f3eb81b5cfbde3f1d236a1c86cb1096cb56fed1cfc8294a6c",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/07-seven-of-swords-v02.png",
+        "sha256": "89cd461a15804dfef163ea8bb9f60b5c1c282da0e62e181b5cea724e889888a5",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1396,
+        "eroded_core_pixels": 84,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 1,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          152.0,
+          25.5,
+          24.0
+        ],
+        "median_red_hex_rounded": "#981a18",
+        "modal_red_hex": "#72100f",
+        "modal_frequency": 1,
+        "unique_sample_colours": 84,
+        "nearest_candidate_hex": "#a32b24",
+        "median_max_channel_error": 20.5,
+        "p95_max_channel_error": 40.54999999999998,
+        "sample_fraction_within_5_per_channel": 0.07142857142857142,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Seven of Swords",
+        "attempt": 2
+      }
+    },
+    {
+      "index": 7,
+      "slug": "08-eight-of-swords",
+      "rank": "VIII",
+      "name": "Eight of Swords",
+      "title": "The Bound Observer",
+      "keywords": "CONSTRAINT / SIGHT",
+      "expected_sword_count": 8,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: EIGHT OF SWORDS.\nExactly EIGHT upright swords: FOUR in a spaced row to the left of a standing figure and FOUR in a spaced row to the right. All eight hilts and tips distinct and countable; their simple blades do not overlap. The robed keeper's eyes are covered by a BLACK cloth, and a SINGLE continuous RED cord loosely encircles the forearms in front, the only red. Feet and an open gap in the foreground remain visible. The body's cellular robe is intricate, the sword enclosure very clear. No additional daggers, crown spikes, scenery or other figures. Do not make the pose one of successful escape or imply the bonds are safe to remove; the image shows limited information and constrained movement.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A covered-eyed keeper stands inside an enclosure of blades. The foreground remains open, but the image does not establish what the keeper knows or what movement would cost.",
+      "upright": "A constraint named; attention to available information.",
+      "reversed": "Restriction mistaken for personal failure; options invisible from within.",
+      "question": "Which limit is physical, which is informational, and who could help distinguish them?",
+      "numeral": "8",
+      "archetype": "Eight of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: EIGHT OF SWORDS.\nExactly EIGHT upright swords: FOUR in a spaced row to the left of a standing figure and FOUR in a spaced row to the right. All eight hilts and tips distinct and countable; their simple blades do not overlap. The robed keeper's eyes are covered by a BLACK cloth, and a SINGLE continuous RED cord loosely encircles the forearms in front, the only red. Feet and an open gap in the foreground remain visible. The body's cellular robe is intricate, the sword enclosure very clear. No additional daggers, crown spikes, scenery or other figures. Do not make the pose one of successful escape or imply the bonds are safe to remove; the image shows limited information and constrained movement.",
+          "status": "selected",
+          "file": "art/08-eight-of-swords-v01.png",
+          "sha256": "15c183c6439fbe7bd63c7a491fe8a923cf7c2e1be84d4eb10ecc995091a85b73"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 8,
+        "observed": 8,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Rank count checked."
+      },
+      "source_art": {
+        "file": "art/08-eight-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "15c183c6439fbe7bd63c7a491fe8a923cf7c2e1be84d4eb10ecc995091a85b73"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/08-eight-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "41c0b1855eebd1e48ddc980bbfc18529eaa24e7c9cc14b0b8359d1bc1e2aaa9e",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/08-eight-of-swords-v01.png",
+        "sha256": "15c183c6439fbe7bd63c7a491fe8a923cf7c2e1be84d4eb10ecc995091a85b73",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2201,
+        "eroded_core_pixels": 154,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          139.5,
+          43.0,
+          35.0
+        ],
+        "median_red_hex_rounded": "#8c2b23",
+        "modal_red_hex": "#5b1513",
+        "modal_frequency": 1,
+        "unique_sample_colours": 154,
+        "nearest_candidate_hex": "#a32d22",
+        "median_max_channel_error": 26.0,
+        "p95_max_channel_error": 57.39999999999998,
+        "sample_fraction_within_5_per_channel": 0.012987012987012988,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Eight of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 8,
+      "slug": "09-nine-of-swords",
+      "rank": "IX",
+      "name": "Nine of Swords",
+      "title": "The Night Register",
+      "keywords": "DREAD / REPETITION",
+      "expected_sword_count": 9,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: NINE OF SWORDS.\nExactly NINE horizontal swords hang in one column above and behind a seated figure, arranged as THREE groups of THREE rows, with a slightly wider gap between groups. All nine are parallel, pointed to the right, each with its own clearly visible handle/crossguard at left and tip at right. No extra weapon or sword-shaped bedpost. Below, one fully clothed human sits at the side of a small porous openwork bed, bare feet down, covering the face with two hands. One RED thread winds once around a wrist and hangs toward the floor, ending in a dot; only this is red. The density belongs to the bed and garment; the nine blades sit in open cream air and remain easy to count. No dark room fill, night sky, blood or scenery.",
+      "attempt": 2,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The sleepless figure faces a repeated register of blades. Repetition gives dread a structure; it does not establish that the feared event has happened.",
+      "upright": "Fear spoken; a recurring thought made observable.",
+      "reversed": "Rumination; dread mistaken for evidence; solitude that amplifies alarm.",
+      "question": "What is known now, and what keeps returning without new evidence?",
+      "numeral": "9",
+      "archetype": "Nine of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: NINE OF SWORDS.\nExactly NINE horizontal swords hang in one column above and behind a seated figure, arranged as THREE groups of THREE rows, with a slightly wider gap between groups. All nine are parallel, pointed to the right, each with its own clearly visible handle/crossguard at left and tip at right. No extra weapon or sword-shaped bedpost. Below, one fully clothed human sits at the side of a small porous openwork bed, bare feet down, covering the face with two hands. One RED thread winds once around a wrist and hangs toward the floor, ending in a dot; only this is red. The density belongs to the bed and garment; the nine blades sit in open cream air and remain easy to count. No dark room fill, night sky, blood or scenery.",
+          "status": "superseded",
+          "file": "attempts/09-nine-of-swords-v01.png",
+          "sha256": "723a67e5438c52ce43a4da0305f8943062cda622d683cfdc2a357d622145def0"
+        },
+        {
+          "attempt": 2,
+          "prompt": "Correct only the blade register of this NINE OF SWORDS illustration. Preserve the seated sleepless person, face covered by hands, full bed, wrist thread, clothing, cream background, palette and engraved cellular drawing hand. Replace the current rack of SEVEN swords with EXACTLY NINE complete horizontal swords in NINE separate rows, all pointed right, above the person's head. Make the rack smaller as needed so all nine swords fit in the upper cream space WITHOUT overlapping the hood: reduce blade length, hilt ornament and row height rather than removing any swords. Every row must contain exactly one complete sword with visible hilt/crossguard/tip. Nine rows must all be present and clearly countable. No extra blades anywhere, no text, no red on blades, no new red marks, no other changes.",
+          "status": "selected",
+          "reason": "First attempt has seven visible swords, not nine.",
+          "file": "art/09-nine-of-swords-v02.png",
+          "sha256": "697c942e9f8aaba24143ef512b3a7b0b6001baf9f1200a6ce3e2eed009457a4d"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 9,
+        "observed": 9,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "Nine complete horizontal swords in separate rows."
+      },
+      "source_art": {
+        "file": "art/09-nine-of-swords-v02.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "697c942e9f8aaba24143ef512b3a7b0b6001baf9f1200a6ce3e2eed009457a4d"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/09-nine-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "52e1128c1ffdd609a5458fd8a978efcbc166bda4d11a1384688009cac90f8d2a",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/09-nine-of-swords-v02.png",
+        "sha256": "697c942e9f8aaba24143ef512b3a7b0b6001baf9f1200a6ce3e2eed009457a4d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1550,
+        "eroded_core_pixels": 150,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          191.0,
+          23.5,
+          16.0
+        ],
+        "median_red_hex_rounded": "#bf1810",
+        "modal_red_hex": "#640000",
+        "modal_frequency": 1,
+        "unique_sample_colours": 150,
+        "nearest_candidate_hex": "#a62e22",
+        "median_max_channel_error": 35.0,
+        "p95_max_channel_error": 52.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Nine of Swords",
+        "attempt": 2
+      }
+    },
+    {
+      "index": 9,
+      "slug": "10-ten-of-swords",
+      "rank": "X",
+      "name": "Ten of Swords",
+      "title": "The Last Account",
+      "keywords": "EXHAUSTION / END",
+      "expected_sword_count": 10,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: TEN OF SWORDS.\nExactly TEN swords rise from the folds of a fallen figure's cloak in TWO staggered groups of FIVE, each with a visible distinct hilt and a separate straight blade. The figure lies across the lower half of the image, fully covered by a cellular mantle, face turned aside and one hand open. Stylized symbolic exhaustion, no visible puncture wounds, no blood, no injury detail, no gore. Keep all ten swords recognizable rather than a cluster of spikes; ornate handles small and simple. A SINGLE RED thread lies slack beside the open palm and ends before a small empty black ring, the only red. No sunrise, horizon, rescue figure, black sky or decorative extra weapons. Full composition in cream air, a definitive ending left unredeemed.",
+      "attempt": 3,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The fallen mantle holds the final blades, and the red thread lies slack beside an open hand. The card gives an ending its weight without requiring a hidden benefit.",
+      "upright": "An ending acknowledged; an exhausted course released.",
+      "reversed": "An ending denied; one defeat made into a total identity.",
+      "question": "What can end here without being made to stand for the whole of my life?",
+      "numeral": "10",
+      "archetype": "Ten of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: TEN OF SWORDS.\nExactly TEN swords rise from the folds of a fallen figure's cloak in TWO staggered groups of FIVE, each with a visible distinct hilt and a separate straight blade. The figure lies across the lower half of the image, fully covered by a cellular mantle, face turned aside and one hand open. Stylized symbolic exhaustion, no visible puncture wounds, no blood, no injury detail, no gore. Keep all ten swords recognizable rather than a cluster of spikes; ornate handles small and simple. A SINGLE RED thread lies slack beside the open palm and ends before a small empty black ring, the only red. No sunrise, horizon, rescue figure, black sky or decorative extra weapons. Full composition in cream air, a definitive ending left unredeemed.",
+          "status": "superseded",
+          "file": "attempts/10-ten-of-swords-v01.png",
+          "sha256": "281650a4eb54d3512eb68736cabf684a38007d756d46d3e89949ebc109dbd07b"
+        },
+        {
+          "attempt": 2,
+          "prompt": "Correct only the weapon count in this TEN OF SWORDS illustration. Preserve the fallen fully clothed person, face and open hand, lattice mantle, red wrist thread and black ring, cream ground, composition, colour and engraved drawing hand. There are currently FOUR swords in the left fan and FIVE in the right fan. Preserve those NINE existing swords and ADD exactly ONE new matching complete sword to the LEFT fan, in a clear gap between two of its existing blades. Final arrangement must show FIVE swords on the left and FIVE on the right, TEN total, every hilt visible and each blade distinguishable. No new spikes or duplicate hilts, no wounds, blood, text, frame or extra red. No other changes.",
+          "status": "superseded",
+          "reason": "First attempt has nine visible swords, not ten.",
+          "file": "attempts/10-ten-of-swords-v02.png",
+          "sha256": "7d3d9a3e4b345e3f72658930f8b6fb025dedaddb7419e3c66c2f1253cf95245f"
+        },
+        {
+          "attempt": 3,
+          "prompt": "Make ONE addition only to this TEN OF SWORDS illustration. Keep ALL NINE currently visible swords intact: four at viewer-left and five at viewer-right. ADD ONE new, separate, complete straight sword VERTICALLY in the large empty CENTRAL GAP between those two fans, at the horizontal centre of the image. Put its hilt and crossguard high in the central cream space, clearly apart from every existing hilt; let its blade descend straight down to the cloak. This new central sword is the TENTH: final arrangement FOUR left + ONE centre + FIVE right = TEN. Do not try to redraw either fan or replace any existing sword. Do not remove, move, hide or merge a sword. Preserve the fallen person, face, hands, clothing, palette, red thread, black ring and line quality exactly. No text, no frame, no blood or additional red. The added central sword must have exactly one visible handle, crossguard and blade.",
+          "status": "selected",
+          "reason": "Second attempt still had nine swords. Added a distinct central tenth sword.",
+          "file": "art/10-ten-of-swords-v03.png",
+          "sha256": "db9bdf59b446b9b6b5f832558cd4b1c2cd82e4ce4b306d090a01a8ffc54369c4"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 10,
+        "observed": 10,
+        "method": "Manual count of ten separate hilts and blades at native image scale.",
+        "note": "Four left, one central and five right. The first and second attempts each have nine swords."
+      },
+      "source_art": {
+        "file": "art/10-ten-of-swords-v03.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "db9bdf59b446b9b6b5f832558cd4b1c2cd82e4ce4b306d090a01a8ffc54369c4"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/10-ten-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "52d4f891cbbebdc7f23bd31b738ac57ad6a35443accf13c90465382fce9b49fb",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/10-ten-of-swords-v03.png",
+        "sha256": "db9bdf59b446b9b6b5f832558cd4b1c2cd82e4ce4b306d090a01a8ffc54369c4",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1014,
+        "eroded_core_pixels": 56,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          181.0,
+          16.5,
+          17.0
+        ],
+        "median_red_hex_rounded": "#b51111",
+        "modal_red_hex": "#ba0c09",
+        "modal_frequency": 2,
+        "unique_sample_colours": 55,
+        "nearest_candidate_hex": "#a22821",
+        "median_max_channel_error": 30.0,
+        "p95_max_channel_error": 39.25,
+        "sample_fraction_within_5_per_channel": 0.017857142857142856,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ten of Swords",
+        "attempt": 3
+      }
+    },
+    {
+      "index": 10,
+      "slug": "11-page-of-swords",
+      "rank": "P",
+      "name": "Page of Swords",
+      "title": "The Listener",
+      "keywords": "CURIOSITY / TEST",
+      "expected_sword_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: PAGE OF SWORDS.\nExactly ONE sword. A full-length androgynous YOUNG ADULT page, visibly an adult, stands lightly turned with an alert listening expression and an uncovered face. Short curled hair under a small openwork cap, no hood, no crown. Two hands hold the same upright sword by its ONE handle at chest height, blade angled slightly left. The free edges of the slate-inset cellular mantle turn as if in a mild breeze, but no landscape. One RED thread loops once around the upper sword wrist and trails into open cream air ending in a dot. The sword is held cautiously, not attacking. Different face from the supplied reference. No extra arms, weapons, birds or props.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The page listens while learning how to hold a blade. Alertness has not yet become a mandate; the red wrist thread marks the hand still being trained.",
+      "upright": "Curiosity; a careful test; a question asked well.",
+      "reversed": "Suspicion without inquiry; cleverness used before understanding.",
+      "question": "What could I test before I announce what I think I know?",
+      "numeral": "P",
+      "archetype": "Page of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: PAGE OF SWORDS.\nExactly ONE sword. A full-length androgynous YOUNG ADULT page, visibly an adult, stands lightly turned with an alert listening expression and an uncovered face. Short curled hair under a small openwork cap, no hood, no crown. Two hands hold the same upright sword by its ONE handle at chest height, blade angled slightly left. The free edges of the slate-inset cellular mantle turn as if in a mild breeze, but no landscape. One RED thread loops once around the upper sword wrist and trails into open cream air ending in a dot. The sword is held cautiously, not attacking. Different face from the supplied reference. No extra arms, weapons, birds or props.",
+          "status": "selected",
+          "file": "art/11-page-of-swords-v01.png",
+          "sha256": "db7d8880b253644de60cc5cbb9cb49ae72f4716f113307f27874b93139f5f4aa"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "One sword; decorative crown and chair terminals excluded."
+      },
+      "source_art": {
+        "file": "art/11-page-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "db7d8880b253644de60cc5cbb9cb49ae72f4716f113307f27874b93139f5f4aa"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/11-page-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "dc7eaa8a525237ecf21f5022093fa42b900eeaa4926eef34afe975788b5ce629",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/11-page-of-swords-v01.png",
+        "sha256": "db7d8880b253644de60cc5cbb9cb49ae72f4716f113307f27874b93139f5f4aa",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1372,
+        "eroded_core_pixels": 37,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          186.0,
+          34.0,
+          27.0
+        ],
+        "median_red_hex_rounded": "#ba221b",
+        "modal_red_hex": "#7c1915",
+        "modal_frequency": 1,
+        "unique_sample_colours": 37,
+        "nearest_candidate_hex": "#a32d25",
+        "median_max_channel_error": 29.0,
+        "p95_max_channel_error": 49.79999999999998,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Page of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 11,
+      "slug": "12-knight-of-swords",
+      "rank": "N",
+      "name": "Knight of Swords",
+      "title": "The Running Argument",
+      "keywords": "SPEED / CONSEQUENCE",
+      "expected_sword_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: KNIGHT OF SWORDS.\nExactly ONE sword and ONE horse. A slender adult knight in cellular openwork armour rides a complete long-legged horse diagonally forward, the horse's entire head, four legs and tail all visible with space between limbs. The knight has a narrow uncovered face in profile beneath an open helmet; one hand raises one sword forward, the other holds the reins. One continuous muted RED bridle/rein line connects the holding hand to the horse's head, the only red. Every other tack line is black. Sparse slate armour insets and tiny ochre seams. No lance, spear, sword at belt, other riders, landscape, flags or battle. Motion is intent and momentum, not a claim of justified aggression.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The rider commits to a direction faster than the arrangement around them can be examined. The red rein connects the argument's speed to another living body.",
+      "upright": "Decisive movement; courage; a thought carried into action.",
+      "reversed": "Haste; aggression; consequences outrun the reasons offered.",
+      "question": "What would make this speed proportionate to what is actually known?",
+      "numeral": "KN",
+      "archetype": "Knight of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: KNIGHT OF SWORDS.\nExactly ONE sword and ONE horse. A slender adult knight in cellular openwork armour rides a complete long-legged horse diagonally forward, the horse's entire head, four legs and tail all visible with space between limbs. The knight has a narrow uncovered face in profile beneath an open helmet; one hand raises one sword forward, the other holds the reins. One continuous muted RED bridle/rein line connects the holding hand to the horse's head, the only red. Every other tack line is black. Sparse slate armour insets and tiny ochre seams. No lance, spear, sword at belt, other riders, landscape, flags or battle. Motion is intent and momentum, not a claim of justified aggression.",
+          "status": "selected",
+          "file": "art/12-knight-of-swords-v01.png",
+          "sha256": "43d38454c6db56e47e2fcc6ab420fc0ce9d8ca59daa12e69fadfd4c809bf341a"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "One sword; decorative crown and chair terminals excluded."
+      },
+      "source_art": {
+        "file": "art/12-knight-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "43d38454c6db56e47e2fcc6ab420fc0ce9d8ca59daa12e69fadfd4c809bf341a"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/12-knight-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "9226a0ef70ef8c422b106db12118009dbf4e5c2810cfe780ed6c2b30371a6241",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/12-knight-of-swords-v01.png",
+        "sha256": "43d38454c6db56e47e2fcc6ab420fc0ce9d8ca59daa12e69fadfd4c809bf341a",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2275,
+        "eroded_core_pixels": 253,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          197.0,
+          39.0,
+          33.0
+        ],
+        "median_red_hex_rounded": "#c52721",
+        "modal_red_hex": "#6e131c",
+        "modal_frequency": 1,
+        "unique_sample_colours": 253,
+        "nearest_candidate_hex": "#a22c24",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 53.0,
+        "sample_fraction_within_5_per_channel": 0.007905138339920948,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Knight of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 12,
+      "slug": "13-queen-of-swords",
+      "rank": "Q",
+      "name": "Queen of Swords",
+      "title": "The Clear Boundary",
+      "keywords": "DISCERNMENT / TERMS",
+      "expected_sword_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: QUEEN OF SWORDS.\nExactly ONE sword. A mature woman with an individual long thoughtful face sits upright in a narrow cellular-lattice throne, full figure and feet visible. Hair loosely drawn back, a small openwork crown with ROUNDED loops rather than swordlike points. Her right hand holds ONE long straight sword vertically beside the face. Her left arm extends with palm open and fingers naturally separate, neither beckoning nor commanding. One RED thread loops once around the open wrist and drops to a terminal dot, the only red. Chair panels contain sparse slate insets and an EMPTY cream ring near the shoulder. The face is clear-eyed, neither cruel nor smiling for approval. No hood, book, extra weapon, clouds or background.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The queen holds an upright blade while extending an open hand. A boundary is stated in the presence of another person, with room to hear a response.",
+      "upright": "Discernment; clear terms; compassion without surrendering a boundary.",
+      "reversed": "Coldness used as authority; a boundary made impossible to question.",
+      "question": "Can I state this limit clearly while remaining answerable for its effects?",
+      "numeral": "Q",
+      "archetype": "Queen of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: QUEEN OF SWORDS.\nExactly ONE sword. A mature woman with an individual long thoughtful face sits upright in a narrow cellular-lattice throne, full figure and feet visible. Hair loosely drawn back, a small openwork crown with ROUNDED loops rather than swordlike points. Her right hand holds ONE long straight sword vertically beside the face. Her left arm extends with palm open and fingers naturally separate, neither beckoning nor commanding. One RED thread loops once around the open wrist and drops to a terminal dot, the only red. Chair panels contain sparse slate insets and an EMPTY cream ring near the shoulder. The face is clear-eyed, neither cruel nor smiling for approval. No hood, book, extra weapon, clouds or background.",
+          "status": "selected",
+          "file": "art/13-queen-of-swords-v01.png",
+          "sha256": "87357d18c8e01d4101f4eb847d866202a4caedb40932f6bd612c43fb197d6c2b"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "One sword; decorative crown and chair terminals excluded."
+      },
+      "source_art": {
+        "file": "art/13-queen-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "87357d18c8e01d4101f4eb847d866202a4caedb40932f6bd612c43fb197d6c2b"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/13-queen-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "14002284d5bc51c1f5513f0d4a3c874eb495e3fff58ed3cd415c6703ecd27191",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/13-queen-of-swords-v01.png",
+        "sha256": "87357d18c8e01d4101f4eb847d866202a4caedb40932f6bd612c43fb197d6c2b",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 861,
+        "eroded_core_pixels": 23,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          198.0,
+          37.0,
+          20.0
+        ],
+        "median_red_hex_rounded": "#c62514",
+        "modal_red_hex": "#a90705",
+        "modal_frequency": 1,
+        "unique_sample_colours": 23,
+        "nearest_candidate_hex": "#a9261e",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 43.8,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Queen of Swords",
+        "attempt": 1
+      }
+    },
+    {
+      "index": 13,
+      "slug": "14-king-of-swords",
+      "rank": "K",
+      "name": "King of Swords",
+      "title": "The Final Word",
+      "keywords": "JUDGMENT / REVISION",
+      "expected_sword_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: KING OF SWORDS.\nExactly ONE sword. A mature androgynous king with a lean bearded face sits frontally on a high openwork chair, full body and both feet visible. A spare black crown of rounded lattice loops, no pointed blade-like crown spikes. One hand holds ONE upright straight sword, blade separate from the head. The other supports an open completely BLANK book resting on the lap. A SINGLE muted RED ribbon passes once across the open book and trails down beside the chair to a dot, the only red. Sparse slate insets in robe, tiny ochre seams. The authority is attentive and bounded: leave the throne's central circular headrest empty cream. No other swords, scepter, sword-shaped footwork, second person, text or scenery.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "The king holds a blade beside an open book crossed by one ribbon. A judgment can close a matter while its grounds remain available to later examination.",
+      "upright": "Accountable judgment; a decision with stated grounds.",
+      "reversed": "A final word protected from revision; authority replacing reasons.",
+      "question": "What would have to remain inspectable after this decision is made?",
+      "numeral": "K",
+      "archetype": "King of Swords",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: KING OF SWORDS.\nExactly ONE sword. A mature androgynous king with a lean bearded face sits frontally on a high openwork chair, full body and both feet visible. A spare black crown of rounded lattice loops, no pointed blade-like crown spikes. One hand holds ONE upright straight sword, blade separate from the head. The other supports an open completely BLANK book resting on the lap. A SINGLE muted RED ribbon passes once across the open book and trails down beside the chair to a dot, the only red. Sparse slate insets in robe, tiny ochre seams. The authority is attentive and bounded: leave the throne's central circular headrest empty cream. No other swords, scepter, sword-shaped footwork, second person, text or scenery.",
+          "status": "selected",
+          "file": "art/14-king-of-swords-v01.png",
+          "sha256": "57143cd121f5406604d6add6f18fac750b5408c8cd3a4f243c1316a6d4379e4f"
+        }
+      ],
+      "blade_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual count of hilts, guards and blades at native image scale.",
+        "note": "One sword; decorative crown and chair terminals excluded."
+      },
+      "source_art": {
+        "file": "art/14-king-of-swords-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "57143cd121f5406604d6add6f18fac750b5408c8cd3a4f243c1316a6d4379e4f"
+      },
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_file": "cards/14-king-of-swords.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "40525dd5b7be902f1cd9d0b3e1c32377b8d0ed24947e725295ab3a83d858bebf",
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/14-king-of-swords-v01.png",
+        "sha256": "57143cd121f5406604d6add6f18fac750b5408c8cd3a4f243c1316a6d4379e4f",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1771,
+        "eroded_core_pixels": 301,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          191.0,
+          38.0,
+          25.0
+        ],
+        "median_red_hex_rounded": "#bf2619",
+        "modal_red_hex": "#94100b",
+        "modal_frequency": 2,
+        "unique_sample_colours": 296,
+        "nearest_candidate_hex": "#a32c23",
+        "median_max_channel_error": 29.0,
+        "p95_max_channel_error": 53.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "King of Swords",
+        "attempt": 1
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "index": 5,
+      "slug": "06-six-of-swords",
+      "name": "Six of Swords",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: SIX OF SWORDS.\nExactly SIX swords, all planted upright in the boat in TWO visible rows of THREE. Every sword has a separate simple crossguard, handle and complete blade; no sword is held by a person. A long shallow boat is made from porous black cellular lace with sparse slate hull insets. A standing ferryman uses one obviously ROUND-ENDED wooden pole with no blade or crossguard, and carries two seated hooded passengers, one adult and one smaller figure, both fully clothed. The passengers face away. A single thin RED thread runs from the boat's bow toward a small empty black ring suspended ahead; it is the only red. The six swords travel with them. No river landscape or horizon, just a few very sparse black curved marks beneath the boat. Full boat, pole and all sword tips visible.",
+      "reason": "First attempt has five visible swords, not six.",
+      "status": "superseded",
+      "file": "attempts/06-six-of-swords-v01.png",
+      "sha256": "00ce86b899e850192bb95fff659f3e61d9b14721268e12f2077249610366ff85",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/attempts/06-six-of-swords-v01.png",
+        "sha256": "00ce86b899e850192bb95fff659f3e61d9b14721268e12f2077249610366ff85",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 551,
+        "eroded_core_pixels": 1,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          165.0,
+          38.0,
+          30.0
+        ],
+        "median_red_hex_rounded": "#a5261e",
+        "modal_red_hex": "#920d09",
+        "modal_frequency": 2,
+        "unique_sample_colours": 538,
+        "nearest_candidate_hex": "#a22a23",
+        "median_max_channel_error": 30.0,
+        "p95_max_channel_error": 73.0,
+        "sample_fraction_within_5_per_channel": 0.029038112522686024,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Six of Swords",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 6,
+      "slug": "07-seven-of-swords",
+      "name": "Seven of Swords",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: SEVEN OF SWORDS.\nExactly SEVEN swords: FIVE carried, TWO left behind. One hooded adult moves sideways on slender bare feet and glances over a shoulder. The figure gathers FIVE swords in both forearms; show a clearly countable fan of FIVE distinct straight blades and FIVE distinct crossguards/handles, separated by cream slivers. Behind the figure, TWO complete upright swords remain planted on a small openwork footing, spaced apart. No extra weapons or blade-shaped robe ornaments. One thin RED thread is caught at the carrier's wrist and trails backward toward the gap between the two retained swords. No victim, tent, camp, scenery or written record. The theft or tactical withdrawal remains ambiguous.",
+      "reason": "Five carried hilts and two planted swords are present, but an additional unpaired upward-pointing blade makes the total ambiguous.",
+      "status": "superseded",
+      "file": "attempts/07-seven-of-swords-v01.png",
+      "sha256": "b35f231f9e85b226c1f80b5f76244e046464251aa10cc0b3900eb38276dc183d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/attempts/07-seven-of-swords-v01.png",
+        "sha256": "b35f231f9e85b226c1f80b5f76244e046464251aa10cc0b3900eb38276dc183d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1263,
+        "eroded_core_pixels": 33,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          148.0,
+          39.0,
+          33.0
+        ],
+        "median_red_hex_rounded": "#942721",
+        "modal_red_hex": "#64080b",
+        "modal_frequency": 1,
+        "unique_sample_colours": 33,
+        "nearest_candidate_hex": "#a42c25",
+        "median_max_channel_error": 18.0,
+        "p95_max_channel_error": 49.79999999999998,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Seven of Swords",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 8,
+      "slug": "09-nine-of-swords",
+      "name": "Nine of Swords",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: NINE OF SWORDS.\nExactly NINE horizontal swords hang in one column above and behind a seated figure, arranged as THREE groups of THREE rows, with a slightly wider gap between groups. All nine are parallel, pointed to the right, each with its own clearly visible handle/crossguard at left and tip at right. No extra weapon or sword-shaped bedpost. Below, one fully clothed human sits at the side of a small porous openwork bed, bare feet down, covering the face with two hands. One RED thread winds once around a wrist and hangs toward the floor, ending in a dot; only this is red. The density belongs to the bed and garment; the nine blades sit in open cream air and remain easy to count. No dark room fill, night sky, blood or scenery.",
+      "reason": "First attempt has seven visible swords, not nine.",
+      "status": "superseded",
+      "file": "attempts/09-nine-of-swords-v01.png",
+      "sha256": "723a67e5438c52ce43a4da0305f8943062cda622d683cfdc2a357d622145def0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/attempts/09-nine-of-swords-v01.png",
+        "sha256": "723a67e5438c52ce43a4da0305f8943062cda622d683cfdc2a357d622145def0",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1349,
+        "eroded_core_pixels": 63,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          179.0,
+          22.0,
+          18.0
+        ],
+        "median_red_hex_rounded": "#b31612",
+        "modal_red_hex": "#650001",
+        "modal_frequency": 1,
+        "unique_sample_colours": 63,
+        "nearest_candidate_hex": "#a22b20",
+        "median_max_channel_error": 31.0,
+        "p95_max_channel_error": 43.9,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Nine of Swords",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 9,
+      "slug": "10-ten-of-swords",
+      "name": "Ten of Swords",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: TEN OF SWORDS.\nExactly TEN swords rise from the folds of a fallen figure's cloak in TWO staggered groups of FIVE, each with a visible distinct hilt and a separate straight blade. The figure lies across the lower half of the image, fully covered by a cellular mantle, face turned aside and one hand open. Stylized symbolic exhaustion, no visible puncture wounds, no blood, no injury detail, no gore. Keep all ten swords recognizable rather than a cluster of spikes; ornate handles small and simple. A SINGLE RED thread lies slack beside the open palm and ends before a small empty black ring, the only red. No sunrise, horizon, rescue figure, black sky or decorative extra weapons. Full composition in cream air, a definitive ending left unredeemed.",
+      "reason": "First attempt has nine visible swords, not ten.",
+      "status": "superseded",
+      "file": "attempts/10-ten-of-swords-v01.png",
+      "sha256": "281650a4eb54d3512eb68736cabf684a38007d756d46d3e89949ebc109dbd07b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/attempts/10-ten-of-swords-v01.png",
+        "sha256": "281650a4eb54d3512eb68736cabf684a38007d756d46d3e89949ebc109dbd07b",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 860,
+        "eroded_core_pixels": 13,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          161.0,
+          10.0,
+          15.0
+        ],
+        "median_red_hex_rounded": "#a10a0f",
+        "modal_red_hex": "#790910",
+        "modal_frequency": 1,
+        "unique_sample_colours": 13,
+        "nearest_candidate_hex": "#9f2c24",
+        "median_max_channel_error": 34.0,
+        "p95_max_channel_error": 42.4,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ten of Swords",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 9,
+      "slug": "10-ten-of-swords",
+      "name": "Ten of Swords",
+      "attempt": 2,
+      "prompt": "Correct only the weapon count in this TEN OF SWORDS illustration. Preserve the fallen fully clothed person, face and open hand, lattice mantle, red wrist thread and black ring, cream ground, composition, colour and engraved drawing hand. There are currently FOUR swords in the left fan and FIVE in the right fan. Preserve those NINE existing swords and ADD exactly ONE new matching complete sword to the LEFT fan, in a clear gap between two of its existing blades. Final arrangement must show FIVE swords on the left and FIVE on the right, TEN total, every hilt visible and each blade distinguishable. No new spikes or duplicate hilts, no wounds, blood, text, frame or extra red. No other changes.",
+      "reason": "Correction still has nine swords (four left and five right).",
+      "status": "superseded",
+      "file": "attempts/10-ten-of-swords-v02.png",
+      "sha256": "7d3d9a3e4b345e3f72658930f8b6fb025dedaddb7419e3c66c2f1253cf95245f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/attempts/10-ten-of-swords-v02.png",
+        "sha256": "7d3d9a3e4b345e3f72658930f8b6fb025dedaddb7419e3c66c2f1253cf95245f",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 943,
+        "eroded_core_pixels": 36,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          168.0,
+          11.5,
+          14.0
+        ],
+        "median_red_hex_rounded": "#a80c0e",
+        "modal_red_hex": "#7c130e",
+        "modal_frequency": 1,
+        "unique_sample_colours": 36,
+        "nearest_candidate_hex": "#a42727",
+        "median_max_channel_error": 32.5,
+        "p95_max_channel_error": 40.25,
+        "sample_fraction_within_5_per_channel": 0.05555555555555555,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ten of Swords",
+        "attempt": 2,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 2,
+      "slug": "03-three-of-swords",
+      "name": "Three of Swords",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: THREE OF SWORDS.\nExactly THREE swords, each hilt and tip distinct. A large anatomically suggestive heart-shaped VESSEL made of open cellular lace floats alone: a symbolic heart-object, no realistic organ, blood or gore. One vertical sword points downward through its centre; two diagonal swords point down toward opposite lower corners, making three clear separate passages. Their three handles sit above the vessel at left, centre and right. A SINGLE short RED seam runs down one cracked chamber of the vessel, without colouring any sword. No face, hands, birds, rain, scenery or additional weapons. Fine line, sparse slate cavity insets, abundant cream void. The vessel remains an object that held something.",
+      "reason": "The two diagonal blade segments do not share straight axes through the vessel; exit sides are wrong.",
+      "status": "superseded",
+      "file": "attempts/03-three-of-swords-v01.png",
+      "sha256": "c7113d4c384e682f5a42a431f18d8d166eac64764cac027f26a8101656a78079",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/03-three-of-swords-v01.png",
+        "sha256": "c7113d4c384e682f5a42a431f18d8d166eac64764cac027f26a8101656a78079",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1613,
+        "eroded_core_pixels": 319,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          173.0,
+          24.0,
+          21.0
+        ],
+        "median_red_hex_rounded": "#ad1815",
+        "modal_red_hex": "#890e12",
+        "modal_frequency": 2,
+        "unique_sample_colours": 317,
+        "nearest_candidate_hex": "#a42d26",
+        "median_max_channel_error": 25.0,
+        "p95_max_channel_error": 42.099999999999966,
+        "sample_fraction_within_5_per_channel": 0.006269592476489028,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Three of Swords",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 2,
+      "slug": "03-three-of-swords",
+      "name": "Three of Swords",
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. Input image is the edit target: the existing Three of Swords illustration.\nCorrect ONLY the physical geometry of the THREE swords piercing the heart-shaped cellular vessel. Preserve the vessel outline, every possible part of its cellular ornament, single red cracked seam, cream ground, muted slate insets, tiny ochre seams, line weight, scale and margins. No text or card frame.\nThere must be exactly THREE complete straight swords. Every sword has one hilt, one crossguard, and one continuous straight blade axis; the hidden segment inside the vessel must align perfectly with the visible segments.\n1. The CENTRE sword runs vertically from the top centre hilt straight down through the heart and exits at the bottom centre.\n2. The sword entering from the UPPER LEFT hilt runs diagonally DOWN AND RIGHT through the heart. Its point must emerge on the LOWER RIGHT. Move its currently wrong lower-left exit to the lower right, aligned with the upper-left blade on ONE straight line.\n3. The sword entering from the UPPER RIGHT hilt runs diagonally DOWN AND LEFT through the heart. Its point must emerge on the LOWER LEFT. Move its currently wrong lower-right exit to the lower left, aligned with the upper-right blade on ONE straight line.\nThe two diagonals cross inside the vessel. Use consistent occlusion by its tissue/lattice so there are no extra loose blade segments. Do NOT bend a blade inside the heart to meet the old exit. Exactly three hilts above and exactly three aligned sword points below, no extra weapon. Keep the interior blades near-black outlines with cream interiors; the only red stays the existing seam. No blood, new cracks, new ornament, gradients or additional colours.",
+      "reason": "Exit sides corrected, but both diagonal axes still bent within the vessel.",
+      "status": "superseded",
+      "file": "attempts/03-three-of-swords-v02.png",
+      "sha256": "edb4bf410aff5509e051ddf1361dc87a87905e77a91d1447e3982f9a0c639ce8",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/attempts/03-three-of-swords-v02.png",
+        "sha256": "edb4bf410aff5509e051ddf1361dc87a87905e77a91d1447e3982f9a0c639ce8",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1731,
+        "eroded_core_pixels": 418,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          162.0,
+          17.0,
+          14.0
+        ],
+        "median_red_hex_rounded": "#a2110e",
+        "modal_red_hex": "#8b0204",
+        "modal_frequency": 2,
+        "unique_sample_colours": 413,
+        "nearest_candidate_hex": "#a72b22",
+        "median_max_channel_error": 28.0,
+        "p95_max_channel_error": 42.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Three of Swords",
+        "attempt": 2,
+        "status": "superseded"
+      }
+    },
+    {
+      "index": 4,
+      "slug": "05-five-of-swords",
+      "name": "Five of Swords",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the SWORDS suit of Tarot of Intervals, Josiah Alan-Lee's Librum Quinque.\nBoth input images are STYLE references only. Match the approved engraved/pen drawing hand, its organic cellular lace, porous anatomical lattice, delicate vertical hanging lines ending in dots, small muted slate insets and tiny ochre seams. Do NOT copy the reference pose, six hands, stars, cups or water streams.\nPortrait 2:3 PNG, full subject visible, composition occupying about 78-82% of canvas height with open air on every side. Flat unbleached cream ground #ede6d4. Fine near-black #161918 line, sparse slate #4f6f7a, tiny ochre accents; one red intervention ONLY, target #a32b24 RGB(163,43,36), no other hues. No gradient, vignette, paper grain, painterly modelling, photographic light, 3D render, glossy metal or landscape backdrop. Light flat wash at most.\nA sword is unmistakable: one straight pointed blade, one short crossguard, one handle and pommel. Each complete sword must remain visually separate and countable. Guards and hilts may have delicate cellular filigree but the blade silhouette stays simple. Avoid additional blade-shaped ornaments, detached duplicate hilts, spears or daggers. All swords near-black with cream interiors, never red. All attached ornament and dots stay inside margins.\nNo text, numerals, letters, inscriptions, pseudo-writing, card frame, border, caption or watermark. Card furniture and exact rank labels will be typeset separately.\nSubject: FIVE OF SWORDS.\nExactly FIVE swords. Three clothed adult figures arranged as an airy aftermath: one dominant narrow-faced keeper in the foreground, two smaller figures turning away behind on opposite sides. The foreground keeper holds THREE swords: TWO distinct hilts together in the left hand, their two blades fanning apart, and ONE sword lowered in the right hand. TWO additional complete swords lie separately near the foreground feet, each hilt and tip visible. This is 3 held plus 2 on the ground, no more. One RED thread is caught loosely around the foreground keeper's ankle, ending in a dot. The expression is watchful, not celebratory. No fighting, wounds, blood, battlefield, flags or landscape. Open cream space separates all bodies and weapons.",
+      "reason": "One raised sword hilt floats behind the grip instead of being visibly held.",
+      "status": "superseded",
+      "file": "attempts/05-five-of-swords-v01.png",
+      "sha256": "9595b80c311de60535e36b81c2215e4136885cbec3c7a314815fb96c68123e3c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-swords/art/05-five-of-swords-v01.png",
+        "sha256": "9595b80c311de60535e36b81c2215e4136885cbec3c7a314815fb96c68123e3c",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 720,
+        "eroded_core_pixels": 16,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          197.5,
+          25.0,
+          19.5
+        ],
+        "median_red_hex_rounded": "#c61914",
+        "modal_red_hex": "#952b1d",
+        "modal_frequency": 1,
+        "unique_sample_colours": 16,
+        "nearest_candidate_hex": "#9e2925",
+        "median_max_channel_error": 34.5,
+        "p95_max_channel_error": 54.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Five of Swords",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    }
+  ],
+  "review": {
+    "selected_images_manually_checked": 14,
+    "counts_match": true,
+    "retries": [
+      {
+        "card": "Six of Swords",
+        "selected_attempt": 2,
+        "reason": "Added missing sixth sword."
+      },
+      {
+        "card": "Seven of Swords",
+        "selected_attempt": 2,
+        "reason": "Removed unpaired upward-pointing blade."
+      },
+      {
+        "card": "Nine of Swords",
+        "selected_attempt": 2,
+        "reason": "Replaced seven-row rack with nine complete swords."
+      },
+      {
+        "card": "Ten of Swords",
+        "selected_attempt": 3,
+        "reason": "First correction still showed nine swords; distinct central tenth sword added."
+      }
+    ],
+    "geometry_revision": "02",
+    "geometry_corrections": [
+      {
+        "card": "Three of Swords",
+        "selected_attempt": 3,
+        "reason": "Corrected exit sides and diagonal alignment with geometry guide."
+      },
+      {
+        "card": "Five of Swords",
+        "selected_attempt": 2,
+        "reason": "Both raised handles enter one visible grip."
+      }
+    ]
+  },
+  "title": "Tarot of Intervals - Swords",
+  "edition": "Concept edition 01 / geometry revision 02",
+  "project": "Codex Intervallorum",
+  "card_count": 14,
+  "card_size_mm": [
+    70,
+    120
+  ],
+  "card_export_dpi": 300,
+  "back": "cards/card-back.png",
+  "back_reused_from": "Tarot of Intervals Major Arcana pack; copied byte-for-byte",
+  "palette_targets": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "small accents; no fixed hex"
+  },
+  "art_changes": "Fourteen new illustrations; native PNGs retained without retouching. All first attempts are retained when a correction is selected.",
+  "symbolism_status": "Original editorial readings using familiar tarot motifs; no historical attribution claimed.",
+  "pdf_compression": "JPEG quality 94 artwork, full chroma; vector text and frames. Card PNGs rendered from a separate lossless master.",
+  "seed_available": false,
+  "model_version_available": false
+}
