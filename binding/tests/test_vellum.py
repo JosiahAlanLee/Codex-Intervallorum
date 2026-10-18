@@ -102,6 +102,17 @@ class VellumTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'Source paths'):
                 v.verify_page(before[0], self.page)
 
+    def test_apply_recognizes_current_and_legacy_finishing(self):
+        for stamp in ['CodexIntervallorum:vellum-1', 'LibrumQuinque:vellum-1']:
+            with self.subTest(stamp=stamp), tempfile.TemporaryDirectory() as tmp:
+                self.doc.set_metadata({'keywords': stamp})
+                source = Path(tmp) / 'source.pdf'
+                source.write_bytes(self.doc.tobytes())
+                original = source.read_bytes()
+                with self.assertRaisesRegex(ValueError, 'already has vellum'):
+                    v.apply(source)
+                self.assertEqual(source.read_bytes(), original)
+
     def test_apply_rejects_double_application_and_keeps_original(self):
         with tempfile.TemporaryDirectory() as tmp:
             source, out = Path(tmp)/'source.pdf', Path(tmp)/'out.pdf'

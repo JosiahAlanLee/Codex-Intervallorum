@@ -1,6 +1,7 @@
 """Protect functional marks and retained PDF content during pen finishing."""
 import importlib.util
 from pathlib import Path
+import tempfile
 import unittest
 
 import fitz
@@ -60,6 +61,18 @@ class ScribalTests(unittest.TestCase):
         with fitz.open(stream=raw,filetype='pdf') as original:
             with self.assertRaisesRegex(ValueError,'vector geometry'):
                 s.verify(original,self.doc,[])
+
+    def test_apply_recognizes_current_and_legacy_finishing(self):
+        for stamp in ['CodexIntervallorum:scribal-1', 'LibrumQuinque:scribal-1']:
+            with self.subTest(stamp=stamp), tempfile.TemporaryDirectory() as tmp:
+                self.doc.set_metadata({'keywords': stamp})
+                source = Path(tmp) / 'source.pdf'
+                source.write_bytes(self.doc.tobytes())
+                (Path(tmp) / 'binding-log.json').write_text('{}')
+                original = source.read_bytes()
+                with self.assertRaisesRegex(ValueError, 'already has scribal'):
+                    s.apply(source)
+                self.assertEqual(source.read_bytes(), original)
 
     def test_seed_uses_local_page_identity(self):
         self.assertEqual(s.seed_for('Clavis',3),s.seed_for('Clavis',3))

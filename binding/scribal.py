@@ -29,6 +29,7 @@ INK = (90 / 255, 67 / 255, 49 / 255)
 RED = (139 / 255, 42 / 255, 34 / 255)
 GRAPHITE = (40 / 255, 39 / 255, 34 / 255)
 STAMP = 'CodexIntervallorum:scribal-1'
+LEGACY_STAMP = 'LibrumQuinque:' + VERSION
 SCENES = {
     ('Clavis', 2),
     ('Clavicula Matricis et Intervallorum', 2),
@@ -243,7 +244,8 @@ def apply(pdf, output=None, log_path=None):
     pdf=Path(pdf); output=Path(output or pdf)
     log=json.loads(Path(log_path or pdf.with_name('binding-log.json')).read_text())
     original=fitz.open(pdf)
-    if STAMP in (original.metadata.get('keywords') or ''):
+    keywords = original.metadata.get('keywords') or ''
+    if STAMP in keywords or LEGACY_STAMP in keywords:
         original.close()
         raise ValueError('This PDF already has scribal finishing; rebuild or use the original binding')
     doc=fitz.open(pdf); records=[]

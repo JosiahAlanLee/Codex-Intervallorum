@@ -22,6 +22,7 @@ from PIL import Image, ImageDraw, ImageFilter
 
 VERSION = 'vellum-1'
 STAMP = 'CodexIntervallorum:' + VERSION
+LEGACY_STAMP = 'LibrumQuinque:' + VERSION
 DPI = 96
 SCALE = DPI / 72
 PADDING_PT = 3
@@ -249,7 +250,8 @@ def apply(pdf, output=None, *, seed=0, log_path=None):
     output = Path(output or pdf)
     output.parent.mkdir(parents=True, exist_ok=True)
     original = fitz.open(pdf)
-    if STAMP in (original.metadata.get('keywords') or ''):
+    keywords = original.metadata.get('keywords') or ''
+    if STAMP in keywords or LEGACY_STAMP in keywords:
         original.close()
         raise ValueError('This PDF already has vellum finishing; use the original binding')
     if any(p.rotation or p.rect.x0 or p.rect.y0 for p in original):
