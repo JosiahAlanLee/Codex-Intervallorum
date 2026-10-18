@@ -8,6 +8,7 @@ This folder holds research toward a Witch(x) account of scapegoating inside orga
 | [Agrippa at Metz, 1519](agrippa-at-metz.md) | Agrippa's 1519 defense of a woman of Woippy, tested against the register's gaps and the six questions in the [Sledge handoff](../../reviews/Justin_Sledge_Review.md) | Built on modern readings of the letters; no record independent of Agrippa found |
 | [Screening notes](modern-cases.md) | A search for a modern, documented case where blaming a person or unit caused a sudden, severe organizational loss | Partial: one case vetted, twelve screened, two not vetted |
 | [Review and corrections](review-2026-10-18.md) | Assessment of the proposed mechanisms, historical dependence and modern causal claims; repair of the clean-checkout link failure | Selected primary records checked; manuscript placement undecided |
+| [Power and Accusation draft](power-and-accusation-draft.md) | Provisional feminist discussion of authority, accusation, access and responsibility, with objections, author decisions and a source ledger | New discussion draft for author review; not included in the bound text |
 
 ## Provenance
 
@@ -17,6 +18,7 @@ This folder holds research toward a Witch(x) account of scapegoating inside orga
 - The register carries 182 quotations. 148 sit at their re-keyed lines, checked by script in both trees. 10 are in other files in this tree, such as the Tarot records. 19 are in development-repository files marked † and were confirmed there. The other 5 are titles of works or the register's own phrase.
 - The Metz study's 12 quotations from the books sit at their re-keyed lines. Its other quotations come from the works listed in its Sources section, read to the depth stated there.
 - The screening notes come from two research agents. Their sources have not been re-checked.
+- Codex prepared the provisional *Power and Accusation* discussion at the author's request against public source `3529a77`. Its own source ledger distinguishes directly inspected passages, abstract-only uses and proposed ethical applications.
 
 ## Location keys
 
