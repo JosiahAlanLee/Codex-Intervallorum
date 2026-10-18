@@ -30,7 +30,8 @@ def main():
             assets += 1
     documents = {ROOT / item['path'] for item in spec['files'] if item['path'].endswith('.md')}
     documents.update([ROOT / 'README.md', ROOT / 'docs/BUILD.md', ROOT / 'docs/MIGRATION.md',
-                      *ROOT.glob('books/*/README.md'), ROOT / 'docs/reviews/Justin_Sledge_Review.md'])
+                      *ROOT.glob('books/*/README.md'), ROOT / 'docs/reviews/Justin_Sledge_Review.md',
+                      *ROOT.glob('docs/research/**/*.md')])
     for p in sorted(documents):
         for target in re.findall(r'\]\(([^)]+)\)', p.read_text()):
             parsed = urlsplit(target)
