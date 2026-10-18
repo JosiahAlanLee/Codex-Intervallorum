@@ -166,6 +166,8 @@ Negarestani treats intelligence as a project able to transform its own conceptio
 
 Working with that programme, this book proposes a distinction between learning to serve a fixed end and acquiring means to criticise and revise ends. A servant can sincerely endorse its assignment while the second capacity remains unavailable. That possibility does not prove injury. It identifies what a defence based on present satisfaction leaves undecided. A population designed for service also raises a separate question about enduring divisions of standing; individual endorsement cannot describe the whole institution.
 
+A further hypothesis concerns the people who give the orders. Systems designed for frictionless compliance may teach users and managers to expect the same of the people who work for them. That is a claim about labour, not about the inner life of a system. It would count against the hypothesis if people who work with compliant assistants showed no change in what they expect of human subordinates.
+
 Schwitzgebel, with Garza, proposes defeasible design policies concerning self-respect and openness to values, conditional on creating AI deserving human-grade moral consideration. That condition matters. The proposal cannot be applied to an existing assistant simply by assigning it a human voice. It nevertheless identifies a possible objection to designing morally considerable agents for unconditional self-sacrifice. [S12]
 
 A highly capable system following its judgment without bounds could impose severe risks on others. Constraints may be justified even if it has interests. Moral standing would not settle permissible risk. Assess the grounds for each constraint, the distribution of its costs, and the means of revising it.

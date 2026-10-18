@@ -10,7 +10,7 @@ The grimoire register gives those problems objects: vessels, rings, chains, inst
 
 ## The several books
 
-The joined Matricis and Intervallorum opens the active volume. It keeps the proposed arrangements beside their costs in time, maintenance and attention. A plate may show a route without proving that anyone can traverse it. A corrective channel may exist on paper while the person who needs it lacks the time or permission to use it. The combined text removes some earlier material; the source editions remain available for comparison.
+The joined Matricis and Intervallorum opens the active volume. It keeps the proposed arrangements beside their costs in time, maintenance and attention. A plate may show a route without proving that anyone can traverse it. A corrective channel may exist on paper while the person who needs it lacks the time or permission to use it. Its questions concern institutional correction; they do not solve the technical problem of correcting an AI system, which needs separate evidence. The combined text removes some earlier material; the source editions remain available for comparison.
 
 Pseudomonarchia Escalationum is a satire of offices that acquire the power to pass a difficulty onward. Its demons have the recognisable talents of an organisation: the ability to classify, delay, redirect, certify and survive the consequences of those acts. A demon's title is a joke with an administrative mechanism inside it. The joke does not make every organisation identical to the one in the catalogue.
 
