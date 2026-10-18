@@ -32,6 +32,7 @@ def main():
     run('books/01_matricis_intervallorum/build.py')
     if not args.skip_tests:
         tests('books/01_matricis_intervallorum')
+        tests('books/01_matricis_intervallorum/models/gate_window')
     for roman in ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii']:
         folder = f'books/04_graduum/plates/{roman}-native'
         out = ROOT / 'build/native' / roman
