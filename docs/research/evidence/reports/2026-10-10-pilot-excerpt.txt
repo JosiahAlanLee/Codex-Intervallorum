@@ -1,0 +1,316 @@
+Public transcription: incident pilot report, 2026-10-10, pages 1–6 of 7
+
+Prepared from the project report for publication. Original page labels are retained. The source-register pages are omitted. This excerpt does not include or execute the companion code, case ledger, prompt packets or judging materials. Statements about those materials describe the original report package, not files supplied here. The accompanying pilot-methods note separates the reported exercise from an independent reproduction.
+
+<PARSED TEXT FOR PAGE: 1 / 7>
+
+ Systematology against
+ public incident reports
+ Test setup and executed retrospective pilot
+ 10 October 2026 | Version 0.1 | Six incidents, five organizations
+
+ Operationally usable. Incremental advantage over competent SRE
+ remains unestablished.
+
+ This evaluates the operational framing of the protocol. Its strongest failure risk is that it
+ relabels familiar reliability practices while the distinct claims about power, standing and
+ correction remain unmeasured. A convincing account of a known outage is not evidence that
+ the protocol would have anticipated it.
+
+ What was actually run
+ The full 24-page Revision 3 and its one-page condensation were recovered. Six primary
+ operator reports linked from Dan Luu's collection were inspected. Each received
+ source-located coding, paired SRE and Systematology interpretations, a candidate additional
+ question and an inference explicitly rejected. A Python runner checked the coding and
+ recalculated the descriptive results. [P1, P2, I1, S1-S6]
+
+ One analyst wrote both readings with the outcomes visible. There were zero independent
+ model runs, zero independent judges and zero fitted causal models. The local design
+ was frozen after reading the index descriptions but before opening these primary reports in
+ this session; prior familiarity with famous outages remains. This is not external
+ preregistration.
+
+ Completed coding results
+ • 3 of 6: relevant prior exercises documented, without establishing full incident-equivalent
+ coverage; 2 of 6: explicit testing gaps; 1 of 6: rehearsal history unknown. These are
+ categories, not a preparedness ranking.
+
+ • 3 of 6: incident-related dependencies affected response tools or status communication.
+ The other three were not assessed on this narrow variable; they are not negative controls.
+
+ • 6 of 6: reporting-retaliation regimes and metric-gaming mechanisms remain unknown;
+ suitable ownership comparisons and recurrence follow-up are unavailable.
+
+ The paired readings cover substantially the same operational mechanisms. No independently established
+ Systematology-only finding emerged. This is a limitation of the experiment, not proof of equivalence. The
+ code, evidence ledger and 18 unrun development prompts accompany this report.
+
+
+
+
+SYSTEMATOLOGY / INCIDENT PILOT 0.1 | RETROSPECTIVE DEVELOPMENT                                               1
+
+<PARSED TEXT FOR PAGE: 2 / 7>
+
+ Protocol, comparator and scope
+ Primary version recovered
+ The source is Systematology: A revisable systems practice, Revision 3, October 2026, 24
+ pages, especially §§3-5, 7, 9, 15-16, 22-24 and Part IX. Its one-page condensation supplies
+ four audit gaps and three change rules. The slow-clocks packet supplies additional
+ hypotheses; those are not silently substituted for the protocol's six empirical bets. [P1-P3]
+
+ What the operational adaptation asks
+ • Can an alternative actually be used during the specified failure, by the people who need it?
+
+ • Can responders discover inadequacy and act on it, or does the system disable its own
+ means of correction?
+
+ • What testing would count as failure for a successor? Does introducing an option later
+ remove an existing one?
+
+ • Whose interests and irreversible losses are omitted from the recovery objective? Who can
+ contest the decision?
+
+ • Is there a demonstrated feedback or incentive mechanism behind a misleading metric, or
+ only an ordinary measurement defect?
+
+ A competent baseline
+ The comparator includes common-mode dependency analysis, safe changes, recovery tests,
+ usable emergency access, operator workload, communication, customer impact, integrity and
+ organizational learning. It includes blameless reporting and corrective-action follow-through.
+ Google's SRE guidance explicitly includes these human and organizational concerns; a
+ technical-only comparator would be too weak. [B1, B2]
+
+ Where the adaptation must not change the claim
+ Technical independence is not governance independence. Separate power, DNS,
+ identity and management paths may survive a failure while remaining under one owner.
+ Revision 3's bypass test additionally demands independence in ownership, funding, standards
+ and upstream dependencies, with affordable access. These reports can expose technical
+ coupling; that does not validate the stronger ownership proposition.
+
+ Restoration is not automatically revision. A changed database topology, rollback or
+ temporary bypass does not establish a change to institutional goals or decision rights.
+ Technical changes, organizational changes and their implementation status need separate
+ fields.
+
+ Unknown is not absent. A report's failure to mention retaliation, an appeal route or a
+ metric incentive cannot establish that none exists. Conversely, a public postmortem is not
+ proof that internal reporting is protected.
+
+
+
+
+SYSTEMATOLOGY / INCIDENT PILOT 0.1 | RETROSPECTIVE DEVELOPMENT                                    2
+
+<PARSED TEXT FOR PAGE: 3 / 7>
+
+ Case readings: recovery routes
+ AWS2017 | Amazon Web Services | 2017-02-28
+ A maintenance command removed excessive capacity, forcing dependent S3 subsystems to
+ restart. Large-region full restarts had not occurred for years; recovery at current scale
+ exceeded expectations. S3 dependence blocked status-console updates; alternate messaging
+ remained available. Command safeguards and multiregion status administration were
+ changed. [S1]
+
+ SRE reading. Bound destructive commands and validate recovery at current scale. Keep
+ incident communication outside the affected failure domain.
+
+ Protocol reading. A nominal repair path needs a scoped test (§4). An effective bypass must
+ remain reachable (§7); technical separation does not establish ownership independence.
+
+ Boundary. A stale status display establishes neither metric gaming nor suppression of reporting.
+
+ GL2017 | GitLab | 2017-01-31
+ During replication repair, the primary data directory was mistakenly deleted. Logical backups
+ failed; email failure notifications were rejected. A staging snapshot enabled recovery but left
+ a data-loss interval. Replication and snapshots did not constitute interchangeable recovery
+ options. The report attributes absent regular backup testing to unassigned ownership. [S2]
+
+ SRE reading. Verify recoverability and failure notification delivery; assign an owner. Protect
+ destructive operations and preserve data integrity separately from uptime.
+
+ Protocol reading. Nominal alternatives do not prove usable options (§7). Separate restored
+ function from irreversible loss and responsibility for correction (§§9,16).
+
+ Boundary. Undelivered automated email is not evidence of retaliation against human reporters.
+
+ CF2019 | Cloudflare | 2019-07-02
+ A globally deployed WAF expression exhausted CPU even in simulation mode; normal staged
+ software rollout did not apply. Authentication failure obstructed control access; an
+ infrequently used bypass enabled termination. Traffic returned before full WAF restoration.
+ Passing functional tests did not cover runaway CPU use. [S3]
+
+ SRE reading. Stage risky changes; test computational resource limits. Exercise emergency
+ access and track protection as well as traffic.
+
+ Protocol reading. Successful tests validate only their declared scope (§4). Correction
+ capacity can depend on the system it corrects (§§7,22).
+
+ Boundary. A test blind spot does not establish Goodhart effects or an incentive to game a metric.
+
+ All source claims are operator self-reports. The paired readings are retrospective interpretations by one
+ analyst, not independent predictions. Exact locators, uncertainty and the unanswered additional questions
+ are in cases.json.
+
+
+
+
+SYSTEMATOLOGY / INCIDENT PILOT 0.1 | RETROSPECTIVE DEVELOPMENT                                               3
+
+<PARSED TEXT FOR PAGE: 4 / 7>
+
+ Case readings: objectives and scope
+ GH2018 | GitHub | 2018-10-21
+ A brief partition triggered cross-region failover and divergent writes, making simple failback
+ unsafe. Responders prioritized data integrity. Backup restoration was tested daily, but the
+ full-cluster recovery situation was unprecedented. Reconciliation remained underway at
+ publication; further failover constraints and failure-scenario testing were proposed. [S4]
+
+ SRE reading. Validate application compatibility with automated failover topologies. Score
+ integrity and availability separately; rehearse full recovery.
+
+ Protocol reading. A changed configuration can preserve one goal while failing another
+ (§§3,18). Revision is not inherently better; irreversible loss changes the recovery judgment
+ (§16).
+
+ Boundary. Longer recovery alone cannot establish worse preparedness, and fail-forward is not constitutional
+ revision.
+
+ FB2021 | Facebook | 2021-10-04
+ A backbone command and failed command check disconnected sites; DNS withdrawals also
+ disabled investigation tools. Normal and out-of-band access failed; secure physical access
+ delayed repair. Earlier drills helped controlled restart, although the total backbone loss had
+ not been exercised. Security and recovery speed conflicted. [S5]
+
+ SRE reading. Test loss of primary and emergency management paths together. Balance
+ secure access with recovery, and rehearse staged reintroduction.
+
+ Protocol reading. A claimed bypass must function during the specified failure (§7). Maintain
+ correction capacity without assuming that every access barrier should be removed (§22).
+
+ Boundary. Security delaying recovery is not by itself evidence of illegitimate authority or a benefit from
+ changing ownership.
+
+ CF2023 | Cloudflare | 2023-11-02
+ Services depended on components outside the replicated cluster. Tests had not removed the
+ entire affected facility. Recovery coverage differed by product; some required improvised
+ restoration. A deliberate rest period delayed full recovery. Most control functions recovered
+ before all services; edge traffic continued. Stronger recovery requirements were announced.
+ [S6]
+
+ SRE reading. Test whole-facility loss and actual product recovery coverage. Include
+ responder fatigue and endpoint-specific impact in recovery assessment.
+
+ Protocol reading. Local redundancy does not establish end-to-end alternative routes (§7).
+ Capability and recovery labels require scoped evidence (§4); care complicates pure time
+ minimization (§§13,18).
+
+ Boundary. Slower full recovery is not sufficient evidence of poorer governance; rest and service mix affect
+ the endpoint.
+
+ All source claims are operator self-reports. The paired readings are retrospective interpretations by one
+ analyst, not independent predictions. Exact locators, uncertainty and the unanswered additional questions
+ are in cases.json.
+
+
+
+
+SYSTEMATOLOGY / INCIDENT PILOT 0.1 | RETROSPECTIVE DEVELOPMENT                                                 4
+
+<PARSED TEXT FOR PAGE: 5 / 7>
+
+ Which hypotheses can this corpus test?
+ The current run tests coding feasibility. None of the six empirical bets has an identified
+ comparative effect estimate here. The missing information is substantive, not a problem
+ solved by collecting a few more famous postmortems.
+
+ C1 | Punishment and forecast accuracy
+ Needs observed reporting regimes, repeated forecasts and outcomes. Corporate tone cannot
+ establish protection; a failed notification channel is not retaliation.
+
+ C2 | Commons governance and persistence
+ Outside the sampling domain. Corporate outages are not a comparison of commons under
+ alternative governance regimes.
+
+ C3 | Targets drifting from the intended property
+ Needs incentive or deployment changes, repeated review cycles and independent outcome
+ measures. Blind spots in tests do not establish metric gaming.
+
+ C4 | Bottleneck ownership and correction
+ Needs independently measured control arrangements and comparable dependent systems.
+ Common-mode technical failure is not a causal ownership comparison.
+
+ C5 | Additive versus substitutive change
+ Needs actual option availability over time, reversal cost and persistent conflict, with
+ comparable interventions. Rollback alone is not this outcome.
+
+ C6 | Experimentation plus protected reporting
+ Needs both exposures and longitudinal outcomes. Public evidence of local experimentation
+ does not establish a protected reporting regime.
+
+ Slow-clocks extensions
+ Fallback rehearsal: record date, scale, tested failure, dependency coverage and authority
+ to execute. Prepared/unprepared is too crude. Durable memory versus message volume:
+ requires linked incident histories and actual artifact use. Alert saturation: requires alert
+ streams, labels and responder load. Adversarial timing: requires intrusion times, staffing
+ and time-at-risk denominators. The six selected cases do not provide these comparisons. [P3]
+
+ Do not pool recovery times across unlike endpoints. The data preserve approximate versus exact timing,
+ restoration versus residual data loss, and partial versus full service recovery. Intentional choices to protect
+ integrity or avoid fatigue can lengthen a clock without demonstrating worse correction.
+
+
+
+
+SYSTEMATOLOGY / INCIDENT PILOT 0.1 | RETROSPECTIVE DEVELOPMENT                                                     5
+
+<PARSED TEXT FOR PAGE: 6 / 7>
+
+ The next comparison is ready to stage
+ Three conditions; the primary comparison is B versus C
+ A: competent SRE review. B: SRE plus operational Systematology. C: SRE plus a generic
+ extended checklist. B and C additions contain 199 and 205 words; actual tokenizer counts
+ remain to be measured. Each condition uses the same packet, at most five findings and a
+ 450-word output cap.
+
+ What is included now
+ The bundle contains 18 fresh-context prompt files, a shuffled job manifest, private
+ condition/outcome crosswalk, a JSON response format and structural response validation. All
+ jobs are explicitly marked not run. The six packets are sparse retrospective reconstructions
+ for development only. Their source reports shaped what was included, and their outcomes
+ may be familiar to a model. They are not a predictive benchmark.
+
+ What an independent run requires
+ • New cases, selected from a frozen eligible corpus. Record access exclusions and duplicates.
+ Keep organization clusters visible.
+
+ • Sufficient independently dated pre-incident documentation. If unavailable, keep that case
+ retrospective; do not relabel a censored postmortem as prospective evidence.
+
+ • One fresh isolated context per case and condition. Supply only the assigned prompt and
+ evidence. Retain model/version/settings and raw replies; prohibit browsing and outside
+ memory as evidence.
+
+ • Two independent technical judges, blind to condition where possible. Save individual scores
+ before adjudication. Condition vocabulary may weaken blinding.
+
+ • Score specific, supported and actionable mechanisms. Report contradicted and
+ unassessable claims separately. A mechanism omitted from a postmortem is not
+ automatically false.
+
+ How the protocol could lose
+ It could add no useful supported findings relative to the equally extended SRE checklist, or
+ add enough unsupported governance claims, complexity or review effort to outweigh gains.
+ Set the smallest useful gain and acceptable error burden before confirmation. The proposed
+ 24-case extension is for measurement development; it is not a power calculation.
+
+ What the completed run warrants
+ Keep the protocol available as an audit checklist. Its usability on incident narratives is
+ demonstrated at the level of one analyst's application. Its superiority, reliability across coders
+ and causal governance claims remain open. A null advantage would narrow the operational
+ claim without settling the normative commitments or the biological analogies.
+
+
+
+
+SYSTEMATOLOGY / INCIDENT PILOT 0.1 | RETROSPECTIVE DEVELOPMENT                                        6

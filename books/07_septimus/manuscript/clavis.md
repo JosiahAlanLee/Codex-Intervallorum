@@ -8,6 +8,18 @@ The series began with a system of marks and an appetite for making a system out 
 
 The grimoire register gives those problems objects: vessels, rings, chains, instruments, servants and missing corners. It lets an abstraction occupy a page and acquire a shape that can be questioned. A beautiful figure can still carry a poor inference. Reading the figure requires a willingness to inspect both.
 
+## The premise and its limits
+
+The central inquiry concerns the allocation of knowledge, permission, resources, responsibility and the ability to challenge a decision. These books argue for bounded authority and effective contestation. Their commitments require reasons, and their proposed interventions require evidence. Neither an attractive diagram nor a working validator establishes that an institution should adopt them.
+
+Several operational ideas already belong to safety and organisational practice. High-reliability organisation research, associated here with Weick and Sutcliffe through AHRQ's account, includes deference to relevant expertise, shared vigilance and cross-monitoring. The book adopts those questions without claiming to have discovered them. They are not simply permission for one person to act without review. Published healthcare evidence about implementing the full HRO approach remains limited; invoking its name supplies no efficacy guarantee. [S19] [S20]
+
+The six-incident development exercise and its expanded follow-up did not run the independent comparison needed to estimate added value. Their retrospective readings leave the protocol's incremental usefulness unestablished. The supplementary gate-and-window simulation explores a tradeoff under chosen assumptions. It neither calibrates those assumptions to institutions nor reproduces the safeguards of the proposed dispatch trial. These records establish neither comparative superiority nor a measured null effect.
+
+The questions about maintenance, timing, protected reporting, correction and displacement remain separate proposals. Collective inquiry does not rule out useful scalar measures, and no score supplies an exhaustive account of intelligence or human worth. A competent hierarchy can correct an error. A local failure of permission does not establish a universal decline of competence with rank or a hidden motive for every delay.
+
+Historical and ethical comparisons retain their separate burdens. A witch trial, an organisational accusation and the control of a model are not presumed to instantiate one mechanism. For each comparison, establish the relevant act, evidence, allocation of control and consequence. Inferred motives require their own grounds. An analogy can leave a question open without becoming a finding.
+
 ## The several books
 
 The joined Matricis and Intervallorum opens the active volume. It keeps the proposed arrangements beside their costs in time, maintenance and attention. A plate may show a route without proving that anyone can traverse it. A corrective channel may exist on paper while the person who needs it lacks the time or permission to use it. Its questions concern institutional correction; they do not solve the technical problem of correcting an AI system, which needs separate evidence. The combined text removes some earlier material; the source editions remain available for comparison.
@@ -56,10 +68,12 @@ The bibliographies record citations and accounts of access. A directly read pass
 
 For a consequential claim, follow its key to the source account, then examine the scope. Ask whether the source supports the statement being made, whether an interpretation has become a fact in transit, and whether the named counterexample would actually bear on the claim. A source's uncertainty can be part of what makes it worth citing.
 
+Agreement among several model reviews is not counted here as independent corroboration. They supply additional error probes. A source check, an arithmetic reproduction and an independent judgment have different scopes; repeating one does not perform the others.
+
 The figures also have a source trail. Exact marks, letters and quantities are drawn natively. Generated raster scenes are illustrations, with prompts and preparation records. They are not documentary photographs or reconstructions authenticated by their style. Physical plotting remains a separate material test.
 
 ## A reader's standing
 
 These books offer arrangements that can be used, declined or altered. That invitation does not make their effects harmless, and it does not require a reader to grant their claims. A reader may find a comparison illuminating while rejecting its conclusion, or find the figure worth keeping after the proposed explanation has failed.
 
-The Clavis supplies a way to locate those disagreements. It does not speak an author's final judgment into existence. The end preparation notes identify the hands that made this reading text and the checks completed so far. The questions inside it remain where the argument leaves them.
+The Clavis supplies a way to locate those disagreements. Direction, selection, revision and the decision to publish remain accountable acts. The production record credits model contributions without assigning an unmeasured share of authorship or inferring consciousness from participation. The questions inside the work remain where the argument leaves them.

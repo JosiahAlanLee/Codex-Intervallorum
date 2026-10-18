@@ -1,0 +1,230 @@
+Public transcription: incident pilot report, 2026-10-11, pages 1–4 of 6
+
+Prepared from the project report for publication. Original page labels are retained. The source-register pages are omitted. This excerpt does not include or execute the companion code, case ledger, prompt packets or judging materials. Statements about those materials describe the original report package, not files supplied here. The accompanying pilot-methods note separates the reported exercise from an independent reproduction.
+
+<PARSED TEXT FOR PAGE: 1 / 6>
+
+ Expanded incident pilot: results
+ 11 October 2026 | Revisable Systems Practice, Revision 5
+
+ The data are more useful for examining correction mechanisms. An
+ incremental advantage of the protocol remains unestablished. The run
+ completed source-located manual coding, ten paired analytical readings, nine
+ timestamp calculations, and sensitivity counts. It did not execute the independent
+ three-arm model experiment prepared in the earlier package. No fresh-context
+ inference endpoint or independent judging was used; the same analyst already knew
+ the case outcomes. The numerical output is reproducible aggregation of that analyst's
+ annotations, not an automated or blinded diagnosis.
+
+
+ Scope and version
+ Ten units were inspected: T-Mobile 2020, Orange 2021, BT 2023, Fastly 2021, OVH
+ 2021, Cloudflare 2023, Alibaba Cloud Hong Kong 2022, Anthropic's 2026 assessment
+ cluster, GTG-1002 in 2025, and OpenAI-Hugging Face 2026. The main denominator is
+ eight new, non-originating units. Cloudflare was in the first pilot. Hugging Face
+ informed the original concept. Anthropic's four related incidents are one source cluster,
+ not four independent replications. Organizations and source publishers also repeat
+ across units.
+
+ Revision 5 is current and was read in full. The original Revision 3 coding definitions are
+ retained only for directly comparable fields. D1-D5 are assessed separately. Selection
+ and source screening occurred before the analysis contract; neither this run nor its
+ newly defined fields is preregistered. The cases are retrospective and purposively
+ selected, not a representative incident sample.
+
+
+ Reproduction and access limitations
+ Run python3 run.py to validate the ledger and regenerate results/summary.json.
+ The script checks identifiers, evidence locators attached to positive codes, subgroup
+ membership, and nine interval calculations. It cannot independently verify the truth of
+ source statements or the analyst's causal judgments. The artifact is an executed
+ manual pilot with reproducible bookkeeping.
+
+ Source references and precise locators are in cases.json; the PDF provides clickable
+ reference links. The FCC technical report was accessible only through primary indexed
+ passages in this run. The French and Chinese passages were translated by the analyst.
+ No full third-party reports or offensive payloads are reproduced. Source claims remain
+ attributed claims. The complete user-owned Revision 5 text is included to fix the
+ protocol version.
+
+
+
+
+RSP expanded pilot | Retrospective evidence audit | 11 October 2026                           1
+
+<PARSED TEXT FOR PAGE: 2 / 6>
+
+DATA USEFULNESS IS NOT PROTOCOL EFFICACY
+
+
+
+
+ What the additional sources make observable
+ Among the eight new units, the manual audit found:
+
+   Evidence available in the selected source                               Units
+
+   Timed response sequence                                                 6/8
+
+   Specific mechanism obstructing correction, execution or investigation   6/8
+
+   External authority actually exercised                                   3/8
+
+   Implemented post-incident change explicitly reported                    3/8
+
+   Post-incident behavioral perturbation experiment reported               1/8
+
+   Metric gaming satisfying the original narrow code                       0/8 documented; 8
+                                                                           unknown
+
+   Actual reporter-protection/retaliation regime                           0/8 documented; 8
+                                                                           unknown
+
+   Usable ownership comparison                                             0/8 available
+
+   Recurrence follow-up with exposure and ascertainment                    0/8 available
+
+
+ These are source-availability codes, not severity or governance scores. The first five
+ fields were not measured in the original six reports, so no numerical before/after
+ improvement is claimed. The original six also lacked the last four kinds of evidence.
+ Adding the originating Hugging Face case supplies one reported metric-gaming
+ mechanism; that apparent gain disappears when the originating case is excluded.
+ Keeping Cloudflare in the totals does not create a new observation.
+
+ External authority is observable in the T-Mobile settlement, the BT enforcement
+ decision, and the OVH administrative requirements. Investigation and
+ recommendations alone do not qualify. A requirement, a reported implementation, and
+ a demonstrated reduction in future failures are three different endpoints. Excluding the
+ indexed-only T-Mobile material leaves two external-authority observations among
+ seven new units. None of this estimates the effect of regulation or ranks countries.
+
+
+ Timing: useful, but not the promised causal
+ decomposition
+ Orange: technical recognition to first supplier contact is 110 minutes; recognition to the
+ supplier ticket is 134 minutes. Internal escalation to that ticket is 114 minutes. These
+ endpoints differ. Restoration work was underway during this period; the intervals
+ cannot be assigned wholesale to blocked permission. [OR1, printed pp 12-14]
+
+ BT: the decision to use disaster recovery preceded the first attempt by 7 minutes and
+ successful transfer by 85 minutes. The remaining 78 minutes include failed execution
+ and reversal. Successful transfer did not mean full service restoration. The decision
+ documents procedural failure and a known fallback defect; it also preserves BT's
+
+
+
+
+RSP expanded pilot | Retrospective evidence audit | 11 October 2026                           2
+
+<PARSED TEXT FOR PAGE: 3 / 6>
+
+DATA USEFULNESS IS NOT PROTOCOL EFFICACY
+
+
+
+ disagreement about the effect of delayed notification. This prevents a convenient but
+ unsupported explanation in terms of waiting for executive approval. [BT1, paras
+ 4.29-4.35, footnote 37, 4.85-4.87]
+
+ Fastly and OVH yield different intervals: 39 minutes from detection to configuration
+ identification; and 7 minutes from fire alarm to emergency call followed by 17 minutes
+ to responder arrival. They are not comparable restoration metrics. [FA1; OV1]
+
+ The more defensible logging model is: signal observed; problem identified; decision
+ made; action attempted; action effective; safety/integrity validated. These stages can
+ overlap. Record authority as a causal explanation only when evidence identifies it,
+ rather than labeling all pre-restoration time organizational delay.
+
+
+ Paired application
+ The case ledger contains a competent domain reading, a protocol question and an
+ explicit boundary for all ten units. Reliability reviews include human factors,
+ coordination and learning; agent cases use security and alignment review rather than a
+ technical-only uptime baseline. No independent A/B/C outputs or judges exist in this
+ run, so these readings are not a measured null effect.
+
+ The most concrete result is that the new evidence improves the constraints on an
+ interpretation. Orange distinguishes escalation from supplier engagement; BT
+ distinguishes a decision from successful execution; OVH exposes a limit on
+ investigative access; Alibaba distinguishes a destination from a usable recovery path.
+ The source authors already identify the relevant mechanisms. Recasting them as
+ correction or bypass failures does not establish a new discovery.
+
+ The agent material permits questions that the original hosting sample could not
+ address. Anthropic reports perturbations of model inputs and differences between
+ expressed assessments and behavior. That is useful evidence about a technical system
+ responding to correction. It does not supply the institutional longitudinal series
+ demanded by D4, and its training analysis does not justify a general claim that
+ observed biased behavior was consistently reinforced. [AN1]
+
+
+ Revision 5's distinctive claims
+ D1, decay ownership: retained traces can support reconstruction, but these cases do
+ not compare otherwise similar networks under actual expiration versus third-party
+ retention. No comparative test is identified.
+
+ D2, temporal legibility: no matched change between predictable and unpredictable
+ timing at fixed frequency is available. Calendar dates and overnight response do not
+ establish strategic timing effects.
+
+ D3, identity-lesson separation: no measured reporting penalties, identification
+ policy, reporting volume and learning outcomes are jointly available. Publicly
+ anonymized prose is not proof of a protective internal reporting regime.
+
+
+
+RSP expanded pilot | Retrospective evidence audit | 11 October 2026                       3
+
+<PARSED TEXT FOR PAGE: 4 / 6>
+
+DATA USEFULNESS IS NOT PROTOCOL EFFICACY
+
+
+
+ D4, directional corrigibility: several incident paths can be partially reconstructed,
+ but they do not yield paired longitudinal power/correction series. Model sensitivity to a
+ changed cue is also not the same variable as an institution acting on a substantiated
+ report. Prediction of later serious failures is untested.
+
+ D5, displacement: two limited coding trials, BT's procedures and Alibaba's cooling
+ operation, produce the same provisional partial vector: mission retained, structure
+ modified, other axes unknown. They concern different actors and endpoints, so they
+ are not ranked or averaged. No complete vector or comparative recovery benefit is
+ established. Treating every reconfiguration as revision would make the code
+ uninformative. In adversarial cases, preservation of an attacker's ability to reorganize
+ can also worsen the defender's outcome; the actor and welfare endpoint must be
+ declared first.
+
+ All five distinctive comparative claims therefore remain untested by an adequate
+ design. This is a finding about the selected evidence, not five falsifications of the
+ claims. Revision 5's predicted lack of benefit on mature reliability reviews is not scored
+ as a successful prediction: the independent comparison needed to measure a null
+ benefit was not executed.
+
+
+ What was learned and what remains runnable
+ The operational reading can be made more precise, and the new documents expose
+ factual disagreements and explicit decision points. The evidence does not yet show
+ that the protocol finds supported mechanisms that a competent equal-length review
+ misses. It supports building stronger evaluation packets, not declaring efficacy.
+
+ For an actual three-arm trial, freeze the expanded protocol adaptation and an equally
+ detailed generic checklist; use the same domain-competent baseline and identical
+ source packets in isolated contexts; cap findings and output length; and obtain
+ independent, condition-masked judging. Score actionable supported findings,
+ unsupported additions, and review burden separately. These already-inspected cases
+ are development material. Anonymizing names would not make them unseen or
+ remove model familiarity. Prospective prediction also requires independently dated
+ pre-incident records, not a timeline reconstructed from the final report.
+
+ Do not broaden the interpretation to national regulatory quality. This run has no
+ matched jurisdictions, workload denominator or measure of supervisory capacity.
+ Mainland China reserve sources were not silently substituted for the Hong Kong
+ operator report, and a thin public disclosure is not evidence that no investigation
+ happened.
+
+
+
+
+RSP expanded pilot | Retrospective evidence audit | 11 October 2026                           4

@@ -4,6 +4,8 @@
 
 A contemporary illustrated grimoire about correction, authority, memory, interpretation, and compulsion. Its invented rites, diagrams, ciphers, and parables sit beside source accounts that distinguish evidence, interpretation, hypothesis, and fiction.
 
+The central inquiry concerns knowledge, permission, resources, responsibility and effective challenge. The proposed instruments have not demonstrated an advantage over competent existing review. Their historical arguments, ethical commitments and artwork retain their own grounds. The [evidence review and study limits](docs/research/evidence/README.md) distinguish existing antecedents, provisional proposals and conditional model results.
+
 This is the current public source repository. The collection was previously titled *Librum Quinque*. The first two books now share a consolidated setting; the inherited I–VII identifiers and citation keys remain stable.
 
 ## Read the book

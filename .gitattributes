@@ -1,0 +1,2 @@
+# Preserve the simulation CSV's recorded CRLF bytes while checking whitespace.
+books/01_matricis_intervallorum/models/gate_window/results.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

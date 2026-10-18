@@ -93,7 +93,7 @@ SAME_SOURCE=[
 
 # Working documents, packets and repository files made within the project.
 # Acc/R1-R3 are the model reviews the parable answers, filed with it.
-PROJECT_KEYS={'I-II/P0','I-II/P1','IV/M1','IV/E3','IV/X1','V/R0','Acc/R1','Acc/R2','Acc/R3'}
+PROJECT_KEYS={'I-II/P0','I-II/P1','I-II/P2','I-II/P3','IV/M1','IV/E3','IV/X1','V/R0','Acc/R1','Acc/R2','Acc/R3'}
 PROJECT_PREFIXES=('Claude (2026)','ChatGPT (2026)','Systematology','Revisable Systems Practice')
 
 

@@ -307,5 +307,39 @@
     "urls": [
       "https://arxiv.org/pdf/cs/0404024"
     ]
+  },
+  {
+    "id": "S19",
+    "citation": "Agency for Healthcare Research and Quality. High Reliability. PSNet primer (2019), reviewed 15 September 2024.",
+    "keys": [
+      "VII/S19"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Relevant primer passages directly read on 18 October 2026. Its references identify Weick and Sutcliffe, Managing the Unexpected (2015); that book was not newly inspected.",
+        "use": "Deference to relevant expertise, shared concerns, cross-monitoring and resilience. An antecedent, not proof of this book's intervention."
+      }
+    ],
+    "urls": [
+      "https://psnet.ahrq.gov/primer/high-reliability"
+    ]
+  },
+  {
+    "id": "S20",
+    "citation": "Fricke, J., Galligan, M., Douma, C., Souder, J., Hedden-Gross, A., and Mull, N. (2025). Examining the Impact of Implementing High-Reliability Organization Principles on Patient Safety Outcomes: Rapid Review. AHRQ, Making Healthcare Safer IV. doi:10.23970/AHRQEPC_MHS4HRO.",
+    "keys": [
+      "VII/S20"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "The authors' abstract and findings directly read in PubMed on 18 October 2026; the full report was not inspected. Its healthcare scope is retained.",
+        "use": "Limited published effectiveness evidence for HRO implementation; no numerical estimate transferred to dispatch or other institutions."
+      }
+    ],
+    "urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/41248244/"
+    ]
   }
 ]

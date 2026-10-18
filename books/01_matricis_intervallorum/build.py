@@ -327,9 +327,9 @@ def front(b,book):
     b.start('Proem','proem','Proem');y=b.heading('The work and the interval')
     for s in [
         'The keeper receives two instructions: make the instrument answer when it is wrong; keep enough of the workshop alive for an answer to matter. These instructions can compete. A room preserved against change can prevent correction. A correction that spends every reserve can leave no one able to continue.',
-        'The tables stage that difficulty through clocks, copied omissions, gates, vessels, and offices. Their invented history belongs to the artwork. Their procedures and arguments remain available for inspection. An elaborate diagram can expose a missing condition; its elaboration cannot supply the condition.',
+        'The tables investigate who knows enough to act, who may authorize action, who can challenge a decision, and who bears its consequences. Clocks, gates, vessels and offices give those questions a form. Their invented history belongs to the artwork; their resemblance does not establish one mechanism across the domains compared.',
         'The first question concerns purpose and the authority to revise it. The next tables ask what preservation keeps, what waiting costs, and which routes remain usable. Later tables follow a report toward a decision, inspect the effect of measures, and record the commitments and disagreements a calculation cannot settle.',
-        'Matricis and Intervallorum began as responses to one another. The present setting cuts their repeated exposition and keeps useful differences in view. A shared binding does not require their biological, mathematical, institutional, and ethical claims to form one theory.',
+        'Existing safety, maintenance and governance practices supply many of the questions here. The proposed instruments have not demonstrated an advantage over competent review. Their hypotheses remain open; the historical arguments, ethical commitments and artwork require their own grounds. A shared binding does not turn them into one validated theory.',
         'Read a plate as a proposed account. Read its two leaves for the claim, the limits, and the observation that could change it. Where no receiving authority, workable alternative, or agreed measure is known, the book leaves the absence visible.'
     ]:y=b.text(s,52,y,400)
     b.end()
@@ -339,7 +339,7 @@ def front(b,book):
     for s in [
         'Black records an arrangement. Red marks an intervention or a question. Neither color certifies an outcome. The plate quantities are illustrative unless a source is identified; no copied experimental data are concealed in ornament.',
         'The twelve-mark hand names diagram questions. Matricis and Intervallorum named its signs differently; each plate writes the name it uses, and the sheet mounted at Table XVII keys the Matricis readings. Tables I, VIII, XV and XVII and the unnumbered plate are mounted from the Matricis edition. The separate Matricis cipher is a substitution alphabet; its key and literal readings appear after the tables. Neither alphabet is a revealed language. A reserved blank contains no omitted answer.',
-        'Inherited inspection notes say what an earlier edition checked. They are retained as provenance, without claiming a fresh audit. The earlier six-case pilot is development history: its comparison records are not bundled here. The three-arm study remains a proposed test.'
+        'Inspection notes distinguish inherited accounts from newly read sources. The six-case exercise and expanded follow-up were retrospective development work; neither executed the independent three-arm comparison. Their overlap with ordinary review establishes no added advantage, and their unrun comparison establishes no measured null effect.'
     ]:y=b.text(s,52,y,400,'note')
     b.end()
 
