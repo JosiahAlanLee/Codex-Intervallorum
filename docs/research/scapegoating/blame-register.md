@@ -18,7 +18,7 @@ A blame claim here is any passage on where fault lands, who assigns it, on what 
 | Key | File (line numbers refer to it) |
 | --- | --- |
 | I–II | [`books/01_matricis_intervallorum/manuscript/reading-edition.md`](../../../books/01_matricis_intervallorum/manuscript/reading-edition.md) |
-| III | [`books/03_escalationum/output/reading-edition.md`](../../../books/03_escalationum/output/reading-edition.md) (built from [`manuscript/catalogue.json`](../../../books/03_escalationum/manuscript/catalogue.json)) |
+| III | Generated `books/03_escalationum/output/reading-edition.md`; tracked source: [`manuscript/catalogue.json`](../../../books/03_escalationum/manuscript/catalogue.json) |
 | IV | [`books/04_graduum/manuscript/reading-edition.md`](../../../books/04_graduum/manuscript/reading-edition.md) |
 | V | [`books/05_notoria/manuscript/reading-edition.md`](../../../books/05_notoria/manuscript/reading-edition.md) |
 | VI | [`books/06_tarot/major-arcana/deck.json`](../../../books/06_tarot/major-arcana/deck.json), [`swords/swords.json`](../../../books/06_tarot/swords/swords.json) (cited by card) |
@@ -27,6 +27,8 @@ A blame claim here is any passage on where fault lands, who assigns it, on what 
 | Acc | [`books/00_accusator/manuscript/de-officio-accusatoris.md`](../../../books/00_accusator/manuscript/de-officio-accusatoris.md) |
 | Mat | [`books/00_matres/manuscript/de-matribus-noctis.md`](../../../books/00_matres/manuscript/de-matribus-noctis.md) |
 | EDITORIAL | `docs/EDITORIAL-2026-10-17.md` † |
+
+Book III's line numbers refer to the generated reading text, which is intentionally absent from a clean source checkout. Run `python books/03_escalationum/generator/build.py` from the repository root to produce it. The table links to its tracked input so source navigation also works before a build.
 
 ## Where blame lands
 
@@ -120,10 +122,10 @@ The text also limits a theory of scapegoating in advance. The sharpest limit: an
 | Where | Tag | The text | Limit on the theory |
 | --- | --- | --- | --- |
 | V:329–341 | — | A reader writes “The offices are absurd; therefore the leaf is sound,” and another hand “crossed out therefore.” “The office's failure does not confer a gift of truth upon whatever passed outside it.” “A prohibition is not a refutation. A prohibition is not a certificate.” | A bad process does not exonerate. **Reading:** this also answers “witch hunt” claims made by the powerful |
-| Mat:77 | \[F\] | The one-Great-Mother story “was a kinder story than the priests’, and it was built the same way: choose one, and call the rest her pieces.” | Inverting the culprit keeps the structure; blaming the executive instead is the same build |
+| Mat:77 | \[F\] | The one-Great-Mother story “was a kinder story than the priests’, and it was built the same way: choose one, and call the rest her pieces.” | **Reading:** reversing a totalizing story does not establish the reversed account. Whether an executive bears responsibility still requires evidence of that executive's conduct, authority and constraints |
 | IV:25; I–II:217, 269 | \[V\], \[H\], \[D\] | “no office in it need be malicious for the building to behave as drawn.” “An unresolved authorization is not proof of malice.” “It does not prove a motive in the person who controls the maintenance budget.” | Mechanism without malice; no motive read off structure |
 | IV:19; III:837 | \[H\]; — | Graduum examines Book III's pattern but “does not derive a law of bureaucracy from the satire.” Book III: “The three gradients belong to the satire. Liability means exposure to organizational blame here; the book makes no claim about legal liability.” | The gradient is not yet a finding |
-| VII:140 | — | “Every report has conditions of production, including a human report. If that fact were sufficient to disqualify testimony, the standard would defeat ordinary inquiry.” | A coerced confession is still some evidence; it cannot be discarded wholesale |
+| VII:140 | — | “Every report has conditions of production, including a human report. If that fact were sufficient to disqualify testimony, the standard would defeat ordinary inquiry.” | Conditions of production alone do not invalidate every report. This does not establish a coerced confession's reliability about the alleged act; it may instead be evidence about the interrogation that produced it |
 | VII:72 | — | Coordination under time pressure “identifies a reason for bounded delegation, a time limit, and a need for later accountability.” | Accountability is not by itself scapegoating |
 | I–II:493 | \[D\] | “The book must not claim to have predicted what it only redescribed after the event.” | Fitting a scapegoat story to each incident afterwards |
 | IV:233; EDITORIAL:18 | \[D\]; editorial note | The cipher is “not proof that institutional invocations inevitably carry their own indictment.” The 17 October pass cut the universal version as “not evidence that every institution encodes an indictment.” | No universal hidden charge |
@@ -132,7 +134,7 @@ The text also limits a theory of scapegoating in advance. The sharpest limit: an
 
 ## Witch(x) failure modes, staged in the text
 
-Every failure the protocol guards against already has a scene in the books. Field names follow v0.5 as recorded in the 2 October protocol conversation; the protocol PDF was not reopened for this register. Neither is in this repository.
+Several failures the protocol guards against have scenes in the books. Field names follow v0.5 as recorded in the 2 October protocol conversation; the protocol PDF was not reopened for this register. Neither is in this repository. This is a proposed mapping, not a verified claim of complete protocol coverage.
 
 | Witch(x) failure or field | Where the text stages it |
 | --- | --- |
@@ -146,10 +148,10 @@ Every failure the protocol guards against already has a scene in the books. Fiel
 
 ## Tensions inside the text, left open
 
-Seven places where the books disagree with themselves on blame. None is resolved here.
+Seven pressure points for a theory of blame. Some concern competing commitments; others compare the satire's depicted failures with the reading text's proposed safeguards. That comparison does not by itself establish a contradiction. The questions below remain open at their stated scope.
 
 1. **Candor.** De Officio Accusatoris enters a confession “for the prosecution” (Acc:53). Books I–II and IV separate reporting from enforcement and penalty (I–II:279, 283; IV:283); blameless reporting exists to suspend the prosecutor's rule.
-2. **The landing's evidence.** CULPAX's binding is “The earliest timestamp and one individual's name” (III:518), while I–II:215 says timestamps cannot divide causes and IV:279 asks for three. As satire this holds; a theory has to say which one it asserts.
+2. **The landing's evidence.** CULPAX's binding is “The earliest timestamp and one individual's name” (III:518), while I–II:215 says timestamps cannot divide causes and IV:279 asks for three. The first depicts a defective attribution rule; the latter passages propose standards for investigating it. The empirical question is when an actual institution substitutes the first for the latter, and what contemporaneous records would show that substitution.
 3. **The indictment field.** Every Book III entry ends with what the office actually did, a field that “must accompany any copy” (III:18) and that the commission calls “the indictment” (`books/03_escalationum/docs/COMMISSION.md`:33 †). FORAS's field reads “Located the fault in four minutes; left it running while permission was sought” (III:64), and Graduum's plate X binds that line into the litany that “cannot be copied without the indictment” (IV:223–225). **Reading:** apply VELAROTH's binding, no subordinate clauses (III:701), and “left it running” is what remains; the text does not say whether this demonstrates CULPAX or slips into it.
 4. **The numbers.** The catalogue sets liability = competence = 6 − authority at every station, so competence and blame are one number. Graduum calls the pattern satire (IV:19), and the only executable specimen runs on invented minutes (III:797); nothing in the books could test the gradient yet.
 5. **Reporters and the accused.** “Fading can protect reporters while weakening evidence” (I–II:443), and “Removing all provenance would instead defeat some checks” (VII:138). A rule letting the accused inspect the evidence, proposed in chat and not in the text, would expose reporters; the text says “Neither conflict has a general resolution in the diagram” (I–II:443).

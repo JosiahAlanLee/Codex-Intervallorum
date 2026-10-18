@@ -3,7 +3,7 @@
 **Prepared:** 18 October 2026, by Claude (Anthropic) at the author's request, from two delegated web searches  
 **Status:** incomplete; the Post Office Horizon and Boeing 737 MAX vettings stopped before they reported; no manuscript changes made
 
-The search asked for a modern, well-documented case in which blaming a person or unit severely damaged an organization in a way gradual change would not have. On the screen, Mitsubishi Fuso's wheel hubs is the only case that passes all four tests. Wells Fargo, the one case vetted in depth, passes the scapegoat test but no official finding says its damage came from the blaming.
+The search asked for a modern, well-documented case in which blaming a person or unit severely damaged an organization in a way gradual change would not have. The original screen rated Mitsubishi Fuso's wheel hubs a pass on all four tests. The subsequent review of the cited Supreme Court judgment supports a narrower finding: an inadequate attribution to users coexisted with a failure to recall that the court connected to a later fatal accident. The judgment does not establish the proposed route to corporate financial loss. No all-four pass is established here. Wells Fargo, the one case vetted in depth in the original pass, passes that pass's scapegoat test but no official finding inspected here attributes its organizational losses specifically to blaming.
 
 ## Tests
 
@@ -16,11 +16,13 @@ The search asked for a modern, well-documented case in which blaming a person or
 
 The Wells Fargo vetting was set T1–T3 only.
 
+These are screening conditions, not interchangeable outcomes. T2 must distinguish harm to people from loss to the organization and identify which causal link a source establishes. A discrete event alone cannot establish T3's counterfactual about gradual repair. In the inherited screen, “fail” sometimes records missing evidence or a scope exclusion rather than evidence that scapegoating did not occur; citizens in the childcare-benefits and Robodebt cases fall outside this screen's internal-chain condition only.
+
 ## Verdicts
 
 | Case | T1 | T2 | T3 | T4 | Depth | Note |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mitsubishi Fuso wheel hubs, 1999–2004 | pass | pass | pass | pass | screened | Supreme Court causal finding (2012); the 2000 cover-up scandal also feeds the 2004 collapse |
+| Mitsubishi Fuso wheel hubs, 1999–2004 | partial | partial | partial | pass | primary judgment checked | User-only attribution rejected; recall-to-accident link supported; disproportionate personal sanction and blame-to-corporate-loss links not established |
 | JR West, Fukuchiyama Line, 2005 | partial | pass | pass | pass | screened | A culture of punitive retraining rather than one scapegoat |
 | News of the World, 2006–11 | pass | partial | pass | pass | screened | The trigger was the hacking itself |
 | Wells Fargo sales practices, firings 2011–16 | pass | partial | partial | not set | vetted | No official body says the damage came from the blaming |
@@ -38,7 +40,7 @@ The Wells Fargo vetting was set T1–T3 only.
 
 ## How far this was checked
 
-Two research agents ran the searches on 18 October 2026. Each was limited to one short quotation per source and asked to say whether it opened each page. The screening agent reports opening every linked page; the Wells Fargo agent marks its exceptions. Their notes follow, lightly edited. They have not been re-checked against their sources, so each verdict is the agent's reading.
+Two research agents ran the searches on 18 October 2026. Each was limited to one short quotation per source and asked to say whether it opened each page. The screening agent reports opening every linked page; the Wells Fargo agent marks its exceptions. Their notes follow, lightly edited. A subsequent review checked the Fuso Supreme Court judgment and the relevant Wells Fargo DOJ Statement of Facts. Other sources and inherited verdicts have not received a fresh audit; specific corrections and access limits are in [the review](review-2026-10-18.md).
 
 ## Wells Fargo (vetted)
 
@@ -153,15 +155,15 @@ None of these uses scapegoating as an analytic term.
 - Daimler refused further funding and CEO Eckrodt quit, though that report mentions recalls only in general ([Japan Times](https://info.japantimes.co.jp/weekly/news/nn2004/nn20040501a4.htm)).
 - Car sales in May 2004 fell nearly 60% ([AP](https://www2020.theautochannel.com/news/2004/06/02/198131.html)).
 
-T1–T4 pass. Caveat: Mitsubishi Motors' earlier cover-up scandal in 2000 adds to the 2004 collapse.
+**Primary-record review, 18 October 2026.** The majority's reasoning in section 3(1) rejects an explanation confined to the user's maintenance and operating conditions as insufficient to dismiss a design-strength problem. Sections 2 and 3 address the defendants' duty, foreseeability and the avoidability of the fatal accident through recall. That supports a mechanism of misplaced attribution accompanying continued exposure to danger. It does not establish that a particular user was wholly without fault, identify a disproportionate personal sanction, or trace the later corporate losses to the blame response. Corporate-loss claims above still rely on the original secondary-source screen and involve other recalls and the earlier cover-up scandal. Revised T1, T2 and T3: partial; T4: pass for the judgment's bounded finding.
 
 **News of the World, 2006–11.** A Commons committee (2010) criticised News International, the police and the PCC for leaving Goodman “as the sole scapegoat” ([Press Gazette](https://pressgazette.co.uk/?p=45090)). Its 2012 report found that executives had misled it ([Inforrm](https://inforrm.org/2012/05/01/new-culture-media-and-sport-committee-reports-on-news-international-and-phone-hacking-laura-sandwell/amp/)). The paper closed days after the Milly Dowler revelation ([Al Jazeera](https://www.aljazeera.com/news/2011/7/10/scandal-hit-uk-newspaper-shuts-down)), and the BSkyB bid was dropped on 13 July 2011 ([Drum](https://www.thedrum.com/news/2011/07/13/news-corp-withdraws-bskyb-bid)). T1 pass, T2 partial (the trigger was the hacking itself), T3 pass, T4 pass.
 
 **JR West, Fukuchiyama Line, 2005.** JR West punished minor driver errors with retraining sessions. The accident commission (2007) found that the driver had just overrun a station. When he braked late he was probably preoccupied with excuses or with fear of punishment. The commission faulted the retraining programme ([Japan Times](https://www.japantimes.co.jp/news/2007/06/29/national/jr-train-driver-faulted-in-final-report-on-crash/)). 107 people died and the company president resigned ([Wikipedia](https://en.wikipedia.org/wiki/Amagasaki_derailment), a secondary source). T1 partial (a culture of blame rather than one scapegoat), T2 pass, T3 pass, T4 pass.
 
-The screening agent ranked them:
+The screening agent originally ranked them:
 
-1. Mitsubishi Fuso hubs: the only case passing all four tests, with a Supreme Court causal finding, a second accident and a corporate collapse.
+1. Mitsubishi Fuso hubs: originally rated the only all-four pass. The primary-record review above narrows that assessment; a causal finding about the accident does not establish the corporate-loss claim.
 2. JR West: the official investigator traced the disaster to the blaming itself.
 3. News of the World: the clearest official finding that someone was made a scapegoat, plus a paper shut within days; weaker on mechanism.
 

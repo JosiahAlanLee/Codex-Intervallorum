@@ -6,7 +6,7 @@
 
 Metz in 1519 is a real proceeding with a full cast: an accused woman, an inquisitor, two judges, a cathedral chapter and an advocate. It closes two of the five gaps in the [blame register](blame-register.md#gaps-the-register-shows) (a real incident, a witch) and narrows two (the demand side, the line between accountability and scapegoating). The fifth, the link between false report and the no-fault exit, is in the record: when she went free, her accusers were fined, though the two readers of that letter disagree about what for.
 
-Its record is the advocate's own: Agrippa's letters, the letters he kept from Metz, and his later polemic, read here through [Hoorens and Renders (2012)](https://hansrendersarchive.org/wp-content/uploads/2023/10/sixteenth-century-renders.pdf) and two biographers who worked from the Latin, Morley (1856) and Prost (1881). Hoorens and Renders set the case's limit: Agrippa contested an inference and a procedure, not the category, and his *De vanitate* has the most pernicious witches deserving the fire.
+The consulted record is the advocate's own: Agrippa's letters, the letters he kept from Metz, and his later polemic, read here through [Hoorens and Renders (2012)](https://hansrendersarchive.org/wp-content/uploads/2023/10/sixteenth-century-renders.pdf) and two biographers who worked from the Latin, Morley (1856) and Prost (1881). Hoorens and Renders argue that the defense contested an inference and a procedure without establishing rejection of the category; they also identify a passage in *De vanitate* prescribing burning for the most pernicious witches. Their reconstruction and their inferences about Agrippa's motives remain distinguishable claims.
 
 ## The case
 
@@ -31,27 +31,27 @@ The sequence follows Hoorens and Renders's reconstruction, with details from Mor
 
 ## The route
 
-Metz and Woippy, 1519–20, as reconstructed from Agrippa's correspondence. Dashed boxes are letters from outside the proceedings.
+Metz and Woippy, 1519–20, as reconstructed from Agrippa's correspondence. Solid arrows show the narrated sequence, rather than an independently established causal effect. Dashed boxes are letters from outside the proceedings; the petition arrow records the requested outcome, not proof that the petitions caused the release. Details and source differences are in the numbered account above.
 
 ```mermaid
 flowchart TD
-  A["1519 · Seized at Woippy<br/>Villagers hold her without authority, in a village of the Metz cathedral chapter"]
-  B["Court at Metz<br/>Inquisitor Nicolas Savin, sitting as assessor: her mother had been burned as a witch"]
-  C["Sent back to Woippy<br/>Tortured with the judge absent, jailed, denied food and water, four accusers in charge"]
-  D["Returned to Metz<br/>On the cathedral chapter's order"]
-  E["Judge Jean Leonard dies<br/>Dying, he rules her innocent or, if suspected, purged by her sufferings, and asks her release"]
-  F["Savin claims the case<br/>Asserts jurisdiction and demands more torture"]
-  G["She goes free and the vicar absolves her<br/>Known only from Agrippa's correspondence"]
-  H["1520 · Brennonius writes to Agrippa<br/>Her accusers have been fined 100 francs, and another old woman, with no defender, was burnt"]
-  L["Agrippa's letters, outside the proceedings<br/>Barred as her advocate, he writes to the vicar and the new judge, pleading for acquittal: no jurisdiction, hostile and bribed witnesses, baptism"]
+  A["1519: seizure at Woippy"]
+  B["First hearing at Metz"]
+  C["Return to Woippy: detention and torture"]
+  D["Chapter orders return to Metz"]
+  E["Judge requests release and dies"]
+  F["Savin claims jurisdiction"]
+  G["Release and absolution reported"]
+  H["1520 letters: fine and another execution"]
+  L["Agrippa petitions the vicar and new judge"]
   A --> B
-  B -->|"on Savin's advice, after gifts to judge and inquisitor"| C
+  B -->|"on Savin's advice"| C
   C --> D
   D --> E
   E -->|"after his death"| F
   F --> G
   G -.-> H
-  L --> G
+  L -.->|"requests acquittal"| G
   classDef later stroke-dasharray: 5 5
   class H,L later
 ```
@@ -60,20 +60,20 @@ The defense entered from outside the proceedings, by letter. The release followe
 
 ## The record and its dependence
 
-Everything about the case reaches us through Agrippa's correspondence: his letters during it, his friend's letters after it, and his own later retelling. No record outside it was found. On 18 October, Brulé's study of Metz witchcraft could be reached only as a catalogue entry, Litzenburger's chapter on Metz witch trials not at all, and Vigneulles's chronicle of the city only to 1504. Two outside sources confirm the frame of the case, not the case.
+In the consulted corpus, substantive reports of the case reach us through Agrippa's papers: his letters during it, his friend's letters after it, and his own later retelling. No record outside that transmission was found in this search. This does not establish that none survives. On 18 October, Brulé's study of Metz witchcraft could be reached only as a catalogue entry, Litzenburger's chapter on Metz witch trials not at all, and Vigneulles's chronicle of the city only to 1504. Two outside sources confirm the frame of the case, not the case.
 
 | Source | Written by, when | Adds | Independent of Agrippa? |
 | --- | --- | --- | --- |
 | Petitions to the vicar and the new judge (Ep. II.38–39); letters to Claudius Cantiuncula (II.40) and to Henricus, an imperial counselor in Luxembourg | Agrippa, 1519, during the case | The procedure, the judges, the gifts, Savin's claims, Agrippa's arguments, the witness list | No. Not opened here; read through Hoorens and Renders, Morley and Prost. *Opera*, vol. 2, pp. 752–57; printed in full with *De beatissimae Annae monogamia* (1534) |
 | *De vanitate*, ch. 96, “Of the Inquisitoures Arte” in the 1569 English | Agrippa; announced 1526, printed 1530 | The *Malleus* argument, the baptism retort, mockery of incubi, an attack on the Dominicans | No. Read through Dresen-Coenders (1983) and Hoorens and Renders; the chapter title from [Cornell's record](https://digital.library.cornell.edu/catalog/witchcraft005) of the 1569 English |
-| Letters to Agrippa after he left, Ep. II.46, 53 and 59 among them | Johannes Brennonius, curé of Sainte-Croix, Agrippa's friend; from 1520 | The fine and its ground; her visits; “saved from the stake”; Savin's later case, ending at the stake | Partly: a second witness, but a friend, and kept in Agrippa's correspondence (*Opera*, vol. 2, pp. 763–78) |
+| Letters to Agrippa after he left, Ep. II.46, 53 and 59 among them | Johannes Brennonius, curé of Sainte-Croix, Agrippa's friend; from 1520 | The fine and its ground; her visits; “saved from the stake”; Savin's later case, ending at the stake | A second correspondent, preserved in the same collection (*Opera*, vol. 2, pp. 763–78). For each claim, his basis of knowledge and possible dependence on Agrippa still need examination |
 | An early-modern apologia for Agrippa, unidentified; Barrett, *The Magus* (1801) | Defenders of his reputation | Accusers and witnesses heavily fined; a principal accuser called “Messin”; torture Agrippa could not prevent | Dependent and later. The fines come from Ep. II.46; the witnesses' share and “Messin” are in no reading of the letters opened here. The apologia was read in [an AI translation](https://sourcelibrary.org/book/69c879e06c6f3cc53c858579/page-number/-107) whose pages do not identify the book |
 | [SEP](https://plato.stanford.edu/entries/agrippa-nettesheim/) (rev. 2025); [French Wikipedia](https://fr.wikipedia.org/wiki/Henri-Corneille_Agrippa_de_Nettesheim) | Reference works | Saved “from the stake”; a defense that pleaded senility | Dependent. “From the stake” is Brennonius's phrase, as Prost gives it. The senility claim carries no source and conflicts with the letters |
 | [Morley](https://wellcomecollection.org/works/c5cy9bk2) (1856), vol. 2, pp. 51–72; [Prost](https://wellcomecollection.org/works/v5pzrdya) (1881), vol. 1, pp. 319–26, 378 | Biographers who read the Latin letters | Letter numbers and pages; the night seizure; accusation or denunciation; the gifts; the dying judge's ruling; the absolution; the fine; the later burning | No. Both build on the letters, and they differ on her age and on the fine's ground. Prost's one outside citation is Quépat's history of Woippy (1878), for the chapter's lordship and the village's witch cases |
 | The Benedictines of Saint-Vanne, *Histoire générale de Metz* (1775), vol. 3, p. 8, as Morley cites it; [Geneawiki](https://fr.geneawiki.com/wiki/57751_-_Woippy) on Woippy | Metz's eighteenth-century historians; a genealogy wiki | Savin acting as inquisitor at Metz in a later heresy case; the chapter's château at Woippy and its hold on the village from 1511 | Yes, for the frame only: neither touches the case. The Benedictines' history was not opened |
 | Brulé (2006); Litzenburger (2015), ch. 11; Philippe de Vigneulles's *Chronique*, vol. 4; Nauert (1965); Ziegeler | A historian of witchcraft in Metz; a historian of Metz and its climate; the city's chronicler, writing at the time; Agrippa scholars | Not opened. Brulé has no preview, Litzenburger's chapter was blocked, and Vigneulles is online only to 1504 | Brulé, cited by Hoorens and Renders at pp. 69–71, is the likeliest route to a court or chapter record; Litzenburger, to the misfortune behind the charge |
 
-“Messin” is French for a person from Metz; whether Barrett's source meant a surname is unresolved here. Read as Witch(x) reads evidence, the record has two witnesses, the advocate and his friend, and both reach us through the advocate's papers. The penalty is in that record, not added after it. An earlier version of this study called the fines a later addition. It had read Hoorens and Renders, whose citations of the letters stop at p. 757, and took their silence for the letters'. The fine is reported at p. 763.
+“Messin” is French for a person from Metz; whether Barrett's source meant a surname is unresolved here. The consulted record has two correspondents, the advocate and his friend, and both reach us through the advocate's papers. Shared transmission does not make every statement dependent, and different authors do not make every statement independently corroborated. The penalty is in that record, not added after it. An earlier version of this study called the fines a later addition. It had read Hoorens and Renders, whose citations of the letters stop at p. 757, and took their silence for the letters'. The fine is reported at p. 763.
 
 ## Gap by gap
 
@@ -94,11 +94,11 @@ The flaw is in the third part. His unfit witnesses, as Hoorens and Renders rende
 
 **4. No witch: closed.** The register's cast had offices, an accuser and a first observer. Metz has the accused: seized, starved, tortured, absolved. No source opened here records her name, while the names of the judge, the inquisitor, the advocate and probably the vicar survive. Even her age is in transit: Brennonius calls her *vetula*, an old woman, as Prost quotes him; Morley makes her young, a poor man's wife.
 
-**5. False report and no-fault exit, unconnected: joined in the record.** The letters charge false report: enmity and bribes. The procedure put a price on accusing: the villagers had to choose between accusing her and merely denouncing her, and the eight who accused were ordered to give pledges of good faith. Her exit was the court's own: the dying judge ruled her innocent or, if suspected, purged by her sufferings, and the vicar absolved her. A letter of 1520 then reports her enemies fined a hundred francs (Ep. II.46). Morley gives the ground as unjust accusation of the innocent, which would be the price of accusing, collected. Prost gives it as holding her without a judge's licence or their lords' commission, which would put the penalty on the arrest made around the office, not on the false report. The Latin at *Opera*, vol. 2, p. 763 would settle which.
+**5. False report and no-fault exit, unconnected: joined in the record.** The letters charge false report: enmity and bribes. The procedure put a price on accusing: the villagers had to choose between accusing her and merely denouncing her, and the eight who accused were ordered to give pledges of good faith. Her exit was the court's own: the dying judge ruled her innocent or, if suspected, purged by her sufferings, and the vicar absolved her. A letter of 1520 then reports her enemies fined a hundred francs (Ep. II.46). Morley gives the ground as unjust accusation of the innocent, which would be the price of accusing, collected. Prost gives it as holding her without a judge's licence or their lords' commission, which would put the penalty on the arrest made around the office, not on the false report. Reading the Latin at *Opera*, vol. 2, p. 763 could clarify the grounds Brennonius reports, including whether both appear; a correspondent's account need not establish the court's full grounds. The connection between the exit and a penalty specifically for false accusation therefore remains conditional.
 
 ## Witch(x) run both ways
 
-Run on the inquisitor's claim, the protocol finds no evidence of an act; run on the hero story, it finds two witnesses, both kept in the advocate's papers. Field names follow v0.5 as recorded in the 2 October protocol discussion, which is not in this repository; assessments are in plain words, not the protocol's label tokens.
+Run on the inquisitor's claim, this reading identifies no independently corroborated act in the consulted accounts; it has not searched the entire surviving archive. Run on the hero story, it finds two correspondents, both kept in the advocate's papers, with independence to assess claim by claim. Field names follow v0.5 as recorded in the 2 October protocol discussion, which is not in this repository; assessments are in plain words, not the protocol's label tokens.
 
 | Field | A. The inquisitor's claim | B. The tradition's claim |
 | --- | --- | --- |
@@ -109,7 +109,7 @@ Run on the inquisitor's claim, the protocol finds no evidence of an act; run on 
 | Bridge | Descent → dedication to the devil → disposition → act. Each step is doctrine (*Malleus* II.1.13); none is observation | Release → innocence; letter → release |
 | Dependence | The mother's verdict came from the same kind of proceeding; the witnesses are, on Agrippa's account, enemies paid to testify | Every item traces to Agrippa; Brennonius reaches us through him, and the case letters were printed in Agrippa's own 1534 book |
 | Feedback | The charge licenses the torture that would produce its evidence; one verdict nominates the next suspect. Brennonius watched the loop run in a later case (Ep. II.59) | The story grows in retelling: the witnesses fined too, “Messin”, a senility defense |
-| Pivot | Remove descent and no evidence of an act remains | Remove Agrippa's correspondence and only Savin's office remains |
+| Pivot | Remove descent and the consulted accounts identify no independently corroborated act; the Woippy accusations and the accused's testimony have not been inspected directly | Remove Agrippa's correspondence and the sources inspected here establish the institutional setting, not the case |
 | Discrimination | Suspicion running in families is expected whether or not anyone did anything | A release is what the dying judge had asked for, so it cannot show the letters' effect. The later woman burnt without a defender is a contrast, not a control: too much else differs, from the judge to the charge |
 | Counterevidence | The dying judge's ruling: innocent or, if suspected, purged by her sufferings; baptism, inside the inquisitor's own frame | *De vanitate* ch. 45, read by Hoorens and Renders: the most pernicious witches deserve burning, though the work is a declamation |
 | Double-edged | The mother's burning: evidence of the family's reputation, and equally of the apparatus's earlier reach into the family | His letters' abuse of Savin: evidence of animus, and of how hard he pressed |
