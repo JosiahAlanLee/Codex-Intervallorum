@@ -248,6 +248,11 @@ class Book:
         y = self.para(y, b["applications_deck"], font="FellIt", size=11.5, lead=15)
         y -= 8
         for p in b["applications"]:
+            # Keep each short trial instruction with its claim tag on one leaf.
+            body = TAG.sub("", p)
+            lines = wrap(body, "Fell", BODY, self.width() - (22 if TAG.match(p) else 0))
+            if len(lines) * LEAD <= PH - TOP - BOTTOM:
+                y = self.ensure(y, len(lines) * LEAD)
             y = self.para(y, p)
             y -= 6
         self.new_page()

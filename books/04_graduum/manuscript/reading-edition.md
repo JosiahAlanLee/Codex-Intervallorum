@@ -4,7 +4,7 @@ A Little Key to the Steps
 
 A grimoire of orders, passages and keys: rates, permissions and their possible mismatches
 
-Revised manuscript, DRAFT | 17 October 2026
+Revised manuscript, DRAFT | premise revision, 18 October 2026
 
 *DRAFT. The five numbered proposals are hypotheses, not established laws. Source inspection statements are inherited from the draft; this editorial pass does not claim a fresh primary-source audit. Plate captions and encoded messages may retain earlier wording; the prose here states the revised scope.*
 
@@ -22,7 +22,7 @@ Revised manuscript, DRAFT | 17 October 2026
 
 [D] Rank and rate need not agree. A required approval that arrives after an intervention's deadline cannot authorize that intervention in time. Whether delegation would improve the outcome depends also on competence, risk and resources. The plates draw possible mismatches; the five proposals below state how to examine them.
 
-[V] The book keeps Book I's rule: every claim states what would count against it, every source trail says what was actually inspected, and a sketch prompts a claim and never replaces one. It keeps Book III's rule that the hierarchy itself is the subject and that no office in it need be malicious for the building to behave as drawn.
+[D] Deference to relevant expertise, shared vigilance and review have existing HRO antecedents [Q1]. DORA recommends peer review and automated checks in place of heavyweight external change approval [Q3]. These sources do not measure this book's interventions; healthcare evidence on full HRO implementation remains limited [Q2]. The proposals below inherit questions, not a demonstrated comparative advantage.
 
 [F] The book is arranged in three parts, as the Steganographia was: Of Orders, Of Passages, and Of Keys. The working plates use three carriers, described in the Clavis. Plate XII is an announced omission rather than another encrypted result. The twelve-mark hand, the square table and the office litany are instruments of the artwork. The claims do not depend on them.
 
@@ -274,7 +274,7 @@ The absence is stated; no secret result is promised.
 
 What to do on a Tuesday.
 
-[V] These are questions and trial changes for an organisation with permission dependencies. They can be used without accepting the book's comparisons. Record the intended benefit and the harms to watch for before changing a live process.
+[V] These are proposed local trials, not a validated package or a requirement to adopt this book's vocabulary. Record the intended benefit, protective functions, review route and harms before changing a live process. Permission, competence and responsibility must be established separately; no general competence gradient or malicious purpose is presumed.
 
 [H] 1. Map the critical permission path. Record when a fault was diagnosable, when action became authorized and when it became feasible. Trial bounded pre-authorization where a required wait misses the task's deadline; retain competence checks, resources and safeguards against an unsafe repair.
 
@@ -326,3 +326,6 @@ What to do on a Tuesday.
 - **X1** Codex Intervallorum, books/04_graduum/proofs/x-xi-v-gpt/validation.json (2026). — *The plate's own recorded counterexample tests; read, not re-run.* Use: The reversed and simplified XI carriers.
 - **E3** Pseudomonarchia Escalationum (2026), manuscript/catalogue.json and output/plates/office-seal-0..6.svg. — *Read and imported in full.* Use: The seven offices, their regions, seals and actual effects; the empty seat.
 - **M1** Clavicula Matricis, Revision 5 (2026): claims D1-D5, the ten constraints, the twelve-mark hand. — *The source of the numbering and the house rules.* Use: D1 decay ownership; P1 boundary declared; P3 representations change what they represent.
+- **Q1** Agency for Healthcare Research and Quality. High Reliability. PSNet primer (2019), reviewed 15 September 2024. — *Relevant primer passages directly read on 18 October 2026. Its references identify Weick and Sutcliffe, Managing the Unexpected (2015); that book was not newly inspected.* Use: Deference to relevant expertise, shared concerns, cross-monitoring and resilience. An antecedent, not proof of this book's intervention. [https://psnet.ahrq.gov/primer/high-reliability](https://psnet.ahrq.gov/primer/high-reliability)
+- **Q2** Fricke, J., Galligan, M., Douma, C., Souder, J., Hedden-Gross, A., and Mull, N. (2025). Examining the Impact of Implementing High-Reliability Organization Principles on Patient Safety Outcomes: Rapid Review. AHRQ, Making Healthcare Safer IV. doi:10.23970/AHRQEPC_MHS4HRO. — *The authors' abstract and findings directly read in PubMed on 18 October 2026; the full report was not inspected. Its healthcare scope is retained.* Use: Limited published effectiveness evidence for HRO implementation; no numerical estimate transferred to dispatch or other institutions. [https://pubmed.ncbi.nlm.nih.gov/41248244/](https://pubmed.ncbi.nlm.nih.gov/41248244/)
+- **Q3** DORA. Streamlining change approval. Capabilities page, updated 30 October 2025. — *Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read.* Use: Peer review and automated checks as alternatives to heavyweight external approval. Supplies no gate-detection probability or incident-window calibration. [https://dora.dev/capabilities/streamlining-change-approval/](https://dora.dev/capabilities/streamlining-change-approval/)

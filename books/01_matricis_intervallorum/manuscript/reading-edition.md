@@ -8,13 +8,13 @@ Can the work discover its error, and still act on it?
 
 > The instrument corrected every departure from the line. When the line was moved, it corrected the hand that moved it. The keeper reported that the instrument had become exact.
 
-**Reading the plate.** Mounted from Clavicula Matricis, Tabula I. A quartered seal around an open centre. Its corners record where Revision 5 expected the practice to help before any test: little or nothing beyond a competent review for mature network and hosting reliability work; findings a generic checklist misses for agentic AI systems and for leaderless or adversarial coordination; diagnosis only where the corrective authority is itself implicated. P1 to P9 mark its starting points: four descriptive claims, four adopted commitments and one procedural wager. These were declared expectations, not results. Table XIII records that the later six-case reading found nothing distinctive.
+**Reading the plate.** Mounted from Clavicula Matricis, Tabula I. A quartered seal around an open centre. Its corners record where Revision 5 expected the practice to help before any test: little or nothing beyond a competent review for mature network and hosting reliability work; findings a generic checklist misses for agentic AI systems and for leaderless or adversarial coordination; diagnosis only where the corrective authority is itself implicated. P1 to P9 mark its starting points: four descriptive claims, four adopted commitments and one procedural wager. These were declared expectations, not results. Table XIII distinguishes the two retrospective development exercises from the independent comparison that was not run. The old expectations are preserved in the artwork; they are not this edition's findings.
 
 ### The question before the instrument
 
-[H] Can an arrangement still discover that it is wrong, and act on that discovery, as its power grows? Matricis made this the opening question. Intervallorum asked what must remain available for such an act to arrive in time. This book keeps both questions. An accurate diagnosis can coexist with an unusable remedy; an efficient remedy can preserve an objectionable purpose.
+[H] These tables ask how an institution distributes knowledge, permission, resources, responsibility and the ability to challenge a decision. An accurate diagnosis can coexist with an unusable remedy; an efficient remedy can preserve an objectionable purpose. The questions are offered for investigation, not as a new general theory of intelligence or a demonstrated improvement over competent review.
 
-[D] Separate inference, criticism, and constitution. Inference asks what follows within a model. Criticism asks whether the model describes the problem well enough. Constitution asks whether its goals, categories, standards, or participants should change. These are distinctions between questions, not ranks of intelligence or stages through which every inquiry must pass [T1].
+[D] Separate inference, criticism, and constitution. Inference asks what follows within a model. Criticism asks whether the model describes the problem well enough. Constitution asks whether its goals, categories, standards, or participants should change. These are distinctions between questions, not ranks of intelligence. Model checking and revision have existing methodological arguments; they are not a refutation of Bayesian inference [T1] [T8].
 
 [D] Declare the condition being regulated, the range allowed, and the observation that would prompt a review. Then name who benefits, who bears the cost, and who can change the rule. A regulator can hold a specified condition very well while the condition itself remains unjustified.
 
@@ -220,6 +220,8 @@ The first clock measures the wound; the next measures a permission.
 
 ### The proposed dispatch trial
 
+[E] HRO practice defers to relevant expertise while preserving shared vigilance [Q1]. DORA recommends peer review and automated checks instead of heavyweight external approval [Q3]. Neither source estimates the benefit of this dispatch proposal; healthcare evidence on HRO implementation remains limited [Q2].
+
 [H] Trial standing technical dispatch authority within stated conditions. Preserve executive notification, a shared record, safety coordination, and independent review. Name the person able to change the rule after a substantiated failure. Popularity, shame, and a good dashboard do not confer that authority.
 
 [H] Compare restoration outcomes and mistaken dispatches by severity, with incident complexity, staffing, access, and equipment in the account. A faster dispatch can displace risk onto a crew or a customer. Define an acceptable outcome before inspecting the results.
@@ -348,19 +350,19 @@ The added question must earn its place beside the ordinary review.
 
 **Reading the plate.** Three comparison arms read matched case packets: competent review; review plus this practice; review plus an equally long generic checklist. Independent judges assess supported findings. The plate records a proposed study, not completed evidence.
 
-### A null result may stay null
+### What the exercises established
 
 [D] An instrument that produces a longer report has not thereby found more. A useful comparison distinguishes supported mechanisms, unsupported claims, actionability, and effort. Asking extra questions can improve coverage even when the vocabulary of this book contributes nothing distinctive.
 
 [H] Use three arms: a competent review alone, that review supplemented by this edition's questions, and that review supplemented by a generic checklist of similar length and reading time. Keep case materials and opportunity to revise comparable. Have judges who do not know the arm assess claims against source passages. Randomize order or use independent analysts where possible.
 
-[D] The earlier edition reports a six-case feasibility exercise with no distinctive finding. Its underlying comparison records are not included in this repository. This edition does not reuse that account as an independently verified experimental result. It is part of the project's development history and a reason to supply inspectable materials for any new trial.
+[D] The supplied reports of 10 and 11 October describe a six-incident exercise and an expanded ten-unit reading [P2] [P3]. One analyst knew the outcomes. Both say the independent three-arm comparison was not run. Incremental usefulness and a measured null effect are therefore unestablished. Independent comparison records are not included because that comparison was not executed. The reports document development work, not comparative validation.
 
-[H] Preregister what would count as improvement. More supported, consequential findings with tolerable cost might count. More terminology, more speculative motives, or the same recommendations at greater cost would count against added value. Judge the method under conditions it could lose.
+[H] If comparative usefulness is pursued, choose one proposed increment, obtain the evidence it needs, and specify the comparator and outcome before the test. More terminology, speculative motives, or the same recommendations at greater cost would count against added value. The present edition does not require another broad demonstration or a larger simulation to justify its historical arguments, ethical positions or artwork.
 
 ### Test the promised increment
 
-[D] A clean toy model can expose an assumption or an arithmetic error. It cannot establish that an audit improves practical decisions. A case may show that the supposed prerequisite was irrelevant, that the deadline was wrong, or that ordinary review already found everything consequential.
+[D] The supplementary gate-and-window model illustrates a conditional tradeoff between review, delay and wrong actions. Its selected scenario region is not empirically calibrated. Passing its A-versus-C rule does not establish a practical benefit; the unreviewed-action comparator B usually does better than C within those assumptions. The model omits the dispatch trial's safety coordination, execution time and independent review. A toy result cannot substitute for that trial.
 
 [E] Kelly distinguishes a method's eventual arrival at a correct answer from its ability to announce that the answer is now certainly correct. Reliability is assessed over a stated range of possible data streams. A rule for changing beliefs can be restrictive enough to block an inquiry another rule could solve [T4].
 
@@ -480,7 +482,7 @@ Preserve the means to revise the inventory itself.
 
 [D] The bounded deductive claim is this: under specified dependency, timing, and resource assumptions, preserving a description of an option is insufficient to establish that the option can be used. The executable specimen makes a small instance exact. Its accuracy as a description of any practical system must be established independently.
 
-[H] The proposed synthesis is that maintenance, access, and institutional authority jointly shape a time-qualified repertoire of actions. The distinctive emphasis is the selection that can occur when some capacities are renewed and others lapse before a formal choice. This is a research proposal with clear predecessors, not a priority claim or a validated general theory.
+[H] Maintenance, access, and institutional authority are investigated together here. Selection can occur when some capacities are renewed and others lapse before a formal choice. Whether this description adds anything beyond ordinary maintenance and governance analysis remains unestablished. Temporal legibility, protected reporting, directional corrigibility and displacement coding likewise remain distinct proposals; none inherits validation from the others.
 
 [D] The cross-domain comparisons remain asymmetric. A fluid construction can establish a reachability statement in a prescribed mathematical model. A biological experiment can establish an observed effect under its treatment. A historical study can support an explanation of particular continuity. None can lend its evidential force to the others merely because a diagram resembles them.
 
@@ -488,7 +490,7 @@ Preserve the means to revise the inventory itself.
 
 ### What would change the book
 
-[H] The audit would lose practical force if ordinary scheduling and review already captured the same dependencies at lower cost. The recovery coding would lose force if readers could not distinguish cases consistently. The maintenance-selection claim would lose force in a case where unmaintained alternatives remained equally usable, or where readiness differences did not affect the relevant decision.
+[H] For operational use, an added question must earn its cost against competent existing practice. The maintenance-selection claim needs evidence of usable alternatives and a consequential renewal choice. Displacement coding needs agreement between independent readers. Timing proposals need actor-specific outcomes. Stating these tests does not execute them, and failure to demonstrate an advantage does not establish that every proposed use is worthless.
 
 [D] No observation needs to refute the conditional schedule when its assumptions hold. Observations can instead show that the assumptions omit what mattered. This distinction prevents a definitional result from being used as an unfalsifiable empirical theory. The book must not claim to have predicted what it only redescribed after the event.
 
@@ -694,6 +696,54 @@ The replacement case: a synchronised refusal defeated by replacing those who ref
 
 https://www.abajournal.com/magazine/article/august_5_1981_reagan_fires_air_traffic_controllers
 
+### [Q1] Agency for Healthcare Research and Quality. High Reliability. PSNet primer (2019), reviewed 15 September 2024.
+
+Relevant primer passages directly read on 18 October 2026. Its references identify Weick and Sutcliffe, Managing the Unexpected (2015); that book was not newly inspected.
+
+Deference to relevant expertise, shared concerns, cross-monitoring and resilience. An antecedent, not proof of this book's intervention.
+
+https://psnet.ahrq.gov/primer/high-reliability
+
+### [Q2] Fricke, J., Galligan, M., Douma, C., Souder, J., Hedden-Gross, A., and Mull, N. (2025). Examining the Impact of Implementing High-Reliability Organization Principles on Patient Safety Outcomes: Rapid Review. AHRQ, Making Healthcare Safer IV. doi:10.23970/AHRQEPC_MHS4HRO.
+
+The authors' abstract and findings directly read in PubMed on 18 October 2026; the full report was not inspected. Its healthcare scope is retained.
+
+Limited published effectiveness evidence for HRO implementation; no numerical estimate transferred to dispatch or other institutions.
+
+https://pubmed.ncbi.nlm.nih.gov/41248244/
+
+### [Q3] DORA. Streamlining change approval. Capabilities page, updated 30 October 2025.
+
+Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read.
+
+Peer review and automated checks as alternatives to heavyweight external approval. Supplies no gate-detection probability or incident-window calibration.
+
+https://dora.dev/capabilities/streamlining-change-approval/
+
+### [T8] Gelman, A., and Shalizi, C. R. (2013). Philosophy and the practice of Bayesian statistics. British Journal of Mathematical and Statistical Psychology 66, 8–38. doi:10.1111/j.2044-8317.2011.02037.x.
+
+Author-hosted opening and data-analysis-cycle discussion inspected. This is a methodological argument, not an experimental rejection of Bayesian inference.
+
+Model checking and revision beyond updating within a fixed candidate space; not a claim that all Bayesian approaches exclude criticism.
+
+https://www.stat.columbia.edu/~gelman/research/published/philosophy.pdf
+
+### [P2] Systematology against public incident reports: Test setup and executed retrospective pilot. Version 0.1, 10 October 2026, 7 pp.
+
+Supplied report read in full for the evidence review. Companion code and original incident reconstructions not independently rerun. Public report excerpt supplied with the methods note; companion data and code are not included.
+
+Six incidents, five organisations, one retrospective analyst; the independent three-arm comparison was not executed.
+
+https://github.com/JosiahAlanLee/Codex-Intervallorum/blob/main/docs/research/evidence/reports/2026-10-10-pilot-excerpt.txt
+
+### [P3] Expanded incident pilot: results. Revisable Systems Practice, Revision 5, 11 October 2026, 6 pp.
+
+Supplied report read in full for the evidence review. No independent model comparison or judging represented as completed. Public report excerpt supplied with the methods note; companion data and code are not included.
+
+Ten units, with eight new non-originating units as the main denominator; exploratory coding rather than a measured comparative effect.
+
+https://github.com/JosiahAlanLee/Codex-Intervallorum/blob/main/docs/research/evidence/reports/2026-10-11-pilot-excerpt.txt
+
 ## Further reading carried forward
 
 Systematology: A revisable systems practice, Revision 3. October 2026, 24 pp. Unpublished.
@@ -808,7 +858,7 @@ Cloudflare (2023, 4 November). Post mortem on the Cloudflare control plane and a
 
 ## Production and preparation notes
 
-Combined reading edition | 17 October 2026
+Combined reading edition | premise revision, 18 October 2026
 
 Text: Josiah Alan-Lee, with Claude and ChatGPT/Codex. Matricis supplies the core questions, change rules, measures, constraints, outage parable, and unresolved disputes. Intervallorum supplies the developed account of maintenance, deadlines, memory, and available correction. Consolidation, new plates, and the present setting: ChatGPT/Codex, 17 October 2026.
 
@@ -819,3 +869,5 @@ The Borrowed Face foldout and Vis Maior tract are excluded. Their earlier source
 This is a reading edition at the common seven-by-ten-inch trim. Its plates use raster, vector, and selectable type. The separately preserved plotter masters require their own review before plotting. Later books retain their established identifiers while this opening occupies the joint I-II slot.
 
 The conceptual revision develops selected antecedents beside the existing arguments: interactive resources at Table VI, limiting inquiry at XIII, stigmergic initiative at XIV, and destabilization rights at XVI. The restored Matricis boards remain mounted. A separate notation guide distinguishes the diagram vocabularies from the alphabet.
+
+Premise and source-status revision: ChatGPT/Codex, 18 October 2026. Existing safety and evaluation antecedents are credited. Comparative superiority, a measured null effect, and a unified empirical theory are not claimed. The public evidence review and report excerpts are filed under docs/research/evidence/.

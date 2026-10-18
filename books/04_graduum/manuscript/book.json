@@ -1,7 +1,7 @@
 {
  "title": "Clavicula Graduum",
  "subtitle": "A Little Key to the Steps",
- "edition": "Revised manuscript, DRAFT | 17 October 2026",
+ "edition": "Revised manuscript, DRAFT | premise revision, 18 October 2026",
  "author": "Josiah Alan-Lee",
  "strap": "A grimoire of orders, passages and keys: rates, permissions and their possible mismatches",
  "status": "DRAFT. The five numbered proposals are hypotheses, not established laws. Source inspection statements are inherited from the draft; this editorial pass does not claim a fresh primary-source audit. Plate captions and encoded messages may retain earlier wording; the prose here states the revised scope.",
@@ -39,7 +39,7 @@
    "[H] This book asks whether the people permitted to act on a fault can act before its deadline, and who bears the cost when they cannot. Book III invented a building where permission rises while local competence and exposure to blame fall. This book investigates some arrangements that could produce that pattern; it does not derive a law of bureaucracy from the satire.",
    "[D] Rate means a characteristic interval of a named process; rank means an ordering of permission. This book groups processes by rate for a stated task. Stable subassemblies, symbolic constraints, ecological levels and managerial time-spans are different constructions in the sources, not interchangeable definitions of hierarchy.",
    "[D] Rank and rate need not agree. A required approval that arrives after an intervention's deadline cannot authorize that intervention in time. Whether delegation would improve the outcome depends also on competence, risk and resources. The plates draw possible mismatches; the five proposals below state how to examine them.",
-   "[V] The book keeps Book I's rule: every claim states what would count against it, every source trail says what was actually inspected, and a sketch prompts a claim and never replaces one. It keeps Book III's rule that the hierarchy itself is the subject and that no office in it need be malicious for the building to behave as drawn.",
+   "[D] Deference to relevant expertise, shared vigilance and review have existing HRO antecedents [Q1]. DORA recommends peer review and automated checks in place of heavyweight external change approval [Q3]. These sources do not measure this book's interventions; healthcare evidence on full HRO implementation remains limited [Q2]. The proposals below inherit questions, not a demonstrated comparative advantage.",
    "[F] The book is arranged in three parts, as the Steganographia was: Of Orders, Of Passages, and Of Keys. The working plates use three carriers, described in the Clavis. Plate XII is an announced omission rather than another encrypted result. The twelve-mark hand, the square table and the office litany are instruments of the artwork. The claims do not depend on them."
   ],
   "claims": [
@@ -312,7 +312,7 @@
   "applications_title": "Practical Applications",
   "applications_deck": "What to do on a Tuesday.",
   "applications": [
-   "[V] These are questions and trial changes for an organisation with permission dependencies. They can be used without accepting the book's comparisons. Record the intended benefit and the harms to watch for before changing a live process.",
+   "[V] These are proposed local trials, not a validated package or a requirement to adopt this book's vocabulary. Record the intended benefit, protective functions, review route and harms before changing a live process. Permission, competence and responsibility must be established separately; no general competence gradient or malicious purpose is presumed.",
    "[H] 1. Map the critical permission path. Record when a fault was diagnosable, when action became authorized and when it became feasible. Trial bounded pre-authorization where a required wait misses the task's deadline; retain competence checks, resources and safeguards against an unsafe repair.",
    "[H] 2. Exercise the stop-work route. Name its recipient, coverage, authority and response deadline, then test delivery and response separately. Review failures without assuming that punishment supplies the missing capacity.",
    "[H] 3. Separate reporting from performance penalties. Check whether a fault-count target discourages reporting or displaces incidents elsewhere. Compare reports with independent evidence of faults; a lower count alone cannot establish improvement.",
@@ -482,6 +482,27 @@
    "url": "",
    "status": "The source of the numbering and the house rules.",
    "use": "D1 decay ownership; P1 boundary declared; P3 representations change what they represent."
+  },
+  {
+   "id": "Q1",
+   "citation": "Agency for Healthcare Research and Quality. High Reliability. PSNet primer (2019), reviewed 15 September 2024.",
+   "url": "https://psnet.ahrq.gov/primer/high-reliability",
+   "status": "Relevant primer passages directly read on 18 October 2026. Its references identify Weick and Sutcliffe, Managing the Unexpected (2015); that book was not newly inspected.",
+   "use": "Deference to relevant expertise, shared concerns, cross-monitoring and resilience. An antecedent, not proof of this book's intervention."
+  },
+  {
+   "id": "Q2",
+   "citation": "Fricke, J., Galligan, M., Douma, C., Souder, J., Hedden-Gross, A., and Mull, N. (2025). Examining the Impact of Implementing High-Reliability Organization Principles on Patient Safety Outcomes: Rapid Review. AHRQ, Making Healthcare Safer IV. doi:10.23970/AHRQEPC_MHS4HRO.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41248244/",
+   "status": "The authors' abstract and findings directly read in PubMed on 18 October 2026; the full report was not inspected. Its healthcare scope is retained.",
+   "use": "Limited published effectiveness evidence for HRO implementation; no numerical estimate transferred to dispatch or other institutions."
+  },
+  {
+   "id": "Q3",
+   "citation": "DORA. Streamlining change approval. Capabilities page, updated 30 October 2025.",
+   "url": "https://dora.dev/capabilities/streamlining-change-approval/",
+   "status": "Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read.",
+   "use": "Peer review and automated checks as alternatives to heavyweight external approval. Supplies no gate-detection probability or incident-window calibration."
   }
  ],
  "evidence_key": {

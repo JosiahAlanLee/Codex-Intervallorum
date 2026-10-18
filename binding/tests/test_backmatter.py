@@ -19,7 +19,7 @@ class BackmatterTests(unittest.TestCase):
     def test_septimus_parts_share_the_register_without_repeating_accounts(self):
         books=[('Clavis','Clavis','','clavis.pdf',''),('VII','De Vinculis','','vinculis.pdf','')]
         records,_,inputs=backmatter.collect(books)
-        self.assertEqual({k for r in records for k in r['keys']},{f'VII/S{i}' for i in range(1,19)})
+        self.assertEqual({k for r in records for k in r['keys']},{f'VII/S{i}' for i in range(1,21)})
         for record in records:
             self.assertEqual(len(record['accounts']),len({json.dumps(a,sort_keys=True) for a in record['accounts']}))
         self.assertIn('books/07_septimus/manuscript/clavis.md',inputs)
