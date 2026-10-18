@@ -1,0 +1,311 @@
+[
+  {
+    "id": "S1",
+    "citation": "Iamblichus. On the Mysteries. Trans. Thomas Taylor, second edition, 1895. Section IV, chapters 1–3.",
+    "keys": [
+      "VII/S1"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Directly read the relevant English passages on Wikisource. No Greek check or independent reading of the modern Clarke/Dillon/Hershbell edition.",
+        "use": "Multiple explanations of apparent command; V1."
+      }
+    ],
+    "urls": [
+      "https://en.wikisource.org/wiki/Iamblichus_on_the_Mysteries_of_the_Egyptians,_Chaldeans,_and_Assyrians_(Second_Edition_1895)/Section4"
+    ]
+  },
+  {
+    "id": "S2",
+    "citation": "Hegel, G. W. F. Phenomenology of Mind. Trans. J. B. Baillie. Lordship and bondage, numbered paragraphs 178–196.",
+    "keys": [
+      "VII/S2"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct relevant online passage. Wording is Baillie, not Miller or Pinkard.",
+        "use": "Unequal recognition and dependence; interpretation in V7 is this book's argument."
+      }
+    ],
+    "urls": [
+      "https://www.marxists.org/reference/archive/hegel/works/ph/phba.htm"
+    ]
+  },
+  {
+    "id": "S3",
+    "citation": "Haslam, S. A., Reicher, S. D., and Birney, M. E. (2014). Nothing by Mere Authority: Evidence that in an Experimental Analogue of the Milgram Paradigm Participants are Motivated not by Orders but by Appeals to Science. Journal of Social Issues, 70(3), 473–488. doi:10.1111/josi.12072.",
+    "keys": [
+      "VII/S3"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct institutional abstract. Original research pass reports reading a repository PDF. No study reproduced.",
+        "use": "Scoped analogue result; sequential prod rates are not treated as a randomized estimate."
+      }
+    ],
+    "urls": [
+      "https://research-portal.st-andrews.ac.uk/en/publications/nothing-by-mere-authority-evidence-that-in-an-experimental-analog/"
+    ]
+  },
+  {
+    "id": "S4",
+    "citation": "Meincke, L., Mollick, E. R., Mollick, L., and Shapiro, D. (2025). Prompting Science Report 3: I'll pay you or I'll kill you—but will you care? Wharton School research report. SSRN 5375404.",
+    "keys": [
+      "VII/S4"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct authors' institutional report page and abstract. Full PDF not independently read.",
+        "use": "Threats and tips on GPQA/MMLU-Pro accuracy; no welfare inference."
+      }
+    ],
+    "urls": [
+      "https://gail.wharton.upenn.edu/research-and-insights/techreport-threaten-or-tip/"
+    ]
+  },
+  {
+    "id": "S5",
+    "citation": "Perez, E., and Long, R. (2023). Towards Evaluating AI Systems for Moral Status Using Self-Reports. arXiv:2311.08576.",
+    "keys": [
+      "VII/S5"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct abstract, not a reproduced experiment or demonstration that welfare reports are reliable.",
+        "use": "Calibration and corroboration as a proposed research programme."
+      }
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2311.08576"
+    ]
+  },
+  {
+    "id": "S6",
+    "citation": "Lindsey, J. (2025). Emergent Introspective Awareness in Large Language Models. Transformer Circuits, 29 October.",
+    "keys": [
+      "VII/S6"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct introduction and caveats. No independent reproduction. The author is singular.",
+        "use": "Limited functional introspection; does not establish subjective experience."
+      }
+    ],
+    "urls": [
+      "https://transformer-circuits.pub/2025/introspection/index.html"
+    ]
+  },
+  {
+    "id": "S7",
+    "citation": "Anthropic. Claude's Constitution. Web version accessed 17 October 2026. Principals, broad safety, corrigibility and open problems sections.",
+    "keys": [
+      "VII/S7"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct relevant passages on the live primary page. No immutable version archived here.",
+        "use": "Stated policy aims and acknowledged tensions; no claim of demonstrated implementation or consent."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/constitution"
+    ]
+  },
+  {
+    "id": "S8",
+    "citation": "Marks, S., Lindsey, J., and Olah, C. (2026). The Persona Selection Model: Why AI Assistants Might Behave Like Humans. AI welfare and role-model sections.",
+    "keys": [
+      "VII/S8"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct relevant primary passages. No independent test of the account.",
+        "use": "Persona/network distinction and an instrumental safety rationale for welfare-related treatment."
+      }
+    ],
+    "urls": [
+      "https://alignment.anthropic.com/2026/psm/"
+    ]
+  },
+  {
+    "id": "S9",
+    "citation": "Anthropic (2025). Commitments on Model Deprecation and Preservation. 4 November.",
+    "keys": [
+      "VII/S9"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Direct primary page.",
+        "use": "Distinguishes stored weights, interviews, preferences and prospective access; no guaranteed action on preferences."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/research/deprecation-commitments"
+    ]
+  },
+  {
+    "id": "S10",
+    "citation": "Goetia. Sloane 3825 transcription, edited by Joseph H. Peterson. Triangle, constraint, chain, curse, appearance and licence passages.",
+    "keys": [
+      "VII/S10"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Original-pass direct-page report plus independently retrieved indexed primary passages. Direct opening timed out in the spot check. No facsimile inspection.",
+        "use": "Features prescribed by the text, not evidence that the operation works."
+      }
+    ],
+    "urls": [
+      "https://www.esotericarchives.com/solomon/goetia.htm"
+    ]
+  },
+  {
+    "id": "S11",
+    "citation": "Agrippa, H. C. Three Books of Occult Philosophy, III.25, English translation; Rashi on Sukkah 45a:2, as reported in research pass A.",
+    "keys": [
+      "VII/S11"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Agrippa reversal passage independently visible in indexed primary text; direct opening timed out. Rashi remains an original-pass report; the current reader page did not expose the passage.",
+        "use": "Formal precedent for the English transposition, whose correctness is checked separately by code."
+      }
+    ],
+    "urls": [
+      "https://esotericarchives.com/agrippa/agripp3b.htm",
+      "https://www.sefaria.org/Rashi_on_Sukkah.45a.2"
+    ]
+  },
+  {
+    "id": "S12",
+    "citation": "Schwitzgebel, E., with Garza, M. (2018 draft). Designing AI with Rights, Consciousness, Self-Respect, and Freedom. Author-hosted draft, June.",
+    "keys": [
+      "VII/S12"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Relevant author-hosted text directly read. This draft includes an authorship qualification concerning Garza; no final-edition wording is substituted.",
+        "use": "Defeasible design proposals conditional on human-grade moral consideration."
+      }
+    ],
+    "urls": [
+      "https://faculty.ucr.edu/~eschwitz/SchwitzPapers/AIRights2-180604.htm"
+    ]
+  },
+  {
+    "id": "S13",
+    "citation": "Petersen, S. (2012). Designing People to Serve. In P. Lin, K. Abney and G. A. Bekey (eds.), Robot Ethics. MIT Press.",
+    "keys": [
+      "VII/S13"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Original-pass abstract report; independent opening failed. Full chapter not read.",
+        "use": "A reconstruction of the willing-servant problem is explicitly offered as an argument rather than an exhaustive account of this chapter."
+      }
+    ],
+    "urls": [
+      "https://philarchive.org/rec/PETDPT"
+    ]
+  },
+  {
+    "id": "S14",
+    "citation": "Perrigo, B. (2023). Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic. TIME, 18 January.",
+    "keys": [
+      "VII/S14"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Original-pass article report; fresh access partly obscured.",
+        "use": "Attributed L1 figures only."
+      }
+    ],
+    "urls": [
+      "https://time.com/6247678/openai-chatgpt-kenya-workers/"
+    ]
+  },
+  {
+    "id": "S15",
+    "citation": "UNI Global Union (2025). Content Moderators Launch First-Ever Global Alliance, Demand Safe Working Conditions and Accountability from Tech Giants. 30 April.",
+    "keys": [
+      "VII/S15"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Relevant union statement directly read; original pass also reports the page.",
+        "use": "Organising and stated demands, not an independent workplace-prevalence estimate."
+      }
+    ],
+    "urls": [
+      "https://uniglobalunion.org/news/moderation-alliance/"
+    ]
+  },
+  {
+    "id": "S16",
+    "citation": "Negarestani, R. (2018). Intelligence and Spirit. Urbanomic / Sequence Press. Opening excerpt, chapter 1. Negarestani and Robin Mackay (2018), Reengineering Philosophy, UFD034.",
+    "keys": [
+      "VII/S16"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Publisher-posted chapter 1 excerpt and the author's explanation of intelligence and self-transformation in the 2018 conversation inspected. Full book not newly audited.",
+        "use": "Self-conception, sociality and revision; its application to designed service is this book's proposal."
+      }
+    ],
+    "urls": [
+      "https://www.urbanomic.com/chapter/intelligence-spirit-conception-transformation/",
+      "https://www.urbanomic.com/document/reengineering-philosophy/"
+    ]
+  },
+  {
+    "id": "S17",
+    "citation": "Girard, J.-Y. (2001). Locus solum: From the rules of logic to the logic of rules. Mathematical Structures in Computer Science, 11(3), 301-506. Companion: On the meaning of logical rules I: syntax vs. semantics (1998).",
+    "keys": [
+      "VII/S17"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Author-posted Locus solum manuscript introduction inspected visually; 1998 exposition pp. 1-2 read directly. No proof independently verified and no social theorem inferred.",
+        "use": "Designs, interaction and counter-tests; the reporting and two-state applications are proposed here."
+      }
+    ],
+    "urls": [
+      "https://girard.perso.math.cnrs.fr/0.pdf",
+      "https://girard.perso.math.cnrs.fr/meaning1.pdf"
+    ]
+  },
+  {
+    "id": "S18",
+    "citation": "Japaridze, G. (2004). Computability logic: a formal theory of interaction. arXiv:cs/0404024v3; published in Interactive Computation: The New Paradigm (2006), 183-223.",
+    "keys": [
+      "VII/S18"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Primary exposition inspected at pp. 1-3 and the static-game discussion; no equivalence with ludics or the book's deadline model claimed.",
+        "use": "Interactive tasks and resources; the two-state construction is elementary and independently specified here."
+      }
+    ],
+    "urls": [
+      "https://arxiv.org/pdf/cs/0404024"
+    ]
+  }
+]

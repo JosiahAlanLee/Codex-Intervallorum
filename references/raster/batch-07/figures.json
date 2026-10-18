@@ -1,0 +1,286 @@
+{
+  "project": "Librum Quinque",
+  "batch": 7,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting final batch review",
+  "figures": [
+    {
+      "index": 1,
+      "subject": "THE RETURNING TRACE",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "II",
+      "source": {
+        "original_sol_subject": "THE RETURNING TRACE",
+        "brief_excerpt": "Returning Trace — bird and ring, interrupted assembly that returns."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: ONE standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is approved FORAS: DRAWING HAND AND PALETTE ONLY, not its identity, six arms or pose. Input image 2 is this subject's ORIGINAL SOL PLATE: SUBJECT IDENTITY, anatomy, silhouette and pose ONLY. Re-render that subject in the common Foras fine pen hand. Do not copy the old plate's lettering, page framing, diagrams, marginal registers, panel crops, broad red veins or paper texture.\nFine near-black #161918 engraving/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, delicate vertical black drop-lines with tiny terminal dots. Sparse muted slate #4f6f7a and a little ochre only other hues beyond near-black and the ONE specified red intervention.\nFlat unbleached cream #ede6d4 ground edge to edge, no texture gradient, vignette, cast shadow or background scene. Whole subject centred and completely visible with generous blank air on every side, about 75-80 percent canvas height and width. Fine lineart with light flat wash at most: no painted shading, realistic lighting, glossy reflection or 3D render.\nRED TARGET: sRGB #a32b24, RGB(163,43,36), actual uniform red stroke core, no orange, bright scarlet, dark crimson, highlight or shadow. Red only in the single intervention specified below; all eyes, mouths, body membranes and other linework near-black/cream with sparse slate/ochre. Antialias edges only.\nNO text whatsoever, letters, numbers, pseudo-writing, symbols used as writing, captions, borders, page frame, watermark, side diagrams or extra figures. Any ring or handheld frame is the subject's own body/prop, never an image border. All unoccupied centres plain cream.\n\nNEW SUBJECT — THE RETURNING TRACE — ORIGINAL SOL BIRD AND RING, mapped to Graduum II. Preserve the original ONE bird-shaped cellular body curving around a large circular EMPTY RING: recognisable hawklike head at upper right, swept-back feather crest, fine hooked beak, dark engraved eye; one whole organic neck and breast/wing run down the right side of the ring, becoming fine branching tail filaments below. The left half of the ring retains the original more ordered layered bands, entirely near-black/cream, no pseudo-script, keyboard-like marks or numeral ticks. The big centre stays completely empty cream, no object or symbol inside. Do not add a second head, body, ring or background moon. ONE RED INTERVENTION: a single fine incomplete returning arc along a short stretch of the INNER LOWER-LEFT ring edge, ending before it rejoins, no red nodes or separate thread. All old red veins and red lettering are removed. Cellular bird anatomy and mechanical ring share one drawing hand, small slate/ochre pockets only. Square PNG 1:1, target 2048 x 2048 if available, complete crest, ring and tail in generous cream margin.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "exec-5602efc5-0604-4ce5-8250-69fb636a97b8.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "1:1",
+      "attempt": 1,
+      "status": "selected; awaiting batch review",
+      "file": "returning-trace-raster-reference-v01.png",
+      "display_label": "Returning Trace",
+      "display_subtitle": "Sol reference / II",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d87893d0573267d61943dfc896630fd892ce87c4cd29eef2e03272ece02f31af",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "exec-5602efc5-0604-4ce5-8250-69fb636a97b8.png",
+          "sha256": "d88fd56d3c3b063a46cfa8c62ba88d65ecf9fc4b973424fb1c4453dc2535944a"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-07/returning-trace-raster-reference-v01.png",
+        "sha256": "d87893d0573267d61943dfc896630fd892ce87c4cd29eef2e03272ece02f31af",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 863,
+        "eroded_core_pixels": 115,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          191.0,
+          31.0,
+          36.0
+        ],
+        "median_red_hex_rounded": "#bf1f24",
+        "modal_red_hex": "#c52428",
+        "modal_frequency": 2,
+        "unique_sample_colours": 114,
+        "nearest_candidate_hex": "#a62e27",
+        "median_max_channel_error": 29.0,
+        "p95_max_channel_error": 37.3,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 2,
+      "subject": "THE MEASURER OF ABSENCES — ORIGINAL",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "III",
+      "source": {
+        "original_sol_subject": "THE MEASURER OF ABSENCES — ORIGINAL",
+        "brief_excerpt": "Measurer of Absences — antlered figure holding an empty frame; original identity used for the Cut."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: ONE standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is approved FORAS: DRAWING HAND AND PALETTE ONLY, not its identity, six arms or pose. Input image 2 is this subject's ORIGINAL SOL PLATE: SUBJECT IDENTITY, anatomy, silhouette and pose ONLY. Re-render that subject in the common Foras fine pen hand. Do not copy the old plate's lettering, page framing, diagrams, marginal registers, panel crops, broad red veins or paper texture.\nFine near-black #161918 engraving/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, delicate vertical black drop-lines with tiny terminal dots. Sparse muted slate #4f6f7a and a little ochre only other hues beyond near-black and the ONE specified red intervention.\nFlat unbleached cream #ede6d4 ground edge to edge, no texture gradient, vignette, cast shadow or background scene. Whole subject centred and completely visible with generous blank air on every side, about 75-80 percent canvas height and width. Fine lineart with light flat wash at most: no painted shading, realistic lighting, glossy reflection or 3D render.\nRED TARGET: sRGB #a32b24, RGB(163,43,36), actual uniform red stroke core, no orange, bright scarlet, dark crimson, highlight or shadow. Red only in the single intervention specified below; all eyes, mouths, body membranes and other linework near-black/cream with sparse slate/ochre. Antialias edges only.\nNO text whatsoever, letters, numbers, pseudo-writing, symbols used as writing, captions, borders, page frame, watermark, side diagrams or extra figures. Any ring or handheld frame is the subject's own body/prop, never an image border. All unoccupied centres plain cream.\n\nNEW SUBJECT — THE MEASURER OF ABSENCES — ORIGINAL SOL FIGURE, mapped to Graduum III. Preserve the original antlered, bearded keeper's carefully drawn bowed PROFILE FACE, its deep eye, nose, mouth and fine beard, huge branched lattice antlers arching to either side, slender full-length organic body, long robes and EXACTLY TWO arms/two delicate hands. Those two hands hold the same upright EMPTY RECTANGULAR FRAME between them, upper hand resting near its top and lower hand below, central area entirely blank cream. This is the ORIGINAL FULLY ORGANIC Measurer, not the Cut keeper: NO ruled table, grid, half-body division or red line down the torso. Entire robe built from fine near-black cellular lattice and long pen-line bundles, with sparse slate cells and tiny ochre seams. Preserve original facial identity rather than replace with Foras's face. ONE RED INTERVENTION ONLY: one very short fine red tick across the handheld frame's lower-right corner, a question at its boundary. No red eye, antler veins, body stitching, inner frame rule or extra thread. No text or details outside the figure. Portrait PNG 2:3, target 2048 x 3072 if available, antlers, both hands, all frame edges, feet and hem uncropped, generous air.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "exec-98e96efa-a1eb-4ac5-9996-a6583492f3d0.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected; awaiting batch review",
+      "file": "measurer-of-absences-original-raster-reference-v01.png",
+      "display_label": "Measurer of Absences",
+      "display_subtitle": "Sol reference / III",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "e525c83d7db6abfc583bcbf160879c2d3e7e5be887ecad679c1f742273381c34",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "exec-98e96efa-a1eb-4ac5-9996-a6583492f3d0.png",
+          "sha256": "81ca80f54e5c94695654ca353d8e19b519f7df84392b331cb3e2621a16200a13"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-07/measurer-of-absences-original-raster-reference-v01.png",
+        "sha256": "e525c83d7db6abfc583bcbf160879c2d3e7e5be887ecad679c1f742273381c34",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 210,
+        "eroded_core_pixels": 53,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          210.0,
+          24.0,
+          20.0
+        ],
+        "median_red_hex_rounded": "#d21814",
+        "modal_red_hex": "#bc1614",
+        "modal_frequency": 1,
+        "unique_sample_colours": 53,
+        "nearest_candidate_hex": "#a9281e",
+        "median_max_channel_error": 47.0,
+        "p95_max_channel_error": 54.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 3,
+      "subject": "THE TWIN REGISTER",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VI",
+      "source": {
+        "original_sol_subject": "THE TWIN REGISTER",
+        "brief_excerpt": "Twin Register — two-headed serpent around the empty ring."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: ONE standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is approved FORAS: DRAWING HAND AND PALETTE ONLY, not its identity, six arms or pose. Input image 2 is this subject's ORIGINAL SOL PLATE: SUBJECT IDENTITY, anatomy, silhouette and pose ONLY. Re-render that subject in the common Foras fine pen hand. Do not copy the old plate's lettering, page framing, diagrams, marginal registers, panel crops, broad red veins or paper texture.\nFine near-black #161918 engraving/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, delicate vertical black drop-lines with tiny terminal dots. Sparse muted slate #4f6f7a and a little ochre only other hues beyond near-black and the ONE specified red intervention.\nFlat unbleached cream #ede6d4 ground edge to edge, no texture gradient, vignette, cast shadow or background scene. Whole subject centred and completely visible with generous blank air on every side, about 75-80 percent canvas height and width. Fine lineart with light flat wash at most: no painted shading, realistic lighting, glossy reflection or 3D render.\nRED TARGET: sRGB #a32b24, RGB(163,43,36), actual uniform red stroke core, no orange, bright scarlet, dark crimson, highlight or shadow. Red only in the single intervention specified below; all eyes, mouths, body membranes and other linework near-black/cream with sparse slate/ochre. Antialias edges only.\nNO text whatsoever, letters, numbers, pseudo-writing, symbols used as writing, captions, borders, page frame, watermark, side diagrams or extra figures. Any ring or handheld frame is the subject's own body/prop, never an image border. All unoccupied centres plain cream.\n\nNEW SUBJECT — THE TWIN REGISTER — ORIGINAL SOL TWO-HEADED SERPENT, mapped to Graduum VI. Preserve the original ONE long TWO-HEADED serpent body, both anatomically distinct heads connected through the same continuous narrow coiling body, with recognisable pale engraved serpent/dragon faces, dark eyes and fine cellular crests. Upper head near upper right bends downward; lower head near lower left bends upward. The body doubles back in an elegant S-like coil around a large EMPTY CIRCULAR OPENING at its middle. Its cream belly stripe remains legible; cellular black lace and sparse slate/ochre cells cover the back and coil. No disconnected snakes, third head, wings, limbs or second creature. Ring centre plain empty cream, no axis line, diagram, text or inner symbol. ONE RED INTERVENTION: a single small fine red STITCH linking the two adjacent coil edges near the lower-right side of the central opening. Red nowhere else: no red eyes, node-disks, mouths, body veins or scale patches. All old marginal diagrams, text panels, moons and dark background disks removed. Fine black terminal-dot drop-lines belong only to the body. Square PNG 1:1, target 2048 x 2048 if supported; preserve complete double-headed silhouette on square sheet with generous cream margin, no cropped crests or filaments.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "exec-9d2ba172-0eed-41be-a921-69f972fa2467.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "1:1",
+      "attempt": 1,
+      "status": "selected; awaiting batch review",
+      "file": "twin-register-raster-reference-v01.png",
+      "display_label": "Twin Register",
+      "display_subtitle": "Sol reference / VI",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "exec-9d2ba172-0eed-41be-a921-69f972fa2467.png",
+          "sha256": "42cbb36bb79791d8d6ac2b99380d8e35b19bc22c503d35b4bac1be293ae0a8e0"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-07/twin-register-raster-reference-v01.png",
+        "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 403,
+        "eroded_core_pixels": 37,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          184.0,
+          8.0,
+          6.0
+        ],
+        "median_red_hex_rounded": "#b80806",
+        "modal_red_hex": "#b80000",
+        "modal_frequency": 3,
+        "unique_sample_colours": 34,
+        "nearest_candidate_hex": "#a02d23",
+        "median_max_channel_error": 37.0,
+        "p95_max_channel_error": 43.59999999999999,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    }
+  ],
+  "attempts": [],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red_target": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly; no fixed hex supplied"
+  },
+  "technical": {
+    "format": "PNG",
+    "native_files_unchanged": true,
+    "seed_exposed": false,
+    "model_version_exposed": false,
+    "transformations": "Byte-identical source copies; reduced thumbnails only in contact sheet.",
+    "actual_size": {
+      "THE RETURNING TRACE": [
+        1254,
+        1254
+      ],
+      "THE MEASURER OF ABSENCES — ORIGINAL": [
+        1024,
+        1536
+      ],
+      "THE TWIN REGISTER": [
+        1254,
+        1254
+      ]
+    }
+  },
+  "red_check": {
+    "target": "#a32b24",
+    "mode": "read-only; no pixel normalisation",
+    "cumulative_report": "red-check.json"
+  },
+  "process": {
+    "inventory_status": "All requested figures covered; this final batch awaits review.",
+    "prior_batches": "Calibration and batches 01–06 approved through subsequent user instructions to proceed.",
+    "new_attempts": 3,
+    "retries": 0
+  },
+  "interpretation_notes": [
+    "Re-renderings preserve original Sol figure identities; they are not final plate layouts.",
+    "The Measurer is the original organic figure, distinct from the half-table Cut keeper.",
+    "Returning Trace and Twin Register are square devices; Measurer is a portrait.",
+    "The original Keeper of Intervals from batch 05 also fulfills the Sol Keeper entry. No redundant fourth Sol render."
+  ],
+  "related_inventory_aliases": [
+    {
+      "subject": "Sol Keeper of Intervals",
+      "selected_manifest": "../librum-quinque-raster-batch-05/figures.json",
+      "note": "Same selected original Keeper asset used for the Intervallorum and Sol inventory entries."
+    }
+  ]
+}

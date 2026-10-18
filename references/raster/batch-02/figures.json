@@ -1,0 +1,328 @@
+{
+  "project": "Librum Quinque",
+  "batch": 2,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting batch review",
+  "book": "Pseudomonarchia Escalationum",
+  "source": {
+    "repository": "JosiahAlanLee/Librum_Quinque",
+    "catalogue_path": "books/03_escalationum/manuscript/catalogue.json",
+    "catalogue_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be"
+  },
+  "style_reference": {
+    "calibration": "FORAS v02 — approved",
+    "device_reference": "REPETIEL v01 — approved in batch 01"
+  },
+  "figures": [
+    {
+      "index": 1,
+      "subject": "SOLACIEL",
+      "office": "Customer Communications Specialist",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "02",
+        "source": 0,
+        "target": 2,
+        "name": "SOLACIEL",
+        "office": "Customer Communications Specialist",
+        "legions": 4,
+        "appearance": "A damp towel folded into the shape of an ear.",
+        "powers": "She removeth technical nouns lest they distress the recipient.",
+        "binding": "A communication approved for tone.",
+        "seal": "A red crossing in the place where the technical name was removed.",
+        "actual_effect": "Removed the valve identifier from the only message that reached the customer.",
+        "mark": 5
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — SOLACIEL — Customer Communications Specialist. The complete demon-body is a DAMP TOWEL FOLDED INTO THE SHAPE OF ONE EAR, an upright asymmetrical cloth auricle: a large folded outer helix, softly sagging inner folds, a small dark inward canal and a heavy folded lower lobe. It is visibly folded cloth rather than an ear severed from a head. No head, face, hair, mouth, legs or human torso. Fine short engraved fibres on quiet cream cloth; the folded selvage bears intricate cellular lattice edging like the reference, sparse slate folded inner patches and a little ochre stitching. Several black drop-lines terminate in dots below the heavy cloth folds. Dampness shown only by the cloth's weight, no blue puddle or scene. It carries its seal on a small sewn BLANK patch near the inner fold: ONE RED CROSSING, two fine crossing red strokes at the place where a technical name was removed. No black glyphs or letters on the patch. This red crossing is the only red intervention.\nCanonical appearance (guide only, do not print): A damp towel folded into the shape of an ear.\nCanonical seal (guide only, do not print): A red crossing in the place where the technical name was removed.\nOffice effect (conceptual guidance, never written on image): Removed the valve identifier from the only message that reached the customer.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "solaciel-raster-reference-v01.png",
+      "qa_notes": "One cloth ear body, folded towel fibres and lattice selvage, single red crossing on blank sewn patch.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "168b0a130bbea510f521f25d3bd79e5b2e4f49be03f2b3a4e6fe8af81939ba5b"
+    },
+    {
+      "index": 2,
+      "subject": "NOVAROTH",
+      "office": "Service Request Administrator",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "03",
+        "source": 0,
+        "target": 3,
+        "name": "NOVAROTH",
+        "office": "Service Request Administrator",
+        "legions": 9,
+        "appearance": "A cradle with a ticket printer in it.",
+        "powers": "He closeth an old incident as a duplicate of a new request.",
+        "binding": "A new number, with no inheritance of age.",
+        "seal": "A red replacement branch above the struck-through old route.",
+        "actual_effect": "Restarted the service clock without restoring service.",
+        "mark": 9
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — NOVAROTH — Service Request Administrator. The whole demon-device is an ornate narrow CRADLE WITH A TICKET PRINTER IN IT. A tall openwork cradle on fine curving rocker feet, carved as cellular skeletal lace with small slate insets; inside the otherwise empty cradle sits one small mechanical thermal ticket printer, obvious paper slot, turning rollers, a long blank receipt curling gently from the slot and hanging into air. No baby, face, human body or occupant, no cradle doll. Do not depict an office room. Keep paper entirely blank, no perforations that look like writing. Black terminal-dot drop-lines from the cradle rim. The seal is visibly mounted on the outside of the cradle: ONE RED REPLACEMENT BRANCH pointing away above an OLD BLACK ROUTE, with a BLACK cancellation stroke across that old route. The red branch is the sole red intervention; the old route and cancellation black. The printer restarts a record while nothing in the cradle is restored.\nCanonical appearance (guide only, do not print): A cradle with a ticket printer in it.\nCanonical seal (guide only, do not print): A red replacement branch above the struck-through old route.\nOffice effect (conceptual guidance, never written on image): Restarted the service clock without restoring service.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "novaroth-raster-reference-v01.png",
+      "qa_notes": "Cradle contains printer with blank receipt; one red replacement branch above black cancelled route.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "9cd8dffa222cea7765ad7fb6065bf4d977e826e035bd9ac5886994c19879b328"
+    },
+    {
+      "index": 3,
+      "subject": "SCRIPTORAX",
+      "office": "Knowledge Management Lead",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "04",
+        "source": 0,
+        "target": 4,
+        "name": "SCRIPTORAX",
+        "office": "Knowledge Management Lead",
+        "legions": 11,
+        "appearance": "A cloak made of numbered strips, each cut from a different sleeve.",
+        "powers": "He extracteth judgment into a runbook, then removeth the judge as a duplicate resource.",
+        "binding": "A knowledge-transfer checklist signed by the person being replaced.",
+        "seal": "A red branch carrying the retained line away from its first keeper.",
+        "actual_effect": "Converted the operator's warning into a step that the replacement could execute but could not interpret.",
+        "mark": 8
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — SCRIPTORAX — Knowledge Management Lead. One full-length upright, narrow, shrouded figure whose actual body is a CLOAK MADE OF MANY CUT STRIPS, each from a different sleeve, stitched into an asymmetrical long mantle. Different cuff hems, strip widths, sleeve seams and displaced joins must be legible; the manuscript calls them numbered, but NO numbers or writing may appear. Dense cellular lace grows on some strips, other strips plain cream or tiny slate wash, small ochre stitches. A deep open hood with EMPTY black-shadow aperture, no visible eyes or borrowed human face. Exactly two slender hands emerge from distinct sleeve joins, holding apart a blank strip as though transferring it to the coat. Two narrow feet beneath hem, full figure visible. Black hanging lines and tiny terminal dots. The seal is worn at the chest as ONE RED BRANCH carrying a single black retained line away from its old black attachment. Red forms one branching intervention, no other red. No book, extra arms, extra figures or textual checklist.\nCanonical appearance (guide only, do not print): A cloak made of numbered strips, each cut from a different sleeve.\nCanonical seal (guide only, do not print): A red branch carrying the retained line away from its first keeper.\nOffice effect (conceptual guidance, never written on image): Converted the operator's warning into a step that the replacement could execute but could not interpret.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "scriptorax-raster-reference-v01.png",
+      "qa_notes": "Empty hood, cut sleeve strips with visibly different cuffs, two hands and feet; no numbering. One connected red branching intervention.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "3c1b1b7a5b894aef2b7ee72c815fdbc7e5578987969cb43431f4178b0694ee55"
+    },
+    {
+      "index": 4,
+      "subject": "CULPAX",
+      "office": "Incident Assurance Director",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "05",
+        "source": 0,
+        "target": 5,
+        "name": "CULPAX",
+        "office": "Incident Assurance Director",
+        "legions": 3,
+        "appearance": "A funnel with a name badge at its narrow end.",
+        "powers": "She giveth the first observer the title of accountable owner.",
+        "binding": "The earliest timestamp and one individual's name.",
+        "seal": "A red point above a comb of strokes appointed to bear its weight.",
+        "actual_effect": "Attached the accumulated delay to the worker who first recognized the fault.",
+        "mark": 10
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — CULPAX — Incident Assurance Director. ONE tall FUNNEL AS THE COMPLETE BODY, with a small BLANK NAME BADGE at its narrow lower end. Broad flared open funnel rim at top, elegantly tapering hollow cone, extremely narrow throat below; cream inner surface with delicate contour hatching, outer side cellular-lattice shell like Repetiel. No human head or torso. The tiny blank badge hangs from the neck at the very bottom of the narrowing funnel, emphatically small relative to wide cone; no text on it. A minimal three-pronged skeletal support keeps the lower body upright, all visible. Sparse slate and ochre in a few rim lattice cells. Black terminal-dot drop-lines running DOWN the funnel exterior. It carries the seal on the blank badge: ONE RED POINT immediately ABOVE a BLACK COMB of many short vertical strokes which appear appointed to bear the point's weight. Only the small point red; comb black. No second red mark, no lettering, no spills or surrounding scene.\nCanonical appearance (guide only, do not print): A funnel with a name badge at its narrow end.\nCanonical seal (guide only, do not print): A red point above a comb of strokes appointed to bear its weight.\nOffice effect (conceptual guidance, never written on image): Attached the accumulated delay to the worker who first recognized the fault.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "culpax-raster-reference-v01.png",
+      "qa_notes": "Funnel body, blank badge at narrow end, red point above black comb.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ce55df203567b301b81b9a055168134340adea1e398b2d8fc398d9882d8a229a"
+    },
+    {
+      "index": 5,
+      "subject": "INSTANTOR",
+      "office": "Executive Escalation Liaison",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "06",
+        "source": 0,
+        "target": 6,
+        "name": "INSTANTOR",
+        "office": "Executive Escalation Liaison",
+        "legions": 1,
+        "appearance": "An enormous finger pointing at a muted microphone.",
+        "powers": "He transmitteth urgent instructions with every reason removed.",
+        "binding": "An executive request superseding the technical plan.",
+        "seal": "A red triangle: the command is complete before its reasons arrive.",
+        "actual_effect": "Made the operator restart the wrong component to provide immediate visible action.",
+        "mark": 4
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — INSTANTOR — Executive Escalation Liaison. The demon-body is ONE ENORMOUS POINTING FINGER attached to a slender hand and long jointed wrist, pointing DOWNWARD toward one tiny MUTED MICROPHONE suspended just below the fingertip. Make the finger and attached skeletal hand tower over the tiny microphone; portrait composition, not horizontal. The other fingers curl back tightly, leaving exactly ONE extended index finger. The long wrist ends in a fine cellular lattice cuff and open tendrils, no full humanoid torso, face or second arm. Same careful engraved joint anatomy as the references, cream voids, sparse slate and ochre cells, black dot-terminal drop-lines from cuff. Tiny microphone's grille visibly bound shut by a thin BLACK wrapping, no modern mute icon or lettering. Carry the seal on the cuff: ONE SIMPLE RED TRIANGLE in fine line, no fill, empty cream centre. This triangle is the only red intervention; all microphone marks black. No device labels, text or numerals.\nCanonical appearance (guide only, do not print): An enormous finger pointing at a muted microphone.\nCanonical seal (guide only, do not print): A red triangle: the command is complete before its reasons arrive.\nOffice effect (conceptual guidance, never written on image): Made the operator restart the wrong component to provide immediate visible action.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "instantor-raster-reference-v01.png",
+      "qa_notes": "One extended index finger points toward a microphone bound in black; one red outline triangle on cuff.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "03f2e3db8987776293f748e1aac98996a7955c707fb71b4bf58fae4f1fe74b48"
+    },
+    {
+      "index": 6,
+      "subject": "CALMOR",
+      "office": "Service Recovery Facilitator",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "12",
+        "source": 1,
+        "target": 2,
+        "name": "CALMOR",
+        "office": "Service Recovery Facilitator",
+        "legions": 5,
+        "appearance": "A bell padded on the inside.",
+        "powers": "She requireth the petitioner to be calm before the cause of alarm may proceed.",
+        "binding": "A revised account without expressions of urgency.",
+        "seal": "A red enclosure with a small opening for an acceptable tone.",
+        "actual_effect": "Returned the escalation for tone while its technical evidence remained unread.",
+        "mark": 12
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — CALMOR — Service Recovery Facilitator. ONE large hanging BELL whose INSIDE IS PADDED. The bell is the whole figure, suspended from a small loop, with a tall elegant curved skirt, flared lower lip and cellular-lattice exterior; sparse slate/ochre small exterior cells. Viewed slightly from below so the padded interior is clearly visible through its wide lower mouth: thick soft quilted cream lining pressed around a small, fully wrapped clapper. Distinguish soft padded interior from rigid outer lattice without glossy shading. Fine pen hatching on cloth, not grey painted modelling. No face, eyes, arms, person inside, or separate small bell. Black terminal-dot drop-lines hang from outer rim, not soundwaves. The seal is attached visibly to the front as ONE RED ENCLOSURE WITH A SMALL OPENING, a near-circular fine red line with an unjoined gap at lower right. Entire centre cream and empty. No extra rings or red ornaments. The bell has been silenced by its own internal padding.\nCanonical appearance (guide only, do not print): A bell padded on the inside.\nCanonical seal (guide only, do not print): A red enclosure with a small opening for an acceptable tone.\nOffice effect (conceptual guidance, never written on image): Returned the escalation for tone while its technical evidence remained unread.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "calmor-raster-reference-v01.png",
+      "qa_notes": "One bell, padded lining and wrapped clapper visible, red enclosure has small opening.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "8eb3372a91e0ec1a7fe7426d27a615497ac7af9f696b40ce64de21517440f2f8"
+    },
+    {
+      "index": 7,
+      "subject": "SEVERION",
+      "office": "Commercial Triage Analyst",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "13",
+        "source": 1,
+        "target": 3,
+        "name": "SEVERION",
+        "office": "Commercial Triage Analyst",
+        "legions": 7,
+        "appearance": "A balance whose pans are both marked normal.",
+        "powers": "He reduceth severity until it match the contracted response.",
+        "binding": "A severity rubric and a defensible denominator.",
+        "seal": "A red spiral whose return arrives at a displaced severity.",
+        "actual_effect": "Changed the recorded severity; the outage retained its original size.",
+        "mark": 7
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — SEVERION — Commercial Triage Analyst. ONE standalone BALANCE AS THE WHOLE DEMON-DEVICE, tall central lattice stem on a narrow articulated three-foot base, one crossbeam supporting TWO EQUAL SHALLOW PANS at exactly the SAME LEVEL. Suspended pans carry no weights or goods; both empty cream, equal and ostensibly normal. The catalogue says both marked normal, but NO words, symbols, letters or numbers are allowed on either pan. Fine cellular lattice around stem, rim and beam, sparse slate and ochre pockets, delicate fine chains and black terminal-dot drop-lines. No face, eyes, human body, judge or room. Office seal mounted on the front of the central stem: ONE RED SPIRAL whose final returning end is visibly DISPLACED from its beginning, an intentional missed join. It is a fine RED LINE only with cream space between turns, not a red disk. Red nowhere else. Whole device completely visible with generous margins. Do not turn equal beam into an arrow or give pans unequal heights.\nCanonical appearance (guide only, do not print): A balance whose pans are both marked normal.\nCanonical seal (guide only, do not print): A red spiral whose return arrives at a displaced severity.\nOffice effect (conceptual guidance, never written on image): Changed the recorded severity; the outage retained its original size.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "severion-raster-reference-v01.png",
+      "qa_notes": "One balance with equal empty pans at same level; red spiral and returning tail on stem.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "a560b6e58d195c573c8aec6450208ac0d2c9bb26ee0b8645444b8cc20d1e73cb"
+    }
+  ],
+  "attempts": [],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly; only other hue"
+  },
+  "technical": {
+    "format": "PNG",
+    "aspect_ratio": "2:3",
+    "requested_size": [
+      2048,
+      3072
+    ],
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "upscaled": false,
+    "traced": false,
+    "vectorised": false,
+    "pixel_edits_outside_imagegen": false,
+    "seed": null,
+    "note": "Native PNG outputs retained byte-for-byte. Colour values and flat ground are generation targets rather than pixel-exact guarantees. Faint ground variation and variations in margins persist."
+  },
+  "process": {
+    "stop_after_batch": true,
+    "batch_size": 7,
+    "next_subject": "REDACTH"
+  },
+  "interpretation_notes": [
+    "Handoff demons are portraits in the requested 2:3 format even when their catalogue body is a device.",
+    "Scriptorax's canonical numbered strips have no numerals; Severion's canonical normal labels are omitted to follow the no-text rule.",
+    "Every figure has a single red intervention representing its catalogue seal.",
+    "All seven selected on first attempt; no regenerations or undisclosed variants."
+  ]
+}

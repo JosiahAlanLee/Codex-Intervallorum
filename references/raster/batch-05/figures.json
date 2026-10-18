@@ -1,0 +1,813 @@
+{
+  "project": "Librum Quinque",
+  "batch": 5,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting batch review",
+  "figures": [
+    {
+      "index": 1,
+      "subject": "THE SECOND NECK",
+      "book": "Clavicula Intervallorum",
+      "office": null,
+      "plate": "VI",
+      "source": {
+        "number": 6,
+        "title": "Of the Second Neck",
+        "deck": "An added route is a claim about every dependency it still retains.",
+        "fiction": "The red road passed the great gate. The traveler reached the little gate below it. In the account this was entered as liberation from gates.",
+        "caption": "A new treatment of the original Closed Neck motif. The red path bypasses gate A and rejoins above gate B. A second, separately marked branch tests a route around B. A blank trial box remains blank; no successful intervention is implied.",
+        "pages": [
+          {
+            "title": "What the bypass bypasses",
+            "paragraphs": [
+              "[D] A bypass is relative to a named obstruction. If two routes avoid one gate but share another required gate, they are independent of the first gate and dependent on the second. This follows from the stated dependencies; it says nothing about whether either gate is desirable. Some gates carry safety checks, coordination, or rights that the new route still needs to supply.",
+              "[H] Institutional reforms are often described by the obstruction they remove rather than the dependencies they leave. A new reporting line may still share the disputed manager's budget. A new review panel may still lack authority to obtain records. These are hypotheses to investigate in an actual case, not universal defects of reporting lines or panels.",
+              "[D] The plate has two colors because before-and-after claims need distinguishable records. Black shows the retained arrangement. Red proposes a change. Neither color supplies evidence that anyone can use the changed route. A trial should identify an actor, prerequisites, a task, a deadline, and an observable result. Record failures and shared risks alongside successes.",
+              "[V] An objection to a gate can be legitimate even when no workable bypass yet exists. Feasibility and justification are separate assessments. The absence of an alternative does not vindicate harmful authority; disapproval of that authority does not manufacture an alternative."
+            ]
+          },
+          {
+            "title": "The missing warnings",
+            "paragraphs": [
+              "[D] Consider a hypothetical outage. Alarm recognition, diagnosis, authorization, access, dispatch, and repair can overlap and wait on one another. Timestamps divide intervals; they do not by themselves identify causes. Work before dispatch can be technical; delay after dispatch can be administrative. This edition removes the causal partition that survived in the earlier prose.",
+              "[H] A useful intervention might grant technicians standing dispatch authority under specified conditions, while preserving coordination, records, and review. Compare restoration outcomes and mistaken dispatches by severity. A faster dispatch is not a sufficient success criterion if it displaces risk onto field crews or customers. The trial needs an accountable recipient who can change the rule.",
+              "[D] Before-and-after results can mislead when incident severity, staffing, or infrastructure changed. A single success cannot isolate the effect of authority. Begin with a small, explicit claim. Keep records that allow a later reviewer to say the bypass worked, failed, or cannot be assessed.",
+              "[F] The lower gate is not a final revelation that every reform is futile. It is a reminder to follow the route to its declared destination. The traveler may choose to keep the gate and change its keeper. The drawing has left room for that instruction."
+            ]
+          }
+        ],
+        "sources": [
+          "P0",
+          "G1"
+        ]
+      },
+      "source_path": "books/02_intervallorum/manuscript/book.json",
+      "source_blob_sha": "c43c990a2f0effc8326b6005ebadf514fbd7c42a",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE SECOND NECK. One self-contained transparent reserve-vessel instrument with TWO serial constrictions, an upper collar-gate and a lower collar-gate, fine cellular lattice cradle. Rounded upper bulb narrows through the upper neck into a small middle chamber, then passes the lower narrow neck into a lower bulb. The ONE RED INTERVENTION is a thin parallel bypass tube/path that leaves the upper bulb, goes OUTSIDE the UPPER collar only, and visibly rejoins the middle chamber ABOVE the still-closed LOWER collar. It must NOT reach the bottom bulb or bypass both gates. A second very thin BLACK trial branch near the lower collar ends unjoined, no second red. Collars black, clear cream voids, tiny slate/ochre cells, no arrows or labels. It is an impossible elegant vessel-body, not a flowchart or labelled scientific apparatus. No human, keeper, pedestal scene or additional bottle. Square PNG 1:1, target 2048 x 2048 if supported, entire vessel in generous cream air.\nManuscript context only, never print: An added route is a claim about every dependency it still retains.\nConceptual caption only, never print: A new treatment of the original Closed Neck motif. The red path bypasses gate A and rejoins above gate B. A second, separately marked branch tests a route around B. A blank trial box remains blank; no successful intervention is implied.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "1:1",
+      "attempt": 1,
+      "status": "selected",
+      "file": "second-neck-raster-reference-v01.png",
+      "qa_notes": "Two serial constrictions. Red bypass rejoins middle chamber above lower gate; lower trial branch remains black and unfinished.",
+      "display_label": "SECOND NECK",
+      "display_subtitle": "Intervallorum / VI",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "fff5bbd6120fb70b7094eafcd271309bfb17c2eee4a42e4be522f74302835a19",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "repetiel-raster-reference-v01.png",
+          "sha256": "ba0f2c2923c770feaa15e0795ac664fdcb034748dd9d3c12ebd5524501f18f60"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/second-neck-raster-reference-v01.png",
+        "sha256": "fff5bbd6120fb70b7094eafcd271309bfb17c2eee4a42e4be522f74302835a19",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 3425,
+        "eroded_core_pixels": 1729,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          163.0,
+          33.0,
+          31.0
+        ],
+        "median_red_hex_rounded": "#a3211f",
+        "modal_red_hex": "#6e0000",
+        "modal_frequency": 5,
+        "unique_sample_colours": 1654,
+        "nearest_candidate_hex": "#a52a24",
+        "median_max_channel_error": 27.0,
+        "p95_max_channel_error": 69.59999999999991,
+        "sample_fraction_within_5_per_channel": 0.02891844997108155,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 2,
+      "subject": "THE HOUSE KEPT IN ABEYANCE",
+      "book": "Clavicula Intervallorum",
+      "office": null,
+      "plate": "VII",
+      "source": {
+        "number": 7,
+        "title": "Of the House Kept in Abeyance",
+        "deck": "A refuge preserves some capacities and selects against others.",
+        "fiction": "The house remained closed to the public. Inside, the books were aired, disputes continued, and a child learned which cupboard held the ink. The census called the house empty.",
+        "caption": "Four different carriers of continuity: records, skills, relationships, and rules. Their maintenance supports are shown separately from the room that shelters them. The outer boundary remains permeable because a refuge can depend on institutions beyond itself.",
+        "pages": [
+          {
+            "title": "Continuity is selective",
+            "paragraphs": [
+              "[E] Taylor's study of the US women's movement treats abeyance structures as bridges through nonreceptive political periods. Its account includes centralization and exclusiveness among the features of such continuity [H1]. It should not be read as an assurance that hidden or quieter organization is egalitarian. Verification for this edition covered the article's abstract and bibliographic identity, not every historical claim in the full paper.",
+              "[D] Continuity can preserve skills, relations, purposes, rules, and exclusions in different proportions. A meeting format can survive while its former participants disappear. A slogan can remain while the skill needed for collective work vanishes. A revived organization can retain a name without retaining its earlier accountability.",
+              "[H] The refuge question is therefore twofold: what survives there, and what becomes harder to change because it survived there? The proposed audit records maintenance of the four carriers separately. A fifth record tracks the refuge's dependencies: premises, income, care, legal standing, and any supporting institution. The list must be adapted to the actual case.",
+              "[V] People who preserve an organization acquire knowledge and may make sacrifices. Neither fact alone grants them permanent jurisdiction over its future. Conversely, criticism of inherited authority does not erase maintenance labor or supply replacements for it. Both claims belong in the account."
+            ]
+          },
+          {
+            "title": "Return is an occasion for revision",
+            "paragraphs": [
+              "[H] A resumption charter is a proposed device for deciding what must be reconsidered when an organization becomes active again: membership, decision rights, inherited commitments, and the burden of the upkeep. It cannot pre-authorize the consent of future participants. It can state which decisions remain provisional and how a later challenge reaches someone able to act.",
+              "[D] A refuge can buffer one exposure while concentrating another. Keeping all records in one stable room may improve preservation but increase dependence on a single caretaker. Distributing records may reduce one point of loss while increasing the burden of keeping versions legible. There is no universally superior arrangement without hazards, costs, and purposes.",
+              "[H] Test a narrow prediction: when a historical group resumes activity, do records of rehearsed skills and revisable rules distinguish its performance better than the mere presence of an archive? Code adverse outcomes as well as returns. Do not select only organizations that survived, then explain survival through whatever they happened to retain.",
+              "[F] The child is not offered as the house's rightful heir. The scene records transmission without settling inheritance. In the cupboard another hand has left a list of things the next occupants may refuse."
+            ]
+          }
+        ],
+        "sources": [
+          "H1",
+          "G2",
+          "P0"
+        ]
+      },
+      "source_path": "books/02_intervallorum/manuscript/book.json",
+      "source_blob_sha": "c43c990a2f0effc8326b6005ebadf514fbd7c42a",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE HOUSE KEPT IN ABEYANCE. One small standalone HOUSE AS A FIGURE-DEVICE, an intricate dollhouse-like cutaway held together by fine cellular lattice, entirely visible on square cream ground. Modest pitched roof, closed little entrance, porous lattice walls and an exposed side where quiet interior alcoves are visible. Inside are a few entirely blank books/rolled sheets, a folded tool, paired connected loops, and a small black latch: distinct modest carriers of record, practice, relationship and rule, never labelled. NO occupants or silhouettes. Outside supports are visibly separate from the rooms: fine struts and hanging black dot-terminal links carry the house rather than disappearing into scenery. The ONE RED INTERVENTION is a single fine maintenance thread entering from outside the house boundary, fastening one support to the closed entrance hinge, with a red terminal dot. No red roof, window, fire or extra seal. Slate and ochre only in sparse lattice cells. No landscape, street, room around the house or plotter diagram. Square PNG 1:1, target 2048 x 2048 if supported, generous air.\nManuscript context only, never print: A refuge preserves some capacities and selects against others.\nConceptual caption only, never print: Four different carriers of continuity: records, skills, relationships, and rules. Their maintenance supports are shown separately from the room that shelters them. The outer boundary remains permeable because a refuge can depend on institutions beyond itself.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "1:1",
+      "attempt": 1,
+      "status": "selected",
+      "file": "house-kept-in-abeyance-raster-reference-v01.png",
+      "qa_notes": "House cutaway, closed entrance, interior record/tools/connected loops/rule objects, single external maintenance thread.",
+      "display_label": "HOUSE IN ABEYANCE",
+      "display_subtitle": "Intervallorum / VII",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "repetiel-raster-reference-v01.png",
+          "sha256": "ba0f2c2923c770feaa15e0795ac664fdcb034748dd9d3c12ebd5524501f18f60"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/house-kept-in-abeyance-raster-reference-v01.png",
+        "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1103,
+        "eroded_core_pixels": 146,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          172.0,
+          11.0,
+          11.0
+        ],
+        "median_red_hex_rounded": "#ac0b0b",
+        "modal_red_hex": "#9b0000",
+        "modal_frequency": 3,
+        "unique_sample_colours": 135,
+        "nearest_candidate_hex": "#a32c25",
+        "median_max_channel_error": 35.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 3,
+      "subject": "THE KEEPER OF INTERVALS — ORIGINAL",
+      "book": "Clavicula Intervallorum",
+      "office": null,
+      "plate": "VIII",
+      "source": {
+        "number": 8,
+        "title": "Of the Keeper of Intervals",
+        "deck": "Who can renew a capacity may shape which future is available.",
+        "fiction": "They took a vote among the four living plans. No one entered the fifth, whose only reader had been allowed to leave. The vote was unanimous.",
+        "caption": "Four independent clocks: public visibility, retained lesson, identity linkage, and usable authority. Each has its own keeper and renewal point. These are analytical distinctions, not recommended retention durations or a diagram of any living network.",
+        "pages": [
+          {
+            "title": "The decision before the decision",
+            "paragraphs": [
+              "[D] If a future action requires a capacity, and maintenance determines whether that capacity remains available, maintenance can change the set of future actions without changing the eventual voting rule. This is a conditional consequence of the dependency description. It does not prove a motive in the person who controls the maintenance budget.",
+              "[H] A consequential selection may therefore occur before a formal decision: one alternative stays staffed, documented, rehearsed, and intelligible while another becomes expensive or impossible to resume. A later comparison can treat their unequal readiness as evidence of unequal merit. This is proposed selection by maintenance, not proof of covert intent. Record when readiness was lost and who could have renewed it.",
+              "[D] This is narrower than saying the keeper controls the future. Other routes may exist; new capacities may be invented; people may act outside a permission structure. The keeper controls particular dependencies under particular conditions. The plate uses several clocks to keep that claim local enough to check.",
+              "[E] Ulrich and Reynolds distinguish those involved in a designed system from those affected but not involved, and use boundary critique to expose judgments about inclusion and justification [G2]. Here that question is carried into time: whose later options are affected by today's decision to stop maintaining a capacity?"
+            ]
+          },
+          {
+            "title": "The lesson, the name, and the copy",
+            "paragraphs": [
+              "[E] NASA's Aviation Safety Reporting System describes de-identifying reports before database entry and separating the reporting process from enforcement functions, with stated exceptions and limits [N1]. It is an example of retaining lessons while limiting identity exposure. It is not proof that de-identification always prevents reconstruction or that its incentive structure transfers to other institutions.",
+              "[D] Visibility, retention, identifiability, and practical access are separate variables. Removing a public trace does not show that every copy disappeared. Preserving a lesson does not require retaining every identifying detail. The proper arrangement depends on purpose, rights, technical constraints, and risks. This book offers no universal retention schedule.",
+              "[H] Ask whether a lesson can remain useful after its witness becomes harder to identify, and whether a reviewer can test the lesson without restoring unnecessary identity links. Also ask who can change the policy, who can contest the change, and which residual copies remain outside that policy. These are questions for legitimate system design, not a method for mapping vulnerable people.",
+              "[F] The fifth plan did not vote against the others. It could no longer be read. The missing entry makes the tally incomplete as a record of the choice that had actually been made."
+            ]
+          }
+        ],
+        "sources": [
+          "G2",
+          "N1",
+          "P0"
+        ]
+      },
+      "source_path": "books/02_intervallorum/manuscript/book.json",
+      "source_blob_sha": "c43c990a2f0effc8326b6005ebadf514fbd7c42a",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE KEEPER OF INTERVALS — ORIGINAL. Input image 1 is FORAS, drawing hand and palette ONLY. Input image 2 is the ORIGINAL KEEPER, subject identity and pose ONLY: preserve the slight bowed full-length body, pale finely drawn profile face, huge open crescent crest arching above and around the head, elongated delicate hands, narrow legs and grounded branching hem. Remove ALL page typography, border, registers, separate moons, diagrams, dense baseline and all red garment veins. Re-render as one isolated figure in Foras's more open cellular-lattice pen hand. Two arms only: one hangs down, the other hand is raised delicately. Chest contains a plain empty cream circular aperture. The ONE RED INTERVENTION is a SINGLE uninterrupted red thread running from this chest aperture to the raised hand and then falling to one terminal dot. No other red in body, eye, crescent or foot. Fine near-black expression must preserve the original face rather than replace it with Foras's face. Some horizontal narrow cream breaks in the garment may remain, but no marginal layout. No extra clocks or added attributes; this render preserves the original figure, not the whole chapter's analytic diagram. Portrait PNG 2:3, full figure with generous margin, target 2048 x 3072 if available.\nManuscript context only, never print: Who can renew a capacity may shape which future is available.\nConceptual caption only, never print: Four independent clocks: public visibility, retained lesson, identity linkage, and usable authority. Each has its own keeper and renewal point. These are analytical distinctions, not recommended retention durations or a diagram of any living network.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "original-keeper-plate"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "keeper-of-intervals-original-raster-reference-v01.png",
+      "qa_notes": "Original crescent crest, bowed profile and thread pose retained in series pen hand; full figure isolated. This is the original figure, not a rendering of the chapter's four-clock analysis.",
+      "display_label": "KEEPER / ORIGINAL",
+      "display_subtitle": "Intervallorum / VIII",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "e0981d8c31529fd87c995a73740f5171f261273324f055f43cbd9367792bd18d",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "exec-1ce0084a-c18e-413d-80c4-9246280b4006.png",
+          "sha256": "fa3fd8e5e4ff03a07ba082a87b303103d6909d4d96a86ade65392df46a48dd27"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/keeper-of-intervals-original-raster-reference-v01.png",
+        "sha256": "e0981d8c31529fd87c995a73740f5171f261273324f055f43cbd9367792bd18d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1835,
+        "eroded_core_pixels": 57,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          204.0,
+          43.0,
+          30.0
+        ],
+        "median_red_hex_rounded": "#cc2b1e",
+        "modal_red_hex": "#b9110e",
+        "modal_frequency": 2,
+        "unique_sample_colours": 54,
+        "nearest_candidate_hex": "#a62a22",
+        "median_max_channel_error": 42.0,
+        "p95_max_channel_error": 50.39999999999999,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 4,
+      "subject": "THE OPEN INVENTORY",
+      "book": "Clavicula Intervallorum",
+      "office": null,
+      "plate": "XII",
+      "source": {
+        "number": 12,
+        "title": "Of the Open Inventory",
+        "deck": "Preserve the means to revise the inventory itself.",
+        "fiction": "At the end of the catalogue the keeper left an unnumbered shelf. The next keeper put a door there. The third asked who had been using the room beyond it.",
+        "caption": "A working alphabet of twelve marks. Each names a question, not a verdict: state, function, repertoire, clock, reserve, carrier, prerequisite, opening, keeper, trial, standing, and revision. The open spiral assembles none of them into a final seal.",
+        "pages": [
+          {
+            "title": "What this edition claims",
+            "paragraphs": [
+              "[D] The bounded deductive claim is this: under specified dependency, timing, and resource assumptions, preserving a description of an option is insufficient to establish that the option can be used. The executable specimen makes a small instance exact. Its accuracy as a description of any practical system must be established independently.",
+              "[H] The proposed synthesis is that maintenance, access, and institutional authority jointly shape a time-qualified repertoire of actions. The distinctive emphasis is the selection that can occur when some capacities are renewed and others lapse before a formal choice. This is a research proposal with clear predecessors, not a priority claim or a validated general theory.",
+              "[D] The cross-domain comparisons remain asymmetric. A fluid construction can establish a reachability statement in a prescribed mathematical model. A biological experiment can establish an observed effect under its treatment. A historical study can support an explanation of particular continuity. None can lend its evidential force to the others merely because a diagram resembles them.",
+              "[V] Care, non-domination, and revisability constrain the use of the instrument. They remain ethical commitments, open to argument in their own terms. The device does not derive human standing from usefulness or grant a system unlimited jurisdiction because it can keep itself alive."
+            ]
+          },
+          {
+            "title": "What would change the book",
+            "paragraphs": [
+              "[H] The audit would lose practical force if ordinary scheduling and review already captured the same dependencies at lower cost. The recovery coding would lose force if readers could not distinguish cases consistently. The maintenance-selection claim would lose force in a case where unmaintained alternatives remained equally usable, or where readiness differences did not affect the relevant decision.",
+              "[D] No observation needs to refute the conditional schedule when its assumptions hold. Observations can instead show that the assumptions omit what mattered. This distinction prevents a definitional result from being used as an unfalsifiable empirical theory. The book must not claim to have predicted what it only redescribed after the event.",
+              "[F] The twelve marks are an invented notation. Their keyed readings are supplied. Nothing depends on discovering a hidden doctrine, and an attractive line is not a reason to obey it. Readers can use the diagrams, disagree with the commitments, or treat the object as an elaborate joke about administrative esotericism.",
+              "[F] The final shelf remains available for a correction the present inventory cannot name. That gesture has no causal power. Someone would still have to build the shelf, maintain the room, and let another person put something there."
+            ]
+          }
+        ],
+        "sources": [
+          "A1",
+          "P0"
+        ]
+      },
+      "source_path": "books/02_intervallorum/manuscript/book.json",
+      "source_blob_sha": "c43c990a2f0effc8326b6005ebadf514fbd7c42a",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE OPEN INVENTORY. One open self-supporting CABINET AS A FIGURE-DEVICE, square composition, fine cellular lattice uprights, shelves and open side panels. A dozen small differently shaped recesses hold a restrained assortment of unlettered objects: blank folded record, small empty dial, key, reticulate reserve pouch, an open ring, and a few plain implements, with several recesses visibly empty. It is a working cupboard still open to revision, not a locked reliquary, not an alphabet chart. A final unnumbered shelf extends beyond the regular structure and turns into a small empty doorway; leave it available, no occupant. No labels, glyph table, handwritten marks, numbers or symbol inscriptions. The ONE RED INTERVENTION is an OPEN RED SPIRAL mounted loosely on the extended shelf, with its outer end unfinished and not joined into a final seal. All contents and structural lines otherwise black with sparse slate/ochre pockets. Vertical black terminal-dot drop-lines. No surrounding room, figure, closed frame or floor setting. Square PNG 1:1, target 2048 x 2048 if supported, generous cream margins.\nManuscript context only, never print: Preserve the means to revise the inventory itself.\nConceptual caption only, never print: A working alphabet of twelve marks. Each names a question, not a verdict: state, function, repertoire, clock, reserve, carrier, prerequisite, opening, keeper, trial, standing, and revision. The open spiral assembles none of them into a final seal.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "1:1",
+      "attempt": 1,
+      "status": "selected",
+      "file": "open-inventory-raster-reference-v01.png",
+      "qa_notes": "Open cabinet, assortment of blank implements, added shelf/doorway and single open red spiral. Nine main cubbies in generated cabinet; not a literal twelve-mark alphabet chart.",
+      "display_label": "OPEN INVENTORY",
+      "display_subtitle": "Intervallorum / XII",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "93f593357f450957926d1115141bed3fc783a25e31e498fdf69ad1c1660e0b41",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "repetiel-raster-reference-v01.png",
+          "sha256": "ba0f2c2923c770feaa15e0795ac664fdcb034748dd9d3c12ebd5524501f18f60"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/open-inventory-raster-reference-v01.png",
+        "sha256": "93f593357f450957926d1115141bed3fc783a25e31e498fdf69ad1c1660e0b41",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 4710,
+        "eroded_core_pixels": 3258,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          155.0,
+          34.0,
+          31.0
+        ],
+        "median_red_hex_rounded": "#9b221f",
+        "modal_red_hex": "#8b1a18",
+        "modal_frequency": 6,
+        "unique_sample_colours": 2504,
+        "nearest_candidate_hex": "#a32a24",
+        "median_max_channel_error": 13.0,
+        "p95_max_channel_error": 52.0,
+        "sample_fraction_within_5_per_channel": 0.16175567833026397,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 5,
+      "subject": "THE KEEPER WEARING THE DIAL",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "V",
+      "source": {
+        "brief_excerpt": "The Keeper wearing the dial; seven bars; the red thread."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Precise local object edit of supplied KEEPER WEARING THE DIAL. Preserve absolutely everything outside the tiny black chest dial: face, crescent crest, two hands and arms, robe, thread, drop-lines, palette, framing, dimensions and background.\nCorrect the dial from eight radial hands to SEVEN: REMOVE ONLY the hand pointing STRAIGHT DOWN at six o'clock, including that hand's entire narrow stem and arrowhead between centre hub and bottom rim. Replace those removed pixels with the same plain dark interior of the dial. Keep the centre hub. Leave the SEVEN other existing hands exactly where they are and unchanged: upward, upper right, rightward, lower right, lower left, leftward and upper left. Do not add hands or shift the others. No six-o'clock hand should remain. The existing red thread at lower right must remain unchanged; do not confuse it with the downward hand.\nNo other change. Seven hands total, all visible on one chest dial. No numerals, text, border or added symbol. Retain PNG portrait 2:3.",
+      "reference_images": [
+        "attempts/keeper-wearing-dial-raster-reference-v01.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 2,
+      "status": "selected",
+      "file": "keeper-wearing-dial-raster-reference-v02.png",
+      "qa_notes": "Same Keeper identity and pose, seven visible radial hands after correction; one red thread. Radial hands follow the user's original brief; repository V brief uses seven bars.",
+      "display_label": "KEEPER / DIAL",
+      "display_subtitle": "Graduum / V",
+      "prompt_history": [
+        "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE KEEPER WEARING THE DIAL — GRADUUM V. Input image 1 is the approved series drawing-hand reference. Input image 2 is the newly re-rendered ORIGINAL KEEPER: preserve THAT SAME face, crescent crest, full-length slender body, two arms, pose, lattice garment and hanging dots. Change the chest's empty round aperture into an unnumbered BLACK DIAL worn on the body, with SEVEN distinct fine black hands of unequal lengths radiating from one centre; outer ring intervals intentionally unequal, not a calibrated clock. The crescent crest is retained as the Keeper's silhouette; the worn chest dial is the plate's new attribute. The ONE RED INTERVENTION remains one continuous red thread from dial rim to raised hand then down to a terminal dot, no red within the dial, robe or face. No numerals, tick labels, letters, page title, frame or other diagram. This is a portrait reference, not a functioning or measured dial. Preserve the humanlike facial detail and ample empty space. Portrait PNG 2:3, target 2048 x 3072 if available.",
+        "Precise local object edit of supplied KEEPER WEARING THE DIAL. Preserve absolutely everything outside the tiny black chest dial: face, crescent crest, two hands and arms, robe, thread, drop-lines, palette, framing, dimensions and background.\nCorrect the dial from eight radial hands to SEVEN: REMOVE ONLY the hand pointing STRAIGHT DOWN at six o'clock, including that hand's entire narrow stem and arrowhead between centre hub and bottom rim. Replace those removed pixels with the same plain dark interior of the dial. Keep the centre hub. Leave the SEVEN other existing hands exactly where they are and unchanged: upward, upper right, rightward, lower right, lower left, leftward and upper left. Do not add hands or shift the others. No six-o'clock hand should remain. The existing red thread at lower right must remain unchanged; do not confuse it with the downward hand.\nNo other change. Seven hands total, all visible on one chest dial. No numerals, text, border or added symbol. Retain PNG portrait 2:3."
+      ],
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "87ca60427abddc960a23a79767d8f3d93747fcd5d9eb8842d106a70ea06ed2e1",
+      "reference_file_hashes": [
+        {
+          "file": "exec-1eba0168-7a1a-4c8d-a887-bf3ff2da4ee5.png",
+          "sha256": "ed0c6f32ec44dfcf8028b670542e7dc6e58b89ac8399a20c0b0d63303075ef6c"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/keeper-wearing-dial-raster-reference-v02.png",
+        "sha256": "87ca60427abddc960a23a79767d8f3d93747fcd5d9eb8842d106a70ea06ed2e1",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1785,
+        "eroded_core_pixels": 130,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          208.0,
+          26.0,
+          26.0
+        ],
+        "median_red_hex_rounded": "#d01a1a",
+        "modal_red_hex": "#cf251f",
+        "modal_frequency": 3,
+        "unique_sample_colours": 123,
+        "nearest_candidate_hex": "#a12823",
+        "median_max_channel_error": 45.0,
+        "p95_max_channel_error": 54.55,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 6,
+      "subject": "HORA AND TEMPUS",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "II",
+      "source": {
+        "brief_excerpt": "Hora and Tempus as diptych; same red interruptions; carries Returning Trace bird and ring."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — HORA AND TEMPUS — THE TWO WATCHMAKERS, GRADUUM II. This is the explicitly requested PAIR in ONE portrait image, the only exception to a single body. Two complete slender standing watchmakers, same modest scale, generous blank separation between them and all feet/hands visible, no workbench or surrounding room. Exactly two arms apiece. Both wear different fine cellular-lattice workshop mantles in the same drawing hand as Foras, careful humanlike faces: Hora older and attentive, Tempus younger and strained. Hora on left holds one partially assembled bird-and-ring mechanism made of stable nested modules, obvious completed subassemblies latched together. Tempus on right holds loose small rings, beak-shaped and curved feather-like components of the SAME mechanism, not yet attached; a few loose parts sag in a shallow tray held in one hand, no scatter across ground. The bird-ring motif references the Returning Trace but is an unfinished small mechanism, not an extra living figure. The SINGLE RED INTERVENTION across this pair is ONE fine continuous horizontal interruption line passing across both held assemblies at the same height, visibly the same event arriving at both, no red elsewhere. Black and slate/ochre dress details, cream voids, black hanging dot lines. No textual names, dates, labels, clock numerals, decorative border or diptych frame. Portrait PNG 2:3, target 2048 x 3072 if supported.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "hora-and-tempus-raster-reference-v01.png",
+      "qa_notes": "Explicitly requested pair: Hora holds a stable bird-ring module, Tempus loose related components; one continuous interruption line crosses both assemblies.",
+      "display_label": "HORA & TEMPUS",
+      "display_subtitle": "Graduum / II",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "7d6e9d23b513591a92905768a27447f9b66810f916522fbde1f05a107b86f85b",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "repetiel-raster-reference-v01.png",
+          "sha256": "ba0f2c2923c770feaa15e0795ac664fdcb034748dd9d3c12ebd5524501f18f60"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/hora-and-tempus-raster-reference-v01.png",
+        "sha256": "7d6e9d23b513591a92905768a27447f9b66810f916522fbde1f05a107b86f85b",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 349,
+        "eroded_core_pixels": 0,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          190.0,
+          8.0,
+          11.0
+        ],
+        "median_red_hex_rounded": "#be080b",
+        "modal_red_hex": "#bc070a",
+        "modal_frequency": 10,
+        "unique_sample_colours": 248,
+        "nearest_candidate_hex": "#a9341c",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 48.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 7,
+      "subject": "THE CUT KEEPER",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "III",
+      "source": {
+        "brief_excerpt": "Measurer of Absences antlered figure with empty frame: half stroke bundles, half ruled table; one red line between."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE CUT KEEPER — GRADUUM III. Input image 1 FORAS is drawing hand and palette ONLY. Input image 2 ORIGINAL MEASURER OF ABSENCES is identity, antler silhouette, bowed posture, careful bearded profile face and EMPTY HANDHELD RECTANGLE ONLY. Preserve those recognisable features, re-render the entire full-length antlered keeper in the series fine cellular-lattice pen register. Remove all typography, page borders, registers, separate details and all red veins/eyes from the old plate. The figure holds an empty black rectangular frame between its two delicate hands, frame centre plain cream. From neck down the body is HALF living stroke bundles/lattice on viewer's left, HALF a clean RULED TABLE on viewer's right: garment and torso turn into open black rows and columns, not lettering. The boundary between organic half and ruled half is ONE SINGLE fine VERTICAL RED LINE running from below neck through the body to hem, red #a32b24; no other red in antlers, eye, hands or frame. Keep the WHOLE FACE organic and detailed, not sliced into a grid. Outer silhouette remains one continuous figure, no separate chart beside it. No text in cells, no numerals, no extra diagrams. Portrait PNG 2:3, target 2048 x 3072 if supported.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "original-measurer-plate"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "cut-keeper-raster-reference-v01.png",
+      "qa_notes": "Measurer-derived antlered bearded face and empty handheld rectangle preserved; organic left body and ruled right body separated by a red vertical boundary, partly occluded by foreground arm.",
+      "display_label": "CUT KEEPER",
+      "display_subtitle": "Graduum / III",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "f9768ea18c3e3c145f7d3ff359985be581fccced52bb80fb5b19705e17c9617c",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "exec-98e96efa-a1eb-4ac5-9996-a6583492f3d0.png",
+          "sha256": "81ca80f54e5c94695654ca353d8e19b519f7df84392b331cb3e2621a16200a13"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/cut-keeper-raster-reference-v01.png",
+        "sha256": "f9768ea18c3e3c145f7d3ff359985be581fccced52bb80fb5b19705e17c9617c",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 3132,
+        "eroded_core_pixels": 522,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          207.0,
+          33.0,
+          21.0
+        ],
+        "median_red_hex_rounded": "#cf2115",
+        "modal_red_hex": "#b90d09",
+        "modal_frequency": 3,
+        "unique_sample_colours": 501,
+        "nearest_candidate_hex": "#a22d23",
+        "median_max_channel_error": 44.0,
+        "p95_max_channel_error": 55.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "index": 5,
+      "subject": "THE KEEPER WEARING THE DIAL",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "V",
+      "source": {
+        "brief_excerpt": "The Keeper wearing the dial; seven bars; the red thread."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE KEEPER WEARING THE DIAL — GRADUUM V. Input image 1 is the approved series drawing-hand reference. Input image 2 is the newly re-rendered ORIGINAL KEEPER: preserve THAT SAME face, crescent crest, full-length slender body, two arms, pose, lattice garment and hanging dots. Change the chest's empty round aperture into an unnumbered BLACK DIAL worn on the body, with SEVEN distinct fine black hands of unequal lengths radiating from one centre; outer ring intervals intentionally unequal, not a calibrated clock. The crescent crest is retained as the Keeper's silhouette; the worn chest dial is the plate's new attribute. The ONE RED INTERVENTION remains one continuous red thread from dial rim to raised hand then down to a terminal dot, no red within the dial, robe or face. No numerals, tick labels, letters, page title, frame or other diagram. This is a portrait reference, not a functioning or measured dial. Preserve the humanlike facial detail and ample empty space. Portrait PNG 2:3, target 2048 x 3072 if available.",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "keeper-of-intervals-original-raster-reference-v01.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "superseded",
+      "file": "attempts/keeper-wearing-dial-raster-reference-v01.png",
+      "qa_notes": null,
+      "display_label": "KEEPER / DIAL",
+      "display_subtitle": "Graduum / V",
+      "reason_for_next_attempt": "Eight radial hands instead of requested seven; corrected by removing downward hand.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ed0c6f32ec44dfcf8028b670542e7dc6e58b89ac8399a20c0b0d63303075ef6c",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "exec-770eacba-6dca-47eb-aaa0-e402152f0bc2.png",
+          "sha256": "e0981d8c31529fd87c995a73740f5171f261273324f055f43cbd9367792bd18d"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/attempts/keeper-wearing-dial-raster-reference-v01.png",
+        "sha256": "ed0c6f32ec44dfcf8028b670542e7dc6e58b89ac8399a20c0b0d63303075ef6c",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1941,
+        "eroded_core_pixels": 183,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          192.0,
+          32.0,
+          27.0
+        ],
+        "median_red_hex_rounded": "#c0201b",
+        "modal_red_hex": "#c22f22",
+        "modal_frequency": 4,
+        "unique_sample_colours": 173,
+        "nearest_candidate_hex": "#a52d22",
+        "median_max_channel_error": 29.0,
+        "p95_max_channel_error": 38.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    }
+  ],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly; only other hue"
+  },
+  "technical": {
+    "format": "PNG",
+    "requested_portrait_size": [
+      2048,
+      3072
+    ],
+    "requested_square_size": [
+      2048,
+      2048
+    ],
+    "actual_size": {
+      "THE SECOND NECK": [
+        1254,
+        1254
+      ],
+      "THE HOUSE KEPT IN ABEYANCE": [
+        1254,
+        1254
+      ],
+      "THE KEEPER OF INTERVALS — ORIGINAL": [
+        1024,
+        1536
+      ],
+      "THE OPEN INVENTORY": [
+        1254,
+        1254
+      ],
+      "THE KEEPER WEARING THE DIAL": [
+        1024,
+        1536
+      ],
+      "HORA AND TEMPUS": [
+        1024,
+        1536
+      ],
+      "THE CUT KEEPER": [
+        1024,
+        1536
+      ]
+    },
+    "upscaled": false,
+    "traced": false,
+    "vectorised": false,
+    "pixel_edits_outside_imagegen": false,
+    "seed": null,
+    "note": "Native PNGs retained byte-for-byte. Contact sheet uses thumbnails and external labels. Red measured, no colour normalisation. Antialiasing, overlap and wash create RGB variation."
+  },
+  "red_check": {
+    "target": "#a32b24",
+    "target_rgb": [
+      163,
+      43,
+      36
+    ],
+    "report": "red-check.json",
+    "human_readable_report": "red-check.md",
+    "method": "Read-only candidate red analysis; 3x3 eroded interior if at least 12 pixels, thin-stroke fallback otherwise. Same method as batch 04; earlier measurements retained.",
+    "caution": "A heuristic RGB mask is not semantic segmentation or recovery of original ink. An isolated exact target pixel does not certify uniform red."
+  },
+  "process": {
+    "stop_after_batch": true,
+    "batch_size": 7,
+    "next_subject": "HOODED MANAGER — GRADUUM VI / first tile",
+    "inventory_status": "Requested Intervallorum set complete: Fed Vessel (batch 04), Second Neck, House, original Keeper, Open Inventory. Graduum figure references in progress."
+  },
+  "interpretation_notes": [
+    "Three square devices and four portrait assets. Hora and Tempus are together as explicitly requested.",
+    "Original Keeper's pose, crest and face derive from the original Sol image; chapter's analytical four-clock diagram is not reproduced.",
+    "Cut keeper uses the original Measurer identity with a ruled half-body; standalone original Measurer remains a later requested Sol reference.",
+    "Open Inventory cabinet is a figure-device, not an exact alphabet plate. Generated cabinet has nine primary cubbies.",
+    "Keeper with dial follows user's seven-hand description rather than repository's alternative seven-bar convention.",
+    "Dial v01 had eight hands; v02 removes the downward hand. Earlier attempt retained.",
+    "Temporary workspace outage prevented the first Cut request from reading its reference. It produced no image; after recovery the same prompt and original reference produced the first render.",
+    "All red pixel values measured; artwork not normalised."
+  ],
+  "related_inventory_aliases": [
+    {
+      "subject": "Sol — Keeper of Intervals",
+      "file": "keeper-of-intervals-original-raster-reference-v01.png",
+      "note": "This original identity render can also serve as the requested consistent Sol Keeper reference; no distinct extra Keeper is generated in this batch."
+    }
+  ]
+}

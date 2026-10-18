@@ -1,0 +1,1202 @@
+{
+  "created": "2026-10-17",
+  "regular_card_fronts": 50,
+  "extra_cards": 1,
+  "extra_versions": 2,
+  "files": [
+    {
+      "file": "README.md",
+      "size_bytes": 2018,
+      "sha256": "fef2ff93f1c23320414233ad7f5fdb7ba1b495bffd70ac645d21ec14b0a8dd93",
+      "git_blob_sha": "80e4f934de8be3904a2355afccdf4e8dce316c77"
+    },
+    {
+      "file": "cups/README.txt",
+      "size_bytes": 1034,
+      "sha256": "a316fa1dad96315e9a5267b43542b63b8cc31c9ca09902c3538aed686971749e",
+      "git_blob_sha": "bcdc679772eab2e92ddce42a23cac6d9f55914d3"
+    },
+    {
+      "file": "cups/art/01-ace-of-cups-v01.png",
+      "size_bytes": 1992612,
+      "sha256": "4610ab30365fb891284bbeacad560b140a71c8231bc44fac536c7d91a6e33b43",
+      "git_blob_sha": "8956b38c28771e6966cdef6c3ccb3085daae390c"
+    },
+    {
+      "file": "cups/art/02-two-of-cups-v01.png",
+      "size_bytes": 2460234,
+      "sha256": "b50fa6d02e09706dea3fc52c5fbb03a63ab0efc30e1bfb9eba8168a9dd1d591e",
+      "git_blob_sha": "4668889de0ec9cd362ccfc13c8f1f62c092888a4"
+    },
+    {
+      "file": "cups/art/03-three-of-cups-v01.png",
+      "size_bytes": 2806900,
+      "sha256": "d2d9e591543f3363245dc6ef98b94689061de0b9039af88acab1d75360269b2f",
+      "git_blob_sha": "539991a5322101b40470bc86f7ae13e780184153"
+    },
+    {
+      "file": "cups/art/04-four-of-cups-v01.png",
+      "size_bytes": 2467016,
+      "sha256": "f409861101490f7ba0daa71ce096488823b45898d823efff4349cb549cc9456e",
+      "git_blob_sha": "6fc05372359a231343727f93ce037af64e6c4778"
+    },
+    {
+      "file": "cups/art/05-five-of-cups-v01.png",
+      "size_bytes": 2450136,
+      "sha256": "28d69287fe62fb382cf6b958e17e05c4a15eebc4bbbc73b66d64100e67bd4d78",
+      "git_blob_sha": "dc62cfdb78dec3a0b49860e6916c0fd26c62b7aa"
+    },
+    {
+      "file": "cups/art/06-six-of-cups-v01.png",
+      "size_bytes": 2696365,
+      "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41",
+      "git_blob_sha": "8cb64eb713006c8a43ca5ed0963761adcd97a538"
+    },
+    {
+      "file": "cups/art/07-seven-of-cups-v01.png",
+      "size_bytes": 2231397,
+      "sha256": "7ca5f0609935b75d4eb0cba0590ef53cf44f3e56e1ed84bdc2dac63c5b5939e2",
+      "git_blob_sha": "73cb30a80fc9621bca2727e41aab0d6f052070bc"
+    },
+    {
+      "file": "cups/art/08-eight-of-cups-v01.png",
+      "size_bytes": 2040019,
+      "sha256": "2e4636bd1923b71a3e8561d6abd5cc273b228f0802391653efed283dc1c9d06d",
+      "git_blob_sha": "5ddbabc302eacb43118ffb9de00349ba4bf149f9"
+    },
+    {
+      "file": "cups/art/09-nine-of-cups-v01.png",
+      "size_bytes": 2619969,
+      "sha256": "12b58397907221f6e2a4e28edfe283b15cc08a58386146fde282fc7e2e76e226",
+      "git_blob_sha": "af1575c60e596398a6c1d42a0a9c613f3325257a"
+    },
+    {
+      "file": "cups/art/10-ten-of-cups-v02.png",
+      "size_bytes": 2423752,
+      "sha256": "c3e5733d4e641ba4a97ad617de7d65d8755748fb6b0551a4a1360735652c7739",
+      "git_blob_sha": "dbcf6961f37d18f66592dc06a6e49a6b8b89de88"
+    },
+    {
+      "file": "cups/art/11-page-of-cups-v01.png",
+      "size_bytes": 2308949,
+      "sha256": "4e37fb4ac256732c032f0c1011dd2416d4cf31fa3353084220cb0473a72b6ca2",
+      "git_blob_sha": "deee83a9c5c82dd894951e3c78cce3a4a1584de0"
+    },
+    {
+      "file": "cups/art/12-knight-of-cups-v01.png",
+      "size_bytes": 2712304,
+      "sha256": "b0b98573cb0411138297ff4a35da0b12b420e3c298854d684e1e8ecbbb9957a6",
+      "git_blob_sha": "f6eed55448ec501b391149c4de61fd9909e83bed"
+    },
+    {
+      "file": "cups/art/13-queen-of-cups-v01.png",
+      "size_bytes": 2634286,
+      "sha256": "3ca66f66310112fbf1306854c716cb52dde49c114f2e254c696f9c31c4579e4e",
+      "git_blob_sha": "7ca5d510ec7d512834ae145e8409267768cf17fb"
+    },
+    {
+      "file": "cups/art/14-king-of-cups-v01.png",
+      "size_bytes": 2616569,
+      "sha256": "6ba1c7c761c3d8eb98687b36a83375bdaed1e52c2723bc495be4d1bbeb4eef73",
+      "git_blob_sha": "773adf6f8b471ee4be22e728b240de392cac4903"
+    },
+    {
+      "file": "cups/attempts/10-ten-of-cups-v01.png",
+      "size_bytes": 2518509,
+      "sha256": "21aaba3da3b7747637ac77e4781ef65401e9e5f80374634948db37c8e55e7832",
+      "git_blob_sha": "d035616f3f98d4e9a0886060b988854559482207"
+    },
+    {
+      "file": "cups/cards/01-ace-of-cups.png",
+      "size_bytes": 849395,
+      "sha256": "e059f5a30b7d8e37f9afb0ed44b2f4080245db5d4865bd6659ade62aff46d051",
+      "git_blob_sha": "9a912ab3e9bfa6244d5f5d611e2b0721fce0dc84"
+    },
+    {
+      "file": "cups/cards/02-two-of-cups.png",
+      "size_bytes": 1092704,
+      "sha256": "8647f79b3403b1f5eb707d0a94b40c9904cf752053cd710bc85bac5138588eab",
+      "git_blob_sha": "1878a12cb714b1a92c0b5f7e182cc1cd8bb515c7"
+    },
+    {
+      "file": "cups/cards/03-three-of-cups.png",
+      "size_bytes": 1221047,
+      "sha256": "3035dc6fedb0bbc2ea81db63a874fcdac9efe4b9f2c0b5f0d0f2ef2a6eb4c8f2",
+      "git_blob_sha": "bdb03b8656ca737fb090b33bde6f5c68f4ec10b5"
+    },
+    {
+      "file": "cups/cards/04-four-of-cups.png",
+      "size_bytes": 1058236,
+      "sha256": "d28956f68076d6729a6f32374db112a0bb7956e00eb604526f72e42e7398c716",
+      "git_blob_sha": "829e90f039b2a27068a80b49f6635f5767dd957c"
+    },
+    {
+      "file": "cups/cards/05-five-of-cups.png",
+      "size_bytes": 1048129,
+      "sha256": "c9bbfc890eea737f540a7c5fd8846a7a45a99124ea6d127688a114d8eb7b4a17",
+      "git_blob_sha": "0c9a4734eaa2dd87f9629b4907aa48ca4f6c6a5e"
+    },
+    {
+      "file": "cups/cards/06-six-of-cups.png",
+      "size_bytes": 1186077,
+      "sha256": "317ee77c06aff5c2c3b7542186d8a04444000d997648abebce776b9e61f19442",
+      "git_blob_sha": "67641dd771ad4e3f8f696f62cb91771fa1965519"
+    },
+    {
+      "file": "cups/cards/07-seven-of-cups.png",
+      "size_bytes": 978140,
+      "sha256": "c13b3c139c35736f0b561f5d1609dc598426a3803c65664d209d8c686d9a91bf",
+      "git_blob_sha": "1063606a2da1a1a04000f58662bdcfd72ab23662"
+    },
+    {
+      "file": "cups/cards/08-eight-of-cups.png",
+      "size_bytes": 876319,
+      "sha256": "cff8d77a3d5d42949390734d1e03ed47994bedc20246a840fe6587126f58b2fd",
+      "git_blob_sha": "99d8629ac4116962aecdfde0837558f2c4311b4e"
+    },
+    {
+      "file": "cups/cards/09-nine-of-cups.png",
+      "size_bytes": 1140783,
+      "sha256": "72ddd22f84d816acafd667910dc6212b0330a465b32a6e0f681085cbcc49c87a",
+      "git_blob_sha": "40a4ad3b85f474db41b877418cc942315ddfaabf"
+    },
+    {
+      "file": "cups/cards/10-ten-of-cups.png",
+      "size_bytes": 1096764,
+      "sha256": "9e54d624ecd69ce729092a4dde7665fb2fb7cc8991e1775b6ea9dab3a2c2289f",
+      "git_blob_sha": "f1d69fdd3580e8b1098a8d5f4386f2abea520943"
+    },
+    {
+      "file": "cups/cards/11-page-of-cups.png",
+      "size_bytes": 1018334,
+      "sha256": "202376518b42969c9279b6fbf3a8fe57a81cda7cc75fda96e82e6bb2466805ff",
+      "git_blob_sha": "23c242242dfe000fb171f6bd5d78e15b8a6b1a1f"
+    },
+    {
+      "file": "cups/cards/12-knight-of-cups.png",
+      "size_bytes": 1147930,
+      "sha256": "5bdcba4f2777434db9ce66ff75ec792cefada2d76cba9b0d435fbf2a74354be4",
+      "git_blob_sha": "088c33d2ea81b6e750525ab32d888676fbddefaf"
+    },
+    {
+      "file": "cups/cards/13-queen-of-cups.png",
+      "size_bytes": 1142466,
+      "sha256": "677c32e4b7e208186d7783e382e0ae97d86a85ab5b9ac337eb9da584a74d0ecb",
+      "git_blob_sha": "d01265d99b299cf7b5be8dfc6116e4e8250aa7c1"
+    },
+    {
+      "file": "cups/cards/14-king-of-cups.png",
+      "size_bytes": 1147644,
+      "sha256": "8d972419c037205e13a620c653d2c990ee11e2f31abb121f330a44bd45d0d5a0",
+      "git_blob_sha": "88b566b1ac2cd7bdd45da019188f97f6da2f9eba"
+    },
+    {
+      "file": "cups/cards/card-back.png",
+      "size_bytes": 70190,
+      "sha256": "67fc03c6ea8ce62dd2a994378cc262243128037ef166ff10ffdb29b77f0bd4c7",
+      "git_blob_sha": "db702405b8ebe48caf0035523f9fc178fbb85d88"
+    },
+    {
+      "file": "cups/contact-sheet.png",
+      "size_bytes": 1356695,
+      "sha256": "d3d54317fb8be825d3de47c6abc2552482e22e0bb3df289b8671a1b56de69e41",
+      "git_blob_sha": "562b7392ff6f4f4fc1e3ac0adc6faae607dafee1"
+    },
+    {
+      "file": "cups/court-preview.png",
+      "size_bytes": 855020,
+      "sha256": "d7ade7aac616728d0acee2801c78c692427d9da7e14c311850d4a1b5e625eac8",
+      "git_blob_sha": "67d305f5253100601003feaf7e11168b8b8e2a94"
+    },
+    {
+      "file": "cups/cups-print-A4.pdf",
+      "size_bytes": 11546853,
+      "sha256": "cece1baad168581d55483066316c656f259c47dc5096b869508ba457300bdb85",
+      "git_blob_sha": "5c96092d10e0ea24bde1e0e6e1cec6838fafe510"
+    },
+    {
+      "file": "cups/cups-print-US-letter.pdf",
+      "size_bytes": 11546757,
+      "sha256": "87d8f071ceded99b0084f16daca8ae0477a78f14a5dc24d668236ecf88c3c09b",
+      "git_blob_sha": "28ec21e8633fd692c9014188f0ffc35e1f8b2fae"
+    },
+    {
+      "file": "cups/cups-reading-key.pdf",
+      "size_bytes": 98093,
+      "sha256": "bffc9d9be86a4edc85dce89f0b351d20246ae6f87125be64fee619d11eb1b790",
+      "git_blob_sha": "0c15c94acf4c1c7001ebc5cbe6c5c4189e87f377"
+    },
+    {
+      "file": "cups/cups.json",
+      "size_bytes": 116452,
+      "sha256": "66feafd8e62506d90233c18d8c12364bae45feebdeb9005c36c9ebce75bf4ac6",
+      "git_blob_sha": "aacd22298793aa085d8dc786e3111880b4b8dd77"
+    },
+    {
+      "file": "cups/cups.pdf",
+      "size_bytes": 11554610,
+      "sha256": "723b3eb88f709fffff521398e2e4c749ba373584d305f543234bd93df861ea6f",
+      "git_blob_sha": "1555cb2f97f4d33ec30cc7d078b0317de22b669a"
+    },
+    {
+      "file": "cups/fonts/IMFellEnglish-Regular.ttf",
+      "size_bytes": 194992,
+      "sha256": "fe9705bbde51af802719246d4608d08d37bde956ab99d9a590da996a5221a24c",
+      "git_blob_sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f"
+    },
+    {
+      "file": "cups/fonts/LICENSE-NOTICE.txt",
+      "size_bytes": 249,
+      "sha256": "2b4ec1f3729b0a9cbb150fd32440634d14bde1917c16a76c89e2a453e4e39527",
+      "git_blob_sha": "a6a9b55b526d31a541238335eebbe5985353fea6"
+    },
+    {
+      "file": "cups/fonts/OFL.txt",
+      "size_bytes": 4452,
+      "sha256": "2a3ca501fc4d5efcad9798531e3e06962b1e20c60e464f6cbd6c17630112c773",
+      "git_blob_sha": "68632c17836e943c708fa94b0ac067265867d1bf"
+    },
+    {
+      "file": "cups/prompts/01-ace-of-cups-v01.txt",
+      "size_bytes": 2030,
+      "sha256": "d82d537abc27579469e377f505f394ef12750329830c5c1ca61a96b228ec68b7",
+      "git_blob_sha": "9122d04033ef8686af0e8c70426f34f37995256c"
+    },
+    {
+      "file": "cups/prompts/02-two-of-cups-v01.txt",
+      "size_bytes": 2117,
+      "sha256": "36d30703b5d0495a6f81fb42c891b71f238b4b8d91128e4c7a93f1a48450dc05",
+      "git_blob_sha": "1ec7b44824e82e192759cdeec242b446d7db2fec"
+    },
+    {
+      "file": "cups/prompts/03-three-of-cups-v01.txt",
+      "size_bytes": 2139,
+      "sha256": "356eea446083304990330164e02e37996dda7ce63f5673590cbff33a82c473a5",
+      "git_blob_sha": "0bfbbc1c8b950248afff8bbe86eaf22cd48c5701"
+    },
+    {
+      "file": "cups/prompts/04-four-of-cups-v01.txt",
+      "size_bytes": 2163,
+      "sha256": "2932d809d8e596368bd0120b2704ebab18eceee276259b050ed1ea049ffb1150",
+      "git_blob_sha": "460f45a1afad452a2fe62871cc790bfd76907a79"
+    },
+    {
+      "file": "cups/prompts/05-five-of-cups-v01.txt",
+      "size_bytes": 2216,
+      "sha256": "4e64c39a363c9519d91713aaf475d5957cc0281c0e455efdd0bec38007f3fbb9",
+      "git_blob_sha": "6c80227170cdb7e9afae1e6893a181c0a48fefd5"
+    },
+    {
+      "file": "cups/prompts/06-six-of-cups-v01.txt",
+      "size_bytes": 2224,
+      "sha256": "3b18ea71920ccdf9e359340dc9d35686cfa45e0b1301238d7eab480186512764",
+      "git_blob_sha": "84b141f34798cd9ce966308cbaa6efd209833cee"
+    },
+    {
+      "file": "cups/prompts/07-seven-of-cups-v01.txt",
+      "size_bytes": 2249,
+      "sha256": "d05bdfc722fad850588db67cf27cf8f86bd3d829608aec4195d52fd6c0eceadf",
+      "git_blob_sha": "28095b152f755162a519957c89c690a28cf4b918"
+    },
+    {
+      "file": "cups/prompts/08-eight-of-cups-v01.txt",
+      "size_bytes": 2232,
+      "sha256": "76101fbe664fbb43a8b952b6e782ff8a9b2eb32a3f973e20250238db82b72245",
+      "git_blob_sha": "8fb316b3bf5c1d6b0ef221ed3e03c40713df7c92"
+    },
+    {
+      "file": "cups/prompts/09-nine-of-cups-v01.txt",
+      "size_bytes": 2212,
+      "sha256": "50354da285cc5c3a68a15319cc75298976dbb023482e973e22a1ca56006c97f7",
+      "git_blob_sha": "3ae43dd3745a5eb23f8ee7939d036bd904e8da4f"
+    },
+    {
+      "file": "cups/prompts/10-ten-of-cups-v01.txt",
+      "size_bytes": 2277,
+      "sha256": "4ff31080f62cb982710d89376a508f7cd2e447d144740ea8e2115ca02bc99700",
+      "git_blob_sha": "4a69f0c39ed46e9dd5b0a84080120aad12dc3dda"
+    },
+    {
+      "file": "cups/prompts/10-ten-of-cups-v02.txt",
+      "size_bytes": 855,
+      "sha256": "2ebe5eb92fc0d50794a42a88571b1183f2c90f39e1114803aec398b6176c8cd5",
+      "git_blob_sha": "d406b4814ef12e47b64131a620c42199b856a5e1"
+    },
+    {
+      "file": "cups/prompts/11-page-of-cups-v01.txt",
+      "size_bytes": 2126,
+      "sha256": "3400d5f5ad7dd4e23c5ee269558291afb9e905035f3869034337c0a08d0cb5c1",
+      "git_blob_sha": "cbb3ebc7d85a65ccf5eefb767d497deb8d100296"
+    },
+    {
+      "file": "cups/prompts/12-knight-of-cups-v01.txt",
+      "size_bytes": 2184,
+      "sha256": "252e7c1eeaa361dcc20f3909400a19652ca77d2493e6fd599133ab72e056125a",
+      "git_blob_sha": "723c3e2a3c2eb2f4b80dbbe605455ce5f7250fbe"
+    },
+    {
+      "file": "cups/prompts/13-queen-of-cups-v01.txt",
+      "size_bytes": 2264,
+      "sha256": "387f2d13a2aeccd65298078c503cf483565fc142370a9e3b0dafa640b61d42d6",
+      "git_blob_sha": "5bd7189d6375b0e125243b3bafae06f09e26479d"
+    },
+    {
+      "file": "cups/prompts/14-king-of-cups-v01.txt",
+      "size_bytes": 2202,
+      "sha256": "a866d09dcc129e4bfa803fe3aecd185a0e205019a6074d3fbe506b2be2f4885b",
+      "git_blob_sha": "039bb5e2ca4f2fd4dd76a6153defb150663f8d88"
+    },
+    {
+      "file": "cups/red-check.json",
+      "size_bytes": 18976,
+      "sha256": "716a2e64ca7bfb2a8acc2b1dc1c06bbfc930f7a7ccc846baabbe520a4c52c962",
+      "git_blob_sha": "b83826c36d953de47119361c458b8778eb805c7d"
+    },
+    {
+      "file": "cups/red-check.txt",
+      "size_bytes": 1151,
+      "sha256": "2fed444c96a5d97af8cacee83ee484f5694a2c1dee1c11b836374a65ca27ef10",
+      "git_blob_sha": "bdbc7c323f8c5e7a9b3676301b3d587e683e75ab"
+    },
+    {
+      "file": "extras/choronzon/README.txt",
+      "size_bytes": 451,
+      "sha256": "8fdc9b68f469fceec94bbdb916d77f232de2902b67c17570328b4479cc0454f3",
+      "git_blob_sha": "51471d0356aec625e2a757773d0510aaa6c89300"
+    },
+    {
+      "file": "extras/choronzon/choronzon-the-dispersal-v01.png",
+      "size_bytes": 2392996,
+      "sha256": "d6f1f2ae712d3c1e59ce8f2aeaf7c80f9ef40e13642ec31ccb547bc35f6257bf",
+      "git_blob_sha": "6ed80d6ad203443c7127bcb6caeb9c1c814fd268"
+    },
+    {
+      "file": "extras/choronzon/choronzon-the-dispersal-v02.png",
+      "size_bytes": 2333794,
+      "sha256": "ae5baa465cf01a902b8226d6cb73d2a8b5cdead0a76a176672a5fa0ae83348e8",
+      "git_blob_sha": "6756b347f0d95b253d6751d5540c06e19d4f75d3"
+    },
+    {
+      "file": "extras/choronzon/choronzon-v01-prompt.txt",
+      "size_bytes": 3070,
+      "sha256": "e9d7458425b480a3485bce2c43b63ff02fd188a4d31379191ee747328948a1d1",
+      "git_blob_sha": "85254e417017414b0d04040367e4bb61939498e8"
+    },
+    {
+      "file": "extras/choronzon/choronzon-v02-prompt.txt",
+      "size_bytes": 2090,
+      "sha256": "a356f52c5bd5217542ab2bba321e618098c60555916f6de45ca21eadd29455bc",
+      "git_blob_sha": "f5f9e3a1e7e7915be4389276efbd7b2dffb17052"
+    },
+    {
+      "file": "extras/choronzon/choronzon.json",
+      "size_bytes": 7476,
+      "sha256": "4c1fd631f404c147bc10455f61d7c3ea9e4da638eb5021a383fca68372e70643",
+      "git_blob_sha": "005369ff0073fbae7b025194a83273025b7d8a43"
+    },
+    {
+      "file": "major-arcana/README.txt",
+      "size_bytes": 1575,
+      "sha256": "4cb14fbc54806d0fd0900fc0aeb701def4eccc047739a84a6c55528ef2d35fab",
+      "git_blob_sha": "a61ab3c2e78771f6460bd8d6917b5b17c08c5a9f"
+    },
+    {
+      "file": "major-arcana/art/15-the-devil-native.png",
+      "size_bytes": 2676582,
+      "sha256": "32a15083604c15a775b9c7cc28a31333f51ce82884aa23bdafc7f4c68f7c354d",
+      "git_blob_sha": "8c86d382f7c5f684f2c52339944ed47610c2b730"
+    },
+    {
+      "file": "major-arcana/art/16-the-tower-native.png",
+      "size_bytes": 2212789,
+      "sha256": "ef2015076b4a72b3a6f29e40092b9541a9e1d729d27fc11ab82ea0c8758cecc9",
+      "git_blob_sha": "72f8412d827463411e10893998e7729475ec619e"
+    },
+    {
+      "file": "major-arcana/art/17-the-star-native.png",
+      "size_bytes": 2230544,
+      "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783",
+      "git_blob_sha": "e3729a1ddf7716d917dff9fd85486b81e7fee44c"
+    },
+    {
+      "file": "major-arcana/art/19-the-sun-native.png",
+      "size_bytes": 2436422,
+      "sha256": "23d16f41946ca06231208ab78340da829e3a0b751777cd07baa5a1fe1e3aa6eb",
+      "git_blob_sha": "5fcf68b634cecb91fa1679b125661f07a6507973"
+    },
+    {
+      "file": "major-arcana/art/bael-raster-reference-v03.png",
+      "size_bytes": 1718821,
+      "sha256": "059deed93cb33cb1dc9927b0a6fa7262890434840c525e0bebdde6fbf6134a9d",
+      "git_blob_sha": "de2d17527c0b0e5caf51dbc39922afc4c05561db"
+    },
+    {
+      "file": "major-arcana/art/choraz-raster-reference-v02.png",
+      "size_bytes": 2308644,
+      "sha256": "ce7f7c48a6dde6164e43695c3e3ad00455918680c6b2cce4191f8dfc01ab16ea",
+      "git_blob_sha": "16255b12e88b701acebd27845120dec0c62879ed"
+    },
+    {
+      "file": "major-arcana/art/cut-keeper-raster-reference-v01.png",
+      "size_bytes": 2089436,
+      "sha256": "f9768ea18c3e3c145f7d3ff359985be581fccced52bb80fb5b19705e17c9617c",
+      "git_blob_sha": "5d7f68ed3fcdf58f171e7313032af29f4ba7ca1b"
+    },
+    {
+      "file": "major-arcana/art/fed-vessel-raster-reference-v01.png",
+      "size_bytes": 2067489,
+      "sha256": "491f1f0a22dd88c888bf32e5d8d219c9f9d4aeb47c2d1883410707edd850884d",
+      "git_blob_sha": "060f1ffbf7e48b6b1bd8eee8874dbcfb48f980fb"
+    },
+    {
+      "file": "major-arcana/art/figure-beneath-cord-raster-reference-v01.png",
+      "size_bytes": 1962744,
+      "sha256": "d2f6876b380902e2b00bcfe8c0710b733c24ee837ca5362a7445f269b95a1b0e",
+      "git_blob_sha": "083c67c161e99dcff11785feae849fd3d717c36d"
+    },
+    {
+      "file": "major-arcana/art/foras-raster-reference-v02.png",
+      "size_bytes": 2008791,
+      "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22",
+      "git_blob_sha": "f092d6ff7681c3355416d0278f8bbfb58f825de4"
+    },
+    {
+      "file": "major-arcana/art/hora-and-tempus-raster-reference-v01.png",
+      "size_bytes": 2382793,
+      "sha256": "7d6e9d23b513591a92905768a27447f9b66810f916522fbde1f05a107b86f85b",
+      "git_blob_sha": "cbab052f9ae66210a2363ef8e0f6e405a638c04f"
+    },
+    {
+      "file": "major-arcana/art/house-kept-in-abeyance-raster-reference-v01.png",
+      "size_bytes": 2100325,
+      "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6",
+      "git_blob_sha": "2a6073f07df6a05397be30b242f6ab7d976d3586"
+    },
+    {
+      "file": "major-arcana/art/keeper-of-intervals-original-raster-reference-v01.png",
+      "size_bytes": 1923485,
+      "sha256": "e0981d8c31529fd87c995a73740f5171f261273324f055f43cbd9367792bd18d",
+      "git_blob_sha": "62b2009e76f5542bcf8568e05cff78c6377deb8b"
+    },
+    {
+      "file": "major-arcana/art/keeper-wearing-dial-raster-reference-v02.png",
+      "size_bytes": 2025901,
+      "sha256": "87ca60427abddc960a23a79767d8f3d93747fcd5d9eb8842d106a70ea06ed2e1",
+      "git_blob_sha": "428c1d5659121f5b552be8bb4f58d27ee5b4f516"
+    },
+    {
+      "file": "major-arcana/art/measurer-of-absences-original-raster-reference-v01.png",
+      "size_bytes": 2356456,
+      "sha256": "e525c83d7db6abfc583bcbf160879c2d3e7e5be887ecad679c1f742273381c34",
+      "git_blob_sha": "37478feab2b33a21deb1b0172be95c5a57fc5c51"
+    },
+    {
+      "file": "major-arcana/art/open-inventory-raster-reference-v01.png",
+      "size_bytes": 2334844,
+      "sha256": "93f593357f450957926d1115141bed3fc783a25e31e498fdf69ad1c1660e0b41",
+      "git_blob_sha": "1660a9e1d83d08f3bbf2e4c484a739b74a9cfb94"
+    },
+    {
+      "file": "major-arcana/art/orobas-raster-reference-v01.png",
+      "size_bytes": 2068247,
+      "sha256": "c2c3b8aa67529ecb11a91f8d75443a16fc0854939d000ca5848142f7e2c4d16a",
+      "git_blob_sha": "d77b9d5908d3a48c45b3dfd7ce9f19030f4b3ace"
+    },
+    {
+      "file": "major-arcana/art/redacth-raster-reference-v01.png",
+      "size_bytes": 2124274,
+      "sha256": "7e6e8c6ea3d84d206ad4e74f7600170d363fe16a2be099294d326b7c430c8bcf",
+      "git_blob_sha": "a3729eb256fd52b7b5eb680179499099ba5476aa"
+    },
+    {
+      "file": "major-arcana/art/scriptorax-raster-reference-v01.png",
+      "size_bytes": 2427734,
+      "sha256": "3c1b1b7a5b894aef2b7ee72c815fdbc7e5578987969cb43431f4178b0694ee55",
+      "git_blob_sha": "90404b41d1917f0521bb6f9c776e4fe44edda058"
+    },
+    {
+      "file": "major-arcana/art/second-neck-raster-reference-v01.png",
+      "size_bytes": 1601014,
+      "sha256": "fff5bbd6120fb70b7094eafcd271309bfb17c2eee4a42e4be522f74302835a19",
+      "git_blob_sha": "029b89248689597c6ee6b53aa0fc6089e0ed5291"
+    },
+    {
+      "file": "major-arcana/art/severion-raster-reference-v01.png",
+      "size_bytes": 1838770,
+      "sha256": "a560b6e58d195c573c8aec6450208ac0d2c9bb26ee0b8645444b8cc20d1e73cb",
+      "git_blob_sha": "b0210f0a6cc0f5a672d5528523df8b61acd47a93"
+    },
+    {
+      "file": "major-arcana/art/twin-register-raster-reference-v01.png",
+      "size_bytes": 2491163,
+      "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e",
+      "git_blob_sha": "fdfac82f077334a148a211292f6858758875eff6"
+    },
+    {
+      "file": "major-arcana/cards/00-the-open-inventory.png",
+      "size_bytes": 800886,
+      "sha256": "5b350d4f4dc69b60f31e523e84c9a8800cfa0f04b61796a15fd16ecd8d4d308e",
+      "git_blob_sha": "71e9bda314182348555e102a3fa60d432ba4be2b"
+    },
+    {
+      "file": "major-arcana/cards/01-the-operator.png",
+      "size_bytes": 886763,
+      "sha256": "99ecda9ed42e650a0831610926b66cf20cc3f3a422ff321f46a8187f2ab57f25",
+      "git_blob_sha": "4347e1ea8757beb465f67967f0411594eaa208d0"
+    },
+    {
+      "file": "major-arcana/cards/02-the-veiled-record.png",
+      "size_bytes": 921290,
+      "sha256": "98a784448aa7e90cd00c61b3dafb1bf7062459069ab2ebd5632909c30dd2d6fa",
+      "git_blob_sha": "7193117662b7ad38376a269b5d2a51820ae2b768"
+    },
+    {
+      "file": "major-arcana/cards/03-the-fed-vessel.png",
+      "size_bytes": 653860,
+      "sha256": "362bf0738b5eacd0353a6b8ebf5c2cb72f95698c65f80d368d10e10c8a920644",
+      "git_blob_sha": "e7480c79e5f0b54fe8bca7a38ecd41338c125b6f"
+    },
+    {
+      "file": "major-arcana/cards/04-the-empty-seat.png",
+      "size_bytes": 746700,
+      "sha256": "a1fdb1429f026ed12b5c979d73c27c87052b1ffdefa249f2795c7c7b72ba37a7",
+      "git_blob_sha": "c228e52447f60a3346327e4d348cc56e02731ff4"
+    },
+    {
+      "file": "major-arcana/cards/05-the-runbook.png",
+      "size_bytes": 1074925,
+      "sha256": "5e5c67d585e1d638eb1ad591d69ff847c0b2152dbbc8e5d8b3cbdf7d341c39bb",
+      "git_blob_sha": "b90f158572470d520c34dda83f174c5e3193533b"
+    },
+    {
+      "file": "major-arcana/cards/06-the-two-watchmakers.png",
+      "size_bytes": 1063958,
+      "sha256": "fe82075d6cea1a947ad6b5c1b2bd182405d982fd050ec36bbe07445d091afb00",
+      "git_blob_sha": "a11ce3fec4f81bb78c74029c0b7b5db1503160be"
+    },
+    {
+      "file": "major-arcana/cards/07-the-divided-horse.png",
+      "size_bytes": 914758,
+      "sha256": "4d0b7679b2be1732b7a116ce88ff763025c425a40e8505ae4c89164d759922e6",
+      "git_blob_sha": "11ddb67d1f14a64ac68e5b014b1a7f04c299409b"
+    },
+    {
+      "file": "major-arcana/cards/08-the-unused-hand.png",
+      "size_bytes": 880187,
+      "sha256": "9d04d398a2e376c0ea8db0b8b9cd9789da64ddb6e4f7a2796d813dc857e50a96",
+      "git_blob_sha": "adb555b3aa58925e33f521c549320c8d73f0ba43"
+    },
+    {
+      "file": "major-arcana/cards/09-the-measurer-of-absences.png",
+      "size_bytes": 1034038,
+      "sha256": "8e31fad48ef7830966a058081dfb8e146c03b2575f91cdfec0595466ec1582d8",
+      "git_blob_sha": "ee5bc087171e34627a706f543b7ad7c0416e6018"
+    },
+    {
+      "file": "major-arcana/cards/10-the-keeper-of-intervals.png",
+      "size_bytes": 927324,
+      "sha256": "43725932fdddee460ef336cb640db9cc51f00de5db2f733a257fc29ceb50c595",
+      "git_blob_sha": "231ba48c0a9c4d55b7800540c05f81381f3d115c"
+    },
+    {
+      "file": "major-arcana/cards/11-the-balance.png",
+      "size_bytes": 757245,
+      "sha256": "29ca9036aa9735127f6f8b6b06e2b225a4aab08b77e2261e044b761d6dda8b5e",
+      "git_blob_sha": "ceb97d29e6afb40379fd0968c16c1751a2cbe233"
+    },
+    {
+      "file": "major-arcana/cards/12-the-house-in-abeyance.png",
+      "size_bytes": 715160,
+      "sha256": "2bea066a3d643a62b1a3c0339c1958d0fb789e94d89c26b6f8158466e361b367",
+      "git_blob_sha": "1aa7481c2813c71969a94c17df762e54ee67be16"
+    },
+    {
+      "file": "major-arcana/cards/13-the-cut.png",
+      "size_bytes": 949095,
+      "sha256": "851f08c0f8f8c8f61e02e1226fdab900c149fd4263116500336a62e2c0a2d889",
+      "git_blob_sha": "05a16a14e416a8496039b08223827fdf10d8fea3"
+    },
+    {
+      "file": "major-arcana/cards/14-the-second-neck.png",
+      "size_bytes": 527836,
+      "sha256": "151c3276bd672992e890015a887bf928e19104e97ada5af8ce63742e88632979",
+      "git_blob_sha": "a35af7a6b5584d27d05bc39a0c482169b97c8b21"
+    },
+    {
+      "file": "major-arcana/cards/15-the-bond.png",
+      "size_bytes": 1184835,
+      "sha256": "e2e5fa6812a2810d4d191314c7d64a2acf9a1941517578c2c129ef03795813c2",
+      "git_blob_sha": "09e8e0c3cbba14ad266fda5beddfb61f37f217d1"
+    },
+    {
+      "file": "major-arcana/cards/16-the-exposed-support.png",
+      "size_bytes": 951864,
+      "sha256": "fe276c5c679626ba5de143d9820ede947bc0dd6f86964a96ee46ca4b8dd3c4a6",
+      "git_blob_sha": "d6e6d768b2d92d6703ef861dda7f802f1409caea"
+    },
+    {
+      "file": "major-arcana/cards/17-the-renewal.png",
+      "size_bytes": 956876,
+      "sha256": "20e5902923abc6a4e45844f57c87ae0284407cc81b485c8b4ca3cb17726fde84",
+      "git_blob_sha": "9d79ad94614cc636693cb77154d0e54a602fc5fa"
+    },
+    {
+      "file": "major-arcana/cards/18-the-interval.png",
+      "size_bytes": 855594,
+      "sha256": "ec2daec90d5298e32971571a585d44326da79d5bbdef742d4f8ff95f3bac50a5",
+      "git_blob_sha": "f6942fef50b95e2f3334ca644e409029e2ecb569"
+    },
+    {
+      "file": "major-arcana/cards/19-the-visible-ground.png",
+      "size_bytes": 1043951,
+      "sha256": "033c2b10f98ea24eba8752b26ea3f14c0a5f9a134f110e61195efcc39ca3fbb3",
+      "git_blob_sha": "283485a33a79561c007f50d0d4139ad68eb57e6d"
+    },
+    {
+      "file": "major-arcana/cards/20-the-summons.png",
+      "size_bytes": 1003796,
+      "sha256": "6d683871e1f5d00377214caf9d0615d02ede3e0fefaefaab24417568f55844e0",
+      "git_blob_sha": "94ef6638653e03f7bb590b8449e85a6a2463e48b"
+    },
+    {
+      "file": "major-arcana/cards/21-the-twin-register.png",
+      "size_bytes": 790580,
+      "sha256": "1801832f0259a761308c53659af098ab045262b49a77e710a56dc5bdaec96d66",
+      "git_blob_sha": "832112f5890253bf1d10eea3fded3fd50e78649e"
+    },
+    {
+      "file": "major-arcana/cards/22-card-back.png",
+      "size_bytes": 70190,
+      "sha256": "67fc03c6ea8ce62dd2a994378cc262243128037ef166ff10ffdb29b77f0bd4c7",
+      "git_blob_sha": "db702405b8ebe48caf0035523f9fc178fbb85d88"
+    },
+    {
+      "file": "major-arcana/contact-sheet.png",
+      "size_bytes": 1652125,
+      "sha256": "991e70140ece8540bc384ec46fdbcbcb99465d156e0c922581168ddb3a003ebb",
+      "git_blob_sha": "264b09eb688248738877aeaf43064c06c951f2cc"
+    },
+    {
+      "file": "major-arcana/deck.json",
+      "size_bytes": 119916,
+      "sha256": "9c7f2edb94aadad9d8a52dbbc06cbe32055aead25ca3663038947d7d7336f06f",
+      "git_blob_sha": "513bb4982af8da2f3c274524542a621a6c30ceb4"
+    },
+    {
+      "file": "major-arcana/fonts/IMFellEnglish-Regular.ttf",
+      "size_bytes": 194992,
+      "sha256": "fe9705bbde51af802719246d4608d08d37bde956ab99d9a590da996a5221a24c",
+      "git_blob_sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f"
+    },
+    {
+      "file": "major-arcana/fonts/LICENSE-NOTICE.txt",
+      "size_bytes": 249,
+      "sha256": "2b4ec1f3729b0a9cbb150fd32440634d14bde1917c16a76c89e2a453e4e39527",
+      "git_blob_sha": "a6a9b55b526d31a541238335eebbe5985353fea6"
+    },
+    {
+      "file": "major-arcana/fonts/OFL.txt",
+      "size_bytes": 4452,
+      "sha256": "2a3ca501fc4d5efcad9798531e3e06962b1e20c60e464f6cbd6c17630112c773",
+      "git_blob_sha": "68632c17836e943c708fa94b0ac067265867d1bf"
+    },
+    {
+      "file": "major-arcana/print-A4.pdf",
+      "size_bytes": 14252201,
+      "sha256": "aec49a7340d54806d6bce55e7eac96e44434d2c2d557ff1dd6f0ef495f672fda",
+      "git_blob_sha": "b5b1cb3066e0f678db43abc721dea4871acefcf7"
+    },
+    {
+      "file": "major-arcana/print-US-letter.pdf",
+      "size_bytes": 14252095,
+      "sha256": "0f5d0a1c408d6361d1aed8083281214c233f45732dfd57d841cb3a41ef4c739b",
+      "git_blob_sha": "de92a2b51e0c94c4b2858003d5b9561e4f243db4"
+    },
+    {
+      "file": "major-arcana/prompts/15-the-devil.txt",
+      "size_bytes": 2545,
+      "sha256": "0613d4784ca17d55acde2ea87ca82208f03f06253d679494c261323d7608f82d",
+      "git_blob_sha": "036cb225d04bd486f410f55d31547184812a74fb"
+    },
+    {
+      "file": "major-arcana/prompts/16-the-tower.txt",
+      "size_bytes": 2441,
+      "sha256": "6e67742a652666022f4874337ee20e72c1c91bdcc456ec29e3f4c6150a95f17d",
+      "git_blob_sha": "3b5bead9bf6a13aaaf8fb35089fd1b209d037a57"
+    },
+    {
+      "file": "major-arcana/prompts/17-the-star.txt",
+      "size_bytes": 2366,
+      "sha256": "a3a6a010756e3e1805eaea9701c644dbbe3c3b817383d04678c54e1acc70a043",
+      "git_blob_sha": "2f4131d73157eec6ad274478685165b5946accdb"
+    },
+    {
+      "file": "major-arcana/prompts/19-the-sun.txt",
+      "size_bytes": 2406,
+      "sha256": "020edeed2b9947cd8760ca1fd4b595bd6af305c88a594c0e412ec34a26898671",
+      "git_blob_sha": "8dc1fff7f2a8c9567a9ca0979c4b6052fcc486a8"
+    },
+    {
+      "file": "major-arcana/reading-key.pdf",
+      "size_bytes": 105154,
+      "sha256": "9ab6e96584541ab7601a9a357a1998aca357e1ddde39cbf583d66b972949db58",
+      "git_blob_sha": "99a16c096b65059d505aa52732d96a667841162e"
+    },
+    {
+      "file": "major-arcana/red-check.json",
+      "size_bytes": 28515,
+      "sha256": "0ef0a8202f7c5fa6975c938dd04788d07a074c0af52eb3a5050006459962c67d",
+      "git_blob_sha": "870fe9703fa408bb8b357541ea92f3cbfd90d9a4"
+    },
+    {
+      "file": "major-arcana/repository-sources.json",
+      "size_bytes": 5616,
+      "sha256": "2983a9145a4dc50ed967f0e4370e79fc92cc58ca9a37c90784f4527ccc34f6ae",
+      "git_blob_sha": "3b29d452ae18937dfad4bb411336c135fc61ed5c"
+    },
+    {
+      "file": "major-arcana/tarot-of-intervals.pdf",
+      "size_bytes": 14264438,
+      "sha256": "5ae38f1ea5adbfedd684917a63d4a6dc1d6f26735227c1dca3be68f8ae029738",
+      "git_blob_sha": "1755bbac5b6ee505e93c5c571a5bae6d5ead4d01"
+    },
+    {
+      "file": "swords/CORRECTIONS-03-05.txt",
+      "size_bytes": 850,
+      "sha256": "057576aadcc6668d3992364c38986a5fb5090366808d876b205ba440d83f0eaf",
+      "git_blob_sha": "369072fe396b1dd6cf9318fbfee309c384163bed"
+    },
+    {
+      "file": "swords/README.txt",
+      "size_bytes": 1522,
+      "sha256": "55595a8149cd16b523c89253356b2c5b08059412f9dc3ddc8b6c26af9bdb574f",
+      "git_blob_sha": "61de47aa08f29325771ee0b3a63ef4bab79e7163"
+    },
+    {
+      "file": "swords/art/01-ace-of-swords-v01.png",
+      "size_bytes": 1530927,
+      "sha256": "b96e99955236104513353f35d641ad49b6249825848720303b9a87e762ee0c01",
+      "git_blob_sha": "37f0f41a572cf315fa7c160686694553f7bf8344"
+    },
+    {
+      "file": "swords/art/02-two-of-swords-v01.png",
+      "size_bytes": 2235634,
+      "sha256": "f558e70b06aa679817d9fe9442e94bee95bdb921ff63b27c61dff056155691a3",
+      "git_blob_sha": "dff5d29c2c091c98f363af8b7a2717aeac44de10"
+    },
+    {
+      "file": "swords/art/03-three-of-swords-v03.png",
+      "size_bytes": 2105454,
+      "sha256": "02a53f7e299318208b40825ece51519445a206bdb802e8e011e86b42acb3ebab",
+      "git_blob_sha": "e8647250bc4337cae495105b75daf48d627828a7"
+    },
+    {
+      "file": "swords/art/04-four-of-swords-v01.png",
+      "size_bytes": 1810083,
+      "sha256": "10333872778884add95bfa8782e26070377e4883248b54e7ac99f214b29b394a",
+      "git_blob_sha": "e25e23ded1e232462a75cd720db9f173d4c61e4b"
+    },
+    {
+      "file": "swords/art/05-five-of-swords-v02.png",
+      "size_bytes": 2463966,
+      "sha256": "8a97b6a6a406bb9772f2564b21beb0a1fdc07b7a9dc9d19759cdeeb9cbd3fcb4",
+      "git_blob_sha": "fb982a8499e6f46527be8ddc0dd3428d9c674ab6"
+    },
+    {
+      "file": "swords/art/06-six-of-swords-v02.png",
+      "size_bytes": 2163438,
+      "sha256": "1158f1c50191835167152ae1ac788abe2d1dcf95f6c887a7465b6d445843c80a",
+      "git_blob_sha": "a179dac03336e32833c48374bbae4385c345af47"
+    },
+    {
+      "file": "swords/art/07-seven-of-swords-v02.png",
+      "size_bytes": 2193243,
+      "sha256": "89cd461a15804dfef163ea8bb9f60b5c1c282da0e62e181b5cea724e889888a5",
+      "git_blob_sha": "03f01eb6228c438b79903deb3b667845f704fff5"
+    },
+    {
+      "file": "swords/art/08-eight-of-swords-v01.png",
+      "size_bytes": 2040815,
+      "sha256": "15c183c6439fbe7bd63c7a491fe8a923cf7c2e1be84d4eb10ecc995091a85b73",
+      "git_blob_sha": "03371f6f959c339e1e496aa6380d3fce510060b3"
+    },
+    {
+      "file": "swords/art/09-nine-of-swords-v02.png",
+      "size_bytes": 2290235,
+      "sha256": "697c942e9f8aaba24143ef512b3a7b0b6001baf9f1200a6ce3e2eed009457a4d",
+      "git_blob_sha": "21796fa08032a959b2e1061fb74aad2bf207560a"
+    },
+    {
+      "file": "swords/art/10-ten-of-swords-v03.png",
+      "size_bytes": 2173992,
+      "sha256": "db9bdf59b446b9b6b5f832558cd4b1c2cd82e4ce4b306d090a01a8ffc54369c4",
+      "git_blob_sha": "0ebd98d418a784f1f3e96e2ce89f2866949175e5"
+    },
+    {
+      "file": "swords/art/11-page-of-swords-v01.png",
+      "size_bytes": 2013227,
+      "sha256": "db7d8880b253644de60cc5cbb9cb49ae72f4716f113307f27874b93139f5f4aa",
+      "git_blob_sha": "425ab7d67f67629c8f7d62a587430041bf5ef148"
+    },
+    {
+      "file": "swords/art/12-knight-of-swords-v01.png",
+      "size_bytes": 2600097,
+      "sha256": "43d38454c6db56e47e2fcc6ab420fc0ce9d8ca59daa12e69fadfd4c809bf341a",
+      "git_blob_sha": "c604b899850541ffb2f31cff7e5741f70dbf3e73"
+    },
+    {
+      "file": "swords/art/13-queen-of-swords-v01.png",
+      "size_bytes": 2376718,
+      "sha256": "87357d18c8e01d4101f4eb847d866202a4caedb40932f6bd612c43fb197d6c2b",
+      "git_blob_sha": "112320b78e715228b05841890f58aadbe5a3f6ff"
+    },
+    {
+      "file": "swords/art/14-king-of-swords-v01.png",
+      "size_bytes": 2348892,
+      "sha256": "57143cd121f5406604d6add6f18fac750b5408c8cd3a4f243c1316a6d4379e4f",
+      "git_blob_sha": "5737757fdef0b5c4bd5c1a53dcbcd3995cc2080f"
+    },
+    {
+      "file": "swords/attempts/03-three-of-swords-v01.png",
+      "size_bytes": 2115397,
+      "sha256": "c7113d4c384e682f5a42a431f18d8d166eac64764cac027f26a8101656a78079",
+      "git_blob_sha": "e6bec45919d48e8a00f78cebdfc173841f360bbf"
+    },
+    {
+      "file": "swords/attempts/03-three-of-swords-v02.png",
+      "size_bytes": 2075894,
+      "sha256": "edb4bf410aff5509e051ddf1361dc87a87905e77a91d1447e3982f9a0c639ce8",
+      "git_blob_sha": "efc231af83e4587a0b1790550316d7a9757f576a"
+    },
+    {
+      "file": "swords/attempts/05-five-of-swords-v01.png",
+      "size_bytes": 2433578,
+      "sha256": "9595b80c311de60535e36b81c2215e4136885cbec3c7a314815fb96c68123e3c",
+      "git_blob_sha": "ee0b94623b38cd54ba4b61c022c451cd4637bf3f"
+    },
+    {
+      "file": "swords/attempts/06-six-of-swords-v01.png",
+      "size_bytes": 2011445,
+      "sha256": "00ce86b899e850192bb95fff659f3e61d9b14721268e12f2077249610366ff85",
+      "git_blob_sha": "f1f449b833f6bd18462c833343ffefdf0d5035d0"
+    },
+    {
+      "file": "swords/attempts/07-seven-of-swords-v01.png",
+      "size_bytes": 2225331,
+      "sha256": "b35f231f9e85b226c1f80b5f76244e046464251aa10cc0b3900eb38276dc183d",
+      "git_blob_sha": "a0581df4966f75d702794b5c696e567efd278024"
+    },
+    {
+      "file": "swords/attempts/09-nine-of-swords-v01.png",
+      "size_bytes": 2265798,
+      "sha256": "723a67e5438c52ce43a4da0305f8943062cda622d683cfdc2a357d622145def0",
+      "git_blob_sha": "8015d65cd59f10749f954f52aaa562f981912c8c"
+    },
+    {
+      "file": "swords/attempts/10-ten-of-swords-v01.png",
+      "size_bytes": 2135623,
+      "sha256": "281650a4eb54d3512eb68736cabf684a38007d756d46d3e89949ebc109dbd07b",
+      "git_blob_sha": "8016b4ed0cc6ae9d06c0097f93245b69fffc74fe"
+    },
+    {
+      "file": "swords/attempts/10-ten-of-swords-v02.png",
+      "size_bytes": 2227894,
+      "sha256": "7d3d9a3e4b345e3f72658930f8b6fb025dedaddb7419e3c66c2f1253cf95245f",
+      "git_blob_sha": "6d198d4a8bf1501bcbc291bd6ee9db3f7b6880cc"
+    },
+    {
+      "file": "swords/cards/01-ace-of-swords.png",
+      "size_bytes": 699531,
+      "sha256": "68f0d739ce9b5327399aa3971e5d6eb81eba263df2c6189808c47f3533a9ba79",
+      "git_blob_sha": "cce1ff1734c546ae6751fe872ae5d91e398f2711"
+    },
+    {
+      "file": "swords/cards/02-two-of-swords.png",
+      "size_bytes": 968748,
+      "sha256": "5baad32d37ff4ef62911d0d0aa55b4fb5d4661f8e5cdafbed5f781594dfc896a",
+      "git_blob_sha": "2d79bfe6c4abfe26615084d423d64c088dddaaeb"
+    },
+    {
+      "file": "swords/cards/03-three-of-swords.png",
+      "size_bytes": 926977,
+      "sha256": "461e035e7ec07df072604e45815a583f31401b646f7868f5514a1706e315aeec",
+      "git_blob_sha": "7b87fd9ae1436f5fc5fd467026c7953140f5dfdc"
+    },
+    {
+      "file": "swords/cards/04-four-of-swords.png",
+      "size_bytes": 778043,
+      "sha256": "45b7d84f8896d7c098ce8ddcd68d2c593d5d6b6244292593e6d96a7cae5a9f1c",
+      "git_blob_sha": "a37c1199af155ab2dc28ab72c00ff4034330d71a"
+    },
+    {
+      "file": "swords/cards/05-five-of-swords.png",
+      "size_bytes": 1102751,
+      "sha256": "512d371b7ccf39bea4ee333b05c21065b687e6a5c218f8a8b48532e353b41a1c",
+      "git_blob_sha": "329483010cc476fd5ac73dca7d49eaa365d38c35"
+    },
+    {
+      "file": "swords/cards/06-six-of-swords.png",
+      "size_bytes": 927218,
+      "sha256": "4b54286aa7de5fab76e25ce3e5531ce6321fa339b392884676f23fc65ef2f78d",
+      "git_blob_sha": "0d0060337d88e4b72ce776237eeb3a5cb6c0cdd5"
+    },
+    {
+      "file": "swords/cards/07-seven-of-swords.png",
+      "size_bytes": 1006064,
+      "sha256": "cb6404d484189b8f3eb81b5cfbde3f1d236a1c86cb1096cb56fed1cfc8294a6c",
+      "git_blob_sha": "c7842cdc1d7885baffe0367a31ad00ee6b25178d"
+    },
+    {
+      "file": "swords/cards/08-eight-of-swords.png",
+      "size_bytes": 961112,
+      "sha256": "41c0b1855eebd1e48ddc980bbfc18529eaa24e7c9cc14b0b8359d1bc1e2aaa9e",
+      "git_blob_sha": "9adc235cfc79cb187166f7a32f9463ad4bb514f1"
+    },
+    {
+      "file": "swords/cards/09-nine-of-swords.png",
+      "size_bytes": 1007563,
+      "sha256": "52e1128c1ffdd609a5458fd8a978efcbc166bda4d11a1384688009cac90f8d2a",
+      "git_blob_sha": "e63a657050e5c45f63009f67c02d7cf9f8342240"
+    },
+    {
+      "file": "swords/cards/10-ten-of-swords.png",
+      "size_bytes": 966354,
+      "sha256": "52d4f891cbbebdc7f23bd31b738ac57ad6a35443accf13c90465382fce9b49fb",
+      "git_blob_sha": "4d677845a5893b555b573213d03fe31934866885"
+    },
+    {
+      "file": "swords/cards/11-page-of-swords.png",
+      "size_bytes": 875178,
+      "sha256": "dc7eaa8a525237ecf21f5022093fa42b900eeaa4926eef34afe975788b5ce629",
+      "git_blob_sha": "45cb3fee411f959f3c19444b285b3754befe4fdf"
+    },
+    {
+      "file": "swords/cards/12-knight-of-swords.png",
+      "size_bytes": 1078993,
+      "sha256": "9226a0ef70ef8c422b106db12118009dbf4e5c2810cfe780ed6c2b30371a6241",
+      "git_blob_sha": "d40ad283d9f3f8d390e485ab06095c8b25df56bc"
+    },
+    {
+      "file": "swords/cards/13-queen-of-swords.png",
+      "size_bytes": 1032089,
+      "sha256": "14002284d5bc51c1f5513f0d4a3c874eb495e3fff58ed3cd415c6703ecd27191",
+      "git_blob_sha": "9094f537b1f616f3166aa61e0c958585f7c0bdcb"
+    },
+    {
+      "file": "swords/cards/14-king-of-swords.png",
+      "size_bytes": 1033459,
+      "sha256": "40525dd5b7be902f1cd9d0b3e1c32377b8d0ed24947e725295ab3a83d858bebf",
+      "git_blob_sha": "bf3a658a1ade681b693ef047de19e971964fcd75"
+    },
+    {
+      "file": "swords/cards/card-back.png",
+      "size_bytes": 70190,
+      "sha256": "67fc03c6ea8ce62dd2a994378cc262243128037ef166ff10ffdb29b77f0bd4c7",
+      "git_blob_sha": "db702405b8ebe48caf0035523f9fc178fbb85d88"
+    },
+    {
+      "file": "swords/contact-sheet.png",
+      "size_bytes": 1243441,
+      "sha256": "4d0c302e0459f233fee045e52872969e8b7cab24c3f792afe0efa13039fd7bc1",
+      "git_blob_sha": "60be34cfaab417a1aebc73acc391a6109c61b775"
+    },
+    {
+      "file": "swords/fonts/IMFellEnglish-Regular.ttf",
+      "size_bytes": 194992,
+      "sha256": "fe9705bbde51af802719246d4608d08d37bde956ab99d9a590da996a5221a24c",
+      "git_blob_sha": "275d754ed6be5d26e37c6ccdb4934a0930dcbe3f"
+    },
+    {
+      "file": "swords/fonts/LICENSE-NOTICE.txt",
+      "size_bytes": 249,
+      "sha256": "2b4ec1f3729b0a9cbb150fd32440634d14bde1917c16a76c89e2a453e4e39527",
+      "git_blob_sha": "a6a9b55b526d31a541238335eebbe5985353fea6"
+    },
+    {
+      "file": "swords/fonts/OFL.txt",
+      "size_bytes": 4452,
+      "sha256": "2a3ca501fc4d5efcad9798531e3e06962b1e20c60e464f6cbd6c17630112c773",
+      "git_blob_sha": "68632c17836e943c708fa94b0ac067265867d1bf"
+    },
+    {
+      "file": "swords/guides/three-swords-straight-geometry.png",
+      "size_bytes": 17841,
+      "sha256": "3a306088efb8a0994729cf457dc253c8b14deccd3d701bbe2c672950cafc8c58",
+      "git_blob_sha": "e0da7bfaeb0ba1e46179922f274c5773fbb12cfc"
+    },
+    {
+      "file": "swords/prompts/01-ace-of-swords-v01.txt",
+      "size_bytes": 2125,
+      "sha256": "9e06fb56a81871dfb171b7425f3b48f9fb0685bf38b2c81fc455924ae9c2996d",
+      "git_blob_sha": "a023287b5cff96e23e580ffdee119d7257d05f56"
+    },
+    {
+      "file": "swords/prompts/02-two-of-swords-v01.txt",
+      "size_bytes": 2139,
+      "sha256": "695d44a95248eaca5d08b5d247a61bac45a7d2420561af149f7a5f05f0644c05",
+      "git_blob_sha": "af43d1833d8c731b8a5f3c02a643873f443e1231"
+    },
+    {
+      "file": "swords/prompts/03-three-of-swords-v01.txt",
+      "size_bytes": 2235,
+      "sha256": "0a1eea85913297fbd1f713ef13ed936b4ce68d95eaafc82fb918a8b72767d0b2",
+      "git_blob_sha": "419657538ad6525536497d05401bccf749f8d6fe"
+    },
+    {
+      "file": "swords/prompts/03-three-of-swords-v02.txt",
+      "size_bytes": 1725,
+      "sha256": "ca176ca1d412d6ac5801e394cc0d074fd6bba6d95195445afd76f97bd53f61d8",
+      "git_blob_sha": "3591696f9a9a4e782ad997fda454e01e317d62f8"
+    },
+    {
+      "file": "swords/prompts/03-three-of-swords-v03.txt",
+      "size_bytes": 1918,
+      "sha256": "f7f5ffa9200d10c624bb6271ca97f73f18c3fca1b709aa716a6efeced0575ff9",
+      "git_blob_sha": "36dc31d99e37ec0d8261f042dc9762918e2f6ef5"
+    },
+    {
+      "file": "swords/prompts/04-four-of-swords-v01.txt",
+      "size_bytes": 2224,
+      "sha256": "314304669dee521d8ddd70915c678627c09384ea1be80de1eca2c376d39a5bd2",
+      "git_blob_sha": "f3b12fe8b9fcc52c50ce007f9bdfcb8811a5c436"
+    },
+    {
+      "file": "swords/prompts/05-five-of-swords-v01.txt",
+      "size_bytes": 2282,
+      "sha256": "b74159da1e6792943801c79d6873226df02f3ae3a0b7639bbd9360d350c01590",
+      "git_blob_sha": "5feddbfdad9b5d4c83ed55858039aec08fad0521"
+    },
+    {
+      "file": "swords/prompts/05-five-of-swords-v02.txt",
+      "size_bytes": 1618,
+      "sha256": "f222758ae6e34fdebe57ce6ffe53969fb26f8567adf31a5e1c0ff72dcfa868e0",
+      "git_blob_sha": "58b375e28c30d9cbdb0aeaa3b4a59c44284f31fa"
+    },
+    {
+      "file": "swords/prompts/06-six-of-swords-v01.txt",
+      "size_bytes": 2316,
+      "sha256": "80ff67f10ced55306ae9f05ecf7b232775568a98f545e0cc702e16f4f15bc09d",
+      "git_blob_sha": "f0fcaa9df1be858904fe832f70fdcfd85de4e52e"
+    },
+    {
+      "file": "swords/prompts/06-six-of-swords-v02.txt",
+      "size_bytes": 657,
+      "sha256": "cda01b5f75271c12c0cf01a1573589fe673aa505b66a7024b7b31cdade547c7f",
+      "git_blob_sha": "b90c3e3bfb406dd5dc0041a92ce00a6486b2ac76"
+    },
+    {
+      "file": "swords/prompts/07-seven-of-swords-v01.txt",
+      "size_bytes": 2231,
+      "sha256": "684cd4b008c579bb503ce7270aead688ffbfb681788bf9234f4119ca9c930e50",
+      "git_blob_sha": "74d130dcd7881f73bb0126d74fc869a14e70597e"
+    },
+    {
+      "file": "swords/prompts/07-seven-of-swords-v02.txt",
+      "size_bytes": 836,
+      "sha256": "c1ec70ad7f5826d03d6d0625e7b907c05bd9d18c012e5c1be22c22cb6eeed39e",
+      "git_blob_sha": "fdcdf84a8225aafc2b092d938eb0ad68cadc4187"
+    },
+    {
+      "file": "swords/prompts/08-eight-of-swords-v01.txt",
+      "size_bytes": 2227,
+      "sha256": "1949fe413ae9a48154b231ff2010264d4e48c6dfbc53dbc169358a9d44000eec",
+      "git_blob_sha": "bc11cf3b13ee5163cdad91292f2aee408a120ec7"
+    },
+    {
+      "file": "swords/prompts/09-nine-of-swords-v01.txt",
+      "size_bytes": 2260,
+      "sha256": "e41c22fb73713e823d9f5f78b601956dafbcff4ae8014397426fcd7a69024e45",
+      "git_blob_sha": "4f8857405058baecc89f9264be559be3005fbe15"
+    },
+    {
+      "file": "swords/prompts/09-nine-of-swords-v02.txt",
+      "size_bytes": 798,
+      "sha256": "17a1069d22efabe89db6e72c71d9a8a2b1afec0b58d7d4792d6d40e07b4bb4f0",
+      "git_blob_sha": "5c2c92091cf4db78366ff6b66a9556879ca43908"
+    },
+    {
+      "file": "swords/prompts/10-ten-of-swords-v01.txt",
+      "size_bytes": 2273,
+      "sha256": "f66e54ce8a6d2f8cc33138f46ebb357d273ce89ffc054169f5fc817edba45b6e",
+      "git_blob_sha": "7fed3f0f6a37de9799a1fb324b65a7959b7fc338"
+    },
+    {
+      "file": "swords/prompts/10-ten-of-swords-v02.txt",
+      "size_bytes": 698,
+      "sha256": "e7f5e379dc6d182f1884a9a26b19bc22b419ddf39e89c89ab27ce617dbdc61bf",
+      "git_blob_sha": "b90c0ecd557b5c71b5245c4f9f487daf22219d16"
+    },
+    {
+      "file": "swords/prompts/10-ten-of-swords-v03.txt",
+      "size_bytes": 900,
+      "sha256": "47de4dfac14cffdbefddbd8b34cac8b1f6af1f3937823185b4b5f03d304d3279",
+      "git_blob_sha": "8e3293d1272ee1dabac6620ec40352cdc2f0a0b7"
+    },
+    {
+      "file": "swords/prompts/11-page-of-swords-v01.txt",
+      "size_bytes": 2196,
+      "sha256": "ae21133be622da2a574a9861ca8f6f50a05ac68abee4a4e722c553cdb93fc6a9",
+      "git_blob_sha": "5474ecce6cc3217e73935beb08af73e8ecc6e4b3"
+    },
+    {
+      "file": "swords/prompts/12-knight-of-swords-v01.txt",
+      "size_bytes": 2225,
+      "sha256": "2cc833a26c7aebb7ecca58548c02086dd7f2c9dbe135edfb0840d24ba9a4323d",
+      "git_blob_sha": "507435a2b8ba1b6206672911e4f390d83d65a7eb"
+    },
+    {
+      "file": "swords/prompts/13-queen-of-swords-v01.txt",
+      "size_bytes": 2257,
+      "sha256": "2ba769a3a94a8b022d55706e6d11e57a9cb2f3a263e9807eae62b425f9e8c035",
+      "git_blob_sha": "69fcb407b21f22ab80f980438035f956b2bd1539"
+    },
+    {
+      "file": "swords/prompts/14-king-of-swords-v01.txt",
+      "size_bytes": 2250,
+      "sha256": "43712a951a9a5f918265dde2974aca5e8b37837e9254d2fb974eac31d7b10be7",
+      "git_blob_sha": "5d7454c93f2fc4c82b20ab1a293f71f933b3a8f3"
+    },
+    {
+      "file": "swords/red-check.json",
+      "size_bytes": 28273,
+      "sha256": "a6e5e3346fd68c0a09d92617115b3b32f40c55c2d96c1a448ea6ee6c73468e08",
+      "git_blob_sha": "046c5a42de6870b3040bdb78e8b3efc52fa336b2"
+    },
+    {
+      "file": "swords/red-check.md",
+      "size_bytes": 1272,
+      "sha256": "138ce8b44e2b98857b8963904a8c330442bb4d925c6d1040a1459092e6af923e",
+      "git_blob_sha": "6d1cd3ffa5fd4752324ca165c45e299a07d769ca"
+    },
+    {
+      "file": "swords/swords-print-A4.pdf",
+      "size_bytes": 9493156,
+      "sha256": "e31be3b971ac1fb68916dc03e5328eeed7b7370502f3cbdb0592f0a060d6d978",
+      "git_blob_sha": "99e910aa674f4d46fe71f2ac30cb08a23ce58b3d"
+    },
+    {
+      "file": "swords/swords-print-US-letter.pdf",
+      "size_bytes": 9493082,
+      "sha256": "8dc40cc4c73d2039a30ac1f008237f4c1f36cd1ac5808b05b48fa19cf21c5e45",
+      "git_blob_sha": "499b5369bd41bc35cfab32c3afc395eaae4d6b48"
+    },
+    {
+      "file": "swords/swords-reading-key.pdf",
+      "size_bytes": 98744,
+      "sha256": "2bc9354f319b90b3db450e8a5b35d3fc0d433bda4855facc2de1d7691c02436d",
+      "git_blob_sha": "79a0cef08c3ee2429167ff9684d02bda80d80c69"
+    },
+    {
+      "file": "swords/swords.json",
+      "size_bytes": 157220,
+      "sha256": "528f90a483e7f45d7bfec955f94a375b876e85d50131368c04fb2852971fe280",
+      "git_blob_sha": "a80b23007c682a4cd85057237a832c3581e0fab2"
+    },
+    {
+      "file": "swords/swords.pdf",
+      "size_bytes": 9500443,
+      "sha256": "8bad7f0ecbe1b0093964aa1e31342b32558de6121d69fe6e027df7bd8f840ca0",
+      "git_blob_sha": "1a923e3ed6a9cce11f7e5307d5577a7a552f588c"
+    }
+  ]
+}

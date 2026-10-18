@@ -1,0 +1,366 @@
+{
+  "note": "Legacy export references are historical metadata. Values list current repository paths with the same basename; multiple candidates remain explicit. Original file/blob hashes in migration-source-manifest.json disambiguate versions.",
+  "paths": {
+    "../librum-quinque-raster-batch-05/open-inventory-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/open-inventory-raster-reference-v01.png",
+      "references/raster/batch-05/open-inventory-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-05/open-inventory-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/open-inventory-raster-reference-v01.png",
+      "references/raster/batch-05/open-inventory-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-calibration/foras-raster-reference-v02.png": [
+      "books/06_tarot/major-arcana/art/foras-raster-reference-v02.png"
+    ],
+    "../librum-quinque-raster-calibration/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-calibration/foras-raster-reference-v02.png": [
+      "books/06_tarot/major-arcana/art/foras-raster-reference-v02.png"
+    ],
+    "../librum-quinque-raster-batch-03/redacth-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/redacth-raster-reference-v01.png",
+      "references/raster/batch-03/redacth-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-03/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-03/redacth-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/redacth-raster-reference-v01.png",
+      "references/raster/batch-03/redacth-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/fed-vessel-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/fed-vessel-raster-reference-v01.png",
+      "references/raster/batch-04/fed-vessel-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-04/fed-vessel-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/fed-vessel-raster-reference-v01.png",
+      "references/raster/batch-04/fed-vessel-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/bael-raster-reference-v03.png": [
+      "books/06_tarot/major-arcana/art/bael-raster-reference-v03.png",
+      "references/raster/batch-01/bael-raster-reference-v03.png"
+    ],
+    "../librum-quinque-raster-batch-01/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-01/bael-raster-reference-v03.png": [
+      "books/06_tarot/major-arcana/art/bael-raster-reference-v03.png",
+      "references/raster/batch-01/bael-raster-reference-v03.png"
+    ],
+    "../librum-quinque-raster-batch-02/scriptorax-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/scriptorax-raster-reference-v01.png",
+      "references/raster/batch-02/scriptorax-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-02/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-02/scriptorax-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/scriptorax-raster-reference-v01.png",
+      "references/raster/batch-02/scriptorax-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/hora-and-tempus-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/hora-and-tempus-raster-reference-v01.png",
+      "references/raster/batch-05/hora-and-tempus-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-05/hora-and-tempus-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/hora-and-tempus-raster-reference-v01.png",
+      "references/raster/batch-05/hora-and-tempus-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/orobas-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/orobas-raster-reference-v01.png",
+      "references/raster/batch-01/orobas-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-01/orobas-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/orobas-raster-reference-v01.png",
+      "references/raster/batch-01/orobas-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/figure-beneath-cord-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/figure-beneath-cord-raster-reference-v01.png",
+      "references/raster/batch-06/figure-beneath-cord-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-06/figure-beneath-cord-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/figure-beneath-cord-raster-reference-v01.png",
+      "references/raster/batch-06/figure-beneath-cord-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-07/measurer-of-absences-original-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/measurer-of-absences-original-raster-reference-v01.png",
+      "references/raster/batch-07/measurer-of-absences-original-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-07/figures.json": [
+      "books/00_accusator/assets/figures.json",
+      "books/01_matricis_intervallorum/assets/figures.json",
+      "books/07_septimus/assets/figures.json",
+      "references/raster/batch-01/figures.json",
+      "references/raster/batch-02/figures.json",
+      "references/raster/batch-03/figures.json",
+      "references/raster/batch-04/figures.json",
+      "references/raster/batch-05/figures.json",
+      "references/raster/batch-06/figures.json",
+      "references/raster/batch-07/figures.json"
+    ],
+    "librum-quinque-raster-batch-07/measurer-of-absences-original-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/measurer-of-absences-original-raster-reference-v01.png",
+      "references/raster/batch-07/measurer-of-absences-original-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/keeper-wearing-dial-raster-reference-v02.png": [
+      "books/06_tarot/major-arcana/art/keeper-wearing-dial-raster-reference-v02.png",
+      "references/raster/batch-05/keeper-wearing-dial-raster-reference-v02.png"
+    ],
+    "librum-quinque-raster-batch-05/keeper-wearing-dial-raster-reference-v02.png": [
+      "books/06_tarot/major-arcana/art/keeper-wearing-dial-raster-reference-v02.png",
+      "references/raster/batch-05/keeper-wearing-dial-raster-reference-v02.png"
+    ],
+    "../librum-quinque-raster-batch-02/severion-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/severion-raster-reference-v01.png",
+      "references/raster/batch-02/severion-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-02/severion-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/severion-raster-reference-v01.png",
+      "references/raster/batch-02/severion-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/house-kept-in-abeyance-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/house-kept-in-abeyance-raster-reference-v01.png",
+      "references/raster/batch-05/house-kept-in-abeyance-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-05/house-kept-in-abeyance-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/house-kept-in-abeyance-raster-reference-v01.png",
+      "references/raster/batch-05/house-kept-in-abeyance-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/cut-keeper-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/cut-keeper-raster-reference-v01.png",
+      "references/raster/batch-05/cut-keeper-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-05/cut-keeper-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/cut-keeper-raster-reference-v01.png",
+      "references/raster/batch-05/cut-keeper-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/second-neck-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/second-neck-raster-reference-v01.png",
+      "references/raster/batch-05/second-neck-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-05/second-neck-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/second-neck-raster-reference-v01.png",
+      "references/raster/batch-05/second-neck-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-05/keeper-of-intervals-original-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/keeper-of-intervals-original-raster-reference-v01.png",
+      "references/raster/batch-05/keeper-of-intervals-original-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-05/keeper-of-intervals-original-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/keeper-of-intervals-original-raster-reference-v01.png",
+      "references/raster/batch-05/keeper-of-intervals-original-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-03/choraz-raster-reference-v02.png": [
+      "books/06_tarot/major-arcana/art/choraz-raster-reference-v02.png",
+      "references/raster/batch-03/choraz-raster-reference-v02.png"
+    ],
+    "librum-quinque-raster-batch-03/choraz-raster-reference-v02.png": [
+      "books/06_tarot/major-arcana/art/choraz-raster-reference-v02.png",
+      "references/raster/batch-03/choraz-raster-reference-v02.png"
+    ],
+    "../librum-quinque-raster-batch-07/twin-register-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/twin-register-raster-reference-v01.png",
+      "references/raster/batch-07/twin-register-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-07/twin-register-raster-reference-v01.png": [
+      "books/06_tarot/major-arcana/art/twin-register-raster-reference-v01.png",
+      "references/raster/batch-07/twin-register-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-04/jurisiel-raster-reference-v01.png": [
+      "references/raster/batch-04/jurisiel-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-04/margor-raster-reference-v01.png": [
+      "references/raster/batch-04/margor-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-04/quarteroth-raster-reference-v01.png": [
+      "references/raster/batch-04/quarteroth-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-04/absentiel-raster-reference-v01.png": [
+      "references/raster/batch-04/absentiel-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-04/exceptor-raster-reference-v01.png": [
+      "references/raster/batch-04/exceptor-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-04/posthum-raster-reference-v01.png": [
+      "references/raster/batch-04/posthum-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-06/hooded-manager-01-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-01-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-06/hooded-manager-02-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-02-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-06/hooded-manager-03-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-03-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-06/hooded-manager-04-leaked-tile-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-04-leaked-tile-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-06/shouting-tiers-raster-reference-v01.png": [
+      "references/raster/batch-06/shouting-tiers-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-06/decision-demon-raster-reference-v01.png": [
+      "references/raster/batch-06/decision-demon-raster-reference-v01.png"
+    ],
+    "librum-quinque-raster-batch-07/returning-trace-raster-reference-v01.png": [
+      "references/raster/batch-07/returning-trace-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/vassago-raster-reference-v01.png": [
+      "references/raster/batch-01/vassago-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/gremory-raster-reference-v01.png": [
+      "references/raster/batch-01/gremory-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/bune-raster-reference-v01.png": [
+      "references/raster/batch-01/bune-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/paimon-raster-reference-v01.png": [
+      "references/raster/batch-01/paimon-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-01/repetiel-raster-reference-v01.png": [
+      "references/raster/batch-01/repetiel-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-02/solaciel-raster-reference-v01.png": [
+      "references/raster/batch-02/solaciel-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-02/novaroth-raster-reference-v01.png": [
+      "references/raster/batch-02/novaroth-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-02/culpax-raster-reference-v01.png": [
+      "references/raster/batch-02/culpax-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-02/instantor-raster-reference-v01.png": [
+      "references/raster/batch-02/instantor-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-02/calmor-raster-reference-v01.png": [
+      "references/raster/batch-02/calmor-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-03/probator-raster-reference-v03.png": [
+      "references/raster/batch-03/probator-raster-reference-v03.png"
+    ],
+    "../librum-quinque-raster-batch-03/promissor-raster-reference-v01.png": [
+      "references/raster/batch-03/promissor-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-03/consenth-raster-reference-v01.png": [
+      "references/raster/batch-03/consenth-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-03/viridon-raster-reference-v01.png": [
+      "references/raster/batch-03/viridon-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-03/velaroth-raster-reference-v01.png": [
+      "references/raster/batch-03/velaroth-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/jurisiel-raster-reference-v01.png": [
+      "references/raster/batch-04/jurisiel-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/margor-raster-reference-v01.png": [
+      "references/raster/batch-04/margor-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/quarteroth-raster-reference-v01.png": [
+      "references/raster/batch-04/quarteroth-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/absentiel-raster-reference-v01.png": [
+      "references/raster/batch-04/absentiel-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/exceptor-raster-reference-v01.png": [
+      "references/raster/batch-04/exceptor-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-04/posthum-raster-reference-v01.png": [
+      "references/raster/batch-04/posthum-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/hooded-manager-01-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-01-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/hooded-manager-02-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-02-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/hooded-manager-03-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-03-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/hooded-manager-04-leaked-tile-raster-reference-v01.png": [
+      "references/raster/batch-06/hooded-manager-04-leaked-tile-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/shouting-tiers-raster-reference-v01.png": [
+      "references/raster/batch-06/shouting-tiers-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-06/decision-demon-raster-reference-v01.png": [
+      "references/raster/batch-06/decision-demon-raster-reference-v01.png"
+    ],
+    "../librum-quinque-raster-batch-07/returning-trace-raster-reference-v01.png": [
+      "references/raster/batch-07/returning-trace-raster-reference-v01.png"
+    ]
+  }
+}

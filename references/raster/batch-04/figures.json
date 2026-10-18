@@ -1,0 +1,625 @@
+{
+  "project": "Librum Quinque",
+  "batch": 4,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting batch review",
+  "figures": [
+    {
+      "index": 1,
+      "subject": "JURISIEL",
+      "office": "Service Portfolio Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "34",
+        "source": 3,
+        "target": 4,
+        "name": "JURISIEL",
+        "office": "Service Portfolio Manager",
+        "legions": 22,
+        "appearance": "A door carried sideways through another door.",
+        "powers": "She decideth which description of the service owns the broken thing.",
+        "binding": "A signed scope statement from the owner whose identity is disputed.",
+        "seal": "A red boundary opening onto a jurisdiction entered elsewhere.",
+        "actual_effect": "Routed a physical failure between service definitions until neither queue retained it.",
+        "mark": 12
+      },
+      "source_path": "books/03_escalationum/manuscript/catalogue.json",
+      "source_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — JURISIEL — Service Portfolio Manager. ONE upright DOOR FRAME with a SECOND DOOR PANEL being carried SIDEWAYS THROUGH its opening. The second panel's long axis runs horizontally, its plane tilted slightly in space so it is visibly partway through the standing door, supported by fine articulated braces belonging to the door structures themselves. No carrier or person. Two distinct doors, not three, no surrounding wall. Fine cellular-lattice jambs and panel filigree, little slate/ochre in a few inset cells, cream voids, black terminal-dot hanging lines below frame and braces. The red seal is mounted visibly on the upright frame: ONE RED BOUNDARY interrupted by an OPEN SIDE, with a short red return that opens into a small BLACK side-entry passage situated away from the main opening. Seal represents a boundary opening onto jurisdiction entered elsewhere, one connected red intervention, not extra page border. Keep whole assembly compact, tall portrait PNG 2:3.\nCanonical appearance (never print): A door carried sideways through another door.\nCanonical seal (never print): A red boundary opening onto a jurisdiction entered elsewhere.\nActual effect (conceptual guidance only, never print): Routed a physical failure between service definitions until neither queue retained it.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "2:3",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "jurisiel-raster-reference-v01.png",
+      "qa_notes": "Upright door frame with second panel sideways through opening; one red open boundary mark at side.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "a251a194a061922d2abc500c1a01ad1bf05f5a46953815ff7624454e3073484f",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/jurisiel-raster-reference-v01.png",
+        "sha256": "a251a194a061922d2abc500c1a01ad1bf05f5a46953815ff7624454e3073484f",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1855,
+        "eroded_core_pixels": 1300,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          157.0,
+          31.0,
+          25.0
+        ],
+        "median_red_hex_rounded": "#9d1f19",
+        "modal_red_hex": "#981d19",
+        "modal_frequency": 10,
+        "unique_sample_colours": 773,
+        "nearest_candidate_hex": "#a12d24",
+        "median_max_channel_error": 12.0,
+        "p95_max_channel_error": 21.0,
+        "sample_fraction_within_5_per_channel": 0.0015384615384615385,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 2,
+      "subject": "MARGOR",
+      "office": "Commercial Operations Director",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "35",
+        "source": 3,
+        "target": 5,
+        "name": "MARGOR",
+        "office": "Commercial Operations Director",
+        "legions": 30,
+        "appearance": "A purse drawn on the outside of a sealed purse.",
+        "powers": "He authorizeth expenditure only after somebody else hath accepted its cost.",
+        "binding": "Two cost centres agreeing to own one expense.",
+        "seal": "A red crossing: two cost centres must meet before the act.",
+        "actual_effect": "Held the replacement part while departments disputed the charge.",
+        "mark": 5
+      },
+      "source_path": "books/03_escalationum/manuscript/catalogue.json",
+      "source_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — MARGOR — Commercial Operations Director. ONE SEALED PURSE with the LINE DRAWING OF ANOTHER PURSE ON ITS OUTSIDE. A tall soft drawstring purse completely cinched and visibly sealed at its mouth with BLACK cord, no opening or contents visible. Do not show two actual bags. Its cream fabric has cellular-lattice side panels and dense ornamental seams; sparse slate and ochre cells, drop-lines ending in black dots from lower folds. The exterior bears a simple near-black outlined purse pictogram, clean and unlettered. Within that exterior pictogram it carries its seal: ONE RED CROSSING, two intersecting fine strokes at a single site, no circle or additional red. Entire purse including cords visible, no hands, merchant, coins, desk or background. Portrait PNG 2:3.\nCanonical appearance (never print): A purse drawn on the outside of a sealed purse.\nCanonical seal (never print): A red crossing: two cost centres must meet before the act.\nActual effect (conceptual guidance only, never print): Held the replacement part while departments disputed the charge.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "2:3",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "margor-raster-reference-v01.png",
+      "qa_notes": "One sealed purse, exterior near-black purse drawing, red crossing on that drawing.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "af8dc4129bbb5e28007600eb8dac39634472abd8482b2e81d6f9d50668f304e6",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/margor-raster-reference-v01.png",
+        "sha256": "af8dc4129bbb5e28007600eb8dac39634472abd8482b2e81d6f9d50668f304e6",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1101,
+        "eroded_core_pixels": 622,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          150.0,
+          38.0,
+          32.0
+        ],
+        "median_red_hex_rounded": "#962620",
+        "modal_red_hex": "#952620",
+        "modal_frequency": 5,
+        "unique_sample_colours": 472,
+        "nearest_candidate_hex": "#a12c25",
+        "median_max_channel_error": 13.0,
+        "p95_max_channel_error": 23.0,
+        "sample_fraction_within_5_per_channel": 0.06591639871382636,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 3,
+      "subject": "QUARTEROTH",
+      "office": "Strategic Accounts Director",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "36",
+        "source": 3,
+        "target": 6,
+        "name": "QUARTEROTH",
+        "office": "Strategic Accounts Director",
+        "legions": 4,
+        "appearance": "Four clocks, each set to the last day of a different quarter.",
+        "powers": "She moveth a consequence into the period in which it is least visible.",
+        "binding": "The reporting calendar and a forecast declared final.",
+        "seal": "A red displaced return, placing the event in another period.",
+        "actual_effect": "Deferred the intervention until after the measurement window; the customer waited in ordinary time.",
+        "mark": 7
+      },
+      "source_path": "books/03_escalationum/manuscript/catalogue.json",
+      "source_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — QUARTEROTH — Strategic Accounts Director. Exactly FOUR CLOCKS joined into ONE tall articulated lattice device, arranged as TWO DISTINCT CLOCK FACES ABOVE TWO DISTINCT CLOCK FACES. Four clearly separate unnumbered faces in total, each with two BLACK hands at a different orientation. No fifth central clock, no date wheels, labels, numbers or written quarterly dates; the four periods are differentiated by the hand orientations only. Sparse slate and ochre in four cellular rims and a shared branching stem; fine terminal-dot black drop-lines. A small cream seal mounted on the central connector, separate from the four clock faces: ONE RED DISPLACED RETURN, a red curving route returning near its departure but ending visibly OFFSET from it. No red clock hand or red anywhere else. Whole device fully visible on cream, no person. Portrait PNG 2:3.\nCanonical appearance (never print): Four clocks, each set to the last day of a different quarter.\nCanonical seal (never print): A red displaced return, placing the event in another period.\nActual effect (conceptual guidance only, never print): Deferred the intervention until after the measurement window; the customer waited in ordinary time.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "2:3",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "quarteroth-raster-reference-v01.png",
+      "qa_notes": "Exactly four unnumbered clock faces, distinct black hand orientations; separate red displaced-return seal. Quarter-end dates are not literally written.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "a3aacc9ff269cb16888e8512d17ff92bd3400bdb57c48ca50f239db00290cb84",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/quarteroth-raster-reference-v01.png",
+        "sha256": "a3aacc9ff269cb16888e8512d17ff92bd3400bdb57c48ca50f239db00290cb84",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1034,
+        "eroded_core_pixels": 503,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          160.0,
+          34.0,
+          29.0
+        ],
+        "median_red_hex_rounded": "#a0221d",
+        "modal_red_hex": "#a2231e",
+        "modal_frequency": 4,
+        "unique_sample_colours": 453,
+        "nearest_candidate_hex": "#a32a23",
+        "median_max_channel_error": 9.0,
+        "p95_max_channel_error": 20.0,
+        "sample_fraction_within_5_per_channel": 0.11332007952286283,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 4,
+      "subject": "ABSENTIEL",
+      "office": "Business Continuity Director",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "45",
+        "source": 4,
+        "target": 5,
+        "name": "ABSENTIEL",
+        "office": "Business Continuity Director",
+        "legions": 12,
+        "appearance": "A row of spare keys cut from the same sheet of paper.",
+        "powers": "He promiseth several alternatives, all dependent on the office being bypassed.",
+        "binding": "A waiver approved by the authority named in the waiver.",
+        "seal": "A red added branch that still begins on the retained route.",
+        "actual_effect": "Presented five dependent routes as five independent safeguards.",
+        "mark": 8
+      },
+      "source_path": "books/03_escalationum/manuscript/catalogue.json",
+      "source_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — ABSENTIEL — Business Continuity Director. ONE SINGLE CREAM PAPER SHEET cut into a ROW OF EXACTLY FIVE LONG PAPER KEYS. All five key bows remain attached to the SAME uncut horizontal paper header, visibly sharing one fragile support; five narrow key shafts hang straight down, five differently cut sets of teeth, no metal keys, no keyring, no sixth key. Paper is flat cream with engraved fold edges and fine cellular fibres along common header and some key bow edges, sparse slate/ochre seams. Black terminal-dot hanging lines beneath tips, no real shadows. The seal is carried visibly on the common paper header: a BLACK retained horizontal route with ONE RED ADDED BRANCH that clearly begins ON that same retained route and forks away. A single red branching intervention, no other red. No lettering, holes resembling numerals, hand or locksmith scene. Portrait PNG 2:3, full sheet and key row visible.\nCanonical appearance (never print): A row of spare keys cut from the same sheet of paper.\nCanonical seal (never print): A red added branch that still begins on the retained route.\nActual effect (conceptual guidance only, never print): Presented five dependent routes as five independent safeguards.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "2:3",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "absentiel-raster-reference-v01.png",
+      "qa_notes": "Exactly five key shapes sharing one header, red branch starts from common route. Render has a sculptural lattice appearance rather than plainly flat paper.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "d1853119d67fca20b47cffbe3345760c28e3cf4b0041cb43e34d2567c0d13071",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/absentiel-raster-reference-v01.png",
+        "sha256": "d1853119d67fca20b47cffbe3345760c28e3cf4b0041cb43e34d2567c0d13071",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 915,
+        "eroded_core_pixels": 203,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          189.0,
+          27.0,
+          18.0
+        ],
+        "median_red_hex_rounded": "#bd1b12",
+        "modal_red_hex": "#631413",
+        "modal_frequency": 1,
+        "unique_sample_colours": 203,
+        "nearest_candidate_hex": "#9e2c28",
+        "median_max_channel_error": 33.0,
+        "p95_max_channel_error": 49.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 5,
+      "subject": "EXCEPTOR",
+      "office": "Policy Exception Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "46",
+        "source": 4,
+        "target": 6,
+        "name": "EXCEPTOR",
+        "office": "Policy Exception Manager",
+        "legions": 1,
+        "appearance": "A stamp reading APPROVED upon a form asking for a stamp.",
+        "powers": "She referreth an exception to the person whose absence made it necessary.",
+        "binding": "Prior authorization to seek emergency authorization.",
+        "seal": "A red return loop seeking permission at the place it left.",
+        "actual_effect": "Made the emergency route wait for the same unavailable executive.",
+        "mark": 6
+      },
+      "source_path": "books/03_escalationum/manuscript/catalogue.json",
+      "source_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — EXCEPTOR — Policy Exception Manager. ONE RUBBER-STAMP DEVICE standing above a FORM THAT ASKS FOR A STAMP, arranged as a complete self-contained body: narrow ornate lattice stamp handle, broad rectangular stamping foot hovering just above one blank folded form. The canonical stamp says APPROVED, but NO WORDS OR LETTERS here: the stamp face and the paper are blank except its geometric seal. Stamp and form linked by a fine black return mechanism bending up toward the stamp, not a second stamp. Fine near-black engraved line, sparse slate and ochre cells, black dot-terminal drop-lines from handle and paper folds. The ONE RED INTERVENTION is a small OPEN RETURN LOOP on the form, a red circular route with an unjoined gap, returning to the same place it left. Do not add red approved text, red pad or a second red impression. No hand, face, desk or room. Portrait PNG 2:3, entire object centred.\nCanonical appearance (never print): A stamp reading APPROVED upon a form asking for a stamp.\nCanonical seal (never print): A red return loop seeking permission at the place it left.\nActual effect (conceptual guidance only, never print): Made the emergency route wait for the same unavailable executive.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "2:3",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "exceptor-raster-reference-v01.png",
+      "qa_notes": "One stamp over blank form, one red open return loop. No APPROVED lettering; generated loop has two small gaps.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "f6905af40e1ff79ab4c96d9b1b4267ad9eab0ec141e53f748248b23ff302ebb9",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/exceptor-raster-reference-v01.png",
+        "sha256": "f6905af40e1ff79ab4c96d9b1b4267ad9eab0ec141e53f748248b23ff302ebb9",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2602,
+        "eroded_core_pixels": 1625,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          157.0,
+          31.0,
+          30.0
+        ],
+        "median_red_hex_rounded": "#9d1f1e",
+        "modal_red_hex": "#a7201f",
+        "modal_frequency": 7,
+        "unique_sample_colours": 1174,
+        "nearest_candidate_hex": "#a52924",
+        "median_max_channel_error": 13.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.020923076923076923,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 6,
+      "subject": "POSTHUM",
+      "office": "Chief of Staff",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "56",
+        "source": 5,
+        "target": 6,
+        "name": "POSTHUM",
+        "office": "Chief of Staff",
+        "legions": 6,
+        "appearance": "A small chair wheeled in after the meeting hath ended.",
+        "powers": "He discovereth approval in an earlier silence once the outcome is known.",
+        "binding": "Minutes circulated without objection after the deadline.",
+        "seal": "A red substituted branch; the former account is crossed out.",
+        "actual_effect": "Recorded retrospective support for the repair and prospective blame for its lateness.",
+        "mark": 9
+      },
+      "source_path": "books/03_escalationum/manuscript/catalogue.json",
+      "source_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — POSTHUM — Chief of Staff. ONE SMALL EMPTY CHAIR ON WHEELS, a late-arriving meeting chair whose seat is clearly vacant. Slender four-legged frame with small caster wheels attached to its legs, narrow lower back rather than Bael's high throne, fine cellular-lattice upholstery and cream voids, a few slate and ochre inset cells, black terminal-dot drop-lines. No occupant, face, shadow person, conference table or meeting room. A folded completely BLANK minute sheet draped over the back, visibly an attribute of the chair. The seal carried on this sheet: ONE RED SUBSTITUTED BRANCH placed above an OLD BLACK ACCOUNT route which is crossed out by a BLACK stroke. Only the new branch red, no other red. No text, date, numerals, seal lettering or written minutes. Entire chair and wheels visible, generous cream margins. Portrait PNG 2:3.\nCanonical appearance (never print): A small chair wheeled in after the meeting hath ended.\nCanonical seal (never print): A red substituted branch; the former account is crossed out.\nActual effect (conceptual guidance only, never print): Recorded retrospective support for the repair and prospective blame for its lateness.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "2:3",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "posthum-raster-reference-v01.png",
+      "qa_notes": "Empty chair on four visible caster assemblies; blank minute sheet bears red substituted branch above crossed-out black account.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ebdb1e187d2775980eeb3b92d8b74b660e53a7d3e287be2b4c3aea84eb78baa9",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/posthum-raster-reference-v01.png",
+        "sha256": "ebdb1e187d2775980eeb3b92d8b74b660e53a7d3e287be2b4c3aea84eb78baa9",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1452,
+        "eroded_core_pixels": 740,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 1,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          149.0,
+          30.0,
+          26.0
+        ],
+        "median_red_hex_rounded": "#951e1a",
+        "modal_red_hex": "#8d1613",
+        "modal_frequency": 4,
+        "unique_sample_colours": 614,
+        "nearest_candidate_hex": "#a32b24",
+        "median_max_channel_error": 15.0,
+        "p95_max_channel_error": 25.0,
+        "sample_fraction_within_5_per_channel": 0.05810810810810811,
+        "sample_fraction_exact_target": 0.0013513513513513514,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 7,
+      "subject": "THE FED VESSEL",
+      "office": null,
+      "book": "Clavicula Intervallorum",
+      "plate": "III — Of the Fed Vessel",
+      "source": {
+        "number": 3,
+        "title": "Of the Fed Vessel",
+        "deck": "Dormancy has a body, a reserve, and a return condition.",
+        "fiction": "The jar was sealed against the winter. Every seventh day someone warmed the room in which it stood. The account recorded that the jar had required nothing.",
+        "caption": "A conceptual reserve vessel with three leaks and a separate restart threshold. Internal reserves and external shelter are different supports. The curves below are illustrative quantities with arbitrary units, generated from declared equations rather than measured organisms.",
+        "pages": [
+          {
+            "title": "Where the cost went",
+            "paragraphs": [
+              "[E] Boussard and colleagues reported habituation to salt in Physarum polycephalum that remained detectable after one month in a dormant sclerotial stage. Sodium acquired during training was retained through that stage [B1]. This is a specific experimental result about a treatment and a response. It does not establish indefinite memory, memory of every kind, or institutional survival through repression.",
+              "[D] A stored capacity depends on some material arrangement continuing to hold. The arrangement may rely on internal reserves, environmental conditions, active caretaking, or a combination. Calling the focal object inactive does not tell us whether its supporting conditions are free, stable, or inside the boundary of the account.",
+              "[H] A recurring institutional error may be to count only the active organization while treating its refuge as scenery. A library's storage, a member's spare room, a volunteer's time, or a host institution's electricity may carry the supposedly dormant capacity. This is a proposed accounting diagnosis. Whether it explains a failure has to be checked against actual resource use and responsibility.",
+              "[V] The supporting person is not a reserve that an institution owns. Naming unpaid care makes it visible to negotiation; it does not convert care into an unlimited obligation. The vessel cannot establish an entitlement to the keeper's life."
+            ]
+          },
+          {
+            "title": "A maintenance interval is a claim",
+            "paragraphs": [
+              "[D] Consider an explicitly artificial reserve R(t). Between renewals it decreases at a constant rate c; a renewal adds q, up to a capacity limit. Continuation requires R(t) to remain above a specified threshold. This toy model can show how an unchanged renewal schedule fails when c increases. It has no authority to estimate c for a real person, group, or organism.",
+              "[D] Restart can demand more than preservation. A device may retain a record with little power yet require a large current to start. A group may retain an address list yet lack meeting space or time for shared work. The plate therefore draws a storage threshold and a higher, task-specific restart threshold. Their order is an illustration, not a law: some restarts may instead cost less than ongoing preservation.",
+              "[H] The useful test is a witnessed resumption, limited enough to be affordable and real enough to expose missing dependencies. Record what the trial drew on, including work supplied by people outside the focal boundary. A failed rehearsal may reveal a capacity that existed only on paper. Rehearsal itself can consume scarce reserves, so its frequency also needs justification.",
+              "[F] The jar's defect is in the account. The seventh-day fire has been omitted. Correcting the ledger will not keep the room warm. It may establish who must answer when the warming stops."
+            ]
+          }
+        ],
+        "sources": [
+          "B1",
+          "P0"
+        ]
+      },
+      "source_path": "books/02_intervallorum/manuscript/book.json",
+      "source_blob_sha": "c43c990a2f0effc8326b6005ebadf514fbd7c42a",
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — THE FED VESSEL — Clavicula Intervallorum, Chapter III. A single SEALED RESERVE JAR as a figure-device, no human body or keeper. Rounded cream glass-like vessel in a delicate cellular-lattice protective cradle, a tightly closed lid and a quiet material reserve shown inside as a small dormant folded reticulum near the base, not a face or creature. Three fine BLACK seep paths descend from three small points along the jar's lower body to terminal dots, expressing distinct leaks. A separate thin BLACK restart collar sits above a lower black storage band; no scale, numbers or explanatory curves. A narrow external support loop embraces the lower cradle, separate from the internal reserve. ONE RED FEEDING THREAD enters that external support from outside the vessel boundary and visibly keeps the support connected: flat #a32b24, RGB163,43,36, single fine path with a small terminal dot. No red lid, wax or additional seal. This is a reference object derived from the manuscript's sealed winter jar, material reserve, external care and three leaks; no claims of scientific measurement. Sparse slate in a few lattice cells and tiny ochre near the support collar. Square PNG 1:1, target 2048 x 2048 if possible, whole jar plus support and feeding thread occupy central 75 percent of square. No room, fire, text, figures or frame.\nSource caption (conceptual guidance only, never print): A conceptual reserve vessel with three leaks and a separate restart threshold. Internal reserves and external shelter are different supports. The curves below are illustrative quantities with arbitrary units, generated from declared equations rather than measured organisms.\nFictional source (never print): The jar was sealed against the winter. Every seventh day someone warmed the room in which it stood. The account recorded that the jar had required nothing.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "expected_aspect_ratio": "1:1",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "fed-vessel-raster-reference-v01.png",
+      "qa_notes": "Square reserve-jar figure with enclosed reticulum, external support collar and single red feeding thread; ornamental drop-lines interpret leaks without serving as an exact labelled diagram.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "491f1f0a22dd88c888bf32e5d8d219c9f9d4aeb47c2d1883410707edd850884d",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/fed-vessel-raster-reference-v01.png",
+        "sha256": "491f1f0a22dd88c888bf32e5d8d219c9f9d4aeb47c2d1883410707edd850884d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1851,
+        "eroded_core_pixels": 1020,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          157.0,
+          34.0,
+          29.0
+        ],
+        "median_red_hex_rounded": "#9d221d",
+        "modal_red_hex": "#9b221d",
+        "modal_frequency": 8,
+        "unique_sample_colours": 733,
+        "nearest_candidate_hex": "#a32c25",
+        "median_max_channel_error": 9.0,
+        "p95_max_channel_error": 22.0,
+        "sample_fraction_within_5_per_channel": 0.1696078431372549,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    }
+  ],
+  "attempts": [],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly; only other hue"
+  },
+  "technical": {
+    "format": "PNG",
+    "requested_portrait_size": [
+      2048,
+      3072
+    ],
+    "requested_square_size": [
+      2048,
+      2048
+    ],
+    "actual_size": {
+      "JURISIEL": [
+        1024,
+        1536
+      ],
+      "MARGOR": [
+        1024,
+        1536
+      ],
+      "QUARTEROTH": [
+        1024,
+        1536
+      ],
+      "ABSENTIEL": [
+        1024,
+        1536
+      ],
+      "EXCEPTOR": [
+        1024,
+        1536
+      ],
+      "POSTHUM": [
+        1024,
+        1536
+      ],
+      "THE FED VESSEL": [
+        1254,
+        1254
+      ]
+    },
+    "upscaled": false,
+    "traced": false,
+    "vectorised": false,
+    "pixel_edits_outside_imagegen": false,
+    "seed": null,
+    "note": "Native images retained byte-for-byte. Red is measured, not assumed from prompt. No colour normalisation performed. Colour targets are not pixel-exact guarantees. Antialiasing, dark overlap and light wash produce additional RGB values."
+  },
+  "red_check": {
+    "target": "#a32b24",
+    "target_rgb": [
+      163,
+      43,
+      36
+    ],
+    "report": "red-check.json",
+    "human_readable_report": "red-check.md",
+    "coverage": "Calibration, batches 01-04, all selected and superseded reference renders. Contact sheets excluded.",
+    "method": "Read-only decoded RGB pixel analysis. Exact target counts, heuristic red-region core median, modal red, nearest red and channel-error distribution; no pixel edits.",
+    "caution": "Heuristic colour mask measures candidate red pixels, not a reconstruction of the original ink before raster blending. A single matching pixel does not prove colour consistency."
+  },
+  "process": {
+    "stop_after_batch": true,
+    "batch_size": 7,
+    "next_subject": "THE SECOND NECK",
+    "inventory_status": "All seven Escalationum offices and twenty-one handoff demons rendered; Fed Vessel begins Intervallorum."
+  },
+  "interpretation_notes": [
+    "Portrait handoff demons are 2:3; Fed Vessel is square as requested for devices.",
+    "Quarteroth's distinct clock positions stand for four reporting periods; no dates or numbers are printed.",
+    "Absentiel's keys share one header; generated material reads as sculptural lattice as well as cut paper.",
+    "Exceptor's canonical APPROVED text is omitted; form is unlettered.",
+    "Fed Vessel is a standalone conceptual figure derived from Intervallorum chapter III, not an exact scientific diagram.",
+    "All seven are first attempts; no regenerations. Approved earlier renders are retained unchanged and their red drift documented."
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "project": "Librum Quinque",
+  "batch": 6,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting batch review",
+  "figures": [
+    {
+      "index": 1,
+      "subject": "HOODED MANAGER 1",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VI",
+      "source": {
+        "brief_excerpt": "Hooded manager seeing one tile; reward caught at landing."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — HOODED MANAGER 1 — GRADUUM VI. ONE slim full-length standing manager with an angular deep cellular-lattice hood, pale humanlike face only partly visible through two side blinders. Exactly two arms and two hands, both holding ONE SINGLE SQUARE MAZE TILE at waist height, tilted toward the manager's downward gaze. That tile contains ONLY ONE right-angle black corridor segment, no whole maze, no neighbouring tiles. Raised cream edges prevent any view outside this single cell. Manager cannot see a map beyond it. Narrow straight robe panels and fine lacework, sparse slate/ochre cells, bare full feet. The ONE RED INTERVENTION is a tiny red reward DROP caught in a small black catch-cup at the tile's near rim. Exactly one red drop, no red thread, seal, eye or mouth. No extra objects, no chair, no floor plan in background.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "hooded-manager-01-raster-reference-v01.png",
+      "qa_notes": "One angular-hooded manager, two hands, a single corner tile; small red reward mark caught at a cup in the cell.",
+      "display_label": "MANAGER 1 / CORNER",
+      "display_subtitle": "Graduum / VI",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ff640eecd3f54c155f1f4c1ed7245c4c353749bd271ddb0513dcc06d0f3832cf",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/hooded-manager-01-raster-reference-v01.png",
+        "sha256": "ff640eecd3f54c155f1f4c1ed7245c4c353749bd271ddb0513dcc06d0f3832cf",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 55,
+        "eroded_core_pixels": 10,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          163.0,
+          39.0,
+          25.0
+        ],
+        "median_red_hex_rounded": "#a32719",
+        "modal_red_hex": "#600d0c",
+        "modal_frequency": 1,
+        "unique_sample_colours": 55,
+        "nearest_candidate_hex": "#982b1f",
+        "median_max_channel_error": 32.0,
+        "p95_max_channel_error": 63.89999999999999,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 2,
+      "subject": "HOODED MANAGER 2",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VI",
+      "source": {
+        "brief_excerpt": "Hooded manager seeing one tile; reward caught at landing."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — HOODED MANAGER 2 — GRADUUM VI. ONE older slightly stooped full-length manager, a narrow carefully engraved bearded profile visible beneath a low folded hood whose side flaps block peripheral view. Exactly two hands cradle ONE SINGLE SQUARE MAZE TILE at chest height, held very close to the face. This tile contains ONLY ONE T-junction black corridor segment, neighbouring cells hidden behind tall cream tile edges. No whole map. Different identity and silhouette from manager 1: layered asymmetrical robe hem and long bent shoulders, fine cellular seams, sparse slate/ochre pockets and black terminal-dot lines. Both feet visible. The ONE RED INTERVENTION is a single small red reward DROP caught at a black little landing/cup integrated into the tile's rim. No other red. No letters, laptop, book, second tile or background.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "hooded-manager-02-raster-reference-v01.png",
+      "qa_notes": "One older bearded manager, two hands, single T-junction cell close to face; red drop at tile edge. The corridor shape is not an inscription.",
+      "display_label": "MANAGER 2 / JUNCTION",
+      "display_subtitle": "Graduum / VI",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "f871093ba2b6a43442782a7bcb99a9eda3113752e8a60d7ddca5008b410ded07",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/hooded-manager-02-raster-reference-v01.png",
+        "sha256": "f871093ba2b6a43442782a7bcb99a9eda3113752e8a60d7ddca5008b410ded07",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 165,
+        "eroded_core_pixels": 79,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          161.0,
+          46.0,
+          28.0
+        ],
+        "median_red_hex_rounded": "#a12e1c",
+        "modal_red_hex": "#9d2f1c",
+        "modal_frequency": 2,
+        "unique_sample_colours": 77,
+        "nearest_candidate_hex": "#a62f20",
+        "median_max_channel_error": 11.0,
+        "p95_max_channel_error": 27.0,
+        "sample_fraction_within_5_per_channel": 0.02531645569620253,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 3,
+      "subject": "HOODED MANAGER 3",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VI",
+      "source": {
+        "brief_excerpt": "Hooded manager seeing one tile; reward caught at landing."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — HOODED MANAGER 3 — GRADUUM VI. ONE short broad full-length manager in a heavy rounded lattice hood with a small forward viewing slit. A little of the face and nose visible, attention entirely on ONE SINGLE SQUARE MAZE TILE held horizontally on two open palms at belly height. Exactly two arms. Tile contains ONLY ONE black DEAD-END corridor and high cream cell edges, no larger map or other tile. Stout tapering coat, visibly different from managers 1 and 2, quiet broad cream panels interrupted by fine cellular black lace, sparse slate and little ochre, dot-terminal black drop-lines and two visible feet. The ONE RED INTERVENTION is one tiny red reward DROP caught in a black catch-lip at the dead-end tile rim. No red elsewhere, no extra props or figures.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "hooded-manager-03-raster-reference-v01.png",
+      "qa_notes": "One broader rounded-hood manager, two hands and one dead-end tile; prominent red reward bead at its rim.",
+      "display_label": "MANAGER 3 / DEAD END",
+      "display_subtitle": "Graduum / VI",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "d7ec280ef3c6aae949b689e0e90b083304f1a9ae6794833e8f510d95db3a31d7",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/hooded-manager-03-raster-reference-v01.png",
+        "sha256": "d7ec280ef3c6aae949b689e0e90b083304f1a9ae6794833e8f510d95db3a31d7",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 152,
+        "eroded_core_pixels": 34,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          180.5,
+          38.0,
+          24.0
+        ],
+        "median_red_hex_rounded": "#b52618",
+        "modal_red_hex": "#931d13",
+        "modal_frequency": 1,
+        "unique_sample_colours": 34,
+        "nearest_candidate_hex": "#9f281e",
+        "median_max_channel_error": 19.0,
+        "p95_max_channel_error": 37.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 4,
+      "subject": "HOODED MANAGER 4 — LEAKED TILE",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VI",
+      "source": {
+        "brief_excerpt": "Hooded manager seeing one tile; one leaked tile."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — HOODED MANAGER 4 — THE LEAKED TILE, GRADUUM VI. ONE full-length slim manager turned slightly in profile, swept-back folded cellular hood with opaque side panels limiting sight to the SINGLE SQUARE MAZE TILE held between exactly two hands, tilted forward at waist level. Tile has one near-black corridor segment and a fine structural crack through its lower edge. The manager's face remains focused inward on the cell, blind to what exits it. A long asymmetrical robe of fine lace/cellular membranes with sparse slate and ochre cells and black terminal-dot drop-lines, two feet visible. The ONE RED INTERVENTION is a single thin red leak trace that starts INSIDE the tile, escapes through its cracked lower edge and descends beyond the manager's hand to ONE red terminal drop. This is one continuous red path; do not add a second reward drop or red seal. No date or numerals: the plate's leak reference is carried only by this visible escape. No wider maze, screen, extra tile, room or figure.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "hooded-manager-04-leaked-tile-raster-reference-v01.png",
+      "qa_notes": "One profile manager, one cracked tile, continuous red escape trace ending outside the hand in one drop.",
+      "display_label": "MANAGER 4 / LEAK",
+      "display_subtitle": "Graduum / VI",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "0b60e3c3e8dce21736c5e1cd812cbdda021cfae1d6efce65bcfa5fa904f3d57d",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/hooded-manager-04-leaked-tile-raster-reference-v01.png",
+        "sha256": "0b60e3c3e8dce21736c5e1cd812cbdda021cfae1d6efce65bcfa5fa904f3d57d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 872,
+        "eroded_core_pixels": 60,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          191.0,
+          30.0,
+          19.0
+        ],
+        "median_red_hex_rounded": "#bf1e13",
+        "modal_red_hex": "#a70906",
+        "modal_frequency": 3,
+        "unique_sample_colours": 55,
+        "nearest_candidate_hex": "#9c3026",
+        "median_max_channel_error": 33.0,
+        "p95_max_channel_error": 42.05,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 5,
+      "subject": "FIGURE BENEATH THE CORD",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VII",
+      "source": {
+        "brief_excerpt": "Floor-of-hands figure beneath red cord; top mounting point remains empty.",
+        "foras": {
+          "id": 0,
+          "name": "FORAS",
+          "office": "Service Desk Analyst",
+          "legions": 1,
+          "region": "The floor of hands",
+          "appearance": "He appeareth with six hands, five occupied in proving that the sixth is idle. His eyes are bare. He can see the failed part from his chair.",
+          "powers": "He knoweth the correction and the sound the machine made before it failed. He may describe either. He may perform neither until a superior hath approved the description. His one legion consisteth of himself and the person he is training to replace him; only one may be paid at a time.",
+          "binding": "A ticket number, a recorded greeting, and adherence to the current runbook, including its obsolete steps.",
+          "seal": "A small ring inside two larger rings: knowledge enclosed by permission.",
+          "actual_effect": "Located the fault in four minutes; left it running while permission was sought.",
+          "journey": [
+            "The ticket entered with a wet corner. Water was coming through the ceiling of the place it described. Foras put a finger on a line in the drawing. Here, he said. Four minutes had elapsed.",
+            "The ticket asked him to turn the valve. He showed it the valve, the tool, and the paragraph that forbade him to use the tool on a valve already identified as faulty. An unidentified valve could be tested.",
+            "Could they unidentify it? That would require a correction to the record. The correction required the approval they were already waiting for. Foras sent the ticket downstairs, where people had more authority. He kept his finger on the line."
+          ],
+          "parable": "The repairer was asked to write down everything she knew. At the bottom she wrote: sometimes the noise matters. The editor removed this sentence because no noise had been specified.",
+          "authority": 0,
+          "competence": 6,
+          "liability": 6
+        }
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "additional_source": {
+        "path": "books/03_escalationum/manuscript/catalogue.json",
+        "blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be"
+      },
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — THE FIGURE BENEATH THE CORD — GRADUUM VII / FLOOR OF HANDS. Input FORAS is now BOTH style and IDENTITY reference: preserve the recognisable bare-eyed face and cellular hood, slender full-length body, three arms on each side — EXACTLY SIX arms and SIX hands total, all visible. Five hands occupied: upper left blank folio, middle left supports the open blank runbook, lower left blank folio; upper right blank folio, middle right supports the same open runbook; lower right hand EMPTY and reaching out toward the cord. No magnifying glass, seventh hand or hidden extra limb. No red wrist thread or red on the figure. The ONE RED INTERVENTION is ONE long vertical cord immediately beside the raised empty hand, running from a red point near foot level upward past the head to end just BELOW a tiny empty BLACK U-shaped mounting bracket. The cord and bracket are fully visible in the cream air on the right, with a visible gap at top: cord is NOT mounted or attached, bracket holds NOTHING. Keep bracket tiny, a prop, not page frame or architecture. Figure's empty hand does not become an office; no building, desks, floors, second person or marginal layout. Cord passes the working hands without routing through the chest seal, papers or hood. Everything on cream, generous margins.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "figure-beneath-cord-raster-reference-v01.png",
+      "qa_notes": "Foras identity preserved with six hands: three folios, two hands on the open blank runbook, one empty hand. One vertical red cord stops below empty black bracket; no building.",
+      "display_label": "BENEATH THE CORD",
+      "display_subtitle": "Graduum / VII",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "d2f6876b380902e2b00bcfe8c0710b733c24ee837ca5362a7445f269b95a1b0e",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/figure-beneath-cord-raster-reference-v01.png",
+        "sha256": "d2f6876b380902e2b00bcfe8c0710b733c24ee837ca5362a7445f269b95a1b0e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2876,
+        "eroded_core_pixels": 559,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          178.0,
+          43.0,
+          26.0
+        ],
+        "median_red_hex_rounded": "#b22b1a",
+        "modal_red_hex": "#b22a19",
+        "modal_frequency": 23,
+        "unique_sample_colours": 163,
+        "nearest_candidate_hex": "#9e2c1e",
+        "median_max_channel_error": 15.0,
+        "p95_max_channel_error": 18.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 6,
+      "subject": "SHOUTING TIERS",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VIII",
+      "source": {
+        "brief_excerpt": "Tiers of demons, density stands for volume; quiet demon marked red."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — THE SHOUTING TIERS — GRADUUM VIII, LOWER COUNCIL ENSEMBLE ONLY. This is the requested ensemble, not an individual portrait: a compact freestanding arrangement of THREE LOOSE TIERS of small demons, no decision demon above them (that figure is a separate asset). Two or three little demons per tier, slender humanoid demon bodies, sharp ears or small horns, fine cellular-lattice garments. Their mouths are OPEN and all mouth interiors, lips and tongues are near-black on cream, not red. Distinguish their apparent loudness by BLACK STROKE DENSITY around mouths and garments: some dense pen bundles, some lighter. Use slender black lattice branches to link the tiers as one self-contained figurative assembly, no hall, stage, furniture or architectural frame. ONE small demon at lower left is QUIET with CLOSED MOUTH and much lighter line density; its ONE RED INTERVENTION is a tiny red open ring on its chest, the only red anywhere in this entire ensemble. No red soundwaves or other marks. Keep air between the individual bodies, faces readable, complete group uncropped. No diagram labels, musical notes or lettering. Leave generous cream air above tiers for later composition with the separate decision demon.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "shouting-tiers-raster-reference-v01.png",
+      "qa_notes": "Three loose tiers with seven linked small figures: six open-mouthed, one quiet figure at lower left marked by red chest ring. Density is figurative, not a measured volume scale. No decision demon in this asset.",
+      "display_label": "SHOUTING TIERS",
+      "display_subtitle": "Graduum / VIII",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "8e4baf98dec52f43fa10c522df2537989e3b855df289ecaa201152e36a759239",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/shouting-tiers-raster-reference-v01.png",
+        "sha256": "8e4baf98dec52f43fa10c522df2537989e3b855df289ecaa201152e36a759239",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 148,
+        "eroded_core_pixels": 5,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          154.0,
+          36.0,
+          32.0
+        ],
+        "median_red_hex_rounded": "#9a2420",
+        "modal_red_hex": "#881817",
+        "modal_frequency": 2,
+        "unique_sample_colours": 146,
+        "nearest_candidate_hex": "#a12b2a",
+        "median_max_channel_error": 20.0,
+        "p95_max_channel_error": 56.650000000000006,
+        "sample_fraction_within_5_per_channel": 0.02027027027027027,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    },
+    {
+      "index": 7,
+      "subject": "DECISION DEMON",
+      "book": "Clavicula Graduum",
+      "office": null,
+      "plate": "VIII",
+      "source": {
+        "brief_excerpt": "Decision demon with ears and no eyes."
+      },
+      "source_path": "books/04_graduum/brief/PLATES.md",
+      "source_blob_sha": "06c94dfa20ca3eff88540de6ac6526ba76b1a2d7",
+      "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — THE DECISION DEMON — GRADUUM VIII / INDIVIDUAL FIGURE. ONE full-length standing demon with TWO OVERSIZED EARS AND ABSOLUTELY NO EYES. A calm thin pale humanoid face, nose and small closed mouth, but the entire usual eye region is uninterrupted smooth cream skin: NO eyes, eyelids, eye sockets, brows, lashes, dots, eye-like ornament, blindfold or veil across that region. The ears spread on both sides in fine cellular-lattice fans, black anatomy with tiny slate membrane pockets. The head is bare enough that the eyeless face reads clearly. Long narrow ornate robe with cellular/lattice membranes and some quiet cream panels, two arms only: one hand cups an ear, the other rests open at waist. Both feet visible, slender black terminal-dot drop-lines. The ONE RED INTERVENTION is a single fine red listening thread looped around ONE ear and descending freely to one red dot; no red eyes, robe veins or extra seal. This demon receives volume through its ears, no evaluative scale, no throat trumpet or companion. Standalone portrait on cream, no tier ensemble, throne or background.",
+      "reference_images": [
+        "foras-raster-reference-v02.png"
+      ],
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "expected_aspect_ratio": "2:3",
+      "attempt": 1,
+      "status": "selected",
+      "file": "decision-demon-raster-reference-v01.png",
+      "qa_notes": "Standalone two-armed full-length figure with large ear fans, smooth eyeless face, nose and mouth, one hand cupping ear. Red listening thread at one ear.",
+      "display_label": "DECISION DEMON",
+      "display_subtitle": "Graduum / VIII",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "d3193d48ecf9f01950ecc69f0bb8e2323e4df01ab5b23caf85bfe85095bb6423",
+      "reference_file_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/decision-demon-raster-reference-v01.png",
+        "sha256": "d3193d48ecf9f01950ecc69f0bb8e2323e4df01ab5b23caf85bfe85095bb6423",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1217,
+        "eroded_core_pixels": 18,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          178.5,
+          35.0,
+          29.5
+        ],
+        "median_red_hex_rounded": "#b3231e",
+        "modal_red_hex": "#880505",
+        "modal_frequency": 1,
+        "unique_sample_colours": 18,
+        "nearest_candidate_hex": "#a42d22",
+        "median_max_channel_error": 26.0,
+        "p95_max_channel_error": 38.599999999999994,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation"
+      }
+    }
+  ],
+  "attempts": [],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly; only other hue"
+  },
+  "technical": {
+    "format": "PNG",
+    "requested_portrait_size": [
+      2048,
+      3072
+    ],
+    "actual_size": {
+      "HOODED MANAGER 1": [
+        1024,
+        1536
+      ],
+      "HOODED MANAGER 2": [
+        1024,
+        1536
+      ],
+      "HOODED MANAGER 3": [
+        1024,
+        1536
+      ],
+      "HOODED MANAGER 4 — LEAKED TILE": [
+        1024,
+        1536
+      ],
+      "FIGURE BENEATH THE CORD": [
+        1024,
+        1536
+      ],
+      "SHOUTING TIERS": [
+        1024,
+        1536
+      ],
+      "DECISION DEMON": [
+        1024,
+        1536
+      ]
+    },
+    "upscaled": false,
+    "traced": false,
+    "vectorised": false,
+    "pixel_edits_outside_imagegen": false,
+    "seed": null,
+    "note": "Native PNGs retained byte-for-byte. Contact sheet uses reduced thumbnails and external labels. Red measured without normalisation; antialiasing, dark overlap and wash create RGB variation."
+  },
+  "red_check": {
+    "target": "#a32b24",
+    "target_rgb": [
+      163,
+      43,
+      36
+    ],
+    "report": "red-check.json",
+    "human_readable_report": "red-check.md",
+    "method": "Same read-only candidate-red pixel method as batch 04. New renders sampled, prior measurements retained.",
+    "caution": "A colour mask is not semantic segmentation or reconstruction of original ink. Isolated exact matches do not establish uniform red."
+  },
+  "process": {
+    "stop_after_batch": true,
+    "batch_size": 7,
+    "next_subject": "THE RETURNING TRACE",
+    "remaining_requested_subjects": [
+      "THE RETURNING TRACE",
+      "THE MEASURER OF ABSENCES — ORIGINAL",
+      "THE TWIN REGISTER"
+    ],
+    "inventory_note": "Original Sol Keeper already rendered in batch 05. No extra Matricis bodies added."
+  },
+  "interpretation_notes": [
+    "Four managers are separate complete images, one tile apiece.",
+    "The fourth tile carries a visible leak without a written date or factual claim about an external event.",
+    "The floor-of-hands figure uses the approved Foras identity. The cord and bracket are figure attributes; no section-view building is included.",
+    "Council assets are split into lower shouting tiers and standalone decision demon for separate composition. Tiers are an explicitly requested ensemble; other images contain one body.",
+    "Six loud mouths and one quiet figure are arranged in three loose tiers. The quiet figure's red chest ring is closed rather than the open-ring form in the prompt.",
+    "The decision demon's red listening thread is a compositional intervention; it certifies no outcome.",
+    "All seven selected on first attempt. No regenerations."
+  ]
+}

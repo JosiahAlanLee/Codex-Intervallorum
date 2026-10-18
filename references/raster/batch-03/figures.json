@@ -1,0 +1,456 @@
+{
+  "project": "Librum Quinque",
+  "batch": 3,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting batch review",
+  "book": "Pseudomonarchia Escalationum",
+  "source": {
+    "repository": "JosiahAlanLee/Librum_Quinque",
+    "catalogue_path": "books/03_escalationum/manuscript/catalogue.json",
+    "catalogue_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be"
+  },
+  "style_reference": {
+    "calibration": "FORAS v02 — approved",
+    "device": "REPETIEL v01 — approved"
+  },
+  "figures": [
+    {
+      "index": 1,
+      "subject": "REDACTH",
+      "office": "Information Governance Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "14",
+        "source": 1,
+        "target": 4,
+        "name": "REDACTH",
+        "office": "Information Governance Manager",
+        "legions": 13,
+        "appearance": "A black veil with spaces for initials.",
+        "powers": "He releaseth the evidence after removing the fields required to connect it.",
+        "binding": "A permissible extract, an NDA, and a second request for the omitted context.",
+        "seal": "A broken red boundary retaining two points without their relation.",
+        "actual_effect": "Removed the shared identifier that showed four failures had one cause.",
+        "mark": 3
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — REDACTH — Information Governance Manager. The whole body is a long BLACK VEIL, an empty hanging face-and-body-shaped garment with NO human occupant, visible face, head, eyes, hands or feet. Fine engraved black mesh, not a solid ink rectangle. The veil has two small rectangular blank CREAM spaces sewn into its upper area where initials might have been, but NO initials or writing. Cellular openwork borders and displaced mesh seams, tiny slate and ochre at a few edges; drop-lines ending in black dots. A seal carried visibly on a cream patch on the veil: a BROKEN RED BOUNDARY, one nearly enclosing fine red stroke with two visible gaps, retaining TWO small BLACK POINTS inside. The two black points have NO connecting line: their relation has been removed. Only the boundary red. Keep the silhouette draped and textile-like, no chair or surrounding frame.\nCatalogue appearance (guide only; never print): A black veil with spaces for initials.\nCatalogue seal (guide only; never print): A broken red boundary retaining two points without their relation.\nOffice effect (conceptual guidance; never print): Removed the shared identifier that showed four failures had one cause.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "redacth-raster-reference-v01.png",
+      "qa_notes": "Empty black mesh veil, two blank initial spaces, broken red boundary retaining two unconnected black points.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "7e6e8c6ea3d84d206ad4e74f7600170d363fe16a2be099294d326b7c430c8bcf"
+    },
+    {
+      "index": 2,
+      "subject": "CHORAZ",
+      "office": "Major Incident Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "15",
+        "source": 1,
+        "target": 5,
+        "name": "CHORAZ",
+        "office": "Major Incident Manager",
+        "legions": 16,
+        "appearance": "Sixteen small trumpets attached to one empty helmet.",
+        "powers": "She summoneth a bridge call for the coordination of the bridge calls.",
+        "binding": "Attendance on the coordination bridge.",
+        "seal": "A red report box whose output returns to the box as fresh input.",
+        "actual_effect": "Occupied the repairer with status requests until the reserved repair interval closed.",
+        "mark": 11
+      },
+      "prompt": "Precise object edit. The supplied CHORAZ image is the EDIT TARGET. Preserve the one empty lattice helmet, empty visor, all palette, red forehead return seal, engraved line style and cream ground. Correct ONLY the number of trumpet horns. There are currently SIX left and SIX right, twelve total. ADD FOUR small matching trumpets: TWO more on the LEFT and TWO more on the RIGHT, attached to the same helmet. Final result must contain EXACTLY EIGHT clearly separate flared trumpet openings on LEFT and EIGHT on RIGHT, SIXTEEN TOTAL. Space each fan as an arc from above the helmet down to beside its cheek. Each side's opening positions form eight distinct levels at top-to-bottom order, no merging, overlap or hidden horn. Slightly reduce the size of the existing bells if needed to fit the additional two each side. Preserve generous margins and all extremities visible. DO NOT print numbers or labels. No extra instrument in centre. No occupant, head, face, neck or torso. Red only at the existing forehead seal. No other changes. Portrait PNG 2:3.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 2,
+      "status": "selected",
+      "reference_images": [
+        "attempts/choraz-raster-reference-v01.png"
+      ],
+      "file": "choraz-raster-reference-v02.png",
+      "qa_notes": "Empty helmet; eight trumpet openings per side, sixteen total, verified visually after correction. Red self-returning report seal.",
+      "prompt_history": [
+        "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — CHORAZ — Major Incident Manager. The body is ONE EMPTY HELMET with EXACTLY SIXTEEN SMALL TRUMPETS physically attached to it. No occupant, face, head, eyes, neck, torso or separate instrumentalists. Upright full portrait silhouette, helmet at centre, trumpets form TWO clearly separated fans, EIGHT trumpets on the left and EIGHT on the right. Each trumpet has one distinct flared open bell, a slender curling stem attached to the helmet. Sixteen visible flared openings in total, no decorative extra trumpet or horn. Cellular lattice and slate/ochre pockets on the helmet and trumpet braces, near-black fine engraved instrument line, black dot-terminal drop-lines. Helmet visor is open cream or dark empty mesh, never a face. The seal on the helmet's forehead is ONE RED REPORT BOX with a short red output loop returning into the SAME box as fresh input. One continuous red seal; no other red. No soundwave lettering, music notation or text.\nCatalogue appearance (guide only; never print): Sixteen small trumpets attached to one empty helmet.\nCatalogue seal (guide only; never print): A red report box whose output returns to the box as fresh input.\nOffice effect (conceptual guidance; never print): Occupied the repairer with status requests until the reserved repair interval closed.",
+        "Precise object edit. The supplied CHORAZ image is the EDIT TARGET. Preserve the one empty lattice helmet, empty visor, all palette, red forehead return seal, engraved line style and cream ground. Correct ONLY the number of trumpet horns. There are currently SIX left and SIX right, twelve total. ADD FOUR small matching trumpets: TWO more on the LEFT and TWO more on the RIGHT, attached to the same helmet. Final result must contain EXACTLY EIGHT clearly separate flared trumpet openings on LEFT and EIGHT on RIGHT, SIXTEEN TOTAL. Space each fan as an arc from above the helmet down to beside its cheek. Each side's opening positions form eight distinct levels at top-to-bottom order, no merging, overlap or hidden horn. Slightly reduce the size of the existing bells if needed to fit the additional two each side. Preserve generous margins and all extremities visible. DO NOT print numbers or labels. No extra instrument in centre. No occupant, head, face, neck or torso. Red only at the existing forehead seal. No other changes. Portrait PNG 2:3."
+      ],
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ce7f7c48a6dde6164e43695c3e3ad00455918680c6b2cce4191f8dfc01ab16ea"
+    },
+    {
+      "index": 3,
+      "subject": "PROBATOR",
+      "office": "Director of Technical Assurance",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "16",
+        "source": 1,
+        "target": 6,
+        "name": "PROBATOR",
+        "office": "Director of Technical Assurance",
+        "legions": 2,
+        "appearance": "A magnifying glass trained upon its own handle.",
+        "powers": "He permitteth a diagnosis only when no doubt can remain about it.",
+        "binding": "Proof that the proposed action cannot produce any further incident.",
+        "seal": "A red closed ring: the proof required to enter is held inside.",
+        "actual_effect": "Required proof obtainable only after the repair; withheld permission to repair.",
+        "mark": 2
+      },
+      "prompt": "Edit target: supplied self-inspecting magnifying instrument. Preserve the instrument, large glass, enlarged handle, all outer lattice, ground and exact portrait composition. REPLACE THE ENTIRE SMALL MEDALLION ON THE HANDLE, including the existing incomplete red horseshoe, with a CLEAN PLAIN CREAM DISC CONTAINING ONE SIMPLE CLOSED RED CIRCLE. New circle is complete, no break, no gap, no notch. It is a red drawn O shape (but not printed lettering), a simple continuous 360-degree circular outline. Draw its TOP section as visibly as its bottom. Do not reuse the current horseshoe shape: ERASE it and draw a NEW complete circle. Slightly enlarge this small medallion if helpful. Its centre stays plain cream. Red #a32b24 stroke, one line, no second red mark. All other details unchanged. No text, no border, no other alteration. PNG portrait 2:3.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 3,
+      "status": "selected",
+      "reference_images": [
+        "attempts/probator-raster-reference-v02.png"
+      ],
+      "file": "probator-raster-reference-v03.png",
+      "qa_notes": "Single magnifying instrument trained on its own handle; small red seal fully closed after two disclosed corrections.",
+      "prompt_history": [
+        "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — PROBATOR — Director of Technical Assurance. The entire demon is ONE MAGNIFYING GLASS TRAINED UPON ITS OWN HANDLE. A single large thin circular lens held on an elegantly recurved organic neck that bends around until the lens faces a segment of its own long handle; the glass frames and visibly enlarges a little of the same handle behind it. The handle is cellular-lattice fine penwork with sparse slate and ochre pockets, black dot-terminal hanging lines. No hand or person holds it; it stands as one impossible self-inspecting instrument. No second magnifying glass, separate mirror or extra lens. Lens is mostly clear cream, no blue glow, no realistic reflection. The seal is an isolated small cream medallion ON THE HANDLE bearing ONE CLOSED RED RING with empty cream centre. Ring completely closed, no arrow, gap or additional red. Whole curved instrument visible on blank ground.\nCatalogue appearance (guide only; never print): A magnifying glass trained upon its own handle.\nCatalogue seal (guide only; never print): A red closed ring: the proof required to enter is held inside.\nOffice effect (conceptual guidance; never print): Required proof obtainable only after the repair; withheld permission to repair.",
+        "Precise local edit. Supplied PROBATOR magnifying instrument is the EDIT TARGET. Change ONLY the tiny gap at twelve o'clock in the small red circular SEAL on the instrument HANDLE. Join the red ends with a short red #a32b24 stroke to make that SMALL ring fully CLOSED, continuous for all 360 degrees. Do not change the large magnifying LENS, its circular rim, the enlarged handle seen through it, the lattice body, colour, cream ground, composition, linework or any other detail. The only red shape is the fully CLOSED small ring on the handle, centre empty cream. No text, lettering, numbers, border or extra objects. Retain portrait PNG 2:3.",
+        "Edit target: supplied self-inspecting magnifying instrument. Preserve the instrument, large glass, enlarged handle, all outer lattice, ground and exact portrait composition. REPLACE THE ENTIRE SMALL MEDALLION ON THE HANDLE, including the existing incomplete red horseshoe, with a CLEAN PLAIN CREAM DISC CONTAINING ONE SIMPLE CLOSED RED CIRCLE. New circle is complete, no break, no gap, no notch. It is a red drawn O shape (but not printed lettering), a simple continuous 360-degree circular outline. Draw its TOP section as visibly as its bottom. Do not reuse the current horseshoe shape: ERASE it and draw a NEW complete circle. Slightly enlarge this small medallion if helpful. Its centre stays plain cream. Red #a32b24 stroke, one line, no second red mark. All other details unchanged. No text, no border, no other alteration. PNG portrait 2:3."
+      ],
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "069c615cbe9c4b7c0e38218c4cd9a0b06db2501d39c01145b4db2bca670f05c1"
+    },
+    {
+      "index": 4,
+      "subject": "PROMISSOR",
+      "office": "Renewal Strategy Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "23",
+        "source": 2,
+        "target": 3,
+        "name": "PROMISSOR",
+        "office": "Renewal Strategy Manager",
+        "legions": 10,
+        "appearance": "A ribbon stretched across a hole in the floor.",
+        "powers": "She bindeth the remedy to the next agreement.",
+        "binding": "A renewal conversation before the recovery conversation.",
+        "seal": "A red added branch leading away from the present obligation.",
+        "actual_effect": "Exchanged a present defect for a future service commitment.",
+        "mark": 8
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — PROMISSOR — Renewal Strategy Manager. The body is a RIBBON STRETCHED ACROSS A HOLE IN A FLOOR, presented as ONE SELF-CONTAINED PORTABLE FRAGMENT, not a room. A small thin irregular floor-slab fragment seen from above at an oblique angle, with one visibly deep empty hole through it, and one narrow cream ribbon drawn taut across that hole between two small edge pins. Floor fragment rests or floats alone, generous cream air all around, no surrounding floor plane, walls, posts or architecture. Lattice/cellular structure forms the fragment's exposed underside and hole rim; the hole itself uses black engraved hatching for depth rather than a painted void. Ribbon plain cream with only tiny slate seam details, NOT red, no writing. Terminal-dot drop-lines descend from the fragment. The seal visibly sewn into the ribbon is ONE RED ADDED BRANCH leading off away from a black present route across the ribbon. Red branch single intervention, no red elsewhere. Portrait 2:3, entirety visible.\nCatalogue appearance (guide only; never print): A ribbon stretched across a hole in the floor.\nCatalogue seal (guide only; never print): A red added branch leading away from the present obligation.\nOffice effect (conceptual guidance; never print): Exchanged a present defect for a future service commitment.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "promissor-raster-reference-v01.png",
+      "qa_notes": "Ribbon across hole in isolated floor fragment; one connected red branch rendered as a departing thread with terminal point.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ae1c08e617f4890abeb144da268dfc3749c737b65d206a4976acc941a7a1b578"
+    },
+    {
+      "index": 5,
+      "subject": "CONSENTH",
+      "office": "Stakeholder Engagement Lead",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "24",
+        "source": 2,
+        "target": 4,
+        "name": "CONSENTH",
+        "office": "Stakeholder Engagement Lead",
+        "legions": 14,
+        "appearance": "A coat with enough pockets for every unanswered invitation.",
+        "powers": "He gathereth assent from parties with no power to perform the act.",
+        "binding": "A complete attendance record.",
+        "seal": "A red porous circle of participants, with no authorized gate.",
+        "actual_effect": "Mistook consultation for authorization; sent the unapproved work forward as agreed.",
+        "mark": 3
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — CONSENTH — Stakeholder Engagement Lead. A standalone long COAT WITH ENOUGH POCKETS FOR EVERY UNANSWERED INVITATION, its empty garment forms the whole upright figure. No person, face, hands, human head or feet; no hanger or shop setting. Long narrow open collar and empty sleeves, a great many different pockets over the front and sides, some shallow, some hanging, all visibly part of ONE coat. Blank folded invitation sheets protrude from several pockets, no letters or writing. Dense cellular-lattice fabric between pockets with cream voids, sparse slate and ochre details, black drop-lines ending in dots at the hem. The seal is prominently attached to the coat's chest: ONE RED POROUS CIRCLE, a circle made of several short red arcs with visible open gaps distributed around its perimeter, no privileged gate and no arrow. Seal centre entirely cream, no dots or letters. No additional red, no full solid red ring. Full coat including hem visible.\nCatalogue appearance (guide only; never print): A coat with enough pockets for every unanswered invitation.\nCatalogue seal (guide only; never print): A red porous circle of participants, with no authorized gate.\nOffice effect (conceptual guidance; never print): Mistook consultation for authorization; sent the unapproved work forward as agreed.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "consenth-raster-reference-v01.png",
+      "qa_notes": "Empty coat with pockets of blank invitations; porous red circle at chest.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "7524e9661fe39985f0823bd0013c80d431c6598e9a8d848399886d84d9410c6d"
+    },
+    {
+      "index": 6,
+      "subject": "VIRIDON",
+      "office": "Experience Reporting Director",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "25",
+        "source": 2,
+        "target": 5,
+        "name": "VIRIDON",
+        "office": "Experience Reporting Director",
+        "legions": 18,
+        "appearance": "A green pane held before a red lamp.",
+        "powers": "She counteth the answered messages as satisfied people.",
+        "binding": "A positive contact metric.",
+        "seal": "A red report returns to its own observer as assurance.",
+        "actual_effect": "Reported improved satisfaction because the same angry person had received seven replies.",
+        "mark": 11
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — VIRIDON — Experience Reporting Director. The entire body is a simple standalone narrow LAMP with a PANE HELD IMMEDIATELY IN FRONT of its warning aperture. Both joined into one fine skeletal cellular-lattice device, not held by a person. Tall slender articulated stand on a small three-pronged base, a small rounded lamp housing at upper centre, a thin SLATE BLUE-GREY flat pane on an attached hinge standing before the aperture at a slight angle. Lamp is still plainly visible behind the pane. Canonical pane is green but THIS SERIES FORBIDS GREEN: use only muted slate #4f6f7a. No light beam, glow, cast shadow or photographic lighting. The SINGLE RED INTERVENTION is the lamp's visible red seal/filament: ONE RED SELF-RETURNING REPORT LOOP, a small red outlined report box whose output turns back into itself, on the lamp's aperture. Nothing else is red; housing near-black line, pane slate, little ochre in lattice. No separate red lamp plus second seal: that red loop IS its warning aperture. Black drop-lines with terminal dots, no eyes, faces, numbers or labels.\nCatalogue appearance (guide only; never print): A green pane held before a red lamp.\nCatalogue seal (guide only; never print): A red report returns to its own observer as assurance.\nOffice effect (conceptual guidance; never print): Reported improved satisfaction because the same angry person had received seven replies.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "viridon-raster-reference-v01.png",
+      "qa_notes": "Slate hinged pane in front of lamp; red self-returning loop in warning aperture. Green translated to slate; loop rendered circular rather than box-shaped.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "39de064a997d0622844130cd906d279e39e6df623f5d8b8ffdd4412b8df3b4c2"
+    },
+    {
+      "index": 7,
+      "subject": "VELAROTH",
+      "office": "Executive Briefing Lead",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "26",
+        "source": 2,
+        "target": 6,
+        "name": "VELAROTH",
+        "office": "Executive Briefing Lead",
+        "legions": 2,
+        "appearance": "A sheet folded until only its heading remaineth.",
+        "powers": "He maketh a matter fit for a minute of attention by cutting away its causal sequence.",
+        "binding": "A one-line summary without subordinate clauses.",
+        "seal": "One red point remains after the causal branches are cut away.",
+        "actual_effect": "Removed the dependency that made the proposed deadline impossible.",
+        "mark": 1
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — VELAROTH — Executive Briefing Lead. One large SHEET FOLDED UNTIL ONLY ITS HEADING REMAINS, made into a standalone upright paper-body. A single sheet accordion-folded and folded back over itself many times into a narrow layered vertical column; a small plain heading strip at top is the ONLY broad exposed face. Heading strip entirely BLANK: no heading, letters, lines of writing or numerals. Lower folds sharply interlock, some cut-off cellular branch traces visible between folds but not text. Fine engraved paper edges, cellular/lattice fibres and restrained slate/ochre seam details, black drop-lines with terminal dots below fold tips. No human body, arms, feet, book cover or person holding the sheet. The seal is ONE SINGLE RED POINT on the small exposed top strip, above the stumps of severed BLACK causal branches which stop before reaching it. Only the point red; all traces black. Do not add red arrows, rings or decorative marks. Entire folded sheet visible with open cream margins.\nCatalogue appearance (guide only; never print): A sheet folded until only its heading remaineth.\nCatalogue seal (guide only; never print): One red point remains after the causal branches are cut away.\nOffice effect (conceptual guidance; never print): Removed the dependency that made the proposed deadline impossible.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "selected",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "velaroth-raster-reference-v01.png",
+      "qa_notes": "Folded paper body; exposed heading face blank except one red point, black causal branches cut short beneath.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "712cf36186c40d91bea1bbf1d7b37be4e776f11cf7f6be16a8ea74f6a16e4618"
+    }
+  ],
+  "attempts": [
+    {
+      "index": 2,
+      "subject": "CHORAZ",
+      "office": "Major Incident Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "15",
+        "source": 1,
+        "target": 5,
+        "name": "CHORAZ",
+        "office": "Major Incident Manager",
+        "legions": 16,
+        "appearance": "Sixteen small trumpets attached to one empty helmet.",
+        "powers": "She summoneth a bridge call for the coordination of the bridge calls.",
+        "binding": "Attendance on the coordination bridge.",
+        "seal": "A red report box whose output returns to the box as fresh input.",
+        "actual_effect": "Occupied the repairer with status requests until the reserved repair interval closed.",
+        "mark": 11
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — CHORAZ — Major Incident Manager. The body is ONE EMPTY HELMET with EXACTLY SIXTEEN SMALL TRUMPETS physically attached to it. No occupant, face, head, eyes, neck, torso or separate instrumentalists. Upright full portrait silhouette, helmet at centre, trumpets form TWO clearly separated fans, EIGHT trumpets on the left and EIGHT on the right. Each trumpet has one distinct flared open bell, a slender curling stem attached to the helmet. Sixteen visible flared openings in total, no decorative extra trumpet or horn. Cellular lattice and slate/ochre pockets on the helmet and trumpet braces, near-black fine engraved instrument line, black dot-terminal drop-lines. Helmet visor is open cream or dark empty mesh, never a face. The seal on the helmet's forehead is ONE RED REPORT BOX with a short red output loop returning into the SAME box as fresh input. One continuous red seal; no other red. No soundwave lettering, music notation or text.\nCatalogue appearance (guide only; never print): Sixteen small trumpets attached to one empty helmet.\nCatalogue seal (guide only; never print): A red report box whose output returns to the box as fresh input.\nOffice effect (conceptual guidance; never print): Occupied the repairer with status requests until the reserved repair interval closed.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "superseded",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "attempts/choraz-raster-reference-v01.png",
+      "qa_notes": null,
+      "reason_for_next_attempt": "Twelve trumpet openings rather than sixteen.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "00102234c46cd836d68b10ba61e52ad88852a1f467c9b9b45ee8b1729ececf03"
+    },
+    {
+      "index": 3,
+      "subject": "PROBATOR",
+      "office": "Director of Technical Assurance",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "16",
+        "source": 1,
+        "target": 6,
+        "name": "PROBATOR",
+        "office": "Director of Technical Assurance",
+        "legions": 2,
+        "appearance": "A magnifying glass trained upon its own handle.",
+        "powers": "He permitteth a diagnosis only when no doubt can remain about it.",
+        "binding": "Proof that the proposed action cannot produce any further incident.",
+        "seal": "A red closed ring: the proof required to enter is held inside.",
+        "actual_effect": "Required proof obtainable only after the repair; withheld permission to repair.",
+        "mark": 2
+      },
+      "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — PROBATOR — Director of Technical Assurance. The entire demon is ONE MAGNIFYING GLASS TRAINED UPON ITS OWN HANDLE. A single large thin circular lens held on an elegantly recurved organic neck that bends around until the lens faces a segment of its own long handle; the glass frames and visibly enlarges a little of the same handle behind it. The handle is cellular-lattice fine penwork with sparse slate and ochre pockets, black dot-terminal hanging lines. No hand or person holds it; it stands as one impossible self-inspecting instrument. No second magnifying glass, separate mirror or extra lens. Lens is mostly clear cream, no blue glow, no realistic reflection. The seal is an isolated small cream medallion ON THE HANDLE bearing ONE CLOSED RED RING with empty cream centre. Ring completely closed, no arrow, gap or additional red. Whole curved instrument visible on blank ground.\nCatalogue appearance (guide only; never print): A magnifying glass trained upon its own handle.\nCatalogue seal (guide only; never print): A red closed ring: the proof required to enter is held inside.\nOffice effect (conceptual guidance; never print): Required proof obtainable only after the repair; withheld permission to repair.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 1,
+      "status": "superseded",
+      "reference_images": [
+        "foras-raster-reference-v02.png",
+        "repetiel-raster-reference-v01.png"
+      ],
+      "file": "attempts/probator-raster-reference-v01.png",
+      "qa_notes": null,
+      "reason_for_next_attempt": "Red proof ring had an unintended gap.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "cd7a8677c554a7853575cfbfba7df4d9cf540f0a2fd5e0c3db5f5472950708ac"
+    },
+    {
+      "index": 3,
+      "subject": "PROBATOR",
+      "office": "Director of Technical Assurance",
+      "book": "Pseudomonarchia Escalationum",
+      "plate": null,
+      "source": {
+        "id": "16",
+        "source": 1,
+        "target": 6,
+        "name": "PROBATOR",
+        "office": "Director of Technical Assurance",
+        "legions": 2,
+        "appearance": "A magnifying glass trained upon its own handle.",
+        "powers": "He permitteth a diagnosis only when no doubt can remain about it.",
+        "binding": "Proof that the proposed action cannot produce any further incident.",
+        "seal": "A red closed ring: the proof required to enter is held inside.",
+        "actual_effect": "Required proof obtainable only after the repair; withheld permission to repair.",
+        "mark": 2
+      },
+      "prompt": "Precise local edit. Supplied PROBATOR magnifying instrument is the EDIT TARGET. Change ONLY the tiny gap at twelve o'clock in the small red circular SEAL on the instrument HANDLE. Join the red ends with a short red #a32b24 stroke to make that SMALL ring fully CLOSED, continuous for all 360 degrees. Do not change the large magnifying LENS, its circular rim, the enlarged handle seen through it, the lattice body, colour, cream ground, composition, linework or any other detail. The only red shape is the fully CLOSED small ring on the handle, centre empty cream. No text, lettering, numbers, border or extra objects. Retain portrait PNG 2:3.",
+      "seed": null,
+      "seed_status": "not exposed by generator",
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "attempt": 2,
+      "status": "superseded",
+      "reference_images": [
+        "attempts/probator-raster-reference-v01.png"
+      ],
+      "file": "attempts/probator-raster-reference-v02.png",
+      "qa_notes": null,
+      "reason_for_next_attempt": "First targeted edit left the gap in the ring.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "9e650d3ca0f99579b1b07bfd24cfe0f834125997a35676b3e5dbbcac90998cbc"
+    }
+  ],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly; only other hue"
+  },
+  "technical": {
+    "format": "PNG",
+    "aspect_ratio": "2:3",
+    "requested_size": [
+      2048,
+      3072
+    ],
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "upscaled": false,
+    "traced": false,
+    "vectorised": false,
+    "pixel_edits_outside_imagegen": false,
+    "seed": null,
+    "note": "Native generated assets retained byte-for-byte. Ground/ink colours are generation targets, not guarantees of exact pixel values; subtle ground variation and differences in margins remain. Corrections can introduce some local wash variation."
+  },
+  "process": {
+    "stop_after_batch": true,
+    "batch_size": 7,
+    "next_subject": "JURISIEL"
+  },
+  "interpretation_notes": [
+    "Viridon's canonical green pane translated to slate, respecting the fixed palette. Lamp seal is a red self-returning loop rather than a literal report box.",
+    "Redacth's initials and Velaroth's heading remain unlettered under the no-text rule.",
+    "Promissor is a self-contained floor fragment, no surrounding room. The added branch is rendered as a red departure thread.",
+    "Choraz required one count correction, Probator two ring corrections; all were disclosed before generation and all superseded images retained.",
+    "Handoff portraits retain requested 2:3 format even where their bodies are devices."
+  ]
+}

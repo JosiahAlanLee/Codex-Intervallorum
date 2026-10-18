@@ -1,0 +1,30 @@
+[
+  {
+    "name": "the-open-workshop",
+    "asset": "the-open-workshop.jpg",
+    "placement": "Frontispiece",
+    "prompt": "the-open-workshop-prompt.txt",
+    "method": "Built-in imagegen; original composition; JPEG encoding only, no semantic image edit",
+    "original_filename": "exec-9d3b4ff1-22ce-42f9-8ffa-2a4bb44f79ba.png",
+    "original_sha256": "e791b0da52222c2dcfbe521077b3421ab44a54921694f1865a4d6ab375388f25",
+    "prepared_sha256": "bbc25ddd2343e79205aadaa29b9da8de0d14e915aaa26115016561490bc84b38",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "the-empty-cabinet",
+    "asset": "the-empty-cabinet.jpg",
+    "placement": "Interlude before operation VI",
+    "prompt": "the-empty-cabinet-prompt.txt",
+    "method": "Built-in imagegen; original composition; JPEG encoding only, no semantic image edit",
+    "original_filename": "exec-01ed984e-f446-4549-8ffd-6dc96ba70093.png",
+    "original_sha256": "5cb31e01e23e4b934bacbfe16eaab6069292e5e6376c08be37c498916551f95a",
+    "prepared_sha256": "58d22fa782509d967fb8dfc26fe2f3ef058c44a17384f88995f39fa005837c3e",
+    "size": [
+      1086,
+      1448
+    ]
+  }
+]

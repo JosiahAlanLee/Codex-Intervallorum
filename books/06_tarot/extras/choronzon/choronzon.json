@@ -1,0 +1,62 @@
+{
+  "title": "Choronzon — The Dispersal",
+  "scope": "Extra unnumbered arcanum; two raster studies, not part of the conventional twenty-two.",
+  "interpretation": "Competing partial identities around an absent centre; the broken red boundary leaves containment unresolved.",
+  "source_trail": [
+    {
+      "work": "Aleister Crowley, The Vision and the Voice, Tenth Aethyr (ZAX)",
+      "url": "https://sacred-texts.com/oto/418/aetyr10.htm",
+      "inspected": "2026-10-17",
+      "use": "Changing forms and absence of a stable self; card symbolism is an original interpretation."
+    }
+  ],
+  "production": "Complete card, lettering and border generated as raster, unlike separately typeset suit cards. Native PNGs unchanged. No plot master or physical card size is claimed.",
+  "versions": [
+    {
+      "version": 1,
+      "file": "choronzon-the-dispersal-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "d6f1f2ae712d3c1e59ce8f2aeaf7c80f9ef40e13642ec31ccb547bc35f6257bf",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished raster tarot card, an extra unnumbered arcanum for Tarot of Intervals, portrait 2:3.\nInput image 1 is STYLE REFERENCE ONLY: match its extraordinarily fine engraved pen line, open cellular webbing, small slate compartments, restrained ochre and precise human facial drawing. Create a wholly new subject, not another cup queen.\nSubject: CHORONZON, interpreted as THE DISPERSAL. An unsettling androgynous robed human stands centrally, full length, occupying the card interior. At the head, one exceptionally legible calm human face appears momentarily coherent, while its side contours peel apart into several incompatible human profiles, hollow face shells and a few small open mouths. Every profile exquisitely drawn, neither blurry nor a random pile of heads. No profile wears a crown or takes command. The head's displaced contours continue as airy ribbons of cellular lattice through the shoulders, chest and robe, which loses its agreement with itself: several incomplete overlapping contours, some beautiful and orderly, others breaking into small discrete black line fragments. The torso has a small clean cream opening where a definitive centre might be expected. Two anatomically convincing hands extend from two readable arms: one open, one carefully holding a fragment of its own empty mask. The body ends in delicate broken trailing lattice strands and terminal dots, leaving plenty of cream visible through and around it.\nAt the feet ONE vermilion-red intervention, a single thin ellipse drawn on the ground nearly surrounding the figure but ending short of closing, a conspicuous small gap with two free ends. All other marks near-black, tiny slate and ochre only. No additional red details.\nThe emotional effect is lucid seduction and unstable identity, complexity unable to establish a centre. Not a horned Devil, not a muscular demon, no goat, no wings, no chains, no pentagram, no gore, no horror lighting. Do not turn the scene into a dense dark mass. Use a light touch and spatial clarity.\nGround: unbleached cream around #ede6d4, flat and uniform, no parchment distress, no vignette, no texture gradients. Near-black #161918 line; red target #a32b24; slate #4f6f7a and tiny ochre. Fine line engraving, etched contour and sparse hatch, lineart with light wash at most. No photographic lighting, no 3D rendering, no painterly shading.\nCard furniture: precise restrained double hairline rectangular border with generous margins in near-black. Small near-black asterisk centred at top instead of a number, then small elegant antique serif uppercase \"CHORONZON\". Thin short divider. Illustration below. Lower thin divider and elegant serif uppercase title exactly \"THE DISPERSAL\". Small muted slate serif text beneath exactly \"MULTIPLICITY / FALSE CENTRE\". Typography should resemble IM Fell English, legible and restrained. No other writing, no pseudo-text, no runes or numerals. Keep all artwork clear of title/footer and border.\nRender one complete card only, no desk, no mockup, no multiple panels.\n",
+      "generator": "built-in image_gen",
+      "seed": null,
+      "model_version": null,
+      "status": "initial study",
+      "red_check": {
+        "target": "#a32b24",
+        "median": "#b5080c",
+        "candidate_pixels": 2476,
+        "eroded_core_pixels": 70,
+        "exact_target_pixels": 0,
+        "pixels_modified": false,
+        "method": "Raw decoded RGB treated as sRGB. Candidate mask and 3x3 erosion match the suit reports; median is diagnostic, not recovered ink."
+      }
+    },
+    {
+      "version": 2,
+      "file": "choronzon-the-dispersal-v02.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ae5baa465cf01a902b8226d6cb73d2a8b5cdead0a76a176672a5fa0ae83348e8",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the supplied Choronzon / The Dispersal tarot card. Produce a second version with ONE conceptual change: remove the visual authority of the central face.\nKeep the portrait 2:3 format, fine engraved pen line quality, cream paper ground (#ede6d4), near-black (#161918) cellular lattice, slate (#4f6f7a) compartments, sparse ochre, full-length robed figure, two anatomically readable arms and hands, hollow cream torso centre, terminal-dot hanging lines, exact double frame and all typography. Retain exact text: CHORONZON, THE DISPERSAL, MULTIPLICITY / FALSE CENTRE, with a small asterisk at top.\nReconstruct only the head/upper mantle: remove the existing large intact central face completely. In its place leave an irregular clean cream opening, with no eyes or nose lurking in the opening. Arrange four beautifully precise human half-faces/profiles of equal size and similar visual weight around this absent centre. They look in incompatible directions; no largest or central face; they must feel like rival partial identities, not a ruler with servants. Use interrupted brows and half-mask edges, airy gaps and delicate connective filaments. Avoid a radial flower or symmetrical deity arrangement. Preserve some small open mouths but keep the facial drawing lucid and elegant. The detached mask already in the right hand should also remain a partial shell of approximately the same size as these profiles, rather than becoming a new dominant face.\nKeep the body and lower composition as close as possible to the reference. Preserve ONE single thin red broken ellipse at the feet and its visible gap, no additional red. For its un-antialiased stroke interiors aim specifically for dark brick red RGB (163,43,36), hex #a32b24, rather than bright scarlet. No other new imagery. No painterly shading, 3D lighting, gore, extra hands, horns or pseudo-writing.\nThe intended difference is that the viewer can no longer select a single face as the true occupant. This should still look like the same beautifully detailed card, not an unrelated redesign.\n",
+      "generator": "built-in image_gen",
+      "seed": null,
+      "model_version": null,
+      "status": "second study: no central face",
+      "red_check": {
+        "target": "#a32b24",
+        "median": "#b6171a",
+        "candidate_pixels": 2519,
+        "eroded_core_pixels": 78,
+        "exact_target_pixels": 0,
+        "pixels_modified": false,
+        "method": "Raw decoded RGB treated as sRGB. Candidate mask and 3x3 erosion match the suit reports; median is diagnostic, not recovered ink."
+      }
+    }
+  ]
+}

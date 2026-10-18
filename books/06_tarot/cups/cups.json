@@ -1,0 +1,1527 @@
+{
+  "cards": [
+    {
+      "index": 0,
+      "slug": "01-ace-of-cups",
+      "rank": "I",
+      "numeral": "1",
+      "archetype": "Ace of Cups",
+      "name": "Ace of Cups",
+      "title": "The First Vessel",
+      "keywords": "RECEPTION / CAPACITY",
+      "expected_cup_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: ACE OF CUPS.\nA single large chalice, its bowl an open cellular lattice with cream voids and tiny slate reservoirs, is held upright by ONE anatomically coherent hand emerging horizontally from a small airy root-cloud at left. Five hairline near-black streams spill from its rim into a branching root network below; the streams are lines, not filled liquid. The bowl has one short RED seam down its front, the only red. No other vessel, dove, stars or face. Its rim, stem and foot are unmistakable; no extra bowl-shaped ornaments.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A single vessel reaches a branching ground through fine hanging lines. Reception has a material capacity and a place for what passes onward.",
+      "upright": "A beginning in feeling; receptivity; capacity made available.",
+      "reversed": "Overflow; an offer exceeding its container; giving without replenishment.",
+      "question": "What can receive this, and where will the excess go?",
+      "reference_card_indices": [],
+      "reference_kind": "Foras v02 and Star style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: ACE OF CUPS.\nA single large chalice, its bowl an open cellular lattice with cream voids and tiny slate reservoirs, is held upright by ONE anatomically coherent hand emerging horizontally from a small airy root-cloud at left. Five hairline near-black streams spill from its rim into a branching root network below; the streams are lines, not filled liquid. The bowl has one short RED seam down its front, the only red. No other vessel, dove, stars or face. Its rim, stem and foot are unmistakable; no extra bowl-shaped ornaments.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/01-ace-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "4610ab30365fb891284bbeacad560b140a71c8231bc44fac536c7d91a6e33b43"
+      },
+      "card_file": "cards/01-ace-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "e059f5a30b7d8e37f9afb0ed44b2f4080245db5d4865bd6659ade62aff46d051",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/01-ace-of-cups-v01.png",
+        "sha256": "4610ab30365fb891284bbeacad560b140a71c8231bc44fac536c7d91a6e33b43",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1289,
+        "eroded_core_pixels": 323,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          167.0,
+          20.0,
+          21.0
+        ],
+        "median_red_hex_rounded": "#a71415",
+        "modal_red_hex": "#8c0000",
+        "modal_frequency": 2,
+        "unique_sample_colours": 322,
+        "nearest_candidate_hex": "#a42b24",
+        "median_max_channel_error": 33.0,
+        "p95_max_channel_error": 53.0,
+        "sample_fraction_within_5_per_channel": 0.0030959752321981426,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ace of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 1,
+      "slug": "02-two-of-cups",
+      "rank": "II",
+      "numeral": "2",
+      "archetype": "Two of Cups",
+      "name": "Two of Cups",
+      "title": "The Exchange",
+      "keywords": "RECIPROCITY / CONSENT",
+      "expected_cup_count": 2,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: TWO OF CUPS.\nTWO full-length adult human keepers stand facing each other with clear individual faces, one older and one younger adult, in porous lattice robes. Each has exactly TWO arms and TWO hands. Each keeper holds exactly ONE upright chalice by its stem in the nearer hand, offering the cups toward a cream gap at centre; their other hands remain open and visibly attached to their bodies. TWO cups total, no overlap. One thin RED thread loosely links their cup stems across the gap, without binding either wrist. A small unlettered branching arch overhead echoes exchange, not a third vessel. No third figure.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Two people offer separate cups across a gap. The thread connects vessels without erasing their owners.",
+      "upright": "Mutual recognition; exchange; an agreement that can be renewed.",
+      "reversed": "Unequal terms; a bond mistaken for permission; apparent symmetry.",
+      "question": "Can either person decline this exchange?",
+      "reference_card_indices": [],
+      "reference_kind": "Foras v02 and Star style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: TWO OF CUPS.\nTWO full-length adult human keepers stand facing each other with clear individual faces, one older and one younger adult, in porous lattice robes. Each has exactly TWO arms and TWO hands. Each keeper holds exactly ONE upright chalice by its stem in the nearer hand, offering the cups toward a cream gap at centre; their other hands remain open and visibly attached to their bodies. TWO cups total, no overlap. One thin RED thread loosely links their cup stems across the gap, without binding either wrist. A small unlettered branching arch overhead echoes exchange, not a third vessel. No third figure.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 2,
+        "observed": 2,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/02-two-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "b50fa6d02e09706dea3fc52c5fbb03a63ab0efc30e1bfb9eba8168a9dd1d591e"
+      },
+      "card_file": "cards/02-two-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "8647f79b3403b1f5eb707d0a94b40c9904cf752053cd710bc85bac5138588eab",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/02-two-of-cups-v01.png",
+        "sha256": "b50fa6d02e09706dea3fc52c5fbb03a63ab0efc30e1bfb9eba8168a9dd1d591e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 582,
+        "eroded_core_pixels": 46,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          142.5,
+          6.5,
+          9.0
+        ],
+        "median_red_hex_rounded": "#8f0709",
+        "modal_red_hex": "#690002",
+        "modal_frequency": 1,
+        "unique_sample_colours": 46,
+        "nearest_candidate_hex": "#a72826",
+        "median_max_channel_error": 37.5,
+        "p95_max_channel_error": 52.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Two of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 2,
+      "slug": "03-three-of-cups",
+      "rank": "III",
+      "numeral": "3",
+      "archetype": "Three of Cups",
+      "name": "Three of Cups",
+      "title": "The Shared Table",
+      "keywords": "COMPANY / CIRCULATION",
+      "expected_cup_count": 3,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: THREE OF CUPS.\nTHREE full-length adult celebrants in a loose triangular circle, each with a distinct human face and exactly two arms. They lift exactly THREE chalices, ONE chalice per person, held by three clearly visible hands with anatomically coherent fingers around stems. The other three hands rest open at their own waists. Every cup bowl and stem is separate, not merged into a single ornament. Cellular robes interlace through a few ground roots while air remains between bodies. One short RED wrist thread belongs to the left figure only. No tableware, bottles or additional vessels. Warm but unsettling, not smiling caricature.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Three vessels are raised together, while each person retains a separate place in the gathering.",
+      "upright": "Companionship; circulation; a celebration sustained by participants.",
+      "reversed": "An exclusive circle; compulsory cheer; social giving without return.",
+      "question": "Who can join, leave, or rest here?",
+      "reference_card_indices": [],
+      "reference_kind": "Foras v02 and Star style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: THREE OF CUPS.\nTHREE full-length adult celebrants in a loose triangular circle, each with a distinct human face and exactly two arms. They lift exactly THREE chalices, ONE chalice per person, held by three clearly visible hands with anatomically coherent fingers around stems. The other three hands rest open at their own waists. Every cup bowl and stem is separate, not merged into a single ornament. Cellular robes interlace through a few ground roots while air remains between bodies. One short RED wrist thread belongs to the left figure only. No tableware, bottles or additional vessels. Warm but unsettling, not smiling caricature.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 3,
+        "observed": 3,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/03-three-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "d2d9e591543f3363245dc6ef98b94689061de0b9039af88acab1d75360269b2f"
+      },
+      "card_file": "cards/03-three-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "3035dc6fedb0bbc2ea81db63a874fcdac9efe4b9f2c0b5f0d0f2ef2a6eb4c8f2",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/03-three-of-cups-v01.png",
+        "sha256": "d2d9e591543f3363245dc6ef98b94689061de0b9039af88acab1d75360269b2f",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 816,
+        "eroded_core_pixels": 50,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          187.5,
+          33.5,
+          19.0
+        ],
+        "median_red_hex_rounded": "#bc2213",
+        "modal_red_hex": "#96160f",
+        "modal_frequency": 1,
+        "unique_sample_colours": 50,
+        "nearest_candidate_hex": "#a72a25",
+        "median_max_channel_error": 28.5,
+        "p95_max_channel_error": 51.55,
+        "sample_fraction_within_5_per_channel": 0.02,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Three of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 3,
+      "slug": "04-four-of-cups",
+      "rank": "IV",
+      "numeral": "4",
+      "archetype": "Four of Cups",
+      "name": "Four of Cups",
+      "title": "The Unreceived Gift",
+      "keywords": "PAUSE / REFUSAL",
+      "expected_cup_count": 4,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: FOUR OF CUPS.\nOne full-length seated adult keeper in a cellular robe sits beneath a single sparse branching limb, two arms folded loosely across the lap, face thoughtful and looking away. Exactly THREE upright chalices stand in a clean foreground row with separated bowls and feet. A FOURTH chalice is offered at shoulder height from the right by ONE detached symbolic hand emerging from a small open root-cloud; the hand visibly grips its stem. The seated figure is not reaching. Exactly FOUR cups total. One small RED thread forms an incomplete ring on the ground under the seated figure, clear of all cup silhouettes. No extra cups or fruit shaped like cups.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Three familiar cups remain available while a fourth is offered. A pause does not establish that the offer must be accepted.",
+      "upright": "Reflection; refusal; attention withheld for a reason.",
+      "reversed": "Numbness; an offer unseen; refusal that no longer serves its purpose.",
+      "question": "What would make this offer worth receiving?",
+      "reference_card_indices": [],
+      "reference_kind": "Foras v02 and Star style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Foras) and input image 2 (Star) are STYLE references. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: FOUR OF CUPS.\nOne full-length seated adult keeper in a cellular robe sits beneath a single sparse branching limb, two arms folded loosely across the lap, face thoughtful and looking away. Exactly THREE upright chalices stand in a clean foreground row with separated bowls and feet. A FOURTH chalice is offered at shoulder height from the right by ONE detached symbolic hand emerging from a small open root-cloud; the hand visibly grips its stem. The seated figure is not reaching. Exactly FOUR cups total. One small RED thread forms an incomplete ring on the ground under the seated figure, clear of all cup silhouettes. No extra cups or fruit shaped like cups.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 4,
+        "observed": 4,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Two seated arms plus one separate symbolic offering hand."
+      },
+      "source_art": {
+        "file": "art/04-four-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "f409861101490f7ba0daa71ce096488823b45898d823efff4349cb549cc9456e"
+      },
+      "card_file": "cards/04-four-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        },
+        {
+          "file": "17-the-star-native.png",
+          "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "d28956f68076d6729a6f32374db112a0bb7956e00eb604526f72e42e7398c716",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/04-four-of-cups-v01.png",
+        "sha256": "f409861101490f7ba0daa71ce096488823b45898d823efff4349cb549cc9456e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2004,
+        "eroded_core_pixels": 265,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          161.0,
+          17.0,
+          13.0
+        ],
+        "median_red_hex_rounded": "#a1110d",
+        "modal_red_hex": "#9d1712",
+        "modal_frequency": 2,
+        "unique_sample_colours": 262,
+        "nearest_candidate_hex": "#a32d24",
+        "median_max_channel_error": 27.0,
+        "p95_max_channel_error": 37.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Four of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 4,
+      "slug": "05-five-of-cups",
+      "rank": "V",
+      "numeral": "5",
+      "archetype": "Five of Cups",
+      "name": "Five of Cups",
+      "title": "The Remaining Cups",
+      "keywords": "LOSS / REMAINDER",
+      "expected_cup_count": 5,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe two recent Cups images are STYLE references only. Match their drawing vocabulary and cream, near-black, slate, ochre and single red intervention. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: FIVE OF CUPS.\nOne full-length hooded mourner in three-quarter rear view, a slight human profile visible, surrounded by exactly FIVE chalices. THREE fallen chalices lie in separate positions at lower left, their rims, stems and feet complete and countable; sparse slate line-spills escape them. TWO upright chalices stand at lower right behind the figure, fully visible and clearly apart. No cup is carried. One thin RED thread leaves the mourner's wrist and ends beside a fallen chalice, not forming a sixth vessel. Open cream background; a tiny broken root bridge near the feet, no landscape. The upright pair do not erase the loss.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Three fallen cups and two standing ones occupy the same ground. What remains does not compensate by arithmetic.",
+      "upright": "Grief; taking account of loss; noticing what remains.",
+      "reversed": "A remainder made into a demand to recover; attention trapped by the spill.",
+      "question": "What needs mourning before any next step is useful?",
+      "reference_card_indices": [
+        2,
+        3
+      ],
+      "reference_kind": "Recent Cups illustration(s), style reference only",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe two recent Cups images are STYLE references only. Match their drawing vocabulary and cream, near-black, slate, ochre and single red intervention. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: FIVE OF CUPS.\nOne full-length hooded mourner in three-quarter rear view, a slight human profile visible, surrounded by exactly FIVE chalices. THREE fallen chalices lie in separate positions at lower left, their rims, stems and feet complete and countable; sparse slate line-spills escape them. TWO upright chalices stand at lower right behind the figure, fully visible and clearly apart. No cup is carried. One thin RED thread leaves the mourner's wrist and ends beside a fallen chalice, not forming a sixth vessel. Open cream background; a tiny broken root bridge near the feet, no landscape. The upright pair do not erase the loss.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 5,
+        "observed": 5,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/05-five-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "28d69287fe62fb382cf6b958e17e05c4a15eebc4bbbc73b66d64100e67bd4d78"
+      },
+      "card_file": "cards/05-five-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "Three Chalices, One Unsettled Circle.png",
+          "sha256": "d2d9e591543f3363245dc6ef98b94689061de0b9039af88acab1d75360269b2f"
+        },
+        {
+          "file": "Four Chalices Under a Quiet Bough.png",
+          "sha256": "f409861101490f7ba0daa71ce096488823b45898d823efff4349cb549cc9456e"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "c9bbfc890eea737f540a7c5fd8846a7a45a99124ea6d127688a114d8eb7b4a17",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/05-five-of-cups-v01.png",
+        "sha256": "28d69287fe62fb382cf6b958e17e05c4a15eebc4bbbc73b66d64100e67bd4d78",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1782,
+        "eroded_core_pixels": 161,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 1,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          139.0,
+          9.0,
+          7.0
+        ],
+        "median_red_hex_rounded": "#8b0907",
+        "modal_red_hex": "#7f0203",
+        "modal_frequency": 3,
+        "unique_sample_colours": 154,
+        "nearest_candidate_hex": "#a32b24",
+        "median_max_channel_error": 34.0,
+        "p95_max_channel_error": 51.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Five of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 5,
+      "slug": "06-six-of-cups",
+      "rank": "VI",
+      "numeral": "6",
+      "archetype": "Six of Cups",
+      "name": "Six of Cups",
+      "title": "The Flowered Record",
+      "keywords": "MEMORY / TRANSMISSION",
+      "expected_cup_count": 6,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Five of Cups is a STYLE reference only. Match its pen drawing hand and palette; create the different subject described below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: SIX OF CUPS.\nExactly SIX chalices, each holding a small unmistakable flowering sprig drawn in near-black with sparse slate leaves and tiny ochre centres. FIVE chalices stand separately on the low ground in a staggered arrangement, all rims and stems visible. The SIXTH cup is being offered between a youthful adult and an elderly adult, both in full-length lattice robes; it is the only held cup. The giver's hand visibly grips the one stem, the receiver's open hands approach without generating another vessel. The two faces are distinct in age. One short RED stitch on the elderly figure's sleeve is the only red. No other container, flowerpot or bowl.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A flowered cup passes between generations. Memory is carried through a present exchange.",
+      "upright": "A remembered kindness; transmission; care with a history.",
+      "reversed": "Nostalgia replacing the record; an inherited obligation mistaken for a gift.",
+      "question": "What is being passed on, and what has changed in the passing?",
+      "reference_card_indices": [
+        4
+      ],
+      "reference_kind": "Recent Cups illustration(s), style reference only",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Five of Cups is a STYLE reference only. Match its pen drawing hand and palette; create the different subject described below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: SIX OF CUPS.\nExactly SIX chalices, each holding a small unmistakable flowering sprig drawn in near-black with sparse slate leaves and tiny ochre centres. FIVE chalices stand separately on the low ground in a staggered arrangement, all rims and stems visible. The SIXTH cup is being offered between a youthful adult and an elderly adult, both in full-length lattice robes; it is the only held cup. The giver's hand visibly grips the one stem, the receiver's open hands approach without generating another vessel. The two faces are distinct in age. One short RED stitch on the elderly figure's sleeve is the only red. No other container, flowerpot or bowl.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 6,
+        "observed": 6,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/06-six-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41"
+      },
+      "card_file": "cards/06-six-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "Five of Cups: hooded mourner.png",
+          "sha256": "28d69287fe62fb382cf6b958e17e05c4a15eebc4bbbc73b66d64100e67bd4d78"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "317ee77c06aff5c2c3b7542186d8a04444000d997648abebce776b9e61f19442",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/06-six-of-cups-v01.png",
+        "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 557,
+        "eroded_core_pixels": 72,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          159.0,
+          33.0,
+          30.0
+        ],
+        "median_red_hex_rounded": "#9f211e",
+        "modal_red_hex": "#5b0e12",
+        "modal_frequency": 1,
+        "unique_sample_colours": 72,
+        "nearest_candidate_hex": "#a12923",
+        "median_max_channel_error": 25.5,
+        "p95_max_channel_error": 56.45,
+        "sample_fraction_within_5_per_channel": 0.013888888888888888,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Six of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 6,
+      "slug": "07-seven-of-cups",
+      "rank": "VII",
+      "numeral": "7",
+      "archetype": "Seven of Cups",
+      "name": "Seven of Cups",
+      "title": "The Offered Worlds",
+      "keywords": "POSSIBILITY / PROJECTION",
+      "expected_cup_count": 7,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Six of Cups is a STYLE reference only. Match its engraved drawing hand and palette; create the different subject below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: SEVEN OF CUPS.\nExactly SEVEN complete chalices float separately in an airy branching shelf-network above one small full-length observer seen from behind. Arrange three cups in an upper row and four in a lower row, with generous air between every bowl. Each chalice has a visible rim, stem and foot. They contain seven DIFFERENT modest emblems: an unmasked human face, a folded veil, a small house roof, a faceted stone, a laurel twig, a curled serpent, and one EMPTY cup. No emblem resembles another cup. Only the empty cup has a RED thread hanging from its stem, ending in one dot. The observer has two arms lowered and no held cup. No clouds of painted colour, extra vessels or text.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Seven vessels offer different contents, including an empty one. Projection can supply what the vessel does not.",
+      "upright": "Possibilities; imaginative reach; several meanings held open.",
+      "reversed": "Seductive display; projection; choices with no declared cost.",
+      "question": "Which possibility has evidence beyond its appearance?",
+      "reference_card_indices": [
+        5
+      ],
+      "reference_kind": "Recent Cups illustration(s), style reference only",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Six of Cups is a STYLE reference only. Match its engraved drawing hand and palette; create the different subject below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: SEVEN OF CUPS.\nExactly SEVEN complete chalices float separately in an airy branching shelf-network above one small full-length observer seen from behind. Arrange three cups in an upper row and four in a lower row, with generous air between every bowl. Each chalice has a visible rim, stem and foot. They contain seven DIFFERENT modest emblems: an unmasked human face, a folded veil, a small house roof, a faceted stone, a laurel twig, a curled serpent, and one EMPTY cup. No emblem resembles another cup. Only the empty cup has a RED thread hanging from its stem, ending in one dot. The observer has two arms lowered and no held cup. No clouds of painted colour, extra vessels or text.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 7,
+        "observed": 7,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/07-seven-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "7ca5f0609935b75d4eb0cba0590ef53cf44f3e56e1ed84bdc2dac63c5b5939e2"
+      },
+      "card_file": "cards/07-seven-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-a75afc36-d1cb-449a-8ace-190b0660e720.png",
+          "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "c13b3c139c35736f0b561f5d1609dc598426a3803c65664d209d8c686d9a91bf",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/07-seven-of-cups-v01.png",
+        "sha256": "7ca5f0609935b75d4eb0cba0590ef53cf44f3e56e1ed84bdc2dac63c5b5939e2",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 423,
+        "eroded_core_pixels": 36,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          143.5,
+          3.0,
+          4.5
+        ],
+        "median_red_hex_rounded": "#900305",
+        "modal_red_hex": "#780000",
+        "modal_frequency": 1,
+        "unique_sample_colours": 36,
+        "nearest_candidate_hex": "#a92120",
+        "median_max_channel_error": 41.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Seven of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 7,
+      "slug": "08-eight-of-cups",
+      "rank": "VIII",
+      "numeral": "8",
+      "archetype": "Eight of Cups",
+      "name": "Eight of Cups",
+      "title": "The Leaving",
+      "keywords": "DEPARTURE / LIMIT",
+      "expected_cup_count": 8,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Seven of Cups is a STYLE reference only. Match its engraved drawing hand and palette; create the different subject below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: EIGHT OF CUPS.\nExactly EIGHT upright chalices form a low openwork rack in the foreground: FIVE in a lower row and THREE in an upper row. Every cup has a separate complete visible bowl, stem and foot; upper cups do not sit inside lower bowls. One full-length hooded traveller, with exactly two arms and two legs, walks away behind the rack toward open cream space, turned three-quarter rearward. Their walking staff is a straight unadorned rod, not a vessel. A thin near-black crescent hangs high in the otherwise empty ground. One RED thread is tied to the rightmost lower cup and trails a short way toward the traveller but stops before reaching them. No ninth cup.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Eight vessels are left standing. Departure need not wait for their contents to become worthless.",
+      "upright": "Leaving an exhausted arrangement; recognising a limit; distance.",
+      "reversed": "Flight that repeats a pattern; remaining only because an investment was made.",
+      "question": "What can be left intact when you leave?",
+      "reference_card_indices": [
+        6
+      ],
+      "reference_kind": "Recent Cups illustration(s), style reference only",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Seven of Cups is a STYLE reference only. Match its engraved drawing hand and palette; create the different subject below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: EIGHT OF CUPS.\nExactly EIGHT upright chalices form a low openwork rack in the foreground: FIVE in a lower row and THREE in an upper row. Every cup has a separate complete visible bowl, stem and foot; upper cups do not sit inside lower bowls. One full-length hooded traveller, with exactly two arms and two legs, walks away behind the rack toward open cream space, turned three-quarter rearward. Their walking staff is a straight unadorned rod, not a vessel. A thin near-black crescent hangs high in the otherwise empty ground. One RED thread is tied to the rightmost lower cup and trails a short way toward the traveller but stops before reaching them. No ninth cup.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 8,
+        "observed": 8,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/08-eight-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "2e4636bd1923b71a3e8561d6abd5cc273b228f0802391653efed283dc1c9d06d"
+      },
+      "card_file": "cards/08-eight-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-3fecef9e-2805-4294-aaf2-7b46a7906f8f.png",
+          "sha256": "7ca5f0609935b75d4eb0cba0590ef53cf44f3e56e1ed84bdc2dac63c5b5939e2"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "cff8d77a3d5d42949390734d1e03ed47994bedc20246a840fe6587126f58b2fd",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/08-eight-of-cups-v01.png",
+        "sha256": "2e4636bd1923b71a3e8561d6abd5cc273b228f0802391653efed283dc1c9d06d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2555,
+        "eroded_core_pixels": 143,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          167.0,
+          5.0,
+          5.0
+        ],
+        "median_red_hex_rounded": "#a70505",
+        "modal_red_hex": "#a50607",
+        "modal_frequency": 3,
+        "unique_sample_colours": 139,
+        "nearest_candidate_hex": "#a32c25",
+        "median_max_channel_error": 38.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Eight of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 8,
+      "slug": "09-nine-of-cups",
+      "rank": "IX",
+      "numeral": "9",
+      "archetype": "Nine of Cups",
+      "name": "Nine of Cups",
+      "title": "The Kept Plenty",
+      "keywords": "SATIETY / RESERVE",
+      "expected_cup_count": 9,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe two recent Cups images are STYLE references only. Match their drawing vocabulary and cream, near-black, slate, ochre and single red intervention. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: NINE OF CUPS.\nExactly NINE upright chalices stand on one airy curved openwork shelf behind a seated adult keeper, in a single shallow arc with every full cup outline visible. Arrange them with even separation; no cup is hidden behind the head. The keeper faces the viewer with a calm individual human face, two forearms crossed loosely across the abdomen and exactly two hands, cellular robe spread around an openwork stool. No cup is held. One RED knot at the keeper's wrist is the only red. The scene has ease with a slight possessive tension, no feast, food, bottles or extra cups. Nine countable bowls, nine stems, nine feet.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Nine cups make plenty visible. Their keeper can enjoy a reserve or make it into a wall.",
+      "upright": "Satisfaction; sufficiency; a reserve that can be enjoyed.",
+      "reversed": "Hoarding; satisfaction staged for an audience; enough becoming never enough.",
+      "question": "What would enough permit you to stop doing?",
+      "reference_card_indices": [
+        2,
+        3
+      ],
+      "reference_kind": "Recent Cups illustration(s), style reference only",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe two recent Cups images are STYLE references only. Match their drawing vocabulary and cream, near-black, slate, ochre and single red intervention. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: NINE OF CUPS.\nExactly NINE upright chalices stand on one airy curved openwork shelf behind a seated adult keeper, in a single shallow arc with every full cup outline visible. Arrange them with even separation; no cup is hidden behind the head. The keeper faces the viewer with a calm individual human face, two forearms crossed loosely across the abdomen and exactly two hands, cellular robe spread around an openwork stool. No cup is held. One RED knot at the keeper's wrist is the only red. The scene has ease with a slight possessive tension, no feast, food, bottles or extra cups. Nine countable bowls, nine stems, nine feet.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 9,
+        "observed": 9,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/09-nine-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "12b58397907221f6e2a4e28edfe283b15cc08a58386146fde282fc7e2e76e226"
+      },
+      "card_file": "cards/09-nine-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "Three Chalices, One Unsettled Circle.png",
+          "sha256": "d2d9e591543f3363245dc6ef98b94689061de0b9039af88acab1d75360269b2f"
+        },
+        {
+          "file": "Four Chalices Under a Quiet Bough.png",
+          "sha256": "f409861101490f7ba0daa71ce096488823b45898d823efff4349cb549cc9456e"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "72ddd22f84d816acafd667910dc6212b0330a465b32a6e0f681085cbcc49c87a",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/09-nine-of-cups-v01.png",
+        "sha256": "12b58397907221f6e2a4e28edfe283b15cc08a58386146fde282fc7e2e76e226",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 981,
+        "eroded_core_pixels": 96,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          182.0,
+          27.5,
+          22.5
+        ],
+        "median_red_hex_rounded": "#b61c17",
+        "modal_red_hex": "#6f0711",
+        "modal_frequency": 1,
+        "unique_sample_colours": 96,
+        "nearest_candidate_hex": "#a52d25",
+        "median_max_channel_error": 30.0,
+        "p95_max_channel_error": 52.5,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Nine of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 9,
+      "slug": "10-ten-of-cups",
+      "rank": "X",
+      "numeral": "10",
+      "archetype": "Ten of Cups",
+      "name": "Ten of Cups",
+      "title": "The Common Ground",
+      "keywords": "BELONGING / MAINTENANCE",
+      "expected_cup_count": 10,
+      "prompt": "Use case: precise-object-edit. Correct the recent Ten of Cups illustration. Preserve the four figures, their anatomy and faces, cellular robes, shared root-ground and its single red thread, cream background, near-black pen line, slate and ochre accents, overall scale and negative space. The current arch has NINE chalices; it must have exactly TEN. Re-space the whole shallow arch as FIVE cups rising on the LEFT and FIVE cups descending on the RIGHT, with a small open gap at the apex BETWEEN the two highest cups, so there is no single central cup. Each of the TEN cups must have its own distinct complete bowl/rim, stem and foot. Count five on each side. Do not hide any behind the figures, merge any outlines or add bowl-shaped ornament. No text, numerals, border or other objects. Portrait 2:3 PNG. The cup count is the only substantive correction.",
+      "attempt": 2,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "Ten cups span a shared ground. Belonging depends on the work that keeps that ground habitable.",
+      "upright": "Shared joy; belonging; a durable arrangement of care.",
+      "reversed": "An ideal household used as a demand; harmony maintained by silence.",
+      "question": "Whose work holds this shared ground together?",
+      "reference_card_indices": [
+        9
+      ],
+      "reference_kind": "Previous Ten of Cups attempt; cup-count correction",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Eight of Cups is a STYLE reference only. Match its engraved drawing hand and palette; create the different subject below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: TEN OF CUPS.\nExactly TEN upright chalices form ONE high shallow arch above FOUR small full-length human figures: two adults and two younger family members, all in simple cellular robes. The adults' hands are open toward the arch and each other, the younger figures stand on shared branching ground; all limbs coherently attached, no duplicated hands. Ten separate bowls, ten stems and ten feet, all fully visible in a single spaced arch, not stacked, no central extra chalice. A SINGLE RED thread runs along a short section of the shared root-ground beneath the four figures, its ends loose. Sparse slate insets, tiny ochre seams. No rainbow colours, house scenery, flags, flowers in pots or additional vessels.",
+          "status": "superseded",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null,
+          "reason": "The arch contained nine cups instead of ten."
+        },
+        {
+          "attempt": 2,
+          "prompt": "Use case: precise-object-edit. Correct the recent Ten of Cups illustration. Preserve the four figures, their anatomy and faces, cellular robes, shared root-ground and its single red thread, cream background, near-black pen line, slate and ochre accents, overall scale and negative space. The current arch has NINE chalices; it must have exactly TEN. Re-space the whole shallow arch as FIVE cups rising on the LEFT and FIVE cups descending on the RIGHT, with a small open gap at the apex BETWEEN the two highest cups, so there is no single central cup. Each of the TEN cups must have its own distinct complete bowl/rim, stem and foot. Count five on each side. Do not hide any behind the figures, merge any outlines or add bowl-shaped ornament. No text, numerals, border or other objects. Portrait 2:3 PNG. The cup count is the only substantive correction.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null,
+          "correction": "Five cups on each side of the arch."
+        }
+      ],
+      "cup_count_check": {
+        "expected": 10,
+        "observed": 10,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/10-ten-of-cups-v02.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "c3e5733d4e641ba4a97ad617de7d65d8755748fb6b0551a4a1360735652c7739"
+      },
+      "card_file": "cards/10-ten-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-7189a7bc-0170-4b4d-b31b-3e51095bd623.png",
+          "sha256": "21aaba3da3b7747637ac77e4781ef65401e9e5f80374634948db37c8e55e7832"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "9e54d624ecd69ce729092a4dde7665fb2fb7cc8991e1775b6ea9dab3a2c2289f",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/10-ten-of-cups-v02.png",
+        "sha256": "c3e5733d4e641ba4a97ad617de7d65d8755748fb6b0551a4a1360735652c7739",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2934,
+        "eroded_core_pixels": 322,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          176.0,
+          6.0,
+          8.0
+        ],
+        "median_red_hex_rounded": "#b00608",
+        "modal_red_hex": "#7b0000",
+        "modal_frequency": 2,
+        "unique_sample_colours": 316,
+        "nearest_candidate_hex": "#a32a25",
+        "median_max_channel_error": 38.0,
+        "p95_max_channel_error": 47.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ten of Cups",
+        "attempt": 2,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 10,
+      "slug": "11-page-of-cups",
+      "rank": "PAGE",
+      "numeral": "P",
+      "archetype": "Page of Cups",
+      "name": "Page of Cups",
+      "title": "The Unexpected Reply",
+      "keywords": "CURIOSITY / SIGNAL",
+      "expected_cup_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: PAGE OF CUPS.\nOne full-length youthful ADULT androgynous page with a clear expressive human face, fine cellular hood and robe, two arms and two hands. One hand holds exactly ONE upright chalice by its stem at chest height. A small near-black and slate FISH lifts its head from that single cup, facing the surprised but attentive page. The other hand is open near the chest, clearly attached. A short RED thread at the cup-holding wrist is the only red. Fine root lines at the feet and vertical terminal-dot drops in the robe; no sea, extra vessels or fish elsewhere. The fish is a message that was not requested.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A fish answers from a cup. Curiosity begins before the meaning of the reply is settled.",
+      "upright": "An unexpected signal; curiosity; a tentative creative offer.",
+      "reversed": "Overinterpretation; treating surprise as authority; a message forced to fit.",
+      "question": "What did you actually notice before naming what it means?",
+      "reference_card_indices": [
+        5
+      ],
+      "reference_kind": "Six of Cups and Foras v02 style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: PAGE OF CUPS.\nOne full-length youthful ADULT androgynous page with a clear expressive human face, fine cellular hood and robe, two arms and two hands. One hand holds exactly ONE upright chalice by its stem at chest height. A small near-black and slate FISH lifts its head from that single cup, facing the surprised but attentive page. The other hand is open near the chest, clearly attached. A short RED thread at the cup-holding wrist is the only red. Fine root lines at the feet and vertical terminal-dot drops in the robe; no sea, extra vessels or fish elsewhere. The fish is a message that was not requested.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/11-page-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "4e37fb4ac256732c032f0c1011dd2416d4cf31fa3353084220cb0473a72b6ca2"
+      },
+      "card_file": "cards/11-page-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-a75afc36-d1cb-449a-8ace-190b0660e720.png",
+          "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41"
+        },
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "202376518b42969c9279b6fbf3a8fe57a81cda7cc75fda96e82e6bb2466805ff",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/11-page-of-cups-v01.png",
+        "sha256": "4e37fb4ac256732c032f0c1011dd2416d4cf31fa3353084220cb0473a72b6ca2",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 511,
+        "eroded_core_pixels": 19,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          176.0,
+          13.0,
+          10.0
+        ],
+        "median_red_hex_rounded": "#b00d0a",
+        "modal_red_hex": "#820809",
+        "modal_frequency": 1,
+        "unique_sample_colours": 19,
+        "nearest_candidate_hex": "#a22f22",
+        "median_max_channel_error": 31.0,
+        "p95_max_channel_error": 41.199999999999996,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Page of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 11,
+      "slug": "12-knight-of-cups",
+      "rank": "KNIGHT",
+      "numeral": "KN",
+      "archetype": "Knight of Cups",
+      "name": "Knight of Cups",
+      "title": "The Offered Passage",
+      "keywords": "APPROACH / PROPOSAL",
+      "expected_cup_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: KNIGHT OF CUPS.\nOne full-length adult rider in porous cellular cloak sits on a pale near-black-line HORSE walking calmly from left to right. Horse anatomy coherent: one head, one neck, FOUR legs with distinct hooves, no extra limbs; rider has TWO arms and TWO hands. The forward hand visibly grips exactly ONE upright chalice by the stem, held steadily at chest height. The other hand holds a simple rein connected to the bridle. The rider's individual face is visible in profile beneath a delicate lattice hood. ONE short RED wrist thread hangs from the cup-holding wrist. No other vessels, sword, lance or painted landscape. A sparse slate ripple under the front hoof.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A cup is carried toward someone outside the image. An offer becomes meaningful through its approach and terms.",
+      "upright": "A considerate approach; a proposal; imagination brought into motion.",
+      "reversed": "An offer in love with its own image; promises outrunning capacity.",
+      "question": "What would let the recipient assess the offer freely?",
+      "reference_card_indices": [
+        5
+      ],
+      "reference_kind": "Six of Cups and Foras v02 style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: KNIGHT OF CUPS.\nOne full-length adult rider in porous cellular cloak sits on a pale near-black-line HORSE walking calmly from left to right. Horse anatomy coherent: one head, one neck, FOUR legs with distinct hooves, no extra limbs; rider has TWO arms and TWO hands. The forward hand visibly grips exactly ONE upright chalice by the stem, held steadily at chest height. The other hand holds a simple rein connected to the bridle. The rider's individual face is visible in profile beneath a delicate lattice hood. ONE short RED wrist thread hangs from the cup-holding wrist. No other vessels, sword, lance or painted landscape. A sparse slate ripple under the front hoof.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Four separate horse hooves, one rider, visible cup grip and rein hand."
+      },
+      "source_art": {
+        "file": "art/12-knight-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "b0b98573cb0411138297ff4a35da0b12b420e3c298854d684e1e8ecbbb9957a6"
+      },
+      "card_file": "cards/12-knight-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-a75afc36-d1cb-449a-8ace-190b0660e720.png",
+          "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41"
+        },
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "5bdcba4f2777434db9ce66ff75ec792cefada2d76cba9b0d435fbf2a74354be4",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/12-knight-of-cups-v01.png",
+        "sha256": "b0b98573cb0411138297ff4a35da0b12b420e3c298854d684e1e8ecbbb9957a6",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 417,
+        "eroded_core_pixels": 19,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          168.0,
+          20.0,
+          15.0
+        ],
+        "median_red_hex_rounded": "#a8140f",
+        "modal_red_hex": "#820402",
+        "modal_frequency": 1,
+        "unique_sample_colours": 19,
+        "nearest_candidate_hex": "#a92924",
+        "median_max_channel_error": 31.0,
+        "p95_max_channel_error": 49.3,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Knight of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 12,
+      "slug": "13-queen-of-cups",
+      "rank": "QUEEN",
+      "numeral": "Q",
+      "archetype": "Queen of Cups",
+      "name": "Queen of Cups",
+      "title": "The Second Neck",
+      "keywords": "ATTENTION / BOUNDARY",
+      "expected_cup_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: QUEEN OF CUPS.\nOne full-length mature feminine keeper seated three-quarter view on an open cellular chair, with a clear carefully engraved human face and an attentive, self-possessed expression. TWO arms and TWO hands visibly cradle exactly ONE large upright chalice, one hand around its stem and the other supporting its foot. The chalice has ONE fitted closed lid, a low domed cap matching the bowl's rim; no cup-shaped finial and no second bowl. A narrow second neck of lattice beneath the cup suggests a controlled passage, but its silhouette remains a single stem. Robe, hood and chair have generous cellular negative space, sparse slate insets and tiny ochre seams. ONE short RED thread hangs from the cup stem. No extra vessels or water scene.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A lidded vessel is held with attention. Receiving does not require leaving every passage open.",
+      "upright": "Careful attention; emotional discretion; a boundary that permits care.",
+      "reversed": "Absorption without limits; interpretation replacing another person's account.",
+      "question": "What can you hold without taking it over?",
+      "reference_card_indices": [
+        5
+      ],
+      "reference_kind": "Six of Cups and Foras v02 style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: QUEEN OF CUPS.\nOne full-length mature feminine keeper seated three-quarter view on an open cellular chair, with a clear carefully engraved human face and an attentive, self-possessed expression. TWO arms and TWO hands visibly cradle exactly ONE large upright chalice, one hand around its stem and the other supporting its foot. The chalice has ONE fitted closed lid, a low domed cap matching the bowl's rim; no cup-shaped finial and no second bowl. A narrow second neck of lattice beneath the cup suggests a controlled passage, but its silhouette remains a single stem. Robe, hood and chair have generous cellular negative space, sparse slate insets and tiny ochre seams. ONE short RED thread hangs from the cup stem. No extra vessels or water scene.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Two hands visibly support one lidded vessel."
+      },
+      "source_art": {
+        "file": "art/13-queen-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "3ca66f66310112fbf1306854c716cb52dde49c114f2e254c696f9c31c4579e4e"
+      },
+      "card_file": "cards/13-queen-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-a75afc36-d1cb-449a-8ace-190b0660e720.png",
+          "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41"
+        },
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "677c32e4b7e208186d7783e382e0ae97d86a85ab5b9ac337eb9da584a74d0ecb",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/13-queen-of-cups-v01.png",
+        "sha256": "3ca66f66310112fbf1306854c716cb52dde49c114f2e254c696f9c31c4579e4e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 337,
+        "eroded_core_pixels": 21,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          193.0,
+          7.0,
+          4.0
+        ],
+        "median_red_hex_rounded": "#c10704",
+        "modal_red_hex": "#c20604",
+        "modal_frequency": 2,
+        "unique_sample_colours": 19,
+        "nearest_candidate_hex": "#9c2c25",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Queen of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    },
+    {
+      "index": 13,
+      "slug": "14-king-of-cups",
+      "rank": "KING",
+      "numeral": "K",
+      "archetype": "King of Cups",
+      "name": "King of Cups",
+      "title": "The Held Tide",
+      "keywords": "STEWARDSHIP / COMPOSURE",
+      "expected_cup_count": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: KING OF CUPS.\nOne full-length older masculine keeper with an individual human face and short engraved beard sits facing slightly left on an open lattice throne above a few low near-black and slate ripple lines. TWO arms and TWO hands only. The nearer hand visibly holds exactly ONE upright chalice by its stem; the other hand rests open on a plain chair arm, holding nothing. No sceptre or second vessel. The cellular robe and crown are delicate porous branching forms, never bowl-shaped. A SINGLE thin RED thread loops once around the chalice stem and hangs toward the ripples, ending in a dot without reaching the water. Calm without triumph; no ocean landscape or photographic shading.",
+      "attempt": 1,
+      "seed": null,
+      "model_version": null,
+      "generator": "built-in image_gen",
+      "symbolism": "A vessel is kept steady above a moving ground. Composure is an activity, not proof that the disturbance is absent.",
+      "upright": "Steadiness; stewardship; feeling held without immediate discharge.",
+      "reversed": "Control mistaken for care; feeling concealed to preserve authority.",
+      "question": "What disturbance is this composure making room for?",
+      "reference_card_indices": [
+        5
+      ],
+      "reference_kind": "Six of Cups and Foras v02 style references",
+      "generation_history": [
+        {
+          "attempt": 1,
+          "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nInput image 1 (Six of Cups) and input image 2 (Foras) are STYLE references only. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: KING OF CUPS.\nOne full-length older masculine keeper with an individual human face and short engraved beard sits facing slightly left on an open lattice throne above a few low near-black and slate ripple lines. TWO arms and TWO hands only. The nearer hand visibly holds exactly ONE upright chalice by its stem; the other hand rests open on a plain chair arm, holding nothing. No sceptre or second vessel. The cellular robe and crown are delicate porous branching forms, never bowl-shaped. A SINGLE thin RED thread loops once around the chalice stem and hangs toward the ripples, ending in a dot without reaching the water. Calm without triumph; no ocean landscape or photographic shading.",
+          "status": "selected",
+          "generator": "built-in image_gen",
+          "seed": null,
+          "model_version": null
+        }
+      ],
+      "cup_count_check": {
+        "expected": 1,
+        "observed": 1,
+        "method": "Manual visual review of full native render",
+        "passed": true
+      },
+      "anatomy_check": {
+        "method": "Manual visual review",
+        "passed": true,
+        "note": "Countable vessels and coherent visible limb attachments."
+      },
+      "source_art": {
+        "file": "art/14-king-of-cups-v01.png",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "sha256": "6ba1c7c761c3d8eb98687b36a83375bdaed1e52c2723bc495be4d1bbeb4eef73"
+      },
+      "card_file": "cards/14-king-of-cups.png",
+      "reference_hashes": [
+        {
+          "file": "exec-a75afc36-d1cb-449a-8ace-190b0660e720.png",
+          "sha256": "e1b5e9c9c6f9e4b7efd7727b4108d334c16c08f0a5bdddbff821c1eed8a8cf41"
+        },
+        {
+          "file": "foras-raster-reference-v02.png",
+          "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+        }
+      ],
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "8d972419c037205e13a620c653d2c990ee11e2f31abb121f330a44bd45d0d5a0",
+      "red_check": {
+        "file": "tarot-of-intervals-cups/art/14-king-of-cups-v01.png",
+        "sha256": "6ba1c7c761c3d8eb98687b36a83375bdaed1e52c2723bc495be4d1bbeb4eef73",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1161,
+        "eroded_core_pixels": 126,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          173.0,
+          16.0,
+          12.0
+        ],
+        "median_red_hex_rounded": "#ad100c",
+        "modal_red_hex": "#a40d0b",
+        "modal_frequency": 2,
+        "unique_sample_colours": 124,
+        "nearest_candidate_hex": "#a52923",
+        "median_max_channel_error": 30.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "King of Cups",
+        "attempt": 1,
+        "status": "selected"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "index": 9,
+      "slug": "10-ten-of-cups",
+      "name": "Ten of Cups",
+      "attempt": 1,
+      "prompt": "Use case: stylized-concept. Original interior illustration for the CUPS suit of Tarot of Intervals / Librum Quinque.\nThe recent Eight of Cups is a STYLE reference only. Match its engraved drawing hand and palette; create the different subject below. Transform their drawing vocabulary into the new subject below; do not copy their pose, six hands, stars or pouring jars.\nMatch the intricate engraved pen line, porous organic cellular lace, anatomical lattice, delicate vertical drop-lines ending in dots, and carefully drawn individual faces. Portrait 2:3, ideally 1024 x 1536 PNG. Full subject visible, roughly 78-82% of image height, generous open margin on all sides. Flat unbleached cream #ede6d4 ground. Near-black #161918 line, sparse muted slate #4f6f7a, tiny ochre seams, ONE red intervention target #a32b24 RGB(163,43,36). No other hues. Light flat wash at most; no gradient, vignette, textured paper, painterly shading, photographic lighting, 3D look or glossy metal.\nA chalice is unmistakable: ONE open bowl with an elliptical rim, ONE stem, ONE foot. All specified chalices must be complete, separate and countable. Ornament belongs inside their lattice structure; no extra bowl-shaped adornments, containers, bottles or cup-like architectural capitals. All cups near-black with cream interiors and small slate insets, never red.\nNO text, numerals, inscriptions, pseudo-writing, labels, card furniture, borders or watermark. Rank and titles are typeset separately. All limbs, fingers, clothing and hanging dots stay inside the generous margin.\nSubject: TEN OF CUPS.\nExactly TEN upright chalices form ONE high shallow arch above FOUR small full-length human figures: two adults and two younger family members, all in simple cellular robes. The adults' hands are open toward the arch and each other, the younger figures stand on shared branching ground; all limbs coherently attached, no duplicated hands. Ten separate bowls, ten stems and ten feet, all fully visible in a single spaced arch, not stacked, no central extra chalice. A SINGLE RED thread runs along a short section of the shared root-ground beneath the four figures, its ends loose. Sparse slate insets, tiny ochre seams. No rainbow colours, house scenery, flags, flowers in pots or additional vessels.",
+      "reason": "The arch contained nine cups instead of ten.",
+      "cup_count_check": {
+        "expected": 10,
+        "observed": 9,
+        "passed": false
+      },
+      "file": "attempts/10-ten-of-cups-v01.png",
+      "sha256": "21aaba3da3b7747637ac77e4781ef65401e9e5f80374634948db37c8e55e7832",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "red_check": {
+        "file": "tarot-of-intervals-cups/attempts/10-ten-of-cups-v01.png",
+        "sha256": "21aaba3da3b7747637ac77e4781ef65401e9e5f80374634948db37c8e55e7832",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2840,
+        "eroded_core_pixels": 291,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          165.0,
+          8.0,
+          10.0
+        ],
+        "median_red_hex_rounded": "#a5080a",
+        "modal_red_hex": "#a10204",
+        "modal_frequency": 2,
+        "unique_sample_colours": 289,
+        "nearest_candidate_hex": "#a32925",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 45.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card": "Ten of Cups",
+        "attempt": 1,
+        "status": "superseded"
+      }
+    }
+  ],
+  "generation_transport_note": "Several parallel requests stalled when the workspace went offline. The user interruption cleared their pending response cells. Ace through Five and Nine were recovered from saved returned images; Six, Seven, Eight and the courts were rendered sequentially afterwards. Only successful, recoverable artifacts are listed here; unavailable outcomes are not counted as completed images. The first successful Ten was corrected for a nine-cup count.",
+  "notoria_status": "A possible apparatus for Book V; this suit does not replace or implement its manuscript.",
+  "seed_available": false,
+  "title": "Tarot of Intervals - Cups",
+  "edition": "Concept edition 01",
+  "card_count": 14,
+  "card_size_mm": [
+    70,
+    120
+  ],
+  "card_export_dpi": 300,
+  "back": "cards/card-back.png",
+  "back_sha256": "67fc03c6ea8ce62dd2a994378cc262243128037ef166ff10ffdb29b77f0bd4c7",
+  "palette_targets": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "small accents"
+  },
+  "model_version_available": false,
+  "pdf_compression": "JPEG quality 94 artwork; vector lettering and frames. PNGs from a lossless master.",
+  "symbolism_status": "Original editorial readings using familiar tarot motifs; no historical attribution or divinatory efficacy claimed."
+}

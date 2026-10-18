@@ -1,0 +1,75 @@
+{
+ "as_of": "2026-10-16",
+ "entries": {
+  "books/01_matricis": {
+   "source": "github.com/JosiahAlanLee/Systems_Practice_Grimoire",
+   "commit": "cb893d600d78db14d74084f7ebacfa7d112f68a0",
+   "visibility": "public",
+   "hand": "Claude",
+   "notes": "copied without .git; builds still reference the original workspace paths (see its README)",
+   "tree_sha256": "6642977d328ae0b4f71a5fd76aa5ee607dd930d6abdb22958046f744f6852c5b"
+  },
+  "books/02_intervallorum": {
+   "source": "github.com/JosiahAlanLee/Clavicula_Intervallorum",
+   "commit": "3d2e684b4a0629a8ede056409fac603be9b29323",
+   "visibility": "private",
+   "hand": "ChatGPT/Codex",
+   "notes": "copied without .git and without HISTORY.bundle (17 MB), which stays in its own repository",
+   "tree_sha256": "c2586197c23c1882694ce9902893ae6a19610f545b990b8bdf24e709310ffb4e"
+  },
+  "books/03_escalationum": {
+   "source": "github.com/JosiahAlanLee/Pseudomonarchia_Escalationum",
+   "commit": "aeeef232888a9f5815eac56012d71a584e93f7c6",
+   "visibility": "private",
+   "hand": "ChatGPT/Codex",
+   "notes": "the extracted Pseudomonarchia_Escalationum_Source.zip; rebuild verified byte-identical to the committed PDF (sha256 126393df...) on 2026-10-16; docs/PROVENANCE.json hashes are of the shipped (import-edited) files, not the upstream commit",
+   "tree_sha256": "4b4b476c7404f1f2bbac4d3e1e9e3f11f634e82817f31c092a8ec676038d3352"
+  },
+  "books/04_graduum/proofs/ix-gpt": {
+   "source": "GPT package clavicula-graduum-ix.zip (revision 2)",
+   "hand": "ChatGPT/Codex",
+   "tree_sha256": "43cd305091533bd41a672351fe2c20e255ee533ea0f592d5bf3f73ad1c3c36b7"
+  },
+  "books/04_graduum/proofs/x-xi-v-gpt": {
+   "source": "GPT package clavicula-graduum-x-xi-v.zip",
+   "hand": "ChatGPT/Codex",
+   "tree_sha256": "cbb1706930f41874568e08ae3f84a6da785734f2cd8ff98d6f4416504ffc61ef"
+  },
+  "books/04_graduum/plates/v-native": {
+   "source": "this repository",
+   "hand": "Claude",
+   "notes": "native vector redraw of V; builds against common/geometry and common/fonts",
+   "tree_sha256": "f6579efd043a844b613671bae8f901229c1599bb4401ae10bd31a9a7401d1f19"
+  },
+  "common/geometry": {
+   "source": "Matricis generator at cb893d6, unmodified (standalone imports)",
+   "sha256": {
+    "core.py": "c535401071c41170e77516d2ae0d17e1ef5af99d75ed51fc56d7f151fd6ce4ee",
+    "marks.py": "0bd011a2e1fe72c383eeab71350684d45ebb7cfd3cb017f64f25961ddf149e1b",
+    "tx.py": "128be13a24e4cf30af488e3a54e41ad07010b6b77a75e727c41b4783d5b6d374"
+   },
+   "tree_sha256": "b306469a449a5eb68a53eebf5155301d2e062a911b2563497af14b4d01389ccf"
+  },
+  "common/plot/plotkit.py": {
+   "source": "this repository (Claude), stroke-only plotter hand over common/geometry"
+  },
+  "common/fonts": {
+   "source": "union of the three books' font directories, one copy each; licenses in common/fonts/licenses; EMSNixish.svg OFL per its embedded metadata",
+   "tree_sha256": "b9c1a78c10801c1ca60a36cbd99a2dd24062374701cdf31f01d4e611b0dfac29"
+  },
+  "books/00_accusator": {
+   "source": "this repository (Claude), with plates from a supplied sheet",
+   "commit": null,
+   "visibility": "private",
+   "hand": "Claude (text and setting); ChatGPT image tool (plates)",
+   "notes": "plates extracted unmodified from De-Officio-Accusatoris-Illustrated-Plates.pdf (sha256 c62aa98f...), one PNG per page; prompts not supplied. reviews/ holds the three model reviews as delivered, not bound"
+  },
+  "books/00_matres": {
+   "source": "this repository (Claude)",
+   "commit": null,
+   "visibility": "private",
+   "hand": "Claude (text and setting)",
+   "notes": "text drafted in a Claude working document on 17 October 2026 and set unchanged apart from typographic quotation marks; the source register was compiled from that document's notes"
+  }
+ }
+}

@@ -1,0 +1,460 @@
+{
+  "title": "Tarot of Intervals",
+  "suit": "Wands",
+  "edition": "Draft text; three cards illustrated | 17 October 2026",
+  "project": "Librum Quinque",
+  "scope": "Fourteen cards, Ace through King. Text only: the symbolism lines double as the illustration briefs. Drafted by Claude in the format of the Swords and Cups records so that the illustrations can be made to them.",
+  "suit_reading": "The wand is the instrument of the will: the rod that is at once a measure, a lever and a claim. Swords cut records and Cups hold them; Wands act. In this suit the red intervention is the act itself, and the question on every card is whether the will can see what it is standing on.",
+  "figure_rule": "The second half of the deck draws its figures from the Goetia, as the offices of Book III did, and prefers the spirits whose forms are not handsome. Each card's figure is a hooded person in the series' hand carrying the spirit's attribute, as Foras carries six hands and Orobas the front of a horse; the attribute is the demon, the person is the office. Seven spirits already belong to Book III (Bael, Vassago, Gremory, Bune, Orobas, Paimon, Foras) and are not reused. Forms are paraphrased from the Goetia as commonly transmitted (Lemegeton, Book I); no particular edition was inspected for this draft and the attributions are editorial.",
+  "palette_targets": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "small accents"
+  },
+  "symbolism_status": "Original editorial correspondences in the deck's existing register; the Goetic forms are the illustrations' source and not a claim about the spirits.",
+  "cards": [
+    {
+      "index": 0,
+      "numeral": "A",
+      "rank": "ACE",
+      "archetype": "Ace of Wands",
+      "name": "Ace of Wands",
+      "title": "The Kindled Rod",
+      "keywords": "INTENT / CONSTRAINT",
+      "figure": {
+        "spirit": "Furfur",
+        "goetic_form": "A hart with a fiery tail; will not speak truth unless compelled into the triangle; raises thunder and lightning.",
+        "in_the_card": "A single rod, sprouting at the tip and burning at the base, held out of a lattice cloud by one hand. Below it, drawn small, the red triangle of the circle-and-triangle, empty."
+      },
+      "symbolism": "A rod is offered that is alive at one end and alight at the other. The hand that holds it is outside the frame of what it is doing. The triangle beneath is empty: nothing has yet been compelled to tell the truth about the impulse, least of all the impulse.",
+      "upright": "A beginning in will; an impulse worth acting on; energy with a direction.",
+      "reversed": "An impulse that lies about its own reasons; a start that was really a reflex.",
+      "question": "What would this intention say about itself if it had to answer inside the triangle?",
+      "will_note": "The first thing the will does is explain itself, and the explanation is not under oath.",
+      "red_intervention": "The empty triangle, one red outline.",
+      "expected_wand_count": 1,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Buer",
+          "goetic_form": "A star with five goat's legs, moving by rolling; teaches philosophy and the virtues of herbs; heals distempers.",
+          "in_the_card": "The rod sprouts from the hub of a five-legged star that rolls; the hand is one of the legs."
+        },
+        {
+          "spirit": "Phenex",
+          "goetic_form": "A phoenix with a child's voice; sings sweetly; hopes to return to the seventh throne after 1200 years.",
+          "in_the_card": "The rod alight at the base is the phoenix's perch; its song is drawn as a thread of lattice."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "numeral": "2",
+      "rank": "TWO",
+      "archetype": "Two of Wands",
+      "name": "Two of Wands",
+      "title": "The Called Return",
+      "keywords": "REACH / LEASH",
+      "figure": {
+        "spirit": "Agares",
+        "goetic_form": "An old man riding a crocodile, a goshawk on his fist; teaches languages, makes those who run away come back, causes earthquakes.",
+        "in_the_card": "A hooded figure on a battlement with one rod planted and one held, a small globe in the hand; the mount beneath the battlement is a crocodile's back drawn as lattice. A red thread runs from the held rod out to the horizon and back."
+      },
+      "symbolism": "A plan is made from a height. The figure holds the world small enough to turn and a rod long enough to reach. The thread to the horizon is the same thread that will bring the runaways back: reach and leash are one line.",
+      "upright": "Planning; a view of the field; influence extended with intent.",
+      "reversed": "Dominion mistaken for vision; a plan whose first use is retrieval.",
+      "question": "Who is being reached by this plan, and can they stay away?",
+      "red_intervention": "The thread to the horizon and back.",
+      "expected_wand_count": 2,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Gaap",
+          "goetic_form": "A man with bat's wings, going before four kings; carries men between kingdoms swiftly; teaches philosophy and makes men insensible.",
+          "in_the_card": "The figure on the battlement with bat-wing lattice at the shoulders; the globe is a kingdom it can carry someone out of."
+        },
+        {
+          "spirit": "Bathin",
+          "goetic_form": "A strong man with a serpent's tail on a pale horse; knows herbs and stones; transports men from country to country.",
+          "in_the_card": "The battlement is the pale horse's back; the tail of lattice winds around the planted rod."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "numeral": "3",
+      "rank": "THREE",
+      "archetype": "Three of Wands",
+      "name": "Three of Wands",
+      "title": "The Sent Ships",
+      "keywords": "ENTERPRISE / SEA",
+      "figure": {
+        "spirit": "Vepar",
+        "goetic_form": "A mermaid; governs the waters and guides ships of war; makes the sea rough; gives wounds that take three days.",
+        "in_the_card": "A hooded figure with three rods planted at the shore, back to the viewer, watching three small vessels out on a sea drawn in slate; beneath the surface, the lattice of a tail. A red thread leaves the middle rod and goes under the water."
+      },
+      "symbolism": "The enterprise has been sent and the sender watches it go. The sea that carries the ships is a body with its own intentions. The thread under the water is what the ships were not told about, and it is three days long.",
+      "upright": "Enterprise; delegation; a venture under way with its sender watching.",
+      "reversed": "A venture sent into weather it was not told about; delay that is already loss.",
+      "question": "What does the sea know about this venture that the sender has not been told?",
+      "red_intervention": "The thread under the water.",
+      "expected_wand_count": 3,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Forneus",
+          "goetic_form": "A great sea-monster; teaches rhetoric and languages; makes men beloved of their enemies.",
+          "in_the_card": "The sea the ships sail on is the monster's back, drawn in slate; the figure at the shore has its mouth open as if persuading."
+        },
+        {
+          "spirit": "Crocell",
+          "goetic_form": "An angel; speaks mystically of hidden things; warms waters and discovers baths; makes the sound of rushing water where there is none.",
+          "in_the_card": "The ships sail on a sound rather than a sea: the water is drawn as sound-lines. The thread under it is the warmth."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "numeral": "4",
+      "rank": "FOUR",
+      "archetype": "Four of Wands",
+      "name": "Four of Wands",
+      "title": "The Converted Yield",
+      "keywords": "FEAST / CONVERSION",
+      "figure": {
+        "spirit": "Haagenti",
+        "goetic_form": "A bull with griffin's wings; makes men wise; turns metals into gold and water into wine, and wine into water.",
+        "in_the_card": "Four rods standing as the posts of a canopy, garlanded with lattice; under it two figures and a trough. A winged bull's head is the canopy's keystone. One red drop falls from the garland into the trough."
+      },
+      "symbolism": "A celebration is held under a structure made of the rods that were used to build it. The keystone converts: water becomes wine and wine becomes water, and the feast runs on which way the conversion is going today. The drop in the trough is the thing that was converted.",
+      "upright": "Completion; welcome; a structure that can hold a gathering.",
+      "reversed": "Celebration that consumes the reserve it celebrates; conversion with the direction hidden.",
+      "question": "What was this made from, and who was drinking it before?",
+      "red_intervention": "The drop from the garland.",
+      "expected_wand_count": 4,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Zagan",
+          "goetic_form": "A bull with griffin's wings; makes men witty; turns wine to water and blood to wine and water to wine; makes fools wise.",
+          "in_the_card": "As drafted, with Zagan's conversion in place of Haagenti's; the keystone bull."
+        },
+        {
+          "spirit": "Amy",
+          "goetic_form": "A flaming fire, then a man; teaches astrology and liberal sciences; gives good familiars; betrays treasures kept by spirits.",
+          "in_the_card": "The canopy's garland is a flame of lattice; the trough holds the betrayed treasure."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "numeral": "5",
+      "rank": "FIVE",
+      "archetype": "Five of Wands",
+      "name": "Five of Wands",
+      "title": "The Contested Rods",
+      "keywords": "STRIFE / INSTRUCTION",
+      "figure": {
+        "spirit": "Glasya-Labolas",
+        "goetic_form": "A dog with griffin's wings; teaches all arts and sciences in an instant; makes a man invisible.",
+        "in_the_card": "Five hooded figures with rods crossed in a knot, none striking, all braced. A winged dog's head is worked into the knot where the rods meet. One figure is drawn in lattice only, nearly absent. A red mark at the knot."
+      },
+      "symbolism": "The rods are crossed in the configuration everyone calls practice. The one who holds the knot teaches every art at once and is also the author of what happens when practice stops being practice. The figure drawn in lattice only has learned the last art, which is not to be seen.",
+      "upright": "Competition; friction that produces skill; a contest with rules.",
+      "reversed": "A contest with a body count that nobody is counting; the rules kept by the one who profits.",
+      "question": "Who taught this fight, and what do they get when it is over?",
+      "red_intervention": "The mark at the knot.",
+      "expected_wand_count": 5,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Leraje",
+          "goetic_form": "An archer in green with bow and quiver; causes contests and battles; wounds in contest do not heal cleanly.",
+          "in_the_card": "Five figures with rods raised as bows; one rod is an arrow. The archer's quiver is the knot."
+        },
+        {
+          "spirit": "Sabnock",
+          "goetic_form": "A soldier with a lion's head on a pale horse; builds towers, castles and cities; afflicts men with wounds and sores; gives familiars.",
+          "in_the_card": "The five contest beneath a tower the sixth is building; the knot is the tower's foot."
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "numeral": "6",
+      "rank": "SIX",
+      "archetype": "Six of Wands",
+      "name": "Six of Wands",
+      "title": "The Borrowed Boldness",
+      "keywords": "ACCLAIM / LOAN",
+      "figure": {
+        "spirit": "Ipos",
+        "goetic_form": "An angel with a lion's head, goose's feet and a hare's tail; knows things past and to come; makes men witty and bold.",
+        "in_the_card": "A rider with a garlanded rod, five rods carried by walkers behind. The rider's mount has goose's feet. A red thread runs from the garland back along the line of walkers to the last of them."
+      },
+      "symbolism": "The procession is for the one in front. The boldness that got there was issued, as the mount was, and the feet of the mount say what kind of creature is being ridden. The thread from the garland to the last walker is the line on which the acclaim was borrowed.",
+      "upright": "Recognition; a success acknowledged; confidence that has a mandate.",
+      "reversed": "Boldness on loan; acclaim collected by the one it was issued to; a procession paid for by its walkers.",
+      "question": "Who lent this confidence, and what are the terms?",
+      "red_intervention": "The thread from the garland to the last walker.",
+      "expected_wand_count": 6,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Seere",
+          "goetic_form": "A man on a winged horse; brings things to pass in an instant; carries anything anywhere; indifferent to good or evil.",
+          "in_the_card": "The rider on a winged horse of lattice; the procession walks, the rider has already arrived."
+        },
+        {
+          "spirit": "Orias",
+          "goetic_form": "A lion on a strong horse with a serpent's tail, holding two hissing serpents; teaches the virtues of the stars; gives dignities and prelacies and the favour of friends and foes.",
+          "in_the_card": "The rider's garland is a serpent; the favour of the walkers behind was given, not earned."
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "numeral": "7",
+      "rank": "SEVEN",
+      "archetype": "Seven of Wands",
+      "name": "Seven of Wands",
+      "title": "The Held Height",
+      "keywords": "DEFENCE / HOPE",
+      "figure": {
+        "spirit": "Marchosias",
+        "goetic_form": "A wolf with griffin's wings and a serpent's tail, vomiting fire; a strong fighter; hopes after twelve hundred years to return to the seventh throne, and is deceived in that hope.",
+        "in_the_card": "A figure on a rise with one rod held crosswise against six that come up from below, only their tips showing. The figure's hood has the suggestion of a wolf's ears; a serpent's tail of lattice trails behind. A red flame at the mouth, small."
+      },
+      "symbolism": "The height is held against the six below. The holder is strong, and fights well, and has been promised a throne for it that is not coming. The fire at the mouth is what the holder says the fight is for; the tail is the length of time it has been said.",
+      "upright": "Standing ground; a position defended on principle; courage under pressure.",
+      "reversed": "A defence kept up for a promotion that was never real; duty that is a deferred hope misfiled.",
+      "question": "What was this ground promised to be worth, and who made the promise?",
+      "will_note": "A will can hold a position for twelve hundred years on the strength of a promise it has never once checked.",
+      "red_intervention": "The flame at the mouth.",
+      "expected_wand_count": 7,
+      "status": "agreed and illustrated by ChatGPT/Codex, study v01",
+      "art": "studies/07-seven-of-wands-art-v01.png"
+    },
+    {
+      "index": 7,
+      "numeral": "8",
+      "rank": "EIGHT",
+      "archetype": "Eight of Wands",
+      "name": "Eight of Wands",
+      "title": "The Dispatch",
+      "keywords": "SPEED / DEAFNESS",
+      "figure": {
+        "spirit": "Shax",
+        "goetic_form": "A stork with a hoarse voice; takes away the sight, hearing and understanding of any man at the operator's command; fetches money from kings' houses; lies unless in the triangle.",
+        "in_the_card": "Eight rods in flight across the card, diagonal, no figure; beneath them a small stork of lattice with its beak open. Where the rods are going, at the lower right, a hooded figure with its hands over its ears. A red tick on the leading rod."
+      },
+      "symbolism": "Eight messages are in the air at once and they are going somewhere fast. The voice that sent them is hoarse, and what it does to a recipient on command is remove the sight and hearing. The figure where the rods are going is not refusing to listen; it has already been dealt with.",
+      "upright": "Swift news; momentum; action that arrives before the argument about it.",
+      "reversed": "Broadcast that deafens its recipients; speed used in place of consent; a dispatch nobody can hear.",
+      "question": "Can the person this is sent to still hear by the time it arrives?",
+      "red_intervention": "The tick on the leading rod.",
+      "expected_wand_count": 8,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Halphas",
+          "goetic_form": "A stock-dove with a hoarse voice; builds towers and furnishes them with ammunition and weapons; sends men to war.",
+          "in_the_card": "Eight rods in flight toward a tower under construction; a dove of lattice above with its beak open."
+        },
+        {
+          "spirit": "Raum",
+          "goetic_form": "A crow, then a man; steals treasure out of kings' houses; destroys cities and dignities; reconciles friends and foes.",
+          "in_the_card": "The eight rods are what the crow carried off; the figure where they land is counting."
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "numeral": "9",
+      "rank": "NINE",
+      "archetype": "Nine of Wands",
+      "name": "Nine of Wands",
+      "title": "The Last Watch",
+      "keywords": "VIGILANCE / GRAVES",
+      "figure": {
+        "spirit": "Bifrons",
+        "goetic_form": "First a monster, then a man; teaches astrology and the virtues of stones and woods; moves the bodies of the dead from place to place and lights candles on their graves.",
+        "in_the_card": "A hooded figure, bandaged at the head, leaning on one rod before a palisade of eight. Along the palisade's foot, small candles on small mounds, lit. The figure's shadow on the ground is the monster's outline in lattice. One candle red."
+      },
+      "symbolism": "The watch is kept over a line of rods that are also grave-markers, and the keeper has lit a candle on every one of them so that the line reads as tended. The thing that moves the bodies from place to place is also the thing keeping the watch. One candle is a different colour and is the only one anyone will ask about.",
+      "upright": "Perseverance; a boundary held after injury; the last watch before relief.",
+      "reversed": "Vigilance over something already dead; status lights on graves; the keeper who moves the bodies and tends the candles.",
+      "question": "What is under the markers this watch is kept over?",
+      "red_intervention": "The one red candle.",
+      "expected_wand_count": 9,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Murmur",
+          "goetic_form": "A soldier on a griffin with a ducal crown, trumpets before him; teaches philosophy; constrains the souls of the dead to appear and answer.",
+          "in_the_card": "The watch is kept while the dead are made to answer; the palisade is the row they stand in."
+        },
+        {
+          "spirit": "Stolas",
+          "goetic_form": "A raven, then a man; teaches astronomy and the virtues of herbs and stones.",
+          "in_the_card": "The guard leans on the rod under a night drawn in slate; the markers are observations, and the candles are stars that have been counted."
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "numeral": "10",
+      "rank": "TEN",
+      "archetype": "Ten of Wands",
+      "name": "Ten of Wands",
+      "title": "The Carried Instruction",
+      "keywords": "BURDEN / INDUCEMENT",
+      "figure": {
+        "spirit": "Valefor",
+        "goetic_form": "A lion with the head of an ass; a good familiar, but tempts those he serves to steal; those who keep him are caught at last.",
+        "in_the_card": "A figure bent under ten rods carried in a bundle, walking toward a small building. The bundle is tied with a red cord whose end trails behind, and the head within the hood has long ears. A small open door in the building ahead."
+      },
+      "symbolism": "The burden is carried faithfully and was picked up on instruction. The one who carries it was a good familiar, and the inducement to take it up was part of the service. The cord that ties the bundle trails behind it, and that is what will be followed when the carrier is caught.",
+      "upright": "Responsibility carried to the end; work accepted in full; the last stretch.",
+      "reversed": "A burden taken up on someone else's inducement; the carrier who will be the one caught; loyalty as liability.",
+      "question": "Who suggested picking this up, and where will they be when it is found?",
+      "will_note": "The will that is pleased to carry is the easiest to load.",
+      "red_intervention": "The cord trailing from the bundle.",
+      "expected_wand_count": 10,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Botis",
+          "goetic_form": "A viper, then a man with horns and teeth, a sword in hand; tells of things past and to come; reconciles friends and foes.",
+          "in_the_card": "The bundle of ten is tied with the viper; the carrier was reconciled to the load."
+        },
+        {
+          "spirit": "Ronove",
+          "goetic_form": "A monster; teaches rhetoric and languages; gives good servants and the favour of friends and foes.",
+          "in_the_card": "The carrier is the good servant; the load is the favour; the cord trailing is the rhetoric that got it onto the back."
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "numeral": "P",
+      "rank": "PAGE",
+      "archetype": "Page of Wands",
+      "name": "Page of Wands",
+      "title": "The Reader of Ashes",
+      "keywords": "COMPREHENSION / CINDER",
+      "figure": {
+        "spirit": "Caim",
+        "goetic_form": "A blackbird, then a man with a sword, who answers in burning ashes; gives understanding of birds, dogs, cattle and the voice of waters; a good disputer.",
+        "in_the_card": "A young figure with a rod, hood back a little, head tilted as if listening; small lattice birds on the rod's tip; at the feet a small heap of ash with marks in it. One mark red."
+      },
+      "symbolism": "The apprentice understands every voice there is: the birds, the dogs, the cattle, the water. The answers come out as burning ash and have to be read before they cool. The one red mark in the heap is the part of the answer that was about the apprentice.",
+      "upright": "Curiosity; a message understood; an apprentice who listens to everything.",
+      "reversed": "Comprehension that only outputs cinders; an answer legible for a moment and then not.",
+      "question": "What was understood here, and in what form did it leave?",
+      "red_intervention": "The one red mark in the ash.",
+      "expected_wand_count": 1,
+      "status": "agreed and illustrated by ChatGPT/Codex, study v01",
+      "art": "studies/11-page-of-wands-art-v01.png"
+    },
+    {
+      "index": 11,
+      "numeral": "KN",
+      "rank": "KNIGHT",
+      "archetype": "Knight of Wands",
+      "name": "Knight of Wands",
+      "title": "The Ridden Discord",
+      "keywords": "CHARGE / RECOIL",
+      "figure": {
+        "spirit": "Andras",
+        "goetic_form": "An angel with a raven's head riding a black wolf, a sharp sword in hand; sows discord; if the operator is careless, kills him and his company.",
+        "in_the_card": "A rider on a rearing wolf drawn in lattice, rod raised like a sword, the hood's profile a raven's beak. Behind the rider, a thin red line from the rod's butt back to a small circle on the ground, broken on one side."
+      },
+      "symbolism": "The charge is magnificent and goes where it was pointed, and sows discord there, which was the point. The line from the rod back to the circle on the ground is the operator's, and the circle is open on one side. Whoever summoned this energy is the one it is coming back for.",
+      "upright": "Energy; a charge begun; enthusiasm with a direction.",
+      "reversed": "A will that turns on the one who summoned it; discord that does not stop at the target; the open circle.",
+      "question": "Who called this up, and did they close the circle before it moved?",
+      "will_note": "The will that is set loose does not distinguish the hand that pointed it from the thing it was pointed at.",
+      "red_intervention": "The line to the broken circle.",
+      "expected_wand_count": 1,
+      "status": "agreed and illustrated by ChatGPT/Codex, study v01",
+      "art": "studies/12-knight-of-wands-art-v01.png"
+    },
+    {
+      "index": 12,
+      "numeral": "Q",
+      "rank": "QUEEN",
+      "archetype": "Queen of Wands",
+      "name": "Queen of Wands",
+      "title": "The Thrown Wall",
+      "keywords": "CONSTRUCTION / DISCOVERY",
+      "figure": {
+        "spirit": "Vine",
+        "goetic_form": "A lion riding a black horse, a viper in hand; builds towers; throws down walls; makes waters rough; discovers witches and things hidden.",
+        "in_the_card": "A seated figure, rod planted, a small tower of lattice at one side and a thrown-down wall at the other; a viper of lattice coiled on the free hand. The throne's foot is a lion's. A red crack through the wall."
+      },
+      "symbolism": "The queen builds the tower and throws down the wall, and both are the same competence. The viper in the hand is the finding-out: she knows who is working against her and what is hidden. The crack through the wall is where she looked.",
+      "upright": "Capable authority; the builder who can also demolish; warmth with a clear eye.",
+      "reversed": "The finding-out turned inward on the household; walls thrown down to see who was behind them.",
+      "question": "What did the wall have to come down to show, and was it worth the wall?",
+      "red_intervention": "The crack through the wall.",
+      "expected_wand_count": 1,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Naberius",
+          "goetic_form": "A crane or black crow, hoarse, fluttering about the circle; teaches rhetoric; restores lost dignities and honours.",
+          "in_the_card": "The queen with a crane of lattice at the throne's side; the thrown wall is the lost dignity being restored and the viper is what it cost."
+        },
+        {
+          "spirit": "Sallos",
+          "goetic_form": "A soldier on a crocodile with a ducal crown; peaceable; causes love.",
+          "in_the_card": "The throne is the crocodile; the queen is the only peaceable figure in the suit, which is a warning."
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "numeral": "K",
+      "rank": "KING",
+      "archetype": "King of Wands",
+      "name": "King of Wands",
+      "title": "The Uncovered Head",
+      "keywords": "COMMAND / EXPOSURE",
+      "figure": {
+        "spirit": "Asmoday",
+        "goetic_form": "Three heads, a bull's, a man's and a ram's; a serpent's tail; goose's feet; rides a dragon and carries a lance and banner; the operator must stand bareheaded before him or be deceived, and must call him by his name.",
+        "in_the_card": "A seated figure with the rod as a lance and a small banner, the hood pushed fully back; at the shoulders, faintly, two other heads in lattice, bull and ram. Before the throne a small standing petitioner, also bareheaded. A red thread from the banner to the petitioner's bare crown."
+      },
+      "symbolism": "The king commands with a lance and a banner and three heads, and the one condition of approaching is to stand uncovered. Whoever comes to the throne with the head covered will be deceived, and the rule is stated as a courtesy. The thread from the banner to the petitioner's crown is what the exposure buys: an audience, on those terms.",
+      "upright": "Leadership; a mandate exercised in the open; vision with the standing to act on it.",
+      "reversed": "Command that requires the exposure of everyone who approaches it and exposes nothing of its own; a courtesy that is a condition.",
+      "question": "What does this authority require you to uncover, and what does it keep covered?",
+      "will_note": "The strongest will in the room is the one that has made bareheadedness the price of being heard.",
+      "red_intervention": "The thread from the banner to the bare crown.",
+      "expected_wand_count": 1,
+      "status": "not agreed; alternates offered",
+      "alternates": [
+        {
+          "spirit": "Belial",
+          "goetic_form": "Two beautiful angels in a chariot of fire; distributes presentations and senatorships; demands sacrifices and deceives without them.",
+          "in_the_card": "The king in a chariot of fire drawn as lattice, two-faced; the petitioner brings the sacrifice. Belial is handsome, which is the point: the one handsome spirit in the suit is the one that takes the most."
+        },
+        {
+          "spirit": "Purson",
+          "goetic_form": "A man with a lion's face riding a bear, carrying a viper, trumpets before him; knows hidden things and treasure; gives good familiars.",
+          "in_the_card": "The king lion-faced on a bear of lattice; the banner is the trumpet; the petitioner is the familiar."
+        }
+      ]
+    }
+  ],
+  "illustration_notes": "Same brief as Swords and Cups: the series' fine engraved pen line, open cellular lattice, slate pockets, small ochre details, hanging black lines ending in dots, flat cream ground, one red intervention per card as named. Figures are hooded persons carrying the spirit's attribute; the attribute may be the mount, the head within the hood, a tail of lattice or an object, never a separate monster beside the person. Court cards may show the face, as in Swords and Cups. Count of rods as given.",
+  "open": [
+    "Whether the Goetic names are printed on the cards (as Book III prints its offices) or kept to the reading key. The draft assumes the key only; the lower names stand alone on the card.",
+    "The Pentacles would draw on the remaining unphotogenic spirits (Buer, Ronove, Naberius, Raum, Halphas, Malphas, Stolas, Decarabia, Zagan, Amy, Ose, Gaap) by the same rule.",
+    "Four will-notes are placed (Ace, Seven, Ten, Knight, King is a fifth). They are editorial lines for the facing page, not card text; remove or move freely.",
+    "Eleven cards not agreed by the illustrator. Each now carries two alternates from the wider Goetic pool (forms paraphrased as before), so the suit can use more of the seventy-two; the first-choice spirit stays recorded. Illustration briefs keep the offices that cause harm in the key, not the image."
+  ]
+}

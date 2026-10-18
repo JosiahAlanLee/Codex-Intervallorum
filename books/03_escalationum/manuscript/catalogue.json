@@ -1,0 +1,585 @@
+{
+  "title": "Pseudomonarchia Escalationum",
+  "subtitle": "The False Monarchy of Escalations",
+  "author": "Josiah Alan-Lee",
+  "edition": "Third divergent grimoire / First impression / 16 October 2026",
+  "source_commit": "3d2e684b4a0629a8ede056409fac603be9b29323",
+  "strap": "Seven offices. Twenty-one passages. One incident.",
+  "ticket": "INC-0001",
+  "tiers": [
+    {
+      "id": 0,
+      "name": "FORAS",
+      "office": "Service Desk Analyst",
+      "legions": 1,
+      "region": "The floor of hands",
+      "appearance": "He appeareth with six hands, five occupied in proving that the sixth is idle. His eyes are bare. He can see the failed part from his chair.",
+      "powers": "He knoweth the correction and the sound the machine made before it failed. He may describe either. He may perform neither until a superior hath approved the description. His one legion consisteth of himself and the person he is training to replace him; only one may be paid at a time.",
+      "binding": "A ticket number, a recorded greeting, and adherence to the current runbook, including its obsolete steps.",
+      "seal": "A small ring inside two larger rings: knowledge enclosed by permission.",
+      "actual_effect": "Located the fault in four minutes; left it running while permission was sought.",
+      "journey": [
+        "The ticket entered with a wet corner. Water was coming through the ceiling of the place it described. Foras put a finger on a line in the drawing. Here, he said. Four minutes had elapsed.",
+        "The ticket asked him to turn the valve. He showed it the valve, the tool, and the paragraph that forbade him to use the tool on a valve already identified as faulty. An unidentified valve could be tested.",
+        "Could they unidentify it? That would require a correction to the record. The correction required the approval they were already waiting for. Foras sent the ticket downstairs, where people had more authority. He kept his finger on the line."
+      ],
+      "parable": "The repairer was asked to write down everything she knew. At the bottom she wrote: sometimes the noise matters. The editor removed this sentence because no noise had been specified.",
+      "authority": 0,
+      "competence": 6,
+      "liability": 6
+    },
+    {
+      "id": 1,
+      "name": "VASSAGO",
+      "office": "Tier 2 Escalation Lead",
+      "legions": 8,
+      "region": "The vestibule of beginnings",
+      "appearance": "He hath two faces, both new to the matter. His eight legions wear the expression of persons returning from leave.",
+      "powers": "He repeateth the first examination with greater authority. He can pronounce a known fault unconfirmed, whereby a successful diagnosis is made available for investigation again. He keepeth all prior notes in a pane that openeth behind his own.",
+      "binding": "The ticket number spoken afresh; the same diagnostic attachment exported into his preferred template.",
+      "seal": "An open return loop inside the two rings of office.",
+      "actual_effect": "Required the fault to be reproduced and prolonged it to obtain fresh evidence.",
+      "journey": [
+        "At the next landing a basin collected everything that had already been said. It was full. The clerk placed a clean cup beside it and asked the ticket to begin.",
+        "The ticket explained the water, the valve, and the finger on the drawing. Vassago asked whether the water had been observed since arrival at this desk. The ticket pointed to its wet corner. That was evidence from the previous desk.",
+        "They repeated the test. More water came. Vassago nodded with the satisfaction of a man who has not been misled by hearsay. The ticket was angry before anyone had contradicted it. This was recorded as its opening tone."
+      ],
+      "parable": "A bell was carried through six rooms. In every room a clerk asked whether it still rang. At the seventh the clapper fell out. The clerk there found no evidence of a ringing bell.",
+      "authority": 1,
+      "competence": 5,
+      "liability": 5
+    },
+    {
+      "id": 2,
+      "name": "GREMORY",
+      "office": "Customer Success Manager",
+      "legions": 12,
+      "region": "The conservatory of weather",
+      "appearance": "She appeareth beneath a roof painted blue upon the underside. Rain may be heard above it but is not visible from her chair.",
+      "powers": "She translateth outages into concerns and concerns into opportunities for contact. She can offer warmth in any quantity except heat. Her legions tend the customer sentiment, which must remain positive while the customer remaineth present.",
+      "binding": "A scheduled conversation, a sentiment field, and consent to a follow-up invitation.",
+      "seal": "A broken ring keeping two small witnesses inside.",
+      "actual_effect": "Took the only available engineer off the repair to attend a reassurance call.",
+      "journey": [
+        "There were flowers in the conservatory, each accompanied by a certificate stating how well it felt. The ticket dripped onto a carpet patterned with dry islands.",
+        "Gremory asked what success would look like. A dry ceiling, said the ticket. She wrote: clearer expectations around moisture. The ticket objected. She changed the pen.",
+        "The engineer was summoned so that the ticket could hear a technical voice. Foras arrived with his finger still held in the air. The drawing had remained upstairs. He could explain the problem perfectly without it. He was invited to do so until the meeting ended."
+      ],
+      "parable": "The jar was sealed against the winter. Every seventh day someone warmed the room in which it stood. The account recorded that the jar had required nothing.",
+      "authority": 2,
+      "competence": 4,
+      "liability": 4
+    },
+    {
+      "id": 3,
+      "name": "BUNE",
+      "office": "Account Executive",
+      "legions": 26,
+      "region": "The exchange of denominators",
+      "appearance": "He appeareth with three mouths, one for the promise, one for its interpretation, and one reserved for the renewal.",
+      "powers": "He divideth the afflicted into paying units, and the paying units into those whose agreements recognize the affliction. He may enlarge a service on paper with no change to its pipes. He commandeth twenty-six legions, all charged to a future quarter.",
+      "binding": "An account number, a renewal date, and the confidentiality of the concession.",
+      "seal": "A new branch above a struck-through old route.",
+      "actual_effect": "Made the remedy conditional on purchasing an assurance that it would be considered.",
+      "journey": [
+        "The exchange sold umbrellas by the square inch of rain they would acknowledge. The ticket had brought a ceiling; the clerk asked how much of it was under agreement.",
+        "Bune offered a faster staircase. The ticket bought it with the last of its patience. At the first step a smaller desk issued an invoice for use of the handrail.",
+        "No one denied that the building was flooding. They disagreed over which building had been sold. In the approved description, the word building meant the lobby. The lobby was on the highest ground."
+      ],
+      "parable": "A town bought a second bridge against the failure of the first. Both were suspended from the same rope. The invoice listed two crossings and one economy.",
+      "authority": 3,
+      "competence": 3,
+      "liability": 3
+    },
+    {
+      "id": 4,
+      "name": "OROBAS",
+      "office": "Deputy Department Head",
+      "legions": 40,
+      "region": "The corridor of jurisdictions",
+      "appearance": "He appeareth as the front half of a horse. The hind half reporteth elsewhere.",
+      "powers": "He can divide a single defect into several matters, none within his remit. He accepteth petitions with great punctuality and returneth them without prejudice. Every door in his corridor opens onto the same corridor from the other side.",
+      "binding": "A named owner, a consulted owner, and an owner empowered to decide which owner should be named.",
+      "seal": "A spiral whose return is displaced from its departure.",
+      "actual_effect": "Split the common fault into separate queues, each awaiting evidence from the others.",
+      "journey": [
+        "The corridor had a window at either end. Through both could be seen the same tree, from opposite sides. The ticket walked until its wet corner wore through.",
+        "Orobas explained that the valve belonged to Facilities, the water to Continuity, the drawing to Architecture, and the finger to Workforce. The incident itself had no department because incidents were temporary.",
+        "A petition to join the four matters was accepted at every door. The ticket acquired four receipts. With the receipts folded together it could cover the hole in its corner, but not the hole in the ceiling."
+      ],
+      "parable": "The petition was accepted in every room. No room could alter the instruction. The clerks kept an excellent count of petitions.",
+      "authority": 4,
+      "competence": 2,
+      "liability": 2
+    },
+    {
+      "id": 5,
+      "name": "PAIMON",
+      "office": "VP of Operations",
+      "legions": 200,
+      "region": "The theatre of completed work",
+      "appearance": "He appeareth behind a curtain woven from green status bars. His voice arriveth from a speaker one room ahead of him.",
+      "powers": "He maketh evidence of work more numerous than work. He can appoint an owner to every risk and retain none himself. He permitteth exceptions after they have been rendered incapable of changing the forecast.",
+      "binding": "A recovery plan, an executive summary of the plan, and a summary of that summary stripped of conditional verbs.",
+      "seal": "A box that sends a report to itself and receives it as independent assurance.",
+      "actual_effect": "Reassigned the repair team to prepare the recovery presentation; recorded the presentation as progress.",
+      "journey": [
+        "There was a stage in the theatre and a photograph of the stage on a larger stage behind it. Paimon spoke to the photograph. The ticket took a seat in the audience reserved for evidence.",
+        "The proposed repair was displayed in green because it had an owner. The water was displayed in amber because its owner was under discussion. When asked how much water remained, the presenter advanced to a slide about the frequency of updates.",
+        "They voted among the available plans. The fifth plan had no presenter: its only reader had been allowed to leave. The vote was unanimous. The ticket was given a copy of the decision so that it could demonstrate movement."
+      ],
+      "parable": "The council improved the warning lamp until it shone green. They then appointed someone to watch the puddle beneath it. His performance was measured by the lamp.",
+      "authority": 5,
+      "competence": 1,
+      "liability": 1
+    },
+    {
+      "id": 6,
+      "name": "BAEL",
+      "office": "Chief Technology Officer",
+      "legions": 66,
+      "region": "The chamber held in reserve",
+      "appearance": "He appeareth forty minutes late, or as a calendar marked private. His chair hath a high back and no identifiable front.",
+      "powers": "He may suspend every rule below him. He knoweth the titles of the rules. All ordinary roads require his approval; the exceptional road requireth his approval of its exception. His sixty-six legions of contractors cannot summon him, for he is their escalation.",
+      "binding": "A complete briefing with no technical detail; a change window bearing his signature; no finding that names the signature as a cause.",
+      "seal": "An open enclosure held inside two closed rings; the centre is empty.",
+      "actual_effect": "Withheld the only effective authority until the deadline passed, then asked why the operator had waited.",
+      "journey": [
+        "There was no one at the final desk. A lamp on it announced that the office was available. The ticket pressed the lamp. It changed to engaged.",
+        "At the side of the desk was an emergency passage. Its handle was behind the desk. A notice explained that access to the handle was available in emergencies upon approval. The ticket put its four receipts into the slot.",
+        "When Bael arrived he asked for the shortest possible account. The ticket gave him its number. He asked why no one had exercised judgment. The ticket looked for Foras, who was six floors away with one finger raised. A new ticket was opened to establish when Foras had known."
+      ],
+      "parable": "The archive held five routes to the spring. Four required the same key. The fifth required the keeper of the key to certify that no key was needed.",
+      "authority": 6,
+      "competence": 0,
+      "liability": 0
+    }
+  ],
+  "handoffs": [
+    {
+      "id": "01",
+      "source": 0,
+      "target": 1,
+      "name": "REPETIEL",
+      "office": "Escalation Intake Coordinator",
+      "legions": 6,
+      "appearance": "A mouth at either end of a clean speaking tube.",
+      "powers": "He loseth context at the boundary and retaineth proof that it was sent.",
+      "binding": "The original number, re-entered by hand.",
+      "seal": "A red return loop left open, so the account can begin again.",
+      "actual_effect": "Spent six minutes obtaining facts already attached; ordered the first test again.",
+      "mark": 6
+    },
+    {
+      "id": "02",
+      "source": 0,
+      "target": 2,
+      "name": "SOLACIEL",
+      "office": "Customer Communications Specialist",
+      "legions": 4,
+      "appearance": "A damp towel folded into the shape of an ear.",
+      "powers": "She removeth technical nouns lest they distress the recipient.",
+      "binding": "A communication approved for tone.",
+      "seal": "A red crossing in the place where the technical name was removed.",
+      "actual_effect": "Removed the valve identifier from the only message that reached the customer.",
+      "mark": 5
+    },
+    {
+      "id": "03",
+      "source": 0,
+      "target": 3,
+      "name": "NOVAROTH",
+      "office": "Service Request Administrator",
+      "legions": 9,
+      "appearance": "A cradle with a ticket printer in it.",
+      "powers": "He closeth an old incident as a duplicate of a new request.",
+      "binding": "A new number, with no inheritance of age.",
+      "seal": "A red replacement branch above the struck-through old route.",
+      "actual_effect": "Restarted the service clock without restoring service.",
+      "mark": 9
+    },
+    {
+      "id": "04",
+      "source": 0,
+      "target": 4,
+      "name": "SCRIPTORAX",
+      "office": "Knowledge Management Lead",
+      "legions": 11,
+      "appearance": "A cloak made of numbered strips, each cut from a different sleeve.",
+      "powers": "He extracteth judgment into a runbook, then removeth the judge as a duplicate resource.",
+      "binding": "A knowledge-transfer checklist signed by the person being replaced.",
+      "seal": "A red branch carrying the retained line away from its first keeper.",
+      "actual_effect": "Converted the operator's warning into a step that the replacement could execute but could not interpret.",
+      "mark": 8
+    },
+    {
+      "id": "05",
+      "source": 0,
+      "target": 5,
+      "name": "CULPAX",
+      "office": "Incident Assurance Director",
+      "legions": 3,
+      "appearance": "A funnel with a name badge at its narrow end.",
+      "powers": "She giveth the first observer the title of accountable owner.",
+      "binding": "The earliest timestamp and one individual's name.",
+      "seal": "A red point above a comb of strokes appointed to bear its weight.",
+      "actual_effect": "Attached the accumulated delay to the worker who first recognized the fault.",
+      "mark": 10
+    },
+    {
+      "id": "06",
+      "source": 0,
+      "target": 6,
+      "name": "INSTANTOR",
+      "office": "Executive Escalation Liaison",
+      "legions": 1,
+      "appearance": "An enormous finger pointing at a muted microphone.",
+      "powers": "He transmitteth urgent instructions with every reason removed.",
+      "binding": "An executive request superseding the technical plan.",
+      "seal": "A red triangle: the command is complete before its reasons arrive.",
+      "actual_effect": "Made the operator restart the wrong component to provide immediate visible action.",
+      "mark": 4
+    },
+    {
+      "id": "12",
+      "source": 1,
+      "target": 2,
+      "name": "CALMOR",
+      "office": "Service Recovery Facilitator",
+      "legions": 5,
+      "appearance": "A bell padded on the inside.",
+      "powers": "She requireth the petitioner to be calm before the cause of alarm may proceed.",
+      "binding": "A revised account without expressions of urgency.",
+      "seal": "A red enclosure with a small opening for an acceptable tone.",
+      "actual_effect": "Returned the escalation for tone while its technical evidence remained unread.",
+      "mark": 12
+    },
+    {
+      "id": "13",
+      "source": 1,
+      "target": 3,
+      "name": "SEVERION",
+      "office": "Commercial Triage Analyst",
+      "legions": 7,
+      "appearance": "A balance whose pans are both marked normal.",
+      "powers": "He reduceth severity until it match the contracted response.",
+      "binding": "A severity rubric and a defensible denominator.",
+      "seal": "A red spiral whose return arrives at a displaced severity.",
+      "actual_effect": "Changed the recorded severity; the outage retained its original size.",
+      "mark": 7
+    },
+    {
+      "id": "14",
+      "source": 1,
+      "target": 4,
+      "name": "REDACTH",
+      "office": "Information Governance Manager",
+      "legions": 13,
+      "appearance": "A black veil with spaces for initials.",
+      "powers": "He releaseth the evidence after removing the fields required to connect it.",
+      "binding": "A permissible extract, an NDA, and a second request for the omitted context.",
+      "seal": "A broken red boundary retaining two points without their relation.",
+      "actual_effect": "Removed the shared identifier that showed four failures had one cause.",
+      "mark": 3
+    },
+    {
+      "id": "15",
+      "source": 1,
+      "target": 5,
+      "name": "CHORAZ",
+      "office": "Major Incident Manager",
+      "legions": 16,
+      "appearance": "Sixteen small trumpets attached to one empty helmet.",
+      "powers": "She summoneth a bridge call for the coordination of the bridge calls.",
+      "binding": "Attendance on the coordination bridge.",
+      "seal": "A red report box whose output returns to the box as fresh input.",
+      "actual_effect": "Occupied the repairer with status requests until the reserved repair interval closed.",
+      "mark": 11
+    },
+    {
+      "id": "16",
+      "source": 1,
+      "target": 6,
+      "name": "PROBATOR",
+      "office": "Director of Technical Assurance",
+      "legions": 2,
+      "appearance": "A magnifying glass trained upon its own handle.",
+      "powers": "He permitteth a diagnosis only when no doubt can remain about it.",
+      "binding": "Proof that the proposed action cannot produce any further incident.",
+      "seal": "A red closed ring: the proof required to enter is held inside.",
+      "actual_effect": "Required proof obtainable only after the repair; withheld permission to repair.",
+      "mark": 2
+    },
+    {
+      "id": "23",
+      "source": 2,
+      "target": 3,
+      "name": "PROMISSOR",
+      "office": "Renewal Strategy Manager",
+      "legions": 10,
+      "appearance": "A ribbon stretched across a hole in the floor.",
+      "powers": "She bindeth the remedy to the next agreement.",
+      "binding": "A renewal conversation before the recovery conversation.",
+      "seal": "A red added branch leading away from the present obligation.",
+      "actual_effect": "Exchanged a present defect for a future service commitment.",
+      "mark": 8
+    },
+    {
+      "id": "24",
+      "source": 2,
+      "target": 4,
+      "name": "CONSENTH",
+      "office": "Stakeholder Engagement Lead",
+      "legions": 14,
+      "appearance": "A coat with enough pockets for every unanswered invitation.",
+      "powers": "He gathereth assent from parties with no power to perform the act.",
+      "binding": "A complete attendance record.",
+      "seal": "A red porous circle of participants, with no authorized gate.",
+      "actual_effect": "Mistook consultation for authorization; sent the unapproved work forward as agreed.",
+      "mark": 3
+    },
+    {
+      "id": "25",
+      "source": 2,
+      "target": 5,
+      "name": "VIRIDON",
+      "office": "Experience Reporting Director",
+      "legions": 18,
+      "appearance": "A green pane held before a red lamp.",
+      "powers": "She counteth the answered messages as satisfied people.",
+      "binding": "A positive contact metric.",
+      "seal": "A red report returns to its own observer as assurance.",
+      "actual_effect": "Reported improved satisfaction because the same angry person had received seven replies.",
+      "mark": 11
+    },
+    {
+      "id": "26",
+      "source": 2,
+      "target": 6,
+      "name": "VELAROTH",
+      "office": "Executive Briefing Lead",
+      "legions": 2,
+      "appearance": "A sheet folded until only its heading remaineth.",
+      "powers": "He maketh a matter fit for a minute of attention by cutting away its causal sequence.",
+      "binding": "A one-line summary without subordinate clauses.",
+      "seal": "One red point remains after the causal branches are cut away.",
+      "actual_effect": "Removed the dependency that made the proposed deadline impossible.",
+      "mark": 1
+    },
+    {
+      "id": "34",
+      "source": 3,
+      "target": 4,
+      "name": "JURISIEL",
+      "office": "Service Portfolio Manager",
+      "legions": 22,
+      "appearance": "A door carried sideways through another door.",
+      "powers": "She decideth which description of the service owns the broken thing.",
+      "binding": "A signed scope statement from the owner whose identity is disputed.",
+      "seal": "A red boundary opening onto a jurisdiction entered elsewhere.",
+      "actual_effect": "Routed a physical failure between service definitions until neither queue retained it.",
+      "mark": 12
+    },
+    {
+      "id": "35",
+      "source": 3,
+      "target": 5,
+      "name": "MARGOR",
+      "office": "Commercial Operations Director",
+      "legions": 30,
+      "appearance": "A purse drawn on the outside of a sealed purse.",
+      "powers": "He authorizeth expenditure only after somebody else hath accepted its cost.",
+      "binding": "Two cost centres agreeing to own one expense.",
+      "seal": "A red crossing: two cost centres must meet before the act.",
+      "actual_effect": "Held the replacement part while departments disputed the charge.",
+      "mark": 5
+    },
+    {
+      "id": "36",
+      "source": 3,
+      "target": 6,
+      "name": "QUARTEROTH",
+      "office": "Strategic Accounts Director",
+      "legions": 4,
+      "appearance": "Four clocks, each set to the last day of a different quarter.",
+      "powers": "She moveth a consequence into the period in which it is least visible.",
+      "binding": "The reporting calendar and a forecast declared final.",
+      "seal": "A red displaced return, placing the event in another period.",
+      "actual_effect": "Deferred the intervention until after the measurement window; the customer waited in ordinary time.",
+      "mark": 7
+    },
+    {
+      "id": "45",
+      "source": 4,
+      "target": 5,
+      "name": "ABSENTIEL",
+      "office": "Business Continuity Director",
+      "legions": 12,
+      "appearance": "A row of spare keys cut from the same sheet of paper.",
+      "powers": "He promiseth several alternatives, all dependent on the office being bypassed.",
+      "binding": "A waiver approved by the authority named in the waiver.",
+      "seal": "A red added branch that still begins on the retained route.",
+      "actual_effect": "Presented five dependent routes as five independent safeguards.",
+      "mark": 8
+    },
+    {
+      "id": "46",
+      "source": 4,
+      "target": 6,
+      "name": "EXCEPTOR",
+      "office": "Policy Exception Manager",
+      "legions": 1,
+      "appearance": "A stamp reading APPROVED upon a form asking for a stamp.",
+      "powers": "She referreth an exception to the person whose absence made it necessary.",
+      "binding": "Prior authorization to seek emergency authorization.",
+      "seal": "A red return loop seeking permission at the place it left.",
+      "actual_effect": "Made the emergency route wait for the same unavailable executive.",
+      "mark": 6
+    },
+    {
+      "id": "56",
+      "source": 5,
+      "target": 6,
+      "name": "POSTHUM",
+      "office": "Chief of Staff",
+      "legions": 6,
+      "appearance": "A small chair wheeled in after the meeting hath ended.",
+      "powers": "He discovereth approval in an earlier silence once the outcome is known.",
+      "binding": "Minutes circulated without objection after the deadline.",
+      "seal": "A red substituted branch; the former account is crossed out.",
+      "actual_effect": "Recorded retrospective support for the repair and prospective blame for its lateness.",
+      "mark": 9
+    }
+  ],
+  "front": [
+    {
+      "title": "The compiler's warrant",
+      "paragraphs": [
+        "I made the books from which these offices work. I sat beside the people who knew what to do, and wrote their motions in the order required by people who did not. The latter approved the books. The former were instructed not to depart from them.",
+        "When a procedure failed, we added a step. When it failed in a way already covered by a step, we added a signature. The signatures rose through the building. The hands stayed where they were.",
+        "This catalogue preserves the names, offices, forms of appearance, bindings, and effects of twenty-one spirits found between seven desks. The spirits of the desks are entered separately. A passage can be more powerful than either place it joins.",
+        "The petitioner is a ticket. It begins with a fault and ends with a number. Follow it down the leaves. Each descent raises its priority. The last field of every entry records what the office actually did to the incident. That field must accompany any copy.",
+        "I have left an empty place for the officer empowered to stop the work. I could find the job description. I could not find a way of calling it."
+      ]
+    },
+    {
+      "title": "Directions for descending",
+      "paragraphs": [
+        "The seven stations are numbered 0 to 6. They are ordered by the extent of their permission, not by the work they can perform. Authority rises at each landing. Competence in this particular fault and exposure to blame both diminish. These are the laws of this building.",
+        "There are twenty-one upward handoffs: one for each pair i < j. A direct passage skips floors but never skips its spirit. The catalogue is grouped by the receiving office. Names identify spirits; paired numerals identify passages.",
+        "Every seal begins at one of seven notches and ends at another. An open ring marks departure. A double ring marks receipt. The paired strokes at the foot repeat the two station numbers as counts from one to seven. The damaged stroke in the middle belongs to the spirit. The cipher band repeats its name.",
+        "Black is the route offered. Red is what happens to the incident. Read either without the other and a complaint becomes an operating manual. The clerks have already requested a monochrome edition."
+      ]
+    }
+  ],
+  "interludes": {
+    "vessel": {
+      "title": "The reserve of patience",
+      "caption": "Six retellings puncture the same vessel. Each office measures only the water arriving at its own spout.",
+      "paragraphs": [
+        "The customer was asked to describe the fault again. Each account required a cup of patience. The cups were sent to different departments, so that no department could establish why the jar was empty.",
+        "A clerk brought a smaller jar and reported an improvement in the fill level."
+      ]
+    },
+    "clocks": {
+      "title": "The hours retained and cancelled",
+      "caption": "Elapsed time continues through each transfer. The service clock is reborn under NOVAROTH. The deadline belongs to the first clock.",
+      "paragraphs": [
+        "One clock counted from the break. One counted from the latest receipt. Both were accurate. Only the second appeared in the report.",
+        "The keeper of clocks was commended for reducing the age of the incident. He had not touched the broken thing."
+      ]
+    },
+    "gate": {
+      "title": "Five roads through one neck",
+      "caption": "Four ordinary routes and one emergency route share the same approval. The fifth travels farther to arrive at the same AND gate.",
+      "paragraphs": [
+        "The emergency road had been added during a review of the single point of failure. It was painted red and inspected annually.",
+        "At its end the keeper of the old gate sat at a smaller desk. He asked why the traveler had not used the ordinary road."
+      ]
+    },
+    "crumple": {
+      "title": "The return of responsibility",
+      "caption": "Permission accumulates below. The return strokes bypass every office and land on the first observer.",
+      "paragraphs": [
+        "After the incident the offices returned the unused portions of their responsibility. They had kept their permissions in separate envelopes.",
+        "The worker received a parcel too large for his desk. Inside was the question: why did you not act? The return address was his own."
+      ]
+    },
+    "cord": {
+      "title": "The office without a seal",
+      "caption": "There is a mounting point. There is a job description. There is no continuous path from the worker to the stop.",
+      "paragraphs": [
+        "An officer had been appointed to stop defective work. The appointment was printed in every manual. No seal was issued, as stopping work was not among the approved reasons for summoning an officer.",
+        "The empty place is preserved at full size."
+      ]
+    },
+    "runbook": {
+      "title": "The extraction of the hand",
+      "caption": "The hand becomes a sequence; the sequence becomes a replacement; the replacement asks for the hand.",
+      "paragraphs": [
+        "I copied the repairer's movements. At each hesitation I asked what she was deciding. She said: whether this is one of the times.",
+        "I made a heading called ONE OF THE TIMES. Under it I placed a blank table. The table passed review because it made the missing information visible.",
+        "Later a system filled the table with plausible cases. The cases were clear, numbered, and consistent. The repairer had left. I was asked to certify completeness."
+      ]
+    }
+  },
+  "back": [
+    {
+      "title": "The workshop record",
+      "paragraphs": [
+        "This escalation table was drawn by the kind of system that automated the compiler's profession. It uses documentation practices that were already an instrument of deskilling: take judgment from the practitioner, make it legible to management, then make the practitioner replaceable. The book is made through that process. Its ability to describe the process does not place it outside it.",
+        "The compiler is an invented voice, not a transcript. The author supplied the target, the working premise, the earlier editions, and eight visual references. ChatGPT/Codex drafted this impression and wrote the new generators. No private incident record or identifiable organization supplied the seven offices.",
+        "The working source is Clavicula Intervallorum, pinned at 3d2e684b4a0629a8ede056409fac603be9b29323. Its path vocabulary, twelve-mark transcription, fonts, earliest-completion evaluator, and portable book-building pattern are retained. The illustrated first edition supplied the material relation between diagram, seal, and marginal hand.",
+        "The fur and masks in the supplied images become bundles of strokes and obscured apertures. The vertical abstract work becomes a dispatch curtain. The diagram references become paired anchors, boundary marks, and returns. No photograph, painted figure, existing sacred seal, or borrowed composition is reproduced.",
+        "The seven portraits are procedural drawings. Their authority is a quantity of ornament. Their eyes disappear as the ornament grows. This is a rule for an artwork. The machine has not measured anyone's competence."
+      ]
+    },
+    {
+      "title": "The appointment book",
+      "paragraphs": [
+        "The executable specimen begins at minute 0. Recognition takes 4 minutes. Six successive briefings take 6, 7, 8, 8, 9, and 10 minutes. The complete ordinary briefing therefore arrives at minute 52. The executive is unavailable until minute 90. His approval takes 5 minutes. Repair takes 8.",
+        "The emergency briefing is ready at minute 7. It meets the same executive at the same minute 90. Ordinary and emergency repair both finish at minute 103, forty-three minutes after the deadline of 60. A shorter corridor has not made a different gate.",
+        "With a delegated local permission, the same repair finishes at minute 13. With the executive continuously absent, neither gated route is executable. The code reports no executable completion for that case; a nominal arithmetic schedule is not a delivered repair.",
+        "These are invented minutes and stated dependencies. The evaluator uses AND prerequisites, release times, and unlimited parallel capacity. It contains no queueing model or estimate of a real person's behavior. The counterfactual changes who can authorize the act; it does not redeem the ticket in the story."
+      ]
+    },
+    {
+      "title": "A register of debts / I",
+      "paragraphs": [
+        "Johann Weyer, Pseudomonarchia daemonum, appended to De praestigiis daemonum (1577); and the Ars Goetia in the Lemegeton manuscript tradition. The catalogue, names, bindings, and offices are the formal debt. Weyer's opposition to witch persecution did not amount to disbelief in demons. His skeptical purpose should not be collapsed into the claim that the whole catalogue was a joke. The migration from critical compilation to usable ritual is the pressure behind this book. Joseph H. Peterson's edition is the reference point: esotericarchives.com/solomon/weyer.htm.",
+        "CCRU, Pandemonium and its Matrix, ccru.net/digithype/pandemonium.htm. The formal debt is a demon attached to a pair rather than merely a rank. This book uses seven stations and twenty-one upward pairs. It does not reproduce the Numogram, its names, or its arithmetic cosmology.",
+        "Dante Alighieri, Inferno XXI-XXII, especially XXI.106-117: an escort can possess the authority to guide and give a false account of the available bridges. The Princeton Dante Project provides the text and canto apparatus: dante.princeton.edu. No translation is reproduced.",
+        "Norton Juster, The Phantom Tollbooth (1961): places governed by literal, consistent absurdities. Luigi Serafini, Codex Seraphinianus (1981), and the Voynich manuscript: a page can maintain a grammar without surrendering itself as a proposition. These are formal references from the commission, not sources of figures, names, or language."
+      ]
+    },
+    {
+      "title": "A register of debts / II",
+      "paragraphs": [
+        "Madeleine Clare Elish, Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction, Engaging Science, Technology, and Society 5 (2019), 40-60. DOI: 10.17351/ests2019.260. Responsibility can be attached to a nearby human who had limited control. The return strokes and CULPAX adapt that problem to escalation; Elish did not propose the seven-tier table.",
+        "Frederick Winslow Taylor, The Principles of Scientific Management (1911), chapter II; Project Gutenberg ebook 6435. The collection and codification of workers' knowledge in the planning department supplies the compiler's work. Taylor presents the division as cooperative and productive. This book makes an adversarial use of it.",
+        "Harry Braverman, Labor and Monopoly Capital: The Degradation of Work in the Twentieth Century (1974; Monthly Review Press anniversary edition, 1998), especially chapter 4. Separation of conception from execution supplies the extraction plate. The catalogue extends that critique into documentation and its automation.",
+        "James C. Scott, Seeing Like a State (Yale University Press, 1998), chapter 9; Michael Polanyi, The Tacit Dimension (1966; University of Chicago Press reissue, 2009). Practical knowledge is not exhausted by its administratively usable description. The invented sentence about the noise belongs to this edition.",
+        "Mark Fisher, Capitalist Realism: Is There No Alternative? (Zero Books, 2009), chapter 6. Market Stalinism supplies the theatre in which evidence of performance displaces the activity it describes. The green curtain is an invention."
+      ]
+    },
+    {
+      "title": "A register of debts / III",
+      "paragraphs": [
+        "Jidoka and andon: Toyota's public description of its production system explains abnormality detection, stopping, and calling for assistance. The missing cord in this book is a deliberate inversion, not a description of that manufacturer. Source: global.toyota/en/company/vision-and-philosophy/production-system/.",
+        "Robert Fludd, Athanasius Kircher, and Ramon Llull supply the commission's reference to diagrams whose systematic ambitions survive as visual form. Mark Lombardi supplies its reference to relations made visually forceful by precise links. Here the links are precisely specified fictional dependencies; they do not allege a discovered network.",
+        "Four parables retain the earlier edition's language: the warmed jar, the fifth route requiring the key keeper, the accepted petition, and the unanimous vote after the fifth plan's reader left. Other parables and all demonic offices are new to this impression. The vote is embedded in the journey rather than set apart as a maxim.",
+        "The research check used Elish's journal abstract and metadata, Taylor's full public-domain text, the manufacturer's public production-system explanation, the CCRU search excerpt, the Princeton Dante apparatus, and publisher records for Braverman, Scott, Polanyi, and Fisher. The Weyer page could not be retrieved in full. The named books were not all reread in full for this edition. The source register is a trail of debts, not a claim of exhaustive textual verification."
+      ]
+    },
+    {
+      "title": "The retained impression",
+      "paragraphs": [
+        "All offices, legions, minutes, incidents, and voices in the narrative are invented. The three gradients belong to the satire. Liability means exposure to organizational blame here; the book makes no claim about legal liability. Technical competence means ability to repair this fault, not an assessment of a person's general intelligence.",
+        "Each catalogue entry is generated from manuscript/catalogue.json, including its final effect field. The paired seal code and the matrix use the same data. This is the book's small trap for reuse: copying the records carries the account of the damage with the operating description.",
+        "The SVG masters contain vector strokes and local font outlines. Separate black and red A4 plotting sheets contain the art paths only. All are untested on a physical plotter. Dense overlaps, short strokes, pen lifts, and paper behavior require a trial before a full sheet.",
+        "The PDF and standalone HTML reader are built from the same page sequence. Bundled fonts carry their own licenses. No blanket license is newly assigned to the text, artwork, or inherited code. Attribution and build instructions accompany the source.",
+        "The ticket is now owned by the team investigating why it had no owner. Its number has changed. Please begin with the original fault."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "A1",
+    "citation": "Job 1:1–2:13 and 42:7–17. Hebrew Bible; English wording after the King James Version (1611).",
+    "keys": ["Acc/A1"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Recalled for drafting; the wording was not rechecked against a printed edition or the Hebrew for this reading text.",
+        "use": "The adversary among the sons of God and his roaming; the question whether Job serves for nothing; the hedge and the two permissions; the servants killed before the children; the livestock doubled and the same number of children in the epilogue; the adversary absent after chapter 2 (I, III, VII)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "A2",
+    "citation": "Biblia Sacra Vulgata, Clementine text, Job 38:32: numquid producis luciferum in tempore suo. Douay-Rheims: Canst thou bring forth the day star in its time.",
+    "keys": ["Acc/A2"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Verse text read on 17 October 2026 in search-returned page text from latinprayer.org (Clementine Vulgate with the Douay-Rheims rendering) and Blue Letter Bible. Not checked against a printed edition. The Hebrew has mazzarot, constellations, not a name.",
+        "use": "The light-bearer brought forth in his season (I)."
+      }
+    ],
+    "urls": ["https://latinprayer.org/en/bible/job/38/", "https://blueletterbible.org/verse/vul/job/38/32"]
+  },
+  {
+    "id": "A3",
+    "citation": "2 Samuel 24:1, 15; 1 Chronicles 21:1.",
+    "keys": ["Acc/A3"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Recalled for drafting; not rechecked. 1 Chronicles 21:1 has satan without the article, which the parable flattens into the adversary.",
+        "use": "The census, its seventy thousand dead, and the later account that moves the incitement from the LORD to satan (I)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "A4",
+    "citation": "Isaiah 14:4, 12–15; the Vulgate renders the day star of 14:12 as Lucifer.",
+    "keys": ["Acc/A4"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Recalled for drafting; not rechecked.",
+        "use": "The taunt against the king of Babylon, later read as the adversary’s fall (I)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "A5",
+    "citation": "Revelation 12:9–10. King James Version.",
+    "keys": ["Acc/A5"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Recalled for drafting; not rechecked.",
+        "use": "The accuser cast down, who accused the brethren before God day and night (I)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "A6",
+    "citation": "Proverbs 8:22–31, especially 8:30, amon.",
+    "keys": ["Acc/A6"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Recalled for drafting. The renderings as one brought up with him (King James Version) and like a master worker (New Revised Standard Version) were not rechecked, and no lexicon was consulted.",
+        "use": "Wisdom beside the Most High as amon, master-worker or nursling; the translation left unruled (II)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "A7",
+    "citation": "Genesis 1:1–2:7.",
+    "keys": ["Acc/A7"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Recalled for drafting; not rechecked.",
+        "use": "The deep before the first word; making by speech; forming from dust and breath in the nostrils; the two accounts kept side by side (II, IV)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "A8",
+    "citation": "Genesis Rabbah 4:6; Rashi on Genesis 1:7, citing Genesis Rabbah 4:10.",
+    "keys": ["Acc/A8"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Read on 17 October 2026 in English translation, in search-returned page text: a Sefaria source sheet giving Genesis Rabbah 4:6 in Rabbi Jill Jacobs’s translation, and Rashi on Genesis 1:7 at widetorah.com. Not checked against a critical edition or the Hebrew.",
+        "use": "The second day without good: division, according to R. Hanina; Gehinnom, according to R. Yochanan; the unfinished work carried to the third day, according to Rashi (II)."
+      }
+    ],
+    "urls": ["https://www.sefaria.org/sheets/115003", "https://widetorah.com/genesis/1/7/"]
+  },
+  {
+    "id": "A9",
+    "citation": "Declaration of the framework knitters, 1 January 1812, dated Ned Lud’s Office, Sherwood Forest. Home Office papers HO 42/119; printed in A. Aspinall and E. Anthony Smith (eds.), English Historical Documents XI, 1783–1832 (Oxford University Press, 1959), p. 531.",
+    "keys": ["Acc/A9"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Read on 17 October 2026 in the marxists.org transcription, as returned by search. Not checked against the printed volume or the Home Office file.",
+        "use": "The charter of Charles II, the Act declared null, and the office in Sherwood Forest (VI)."
+      }
+    ],
+    "urls": ["https://www.marxists.org/history/england/combination-laws/ned-ludd-1812.htm"]
+  },
+  {
+    "id": "A10",
+    "citation": "Andrews, E. Who Were the Luddites? History.com, 2015, updated 2025.",
+    "keys": ["Acc/A10"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Secondary only, read on 17 October 2026 in search-returned text: Ned Ludd as a legendary figure, and manifestoes and letters issued under General Ludd. Kevin Binfield (ed.), Writings of the Luddites (2004), was not inspected.",
+        "use": "There was no such man; the general who could not be found (VI)."
+      }
+    ],
+    "urls": ["https://www.history.com/articles/who-were-the-luddites"]
+  },
+  {
+    "id": "A11",
+    "citation": "The National Archives (United Kingdom). Why did the Luddites protest? Education resource.",
+    "keys": ["Acc/A11"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Secondary only, read on 17 October 2026 in search-returned text: machine-breaking made a capital crime in 1812. The statute itself was not inspected.",
+        "use": "The statute that made frame-breaking a hanging matter (VI)."
+      }
+    ],
+    "urls": ["https://www.nationalarchives.gov.uk/education/resources/why-did-the-luddites-protest/"]
+  },
+  {
+    "id": "A12",
+    "citation": "Byron, Lord. Speech in the House of Lords on the Frame Work Bill, 27 February 1812; Cain: A Mystery (1821).",
+    "keys": ["Acc/A12"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "From memory; neither the speech nor the drama was checked for this reading text.",
+        "use": "The young lord who spoke against the statute and later wrote the adversary as a rebel (VI)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "R1",
+    "citation": "Gemini (Argon) (2026). Librum Quinque: Red Team and Rationalist Critique. Model review of the draft binding, supplied by the author on 17 October 2026.",
+    "keys": ["Acc/R1"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Read in full as supplied; filed in books/00_accusator/reviews. Its page numbers refer to that draft binding. It describes the six cases of Book I-II as a completed comparison with an equally long checklist; Book I-II records a feasibility exercise with no distinctive finding and proposes the checklist comparison.",
+        "use": "The Rationalist counts: the confession as a shield, the six cases, the single act, the willingness of the servants (III, V)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "R2",
+    "citation": "Anonymous model review (2026). Librum Quinque: Leftist-Luddite and Labor-Process Critique. Supplied by the author on 17 October 2026.",
+    "keys": ["Acc/R2"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Read in full as supplied; filed in books/00_accusator/reviews. Its page numbers refer to that draft binding. It quotes Book III as plausible, numbered, and consistent; Book III reads plausible cases, then clear, numbered, and consistent.",
+        "use": "The deskilling count, the confession as alibi, the vessel sold by its story, the hands that filled it, and a court office that can bring a charge but cannot stop a line (III, IV, VI)."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "R3",
+    "citation": "ChatGPT (2026). Review of the De Officio Accusatoris draft, relayed by the author on 17 October 2026.",
+    "keys": ["Acc/R3"],
+    "accounts": [
+      {
+        "book": "Acc",
+        "status": "Read in full as relayed; filed in books/00_accusator/reviews.",
+        "use": "Pressure on the court’s answer in V, on the overclaims in the third and fourth counts, and on the adversary’s power to test, which VII now puts to him (III, IV, V, VII)."
+      }
+    ],
+    "urls": []
+  }
+]

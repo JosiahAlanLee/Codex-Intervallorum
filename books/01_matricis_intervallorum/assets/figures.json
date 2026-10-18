@@ -1,0 +1,92 @@
+[
+  {
+    "name": "fed-vessel",
+    "asset": "fed-vessel.jpeg",
+    "original": "references/raster/batch-04/fed-vessel-raster-reference-v01.png",
+    "original_git_blob": "060f1ffbf7e48b6b1bd8eee8874dbcfb48f980fb",
+    "figure_bbox_px": [
+      277,
+      34,
+      1131,
+      1203
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "preparation": "Unaltered extraction of the prepared image XObject from the reviewed illustrated binding; no generated letters or geometric carriers.",
+    "prepared_sha256": "7f4f516ac4072c52f101a65f392e7d5bcc3e140b6e53686b3627655218176874"
+  },
+  {
+    "name": "second-neck",
+    "asset": "second-neck.jpeg",
+    "original": "references/raster/batch-05/second-neck-raster-reference-v01.png",
+    "original_git_blob": "029b89248689597c6ee6b53aa0fc6089e0ed5291",
+    "figure_bbox_px": [
+      436,
+      23,
+      819,
+      1218
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "preparation": "Unaltered extraction of the prepared image XObject from the reviewed illustrated binding; no generated letters or geometric carriers.",
+    "prepared_sha256": "0070f6805199179e64c3b07810699c0e425a89730868d7400937b5f5d0c4920a"
+  },
+  {
+    "name": "house-kept-in-abeyance",
+    "asset": "house-kept-in-abeyance.jpeg",
+    "original": "references/raster/batch-05/house-kept-in-abeyance-raster-reference-v01.png",
+    "original_git_blob": "2a6073f07df6a05397be30b242f6ab7d976d3586",
+    "figure_bbox_px": [
+      196,
+      26,
+      1038,
+      1195
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "preparation": "Unaltered extraction of the prepared image XObject from the reviewed illustrated binding; no generated letters or geometric carriers.",
+    "prepared_sha256": "4eff4a9d99b35e28089f062dec7fc85c30c0b980631bec9efd980cca33589966"
+  },
+  {
+    "name": "keeper-of-intervals-original",
+    "asset": "keeper-of-intervals-original.jpeg",
+    "original": "references/raster/batch-05/keeper-of-intervals-original-raster-reference-v01.png",
+    "original_git_blob": "62b2009e76f5542bcf8568e05cff78c6377deb8b",
+    "figure_bbox_px": [
+      228,
+      44,
+      875,
+      1492
+    ],
+    "size": [
+      1024,
+      1536
+    ],
+    "preparation": "Unaltered extraction of the prepared image XObject from the reviewed illustrated binding; no generated letters or geometric carriers.",
+    "prepared_sha256": "53f5150f173a7f9a4c4e1592e45fa262a7ea36d23fd1f144cbcf7b4b978e3a37"
+  },
+  {
+    "name": "open-inventory",
+    "asset": "open-inventory.jpeg",
+    "original": "references/raster/batch-05/open-inventory-raster-reference-v01.png",
+    "original_git_blob": "1660a9e1d83d08f3bbf2e4c484a739b74a9cfb94",
+    "figure_bbox_px": [
+      175,
+      17,
+      1080,
+      1228
+    ],
+    "size": [
+      1254,
+      1254
+    ],
+    "preparation": "Unaltered extraction of the prepared image XObject from the reviewed illustrated binding; no generated letters or geometric carriers.",
+    "prepared_sha256": "d2463294c2cb62be27489afb82c21c5e46d02c170cdc7c92cbcd0c0732ef3c95"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "repository": "JosiahAlanLee/Clavicula_Intervallorum",
+  "commit": "3d2e684b4a0629a8ede056409fac603be9b29323",
+  "retrieved_source_sha256": {
+    "NOTICES.md": "ae0737be032df6a5dea61bf8e68a4c2bc41d7aada699e9f6695fc391d6337b80",
+    "requirements-lock.txt": "80b4e465749a615b3677a0ad588a097a2e4262b303aac7eca019a2d7afe66973",
+    "generator/core.py": "095f6125c77490524fbfa42def7105fcdb289113709dcab49697a1d3f4491d3c",
+    "generator/hands.py": "2ee1074797f242dbba25aaf797085d99d92b14aa0d496f4ca6006baa7018bba1",
+    "generator/marks.py": "784616a0586682ab1f3f0d0bb869656b1c1a5cd0ea27880594f74a822c0bb95b",
+    "generator/build.py": "7f5530c9f6662f36a9d424d6d015095fea2e92b13a82edaf6c1958b61ecc03f2",
+    "generator/tx.py": "00efacaf6f202c471a90f3d3c3bc15cde718b99423c0f980f338b023d6492c68",
+    "generator/reachability.py": "5c358cecf2d86837eba01159e54de3e680240c9b5ec4e9e7a85f02babe62d016",
+    "manuscript/book.json": "7d9526380a9a65b018a83812659ebf676aca3c816ed4ddf52b45b9496b5ec30c"
+  }
+}

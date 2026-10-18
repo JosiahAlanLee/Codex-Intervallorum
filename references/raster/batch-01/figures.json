@@ -1,0 +1,452 @@
+{
+  "project": "Librum Quinque",
+  "batch": 1,
+  "asset_kind": "raster figure references — not plot masters",
+  "status": "awaiting batch review",
+  "book": "Pseudomonarchia Escalationum",
+  "source": {
+    "repository": "JosiahAlanLee/Librum_Quinque",
+    "catalogue_path": "books/03_escalationum/manuscript/catalogue.json",
+    "catalogue_blob_sha": "6b3f5fa20d5f58321db77d57b9862a4cbc48c5be"
+  },
+  "calibration": {
+    "subject": "FORAS",
+    "file": "foras-raster-reference-v02.png",
+    "approved_by_user": true
+  },
+  "figures": [
+    {
+      "index": 1,
+      "subject": "VASSAGO",
+      "office": "Tier 2 Escalation Lead",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 1,
+        "name": "VASSAGO",
+        "office": "Tier 2 Escalation Lead",
+        "legions": 8,
+        "region": "The vestibule of beginnings",
+        "appearance": "He hath two faces, both new to the matter. His eight legions wear the expression of persons returning from leave.",
+        "powers": "He repeateth the first examination with greater authority. He can pronounce a known fault unconfirmed, whereby a successful diagnosis is made available for investigation again. He keepeth all prior notes in a pane that openeth behind his own.",
+        "binding": "The ticket number spoken afresh; the same diagnostic attachment exported into his preferred template.",
+        "seal": "An open return loop inside the two rings of office.",
+        "actual_effect": "Required the fault to be reproduced and prolonged it to obtain fresh evidence.",
+        "journey": [
+          "At the next landing a basin collected everything that had already been said. It was full. The clerk placed a clean cup beside it and asked the ticket to begin.",
+          "The ticket explained the water, the valve, and the finger on the drawing. Vassago asked whether the water had been observed since arrival at this desk. The ticket pointed to its wet corner. That was evidence from the previous desk.",
+          "They repeated the test. More water came. Vassago nodded with the satisfaction of a man who has not been misled by hearsay. The ticket was angry before anyone had contradicted it. This was recorded as its opening tone."
+        ],
+        "parable": "A bell was carried through six rooms. In every room a clerk asked whether it still rang. At the seventh the clapper fell out. The clerk there found no evidence of a ringing bell.",
+        "authority": 1,
+        "competence": 5,
+        "liability": 5
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — VASSAGO:\nTier 2 Escalation Lead. One full-length lean robed demon with EXACTLY TWO humanlike faces on one head, looking in slightly different directions, both alert yet unfamiliar. Exactly two arms. One hand holds a clean blank diagnostic folio in front; the other lifts a second blank leaf so an earlier leaf is visibly trapped behind it. Face anatomy drawn with the same care as Foras, but a different identity. Openwork hood, narrow shoulders and divided robe hem. Office seal visibly worn at sternum: an OPEN return loop inside TWO closed concentric rings. The SINGLE red intervention is the inner open return loop of that chest seal. All other ink black with sparse slate/ochre. Do not add red thread. No attendants.\nCanonical catalogue attribute (do not print these words): He hath two faces, both new to the matter. His eight legions wear the expression of persons returning from leave.\nCanonical office effect for conceptual guidance only (no written text in image): Required the fault to be reproduced and prolonged it to obtain fresh evidence.",
+      "seed": null,
+      "status": "selected",
+      "file": "vassago-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "Two faces on one head; two hands; one red open return loop at chest.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "b86fd508d29880cde0aa2fa432560bd71515b5734288e5738aafa5d483883780"
+    },
+    {
+      "index": 2,
+      "subject": "GREMORY",
+      "office": "Customer Success Manager",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 2,
+        "name": "GREMORY",
+        "office": "Customer Success Manager",
+        "legions": 12,
+        "region": "The conservatory of weather",
+        "appearance": "She appeareth beneath a roof painted blue upon the underside. Rain may be heard above it but is not visible from her chair.",
+        "powers": "She translateth outages into concerns and concerns into opportunities for contact. She can offer warmth in any quantity except heat. Her legions tend the customer sentiment, which must remain positive while the customer remaineth present.",
+        "binding": "A scheduled conversation, a sentiment field, and consent to a follow-up invitation.",
+        "seal": "A broken ring keeping two small witnesses inside.",
+        "actual_effect": "Took the only available engineer off the repair to attend a reassurance call.",
+        "journey": [
+          "There were flowers in the conservatory, each accompanied by a certificate stating how well it felt. The ticket dripped onto a carpet patterned with dry islands.",
+          "Gremory asked what success would look like. A dry ceiling, said the ticket. She wrote: clearer expectations around moisture. The ticket objected. She changed the pen.",
+          "The engineer was summoned so that the ticket could hear a technical voice. Foras arrived with his finger still held in the air. The drawing had remained upstairs. He could explain the problem perfectly without it. He was invited to do so until the meeting ended."
+        ],
+        "parable": "The jar was sealed against the winter. Every seventh day someone warmed the room in which it stood. The account recorded that the jar had required nothing.",
+        "authority": 2,
+        "competence": 4,
+        "liability": 4
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — GREMORY:\nCustomer Success Manager. One full-length feminine demon seated upright in a narrow cellular-lattice chair, both feet entirely visible, with a small pitched canopy attached to its back above her head. The canopy's underside has a sparse FLAT slate blue-grey wash, rain only suggested by black short drops ABOVE the little roof, none underneath. Keep this a standalone chair-bound figure, no room or landscape. An elegant openwork mantle, careful sympathetic but unreadable face, exactly two arms, one presenting an empty teacup and the other holding a blank leaf. The office seal at her throat is a broken black ring keeping two small black witness dots inside. The SINGLE red intervention is one small red redirection stitch fastening the blank leaf to her sleeve, a clear simple red loop. No other red, no flowers or additional people. Dense cellular hood and skirt ornament sit beside quiet areas of paper.\nCanonical catalogue attribute (do not print these words): She appeareth beneath a roof painted blue upon the underside. Rain may be heard above it but is not visible from her chair.\nCanonical office effect for conceptual guidance only (no written text in image): Took the only available engineer off the repair to attend a reassurance call.",
+      "seed": null,
+      "status": "selected",
+      "file": "gremory-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "Seated figure, both feet visible, attached slate canopy, rain above roof, one red fastening at leaf.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ed5cb4ce99c2428744118477e9fed502bbf9f088ed090641702bfe335c21e4b6"
+    },
+    {
+      "index": 3,
+      "subject": "BUNE",
+      "office": "Account Executive",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 3,
+        "name": "BUNE",
+        "office": "Account Executive",
+        "legions": 26,
+        "region": "The exchange of denominators",
+        "appearance": "He appeareth with three mouths, one for the promise, one for its interpretation, and one reserved for the renewal.",
+        "powers": "He divideth the afflicted into paying units, and the paying units into those whose agreements recognize the affliction. He may enlarge a service on paper with no change to its pipes. He commandeth twenty-six legions, all charged to a future quarter.",
+        "binding": "An account number, a renewal date, and the confidentiality of the concession.",
+        "seal": "A new branch above a struck-through old route.",
+        "actual_effect": "Made the remedy conditional on purchasing an assurance that it would be considered.",
+        "journey": [
+          "The exchange sold umbrellas by the square inch of rain they would acknowledge. The ticket had brought a ceiling; the clerk asked how much of it was under agreement.",
+          "Bune offered a faster staircase. The ticket bought it with the last of its patience. At the first step a smaller desk issued an invoice for use of the handrail.",
+          "No one denied that the building was flooding. They disagreed over which building had been sold. In the approved description, the word building meant the lobby. The lobby was on the highest ground."
+        ],
+        "parable": "A town bought a second bridge against the failure of the first. Both were suspended from the same rope. The invoice listed two crossings and one economy.",
+        "authority": 3,
+        "competence": 3,
+        "liability": 3
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — BUNE:\nAccount Executive. One full-length standing demon, two arms, one face with EXACTLY THREE separate mouths arranged vertically on its lower face: one speaking, one subtly pursed, one closed. Two small observant eyes; do not make three heads. Narrow ceremonial businesslike robe made of cellular lace and branching garment panels, not a modern suit. One hand offers a folded BLANK contractual sheet; the other holds a small closed blank renewal ledger. The chest seal is a simple new black branch above an old black horizontal route. The SINGLE red intervention is ONE diagonal red cancellation stroke striking through that old route inside the chest seal. All mouth marks and lips black, no red mouth. Single centred body, full feet and all paper visible.\nCanonical catalogue attribute (do not print these words): He appeareth with three mouths, one for the promise, one for its interpretation, and one reserved for the renewal.\nCanonical office effect for conceptual guidance only (no written text in image): Made the remedy conditional on purchasing an assurance that it would be considered.",
+      "seed": null,
+      "status": "selected",
+      "file": "bune-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "Three stacked mouth slits; two hands; one red cancellation mark at chest. Generated cancellation has two crossing strokes, retained as one intervention.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "775bea3de680ca68a3bcb6e76a16345ee0798c83edb4db9c334b7946fd4e1e90"
+    },
+    {
+      "index": 4,
+      "subject": "OROBAS",
+      "office": "Deputy Department Head",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 4,
+        "name": "OROBAS",
+        "office": "Deputy Department Head",
+        "legions": 40,
+        "region": "The corridor of jurisdictions",
+        "appearance": "He appeareth as the front half of a horse. The hind half reporteth elsewhere.",
+        "powers": "He can divide a single defect into several matters, none within his remit. He accepteth petitions with great punctuality and returneth them without prejudice. Every door in his corridor opens onto the same corridor from the other side.",
+        "binding": "A named owner, a consulted owner, and an owner empowered to decide which owner should be named.",
+        "seal": "A spiral whose return is displaced from its departure.",
+        "actual_effect": "Split the common fault into separate queues, each awaiting evidence from the others.",
+        "journey": [
+          "The corridor had a window at either end. Through both could be seen the same tree, from opposite sides. The ticket walked until its wet corner wore through.",
+          "Orobas explained that the valve belonged to Facilities, the water to Continuity, the drawing to Architecture, and the finger to Workforce. The incident itself had no department because incidents were temporary.",
+          "A petition to join the four matters was accepted at every door. The ticket acquired four receipts. With the receipts folded together it could cover the hole in its corner, but not the hole in the ceiling."
+        ],
+        "parable": "The petition was accepted in every room. No room could alter the instruction. The clerks kept an excellent count of petitions.",
+        "authority": 4,
+        "competence": 2,
+        "liability": 2
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — OROBAS:\nDeputy Department Head. The literal FRONT HALF OF A HORSE only: one complete equine head, neck, chest, two forelegs and front hooves, in a three-quarter side view, fully visible. The torso ends cleanly behind the shoulders at a delicate open lattice termination; there is NO hindquarter, tail, rear leg, human rider or human torso. This is an elegant impossible living jurisdictional fragment rather than injury: no wound, blood or gore. A long fine openwork ceremonial caparison hangs around the two forelegs, cellular membrane pockets and dot-terminal black drop-lines; keep the horse anatomy legible. Office seal worn on the chest: one BLACK spiral whose return misses its departure. The SINGLE red intervention is a short red displaced return segment just outside the black spiral, marking that mismatch. Muted slate and little ochre within a few harness/caparison cells. No complete horse silhouette hidden in drapery.\nCanonical catalogue attribute (do not print these words): He appeareth as the front half of a horse. The hind half reporteth elsewhere.\nCanonical office effect for conceptual guidance only (no written text in image): Split the common fault into separate queues, each awaiting evidence from the others.",
+      "seed": null,
+      "status": "selected",
+      "file": "orobas-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "Horse forequarters only, two forelegs, open lattice rear termination, red displaced spiral segment.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "c2c3b8aa67529ecb11a91f8d75443a16fc0854939d000ca5848142f7e2c4d16a"
+    },
+    {
+      "index": 5,
+      "subject": "PAIMON",
+      "office": "VP of Operations",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 5,
+        "name": "PAIMON",
+        "office": "VP of Operations",
+        "legions": 200,
+        "region": "The theatre of completed work",
+        "appearance": "He appeareth behind a curtain woven from green status bars. His voice arriveth from a speaker one room ahead of him.",
+        "powers": "He maketh evidence of work more numerous than work. He can appoint an owner to every risk and retain none himself. He permitteth exceptions after they have been rendered incapable of changing the forecast.",
+        "binding": "A recovery plan, an executive summary of the plan, and a summary of that summary stripped of conditional verbs.",
+        "seal": "A box that sends a report to itself and receives it as independent assurance.",
+        "actual_effect": "Reassigned the repair team to prepare the recovery presentation; recorded the presentation as progress.",
+        "journey": [
+          "There was a stage in the theatre and a photograph of the stage on a larger stage behind it. Paimon spoke to the photograph. The ticket took a seat in the audience reserved for evidence.",
+          "The proposed repair was displayed in green because it had an owner. The water was displayed in amber because its owner was under discussion. When asked how much water remained, the presenter advanced to a slide about the frequency of updates.",
+          "They voted among the available plans. The fifth plan had no presenter: its only reader had been allowed to leave. The vote was unanimous. The ticket was given a copy of the decision so that it could demonstrate movement."
+        ],
+        "parable": "The council improved the warning lamp until it shone green. They then appointed someone to watch the puddle beneath it. His performance was measured by the lamp.",
+        "authority": 5,
+        "competence": 1,
+        "liability": 1
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — PAIMON:\nVP of Operations. One full-length standing demon behind a narrow garment-mounted curtain, formed from rows of short empty status-bar shapes woven into a long cellular-lattice mantle. No stage, scenery, throne or room. The source says GREEN status bars, but THIS SERIES HAS NO GREEN: translate the bars into sparse muted SLATE BLUE-GREY and black outline, all inside this figure's costume. A heavy fine lattice veil obscures his eyes; an angular mouth is just visible. Exactly two arms; one holds a small vintage speaking horn forward, disconnected from his mouth, the other a short stack of completely blank presentation leaves. The chest seal is a black outlined box with an outgoing line looping back into itself. The SINGLE red intervention is that ONE short red returning segment of the self-report loop at the chest seal. No red anywhere else. Ornament more elaborate than Foras but fine pen line, not a solid black silhouette.\nCanonical catalogue attribute (do not print these words): He appeareth behind a curtain woven from green status bars. His voice arriveth from a speaker one room ahead of him.\nCanonical office effect for conceptual guidance only (no written text in image): Reassigned the repair team to prepare the recovery presentation; recorded the presentation as progress.",
+      "seed": null,
+      "status": "selected",
+      "file": "paimon-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "Eyes obscured by status-bar curtain, two hands, slate bars substituted for canonical green, red self-report return.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "fad13458b8ce236ccaeb7cb0b32c0e6d88973decf3842bf4b3d918abe18b1feb"
+    },
+    {
+      "index": 6,
+      "subject": "BAEL",
+      "office": "Chief Technology Officer",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 6,
+        "name": "BAEL",
+        "office": "Chief Technology Officer",
+        "legions": 66,
+        "region": "The chamber held in reserve",
+        "appearance": "He appeareth forty minutes late, or as a calendar marked private. His chair hath a high back and no identifiable front.",
+        "powers": "He may suspend every rule below him. He knoweth the titles of the rules. All ordinary roads require his approval; the exceptional road requireth his approval of its exception. His sixty-six legions of contractors cannot summon him, for he is their escalation.",
+        "binding": "A complete briefing with no technical detail; a change window bearing his signature; no finding that names the signature as a cause.",
+        "seal": "An open enclosure held inside two closed rings; the centre is empty.",
+        "actual_effect": "Withheld the only effective authority until the deadline passed, then asked why the operator had waited.",
+        "journey": [
+          "There was no one at the final desk. A lamp on it announced that the office was available. The ticket pressed the lamp. It changed to engaged.",
+          "At the side of the desk was an emergency passage. Its handle was behind the desk. A notice explained that access to the handle was available in emergencies upon approval. The ticket put its four receipts into the slot.",
+          "When Bael arrived he asked for the shortest possible account. The ticket gave him its number. He asked why no one had exercised judgment. The ticket looked for Foras, who was six floors away with one finger raised. A new ticket was opened to establish when Foras had known."
+        ],
+        "parable": "The archive held five routes to the spring. Four required the same key. The fifth required the keeper of the key to certify that no key was needed.",
+        "authority": 6,
+        "competence": 0,
+        "liability": 0
+      },
+      "prompt": "Precise local edit of BAEL EMPTY CHAIR, supplied image. Change ONLY the suspended seal at upper centre. All chair drawing, ground, composition, margins, colour and fine lines must stay unchanged.\nThe current pendant is wrong: a single black circle with a red arc stuck to another black arc. ERASE THE ENTIRE CURRENT CIRCULAR PENDANT INTERIOR AND OUTLINE, retaining its vertical hanging black line. Draw a NEW THREE-PART pendant, somewhat larger if needed for clarity, on the same empty cream ground:\nA. One fully CLOSED BLACK circle, outer radius about 80 units.\nB. INSIDE A, a second fully CLOSED BLACK circle, radius 60 units. B is black for all 360 degrees, including the lower right. There is a broad CREAM GAP between A and B.\nC. INSIDE B, one RED C-shaped arc, radius 36 units, with its LOWER RIGHT QUARTER MISSING. There is another broad CREAM GAP between B and C. C has two visible unjoined red ends. C is red only, NO black outline around it.\nThus three concentric separate strokes with radius ratio 80:60:36, outer two black full circles, innermost red open arc. All centres the same. Everything between the three strokes is cream; central area empty cream. Do not overlay the red stroke on either black circle. NO red outside this innermost C.\nKeep the chair completely empty. No human, eyes, words, numerals, lettering, border or extra ornament. Retain PNG portrait 2:3 and flat cream #ede6d4.",
+      "seed": null,
+      "status": "selected",
+      "file": "bael-raster-reference-v03.png",
+      "attempt": 3,
+      "qa_notes": "Empty four-legged chair; final pendant has two closed black rings and separate open red enclosure; no occupant.",
+      "reference_images": [
+        "attempts/bael-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "prompt_history": [
+        "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — BAEL:\nChief Technology Officer — THE EMPTY SEAT. No person, demon, face, ghost, eyes, silhouette, hands, human-shaped absence or occupant. The portrait consists ONLY of a solitary EMPTY high-backed chair and its seal. The chair has no identifiable front: a rotationally ambiguous narrow seat with paired lattice back-like structures seen at a gentle three-quarter angle, four slender architectural legs. Everything fully visible on blank cream ground. Chair skeleton drawn with the same fine pen and rich cellular/lattice ornament as Foras's robe, some sparse slate and tiny ochre in structural cells, vertical black drop-lines ending in dots. A pendant seal suspended in the empty space above the seat: TWO CLOSED BLACK concentric rings holding ONE OPEN enclosure; the exact centre remains entirely blank cream. The SINGLE red intervention is the OPEN enclosure inside those black rings, red line only. No other red. No desk, calendar, crown, surrounding architecture or writing. Empty seat remains clearly visible, not filled by ornament.\nCanonical catalogue attribute (do not print these words): He appeareth forty minutes late, or as a calendar marked private. His chair hath a high back and no identifiable front.\nCanonical office effect for conceptual guidance only (no written text in image): Withheld the only effective authority until the deadline passed, then asked why the operator had waited.",
+        "Use case: precise-object-edit. Input image is the BAEL CHAIR EDIT TARGET. Keep exactly the same empty lattice chair, its silhouette, its four legs, all fine line detail, sparse slate/ochre, cream ground and lighting-free pen register. NO occupant. Make TWO precise adjustments:\n1. Replace only the circular pendant seal above the empty seat with TWO clearly separated, thin, CLOSED near-black #161918 concentric rings. Inside BOTH black rings draw a third, smaller red #a32b24 C-shaped enclosure with a conspicuous OPEN GAP of about a quarter of its circumference at lower right. The red curve is NOT a complete ring; it has two unjoined ends. There is cream space between every ring. Entire central disk stays empty cream. Only this one red C, no other red.\n2. Give the COMPLETE chair and hanging seal more open air on the same 2:3 portrait sheet: reduce the whole composition modestly to leave at least 8 percent blank cream margin at top and bottom and 12 percent at each side, never crop a line.\nNo text, numbers, frames, captions, border, gradient, paper texture or additional objects. PNG, retain portrait 2:3. Preserve all other drawing detail.",
+        "Precise local edit of BAEL EMPTY CHAIR, supplied image. Change ONLY the suspended seal at upper centre. All chair drawing, ground, composition, margins, colour and fine lines must stay unchanged.\nThe current pendant is wrong: a single black circle with a red arc stuck to another black arc. ERASE THE ENTIRE CURRENT CIRCULAR PENDANT INTERIOR AND OUTLINE, retaining its vertical hanging black line. Draw a NEW THREE-PART pendant, somewhat larger if needed for clarity, on the same empty cream ground:\nA. One fully CLOSED BLACK circle, outer radius about 80 units.\nB. INSIDE A, a second fully CLOSED BLACK circle, radius 60 units. B is black for all 360 degrees, including the lower right. There is a broad CREAM GAP between A and B.\nC. INSIDE B, one RED C-shaped arc, radius 36 units, with its LOWER RIGHT QUARTER MISSING. There is another broad CREAM GAP between B and C. C has two visible unjoined red ends. C is red only, NO black outline around it.\nThus three concentric separate strokes with radius ratio 80:60:36, outer two black full circles, innermost red open arc. All centres the same. Everything between the three strokes is cream; central area empty cream. Do not overlay the red stroke on either black circle. NO red outside this innermost C.\nKeep the chair completely empty. No human, eyes, words, numerals, lettering, border or extra ornament. Retain PNG portrait 2:3 and flat cream #ede6d4."
+      ],
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "059deed93cb33cb1dc9927b0a6fa7262890434840c525e0bebdde6fbf6134a9d"
+    },
+    {
+      "index": 7,
+      "subject": "REPETIEL",
+      "office": "Escalation Intake Coordinator",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": "01",
+        "source": 0,
+        "target": 1,
+        "name": "REPETIEL",
+        "office": "Escalation Intake Coordinator",
+        "legions": 6,
+        "appearance": "A mouth at either end of a clean speaking tube.",
+        "powers": "He loseth context at the boundary and retaineth proof that it was sent.",
+        "binding": "The original number, re-entered by hand.",
+        "seal": "A red return loop left open, so the account can begin again.",
+        "actual_effect": "Spent six minutes obtaining facts already attached; ordered the first test again.",
+        "mark": 6
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — REPETIEL:\nEscalation Intake Coordinator, handoff demon 01. Canonical appearance: \"A mouth at either end of a clean speaking tube.\" Make ONE standalone upright demon-device whose actual body is a narrow clean speaking tube bent into an elongated asymmetrical U, with TWO fleshy engraved mouths, exactly one at each open end. No human head, torso, extra mouth or unrelated creature. Tube is long, its two mouth-ends at different heights, the lower continuous bend suspended above a small pair of narrow support feet; keep an elegant slender portrait silhouette and generous blank margin. Fine cellular and lattice organ-like sheathing grows along the outside of the otherwise clean tube; black dot-terminal drop-lines hang from the lower bend. Tiny slate and ochre pockets only. This body carries its own seal visibly on a small black pendant at the tube bend: a RED return loop intentionally left OPEN, as a single line with a visible gap. That red loop is the SINGLE red intervention, nothing else red, mouths black line on cream. No letters, tickets or numbers. The tube transmits but its clean interior is empty.\nCanonical catalogue attribute (do not print these words): A mouth at either end of a clean speaking tube.\nCanonical office effect for conceptual guidance only (no written text in image): Spent six minutes obtaining facts already attached; ordered the first test again.",
+      "seed": null,
+      "status": "selected",
+      "file": "repetiel-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "One speaking-tube body, two mouths, paired support feet, open red return loop pendant.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ba0f2c2923c770feaa15e0795ac664fdcb034748dd9d3c12ebd5524501f18f60"
+    }
+  ],
+  "attempts": [
+    {
+      "index": 6,
+      "subject": "BAEL",
+      "office": "Chief Technology Officer",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 6,
+        "name": "BAEL",
+        "office": "Chief Technology Officer",
+        "legions": 66,
+        "region": "The chamber held in reserve",
+        "appearance": "He appeareth forty minutes late, or as a calendar marked private. His chair hath a high back and no identifiable front.",
+        "powers": "He may suspend every rule below him. He knoweth the titles of the rules. All ordinary roads require his approval; the exceptional road requireth his approval of its exception. His sixty-six legions of contractors cannot summon him, for he is their escalation.",
+        "binding": "A complete briefing with no technical detail; a change window bearing his signature; no finding that names the signature as a cause.",
+        "seal": "An open enclosure held inside two closed rings; the centre is empty.",
+        "actual_effect": "Withheld the only effective authority until the deadline passed, then asked why the operator had waited.",
+        "journey": [
+          "There was no one at the final desk. A lamp on it announced that the office was available. The ticket pressed the lamp. It changed to engaged.",
+          "At the side of the desk was an emergency passage. Its handle was behind the desk. A notice explained that access to the handle was available in emergencies upon approval. The ticket put its four receipts into the slot.",
+          "When Bael arrived he asked for the shortest possible account. The ticket gave him its number. He asked why no one had exercised judgment. The ticket looked for Foras, who was six floors away with one finger raised. A new ticket was opened to establish when Foras had known."
+        ],
+        "parable": "The archive held five routes to the spring. Four required the same key. The fifth required the keeper of the key to certify that no key was needed.",
+        "authority": 6,
+        "competence": 0,
+        "liability": 0
+      },
+      "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — BAEL:\nChief Technology Officer — THE EMPTY SEAT. No person, demon, face, ghost, eyes, silhouette, hands, human-shaped absence or occupant. The portrait consists ONLY of a solitary EMPTY high-backed chair and its seal. The chair has no identifiable front: a rotationally ambiguous narrow seat with paired lattice back-like structures seen at a gentle three-quarter angle, four slender architectural legs. Everything fully visible on blank cream ground. Chair skeleton drawn with the same fine pen and rich cellular/lattice ornament as Foras's robe, some sparse slate and tiny ochre in structural cells, vertical black drop-lines ending in dots. A pendant seal suspended in the empty space above the seat: TWO CLOSED BLACK concentric rings holding ONE OPEN enclosure; the exact centre remains entirely blank cream. The SINGLE red intervention is the OPEN enclosure inside those black rings, red line only. No other red. No desk, calendar, crown, surrounding architecture or writing. Empty seat remains clearly visible, not filled by ornament.\nCanonical catalogue attribute (do not print these words): He appeareth forty minutes late, or as a calendar marked private. His chair hath a high back and no identifiable front.\nCanonical office effect for conceptual guidance only (no written text in image): Withheld the only effective authority until the deadline passed, then asked why the operator had waited.",
+      "seed": null,
+      "status": "superseded",
+      "file": "attempts/bael-raster-reference-v01.png",
+      "attempt": 1,
+      "qa_notes": "Empty four-legged chair; final pendant has two closed black rings and separate open red enclosure; no occupant.",
+      "reference_images": [
+        "../calibration/foras-raster-reference-v02.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "reason_for_next_attempt": "Red enclosure closed; two outer black rings not separately resolved.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "8aa64f21769cafd30fcfdf155ff7176756302fdd6f9ab2b24ea852997e9c2f29"
+    },
+    {
+      "index": 6,
+      "subject": "BAEL",
+      "office": "Chief Technology Officer",
+      "book": "Pseudomonarchia Escalationum",
+      "source": {
+        "id": 6,
+        "name": "BAEL",
+        "office": "Chief Technology Officer",
+        "legions": 66,
+        "region": "The chamber held in reserve",
+        "appearance": "He appeareth forty minutes late, or as a calendar marked private. His chair hath a high back and no identifiable front.",
+        "powers": "He may suspend every rule below him. He knoweth the titles of the rules. All ordinary roads require his approval; the exceptional road requireth his approval of its exception. His sixty-six legions of contractors cannot summon him, for he is their escalation.",
+        "binding": "A complete briefing with no technical detail; a change window bearing his signature; no finding that names the signature as a cause.",
+        "seal": "An open enclosure held inside two closed rings; the centre is empty.",
+        "actual_effect": "Withheld the only effective authority until the deadline passed, then asked why the operator had waited.",
+        "journey": [
+          "There was no one at the final desk. A lamp on it announced that the office was available. The ticket pressed the lamp. It changed to engaged.",
+          "At the side of the desk was an emergency passage. Its handle was behind the desk. A notice explained that access to the handle was available in emergencies upon approval. The ticket put its four receipts into the slot.",
+          "When Bael arrived he asked for the shortest possible account. The ticket gave him its number. He asked why no one had exercised judgment. The ticket looked for Foras, who was six floors away with one finger raised. A new ticket was opened to establish when Foras had known."
+        ],
+        "parable": "The archive held five routes to the spring. Four required the same key. The fifth required the keeper of the key to certify that no key was needed.",
+        "authority": 6,
+        "competence": 0,
+        "liability": 0
+      },
+      "prompt": "Use case: precise-object-edit. Input image is the BAEL CHAIR EDIT TARGET. Keep exactly the same empty lattice chair, its silhouette, its four legs, all fine line detail, sparse slate/ochre, cream ground and lighting-free pen register. NO occupant. Make TWO precise adjustments:\n1. Replace only the circular pendant seal above the empty seat with TWO clearly separated, thin, CLOSED near-black #161918 concentric rings. Inside BOTH black rings draw a third, smaller red #a32b24 C-shaped enclosure with a conspicuous OPEN GAP of about a quarter of its circumference at lower right. The red curve is NOT a complete ring; it has two unjoined ends. There is cream space between every ring. Entire central disk stays empty cream. Only this one red C, no other red.\n2. Give the COMPLETE chair and hanging seal more open air on the same 2:3 portrait sheet: reduce the whole composition modestly to leave at least 8 percent blank cream margin at top and bottom and 12 percent at each side, never crop a line.\nNo text, numbers, frames, captions, border, gradient, paper texture or additional objects. PNG, retain portrait 2:3. Preserve all other drawing detail.",
+      "seed": null,
+      "status": "superseded",
+      "file": "attempts/bael-raster-reference-v02.png",
+      "attempt": 2,
+      "qa_notes": "Empty four-legged chair; final pendant has two closed black rings and separate open red enclosure; no occupant.",
+      "reference_images": [
+        "bael-raster-reference-v01.png"
+      ],
+      "generator": "built-in image_gen",
+      "model_version": null,
+      "seed_status": "not exposed by generator",
+      "reason_for_next_attempt": "Red enclosure open but second black ring still merged with inner arc.",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "55d99e457c76b13b4a134266319a583d35732ccd0ad39065aa745a9f97b663e8"
+    }
+  ],
+  "palette": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "sparingly, only other permitted hue"
+  },
+  "technical": {
+    "format": "PNG",
+    "aspect_ratio": "2:3",
+    "requested_size": [
+      2048,
+      3072
+    ],
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "upscaled": false,
+    "traced": false,
+    "vectorised": false,
+    "pixel_edits_outside_imagegen": false,
+    "seed": null,
+    "note": "Native generator output retained. Dimensions and hashes verified in packaging. Background and palette are visual targets, not pixel-exact guarantees; faint ground variation persists. Several renders have narrower top/bottom margins than requested; all figures remain uncropped."
+  },
+  "process": {
+    "stop_after_batch": true,
+    "batch_size": 7,
+    "next_subject": "SOLACIEL"
+  },
+  "interpretation_notes": [
+    "Paimon's canonical green status bars translated to muted slate to honour the fixed palette.",
+    "These images are compositional references; catalogue seals are raster interpretations.",
+    "Bael required two explicitly disclosed corrections; both superseded attempts retained."
+  ]
+}

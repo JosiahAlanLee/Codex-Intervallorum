@@ -1,0 +1,1560 @@
+{
+  "title": "Tarot of Intervals",
+  "edition": "Concept edition 01",
+  "project": "Codex Intervallorum",
+  "scope": "22 Major Arcana; not a 78-card deck",
+  "card_size_mm": [
+    70,
+    120
+  ],
+  "card_export_dpi": 300,
+  "card_count": 22,
+  "back": "cards/22-card-back.png",
+  "back_symmetry": "180-degree reversible; no directional lettering",
+  "palette_targets": {
+    "ground": "#ede6d4",
+    "near_black": "#161918",
+    "red": "#a32b24",
+    "slate": "#4f6f7a",
+    "ochre": "small accents; unspecified hex"
+  },
+  "symbolism_status": "Original editorial correspondences, not historical attributions. Opening and Snag are optional interpretive poles.",
+  "pdf_compression": "Artwork embedded as JPEG quality 94, full chroma; typography and geometry remain vector. Individual card PNGs were rendered from a separate lossless PDF master.",
+  "art_changes": "18 selected source figures placed without retouching; four new illustrations. New native PNGs retained byte-for-byte.",
+  "seed_available": false,
+  "model_version_available": false,
+  "cards": [
+    {
+      "number": 0,
+      "numeral": "0",
+      "archetype": "The Fool",
+      "title": "The Open Inventory",
+      "source_index": 32,
+      "keywords": "BEGINNING / ROOM",
+      "symbolism": "The unoccupied shelf leaves room for an item the keeper has not yet learned to name. The red coil below the cabinet makes the catalogue's supporting work visible.",
+      "upright": "Openness; experiment; an unfinished list.",
+      "reversed": "Refusal to choose; novelty that erases a useful record.",
+      "question": "What have I excluded because I cannot yet classify it?",
+      "source_art": {
+        "subject": "THE OPEN INVENTORY",
+        "original_file": "../librum-quinque-raster-batch-05/open-inventory-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "93f593357f450957926d1115141bed3fc783a25e31e498fdf69ad1c1660e0b41",
+        "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE OPEN INVENTORY. One open self-supporting CABINET AS A FIGURE-DEVICE, square composition, fine cellular lattice uprights, shelves and open side panels. A dozen small differently shaped recesses hold a restrained assortment of unlettered objects: blank folded record, small empty dial, key, reticulate reserve pouch, an open ring, and a few plain implements, with several recesses visibly empty. It is a working cupboard still open to revision, not a locked reliquary, not an alphabet chart. A final unnumbered shelf extends beyond the regular structure and turns into a small empty doorway; leave it available, no occupant. No labels, glyph table, handwritten marks, numbers or symbol inscriptions. The ONE RED INTERVENTION is an OPEN RED SPIRAL mounted loosely on the extended shelf, with its outer end unfinished and not joined into a final seal. All contents and structural lines otherwise black with sparse slate/ochre pockets. Vertical black terminal-dot drop-lines. No surrounding room, figure, closed frame or floor setting. Square PNG 1:1, target 2048 x 2048 if supported, generous cream margins.\nManuscript context only, never print: Preserve the means to revise the inventory itself.\nConceptual caption only, never print: A working alphabet of twelve marks. Each names a question, not a verdict: state, function, repertoire, clock, reserve, carrier, prerequisite, opening, keeper, trial, standing, and revision. The open spiral assembles none of them into a final seal.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Intervallorum",
+        "office": null,
+        "plate": "XII",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "card_file": "cards/00-the-open-inventory.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "5b350d4f4dc69b60f31e523e84c9a8800cfa0f04b61796a15fd16ecd8d4d308e",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/open-inventory-raster-reference-v01.png",
+        "sha256": "93f593357f450957926d1115141bed3fc783a25e31e498fdf69ad1c1660e0b41",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 4710,
+        "eroded_core_pixels": 3258,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          155.0,
+          34.0,
+          31.0
+        ],
+        "median_red_hex_rounded": "#9b221f",
+        "modal_red_hex": "#8b1a18",
+        "modal_frequency": 6,
+        "unique_sample_colours": 2504,
+        "nearest_candidate_hex": "#a32a24",
+        "median_max_channel_error": 13.0,
+        "p95_max_channel_error": 52.0,
+        "sample_fraction_within_5_per_channel": 0.16175567833026397,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 0,
+        "card_title": "The Open Inventory"
+      }
+    },
+    {
+      "number": 1,
+      "numeral": "I",
+      "archetype": "The Magician",
+      "title": "The Operator",
+      "source_index": 0,
+      "keywords": "CAPACITY / PERMISSION",
+      "symbolism": "Foras has six hands and a clear view of the fault. Five hands carry records; the idle hand and its red thread ask whether practical knowledge has permission to act.",
+      "upright": "Skill; attention; a usable intervention.",
+      "reversed": "Activity without effect; capability denied authority.",
+      "question": "Which available action would change the thing itself?",
+      "source_art": {
+        "subject": "Foras, six-handed office figure with one idle hand and a three-ring mantle seal",
+        "original_file": "../librum-quinque-raster-calibration/foras-raster-reference-v02.png",
+        "source_manifest": "../librum-quinque-raster-calibration/figures.json",
+        "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22",
+        "prompt": "Edit the supplied FORAS calibration raster, preserving the face, six retained hands, anatomical style, fine cellular and lattice linework, black/slate/ochre palette, book, and single red wrist thread. Output one PNG portrait, 2:3, target native 2048 x 3072.\n\nThis is a correction of attempt 01, not a new character:\n1. The supplied image has SEVEN hands. Remove entirely ONLY the extra arm on the viewer's LEFT which holds a magnifying glass, including that hand and the magnifying glass. Remove its connecting forearm cleanly from the body. Do not add a replacement arm or any new hands.\n2. The final figure must have exactly SIX visible hands, THREE on each side: viewer-left upper hand holding blank papers, viewer-left middle hand holding the open blank book, viewer-left lower hand holding blank papers; viewer-right upper hand holding blank papers, viewer-right middle hand holding the same book, viewer-right lower hand OPEN AND EMPTY with the red thread looped once around its wrist. These are the six retained hands. Preserve their identity and attachments. No additional fingers that look like extra hands, no unseen extra arms.\n3. Scale the entire figure down uniformly so its head-to-feet extent is roughly 78 percent of the canvas height. Center it with about 11 percent uninterrupted cream margin above its highest attached ornament and below its lowest toe or terminal dot. Keep the full body, papers, feet and all attached drop-lines within generous margins; nothing cropped.\n4. Replace every bit of the ground outside the drawn figure with a truly flat, uniform, untextured cream #ede6d4. No vignette, mottled paper, grain, gradient, stains, shadow or photographic lighting. Keep the figure's open windows as the same cream.\n5. Keep near-black #161918 as the primary line, sparse muted slate blue-grey #4f6f7a and a little ochre inside only a few cellular pockets. Keep exactly one red #a32b24 intervention: the one continuous unbranched wrist thread on the viewer-right lowest empty hand, hanging freely to one terminal dot. No red anywhere else.\n6. Preserve the small mantle clasp of three near-black nested rings. All paper and book leaves remain completely blank.\n7. No text, letters, numerals, pseudo-writing, labels, signature, caption, borders, frames, marginal diagrams, scenic ground, chair or extra figures. Fine engraved/pen line, light flat wash at most, no painterly shading or 3D appearance.\n\nThis remains a raster reference only. Do not trace, vectorize, simplify or make a plot master.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "FORAS — Service Desk Analyst",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/01-the-operator.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "99ecda9ed42e650a0831610926b66cf20cc3f3a422ff321f46a8187f2ab57f25",
+      "red_check": {
+        "file": "librum-quinque-raster-calibration/foras-raster-reference-v02.png",
+        "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 700,
+        "eroded_core_pixels": 15,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          202.0,
+          35.0,
+          20.0
+        ],
+        "median_red_hex_rounded": "#ca2314",
+        "modal_red_hex": "#b11e16",
+        "modal_frequency": 1,
+        "unique_sample_colours": 15,
+        "nearest_candidate_hex": "#a1271d",
+        "median_max_channel_error": 39.0,
+        "p95_max_channel_error": 46.3,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 1,
+        "card_title": "The Operator"
+      }
+    },
+    {
+      "number": 2,
+      "numeral": "II",
+      "archetype": "The High Priestess",
+      "title": "The Veiled Record",
+      "source_index": 15,
+      "keywords": "SECRECY / RELATION",
+      "symbolism": "Redacth carries a covered face and a broken red boundary. The veil can shelter a confidence or sever the relation that would make evidence intelligible.",
+      "upright": "Discretion; patient attention; guarded knowledge.",
+      "reversed": "Obscurity mistaken for depth; missing context.",
+      "question": "What relation would I need in order to read this record?",
+      "source_art": {
+        "subject": "REDACTH",
+        "original_file": "../librum-quinque-raster-batch-03/redacth-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-03/figures.json",
+        "sha256": "7e6e8c6ea3d84d206ad4e74f7600170d363fe16a2be099294d326b7c430c8bcf",
+        "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 (Foras) and image 2 (Repetiel) are STYLE REFERENCES ONLY. Match their fine near-black engraved/pen line, cellular and lattice openwork, slender organic structures, sparse slate inserts, tiny ochre linework, vertical black drop-lines with terminal dots. Do not copy their bodies, arms, mouths, pose or seals. Follow the new subject literally, even where its body is a device or garment. Same fine line weight as the references.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Entire standalone subject centred, full length, all extremities visible, about 75-80 percent of sheet height, generous blank air on every side, no cropped terminal dots.\nFlat unbleached cream #ede6d4 ground edge to edge. No texture gradients, vignette, cast shadow, scenery, room or environment. Near-black #161918 lines; exactly ONE red #a32b24 intervention, the seal specified below; sparse muted slate blue-grey #4f6f7a and a little ochre are the ONLY other hues. No green, pink or other hues. Light flat wash at most, never painterly shading, photographic lighting or a 3D render.\nDense pen-line lattice only where it belongs to the figure; cream voids and quiet areas remain. No text, letters, numerals, pseudo-writing, captions, borders, page frames or watermark. All surfaces described as written must be blank. No extra figures or incidental symbols. No extra red thread, trim or ornament.\n\nNEW SUBJECT — REDACTH — Information Governance Manager. The whole body is a long BLACK VEIL, an empty hanging face-and-body-shaped garment with NO human occupant, visible face, head, eyes, hands or feet. Fine engraved black mesh, not a solid ink rectangle. The veil has two small rectangular blank CREAM spaces sewn into its upper area where initials might have been, but NO initials or writing. Cellular openwork borders and displaced mesh seams, tiny slate and ochre at a few edges; drop-lines ending in black dots. A seal carried visibly on a cream patch on the veil: a BROKEN RED BOUNDARY, one nearly enclosing fine red stroke with two visible gaps, retaining TWO small BLACK POINTS inside. The two black points have NO connecting line: their relation has been removed. Only the boundary red. Keep the silhouette draped and textile-like, no chair or surrounding frame.\nCatalogue appearance (guide only; never print): A black veil with spaces for initials.\nCatalogue seal (guide only; never print): A broken red boundary retaining two points without their relation.\nOffice effect (conceptual guidance; never print): Removed the shared identifier that showed four failures had one cause.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "Information Governance Manager",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/02-the-veiled-record.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "98a784448aa7e90cd00c61b3dafb1bf7062459069ab2ebd5632909c30dd2d6fa",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-03/redacth-raster-reference-v01.png",
+        "sha256": "7e6e8c6ea3d84d206ad4e74f7600170d363fe16a2be099294d326b7c430c8bcf",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1009,
+        "eroded_core_pixels": 382,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          150.0,
+          33.0,
+          34.0
+        ],
+        "median_red_hex_rounded": "#962122",
+        "modal_red_hex": "#a12423",
+        "modal_frequency": 3,
+        "unique_sample_colours": 362,
+        "nearest_candidate_hex": "#a42726",
+        "median_max_channel_error": 14.0,
+        "p95_max_channel_error": 25.0,
+        "sample_fraction_within_5_per_channel": 0.034031413612565446,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 2,
+        "card_title": "The Veiled Record"
+      }
+    },
+    {
+      "number": 3,
+      "numeral": "III",
+      "archetype": "The Empress",
+      "title": "The Fed Vessel",
+      "source_index": 28,
+      "keywords": "CARE / RESERVE",
+      "symbolism": "The vessel encloses a living reserve and receives a red line from outside. Apparent self-sufficiency rests on food, warmth and somebody's continuing attention.",
+      "upright": "Nourishment; shelter; replenishment.",
+      "reversed": "Depletion concealed by appearances; care taken for granted.",
+      "question": "Who or what keeps this capacity alive?",
+      "source_art": {
+        "subject": "THE FED VESSEL",
+        "original_file": "../librum-quinque-raster-batch-04/fed-vessel-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-04/figures.json",
+        "sha256": "491f1f0a22dd88c888bf32e5d8d219c9f9d4aeb47c2d1883410707edd850884d",
+        "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, not a complete plate.\nReference images 1 (Foras) and 2 (Repetiel) provide drawing style ONLY: fine near-black engraving/pen, cellular and lattice openwork with cream voids, slender structures, sparse slate inserts and ochre details, vertical drop-lines with terminal dots. Do not copy their subjects, limbs, pose or seals. New subject morphology below is primary.\nEntire subject centred and completely visible, generous blank margins, about 75-80 percent of canvas height and at most 78 percent width. Flat cream paper ground #ede6d4 edge to edge, no vignette, texture gradient, room, scene or cast shadow. Fine line art and very light flat wash only; no photographic lighting, painterly modelling, shiny metal or 3D render.\nPalette: near-black #161918; ONE SINGLE red intervention at the specified seal or feeding thread; muted slate #4f6f7a and a little ochre only other hues. The RED is IMPORTANT: use flat sRGB HEX #a32b24, RGB(163,43,36), as the actual core colour of EVERY red stroke, not bright scarlet, dark crimson or orange. No shading, highlights or black outline on the red stroke itself; keep its core uniform at RGB 163,43,36; antialiasing at edges only. Keep all other structural lines near-black, no extra red trim.\nNO text, letters, numerals, pseudo-writing, captions, border, page frame, watermark or diagram labels. All written surfaces must be blank. One self-contained subject, no supplementary characters.\n\nNEW SUBJECT — THE FED VESSEL — Clavicula Intervallorum, Chapter III. A single SEALED RESERVE JAR as a figure-device, no human body or keeper. Rounded cream glass-like vessel in a delicate cellular-lattice protective cradle, a tightly closed lid and a quiet material reserve shown inside as a small dormant folded reticulum near the base, not a face or creature. Three fine BLACK seep paths descend from three small points along the jar's lower body to terminal dots, expressing distinct leaks. A separate thin BLACK restart collar sits above a lower black storage band; no scale, numbers or explanatory curves. A narrow external support loop embraces the lower cradle, separate from the internal reserve. ONE RED FEEDING THREAD enters that external support from outside the vessel boundary and visibly keeps the support connected: flat #a32b24, RGB163,43,36, single fine path with a small terminal dot. No red lid, wax or additional seal. This is a reference object derived from the manuscript's sealed winter jar, material reserve, external care and three leaks; no claims of scientific measurement. Sparse slate in a few lattice cells and tiny ochre near the support collar. Square PNG 1:1, target 2048 x 2048 if possible, whole jar plus support and feeding thread occupy central 75 percent of square. No room, fire, text, figures or frame.\nSource caption (conceptual guidance only, never print): A conceptual reserve vessel with three leaks and a separate restart threshold. Internal reserves and external shelter are different supports. The curves below are illustrative quantities with arbitrary units, generated from declared equations rather than measured organisms.\nFictional source (never print): The jar was sealed against the winter. Every seventh day someone warmed the room in which it stood. The account recorded that the jar had required nothing.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Intervallorum",
+        "office": null,
+        "plate": "III — Of the Fed Vessel",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "card_file": "cards/03-the-fed-vessel.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "362bf0738b5eacd0353a6b8ebf5c2cb72f95698c65f80d368d10e10c8a920644",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-04/fed-vessel-raster-reference-v01.png",
+        "sha256": "491f1f0a22dd88c888bf32e5d8d219c9f9d4aeb47c2d1883410707edd850884d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1851,
+        "eroded_core_pixels": 1020,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          157.0,
+          34.0,
+          29.0
+        ],
+        "median_red_hex_rounded": "#9d221d",
+        "modal_red_hex": "#9b221d",
+        "modal_frequency": 8,
+        "unique_sample_colours": 733,
+        "nearest_candidate_hex": "#a32c25",
+        "median_max_channel_error": 9.0,
+        "p95_max_channel_error": 22.0,
+        "sample_fraction_within_5_per_channel": 0.1696078431372549,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 3,
+        "card_title": "The Fed Vessel"
+      }
+    },
+    {
+      "number": 4,
+      "numeral": "IV",
+      "archetype": "The Emperor",
+      "title": "The Empty Seat",
+      "source_index": 6,
+      "keywords": "AUTHORITY / ABSENCE",
+      "symbolism": "Bael's chair is unoccupied while its seal remains overhead. Authority continues to organize the room even when the person who could exercise it is absent.",
+      "upright": "Responsibility; a defined mandate; structure.",
+      "reversed": "Unreachable power; deference to an empty office.",
+      "question": "Where is the authority that this arrangement requires?",
+      "source_art": {
+        "subject": "BAEL",
+        "original_file": "../librum-quinque-raster-batch-01/bael-raster-reference-v03.png",
+        "source_manifest": "../librum-quinque-raster-batch-01/figures.json",
+        "sha256": "059deed93cb33cb1dc9927b0a6fa7262890434840c525e0bebdde6fbf6134a9d",
+        "prompt": "Precise local edit of BAEL EMPTY CHAIR, supplied image. Change ONLY the suspended seal at upper centre. All chair drawing, ground, composition, margins, colour and fine lines must stay unchanged.\nThe current pendant is wrong: a single black circle with a red arc stuck to another black arc. ERASE THE ENTIRE CURRENT CIRCULAR PENDANT INTERIOR AND OUTLINE, retaining its vertical hanging black line. Draw a NEW THREE-PART pendant, somewhat larger if needed for clarity, on the same empty cream ground:\nA. One fully CLOSED BLACK circle, outer radius about 80 units.\nB. INSIDE A, a second fully CLOSED BLACK circle, radius 60 units. B is black for all 360 degrees, including the lower right. There is a broad CREAM GAP between A and B.\nC. INSIDE B, one RED C-shaped arc, radius 36 units, with its LOWER RIGHT QUARTER MISSING. There is another broad CREAM GAP between B and C. C has two visible unjoined red ends. C is red only, NO black outline around it.\nThus three concentric separate strokes with radius ratio 80:60:36, outer two black full circles, innermost red open arc. All centres the same. Everything between the three strokes is cream; central area empty cream. Do not overlay the red stroke on either black circle. NO red outside this innermost C.\nKeep the chair completely empty. No human, eyes, words, numerals, lettering, border or extra ornament. Retain PNG portrait 2:3 and flat cream #ede6d4.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "Chief Technology Officer",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/04-the-empty-seat.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "a1fdb1429f026ed12b5c979d73c27c87052b1ffdefa249f2795c7c7b72ba37a7",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-01/bael-raster-reference-v03.png",
+        "sha256": "059deed93cb33cb1dc9927b0a6fa7262890434840c525e0bebdde6fbf6134a9d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 964,
+        "eroded_core_pixels": 476,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          154.0,
+          11.0,
+          11.0
+        ],
+        "median_red_hex_rounded": "#9a0b0b",
+        "modal_red_hex": "#990708",
+        "modal_frequency": 3,
+        "unique_sample_colours": 437,
+        "nearest_candidate_hex": "#a02b23",
+        "median_max_channel_error": 32.0,
+        "p95_max_channel_error": 40.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 4,
+        "card_title": "The Empty Seat"
+      }
+    },
+    {
+      "number": 5,
+      "numeral": "V",
+      "archetype": "The Hierophant",
+      "title": "The Runbook",
+      "source_index": 10,
+      "keywords": "TEACHING / INHERITANCE",
+      "symbolism": "Scriptorax wears strips of retained instruction over an obscured body. The red branch transfers a lesson; it cannot guarantee that judgment survived the transfer.",
+      "upright": "Transmission; apprenticeship; a shared practice.",
+      "reversed": "Procedure treated as infallible; the teacher erased.",
+      "question": "What can this instruction preserve, and what must still be learned?",
+      "source_art": {
+        "subject": "SCRIPTORAX",
+        "original_file": "../librum-quinque-raster-batch-02/scriptorax-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-02/figures.json",
+        "sha256": "3c1b1b7a5b894aef2b7ee72c815fdbc7e5578987969cb43431f4178b0694ee55",
+        "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — SCRIPTORAX — Knowledge Management Lead. One full-length upright, narrow, shrouded figure whose actual body is a CLOAK MADE OF MANY CUT STRIPS, each from a different sleeve, stitched into an asymmetrical long mantle. Different cuff hems, strip widths, sleeve seams and displaced joins must be legible; the manuscript calls them numbered, but NO numbers or writing may appear. Dense cellular lace grows on some strips, other strips plain cream or tiny slate wash, small ochre stitches. A deep open hood with EMPTY black-shadow aperture, no visible eyes or borrowed human face. Exactly two slender hands emerge from distinct sleeve joins, holding apart a blank strip as though transferring it to the coat. Two narrow feet beneath hem, full figure visible. Black hanging lines and tiny terminal dots. The seal is worn at the chest as ONE RED BRANCH carrying a single black retained line away from its old black attachment. Red forms one branching intervention, no other red. No book, extra arms, extra figures or textual checklist.\nCanonical appearance (guide only, do not print): A cloak made of numbered strips, each cut from a different sleeve.\nCanonical seal (guide only, do not print): A red branch carrying the retained line away from its first keeper.\nOffice effect (conceptual guidance, never written on image): Converted the operator's warning into a step that the replacement could execute but could not interpret.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "Knowledge Management Lead",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/05-the-runbook.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "5e5c67d585e1d638eb1ad591d69ff847c0b2152dbbc8e5d8b3cbdf7d341c39bb",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-02/scriptorax-raster-reference-v01.png",
+        "sha256": "3c1b1b7a5b894aef2b7ee72c815fdbc7e5578987969cb43431f4178b0694ee55",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1412,
+        "eroded_core_pixels": 195,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          180.0,
+          32.0,
+          27.0
+        ],
+        "median_red_hex_rounded": "#b4201b",
+        "modal_red_hex": "#c62421",
+        "modal_frequency": 2,
+        "unique_sample_colours": 194,
+        "nearest_candidate_hex": "#a32b21",
+        "median_max_channel_error": 25.0,
+        "p95_max_channel_error": 46.29999999999998,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 5,
+        "card_title": "The Runbook"
+      }
+    },
+    {
+      "number": 6,
+      "numeral": "VI",
+      "archetype": "The Lovers",
+      "title": "The Two Watchmakers",
+      "source_index": 34,
+      "keywords": "CHOICE / ASSEMBLY",
+      "symbolism": "Hora and Tempus face each other across a red connection while holding different assemblies. Their relation depends on how each can resume work after an interruption.",
+      "upright": "Commitment; coordination; a consequential choice.",
+      "reversed": "Agreement without shared conditions; unequal interruption.",
+      "question": "What must each party be able to retain for this bond to work?",
+      "source_art": {
+        "subject": "HORA AND TEMPUS",
+        "original_file": "../librum-quinque-raster-batch-05/hora-and-tempus-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "7d6e9d23b513591a92905768a27447f9b66810f916522fbde1f05a107b86f85b",
+        "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — HORA AND TEMPUS — THE TWO WATCHMAKERS, GRADUUM II. This is the explicitly requested PAIR in ONE portrait image, the only exception to a single body. Two complete slender standing watchmakers, same modest scale, generous blank separation between them and all feet/hands visible, no workbench or surrounding room. Exactly two arms apiece. Both wear different fine cellular-lattice workshop mantles in the same drawing hand as Foras, careful humanlike faces: Hora older and attentive, Tempus younger and strained. Hora on left holds one partially assembled bird-and-ring mechanism made of stable nested modules, obvious completed subassemblies latched together. Tempus on right holds loose small rings, beak-shaped and curved feather-like components of the SAME mechanism, not yet attached; a few loose parts sag in a shallow tray held in one hand, no scatter across ground. The bird-ring motif references the Returning Trace but is an unfinished small mechanism, not an extra living figure. The SINGLE RED INTERVENTION across this pair is ONE fine continuous horizontal interruption line passing across both held assemblies at the same height, visibly the same event arriving at both, no red elsewhere. Black and slate/ochre dress details, cream voids, black hanging dot lines. No textual names, dates, labels, clock numerals, decorative border or diptych frame. Portrait PNG 2:3, target 2048 x 3072 if supported.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Graduum",
+        "office": null,
+        "plate": "II",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/06-the-two-watchmakers.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "fe82075d6cea1a947ad6b5c1b2bd182405d982fd050ec36bbe07445d091afb00",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/hora-and-tempus-raster-reference-v01.png",
+        "sha256": "7d6e9d23b513591a92905768a27447f9b66810f916522fbde1f05a107b86f85b",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 349,
+        "eroded_core_pixels": 0,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          190.0,
+          8.0,
+          11.0
+        ],
+        "median_red_hex_rounded": "#be080b",
+        "modal_red_hex": "#bc070a",
+        "modal_frequency": 10,
+        "unique_sample_colours": 248,
+        "nearest_candidate_hex": "#a9341c",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 48.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 6,
+        "card_title": "The Two Watchmakers"
+      }
+    },
+    {
+      "number": 7,
+      "numeral": "VII",
+      "archetype": "The Chariot",
+      "title": "The Divided Horse",
+      "source_index": 4,
+      "keywords": "DIRECTION / JURISDICTION",
+      "symbolism": "Orobas supplies the front half of a horse. The missing hindquarters question a command to advance when the means of movement report somewhere else.",
+      "upright": "Direction; coordinated effort; a real route.",
+      "reversed": "Orders that outrun capacity; divided responsibility.",
+      "question": "Do the parts required to move answer to the same decision?",
+      "source_art": {
+        "subject": "OROBAS",
+        "original_file": "../librum-quinque-raster-batch-01/orobas-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-01/figures.json",
+        "sha256": "c2c3b8aa67529ecb11a91f8d75443a16fc0854939d000ca5848142f7e2c4d16a",
+        "prompt": "Use case: stylized-concept. Asset: one raster figure reference for Librum Quinque, NOT a complete plate.\nInput image 1 is the APPROVED FORAS STYLE REFERENCE ONLY. Match its fine black pen/engraving line, cellular openwork, lattice membranes, slender jointed anatomy and vertical hanging lines ending in tiny dots. Do not copy Foras's identity, six arms, pose or objects. Invent the specified individual subject in the same drawing hand and same scale of fine line.\nPortrait PNG, 2:3, target 2048 x 3072 if available. Flat unbleached cream ground #ede6d4 across the entire image, no texture gradients, no vignette. Figure alone centred, entirely visible, body about 76-80 percent of page height, generous clear cream margins above, below and to both sides. No environment unless the specified attribute attaches to the figure.\nPalette strictly limited: near-black #161918 lines; ONE SINGLE red #a32b24 intervention identified below; sparse muted slate blue-grey #4f6f7a inside small garment or device cells and a little ochre line. Red occurs nowhere else. Paper shows through most cells. Dense intricate pen bundles and delicate hatching within ornament, open air outside. Line art with only very light flat wash at most. NO painterly shading, shadows cast on paper, photography, lighting effects, glossy metal, 3D rendering. NO text whatsoever, NO letters, NO numerals, NO writing or pseudo-writing, NO frames, captions, borders, decorative page layouts or watermarks. Any papers have blank surfaces. No extra figures.\n\nINDIVIDUAL SUBJECT — OROBAS:\nDeputy Department Head. The literal FRONT HALF OF A HORSE only: one complete equine head, neck, chest, two forelegs and front hooves, in a three-quarter side view, fully visible. The torso ends cleanly behind the shoulders at a delicate open lattice termination; there is NO hindquarter, tail, rear leg, human rider or human torso. This is an elegant impossible living jurisdictional fragment rather than injury: no wound, blood or gore. A long fine openwork ceremonial caparison hangs around the two forelegs, cellular membrane pockets and dot-terminal black drop-lines; keep the horse anatomy legible. Office seal worn on the chest: one BLACK spiral whose return misses its departure. The SINGLE red intervention is a short red displaced return segment just outside the black spiral, marking that mismatch. Muted slate and little ochre within a few harness/caparison cells. No complete horse silhouette hidden in drapery.\nCanonical catalogue attribute (do not print these words): He appeareth as the front half of a horse. The hind half reporteth elsewhere.\nCanonical office effect for conceptual guidance only (no written text in image): Split the common fault into separate queues, each awaiting evidence from the others.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "Deputy Department Head",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/07-the-divided-horse.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "4d0b7679b2be1732b7a116ce88ff763025c425a40e8505ae4c89164d759922e6",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-01/orobas-raster-reference-v01.png",
+        "sha256": "c2c3b8aa67529ecb11a91f8d75443a16fc0854939d000ca5848142f7e2c4d16a",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 122,
+        "eroded_core_pixels": 0,
+        "sample_used": "all candidate red pixels; thin stroke fallback",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          162.0,
+          39.5,
+          27.0
+        ],
+        "median_red_hex_rounded": "#a2281b",
+        "modal_red_hex": "#921d15",
+        "modal_frequency": 2,
+        "unique_sample_colours": 121,
+        "nearest_candidate_hex": "#a62c20",
+        "median_max_channel_error": 41.0,
+        "p95_max_channel_error": 65.0,
+        "sample_fraction_within_5_per_channel": 0.02459016393442623,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 7,
+        "card_title": "The Divided Horse"
+      }
+    },
+    {
+      "number": 8,
+      "numeral": "VIII",
+      "archetype": "Strength",
+      "title": "The Unused Hand",
+      "source_index": 40,
+      "keywords": "RESTRAINT / INTERRUPTION",
+      "symbolism": "The figure beneath the cord holds records while one hand remains open. The red line rises toward an empty mounting point: restraint needs a route through which refusal can matter.",
+      "upright": "Patience; a held boundary; courage to interrupt.",
+      "reversed": "Endurance imposed on someone else; a warning without a receiver.",
+      "question": "Who can stop this, and can their refusal reach the work?",
+      "source_art": {
+        "subject": "FIGURE BENEATH THE CORD",
+        "original_file": "../librum-quinque-raster-batch-06/figure-beneath-cord-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-06/figures.json",
+        "sha256": "d2f6876b380902e2b00bcfe8c0710b733c24ee837ca5362a7445f269b95a1b0e",
+        "prompt": "Use case: stylized-concept. Asset: standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is the approved FORAS STYLE REFERENCE ONLY unless specified as an identity reference. Match fine near-black engraved/pen line, open cellular and lattice ornament, slender articulated structures, cream voids, sparse muted slate insets and a little ochre line, delicate vertical black drop-lines ending in small dots. Do not copy Foras's six arms, face or papers unless the individual subject explicitly calls for Foras.\nPNG portrait 2:3, target 2048 x 3072 if supported, otherwise native portrait resolution. Complete full-length figure or explicitly requested tier ensemble, centred, generous cream margin on every side, all extremities and terminal dots visible, subject about 75-80 percent of sheet height. Flat unbleached cream #ede6d4 ground edge to edge; no paper texture gradient, vignette, setting, architecture or cast shadow.\nPalette only near-black #161918, ONE red intervention per image, sparse slate #4f6f7a and a little ochre. Use flat sRGB red #a32b24, RGB(163,43,36), as actual red stroke core, not bright scarlet, orange or dark crimson; no red shading or highlight. Antialias edges only. No other colours. Fine line art with light flat wash at most, no painterly modelling, photographic lighting, glossy metal or 3D rendering.\nNo text, numerals, letters, pseudo-writing, labels, captions, page borders, frames or watermarks. All inscriptions absent, papers blank. No extra figures except the expressly requested shouting-tier ensemble. One cell or small prop stays part of its figure, not a separate page diagram.\n\nNEW SUBJECT — THE FIGURE BENEATH THE CORD — GRADUUM VII / FLOOR OF HANDS. Input FORAS is now BOTH style and IDENTITY reference: preserve the recognisable bare-eyed face and cellular hood, slender full-length body, three arms on each side — EXACTLY SIX arms and SIX hands total, all visible. Five hands occupied: upper left blank folio, middle left supports the open blank runbook, lower left blank folio; upper right blank folio, middle right supports the same open runbook; lower right hand EMPTY and reaching out toward the cord. No magnifying glass, seventh hand or hidden extra limb. No red wrist thread or red on the figure. The ONE RED INTERVENTION is ONE long vertical cord immediately beside the raised empty hand, running from a red point near foot level upward past the head to end just BELOW a tiny empty BLACK U-shaped mounting bracket. The cord and bracket are fully visible in the cream air on the right, with a visible gap at top: cord is NOT mounted or attached, bracket holds NOTHING. Keep bracket tiny, a prop, not page frame or architecture. Figure's empty hand does not become an office; no building, desks, floors, second person or marginal layout. Cord passes the working hands without routing through the chest seal, papers or hood. Everything on cream, generous margins.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Graduum",
+        "office": null,
+        "plate": "VII",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/08-the-unused-hand.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "9d04d398a2e376c0ea8db0b8b9cd9789da64ddb6e4f7a2796d813dc857e50a96",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-06/figure-beneath-cord-raster-reference-v01.png",
+        "sha256": "d2f6876b380902e2b00bcfe8c0710b733c24ee837ca5362a7445f269b95a1b0e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 2876,
+        "eroded_core_pixels": 559,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          178.0,
+          43.0,
+          26.0
+        ],
+        "median_red_hex_rounded": "#b22b1a",
+        "modal_red_hex": "#b22a19",
+        "modal_frequency": 23,
+        "unique_sample_colours": 163,
+        "nearest_candidate_hex": "#9e2c1e",
+        "median_max_channel_error": 15.0,
+        "p95_max_channel_error": 18.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 8,
+        "card_title": "The Unused Hand"
+      }
+    },
+    {
+      "number": 9,
+      "numeral": "IX",
+      "archetype": "The Hermit",
+      "title": "The Measurer of Absences",
+      "source_index": 44,
+      "keywords": "ATTENTION / LIMIT",
+      "symbolism": "The antlered keeper holds an empty frame rather than a filled lantern. A small red tick marks one edge of the inquiry without pretending to reveal what lies outside it.",
+      "upright": "Solitude; close observation; a stated limit.",
+      "reversed": "Isolation; the frame mistaken for the whole world.",
+      "question": "What can I see from here, and what remains outside the frame?",
+      "source_art": {
+        "subject": "THE MEASURER OF ABSENCES — ORIGINAL",
+        "original_file": "../librum-quinque-raster-batch-07/measurer-of-absences-original-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-07/figures.json",
+        "sha256": "e525c83d7db6abfc583bcbf160879c2d3e7e5be887ecad679c1f742273381c34",
+        "prompt": "Use case: stylized-concept. Asset: ONE standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is approved FORAS: DRAWING HAND AND PALETTE ONLY, not its identity, six arms or pose. Input image 2 is this subject's ORIGINAL SOL PLATE: SUBJECT IDENTITY, anatomy, silhouette and pose ONLY. Re-render that subject in the common Foras fine pen hand. Do not copy the old plate's lettering, page framing, diagrams, marginal registers, panel crops, broad red veins or paper texture.\nFine near-black #161918 engraving/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, delicate vertical black drop-lines with tiny terminal dots. Sparse muted slate #4f6f7a and a little ochre only other hues beyond near-black and the ONE specified red intervention.\nFlat unbleached cream #ede6d4 ground edge to edge, no texture gradient, vignette, cast shadow or background scene. Whole subject centred and completely visible with generous blank air on every side, about 75-80 percent canvas height and width. Fine lineart with light flat wash at most: no painted shading, realistic lighting, glossy reflection or 3D render.\nRED TARGET: sRGB #a32b24, RGB(163,43,36), actual uniform red stroke core, no orange, bright scarlet, dark crimson, highlight or shadow. Red only in the single intervention specified below; all eyes, mouths, body membranes and other linework near-black/cream with sparse slate/ochre. Antialias edges only.\nNO text whatsoever, letters, numbers, pseudo-writing, symbols used as writing, captions, borders, page frame, watermark, side diagrams or extra figures. Any ring or handheld frame is the subject's own body/prop, never an image border. All unoccupied centres plain cream.\n\nNEW SUBJECT — THE MEASURER OF ABSENCES — ORIGINAL SOL FIGURE, mapped to Graduum III. Preserve the original antlered, bearded keeper's carefully drawn bowed PROFILE FACE, its deep eye, nose, mouth and fine beard, huge branched lattice antlers arching to either side, slender full-length organic body, long robes and EXACTLY TWO arms/two delicate hands. Those two hands hold the same upright EMPTY RECTANGULAR FRAME between them, upper hand resting near its top and lower hand below, central area entirely blank cream. This is the ORIGINAL FULLY ORGANIC Measurer, not the Cut keeper: NO ruled table, grid, half-body division or red line down the torso. Entire robe built from fine near-black cellular lattice and long pen-line bundles, with sparse slate cells and tiny ochre seams. Preserve original facial identity rather than replace with Foras's face. ONE RED INTERVENTION ONLY: one very short fine red tick across the handheld frame's lower-right corner, a question at its boundary. No red eye, antler veins, body stitching, inner frame rule or extra thread. No text or details outside the figure. Portrait PNG 2:3, target 2048 x 3072 if available, antlers, both hands, all frame edges, feet and hem uncropped, generous air.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Graduum",
+        "office": null,
+        "plate": "III",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/09-the-measurer-of-absences.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "8e31fad48ef7830966a058081dfb8e146c03b2575f91cdfec0595466ec1582d8",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-07/measurer-of-absences-original-raster-reference-v01.png",
+        "sha256": "e525c83d7db6abfc583bcbf160879c2d3e7e5be887ecad679c1f742273381c34",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 210,
+        "eroded_core_pixels": 53,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          210.0,
+          24.0,
+          20.0
+        ],
+        "median_red_hex_rounded": "#d21814",
+        "modal_red_hex": "#bc1614",
+        "modal_frequency": 1,
+        "unique_sample_colours": 53,
+        "nearest_candidate_hex": "#a9281e",
+        "median_max_channel_error": 47.0,
+        "p95_max_channel_error": 54.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 9,
+        "card_title": "The Measurer of Absences"
+      }
+    },
+    {
+      "number": 10,
+      "numeral": "X",
+      "archetype": "The Wheel of Fortune",
+      "title": "The Keeper of Intervals",
+      "source_index": 33,
+      "keywords": "TIMING / RENEWAL",
+      "symbolism": "The dial joins several rates without making them equal. The keeper's red thread passes through time that must be maintained, renewed or allowed to lapse.",
+      "upright": "Timing; recurrence; an approaching renewal.",
+      "reversed": "Missed intervals; a calendar mistaken for control.",
+      "question": "Which clock will expire before the others notice?",
+      "source_art": {
+        "subject": "THE KEEPER WEARING THE DIAL",
+        "original_file": "../librum-quinque-raster-batch-05/keeper-wearing-dial-raster-reference-v02.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "87ca60427abddc960a23a79767d8f3d93747fcd5d9eb8842d106a70ea06ed2e1",
+        "prompt": "Precise local object edit of supplied KEEPER WEARING THE DIAL. Preserve absolutely everything outside the tiny black chest dial: face, crescent crest, two hands and arms, robe, thread, drop-lines, palette, framing, dimensions and background.\nCorrect the dial from eight radial hands to SEVEN: REMOVE ONLY the hand pointing STRAIGHT DOWN at six o'clock, including that hand's entire narrow stem and arrowhead between centre hub and bottom rim. Replace those removed pixels with the same plain dark interior of the dial. Keep the centre hub. Leave the SEVEN other existing hands exactly where they are and unchanged: upward, upper right, rightward, lower right, lower left, leftward and upper left. Do not add hands or shift the others. No six-o'clock hand should remain. The existing red thread at lower right must remain unchanged; do not confuse it with the downward hand.\nNo other change. Seven hands total, all visible on one chest dial. No numerals, text, border or added symbol. Retain PNG portrait 2:3.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Graduum",
+        "office": null,
+        "plate": "V",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/10-the-keeper-of-intervals.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "43725932fdddee460ef336cb640db9cc51f00de5db2f733a257fc29ceb50c595",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/keeper-wearing-dial-raster-reference-v02.png",
+        "sha256": "87ca60427abddc960a23a79767d8f3d93747fcd5d9eb8842d106a70ea06ed2e1",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1785,
+        "eroded_core_pixels": 130,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          208.0,
+          26.0,
+          26.0
+        ],
+        "median_red_hex_rounded": "#d01a1a",
+        "modal_red_hex": "#cf251f",
+        "modal_frequency": 3,
+        "unique_sample_colours": 123,
+        "nearest_candidate_hex": "#a12823",
+        "median_max_channel_error": 45.0,
+        "p95_max_channel_error": 54.55,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 10,
+        "card_title": "The Keeper of Intervals"
+      }
+    },
+    {
+      "number": 11,
+      "numeral": "XI",
+      "archetype": "Justice",
+      "title": "The Balance",
+      "source_index": 14,
+      "keywords": "MEASURE / CONSEQUENCE",
+      "symbolism": "Severion's balanced pans do not certify a fair result. The red displaced spiral asks whether the measure changed while the underlying event continued unchanged.",
+      "upright": "Proportion; accountable judgment; a stated criterion.",
+      "reversed": "A convenient denominator; equal treatment that conceals unequal burdens.",
+      "question": "What would this measure have to notice to be fair?",
+      "source_art": {
+        "subject": "SEVERION",
+        "original_file": "../librum-quinque-raster-batch-02/severion-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-02/figures.json",
+        "sha256": "a560b6e58d195c573c8aec6450208ac0d2c9bb26ee0b8645444b8cc20d1e73cb",
+        "prompt": "Use case: stylized-concept. Asset: ONE individual raster figure reference for Librum Quinque, NOT a complete plate.\nReference image 1 is approved FORAS: STYLE ONLY. Reference image 2 is approved REPETIEL: STYLE ONLY, especially how an impossible demon-device can be a complete body without a humanoid head or torso. Match the fine near-black pen/engraving hand, slender structures, cellular openwork, lace-like lattice membranes, sparse muted slate inserts and small ochre details, delicate vertical drop-lines ending in tiny dots. Do not copy either reference's subject, robe silhouette, mouths, arms, pose or seal unless explicitly specified for the NEW subject.\nPNG portrait 2:3, target 2048 x 3072 if supported; otherwise retain native portrait resolution. Flat unbleached cream #ede6d4 edge to edge, no paper texture gradients or vignette. ONE whole standalone subject, centred, its entire silhouette including dots occupies no more than 80 percent of height, with at least 10 percent of sheet height blank above and below and generous lateral margins. All extremities visible. No setting, room, landscape or surrounding architecture.\nNear-black #161918 fine lines, ONE red #a32b24 intervention at the seal specified below; sparse slate blue-grey #4f6f7a and a little ochre are the only other hues. Light flat wash at most. No painted shading, photographic lighting, shadows cast onto paper, glossy metal or 3D render. Cellular ornament has cream voids, never just noise. Sufficient plain surface and open air for the device to read.\nNO TEXT, NO LETTERS, NO NUMERALS, NO LABELS, NO pseudo-writing, NO border, NO page frame, NO captions, NO watermark. Papers, badges, strips, printer output and other written surfaces remain entirely BLANK even where the manuscript describes writing. No additional characters or witnesses. No supplementary seals or red marks. Exact subject morphology below takes precedence over reference image anatomy.\n\nNEW SUBJECT — SEVERION — Commercial Triage Analyst. ONE standalone BALANCE AS THE WHOLE DEMON-DEVICE, tall central lattice stem on a narrow articulated three-foot base, one crossbeam supporting TWO EQUAL SHALLOW PANS at exactly the SAME LEVEL. Suspended pans carry no weights or goods; both empty cream, equal and ostensibly normal. The catalogue says both marked normal, but NO words, symbols, letters or numbers are allowed on either pan. Fine cellular lattice around stem, rim and beam, sparse slate and ochre pockets, delicate fine chains and black terminal-dot drop-lines. No face, eyes, human body, judge or room. Office seal mounted on the front of the central stem: ONE RED SPIRAL whose final returning end is visibly DISPLACED from its beginning, an intentional missed join. It is a fine RED LINE only with cream space between turns, not a red disk. Red nowhere else. Whole device completely visible with generous margins. Do not turn equal beam into an arrow or give pans unequal heights.\nCanonical appearance (guide only, do not print): A balance whose pans are both marked normal.\nCanonical seal (guide only, do not print): A red spiral whose return arrives at a displaced severity.\nOffice effect (conceptual guidance, never written on image): Changed the recorded severity; the outage retained its original size.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "Commercial Triage Analyst",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/11-the-balance.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "29ca9036aa9735127f6f8b6b06e2b225a4aab08b77e2261e044b761d6dda8b5e",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-02/severion-raster-reference-v01.png",
+        "sha256": "a560b6e58d195c573c8aec6450208ac0d2c9bb26ee0b8645444b8cc20d1e73cb",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1469,
+        "eroded_core_pixels": 289,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          147.0,
+          29.0,
+          32.0
+        ],
+        "median_red_hex_rounded": "#931d20",
+        "modal_red_hex": "#8d181b",
+        "modal_frequency": 2,
+        "unique_sample_colours": 285,
+        "nearest_candidate_hex": "#a12726",
+        "median_max_channel_error": 19.0,
+        "p95_max_channel_error": 36.0,
+        "sample_fraction_within_5_per_channel": 0.01730103806228374,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 11,
+        "card_title": "The Balance"
+      }
+    },
+    {
+      "number": 12,
+      "numeral": "XII",
+      "archetype": "The Hanged Man",
+      "title": "The House in Abeyance",
+      "source_index": 30,
+      "keywords": "SUSPENSION / KEEPING",
+      "symbolism": "The suspended house retains books, tools and a closed threshold. Its red thread reaches outside: a pause may preserve future action, but preservation still consumes support.",
+      "upright": "Deliberate pause; a changed angle; retained capacity.",
+      "reversed": "Indefinite postponement; a refuge becoming a prison.",
+      "question": "What is this waiting preserving, and who is paying for it?",
+      "source_art": {
+        "subject": "THE HOUSE KEPT IN ABEYANCE",
+        "original_file": "../librum-quinque-raster-batch-05/house-kept-in-abeyance-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6",
+        "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE HOUSE KEPT IN ABEYANCE. One small standalone HOUSE AS A FIGURE-DEVICE, an intricate dollhouse-like cutaway held together by fine cellular lattice, entirely visible on square cream ground. Modest pitched roof, closed little entrance, porous lattice walls and an exposed side where quiet interior alcoves are visible. Inside are a few entirely blank books/rolled sheets, a folded tool, paired connected loops, and a small black latch: distinct modest carriers of record, practice, relationship and rule, never labelled. NO occupants or silhouettes. Outside supports are visibly separate from the rooms: fine struts and hanging black dot-terminal links carry the house rather than disappearing into scenery. The ONE RED INTERVENTION is a single fine maintenance thread entering from outside the house boundary, fastening one support to the closed entrance hinge, with a red terminal dot. No red roof, window, fire or extra seal. Slate and ochre only in sparse lattice cells. No landscape, street, room around the house or plotter diagram. Square PNG 1:1, target 2048 x 2048 if supported, generous air.\nManuscript context only, never print: A refuge preserves some capacities and selects against others.\nConceptual caption only, never print: Four different carriers of continuity: records, skills, relationships, and rules. Their maintenance supports are shown separately from the room that shelters them. The outer boundary remains permeable because a refuge can depend on institutions beyond itself.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Intervallorum",
+        "office": null,
+        "plate": "VII",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "card_file": "cards/12-the-house-in-abeyance.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "2bea066a3d643a62b1a3c0339c1958d0fb789e94d89c26b6f8158466e361b367",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/house-kept-in-abeyance-raster-reference-v01.png",
+        "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1103,
+        "eroded_core_pixels": 146,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          172.0,
+          11.0,
+          11.0
+        ],
+        "median_red_hex_rounded": "#ac0b0b",
+        "modal_red_hex": "#9b0000",
+        "modal_frequency": 3,
+        "unique_sample_colours": 135,
+        "nearest_candidate_hex": "#a32c25",
+        "median_max_channel_error": 35.0,
+        "p95_max_channel_error": 43.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 12,
+        "card_title": "The House in Abeyance"
+      }
+    },
+    {
+      "number": 13,
+      "numeral": "XIII",
+      "archetype": "Death",
+      "title": "The Cut",
+      "source_index": 35,
+      "keywords": "ENDING / RECORD",
+      "symbolism": "One side of the keeper remains organic while the other becomes a ruled record. The red boundary divides an event from what can outlive it; the survivor is not the living whole.",
+      "upright": "An ending; separation; a changed form of continuity.",
+      "reversed": "A record used to deny an ending; attachment to an exhausted form.",
+      "question": "What has ended, and what can responsibly be carried forward?",
+      "source_art": {
+        "subject": "THE CUT KEEPER",
+        "original_file": "../librum-quinque-raster-batch-05/cut-keeper-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "f9768ea18c3e3c145f7d3ff359985be581fccced52bb80fb5b19705e17c9617c",
+        "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE CUT KEEPER — GRADUUM III. Input image 1 FORAS is drawing hand and palette ONLY. Input image 2 ORIGINAL MEASURER OF ABSENCES is identity, antler silhouette, bowed posture, careful bearded profile face and EMPTY HANDHELD RECTANGLE ONLY. Preserve those recognisable features, re-render the entire full-length antlered keeper in the series fine cellular-lattice pen register. Remove all typography, page borders, registers, separate details and all red veins/eyes from the old plate. The figure holds an empty black rectangular frame between its two delicate hands, frame centre plain cream. From neck down the body is HALF living stroke bundles/lattice on viewer's left, HALF a clean RULED TABLE on viewer's right: garment and torso turn into open black rows and columns, not lettering. The boundary between organic half and ruled half is ONE SINGLE fine VERTICAL RED LINE running from below neck through the body to hem, red #a32b24; no other red in antlers, eye, hands or frame. Keep the WHOLE FACE organic and detailed, not sliced into a grid. Outer silhouette remains one continuous figure, no separate chart beside it. No text in cells, no numerals, no extra diagrams. Portrait PNG 2:3, target 2048 x 3072 if supported.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Graduum",
+        "office": null,
+        "plate": "III",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/13-the-cut.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "851f08c0f8f8c8f61e02e1226fdab900c149fd4263116500336a62e2c0a2d889",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/cut-keeper-raster-reference-v01.png",
+        "sha256": "f9768ea18c3e3c145f7d3ff359985be581fccced52bb80fb5b19705e17c9617c",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 3132,
+        "eroded_core_pixels": 522,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          207.0,
+          33.0,
+          21.0
+        ],
+        "median_red_hex_rounded": "#cf2115",
+        "modal_red_hex": "#b90d09",
+        "modal_frequency": 3,
+        "unique_sample_colours": 501,
+        "nearest_candidate_hex": "#a22d23",
+        "median_max_channel_error": 44.0,
+        "p95_max_channel_error": 55.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 13,
+        "card_title": "The Cut"
+      }
+    },
+    {
+      "number": 14,
+      "numeral": "XIV",
+      "archetype": "Temperance",
+      "title": "The Second Neck",
+      "source_index": 29,
+      "keywords": "FLOW / DEPENDENCY",
+      "symbolism": "Two chambers share a narrow passage. The red bypass changes one route while leaving another constriction in place, making adjustment visible without declaring the problem solved.",
+      "upright": "Adjustment; measured exchange; a workable combination.",
+      "reversed": "A bypass that retains the obstruction; circulation without renewal.",
+      "question": "Which dependency remains after this change?",
+      "source_art": {
+        "subject": "THE SECOND NECK",
+        "original_file": "../librum-quinque-raster-batch-05/second-neck-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "fff5bbd6120fb70b7094eafcd271309bfb17c2eee4a42e4be522f74302835a19",
+        "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE SECOND NECK. One self-contained transparent reserve-vessel instrument with TWO serial constrictions, an upper collar-gate and a lower collar-gate, fine cellular lattice cradle. Rounded upper bulb narrows through the upper neck into a small middle chamber, then passes the lower narrow neck into a lower bulb. The ONE RED INTERVENTION is a thin parallel bypass tube/path that leaves the upper bulb, goes OUTSIDE the UPPER collar only, and visibly rejoins the middle chamber ABOVE the still-closed LOWER collar. It must NOT reach the bottom bulb or bypass both gates. A second very thin BLACK trial branch near the lower collar ends unjoined, no second red. Collars black, clear cream voids, tiny slate/ochre cells, no arrows or labels. It is an impossible elegant vessel-body, not a flowchart or labelled scientific apparatus. No human, keeper, pedestal scene or additional bottle. Square PNG 1:1, target 2048 x 2048 if supported, entire vessel in generous cream air.\nManuscript context only, never print: An added route is a claim about every dependency it still retains.\nConceptual caption only, never print: A new treatment of the original Closed Neck motif. The red path bypasses gate A and rejoins above gate B. A second, separately marked branch tests a route around B. A blank trial box remains blank; no successful intervention is implied.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Intervallorum",
+        "office": null,
+        "plate": "VI",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "card_file": "cards/14-the-second-neck.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "151c3276bd672992e890015a887bf928e19104e97ada5af8ce63742e88632979",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/second-neck-raster-reference-v01.png",
+        "sha256": "fff5bbd6120fb70b7094eafcd271309bfb17c2eee4a42e4be522f74302835a19",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 3425,
+        "eroded_core_pixels": 1729,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          163.0,
+          33.0,
+          31.0
+        ],
+        "median_red_hex_rounded": "#a3211f",
+        "modal_red_hex": "#6e0000",
+        "modal_frequency": 5,
+        "unique_sample_colours": 1654,
+        "nearest_candidate_hex": "#a52a24",
+        "median_max_channel_error": 27.0,
+        "p95_max_channel_error": 69.59999999999991,
+        "sample_fraction_within_5_per_channel": 0.02891844997108155,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 14,
+        "card_title": "The Second Neck"
+      }
+    },
+    {
+      "number": 15,
+      "numeral": "XV",
+      "archetype": "The Devil",
+      "title": "The Bond",
+      "source_index": null,
+      "keywords": "DESIRE / DEPENDENCE",
+      "symbolism": "The horned figure presides over two people linked by a loose red cord. The fittings suggest a possible release, but neither a safe exit nor its cost is established by the image.",
+      "upright": "Desire; an acknowledged bargain; recognition of dependence.",
+      "reversed": "Coercion; compulsive repetition; a price kept out of view.",
+      "question": "What does this bond give, what does it cost, and who can afford to leave?",
+      "source_art": {
+        "subject": "The Devil",
+        "file": "art/15-the-devil-native.png",
+        "sha256": "32a15083604c15a775b9c7cc28a31333f51ce82884aa23bdafc7f4c68f7c354d",
+        "prompt": "Use case: stylized-concept. Asset: original illustration for Tarot of Intervals, part of Josiah Alan-Lee's Librum Quinque art project.\nReference images establish the exact drawing hand: fine engraved near-black pen lines, dense porous cellular lace and anatomical lattice, delicate vertical hanging lines ending in round dots, sparse slate blue-grey insets and tiny ochre seams, extraordinary open cream negative space. Do not imitate a photographed or digitally modelled object. This is flat line illustration with very light flat wash only, no painterly shading, volumetric lighting, glossy metal, fog or realism.\nPortrait 2:3 PNG. Entire composition visible with generous uninterrupted cream margins. Figure or architecture occupies roughly 78 percent of canvas height; all horns, feet, rays and terminal dots stay inside the canvas.\nGround is flat unbleached cream #ede6d4, no gradients, paper texture, vignette, scene background or cast shadow. Palette near-black #161918, sparse slate #4f6f7a and small ochre only. One continuous red intervention only, aim for #a32b24 RGB(163,43,36), no scarlet or orange. No other hues.\nNo text, letters, numerals, pseudo-writing, caption, title, card frame, border, watermark or tarot mockup. The typeset card furniture will be composed separately. This request is ONLY the interior illustration.\nSubject: THE DEVIL, an unsettling, beautiful, hieratic goat-headed androgyne, seated full-length on a low openwork pedestal. A long narrow goat face with calm intelligent eyes, two curving horns, two great batlike wings built from cellular lace with open cream cells. No crown, no glowing eyes. A black empty ring is suspended between the horns. The robe/body is ambiguously anatomy and woven office vestment, fully covered, no explicit anatomy. One hand raised with palm open; the other hand lowers toward the bond.\nAt the pedestal's feet stand exactly TWO much smaller fully clothed hooded human figures, one on each side, heads bowed. A SINGLE continuous muted RED cord passes loosely through an open black wrist-cuff on each smaller figure and over the pedestal's front, binding both to the same arrangement. Both cuffs have clear open release catches. Their hands can reach the catches; the path is visible but neither is shown released. No flame or other red mark. All other linework black/slate/ochre. Preserve generous negative space between the three bodies. The symbolic tension is dependence, desire and the cost of release; do not make it a triumphant liberation poster. No pentagram required.",
+        "references": [
+          {
+            "file": "foras-raster-reference-v02.png",
+            "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+          },
+          {
+            "file": "bael-raster-reference-v03.png",
+            "sha256": "059deed93cb33cb1dc9927b0a6fa7262890434840c525e0bebdde6fbf6134a9d"
+          },
+          {
+            "file": "twin-register-raster-reference-v01.png",
+            "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e"
+          }
+        ],
+        "seed": null,
+        "model_version": null,
+        "generator": "built-in image_gen",
+        "attempt": 1,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/15-the-bond.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "e2e5fa6812a2810d4d191314c7d64a2acf9a1941517578c2c129ef03795813c2",
+      "red_check": {
+        "file": "tarot-of-intervals/art/15-the-devil-native.png",
+        "sha256": "32a15083604c15a775b9c7cc28a31333f51ce82884aa23bdafc7f4c68f7c354d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 3325,
+        "eroded_core_pixels": 730,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          195.0,
+          22.0,
+          21.0
+        ],
+        "median_red_hex_rounded": "#c31615",
+        "modal_red_hex": "#b91014",
+        "modal_frequency": 2,
+        "unique_sample_colours": 712,
+        "nearest_candidate_hex": "#a52b24",
+        "median_max_channel_error": 33.0,
+        "p95_max_channel_error": 50.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 15,
+        "card_title": "The Bond"
+      }
+    },
+    {
+      "number": 16,
+      "numeral": "XVI",
+      "archetype": "The Tower",
+      "title": "The Exposed Support",
+      "source_index": null,
+      "keywords": "RUPTURE / EXPOSURE",
+      "symbolism": "A red fault breaks the tower and exposes its thin supporting spine. The falling chamber reveals a dependency; the damage does not by itself supply a better structure.",
+      "upright": "Rupture; an exposed assumption; urgent reassessment.",
+      "reversed": "A known weakness denied; destruction dressed as a remedy.",
+      "question": "What was holding this up, and what now needs immediate care?",
+      "source_art": {
+        "subject": "The Tower",
+        "file": "art/16-the-tower-native.png",
+        "sha256": "ef2015076b4a72b3a6f29e40092b9541a9e1d729d27fc11ab82ea0c8758cecc9",
+        "prompt": "Use case: stylized-concept. Asset: original illustration for Tarot of Intervals, part of Josiah Alan-Lee's Librum Quinque art project.\nReference images establish the exact drawing hand: fine engraved near-black pen lines, dense porous cellular lace and anatomical lattice, delicate vertical hanging lines ending in round dots, sparse slate blue-grey insets and tiny ochre seams, extraordinary open cream negative space. Do not imitate a photographed or digitally modelled object. This is flat line illustration with very light flat wash only, no painterly shading, volumetric lighting, glossy metal, fog or realism.\nPortrait 2:3 PNG. Entire composition visible with generous uninterrupted cream margins. Figure or architecture occupies roughly 78 percent of canvas height; all horns, feet, rays and terminal dots stay inside the canvas.\nGround is flat unbleached cream #ede6d4, no gradients, paper texture, vignette, scene background or cast shadow. Palette near-black #161918, sparse slate #4f6f7a and small ochre only. One continuous red intervention only, aim for #a32b24 RGB(163,43,36), no scarlet or orange. No other hues.\nNo text, letters, numerals, pseudo-writing, caption, title, card frame, border, watermark or tarot mockup. The typeset card furniture will be composed separately. This request is ONLY the interior illustration.\nSubject: THE TOWER, a narrow freestanding gothic tower drawn as exquisite porous cellular architecture and a partial cutaway, related to the house reference but tall and vertical. A crown-shaped empty upper chamber is sheared sideways and suspended in the moment of falling. Two tiny fully clothed robed figures tumble on opposite sides, visually weightless like dropped paper, no injury or gore.\nA SINGLE continuous red angular lightning stroke enters from upper right, splits the upper chamber and follows one fault line downward through the open central spine. It is the sole red intervention. The rupture reveals that the proud upper stories depended on one thin hidden load-bearing strut; the exposed strut is BLACK and visibly broken, not repaired. Tiny uncoloured fragments and black terminal dots descend among open air. Keep the main base standing; no explosion, smoke, fire, landscape or crowded rubble. An intact empty rectangular doorway at the base remains visible. This is revelation by structural failure, not a claim that catastrophe is cleansing. Flat line drawing, not stone texture.",
+        "references": [
+          {
+            "file": "foras-raster-reference-v02.png",
+            "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+          },
+          {
+            "file": "house-kept-in-abeyance-raster-reference-v01.png",
+            "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6"
+          }
+        ],
+        "seed": null,
+        "model_version": null,
+        "generator": "built-in image_gen",
+        "attempt": 1,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/16-the-exposed-support.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "fe276c5c679626ba5de143d9820ede947bc0dd6f86964a96ee46ca4b8dd3c4a6",
+      "red_check": {
+        "file": "tarot-of-intervals/art/16-the-tower-native.png",
+        "sha256": "ef2015076b4a72b3a6f29e40092b9541a9e1d729d27fc11ab82ea0c8758cecc9",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 4381,
+        "eroded_core_pixels": 639,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          190.0,
+          11.0,
+          13.0
+        ],
+        "median_red_hex_rounded": "#be0b0d",
+        "modal_red_hex": "#b10709",
+        "modal_frequency": 2,
+        "unique_sample_colours": 626,
+        "nearest_candidate_hex": "#a32922",
+        "median_max_channel_error": 36.0,
+        "p95_max_channel_error": 50.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 16,
+        "card_title": "The Exposed Support"
+      }
+    },
+    {
+      "number": 17,
+      "numeral": "XVII",
+      "archetype": "The Star",
+      "title": "The Renewal",
+      "source_index": null,
+      "keywords": "HOPE / TENDING",
+      "symbolism": "An empty-centred star hangs above a kneeling keeper and two vessels. One stream enters a basin; the red stream reaches a root. Hope takes the form of resumed care.",
+      "upright": "Replenishment; modest trust; an available next act.",
+      "reversed": "A promise detached from support; giving beyond reserve.",
+      "question": "What small act would make renewal materially possible?",
+      "source_art": {
+        "subject": "The Star",
+        "file": "art/17-the-star-native.png",
+        "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783",
+        "prompt": "Use case: stylized-concept. Asset: original illustration for Tarot of Intervals, part of Josiah Alan-Lee's Librum Quinque art project.\nReference images establish the exact drawing hand: fine engraved near-black pen lines, dense porous cellular lace and anatomical lattice, delicate vertical hanging lines ending in round dots, sparse slate blue-grey insets and tiny ochre seams, extraordinary open cream negative space. Do not imitate a photographed or digitally modelled object. This is flat line illustration with very light flat wash only, no painterly shading, volumetric lighting, glossy metal, fog or realism.\nPortrait 2:3 PNG. Entire composition visible with generous uninterrupted cream margins. Figure or architecture occupies roughly 78 percent of canvas height; all horns, feet, rays and terminal dots stay inside the canvas.\nGround is flat unbleached cream #ede6d4, no gradients, paper texture, vignette, scene background or cast shadow. Palette near-black #161918, sparse slate #4f6f7a and small ochre only. One continuous red intervention only, aim for #a32b24 RGB(163,43,36), no scarlet or orange. No other hues.\nNo text, letters, numerals, pseudo-writing, caption, title, card frame, border, watermark or tarot mockup. The typeset card furniture will be composed separately. This request is ONLY the interior illustration.\nSubject: THE STAR. A single tall slender androgynous keeper kneels, fully clothed in a porous cellular mantle, under one large eight-pointed BLACK star with an EMPTY cream circular centre. Seven tiny simple black star-points are spaced widely around it, irregular rather than a rigid grid.\nThe keeper holds two small open vessels. One tipped vessel pours a thin BLACK line into a shallow openwork basin; the other releases the SINGLE red intervention: one continuous quiet red thread-stream feeding a small root network at the keeper's other side. The other vessel and basin have sparse slate blue-grey flat insets. The red line ends at the root, no extra red seal or stars. A living sprig grows beside the empty basin, kept delicate and small. A few hanging black terminal dots complete the lower silhouette. Face serene but tired, alive and individual, not a blank mask. Hope is the resumption of care and replenishment, not a promised outcome. Generous cream air; no water landscape, nakedness, horizon, glow or background.",
+        "references": [
+          {
+            "file": "foras-raster-reference-v02.png",
+            "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+          },
+          {
+            "file": "house-kept-in-abeyance-raster-reference-v01.png",
+            "sha256": "1d0e5f92685fd9e2dd507096bb78bc6d9772b2fe07fafe4f185a2929321156a6"
+          }
+        ],
+        "seed": null,
+        "model_version": null,
+        "generator": "built-in image_gen",
+        "attempt": 1,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/17-the-renewal.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "20e5902923abc6a4e45844f57c87ae0284407cc81b485c8b4ca3cb17726fde84",
+      "red_check": {
+        "file": "tarot-of-intervals/art/17-the-star-native.png",
+        "sha256": "8e04f3a188eb9598b864da86d88d3a4c42bd11bd0f278432384d531faf25d783",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1168,
+        "eroded_core_pixels": 155,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          175.0,
+          18.0,
+          15.0
+        ],
+        "median_red_hex_rounded": "#af120f",
+        "modal_red_hex": "#9e0605",
+        "modal_frequency": 2,
+        "unique_sample_colours": 153,
+        "nearest_candidate_hex": "#a12d25",
+        "median_max_channel_error": 31.0,
+        "p95_max_channel_error": 42.0,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 17,
+        "card_title": "The Renewal"
+      }
+    },
+    {
+      "number": 18,
+      "numeral": "XVIII",
+      "archetype": "The Moon",
+      "title": "The Interval",
+      "source_index": 31,
+      "keywords": "UNCERTAINTY / RETURN",
+      "symbolism": "The crescent keeper attends to a red thread across an open interval. Partial illumination permits a local reading while leaving the rest of the cycle unseen.",
+      "upright": "Uncertainty; sensitivity to rhythm; cautious interpretation.",
+      "reversed": "A pattern asserted too quickly; alarm made self-confirming.",
+      "question": "What would distinguish this impression from the next plausible account?",
+      "source_art": {
+        "subject": "THE KEEPER OF INTERVALS — ORIGINAL",
+        "original_file": "../librum-quinque-raster-batch-05/keeper-of-intervals-original-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-05/figures.json",
+        "sha256": "e0981d8c31529fd87c995a73740f5171f261273324f055f43cbd9367792bd18d",
+        "prompt": "Use case: stylized-concept. Asset: one standalone raster figure reference for Librum Quinque, not a complete plate.\nMatch the approved FORAS drawing hand: fine near-black engraved/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, sparse muted slate pockets and tiny ochre details, vertical hanging black lines ending in small dots. Keep the new subject's identity and silhouette specified below.\nGround entirely flat unbleached cream #ede6d4, no texture gradient, vignette, background scene or cast shadow. Figure alone centred, completely visible including extremities and terminal dots; generous empty margin on all sides, about 75-80 percent of canvas height. Fine line art and at most light flat wash. No painted modelling, photographic lighting, glossy reflections or 3D render.\nPalette: near-black #161918; exactly ONE red intervention. All red stroke cores must be flat sRGB #a32b24, RGB(163,43,36), no red highlights, shadows, black outline or orange/bright crimson variation; antialias edges only. Muted slate #4f6f7a and a little ochre are the only other hues. Red appears nowhere outside the specified intervention.\nNo text, letters, numerals, pseudo-writing, captions, watermark, border, page frame or surrounding diagram. Blank book/paper surfaces. No extra figures unless the requested subject is explicitly the Hora-and-Tempus pair. Any handheld or structural frame specified below belongs to the subject, never a border around the image.\n\nNEW SUBJECT — THE KEEPER OF INTERVALS — ORIGINAL. Input image 1 is FORAS, drawing hand and palette ONLY. Input image 2 is the ORIGINAL KEEPER, subject identity and pose ONLY: preserve the slight bowed full-length body, pale finely drawn profile face, huge open crescent crest arching above and around the head, elongated delicate hands, narrow legs and grounded branching hem. Remove ALL page typography, border, registers, separate moons, diagrams, dense baseline and all red garment veins. Re-render as one isolated figure in Foras's more open cellular-lattice pen hand. Two arms only: one hangs down, the other hand is raised delicately. Chest contains a plain empty cream circular aperture. The ONE RED INTERVENTION is a SINGLE uninterrupted red thread running from this chest aperture to the raised hand and then falling to one terminal dot. No other red in body, eye, crescent or foot. Fine near-black expression must preserve the original face rather than replace it with Foras's face. Some horizontal narrow cream breaks in the garment may remain, but no marginal layout. No extra clocks or added attributes; this render preserves the original figure, not the whole chapter's analytic diagram. Portrait PNG 2:3, full figure with generous margin, target 2048 x 3072 if available.\nManuscript context only, never print: Who can renew a capacity may shape which future is available.\nConceptual caption only, never print: Four independent clocks: public visibility, retained lesson, identity linkage, and usable authority. Each has its own keeper and renewal point. These are analytical distinctions, not recommended retention durations or a diagram of any living network.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Intervallorum",
+        "office": null,
+        "plate": "VIII",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/18-the-interval.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "ec2daec90d5298e32971571a585d44326da79d5bbdef742d4f8ff95f3bac50a5",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-05/keeper-of-intervals-original-raster-reference-v01.png",
+        "sha256": "e0981d8c31529fd87c995a73740f5171f261273324f055f43cbd9367792bd18d",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1835,
+        "eroded_core_pixels": 57,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          204.0,
+          43.0,
+          30.0
+        ],
+        "median_red_hex_rounded": "#cc2b1e",
+        "modal_red_hex": "#b9110e",
+        "modal_frequency": 2,
+        "unique_sample_colours": 54,
+        "nearest_candidate_hex": "#a62a22",
+        "median_max_channel_error": 42.0,
+        "p95_max_channel_error": 50.39999999999999,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 18,
+        "card_title": "The Interval"
+      }
+    },
+    {
+      "number": 19,
+      "numeral": "XIX",
+      "archetype": "The Sun",
+      "title": "The Visible Ground",
+      "source_index": null,
+      "keywords": "CLARITY / SUPPORT",
+      "symbolism": "The solar wheel opens around a bird and two rooted plants. The incomplete red arc preserves a gap: visibility can expose how something lives without making knowledge complete.",
+      "upright": "Clarity; vitality; support brought into view.",
+      "reversed": "Exposure without care; confidence that erases its own limits.",
+      "question": "What has become visible, and what does its continued life require?",
+      "source_art": {
+        "subject": "The Sun",
+        "file": "art/19-the-sun-native.png",
+        "sha256": "23d16f41946ca06231208ab78340da829e3a0b751777cd07baa5a1fe1e3aa6eb",
+        "prompt": "Use case: stylized-concept. Asset: original illustration for Tarot of Intervals, part of Josiah Alan-Lee's Librum Quinque art project.\nReference images establish the exact drawing hand: fine engraved near-black pen lines, dense porous cellular lace and anatomical lattice, delicate vertical hanging lines ending in round dots, sparse slate blue-grey insets and tiny ochre seams, extraordinary open cream negative space. Do not imitate a photographed or digitally modelled object. This is flat line illustration with very light flat wash only, no painterly shading, volumetric lighting, glossy metal, fog or realism.\nPortrait 2:3 PNG. Entire composition visible with generous uninterrupted cream margins. Figure or architecture occupies roughly 78 percent of canvas height; all horns, feet, rays and terminal dots stay inside the canvas.\nGround is flat unbleached cream #ede6d4, no gradients, paper texture, vignette, scene background or cast shadow. Palette near-black #161918, sparse slate #4f6f7a and small ochre only. One continuous red intervention only, aim for #a32b24 RGB(163,43,36), no scarlet or orange. No other hues.\nNo text, letters, numerals, pseudo-writing, caption, title, card frame, border, watermark or tarot mockup. The typeset card furniture will be composed separately. This request is ONLY the interior illustration.\nSubject: THE SUN. One large openwork solar wheel hangs above two small upright flowering stems, with one elegant slender bird passing through its lower opening. The sun is an intricate radial BLACK lace structure, with an EMPTY cream disk at its centre rather than a face; long and short cellular rays alternate without exact counting requirements. The bird has a clear hawklike head and a single continuous openwork body related to the Returning Trace aesthetic; wings unfolded, not a serpent and not multiple heads.\nThe SINGLE red intervention is a narrow continuous arc, about one quarter of the solar wheel's inner circumference, stopping at two visible gaps. Everything else near-black, sparse slate insets and tiny ochre seams. The roots of the two flowers remain visible, their stems share no hidden pedestal. Light here means that supports and relationships can be seen; it does not erase the gaps. Fine engraved line, no luminous yellow fill, smiling sun face, cherub, horse, sky, cloud or horizon. Full centred vertical composition surrounded by cream air.",
+        "references": [
+          {
+            "file": "foras-raster-reference-v02.png",
+            "sha256": "de58a1acb4bee2804c205cac7e1637ad86a8af5bc499802677997f556f7dec22"
+          },
+          {
+            "file": "twin-register-raster-reference-v01.png",
+            "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e"
+          }
+        ],
+        "seed": null,
+        "model_version": null,
+        "generator": "built-in image_gen",
+        "attempt": 1,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/19-the-visible-ground.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "033c2b10f98ea24eba8752b26ea3f14c0a5f9a134f110e61195efcc39ca3fbb3",
+      "red_check": {
+        "file": "tarot-of-intervals/art/19-the-sun-native.png",
+        "sha256": "23d16f41946ca06231208ab78340da829e3a0b751777cd07baa5a1fe1e3aa6eb",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1493,
+        "eroded_core_pixels": 431,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          195.0,
+          25.0,
+          26.0
+        ],
+        "median_red_hex_rounded": "#c3191a",
+        "modal_red_hex": "#bc2524",
+        "modal_frequency": 2,
+        "unique_sample_colours": 423,
+        "nearest_candidate_hex": "#a22b25",
+        "median_max_channel_error": 33.0,
+        "p95_max_channel_error": 45.5,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 19,
+        "card_title": "The Visible Ground"
+      }
+    },
+    {
+      "number": 20,
+      "numeral": "XX",
+      "archetype": "Judgement",
+      "title": "The Summons",
+      "source_index": 16,
+      "keywords": "CALL / RESPONSE",
+      "symbolism": "Choraz's trumpets sound around an empty centre. A call can awaken collective action or occupy the people who could act; volume alone cannot distinguish the two.",
+      "upright": "Answering a call; review; an obligation acknowledged.",
+      "reversed": "Endless summons; performance of accountability.",
+      "question": "What response would answer this call rather than merely repeat it?",
+      "source_art": {
+        "subject": "CHORAZ",
+        "original_file": "../librum-quinque-raster-batch-03/choraz-raster-reference-v02.png",
+        "source_manifest": "../librum-quinque-raster-batch-03/figures.json",
+        "sha256": "ce7f7c48a6dde6164e43695c3e3ad00455918680c6b2cce4191f8dfc01ab16ea",
+        "prompt": "Precise object edit. The supplied CHORAZ image is the EDIT TARGET. Preserve the one empty lattice helmet, empty visor, all palette, red forehead return seal, engraved line style and cream ground. Correct ONLY the number of trumpet horns. There are currently SIX left and SIX right, twelve total. ADD FOUR small matching trumpets: TWO more on the LEFT and TWO more on the RIGHT, attached to the same helmet. Final result must contain EXACTLY EIGHT clearly separate flared trumpet openings on LEFT and EIGHT on RIGHT, SIXTEEN TOTAL. Space each fan as an arc from above the helmet down to beside its cheek. Each side's opening positions form eight distinct levels at top-to-bottom order, no merging, overlap or hidden horn. Slightly reduce the size of the existing bells if needed to fit the additional two each side. Preserve generous margins and all extremities visible. DO NOT print numbers or labels. No extra instrument in centre. No occupant, head, face, neck or torso. Red only at the existing forehead seal. No other changes. Portrait PNG 2:3.",
+        "seed": null,
+        "model_version": null,
+        "book": "Pseudomonarchia Escalationum",
+        "office": "Major Incident Manager",
+        "plate": null,
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "card_file": "cards/20-the-summons.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "6d683871e1f5d00377214caf9d0615d02ede3e0fefaefaab24417568f55844e0",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-03/choraz-raster-reference-v02.png",
+        "sha256": "ce7f7c48a6dde6164e43695c3e3ad00455918680c6b2cce4191f8dfc01ab16ea",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 1159,
+        "eroded_core_pixels": 679,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          160.0,
+          33.0,
+          24.0
+        ],
+        "median_red_hex_rounded": "#a02118",
+        "modal_red_hex": "#991b15",
+        "modal_frequency": 5,
+        "unique_sample_colours": 612,
+        "nearest_candidate_hex": "#a32c22",
+        "median_max_channel_error": 14.0,
+        "p95_max_channel_error": 26.100000000000023,
+        "sample_fraction_within_5_per_channel": 0.039764359351988215,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 20,
+        "card_title": "The Summons"
+      }
+    },
+    {
+      "number": 21,
+      "numeral": "XXI",
+      "archetype": "The World",
+      "title": "The Twin Register",
+      "source_index": 45,
+      "keywords": "RELATION / REVISION",
+      "symbolism": "Two heads share one continuous body around an empty ring. Their common structure permits two views; the red stitch joins a local fault while leaving the centre open.",
+      "upright": "Relation; an achieved circuit; completion that admits revision.",
+      "reversed": "Forced agreement; a closed account that excludes its costs.",
+      "question": "What can be held together while the differences remain legible?",
+      "source_art": {
+        "subject": "THE TWIN REGISTER",
+        "original_file": "../librum-quinque-raster-batch-07/twin-register-raster-reference-v01.png",
+        "source_manifest": "../librum-quinque-raster-batch-07/figures.json",
+        "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e",
+        "prompt": "Use case: stylized-concept. Asset: ONE standalone raster figure reference for Librum Quinque, not a complete plate.\nInput image 1 is approved FORAS: DRAWING HAND AND PALETTE ONLY, not its identity, six arms or pose. Input image 2 is this subject's ORIGINAL SOL PLATE: SUBJECT IDENTITY, anatomy, silhouette and pose ONLY. Re-render that subject in the common Foras fine pen hand. Do not copy the old plate's lettering, page framing, diagrams, marginal registers, panel crops, broad red veins or paper texture.\nFine near-black #161918 engraving/pen line, dense cellular and lattice ornament with cream voids, fine stroke bundles, delicate vertical black drop-lines with tiny terminal dots. Sparse muted slate #4f6f7a and a little ochre only other hues beyond near-black and the ONE specified red intervention.\nFlat unbleached cream #ede6d4 ground edge to edge, no texture gradient, vignette, cast shadow or background scene. Whole subject centred and completely visible with generous blank air on every side, about 75-80 percent canvas height and width. Fine lineart with light flat wash at most: no painted shading, realistic lighting, glossy reflection or 3D render.\nRED TARGET: sRGB #a32b24, RGB(163,43,36), actual uniform red stroke core, no orange, bright scarlet, dark crimson, highlight or shadow. Red only in the single intervention specified below; all eyes, mouths, body membranes and other linework near-black/cream with sparse slate/ochre. Antialias edges only.\nNO text whatsoever, letters, numbers, pseudo-writing, symbols used as writing, captions, borders, page frame, watermark, side diagrams or extra figures. Any ring or handheld frame is the subject's own body/prop, never an image border. All unoccupied centres plain cream.\n\nNEW SUBJECT — THE TWIN REGISTER — ORIGINAL SOL TWO-HEADED SERPENT, mapped to Graduum VI. Preserve the original ONE long TWO-HEADED serpent body, both anatomically distinct heads connected through the same continuous narrow coiling body, with recognisable pale engraved serpent/dragon faces, dark eyes and fine cellular crests. Upper head near upper right bends downward; lower head near lower left bends upward. The body doubles back in an elegant S-like coil around a large EMPTY CIRCULAR OPENING at its middle. Its cream belly stripe remains legible; cellular black lace and sparse slate/ochre cells cover the back and coil. No disconnected snakes, third head, wings, limbs or second creature. Ring centre plain empty cream, no axis line, diagram, text or inner symbol. ONE RED INTERVENTION: a single small fine red STITCH linking the two adjacent coil edges near the lower-right side of the central opening. Red nowhere else: no red eyes, node-disks, mouths, body veins or scale patches. All old marginal diagrams, text panels, moons and dark background disks removed. Fine black terminal-dot drop-lines belong only to the body. Square PNG 1:1, target 2048 x 2048 if supported; preserve complete double-headed silhouette on square sheet with generous cream margin, no cropped crests or filaments.",
+        "seed": null,
+        "model_version": null,
+        "book": "Clavicula Graduum",
+        "office": null,
+        "plate": "VI",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      "card_file": "cards/21-the-twin-register.png",
+      "card_dimensions_px": [
+        827,
+        1418
+      ],
+      "card_sha256": "1801832f0259a761308c53659af098ab045262b49a77e710a56dc5bdaec96d66",
+      "red_check": {
+        "file": "librum-quinque-raster-batch-07/twin-register-raster-reference-v01.png",
+        "sha256": "aa8c11a2bc4abc881fe9d48229fea486b10eaa06e7047b620992730988123d3e",
+        "target_hex": "#a32b24",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "icc_profile_present": false,
+        "icc_profile_handling": "Decoded RGB values measured directly; no profile conversion. Assumes RGB encoding interpreted as sRGB.",
+        "candidate_red_pixels": 403,
+        "eroded_core_pixels": 37,
+        "sample_used": "3x3 eroded red interior",
+        "exact_target_pixels_in_image": 0,
+        "pixels_modified": false,
+        "median_red_rgb": [
+          184.0,
+          8.0,
+          6.0
+        ],
+        "median_red_hex_rounded": "#b80806",
+        "modal_red_hex": "#b80000",
+        "modal_frequency": 3,
+        "unique_sample_colours": 34,
+        "nearest_candidate_hex": "#a02d23",
+        "median_max_channel_error": 37.0,
+        "p95_max_channel_error": 43.59999999999999,
+        "sample_fraction_within_5_per_channel": 0.0,
+        "sample_fraction_exact_target": 0.0,
+        "all_sample_pixels_exact_target": false,
+        "result": "target drift measured; no colour normalisation",
+        "card_number": 21,
+        "card_title": "The Twin Register"
+      }
+    }
+  ]
+}
