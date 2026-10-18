@@ -208,6 +208,10 @@
      "paragraphs": [
       "[E] Beer's viable system model names a channel from operations directly to the policy function, bypassing coordination and control, for signals of pain or pleasure that cannot wait, and calls it algedonic [B1]. Beer insisted the five systems are not a hierarchy. Toyota's andon cord lets a line worker stop the line [T1]. Beer was read in summaries; the andon is general knowledge; neither primary source was inspected in this pass.",
       "[H] D7 asks whether the channel has an available recipient with authority and resources to respond before the relevant deadline. Reviewable duties may help sustain that response; exposure to punishment is neither a demonstrated necessity nor a sufficient condition. Timely unpunished response is evidence to retain, not an exception to explain away.",
+      "[E] Labour-process accounts dispute whose stop the andon is. Parker and Slaughter describe a board on which each station shows green, yellow or red, run so that stations hover between green and yellow. A station that stays green loses resources, and a worker who pulls the cord is identified on the board and may be disciplined for not keeping up [PS1]. Slaughter reports a Mazda worker who was filmed after pulling the cord several times and, once injured, was blamed for not pulling it [SL1].",
+      "[E] Adler's study of NUMMI reports, from its plant manager, about a hundred pulls a day in final assembly, many cleared before the line stopped, and about thirty minutes of stoppage a shift. It records a worker critic's complaint that pulls were being discouraged, which later interviews suggested was temporary, and grants that the system made people work harder as well as smarter [AD1].",
+      "[D] A management-owned quality stop and a worker-owned stop-work power can use the same cord. They differ in who sets the line speed and staffing the cord interrupts, and in whether a pull can be counted against the one who pulls. The first is a signal to a recipient who answers for output; the second is an authority its holder cannot be penalised for using.",
+      "[H] D7's question about the recipient has a second part: what a pull costs the one who pulls. A channel can have a prompt recipient and still be too costly to use. Evidence that pulls cost pullers nothing, on a line not timed or staffed to make pulling costly, would make the second part idle; Adler's NUMMI account is where to look.",
       "[H] Brooks's layered control is named in the brief as a contrasting design [BR1], but its primary paper was not inspected. It remains a source to check before using it as evidence against a general theory of escalation. This book does not claim that every hierarchy needs the cord drawn here.",
       "[F] The cord is sound. The mount was never made."
      ]
@@ -407,7 +411,28 @@
    "citation": "Toyota production system: andon and jidoka.",
    "url": "",
    "status": "General knowledge; no primary source inspected.",
-   "use": "The stop-work cord as the mounted case."
+   "use": "The stop-work cord as the mounted case, in one sense only: someone is obliged to answer it. Who owns the stop is disputed in PS1, SL1 and AD1."
+  },
+  {
+   "id": "PS1",
+   "citation": "Parker, M. and Slaughter, J. (1988). Choosing Sides: Unions and the Team Concept. South End Press. Excerpt: Management's 'Ideal' Concept. Against the Current 19 (March/April 1989).",
+   "url": "https://againstthecurrent.org/atc019/managements-ideal-concept/",
+   "status": "The 1989 excerpt read through a fetch tool; the book was not inspected.",
+   "use": "Management by stress; the andon board run between green and yellow; pulls identified and disciplined."
+  },
+  {
+   "id": "SL1",
+   "citation": "Slaughter, J. (1990). Management by Stress. Multinational Monitor 11(1-2), January/February 1990.",
+   "url": "https://www.multinationalmonitor.org/hyper/issues/1990/01/slaughter.html",
+   "status": "Read through a fetch tool.",
+   "use": "The Mazda worker filmed after pulling the cord and blamed for not pulling it."
+  },
+  {
+   "id": "AD1",
+   "citation": "Adler, P. S. (1993). The 'Learning Bureaucracy': New United Motor Manufacturing, Inc. In B. M. Staw and L. L. Cummings (eds.), Research in Organizational Behavior 15. JAI Press.",
+   "url": "https://msbfile03.usc.edu/digitalmeasures/padler/intellcont/NUMMI%28ROB%29-1.pdf",
+   "status": "The author's April 1992 draft (3.1) read through a fetch tool to about its page 51; the published version and the draft's evaluation section were not inspected.",
+   "use": "Pull counts and stoppage at NUMMI; a worker critic's complaint; harder as well as smarter."
   },
   {
    "id": "BR1",

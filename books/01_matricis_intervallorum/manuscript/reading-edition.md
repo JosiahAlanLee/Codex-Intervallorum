@@ -194,6 +194,8 @@ An added route is a claim about every dependency it still retains.
 
 [H] Compare a route under ordinary cooperation with the same route when the relevant gatekeeper refuses, becomes unavailable, or disputes the evidence. These are different trials. A procedure that works only with an interested party's favourable discretion has demonstrated conditional access.
 
+[H] Organised refusal can survive a gatekeeper's refusal: when enough of the people a process needs stop together, no single name carries the stoppage. It opens the route only if they cannot be replaced before the deadline and stopping costs the gatekeeper more than granting. In 1981 replacement won: more than 11,000 striking US air traffic controllers were dismissed [L1]. The specimen is generator/refusal.py.
+
 [V] A successful bypass can transfer risk to someone outside the former approval chain. Record who gains discretion, who acquires a burden, and who can challenge that distribution. Preserving a protective function does not require preserving its former keeper.
 
 [F] The lower gate need not prove that every reform fails. It may have another instruction, another keeper, or no workable route around it yet. The traveler records which. The trial field stays empty until a trial occurs.
@@ -683,6 +685,14 @@ Author-posted article inspected selectively, introduction and section III.C, esp
 Reopening entrenched arrangements, external authority, negotiated and revisable remedies; no claim that a recipient exists everywhere.
 
 https://charlessabel.com/papers/Destabilization%20Rights%20-%20Westlaw.pdf
+
+### [L1] Pusey, A. (2015). August 5, 1981: Reagan fires air traffic controllers. ABA Journal, 1 August 2015.
+
+Read through a fetch tool for the dates, the 11,345 dismissals and the stopgap staffing; other counts differ slightly.
+
+The replacement case: a synchronised refusal defeated by replacing those who refused.
+
+https://www.abajournal.com/magazine/article/august_5_1981_reagan_fires_air_traffic_controllers
 
 ## Further reading carried forward
 
