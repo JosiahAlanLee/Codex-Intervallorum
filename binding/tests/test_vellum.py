@@ -91,7 +91,7 @@ class VellumTests(unittest.TestCase):
                 r = fitz.Rect(box)
                 self.assertTrue(r.x1 < 27 or r.x0 > 477 or r.y1 < 27 or r.y0 > 693)
             # The central field remains much lighter than a punctuation mark.
-            self.assertLessEqual(int(opacity[36:-36, 36:-36].max()), 11)
+            self.assertLessEqual(int(opacity[36:-36, 36:-36].max()), 24)
         self.assertGreater(pages_with_spots, 0)
         self.assertLess(pages_with_spots, 9)
 
@@ -103,7 +103,8 @@ class VellumTests(unittest.TestCase):
                 v.verify_page(before[0], self.page)
 
     def test_apply_recognizes_current_and_legacy_finishing(self):
-        for stamp in ['CodexIntervallorum:vellum-1', 'LibrumQuinque:vellum-1']:
+        for stamp in ['CodexIntervallorum:vellum-1', 'LibrumQuinque:vellum-1',
+                      'CodexIntervallorum:vellum-2', 'LibrumQuinque:vellum-2']:
             with self.subTest(stamp=stamp), tempfile.TemporaryDirectory() as tmp:
                 self.doc.set_metadata({'keywords': stamp})
                 source = Path(tmp) / 'source.pdf'

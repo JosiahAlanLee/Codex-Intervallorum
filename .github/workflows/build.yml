@@ -34,6 +34,11 @@ jobs:
           if-no-files-found: error
       - uses: actions/upload-artifact@v4
         with:
+          name: Codex-Intervallorum-phone
+          path: binding/out/phone/*
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
           name: Codex-Intervallorum-components
           path: |
             books/01_matricis_intervallorum/out/*.pdf

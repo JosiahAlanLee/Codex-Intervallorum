@@ -20,9 +20,10 @@ import fitz
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
-VERSION = 'vellum-1'
+VERSION = 'vellum-2'
+# Keep the paper fields and rare-spot locations stable when changing contrast.
+FIELD_VERSION = 'vellum-1'
 STAMP = 'CodexIntervallorum:' + VERSION
-LEGACY_STAMP = 'LibrumQuinque:' + VERSION
 DPI = 96
 SCALE = DPI / 72
 PADDING_PT = 3
@@ -32,7 +33,7 @@ TEXT_FLAGS = fitz.TEXTFLAGS_RAWDICT & ~fitz.TEXT_PRESERVE_IMAGES
 
 
 def seed_for(identity, seed=0):
-    key = f'{VERSION}/{seed}/{identity}'.encode()
+    key = f'{FIELD_VERSION}/{seed}/{identity}'.encode()
     return int.from_bytes(hashlib.sha256(key).digest()[:8], 'big')
 
 
@@ -97,9 +98,11 @@ def make_texture(page, identity, seed=0):
     yy, xx = np.mgrid[:h, :w]
     edge = np.minimum.reduce([xx / SCALE, (w - 1 - xx) / SCALE,
                               yy / SCALE, (h - 1 - yy) / SCALE])
-    # Opacity is usually 1-5 / 255; the existing paper colour stays dominant.
-    tone = (.3 + 2.7 * coarse + 1.4 * medium + .6 * fine
-            + rng.normal(0, .35, (h, w)) + 1.3 * np.exp(-edge / 23))
+    # Increase broad contrast around its previous mean, rather than tinting the
+    # entire page darker and exposing pale haloes around protected lettering.
+    # Fine grain is unchanged; the first pass was barely visible at page fit.
+    tone = (-3.8 + 8.1 * coarse + 4.2 * medium + .6 * fine
+            + rng.normal(0, .35, (h, w)) + 3.9 * np.exp(-edge / 23))
     # Small, discontinuous fibres; no continuous lines or invented letters.
     fibres = Image.new('L', (w, h))
     draw = ImageDraw.Draw(fibres)
@@ -113,7 +116,7 @@ def make_texture(page, identity, seed=0):
     # Ease into the protected zones rather than cutting visible rectangular holes.
     safe = Image.fromarray((~protected).astype(np.uint8) * 255)
     fade = np.asarray(safe.filter(ImageFilter.GaussianBlur(.6 * SCALE))) / 255
-    opacity = np.rint(np.clip(tone * fade, 0, 11)).astype(np.uint8)
+    opacity = np.rint(np.clip(tone * fade, 0, 24)).astype(np.uint8)
     opacity[protected] = 0
     spots = []
     if rng.random() < .14:
@@ -177,7 +180,8 @@ def add_texture(page, opacity):
 
 
 def is_texture(page, xref):
-    return bool(xref and page.parent.xref_get_key(xref, 'LQVellum') == ('string', VERSION))
+    return bool(xref and page.parent.xref_get_key(xref, 'LQVellum')
+                in [('string', 'vellum-1'), ('string', VERSION)])
 
 
 def source_images(page):
@@ -251,7 +255,8 @@ def apply(pdf, output=None, *, seed=0, log_path=None):
     output.parent.mkdir(parents=True, exist_ok=True)
     original = fitz.open(pdf)
     keywords = original.metadata.get('keywords') or ''
-    if STAMP in keywords or LEGACY_STAMP in keywords:
+    if any(prefix in keywords for prefix in
+           ('CodexIntervallorum:vellum-', 'LibrumQuinque:vellum-')):
         original.close()
         raise ValueError('This PDF already has vellum finishing; use the original binding')
     if any(p.rotation or p.rect.x0 or p.rect.y0 for p in original):

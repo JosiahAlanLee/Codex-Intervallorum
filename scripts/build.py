@@ -67,6 +67,8 @@ def main():
         run('books/04_graduum/illustrated/build.py')
         run('binding/bind_illustrated.py')
         run('binding/validate.py', 'binding/out/illustrated/Codex_Intervallorum_illustrated.pdf')
+        run('binding/phone.py', 'binding/out/illustrated/Codex_Intervallorum_illustrated.pdf',
+            'binding/out/phone/Codex_Intervallorum_phone.pdf')
     run('scripts/check_project.py', '--built', '--edition', args.edition)
 
 

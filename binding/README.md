@@ -109,6 +109,10 @@ finished PDF as the input. Source editions and plotter masters are untouched.
 The illustrated binder follows its pen finishing with `vellum.py`. It adds a
 transparent paper layer: several scales of smooth noise, fine grain, sparse short
 fibres and a slight edge variation. Existing paper colour remains dominant.
+Version 2 increases broad mottling and edge variation about threefold over the
+first pass, whose grain was barely visible at page fit. The broad fields are
+centered around their previous mean to avoid a uniformly darker page. Fine grain, fibre strength,
+rare-spot placement and the protected zones retain their previous settings.
 About one leaf in seven also receives a tiny, irregular group of faint ink
 spots, and only if a clear site exists within the outermost 25-point margin.
 Texture is repeatable by book and local source folio; `--seed` selects a different
@@ -139,4 +143,25 @@ change the noise or seed. Background texture adds raster data and PDF file size;
 source typography and diagrams remain at their original resolution.
 Texture images are explicitly tagged; binding validation excludes only those
 backgrounds from its illustration counts and illumination-digest comparisons.
+
+## Phone compatibility copy
+
+The illustrated build also makes `binding/out/phone/Codex_Intervallorum_phone.pdf`,
+uploaded as **Codex-Intervallorum-phone**. It renders each leaf as one opaque,
+lossless RGB image at 144 dpi (1008 × 1440 pixels), with matching MediaBox,
+CropBox, TrimBox, BleedBox and ArtBox. This avoids layered transparency and keeps
+the original 7 × 10 inch page shape. Every saved page is rendered again and must
+match the master's rendered pixels exactly at that resolution. Page order,
+bookmarks, labels and links are also checked.
+
+This is a compatibility trial for readers showing bars or distortion inside a
+page. It has not been tested in the Kindle phone app. A reader can still add
+external white letterboxing to fit a 7 × 10 page onto a tall screen. The copy
+uses page images, with no selectable text; retain the vector master for printing,
+text selection and deeper zoom. Lossless pages can make the download larger.
+
+```bash
+python binding/phone.py binding/out/illustrated/Codex_Intervallorum_illustrated.pdf \
+  binding/out/phone/Codex_Intervallorum_phone.pdf
+```
 
