@@ -1,17 +1,20 @@
 [
   {
     "name": "the-open-workshop",
-    "asset": "the-open-workshop.jpg",
+    "asset": "the-open-workshop-v02.png",
     "placement": "Frontispiece",
-    "prompt": "the-open-workshop-prompt.txt",
-    "method": "Built-in imagegen; original composition; JPEG encoding only, no semantic image edit",
+    "prompt": "the-open-workshop-v02-prompt.txt",
+    "method": "Built-in imagegen precise-object-edit, 19 October 2026: four-leg stool and two bolted brackets supporting the ring instrument outer rail; retain the original scene unchanged.",
     "original_filename": "exec-9d3b4ff1-22ce-42f9-8ffa-2a4bb44f79ba.png",
     "original_sha256": "e791b0da52222c2dcfbe521077b3421ab44a54921694f1865a4d6ab375388f25",
-    "prepared_sha256": "bbc25ddd2343e79205aadaa29b9da8de0d14e915aaa26115016561490bc84b38",
+    "prepared_sha256": "f958f4800ba8720c1e522ba3158c6d52c48a10041d19861f0081329f4a05da14",
     "size": [
       1086,
       1448
-    ]
+    ],
+    "original_asset": "the-open-workshop.jpg",
+    "original_asset_sha256": "bbc25ddd2343e79205aadaa29b9da8de0d14e915aaa26115016561490bc84b38",
+    "original_prompt": "the-open-workshop-prompt.txt"
   },
   {
     "name": "the-empty-cabinet",

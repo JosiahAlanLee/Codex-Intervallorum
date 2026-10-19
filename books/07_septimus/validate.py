@@ -24,6 +24,8 @@ def validate(out):
     for a in assets:
         assert b.sha(ROOT/'assets'/a['asset'])==a['prepared_sha256'], 'changed image: '+a['asset']
         assert (ROOT/'assets'/a['prompt']).is_file()
+        if 'original_asset' in a:
+            assert b.sha(ROOT/'assets'/a['original_asset'])==a['original_asset_sha256'], 'changed archived image: '+a['original_asset']
     for kind,entry in manifest['books'].items():
         pdf=out/entry['pdf'];assert b.sha(pdf)==entry['sha256'], 'changed PDF'
         doc=fitz.open(pdf);assert len(doc)==entry['pages']

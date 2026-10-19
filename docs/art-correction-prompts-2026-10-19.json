@@ -1,0 +1,41 @@
+[
+  {
+    "key": "open-workshop",
+    "path": "books/07_septimus/assets/the-open-workshop.jpg",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied engraved workshop frontispiece. Make only two local repairs, keeping the whole original composition, fine engraved sepia linework, warm paper, exact framing and red cord path. (1) Repair the small wooden stool at lower center-right: replace its confused overlapping uprights with a coherent wooden stool having exactly FOUR legs attached under the round seat, four feet on the tiled floor in correct perspective and sensible connecting stretchers. No fifth leg and no leg detached from the seat. Keep its size, seat position and surrounding bench unchanged. (2) The short curved brass outer rail immediately to the right of the large ring instrument on the left currently floats independently. Attach this outer rail to the instrument with two short, visibly bolted brass radial brackets, one near each end, so its support is unambiguous. Keep the central opening and the taut red horizontal cord clear. Preserve the book, tools, architecture, bookshelves, hanging ornaments, all other apparatus and all textures. No new objects, no added text, no restyling, no crop.",
+    "selected_asset": "books/07_septimus/assets/the-open-workshop-v02.png",
+    "original_sha256": "bbc25ddd2343e79205aadaa29b9da8de0d14e915aaa26115016561490bc84b38",
+    "selected_sha256": "f958f4800ba8720c1e522ba3158c6d52c48a10041d19861f0081329f4a05da14",
+    "generator": "built-in image_gen",
+    "dimensions": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "key": "office-chair",
+    "path": "books/00_accusator/assets/exhibit-i-the-office.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied engraving. Surgical local furniture correction only. The empty wooden chair in the lower left foreground has confused extra leg-like posts beneath the seat. Redraw ONLY the chair's structure below its round seat to give it exactly FOUR wooden legs, each emerging from a plausible seat corner in perspective and ending on the floor, with sensible stretchers. Distinguish its rear legs from its backrest spindles: backrest spindles terminate at the seat, rather than becoming extra floor-reaching legs. Preserve the round seat and its placement and preserve the existing curved backrest. Keep absolutely everything else as close to the input as possible: the winged scholarly clerk and his face and hands, desk, papers, illustrated chart, red and black abstract currents, file cabinets, stair, doorway, palette, engraving detail and exact full-page composition. No added text, no added characters, no crop.",
+    "selected_asset": "books/00_accusator/assets/exhibit-i-the-office-v02.png",
+    "original_sha256": "2e9a4a8b50c3eaf8d62b6f9102b9ae31827d0d993f1f21a980fc144033e17742",
+    "selected_sha256": "7fb52bfecd709122345680ae06c7e137c4e3d40b4fcdce4a4825e12a56cc7674",
+    "generator": "built-in image_gen",
+    "dimensions": [
+      1049,
+      1500
+    ]
+  },
+  {
+    "key": "exceptor",
+    "path": "references/raster/batch-04/exceptor-raster-reference-v01.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied ornate stamp engraving. Fix the unsupported hovering stamp while preserving its design. Add a narrow, mechanically continuous openwork support frame rising behind the paper platform and holding the stamp on a vertical sliding shaft with a guide collar. The back support's base must visibly attach at the REAR edge of the platform; its guide must visibly grip the stamp's long handle. The stamp remains slightly raised above the form, with the working gap open and its blank rectangular underside unobscured. This is a mounted hand press at rest, with a physically traceable support from platform to handle, not a floating rubber stamp. Preserve the original stamp silhouette, paper platform, cream ground, black cellular filigree, sparse slate and ochre insets, dangling bead ornaments and ONE red broken return loop on the paper exactly in spirit and position. Keep the entire object visible with the same generous margins and proportions. No people, no lettering, no new seals, no floor, no cast shadow, no border, no restyling.",
+    "selected_asset": "references/raster/batch-04/exceptor-raster-reference-v02.png",
+    "original_sha256": "f6905af40e1ff79ab4c96d9b1b4267ad9eab0ec141e53f748248b23ff302ebb9",
+    "selected_sha256": "4dc3064e8e193221a5c92cd8f22cc009c1f6b4b5d9be4fae0de515525d45c868",
+    "generator": "built-in image_gen",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  }
+]

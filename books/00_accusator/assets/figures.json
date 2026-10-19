@@ -2,16 +2,25 @@
   {
     "name": "exhibit-i-the-office",
     "exhibit": "I",
-    "asset": "exhibit-i-the-office.png",
+    "asset": "exhibit-i-the-office-v02.png",
     "placement": "Frontispiece, on a verso facing section I",
     "faces_section": "I. Of the Office",
-    "inscription": ["if you can read this", "the delay is now your fault"],
+    "inscription": [
+      "if you can read this",
+      "the delay is now your fault"
+    ],
     "caption": "[F] Exhibit I, marked for the prosecution and for the defense.",
-    "method": "Generated with ChatGPT's image tool and revised there at the author's direction. Prompts were not supplied with the plate sheet. The PNG is kept unmodified; the build keys its ground to the paper and sets it in Multiply (common/illum/raster.py).",
+    "method": "Built-in imagegen precise-object-edit, 19 October 2026: correct the foreground chair to four supported legs; retain the original plate unchanged. Ground keying and native cipher captions remain separate.",
     "source": "Page 1 image (xref 7) of the supplied plate sheet De-Officio-Accusatoris-Illustrated-Plates.pdf",
     "source_sheet_sha256": "c62aa98f28b627e9cd78b03d546767a35952bcd614f29b1d1eb054ecdf889bf7",
     "original_sha256": "2e9a4a8b50c3eaf8d62b6f9102b9ae31827d0d993f1f21a980fc144033e17742",
-    "size": [1049, 1499]
+    "size": [
+      1049,
+      1500
+    ],
+    "original_asset": "exhibit-i-the-office.png",
+    "prepared_sha256": "7fb52bfecd709122345680ae06c7e137c4e3d40b4fcdce4a4825e12a56cc7674",
+    "correction_prompt": "docs/art-correction-prompts-2026-10-19.json#office-chair"
   },
   {
     "name": "exhibit-ii-the-man-in-uz",
@@ -19,12 +28,18 @@
     "asset": "exhibit-ii-the-man-in-uz.png",
     "placement": "On a verso facing section VII",
     "faces_section": "VII. Of the Epilogue",
-    "inscription": ["your suffering is important to us", "please hold"],
+    "inscription": [
+      "your suffering is important to us",
+      "please hold"
+    ],
     "caption": "[F] Exhibit II, marked for the prosecution and for the defense.",
     "method": "Generated with ChatGPT's image tool and revised there at the author's direction. Prompts were not supplied with the plate sheet. The PNG is kept unmodified; the build keys its ground to the paper and sets it in Multiply (common/illum/raster.py).",
     "source": "Page 2 image (xref 11) of the supplied plate sheet De-Officio-Accusatoris-Illustrated-Plates.pdf",
     "source_sheet_sha256": "c62aa98f28b627e9cd78b03d546767a35952bcd614f29b1d1eb054ecdf889bf7",
     "original_sha256": "445398a329ec73a0368a407a54e97befaac3ce4e2bc98e8a324e792799916594",
-    "size": [1049, 1500]
+    "size": [
+      1049,
+      1500
+    ]
   }
 ]
