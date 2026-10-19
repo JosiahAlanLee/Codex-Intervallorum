@@ -48,14 +48,18 @@ def validate(out):
     for head, _ in b.sections():
         require(b.norm(head) in body, 'missing section heading: ' + head)
     require(len(blocks) == manifest['source_paragraphs'], 'paragraph count changed')
-    # Plates: unmodified originals, each alone on a verso facing its section's opening recto.
+    # Verify both the selected illustration and its retained source, when revised.
+    # Each plate remains alone on a verso facing its section's opening recto.
     figs = {f['name']: f for f in b.figures()}
     require(len(manifest['plates']) == len(figs), 'plate count differs')
     every = b.norm(' '.join(p.get_text() for p in doc))
     for plate in manifest['plates']:
         fig = figs[plate['name']]; n = plate['page']
-        require(b.sha(ROOT / 'assets' / fig['asset']) == fig['original_sha256'], 'plate changed: ' + fig['asset'])
-        require(plate['keyed']['source_sha256'] == fig['original_sha256'], 'keyed render is not of the recorded original')
+        selected_sha = fig.get('prepared_sha256', fig['original_sha256'])
+        require(b.sha(ROOT / 'assets' / fig['asset']) == selected_sha, 'plate changed: ' + fig['asset'])
+        require(plate['keyed']['source_sha256'] == selected_sha, 'keyed render is not of the selected illustration')
+        original_asset = fig.get('original_asset', fig['asset'])
+        require(b.sha(ROOT / 'assets' / original_asset) == fig['original_sha256'], 'archived plate changed: ' + original_asset)
         require(n % 2 == 0 and n + 1 < start, fig['name'] + ': plate is not on a verso before the apparatus')
         require(len(doc[n - 1].get_images()) == 1, fig['name'] + ': expected one image on the plate leaf')
         require(b.norm(fig['caption']) in b.norm(doc[n - 1].get_text()), fig['name'] + ': exhibit caption missing')

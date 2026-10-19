@@ -206,7 +206,7 @@ class Book:
             'First reading edition, 17 October 2026. Prepared for Josiah Alan-Lee. Project and text direction: Josiah Alan-Lee. Initial brief and research passes: Claude Opus 5.5. Editorial revision, Clavis and De Vinculis reading texts, native apparatus, build and opening illuminations: ChatGPT/Codex.',
             'The Clavis is a proposed entrance to the series, not personal testimony supplied by the author or a declaration of his final commitments. Both parts remain review texts. The Clavis opens the bound volume; De Vinculis follows Book VI as Book VII, before the collected bibliography. Both parts are also available as standalone reading editions. The Clavis paragraph on Book VI and its sentence on claim labels were revised by Claude on 19 October 2026, when De Potestate et Accusatione replaced the Tarot of Intervals as Book VI.',
             'The bibliography distinguishes direct passages, abstracts, indexed material and original-pass reports. The independent check is limited and no experiment was reproduced. The full research passes retain their original provenance and contested leads in the repository.',
-            'The two composed raster scenes were generated with the built-in imagegen tool after the first reading texts were completed. Exact prompts, original-image hashes and prepared-image hashes are recorded with the assets. JPEG encoding was the only preparation. Generated imagery carries no keyed text or experimental evidence.',
+            'The two composed raster scenes were generated with the built-in imagegen tool. On 19 October 2026, the open workshop received a furniture and instrument-support correction with the same tool; the original is retained. Prompts and image hashes are recorded with the assets. Generated imagery carries no keyed text or experimental evidence.',
             'The inner seal hand uses the inherited Matricis substitution alphabet, drawn as native vector strokes. Position carriers and identifiers are separate. The seventy-two-name arrangement is a disclosed English adaptation, with normalized-letter recovery checked by code. The original sentences and their repeated SNO are retained as a regression fixture. Physical plotting has not been tested.'
         ])]
         start=self.page
@@ -245,7 +245,7 @@ def gathering(b):
 def build(out):
     fonts();out=Path(out);out.mkdir(parents=True,exist_ok=True);results={}
     for kind,title,filename,subtitle in [('clavis','Clavis','Clavis_Septimus_reading.pdf','A way into the several books'),('vinculis','De Vinculis','De_Vinculis_reading.pdf','Of bonds, judgment and service')]:
-        b=Book(out/filename,title);b.titlepage(subtitle);b.art('the-open-workshop.jpg','The open workshop')
+        b=Book(out/filename,title);b.titlepage(subtitle);b.art('the-open-workshop-v02.png','The open workshop')
         if kind=='clavis':
             for i,(head,ps) in enumerate(clavis_sections()):
                 if not b.active:b.start(head,key='clavis-'+str(i))
