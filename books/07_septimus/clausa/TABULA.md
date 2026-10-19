@@ -10,7 +10,7 @@ The first is the intake spirit of the third book, who loses the matter at the fi
 
 The second is the one who, in the lines of Dante that the third book cites most nearly, sends the travellers on to a bridge that is not standing.
 
-The third is the arcanum the sixth book adds beyond its seventy-eight, whose office is dispersal.
+The third is the arcanum the Tarot of Intervals adds beyond its seventy-eight, whose office is dispersal. The Tarot was once the sixth book and is now a volume of its own.
 
 Here the names work, and for no reason a spirit would recognise. Each is a cause in the computation and a sign to no one. Speak them wrongly and the mould grows another way.
 

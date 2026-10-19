@@ -203,6 +203,16 @@ def collect(books,repo=REPO):
                         records.append(dict(citation=clean(citation),keys=['V/'+key],accounts=[dict(book='V',status=clean(account),use='')],urls=[u.rstrip('.,;') for u in urls]))
                     elif p.strip():notes.append(dict(title='V / source and workshop notes',paragraphs=[clean(p)]))
             notes.append(dict(title='V / preparation',paragraphs=['Ars Notoria Stigmatum. Developmental reading edition, 17 October 2026. '+hand+'.']))
+        elif title=='Nota Clausa':
+            # No register: the gathering cites only works already in the books' registers.
+            # Its README holds the preparation record: the hand, what is withheld, the fairness test.
+            text=read('books/07_septimus/clausa/README.md')
+            sections={s.split('\n',1)[0].strip():s.split('\n',1)[1] for s in re.split(r'^## ',text,flags=re.M)[1:]}
+            withheld=[clean(p) for p in sections['What is not here'].strip().split('\n\n')]
+            fairness=[clean(p) for p in sections['Fairness record'].strip().split('\n\n')]
+            hand=re.search(r'^Hand: (.+)$',text,flags=re.M)[1]
+            notes.append(dict(title='Nota Clausa / preparation',paragraphs=[
+                'Nota Clausa, the closing gathering of Book VII. Hand: '+hand,*withheld,*fairness]))
         else:
             notes.append(dict(title=num+' / preparation',paragraphs=[title+'. Reading mockup, 17 October 2026. '+hand+'.']))
     return consolidate(records),notes,inputs
@@ -333,7 +343,7 @@ def write(c,records,notes,start_page=1,repo=REPO,local_book=None):
         group=grouped.setdefault(note['title'],dict(title=note['title'],paragraphs=[]))
         for s in note['paragraphs']:
             if clean(s) and clean(s) not in ' '.join(clean(p) for p in group['paragraphs']):group['paragraphs'].append(s)
-    groups=[('The volume',),('Clavis',),('Accusator','De Officio'),('I-II','Clavicula Matricis'),('III','Pseudomonarchia'),('IV','Clavicula Graduum'),('V /','Ars Notoria'),('Matres','De Matribus'),('VI /','Companion','Tarot'),('VII /','De Vinculis')]
+    groups=[('The volume',),('Clavis',),('Accusator','De Officio'),('I-II','Clavicula Matricis'),('III','Pseudomonarchia'),('IV','Clavicula Graduum'),('V /','Ars Notoria'),('Matres','De Matribus'),('VI /','Companion','Tarot'),('VII /','De Vinculis'),('Nota Clausa',)]
     def order(note):
         title=note['title']
         for i,prefixes in enumerate(groups):

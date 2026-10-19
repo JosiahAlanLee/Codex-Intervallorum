@@ -41,6 +41,7 @@ jobs:
             books/06_tarot/book/out/*-log.json
             books/06_disputationes/out/*
             books/07_septimus/out/*
+            books/07_septimus/clausa/out/*
             books/00_accusator/out/*
             books/00_matres/out/*
             books/05_notoria/manuscript/out/*.pdf

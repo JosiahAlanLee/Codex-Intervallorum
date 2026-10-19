@@ -24,7 +24,9 @@ On 17 October 2026, a separate agent was given only the Regula, the seven plot s
 
 ## Placement
 
-The gathering is proposed to bind at the end of De Vinculis, after the seventy-two seals. It is not yet wired into `build.py`, the binders or CI, so it does not collide with binding work in progress. The Clavis carries one paragraph declaring it.
+Bound at the end of De Vinculis in both editions, after the seventy-two seals, since 19 October 2026: its own unnumbered component (`bind.CLAUSA`), last before the collected bibliography. Its leaves keep their folios and page sides. It has no register; its hand line, what is not here and the fairness record above are filed with the production notes. The pen-finishing pass leaves it untouched, and the binding validator checks that it follows De Vinculis with its seven fields intact. CI builds and validates it before binding. The Clavis carries one paragraph declaring it.
+
+When the Tarot of Intervals left the bindings on 19 October, the Tabula's third clue still called it the sixth book. The clue now names the Tarot and says it is a volume of its own. The key, the plates and the digests are unchanged.
 
 Hand: Claude (text, rule, plates, reading edition).
 

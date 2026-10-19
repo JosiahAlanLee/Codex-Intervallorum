@@ -66,6 +66,17 @@ class BackmatterTests(unittest.TestCase):
         self.assertEqual(set(freeman[0]['keys']),{'I-II/G3','VI/F1'})
         self.assertEqual(len(freeman[0]['accounts']),2)
 
+    def test_nota_clausa_files_its_preparation_record_and_no_register(self):
+        import bind
+        records,notes,inputs=backmatter.collect([bind.CLAUSA])
+        self.assertEqual(records,[])
+        self.assertIn('books/07_septimus/clausa/README.md',inputs)
+        self.assertEqual([n['title'] for n in notes],['Nota Clausa / preparation'])
+        text=' '.join(notes[0]['paragraphs'])
+        self.assertIn('Hand: Claude',text)
+        self.assertIn('matched all eight digests',text)
+        self.assertIn('The author holds them.',text)
+
     def test_consolidation_leaves_no_two_entries_with_one_citation(self):
         # A SAME_SOURCE group that omits a key citing the source splits the entry it joins.
         import bind

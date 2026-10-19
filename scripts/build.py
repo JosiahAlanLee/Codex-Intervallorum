@@ -55,6 +55,8 @@ def main():
     run('books/06_disputationes/validate.py')
     run('books/07_septimus/build.py')
     run('books/07_septimus/validate.py')
+    run('books/07_septimus/clausa/build.py')
+    run('books/07_septimus/clausa/validate.py')
     if not args.skip_tests:
         tests('books/07_septimus')
     for book in ['00_accusator', '00_matres']:

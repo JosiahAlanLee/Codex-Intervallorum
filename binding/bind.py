@@ -42,6 +42,9 @@ MATRES = ("Matres", "De Matribus Noctis", "A parable of the night mother, who wa
 POTESTATE = ("VI", "De Potestate et Accusatione", "Power, accusation and the obligations of participation, in eleven sections",
              "books/06_disputationes/out/De_Potestate_et_Accusatione_reading.pdf",
              "ChatGPT/Codex (second draft); Claude (third draft, plates and setting)")
+# The sealed gathering closes Book VII, after its seventy-two seals; unnumbered, like the Clavis.
+CLAUSA = ("Clausa", "Nota Clausa", "Seven fields grown by a printed rule, closing Book VII; the key is not printed",
+          "books/07_septimus/clausa/out/Nota_Clausa_reading.pdf", "Claude (text, rule, plates and reading edition)")
 
 BOOKS = [
     ("Clavis", "Clavis", "A way into the several books, in plain prose",
@@ -59,6 +62,7 @@ BOOKS = [
     POTESTATE,
     ("VII", "De Vinculis", "Compulsion, judgment and service, in seven operations",
      "books/07_septimus/out/De_Vinculis_reading.pdf", "ChatGPT/Codex, from Claude's brief and research"),
+    CLAUSA,
 ]
 
 
