@@ -151,7 +151,8 @@ uploaded as **Codex-Intervallorum-phone**. It renders each leaf as one opaque,
 lossless RGB image at 144 dpi (1008 × 1440 pixels), with matching MediaBox,
 CropBox, TrimBox, BleedBox and ArtBox. This avoids layered transparency and keeps
 the original 7 × 10 inch page shape. Every saved page is rendered again and must
-match the master's rendered pixels exactly at that resolution. Page order,
+match the captured source pixels exactly at that resolution, with a SHA-256
+for each captured page recorded in the export log. Page order,
 bookmarks, labels and links are also checked.
 
 This is a compatibility trial for readers showing bars or distortion inside a

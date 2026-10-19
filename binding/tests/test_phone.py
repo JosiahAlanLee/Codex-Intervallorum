@@ -35,6 +35,9 @@ class PhoneTests(unittest.TestCase):
                 doc.xref_set_key(xref, 'A', 'null')
                 doc.xref_set_key(xref, 'Dest', f'[{doc.page_xref(1)} 0 R /Fit]')
                 doc.set_toc([[1, 'First', 1], [1, 'Second', 2]])
+                xref = doc.get_toc(simple=False)[0][3]['xref']
+                doc.xref_set_key(xref, 'A', 'null')
+                doc.xref_set_key(xref, 'Dest', f'[{doc.page_xref(0)} 0 R /Fit]')
                 doc.set_page_labels([dict(startpage=0, prefix='leaf-', style='D', firstpagenum=1)])
                 doc.save(source)
             original = source.read_bytes()
@@ -48,6 +51,7 @@ class PhoneTests(unittest.TestCase):
                 self.assertFalse(doc[0].get_text().strip())
                 self.assertEqual(doc[0].get_links()[1]['page'], '2')
                 self.assertEqual(doc[0].get_links()[1]['view'], 'Fit')
+                self.assertEqual(doc.get_toc(simple=False)[0][3]['view'], 'Fit')
                 self.assertFalse(any('/SMask ' in doc.xref_object(i)
                                      for i in range(1, doc.xref_length())))
 
