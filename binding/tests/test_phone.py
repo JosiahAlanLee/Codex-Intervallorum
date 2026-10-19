@@ -27,6 +27,13 @@ class PhoneTests(unittest.TestCase):
                                         page=1, to=fitz.Point(0, 0)))
                 doc[1].insert_link(dict(kind=fitz.LINK_URI, **{'from': fitz.Rect(40, 40, 200, 70)},
                                         uri='https://example.com'))
+                p = doc[0]
+                p.insert_link(dict(kind=fitz.LINK_GOTO, **{'from': fitz.Rect(40, 90, 200, 110)},
+                                   page=1, to=fitz.Point(0, 0)))
+                p = doc.reload_page(p)
+                xref = p.get_links()[-1]['xref']
+                doc.xref_set_key(xref, 'A', 'null')
+                doc.xref_set_key(xref, 'Dest', f'[{doc.page_xref(1)} 0 R /Fit]')
                 doc.set_toc([[1, 'First', 1], [1, 'Second', 2]])
                 doc.set_page_labels([dict(startpage=0, prefix='leaf-', style='D', firstpagenum=1)])
                 doc.save(source)
@@ -39,6 +46,8 @@ class PhoneTests(unittest.TestCase):
                 self.assertEqual(doc[0].rect, fitz.Rect(0, 0, 504, 720))
                 self.assertEqual(doc[0].get_images()[0][2:4], (1008, 1440))
                 self.assertFalse(doc[0].get_text().strip())
+                self.assertEqual(doc[0].get_links()[1]['page'], '2')
+                self.assertEqual(doc[0].get_links()[1]['view'], 'Fit')
                 self.assertFalse(any('/SMask ' in doc.xref_object(i)
                                      for i in range(1, doc.xref_length())))
 

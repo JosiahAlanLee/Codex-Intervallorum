@@ -23,6 +23,28 @@ def links(page):
             for link in page.get_links()]
 
 
+def copy_link(target, page_number, link):
+    page = target[page_number]
+    # MuPDF exposes a native /Fit destination as a named-style link with a
+    # one-based page string. insert_link expects a different named-link shape.
+    if (link['kind'] == fitz.LINK_NAMED and link.get('view') == 'Fit'
+            and isinstance(link.get('page'), str) and link['page'].isdecimal()):
+        destination = int(link['page']) - 1
+        if not 0 <= destination < len(target):
+            raise ValueError('Internal /Fit destination is outside the book')
+        existing = {x['xref'] for x in page.get_links()}
+        page.insert_link(dict(kind=fitz.LINK_GOTO, **{'from': link['from']},
+                              page=destination, to=fitz.Point(0, 0)))
+        page = target.reload_page(page)
+        added = [x['xref'] for x in page.get_links() if x['xref'] not in existing]
+        if len(added) != 1:
+            raise ValueError('Cannot identify the copied internal link')
+        target.xref_set_key(added[0], 'A', 'null')
+        target.xref_set_key(added[0], 'Dest', f'[{target.page_xref(destination)} 0 R /Fit]')
+    else:
+        page.insert_link(link)
+
+
 def build(source, output, *, dpi=DEFAULT_DPI):
     source, output = Path(source), Path(output)
     if source.resolve() == output.resolve():
@@ -35,21 +57,23 @@ def build(source, output, *, dpi=DEFAULT_DPI):
         if any(p.rotation or p.rect.x0 or p.rect.y0 for p in original):
             raise ValueError('Phone export requires unrotated, zero-origin pages')
         try:
+            for page in original:
+                out = target.new_page(width=page.rect.width, height=page.rect.height)
+                for setter in ('set_cropbox', 'set_trimbox', 'set_bleedbox', 'set_artbox'):
+                    getattr(out, setter)(out.rect)
+            # Create forward destinations and check navigation before rendering.
+            for i, page in enumerate(original):
+                for link in links(page):
+                    copy_link(target, i, link)
             for i, page in enumerate(original):
                 pix = page.get_pixmap(dpi=dpi, colorspace=fitz.csRGB, alpha=False)
-                out = target.new_page(width=page.rect.width, height=page.rect.height)
+                out = target[i]
                 # Full-page image placement uses the source page's exact shape.
                 # At the books' 7 x 10 inch trim, 144 dpi is exactly 1008 x 1440.
                 image = out.insert_image(out.rect, pixmap=pix, keep_proportion=False)
                 target.xref_set_key(image, 'ColorSpace', '/DeviceRGB')
-                for setter in ('set_cropbox', 'set_trimbox', 'set_bleedbox', 'set_artbox'):
-                    getattr(out, setter)(out.rect)
                 if (i + 1) % 50 == 0:
                     print(f'Phone: rendered {i + 1}/{len(original)} pages', flush=True)
-            # Internal destinations can point forward, so add links after pages exist.
-            for i, page in enumerate(original):
-                for link in links(page):
-                    target[i].insert_link(link)
             target.set_toc(original.get_toc())
             target.set_page_labels(original.get_page_labels())
             metadata = dict(original.metadata)
