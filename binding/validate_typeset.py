@@ -110,6 +110,18 @@ def validate(pdf,repo,log):
         require(log['De Vinculis']['start_page'] in (vi['end_page']+1,vi['end_page']+2),
                 'Book VII does not immediately follow Book VI')
         require(septimus_spreads==7,'Septimus facing pairs missing')
+    clausa_fields=0
+    if 'Nota Clausa' in log:
+        # The sealed gathering closes Book VII: straight after De Vinculis, its seven fields intact.
+        nc,vii=log['Nota Clausa'],log.get('De Vinculis')
+        require(vii is not None and nc['start_page'] in (vii['end_page']+1,vii['end_page']+2),'Nota Clausa does not close De Vinculis')
+        meta=json.loads((repo/nc['source']).with_name('build-meta.json').read_text())
+        body={int(k):v for k,v in nc['body_page_map'].items()}
+        for f in [p['page'] for p in meta['pages'] if p['title'].startswith('Field ')]:
+            page=doc[body[f]-1]
+            require(len(page.get_drawings())>7000 and not source_images(page),'Nota Clausa field is not its vector plate')
+            clausa_fields+=1
+        require(clausa_fields==7,'Nota Clausa fields missing')
     require(septimus_links==log.get('septimus_citation_links',0),'Septimus citation-link count differs')
     require(book_vi_links==log.get('book_vi_citation_links',0),'Book VI citation-link count differs')
     if bib['start_page']>next_page:require(not doc[next_page-1].get_text().strip(),'Back section alignment leaf is not blank')
@@ -143,7 +155,7 @@ def validate(pdf,repo,log):
                 for s in line['spans']:require(s['font'].startswith(('EBGaramond','IM_FELL','IMFELL','IM_Fell')),'Unexpected backmatter font: '+s['font'])
     result=dict(pages=len(doc),components=len([e for e in log.values() if isinstance(e,dict) and 'source' in e]),facing_tarot_spreads=spreads,
                 facing_septimus_spreads=septimus_spreads,septimus_citation_links=septimus_links,
-                facing_book_vi_plates=book_vi_plates,book_vi_citation_links=book_vi_links,
+                facing_book_vi_plates=book_vi_plates,book_vi_citation_links=book_vi_links,nota_clausa_fields=clausa_fields,
                 all_components_start_recto=True,source_hashes_match=True,bibliography_at_end=True,bibliography_source_pages=relocated,
                 typeset_references=len(records['references']),source_leaves_accounted_for=True,uniform_backmatter_fonts=True)
     pdf.with_name('binding-validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2));return result

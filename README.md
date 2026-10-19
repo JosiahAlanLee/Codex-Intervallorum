@@ -12,7 +12,7 @@ This is the current public source repository. The collection was previously titl
 
 Download the PDF artifacts from a successful [Build Codex Intervallorum run](https://github.com/JosiahAlanLee/Codex-Intervallorum/actions/workflows/build.yml):
 
-- **Codex-Intervallorum-illustrated** — the complete illustrated draft, including both parables, Book VI and its plates, De Vinculis, collected bibliography, scribal finishing, and protected vellum backgrounds.
+- **Codex-Intervallorum-illustrated** — the complete illustrated draft, including both parables, Book VI and its plates, De Vinculis and the Nota Clausa, collected bibliography, scribal finishing, and protected vellum backgrounds.
 - **Codex-Intervallorum-reading** — the complete reading draft using the native plate settings.
 - **Codex-Intervallorum-components** — standalone component PDFs and validation records, including Book VI and the Tarot reading edition.
 
@@ -31,7 +31,7 @@ The workflow generates the downloadable PDFs from the files in this repository. 
 | Before VI | De Matribus Noctis | [Manuscript](books/00_matres/manuscript/de-matribus-noctis.md) |
 | VI | De Potestate et Accusatione | [Manuscript](books/06_disputationes/manuscript/de-potestate-et-accusatione.md) · [Source register](books/06_disputationes/manuscript/references.json) · [Plates](books/06_disputationes/plates/README.md) |
 | VII | De Vinculis | [Manuscript](books/07_septimus/manuscript/de-vinculis.md) |
-| VII appendix source | Nota Clausa | [Rule](books/07_septimus/clausa/REGULA.md) · [Table](books/07_septimus/clausa/TABULA.md) |
+| VII, closing gathering | Nota Clausa | [Rule](books/07_septimus/clausa/REGULA.md) · [Table](books/07_septimus/clausa/TABULA.md) · [Record](books/07_septimus/clausa/README.md) |
 | Separate volume | Tarot of Intervals | [Card inventory](books/06_tarot/inventory.json) · [Reading-edition builder](books/06_tarot/book/make_book.py) |
 | Editorial discussion | Justin Sledge / Agrippa / Witch(x) | [Critique and handoff](docs/reviews/Justin_Sledge_Review.md) |
 

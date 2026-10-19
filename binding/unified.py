@@ -127,7 +127,7 @@ def front(c,b,books,present,bibliography):
         'The later books retain their separate questions, figures and intervals.',
         'Book VI holds authority, harm and blame apart. Its plates face their sections.',
         'A parable of the night mothers precedes it; none of them is the first.',
-        'De Vinculis follows as Book VII, before the collected bibliography.',
+        'De Vinculis follows as Book VII, and the Nota Clausa closes it.',
         'The Tarot of Intervals, once Book VI, is kept as a separate volume.',
         '',
         'Citation keys remain local to their book. The source register and the',

@@ -9,10 +9,18 @@ Intervallorum*. Build it with `python books/01_matricis_intervallorum/build.py`.
 The two earlier directories are source editions and are not included separately.
 
 The Clavis opens both bindings. De Vinculis is Book VII, immediately after
-Book VI and before the end bibliography. Build and validate the Septimus PDFs with
+Book VI. Build and validate the Septimus PDFs with
 `python books/07_septimus/build.py` and `python books/07_septimus/validate.py`.
 Their common register and preparation record are consolidated once. The binder
 reconnects bracketed Septimus citations to their reflowed bibliography entries.
+
+The Nota Clausa closes Book VII in both bindings (`bind.CLAUSA`): its own
+unnumbered component after De Vinculis, last before the end bibliography. Build
+and validate it with `python books/07_septimus/clausa/build.py` and
+`python books/07_septimus/clausa/validate.py`. It has no register. Its README's hand
+line, what it withholds and its fairness record are filed with the production
+notes. Its leaves are excluded from pen finishing, and validation checks that it
+follows De Vinculis with its seven fields still vector plates.
 
 De Officio Accusatoris, an unnumbered parable, follows the Clavis in both bindings
 (`bind.ACCUSATOR`). Build and validate it with `python books/00_accusator/build.py`
@@ -73,7 +81,7 @@ leaves, metadata-removal rectangles, source-input hashes, and new bibliography
 entry ranges. `bibliography-records.json` preserves the compiled reference records.
 Validation checks coverage of every source leaf, matching body text after only
 the declared metadata removals, every reference key and inspection account,
-end placement, uniform fonts, page bounds, all seven Septimus facing pairs, both
+end placement, uniform fonts, page bounds, the Nota Clausa's place and seven fields, all seven Septimus facing pairs, both
 Septimus illuminations, the nine Book VI plates on versos facing their sections, and
 the citation destinations of both. The Tarot's checks remain for that volume if it is
 bound again: every facing pair, and a redundant blank before its first pair that can

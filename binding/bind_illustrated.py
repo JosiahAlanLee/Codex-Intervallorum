@@ -11,6 +11,7 @@ binding. Run the illustrated builds and Book VI first:
     python books/04_graduum/illustrated/build.py
     python books/06_disputationes/build.py
     python books/00_matres/build.py
+    python books/07_septimus/clausa/build.py
     python binding/bind_illustrated.py          -> binding/out/illustrated/Codex_Intervallorum_illustrated.pdf
     python binding/validate.py binding/out/illustrated/Codex_Intervallorum_illustrated.pdf
 """
@@ -50,6 +51,7 @@ bind.BOOKS = [
     ("VII", "De Vinculis", "Compulsion, judgment and service, in seven operations",
      "books/07_septimus/out/De_Vinculis_reading.pdf",
      "ChatGPT/Codex, from Claude's brief and research"),
+    bind.CLAUSA,
 ]
 
 _bibliography_pages = bind.bibliography_pages
