@@ -53,6 +53,7 @@ from shapely.geometry import Polygon, LineString, box as sbox  # noqa: E402
 import platekit as pk  # noqa: E402
 import furniture as fu  # noqa: E402
 import raster  # noqa: E402
+import figure_growth  # noqa: E402
 import ornament  # noqa: E402
 import tx  # noqa: E402
 import marks  # noqa: E402
@@ -69,6 +70,24 @@ CHAPTERS = {c["number"]: c for c in json.load(open(os.path.join(BOOK, "manuscrip
 CATALOGUE = json.load(open(os.path.join(REPO, "books", "03_escalationum", "manuscript", "catalogue.json")))
 
 placed = []
+
+
+def material_call(hand, method, predicate, operation):
+    """Tag exact, nonsemantic construction calls, before wobble/resampling.
+
+    This runs only in the illustrated adapter. Native plot masters, text,
+    carrier tags, centerlines and supporting geometry are retained.
+    """
+    original = getattr(hand, method)
+    def marked(pts, *args, **kwargs):
+        if not kwargs.get("attrs") and predicate(pts, args, kwargs):
+            kwargs["attrs"] = ' data-material="cornmeal"'
+        return original(pts, *args, **kwargs)
+    setattr(hand, method, marked)
+    try:
+        return operation()
+    finally:
+        setattr(hand, method, original)
 
 
 def R(name):
@@ -95,6 +114,7 @@ def record(plate, subject, slot, where):
     placed.append({"plate": plate, "subject": subject, "where": where, "source": m["source"],
                    "source_sha256": m["source_sha256"], "extent_mm": [round(v, 1) for v in slot.extent_mm()],
                    "crop_px": slot.crop, "mirrored": slot.mirror})
+    placed[-1]["figure_growth"] = m.get("figure_growth")
 
 
 def foot_box(slot, pad=0.0):
@@ -144,17 +164,28 @@ class Leaf:
         self.stem = f"tabula-{num.lower()}-illustrated"
         self.path = os.path.join(OUT, self.stem + ".pdf")
         self.c = Canvas(self.path, pagesize=(PW, PH), invariant=1, pageCompression=1)
+        order = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
+        figure_growth.configure(self.c, "IV", order.index(num), len(order))
+        self.dark = dark and num in ("VI", "VIII") and self.c._figure_growth["amount"] > 0
+        if self.dark:
+            self.c._figure_ground = "dark"
         self.c.setTitle(f"Clavicula Graduum - Tabula {num} - {title} (illustrated)")
         self.rng = random.Random(seed)
         self.h = fu.Hand(self.c, self.rng, amp=0.16)
         self.M = pk.Map(box, FIELD)
         self.mh = pk.MapHand(self.c, random.Random(seed + 7), self.M)
+        if self.dark:
+            self.mh.colors.update(ink=fu.LIGHT, red=(242,116,83))
         self.mh.weight_scale = 1.0
         fu.ground(self.c, PW, PH)
         fu.specks(self.c, PW, PH, f"graduum-{num}", n=40)
-        if not dark:
+        if not dark or (num in ("VI", "VIII") and not self.dark):
             x0, y0, x1, y1 = INNER
             fu.wash(self.h, [(x0, y0), (x1, y0), (x1, y1), (x0, y1)], fu.OCHRE, alpha=0.075)
+        elif self.dark:
+            x0,y0,x1,y1=FIELD
+            self.c.setFillColorRGB(*fu.rgb(fu.DARK))
+            self.c.roundRect(x0,y0,x1-x0,y1-y0,5,fill=1,stroke=0)
         self.head()
         self.frame()
 
@@ -162,7 +193,8 @@ class Leaf:
         c, h = self.c, self.h
         fu.spaced(c, f"TABULA {self.num}", PW / 2, 676, "FellSC", 9.5, 2.2, "center", fu.RED)
         c.setFillColorRGB(*fu.rgb(fu.INK))
-        c.setFont("FellTitle", 25)
+        title_size = min(25, 25 * (PW-80) / max(c.stringWidth(self.title, "FellTitle", 25), 1))
+        c.setFont("FellTitle", title_size)
         c.drawCentredString(PW / 2, 648, self.title)
         fu.spaced(c, self.subtitle, PW / 2, 632, "FellSC", 7.6, 0.9, "center", fu.UMBER)
         fu.orn_rule(h, PW / 2, 620, 170)
@@ -182,6 +214,8 @@ class Leaf:
                 "carrier_marks": n, "ticks": total}
 
     def reserved(self, color="ink"):
+        if self.dark and color == "ink":
+            color = "light"
         x, y, w, hh = self.M.R(*RESERVED_MM)
         h = self.h
         h.stroke([(x, y), (x + w, y), (x + w, y + hh), (x, y + hh)], "orn", color, closed=True, amp=0.1)
@@ -215,6 +249,9 @@ class Leaf:
 
     def note(self, quote, width, at, target, align="left", size=10.5, field="any"):
         """a red note quoting the chapter or the Book III catalogue; the leader ends at `target` (mm)"""
+        old_red = self.h.colors["red"]
+        if self.dark:
+            self.h.colors["red"] = (242,116,83)
         ch = CHAPTERS[self.num]
         hay = " ".join([ch["deck"], ch["fiction"], ch["caption"]] + [p for pg in ch["pages"] for p in pg["paragraphs"]])
         hay += " " + json.dumps(CATALOGUE, ensure_ascii=False)
@@ -232,12 +269,18 @@ class Leaf:
             mid = ((sx + tX) / 2 + 8, (sy + tY) / 2 + 3)
             self.h.stroke(catmull([(sx, sy), mid, (tX, tY)], 10), "hair", "red", amp=0.3)
             self.h.ring(tX, tY, 1.3, "hair", "red")
+        self.h.colors["red"] = old_red
         return quote
 
     def doc(self, doc, skip, colors=None, wscale=1.8, layers=("art", "text")):
+        if self.dark and colors is None:
+            colors = {pk.INK_HEX: fu.LIGHT, pk.RED_HEX: (242,116,83)}
         return pk.draw_doc(self.c, doc, self.M, layers=layers, colors=colors, skip=skip, wscale=wscale)
 
     def save(self, meta):
+        meta["figure_growth"] = getattr(self.c, "_figure_growth_records", [])
+        meta["cornmeal_structural_grains"] = getattr(self.c, "_cornmeal_grains", 0)
+        meta["material_ground"] = "dark" if self.dark else "paper"
         self.c.showPage()
         self.c.save()
         meta.update({"plate": self.num, "title": self.title, "pdf": os.path.relpath(self.path, REPO),
@@ -453,6 +496,13 @@ def plate_iii():
 
 def plate_iv():
     m = load("tabula_iv", os.path.join(PL, "iv-native", "tabula_iv.py"))
+    panel = m.panel
+    def grain_panel(P, *args, **kwargs):
+        return material_call(P.art, "stroke", lambda p,a,k:
+            len(p) == 2 and abs(p[1][0]-p[0][0]-1.6) < 1e-6
+            and abs(p[1][1]-p[0][1]+.8) < 1e-6,
+            lambda: panel(P, *args, **kwargs))
+    m.panel = grain_panel
     m.X0 = 62.0
     order = [("probator", "Probator, Director of Technical Assurance", "the first surveyor: four terraces"),
              ("viridon", "Viridon, Experience Reporting Director", "the second surveyor: six terraces")]
@@ -588,6 +638,13 @@ def plate_v():
 
 def plate_vi():
     m = load("tabula_vi", os.path.join(PL, "vi-native", "tabula_vi.py"))
+    landings = m.draw_landings
+    def grain_landings(h, *args, **kwargs):
+        return material_call(h, "straight", lambda p,a,k:
+            len(p) == 2 and p[0][0] == m.LX0 and p[1][0] == m.LX1
+            and any(abs(p[0][1]-y-1.1) < 1e-6 for y in m.LANDINGS),
+            lambda: landings(h, *args, **kwargs))
+    m.draw_landings = grain_landings
     managers = ["hooded-manager-01", "hooded-manager-02", "hooded-manager-03", "hooded-manager-04-leaked-tile"]
     apps = [("culpax", "Culpax"), ("redacth", "Redacth"), ("velaroth", "Velaroth"), ("viridon", "Viridon")]
     slots = []
@@ -624,7 +681,7 @@ def plate_vi():
     m.draw_glyphs = glyphs
     doc, meta = run_build(m, "vi")
     L = Leaf("VI", "The Feudal Register", "HIDING IS THE DESIGN / THE COST IS PAID AT THE BOUNDARY",
-             "REWARD HIDING / INFORMATION HIDING", m.CAPTION, m.SHIFT, m.SEED)
+             "REWARD HIDING / INFORMATION HIDING", m.CAPTION, m.SHIFT, m.SEED, dark=True)
     c, M = L.c, L.M
     mx, my, n, cs = m.MAZE
     X0, Y1 = M.P(mx - 2, my - 2)
@@ -655,6 +712,11 @@ def plate_vi():
 
 def plate_vii():
     m = load("tabula_vii", os.path.join(PL, "vii-native", "tabula_vii.py"))
+    hatch_band = m.hatch_band
+    def grain_hatch(h, *args, **kwargs):
+        return material_call(h, "straight", lambda p,a,k: True,
+                             lambda: hatch_band(h, *args, **kwargs))
+    m.hatch_band = grain_hatch
     slots = []
     fig = {}
 
@@ -718,6 +780,14 @@ def plate_vii():
 
 def plate_viii():
     m = load("tabula_viii", os.path.join(PL, "viii-native", "tabula_viii.py"))
+    original_draw_tiers = m.draw_tiers
+    tier_ys = [y+1.1 for y, _, _ in m.TIERS]
+    def grain_tiers(h, *args, **kwargs):
+        return material_call(h, "straight", lambda p,a,k:
+            len(p) == 2 and abs(p[1][1]-p[0][1]) < 1e-6
+            and any(abs(p[0][1]-y) < 1e-6 for y in tier_ys),
+            lambda: original_draw_tiers(h, *args, **kwargs))
+    m.draw_tiers = grain_tiers
     m.PIVOT = (150.0, 88.0)
     slots = []
     ear = {}
@@ -795,7 +865,7 @@ def plate_viii():
     m.draw_flows = flows
     doc, meta = run_build(m, "viii")
     L = Leaf("VIII", "The Council of the Loudest", "THE DECISION DEMON HEARS VOLUME", "THE QUIET ONE / RINGED",
-             m.CAPTION, m.SHIFT, m.SEED)
+             m.CAPTION, m.SHIFT, m.SEED, dark=True)
     c, M = L.c, L.M
     rule = L.frame_rule(m.HIDDEN)
     px = m.PIVOT[0]

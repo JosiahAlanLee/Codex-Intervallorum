@@ -149,8 +149,11 @@ def place(c, src, x, y, w, h, anchor="center", knockout=False, **kw):
     dy = y + (h - dh) / 2 if anchor == "center" else (y if anchor == "bottom" else y + h - dh)
     if knockout:
         c.drawImage(silhouette(src), dx, dy, dw, dh, mask="auto")
+    import figure_growth
+    path, growth = figure_growth.appearance(c, path, meta, (dw, dh))
+    meta = dict(meta, figure_growth=growth)
     c.saveState()
-    c.setBlendMode("Multiply")
+    c.setBlendMode("Screen" if getattr(c, "_figure_ground", "light") == "dark" else "Multiply")
     c.drawImage(path, dx, dy, dw, dh)
     c.restoreState()
     return dx, dy, dw, dh, meta
@@ -170,8 +173,11 @@ def place_fit_figure(c, src, x, y, w, h, anchor="bottom", knockout=False, **kw):
     dy = fy - (H - 1 - by1) * s
     if knockout:
         c.drawImage(silhouette(src), dx, dy, W * s, H * s, mask="auto")
+    import figure_growth
+    path, growth = figure_growth.appearance(c, path, meta, (W*s, H*s))
+    meta = dict(meta, figure_growth=growth)
     c.saveState()
-    c.setBlendMode("Multiply")
+    c.setBlendMode("Screen" if getattr(c, "_figure_ground", "light") == "dark" else "Multiply")
     c.drawImage(path, dx, dy, W * s, H * s)
     c.restoreState()
     return dx, dy, W * s, H * s, meta
@@ -288,7 +294,10 @@ class Slot:
         w = X1 - X0
         if knockout:
             c.drawImage(silhouette(self.src), X0, Y0, w, Y1 - Y0, mask="auto")
-        c.setBlendMode("Multiply")
-        c.drawImage(self.path, X0, Y0, w, Y1 - Y0)
+        import figure_growth
+        appearance, growth = figure_growth.appearance(c, self.path, self.meta, (w, Y1-Y0))
+        self.meta = dict(self.meta, figure_growth=growth)
+        c.setBlendMode("Screen" if getattr(c, "_figure_ground", "light") == "dark" else "Multiply")
+        c.drawImage(appearance, X0, Y0, w, Y1 - Y0)
         c.restoreState()
         return self

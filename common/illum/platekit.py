@@ -178,10 +178,22 @@ def draw_doc(c, doc, M, layers=("art", "text"), colors=None, wscale=1.8, skip=No
                 c.drawPath(p, stroke=0, fill=1, fillMode=FILL_EVEN_ODD)
             else:
                 c.setStrokeColorRGB(*fu.rgb(rgbcol))
-                c.setLineWidth(max(min_w, w * M.s * wscale))
+                material = L == "art" and attrs.strip() == 'data-material="cornmeal"'
+                # Only the illustrated caller's explicitly tagged hatching is
+                # eligible. Carrier tags and the text layer never enter here.
+                grain_on = material and getattr(c, "_figure_growth", {}).get("amount", 0) > 0
+                c.setLineWidth(max(.20 if grain_on else min_w, w * M.s * wscale * (.65 if grain_on else 1)))
                 c.setLineCap(1)
                 c.setLineJoin(1)
                 c.drawPath(p, stroke=1, fill=0)
+                if grain_on:
+                    import figure_growth
+                    import hashlib
+                    seed = int(hashlib.sha256(d.encode()).hexdigest()[:8], 16)
+                    for pts, _ in sp:
+                        count = figure_growth.cornmeal_path(c, [M.P(*q) for q in pts],
+                                                          color=rgbcol, seed=seed)
+                        c._cornmeal_grains = getattr(c, "_cornmeal_grains", 0) + count
             n += 1
     return n
 

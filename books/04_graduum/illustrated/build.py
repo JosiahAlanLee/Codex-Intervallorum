@@ -71,6 +71,8 @@ class IllBook(bb.Book):
         bb.bp.flow_rule(c, bb.PW / 2 - 35 * bb.MM, top - 24, 70, name, n=2)
         if number in VIGNETTES:
             import raster
+            import figure_growth
+            figure_growth.configure(c, "IV", 0 if number == "I" else 4, 12)
             key, caption = VIGNETTES[number]
             raster.place_fit_figure(c, render(key), bb.PW / 2 - 130, 118, 260, top - 60 - 118, anchor="bottom")
             c.setFont("FellIt", 9)
