@@ -412,7 +412,7 @@ Five computed notae accompany the text, on the Book IV plate furniture, each reg
 
 The three arts remain three. Their arrangement in this gathering does not supply a single history, a single epistemology, or a common promise of efficacy.
 
-The Tarot of Intervals is bound as Book VI. Its figures are not repeated here.
+The Tarot of Intervals is kept as a separate volume. Its figures are not repeated here.
 
 The last blank has been left where it was drawn.
 

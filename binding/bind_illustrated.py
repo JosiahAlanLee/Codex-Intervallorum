@@ -1,15 +1,15 @@
-"""Bind the consolidated opening, illustrated Books III-IV, Notoria, and the Tarot as Book VI.
+"""Bind the consolidated opening, illustrated Books III-IV, Notoria, and De Potestate et Accusatione as Book VI.
 
 The binder is binding/bind.py, unchanged; this script gives it the illustrated components, a
 source-register selector for Book V, and front matter and a colophon that describe this
-binding. Run the illustrated builds and the Tarot book first:
+binding. Run the illustrated builds and Book VI first:
 
     python books/07_septimus/build.py
     python books/01_matricis_intervallorum/build.py
     python books/03_escalationum/illustrated/build.py
     python books/04_graduum/illustrated/plates.py
     python books/04_graduum/illustrated/build.py
-    python books/06_tarot/book/make_book.py
+    python books/06_disputationes/build.py
     python books/00_matres/build.py
     python binding/bind_illustrated.py          -> binding/out/illustrated/Codex_Intervallorum_illustrated.pdf
     python binding/validate.py binding/out/illustrated/Codex_Intervallorum_illustrated.pdf
@@ -46,9 +46,7 @@ bind.BOOKS = [
      "books/05_notoria/manuscript/out/Ars_Notoria_Stigmatum_reading.pdf",
      "Claude (brief, research, computed notae), ChatGPT/Codex (manuscript)"),
     bind.MATRES,
-    ("VI", "Tarot of Intervals", "Seventy-eight cards and one extra, with their reading key, in book form",
-     "books/06_tarot/book/out/Tarot_of_Intervals_reading_mockup.pdf",
-     "ChatGPT/Codex (cards and readings); Claude (the Wands draft and this setting)"),
+    bind.POTESTATE,
     ("VII", "De Vinculis", "Compulsion, judgment and service, in seven operations",
      "books/07_septimus/out/De_Vinculis_reading.pdf",
      "ChatGPT/Codex, from Claude's brief and research"),
@@ -80,7 +78,7 @@ NOTE = [
     "Every office and handoff spirit of Book III is drawn.",
     "None of the illustrated plates is a plot master. The plotter files remain",
     "separate. Book V is a developmental reading",
-    "edition. The Tarot of Intervals is bound as Book VI.",
+    "edition. Book VI is De Potestate et Accusatione.",
     "Source keys and inspection limits remain grouped by book at the end.",
 ]
 _front_matter = bind.front_matter

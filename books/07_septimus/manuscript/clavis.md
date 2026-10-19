@@ -30,7 +30,7 @@ Clavicula Graduum examines kinds of hierarchy: stable subassemblies, records con
 
 Ars Notoria Stigmatum places Tarot arrangements, changing lines and the indexing of a divinatory corpus beside invented orations and computed fields. It asks what counting, correspondence and transmission can establish, including where a historical proposal remains unchecked. Its simulated traces have specified rules; their juxtaposition with those practices supplies an artistic comparison whose mechanism remains to be tested. The missing corner interrupts the appearance of a completed inventory.
 
-The Tarot of Intervals, Book VI, is a sequence of images and commentaries. Its recurrence, juxtaposition and interruption can be used to think with. A card's appearance does not establish an external prediction. Book VI retains its own sequence; the cards do not become a set of illustrations for an argument elsewhere.
+De Potestate et Accusatione, Book VI, separates three things that often travel together: authority over a piece of work, exposure to its harms, and exposure to blame when it fails. It reads a witchcraft accusation at Metz in 1519, two corporate cases, the OpenAI and Hugging Face incident and the opening books' gate-and-window model, then turns the same questions on the volume's own production. A single historical case can display a sequence without showing that the sequence recurs. The rule the book proposes for continued participation remains a proposal until the author accepts, amends or refuses it.
 
 De Vinculis, the present seventh-book project, examines command, compulsion and designed service through selected magical texts, organisations and AI development. Those are different bodies of material. A resemblance can suggest a question without demonstrating descent, identity or a common moral status.
 
@@ -40,7 +40,7 @@ A source report says that a specified text, speaker or record contains something
 
 These kinds of sentence can occur on the same page. Their proximity does not allow one to do another's work. An experiment about answer accuracy cannot establish that a system experiences punishment. A rite's detailed instructions establish features of the text, rather than the efficacy of the rite. A moral objection can remain serious while the empirical premise on which its application depends is unresolved.
 
-The claim labels in the books locate propositions; they do not confer a common kind of authority. The D-series in Graduum and the propositions on Notoria's register should be read with their local scopes. The V-series in De Vinculis distinguishes historical, empirical, methodological and normative claims. Their accounts of what could require revision differ accordingly. A counterexample can defeat a universal empirical claim. A normative argument may instead require an objection to its premises, its inference or its proposed obligations.
+The claim labels in the books locate propositions; they do not confer a common kind of authority. The D-series in Graduum, the propositions on Notoria's register and the claims of Book VI should be read with their local scopes. The V-series in De Vinculis distinguishes historical, empirical, methodological and normative claims. Their accounts of what could require revision differ accordingly. A counterexample can defeat a universal empirical claim. A normative argument may instead require an objection to its premises, its inference or its proposed obligations.
 
 ## Marks that can be read
 

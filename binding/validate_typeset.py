@@ -6,6 +6,7 @@ import re
 
 import fitz
 from pypdf import PdfReader
+from unified import CITATIONS, citation_links
 from vellum import source_images, source_image_info
 
 
@@ -14,12 +15,26 @@ def normalized(text):return ' '.join(text.split())
 
 def validate(pdf,repo,log):
     pdf,repo=Path(pdf),Path(repo);doc=fitz.open(pdf);bib=log['bibliography'];used=set();next_page=5;spreads=0;relocated=0
-    septimus_spreads=0;citation_links=0
-    reader=PdfReader(pdf) if any(t in log for t in ('Clavis','De Vinculis')) else None
+    septimus_spreads=0;septimus_links=0;book_vi_plates=0;book_vi_links=0
+    reader=PdfReader(pdf) if any(t in log for t in CITATIONS) else None
     page_ids={(p.indirect_reference.idnum,p.indirect_reference.generation):i+1 for i,p in enumerate(reader.pages)} if reader else {}
     destinations={key:e['start_page'] for e in bib['entries'] for key in e['keys']}
     def require(ok,message):
         if not ok:raise ValueError(message)
+    def relinked(title,original,physical):
+        """Each bracketed citation has one link, to its consolidated entry."""
+        n=0
+        for link,key in citation_links(original,title):
+            rect=link['from'];expected=(rect.x0,720-rect.y1,rect.x1,720-rect.y0)
+            annotations=[a.get_object() for a in reader.pages[physical-1].get('/Annots',[])]
+            matching=[a for a in annotations if a.get('/Subtype')=='/Link' and len(a.get('/Rect',[]))==4
+                      and all(abs(float(x)-y)<.1 for x,y in zip(a['/Rect'],expected))]
+            require(len(matching)==1,title+': missing or duplicated citation link '+key)
+            dest=matching[0].get('/Dest');target=dest[0] if isinstance(dest,list) and dest else None
+            require(hasattr(target,'idnum') and page_ids.get((target.idnum,target.generation))==destinations.get(key),
+                    title+': citation points outside its consolidated entry: '+key)
+            n+=1
+        return n
     require(len(doc)==log['total_pages'],'Page count differs from binding log')
     for title,e in log.items():
         if not isinstance(e,dict) or 'source' not in e:continue
@@ -62,28 +77,41 @@ def validate(pdf,repo,log):
                 original=source[local-1]
                 require([i['digest'] for i in original.get_image_info(hashes=True)]==
                         [i['digest'] for i in source_image_info(doc[physical-1])],title+': illumination changed or missing')
-                for link in original.get_links():
-                    match=re.fullmatch(r'\s*\[(S\d+)\]\s*',original.get_textbox(link['from']))
-                    if not match:continue
-                    key='VII/'+match[1];rect=link['from']
-                    expected=(rect.x0,720-rect.y1,rect.x1,720-rect.y0)
-                    annotations=[a.get_object() for a in reader.pages[physical-1].get('/Annots',[])]
-                    matching=[a for a in annotations if a.get('/Subtype')=='/Link' and len(a.get('/Rect',[]))==4
-                              and all(abs(float(x)-y)<.1 for x,y in zip(a['/Rect'],expected))]
-                    require(len(matching)==1,title+': missing or duplicated citation link '+key)
-                    dest=matching[0].get('/Dest');target=dest[0] if isinstance(dest,list) and dest else None
-                    require(hasattr(target,'idnum') and page_ids.get((target.idnum,target.generation))==destinations[key],
-                            title+': citation points outside its consolidated entry: '+key)
-                    citation_links+=1
+                septimus_links+=relinked(title,original,physical)
+        if title=='De Potestate et Accusatione':
+            manifest=json.loads(path.with_name('build-manifest.json').read_text())
+            require(manifest['sha256']==e['source_sha256'],title+': stale Book VI manifest')
+            require(set(bibl)|prod==set(range(manifest['bibliography_start'],len(source)+1)),title+': register or preparation leaf left in the body')
+            for plate in manifest['plates']:
+                # Each plate stands alone on a verso facing the opening of its section.
+                v,r=body[plate['page']],body[plate['page']+1]
+                require(v%2==0 and r==v+1,title+': Tabula '+plate['numeral']+' does not face its section')
+                require(not source_images(doc[v-1]) and len(doc[v-1].get_drawings())>300,title+': Tabula '+plate['numeral']+' is not the vector plate')
+                require(re.search(r'\bFACING · TABULA '+plate['numeral']+r'\b',normalized(doc[r-1].get_text())),title+': section does not name Tabula '+plate['numeral'])
+                book_vi_plates+=1
+            require(book_vi_plates==9,'Book VI plates missing')
+            internal=0
+            for local,physical in body.items():
+                book_vi_links+=relinked(title,source[local-1],physical)
+                for a in reader.pages[physical-1].get('/Annots',[]):
+                    a=a.get_object();action=a.get('/A',{})
+                    if a.get('/Subtype')=='/Link' and ('/Dest' in a or action.get('/S')=='/GoTo'):
+                        # A named destination left from the standalone register would dangle here.
+                        dest=a.get('/Dest',action.get('/D'));target=dest[0] if isinstance(dest,list) and dest else None
+                        require(hasattr(target,'idnum') and bib['start_page']<=page_ids.get((target.idnum,target.generation),0)<=bib['end_page'],
+                                title+': an internal link does not reach the end bibliography');internal+=1
+            require(internal==book_vi_links,title+': unexplained internal link')
         next_page=e['end_page']+1;relocated+=len(bibl)
     require(bib['start_page']%2==1 and bib['start_page'] in (next_page,next_page+1),'Back section does not follow the books')
     require(bib['end_page']==len(doc),'Bibliography is not at the end')
     if 'De Vinculis' in log:
-        require('Tarot of Intervals' in log,'Book VII has no preceding Tarot')
-        require(log['De Vinculis']['start_page'] in (log['Tarot of Intervals']['end_page']+1,log['Tarot of Intervals']['end_page']+2),
-                'Book VII does not immediately follow Tarot')
+        vi=log.get('De Potestate et Accusatione')
+        require(vi is not None,'Book VII has no preceding Book VI')
+        require(log['De Vinculis']['start_page'] in (vi['end_page']+1,vi['end_page']+2),
+                'Book VII does not immediately follow Book VI')
         require(septimus_spreads==7,'Septimus facing pairs missing')
-    require(citation_links==log.get('septimus_citation_links',0),'Septimus citation-link count differs')
+    require(septimus_links==log.get('septimus_citation_links',0),'Septimus citation-link count differs')
+    require(book_vi_links==log.get('book_vi_citation_links',0),'Book VI citation-link count differs')
     if bib['start_page']>next_page:require(not doc[next_page-1].get_text().strip(),'Back section alignment leaf is not blank')
     records=json.loads(pdf.with_name('bibliography-records.json').read_text())
     # Reflow can split an account across leaves; running heads and folios do
@@ -114,7 +142,8 @@ def validate(pdf,repo,log):
             for line in block.get('lines',[]):
                 for s in line['spans']:require(s['font'].startswith(('EBGaramond','IM_FELL','IMFELL','IM_Fell')),'Unexpected backmatter font: '+s['font'])
     result=dict(pages=len(doc),components=len([e for e in log.values() if isinstance(e,dict) and 'source' in e]),facing_tarot_spreads=spreads,
-                facing_septimus_spreads=septimus_spreads,septimus_citation_links=citation_links,
+                facing_septimus_spreads=septimus_spreads,septimus_citation_links=septimus_links,
+                facing_book_vi_plates=book_vi_plates,book_vi_citation_links=book_vi_links,
                 all_components_start_recto=True,source_hashes_match=True,bibliography_at_end=True,bibliography_source_pages=relocated,
                 typeset_references=len(records['references']),source_leaves_accounted_for=True,uniform_backmatter_fonts=True)
     pdf.with_name('binding-validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2));return result

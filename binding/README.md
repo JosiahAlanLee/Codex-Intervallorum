@@ -8,8 +8,8 @@ The active opening is the single I-II component, *Clavicula Matricis et
 Intervallorum*. Build it with `python books/01_matricis_intervallorum/build.py`.
 The two earlier directories are source editions and are not included separately.
 
-The Clavis opens both bindings. De Vinculis is Book VII, immediately after the
-Tarot and before the end bibliography. Build and validate the Septimus PDFs with
+The Clavis opens both bindings. De Vinculis is Book VII, immediately after
+Book VI and before the end bibliography. Build and validate the Septimus PDFs with
 `python books/07_septimus/build.py` and `python books/07_septimus/validate.py`.
 Their common register and preparation record are consolidated once. The binder
 reconnects bracketed Septimus citations to their reflowed bibliography entries.
@@ -19,11 +19,20 @@ De Officio Accusatoris, an unnumbered parable, follows the Clavis in both bindin
 and `python books/00_accusator/validate.py`. Its register joins the end bibliography
 under the `Acc/` prefix; its single preparation leaf moves to the production notes.
 
-De Matribus Noctis, a second unnumbered parable, stands before the Tarot in both
+De Matribus Noctis, a second unnumbered parable, stands before Book VI in both
 bindings (`bind.MATRES`). Build and validate it with `python books/00_matres/build.py`
 and `python books/00_matres/validate.py`. Its register joins the end bibliography
 under the `Mat/` prefix, and its preparation leaf moves to the production notes,
-filed before the Tarot's. `backmatter.PARABLE_REGISTERS` names each parable's register.
+filed before Book VI's. `backmatter.PARABLE_REGISTERS` names each parable's register.
+
+De Potestate et Accusatione is Book VI in both bindings (`bind.POTESTATE`), in place
+of the Tarot of Intervals, which is kept as a separate volume. `scripts/build.py` draws
+its plates (`plates/tabulae.py`, `plates/reading.py`) and then builds and validates it
+(`build.py`, `validate.py` in `books/06_disputationes`).
+Its register (`backmatter.BOOK_VI_REGISTER`) joins the end bibliography under the
+`VI/` prefix and its preparation leaf moves to the production notes. As for Septimus,
+the binder points each bracketed key at its reflowed entry; a Book VI key link it
+cannot read, or that does not match the entry it pointed to, stops the build.
 
 ## One end bibliography
 
@@ -42,10 +51,10 @@ Escalationum's formal debts, Graduum's reference register, and Notoria's source
 trail when that book is included. Missing bibliographic facts are not invented.
 No stronger verification is claimed by changing the setting.
 
-Preparation dates, recipient and maker credits, the selected workshop records,
-and the Tarot's edition note follow the references in the same back section.
-They no longer occupy title-page bylines or dated running heads. Cipher keys,
-claim-level source notes, and card commentary stay beside their subjects.
+Preparation dates, recipient and maker credits, and the selected workshop records
+follow the references in the same back section. They no longer occupy title-page
+bylines or dated running heads. Cipher keys, claim-level source notes, and plate
+readings stay beside their subjects.
 
 ## Source leaves and parity
 
@@ -64,10 +73,12 @@ leaves, metadata-removal rectangles, source-input hashes, and new bibliography
 entry ranges. `bibliography-records.json` preserves the compiled reference records.
 Validation checks coverage of every source leaf, matching body text after only
 the declared metadata removals, every reference key and inspection account,
-end placement, uniform fonts, page bounds, all Tarot facing pairs, all seven
-Septimus facing pairs, both Septimus illuminations and its citation destinations. A redundant
-blank before the Tarot's first pair can be omitted together with its moved note.
-The original component PDFs remain unchanged by binding.
+end placement, uniform fonts, page bounds, all seven Septimus facing pairs, both
+Septimus illuminations, the nine Book VI plates on versos facing their sections, and
+the citation destinations of both. The Tarot's checks remain for that volume if it is
+bound again: every facing pair, and a redundant blank before its first pair that can
+be omitted together with its moved note. The original component PDFs remain unchanged
+by binding.
 
 The older relocation-only binder remains available for archival components that
 do not select the consolidated opening; its tests preserve that compatibility.
@@ -82,8 +93,9 @@ The four large full-scene illustrations receive matching external hairline
 mounts. Their image bytes, internal borders and complete pictures are retained.
 
 The pass does not alter letterforms, regenerate artwork, or add pseudo-text.
-The Tarot, bibliography, cipher keys, inscriptions, working diagrams and blank
-alignment leaves retain their existing setting. Proposed marks must clear every
+The bibliography, cipher keys, inscriptions, working diagrams (Book VI's plates
+among them) and blank alignment leaves retain their existing setting, as Tarot
+leaves would if that volume were bound. Proposed marks must clear every
 text span and image, and a rendered paper check also detects vector carriers.
 Marks that do not fit are omitted. No white patches or erasure are used.
 

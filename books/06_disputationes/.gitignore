@@ -1,0 +1,4 @@
+# Generated, not committed: the serif reading edition of the plates (plates/reading.py) and the
+# book's working file. The plot masters (plates/out) and out/ are ignored repository-wide.
+plates/reading/
+out/_text_*.pdf

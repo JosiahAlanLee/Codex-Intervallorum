@@ -34,9 +34,14 @@ RED = "#8b2a22"
 # The parable is unnumbered, like the Clavis, and follows it in both bindings.
 ACCUSATOR = ("Accusator", "De Officio Accusatoris", "A parable of the adversary, who did not fall",
              "books/00_accusator/out/De_Officio_Accusatoris_reading.pdf", "Claude (text and setting); plates ChatGPT")
-# The second parable is unnumbered too, and stands before the Tarot in both bindings.
+# The second parable is unnumbered too, and stands before Book VI in both bindings. It was
+# placed to introduce the Tarot of Intervals, which De Potestate et Accusatione replaced.
 MATRES = ("Matres", "De Matribus Noctis", "A parable of the night mother, who was never one",
           "books/00_matres/out/De_Matribus_Noctis_reading.pdf", "Claude (text and setting)")
+# Book VI in both bindings since 19 October 2026; the Tarot is kept as a separate volume.
+POTESTATE = ("VI", "De Potestate et Accusatione", "Power, accusation and the obligations of participation, in eleven sections",
+             "books/06_disputationes/out/De_Potestate_et_Accusatione_reading.pdf",
+             "ChatGPT/Codex (second draft); Claude (third draft, plates and setting)")
 
 BOOKS = [
     ("Clavis", "Clavis", "A way into the several books, in plain prose",
@@ -51,8 +56,7 @@ BOOKS = [
     ("V", "Ars Notoria Stigmatum", "Three divinatory arts and five computed notae, in a developmental reading edition",
      "books/05_notoria/manuscript/out/Ars_Notoria_Stigmatum_reading.pdf", "Claude and ChatGPT/Codex"),
     MATRES,
-    ("VI", "Tarot of Intervals", "Seventy-eight cards and one extra, with their reading key, in book form",
-     "books/06_tarot/book/out/Tarot_of_Intervals_reading_mockup.pdf", "ChatGPT/Codex (cards and readings); Claude (the Wands draft and this setting)"),
+    POTESTATE,
     ("VII", "De Vinculis", "Compulsion, judgment and service, in seven operations",
      "books/07_septimus/out/De_Vinculis_reading.pdf", "ChatGPT/Codex, from Claude's brief and research"),
 ]
@@ -144,7 +148,7 @@ def front_matter(present, bibliography=None):
         "reading edition at the common trim. Its seventeen tables replace both",
         "earlier components. Their source editions remain in the repository.",
         "The identifiers I-II, III, IV, V and VI preserve the books' references",
-        "while the series develops. The Tarot of Intervals is bound as Book VI.",
+        "while the series develops. Book VI is De Potestate et Accusatione.",
         "The hands are recorded in the contents and again in the colophon, which",
         "precedes the collected bibliography. Source keys and inspection limits",
         "remain grouped by book. Blank leaves preserve the retained pages' parity.",
@@ -214,7 +218,7 @@ def bibliography_pages(title, source):
     register fails rather than silently publishing a partial bibliography.
     """
     tail_markers = {"Clavicula Matricis": "debts", "Clavicula Graduum": "register of debts"}
-    if title in ("Clavis", "De Vinculis", "De Officio Accusatoris", "De Matribus Noctis"):
+    if title in ("Clavis", "De Vinculis", "De Officio Accusatoris", "De Matribus Noctis", "De Potestate et Accusatione"):
         # The shared renderer heads its register leaves BIBLIOGRAPHY; the preparation
         # leaf that follows moves with the production notes (unified.MOVE_HEADINGS).
         with fitz.open(source) as document:

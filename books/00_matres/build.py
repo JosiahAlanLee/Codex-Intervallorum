@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reading edition of De Matribus Noctis, the parable bound before the Tarot; no network at build time.
+"""Reading edition of De Matribus Noctis, the parable bound before Book VI; no network at build time.
 
 The setting follows De Officio Accusatoris and the Septimus reading editions: 7 x 10 in, IM Fell
 headings, EB Garamond body, the shared bibliography renderer at the end. The title page carries
