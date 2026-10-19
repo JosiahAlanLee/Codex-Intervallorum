@@ -65,6 +65,9 @@ def main():
         run(f'books/{book}/validate.py')
     if not args.skip_tests:
         tests('binding')
+        print('+ tests: common/illum/tests', flush=True)
+        subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', 'common/illum/tests', '-v'],
+                       cwd=ROOT, check=True)
     if args.edition in ['all', 'reading']:
         run('binding/bind.py')
         run('binding/validate.py', 'binding/out/Codex_Intervallorum_reading.pdf')
@@ -72,6 +75,7 @@ def main():
         run('books/03_escalationum/illustrated/build.py')
         run('books/04_graduum/illustrated/plates.py')
         run('books/04_graduum/illustrated/build.py')
+        run('scripts/proof_figure_growth.py')
         run('binding/bind_illustrated.py', '--vellum-profile', args.vellum_profile)
         run('binding/validate.py', 'binding/out/illustrated/Codex_Intervallorum_illustrated.pdf')
     run('scripts/check_project.py', '--built', '--edition', args.edition)

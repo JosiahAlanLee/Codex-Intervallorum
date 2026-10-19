@@ -28,6 +28,7 @@ sys.path.insert(0, str(REPO / "common" / "illum"))
 import generator.build as eb  # noqa: E402
 from generator.art import build_art, INK, RED  # noqa: E402
 import raster  # noqa: E402
+import figure_growth  # noqa: E402
 import furniture as fu  # noqa: E402
 from reportlab.lib import colors  # noqa: E402
 
@@ -86,6 +87,7 @@ class IllBook(eb.Book):
         m = drawn[4]
         self.placed.append({"page": self.c.getPageNumber(), "subject": name, "where": where,
                             "source": m["source"], "source_sha256": m["source_sha256"],
+                            "figure_growth": m.get("figure_growth"),
                             "keying": {k: m[k] for k in ("ground_rgb", "white_point", "feather", "red_remap", "version")}})
 
 
@@ -312,6 +314,9 @@ def pages(book):
 
 def build_pdf(book, pp, arts, out):
     b = IllBook(out / "Pseudomonarchia_Escalationum_illustrated.pdf", book)
+    count = sum(1 if (p["kind"] == "plate" and p.get("art", "").startswith("station-"))
+                or p["id"] in INTERLUDES else len(p.get("entries", [])) for p in pp)
+    figure_growth.configure(b.c, "III", 0, count)
     b.c.setSubject("A satirical demonology of incident escalation; third divergent grimoire; illustrated edition")
     for n, p in enumerate(pp, 1):
         b.start(p, n)
