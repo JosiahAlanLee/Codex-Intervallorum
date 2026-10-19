@@ -162,7 +162,9 @@ def make_texture(page, identity, seed=0):
 
 def png(array):
     buf = io.BytesIO()
-    Image.fromarray(array).save(buf, format='PNG', optimize=True)
+    # This is an intermediate stream: MuPDF decodes it, then compresses the PDF.
+    # PNG's slow optimization adds no image fidelity to the final soft mask.
+    Image.fromarray(array).save(buf, format='PNG', compress_level=1)
     return buf.getvalue()
 
 
