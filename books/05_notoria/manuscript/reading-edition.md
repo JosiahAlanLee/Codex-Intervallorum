@@ -256,7 +256,7 @@ This exchange is fiction. It is not an ethnographic anecdote, a translated verse
 
 Nota V, *Nota Generalis*. A network relaxed between seven fixed nodes by seventeen hundred agents over four hundred and twenty steps, after Jones (2010). At the second contour level a continuous trail joins fifteen of the twenty-one pairs of nodes; the seventh node, placed off centre, is joined to none. The centre is empty. This is a simulation output under a stated rule, not a Physarum organism and not a representation of collective belief. [S9]
 
-The five computed fields requested by the production brief are now made and carry their run identifiers; the controls the brief requires have not been run. This reading draft supplies their place and their limits.
+The five computed fields requested by the production brief are now made and carry their run identifiers; the controls the brief requires have not been run. This reading edition supplies their place and their limits.
 
 ## Oration at the vacant centre
 
