@@ -23,6 +23,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--edition', choices=['all', 'reading', 'illustrated'], default='all')
     parser.add_argument('--skip-tests', action='store_true')
+    parser.add_argument('--vellum-profile', choices=['light', 'full'], default='light')
     args = parser.parse_args()
     run('books/02_intervallorum/generator/build.py')
     run('books/03_escalationum/generator/build.py')
@@ -71,7 +72,7 @@ def main():
         run('books/03_escalationum/illustrated/build.py')
         run('books/04_graduum/illustrated/plates.py')
         run('books/04_graduum/illustrated/build.py')
-        run('binding/bind_illustrated.py')
+        run('binding/bind_illustrated.py', '--vellum-profile', args.vellum_profile)
         run('binding/validate.py', 'binding/out/illustrated/Codex_Intervallorum_illustrated.pdf')
     run('scripts/check_project.py', '--built', '--edition', args.edition)
 

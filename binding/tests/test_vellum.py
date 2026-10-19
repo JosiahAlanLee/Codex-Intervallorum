@@ -68,6 +68,19 @@ class VellumTests(unittest.TestCase):
         self.page.draw_rect(self.page.rect, color=None, fill=(.1, .1, .1))
         self.assertIsNone(v.make_texture(self.page, 'dark'))
 
+    def test_light_profile_reduces_pigment_and_compressed_texture_size(self):
+        light, light_record = v.make_texture(self.page, 'Clavis/3', profile='light')
+        full, full_record = v.make_texture(self.page, 'Clavis/3', profile='full')
+        protected, _ = v.protection(self.page)
+        self.assertFalse(light[protected].any())
+        self.assertLess(light.mean(), full.mean() * .65)
+        self.assertLess(len(v.png(light)), len(v.png(full)) * .65)
+        self.assertEqual(light_record['ink_spots'], full_record['ink_spots'])
+
+    def test_unknown_profile_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, 'Unknown vellum profile'):
+            v.make_texture(self.page, 'Clavis/3', profile='unknown')
+
     def test_each_page_retains_its_own_protection_mask(self):
         # Equal paper/pigment images must never reuse a different page's alpha.
         other = self.doc.new_page(width=504, height=720)

@@ -863,13 +863,28 @@ def plate_x():
     L = Leaf("X", "The Prayer of the Office", "FORAS / STATION 0", "THE LITANY / REGISTERS A AND B", "", 0, 1600,
              box=(8, 31, 202, 276))
     c, M = L.c, L.M
-    L.doc(proof_doc(src), proof_skip(fig=(48, 52, 161, 205)), colors=PROOF_COLORS, wscale=1.6)
+    doc = proof_doc(src)
+    # The proof's request started at the old portrait's hand. Replace only
+    # those two red paths; the litany and the lower instruments stay intact.
+    doc.layers['art'] = [
+        item for item in doc.layers['art']
+        if not (item[0] in ('#a32b24', '#a33024')
+                and pk.inside(pk.bbox_of(item[2]), (129, 154, 170, 243)))
+    ]
+    L.doc(doc, proof_skip(fig=(48, 52, 161, 205)), colors=PROOF_COLORS, wscale=1.6)
     s = raster.Slot(R("foras"), height_mm=150.0, anchor_mm=(104.0, 206.0))
     s.draw(c, M)
+    # Continue the raster's wrist cord from its terminal bead, rather than
+    # leaving the old request line floating beside the replacement figure.
+    request_start = s.mm(816, 1009)
+    L.mh.stroke(bezier(request_start, (request_start[0] + 14, request_start[1] + 18),
+                        (156, 214), (132, 231), 48), 'hair', 'red', amp=0)
+    L.mh.stroke([(132, 231), (130, 242)], 'hair', 'red', amp=0)
     record("X", "Foras, Service Desk Analyst", s, "centre; the sixth hand's request toward the permission field")
     meta = L.foot(cipher=False)
     return L.save({**meta, "second_text": "office litany, registers A and B, from the illustrator's proof",
-                   "proof": os.path.relpath(src, REPO)})
+                   "proof": os.path.relpath(src, REPO),
+                   "request_start_mm": list(request_start), "request_stop_mm": [130, 242]})
 
 
 def plate_xi():

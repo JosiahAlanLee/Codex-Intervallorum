@@ -15,6 +15,7 @@ binding. Run the illustrated builds and Book VI first:
     python binding/bind_illustrated.py          -> binding/out/illustrated/Codex_Intervallorum_illustrated.pdf
     python binding/validate.py binding/out/illustrated/Codex_Intervallorum_illustrated.pdf
 """
+import argparse
 import io
 import os
 import sys
@@ -140,13 +141,17 @@ bind.colophon = colophon
 
 
 if __name__ == "__main__":
-    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "out", "illustrated", "Codex_Intervallorum_illustrated.pdf")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('output', nargs='?', default=os.path.join(HERE, "out", "illustrated", "Codex_Intervallorum_illustrated.pdf"))
+    parser.add_argument('--vellum-profile', choices=['light', 'full'], default='light')
+    args = parser.parse_args()
+    out = args.output
     bind.main(out)
     import platekit
     print("bytes", platekit.compact(out))
     import scribal
     scribal.apply(out)
     import vellum
-    vellum.apply(out)
+    vellum.apply(out, profile=args.vellum_profile)
 
 
