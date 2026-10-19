@@ -1,0 +1,43 @@
+name: Objections register
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/objections/**'
+      - 'AGENTS.md'
+      - '.github/workflows/objections.yml'
+  pull_request:
+    paths:
+      - 'docs/objections/**'
+      - 'AGENTS.md'
+      - '.github/workflows/objections.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validator tests
+        run: python -m unittest discover -s docs/objections/tests -v
+      - name: Earlier copy of the register
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          base="$RUNNER_TEMP/base-register.md"
+          : > "$base"
+          ref=""
+          if [ -n "$BASE_REF" ]; then ref="$BASE_REF"
+          elif [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then ref="$BEFORE"
+          fi
+          if [ -n "$ref" ] && git fetch --no-tags --depth=1 origin "$ref"; then
+            git show FETCH_HEAD:docs/objections/register.md > "$base" 2>/dev/null || : > "$base"
+          fi
+          echo "Earlier register: $(wc -l < "$base") lines"
+      - name: Register form and append-only history
+        run: python docs/objections/validate.py --base "$RUNNER_TEMP/base-register.md"

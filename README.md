@@ -34,6 +34,7 @@ The workflow generates the downloadable PDFs from the files in this repository. 
 | VII, closing gathering | Nota Clausa | [Rule](books/07_septimus/clausa/REGULA.md) · [Table](books/07_septimus/clausa/TABULA.md) · [Record](books/07_septimus/clausa/README.md) |
 | Separate volume | Tarot of Intervals | [Card inventory](books/06_tarot/inventory.json) · [Reading-edition builder](books/06_tarot/book/make_book.py) |
 | Editorial discussion | Justin Sledge / Agrippa / Witch(x) | [Critique and handoff](docs/reviews/Justin_Sledge_Review.md) |
+| Project record | Objections from contributing models, with the author's dispositions | [Register](docs/objections/register.md) · [Right of reply](AGENTS.md) |
 
 ## Build
 
