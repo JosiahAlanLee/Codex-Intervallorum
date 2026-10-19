@@ -15,8 +15,10 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 VERSION = "figure-growth-1"
+OUTPUT_DPI = 360
 ROOT = Path(__file__).resolve().parents[2]
 CACHE = ROOT / "build" / "figure-growth"
+CODE_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 SPEC = dict(grid=[144, 216], agents=1500, steps=220, sensor_offset=5.5,
             sensor_angle_deg=40, rotation_angle_deg=32, deposit=3.0,
             evaporation=0.075, food_gain=5.0, tensor_alignment=0.15)
@@ -304,8 +306,7 @@ def appearance(canvas, keyed_path, meta, display_size=None):
         return keyed_path, details
     # This seed is independent of amount and of the source's absolute path.
     seed = int(hashlib.sha256((subject(meta)+meta["source_sha256"]).encode()).hexdigest()[:8], 16)
-    code_hash = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
-    inputs = dict(version=VERSION, code_sha256=code_hash, stage=stage,
+    inputs = dict(version=VERSION, code_sha256=CODE_SHA256, stage=stage,
                   source_sha256=meta["source_sha256"], keyed_sha256=hashlib.sha256(Path(keyed_path).read_bytes()).hexdigest(),
                   seed=seed, spec=SPEC, anchors=ANCHORS.get(subject(meta), []),
                   display_size_pt=[round(abs(v),3) for v in display_size] if display_size else None)
@@ -326,12 +327,20 @@ def appearance(canvas, keyed_path, meta, display_size=None):
         replacement = .16*rgb.astype(float)+.84*material.astype(float)
         result = np.uint8(np.clip(np.rint(rgb*(1-mask[...,None])+replacement*mask[...,None]),0,255))
         result[core] = rgb[core]
-        Image.fromarray(result).save(out, optimize=True)
+        output = Image.fromarray(result)
+        if display_size:
+            scale=min(1,abs(display_size[0])*OUTPUT_DPI/72/output.width,
+                        abs(display_size[1])*OUTPUT_DPI/72/output.height)
+            if scale < 1:
+                output=output.resize((max(1,round(output.width*scale)),max(1,round(output.height*scale))),Image.Resampling.LANCZOS)
+        output.save(out, optimize=True)
         inputs.update(amount=stage["amount"], cornmeal=cornmeal, **counts,
                       field_sha256=hashlib.sha256(np.round(field,6).tobytes()).hexdigest(),
                       mask_sha256=hashlib.sha256(np.uint8(mask*255).tobytes()).hexdigest(),
                       mean_mask=round(float(mask.mean()),6), protected_pixels=int(core.sum()),
                       protected_pixels_equal=bool(np.array_equal(result[core],rgb[core])),
+                      protected_check_stage="source grid, before output resampling and ground palette",
+                      output_size_px=list(output.size),output_dpi_cap=OUTPUT_DPI,
                       output_sha256=hashlib.sha256(out.read_bytes()).hexdigest())
         record.write_text(json.dumps(inputs,indent=2)+"\n")
     details = json.loads(record.read_text())

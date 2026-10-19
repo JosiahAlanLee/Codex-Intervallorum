@@ -17,13 +17,15 @@ It is not a new biological or institutional claim.
 The renderer retains the source silhouette, a broad upper-anatomy zone, explicit
 object guards and red-pixel guards. Feathered shoulders keep protected details
 connected to the rest of the figure. Protected cores are copied unchanged from
-the keyed source before the optional night-ground palette conversion. Keying,
+the keyed source before output resampling and the optional night-ground palette conversion. Keying,
 figure extents, scale, crops, mirroring, avoidance shapes and connection anchors
 continue to come from the original source, never from an eroded appearance.
 Sources and source prompts are retained.
 
 Stroke and grain size adapt to the actual printed placement. A tiny office
 figure receives coarser marks rather than hairlines that disappear at page size.
+Derived images are capped at 360 dpi at their actual placement, avoiding a full
+native-size bitmap for every tiny office figure. Original artwork is retained.
 
 The same ordered samples change from continuous stroke to interrupted stroke
 to displaced warm grain. On Graduum VI and VIII, a dark board and Screen

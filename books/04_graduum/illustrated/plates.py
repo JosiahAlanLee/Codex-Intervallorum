@@ -193,7 +193,8 @@ class Leaf:
         c, h = self.c, self.h
         fu.spaced(c, f"TABULA {self.num}", PW / 2, 676, "FellSC", 9.5, 2.2, "center", fu.RED)
         c.setFillColorRGB(*fu.rgb(fu.INK))
-        c.setFont("FellTitle", 25)
+        title_size = min(25, 25 * (PW-80) / max(c.stringWidth(self.title, "FellTitle", 25), 1))
+        c.setFont("FellTitle", title_size)
         c.drawCentredString(PW / 2, 648, self.title)
         fu.spaced(c, self.subtitle, PW / 2, 632, "FellSC", 7.6, 0.9, "center", fu.UMBER)
         fu.orn_rule(h, PW / 2, 620, 170)
@@ -248,6 +249,9 @@ class Leaf:
 
     def note(self, quote, width, at, target, align="left", size=10.5, field="any"):
         """a red note quoting the chapter or the Book III catalogue; the leader ends at `target` (mm)"""
+        old_red = self.h.colors["red"]
+        if self.dark:
+            self.h.colors["red"] = (242,116,83)
         ch = CHAPTERS[self.num]
         hay = " ".join([ch["deck"], ch["fiction"], ch["caption"]] + [p for pg in ch["pages"] for p in pg["paragraphs"]])
         hay += " " + json.dumps(CATALOGUE, ensure_ascii=False)
@@ -265,6 +269,7 @@ class Leaf:
             mid = ((sx + tX) / 2 + 8, (sy + tY) / 2 + 3)
             self.h.stroke(catmull([(sx, sy), mid, (tX, tY)], 10), "hair", "red", amp=0.3)
             self.h.ring(tX, tY, 1.3, "hair", "red")
+        self.h.colors["red"] = old_red
         return quote
 
     def doc(self, doc, skip, colors=None, wscale=1.8, layers=("art", "text")):
