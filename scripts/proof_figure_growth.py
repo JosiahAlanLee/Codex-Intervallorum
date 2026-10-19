@@ -36,7 +36,7 @@ def main():
     for i,amount in enumerate([0,.30,.60,.82]):
         c._figure_growth=dict(section='proof',index=i,total=4,amount=amount)
         c._figure_growth_records=[]
-        appearance,details=fg.appearance(c,keyed,meta);samples.append(details)
+        appearance,details=fg.appearance(c,keyed,meta,(232,448));samples.append(details)
         c.setFont('FellSC',11);c.drawCentredString(126+i*252,610,['Source appearance','Early transition','Developing field','Later transition'][i])
         c.saveState();c.setBlendMode('Multiply');c.drawImage(appearance,10+i*252,146,232,448,preserveAspectRatio=True,anchor='c');c.restoreState()
         c.setFont('Mono',9);c.drawCentredString(126+i*252,123,f'MASK CONTROL {amount:.2f}')

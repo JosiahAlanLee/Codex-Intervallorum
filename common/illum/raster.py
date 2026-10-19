@@ -150,7 +150,7 @@ def place(c, src, x, y, w, h, anchor="center", knockout=False, **kw):
     if knockout:
         c.drawImage(silhouette(src), dx, dy, dw, dh, mask="auto")
     import figure_growth
-    path, growth = figure_growth.appearance(c, path, meta)
+    path, growth = figure_growth.appearance(c, path, meta, (dw, dh))
     meta = dict(meta, figure_growth=growth)
     c.saveState()
     c.setBlendMode("Screen" if getattr(c, "_figure_ground", "light") == "dark" else "Multiply")
@@ -174,7 +174,7 @@ def place_fit_figure(c, src, x, y, w, h, anchor="bottom", knockout=False, **kw):
     if knockout:
         c.drawImage(silhouette(src), dx, dy, W * s, H * s, mask="auto")
     import figure_growth
-    path, growth = figure_growth.appearance(c, path, meta)
+    path, growth = figure_growth.appearance(c, path, meta, (W*s, H*s))
     meta = dict(meta, figure_growth=growth)
     c.saveState()
     c.setBlendMode("Screen" if getattr(c, "_figure_ground", "light") == "dark" else "Multiply")
@@ -295,7 +295,7 @@ class Slot:
         if knockout:
             c.drawImage(silhouette(self.src), X0, Y0, w, Y1 - Y0, mask="auto")
         import figure_growth
-        appearance, growth = figure_growth.appearance(c, self.path, self.meta)
+        appearance, growth = figure_growth.appearance(c, self.path, self.meta, (w, Y1-Y0))
         self.meta = dict(self.meta, figure_growth=growth)
         c.setBlendMode("Screen" if getattr(c, "_figure_ground", "light") == "dark" else "Multiply")
         c.drawImage(appearance, X0, Y0, w, Y1 - Y0)

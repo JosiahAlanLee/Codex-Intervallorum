@@ -22,6 +22,9 @@ figure extents, scale, crops, mirroring, avoidance shapes and connection anchors
 continue to come from the original source, never from an eroded appearance.
 Sources and source prompts are retained.
 
+Stroke and grain size adapt to the actual printed placement. A tiny office
+figure receives coarser marks rather than hairlines that disappear at page size.
+
 The same ordered samples change from continuous stroke to interrupted stroke
 to displaced warm grain. On Graduum VI and VIII, a dark board and Screen
 compositing make the grain pale, matching the native apparatus. On IV, VI, VII

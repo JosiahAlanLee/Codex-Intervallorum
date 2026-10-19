@@ -193,10 +193,12 @@ def contours(field, level):
         if len(line)>=8: yield line
 
 
-def render_material(rgb, field, mask, seed, cornmeal):
+def render_material(rgb, field, mask, seed, cornmeal, display_width=None):
     """Spaced, tone-gated flow strokes become interrupted lines and grains."""
     h, w = rgb.shape[:2]
-    fw, fh = 240, max(64, round(240*h/w))
+    display_width = max(10, display_width or 240)
+    fw = max(48, min(240, round(display_width*2)))
+    fh = max(48, round(fw*h/w))
     small = np.asarray(Image.fromarray(rgb).resize((fw, fh)), float)/255
     tone = np.clip(1-small.mean(axis=2), 0, 1)
     tone = blur(tone, .8)
@@ -257,7 +259,7 @@ def render_material(rgb, field, mask, seed, cornmeal):
         col = tuple(np.uint8(np.clip(small[cy,cx]*30 + np.array([39,34,25]), 15, 95)))
         granular = cornmeal * (.30+.70*f[cy,cx])
         # The same ordered samples supply line segments and grains.
-        width = max(1, round(sx*(.25+.62*tone[cy,cx])))
+        width = max(1, round(sx*(.25+.62*tone[cy,cx])), round(w/display_width*.22))
         for j,(a,b) in enumerate(zip(pts, pts[1:])):
             if rng.random() > granular:
                 d.line([a,b], fill=col, width=width)
@@ -265,7 +267,7 @@ def render_material(rgb, field, mask, seed, cornmeal):
                 dx,dy=b[0]-a[0],b[1]-a[1];length=math.hypot(dx,dy) or 1
                 spread = rng.normal(0, sx*.22)
                 px,py=a[0]-dy/length*spread,a[1]+dx/length*spread
-                radius = sx*rng.uniform(.16,.39)
+                radius = max(sx*rng.uniform(.16,.39), w/display_width*.11)
                 grain_col = tuple(int(v) for v in (.70*np.array(col)+.30*np.array([158,131,82])))
                 d.ellipse((px-radius,py-radius*.7,px+radius,py+radius*.7),fill=grain_col)
                 grains += 1
@@ -283,14 +285,14 @@ def render_material(rgb, field, mask, seed, cornmeal):
                 if m[iy,ix]<.04 or tone[iy,ix]<.025: continue
                 end=(b[0]/SPEC['grid'][0]*w,b[1]/SPEC['grid'][1]*h)
                 if rng.random()>cornmeal*.72:
-                    d.line([(x,y),end],fill=(88,74,48),width=max(1,round(w/750)))
+                    d.line([(x,y),end],fill=(88,74,48),width=max(1,round(w/750),round(w/display_width*.20)))
                 else:
-                    r=rng.uniform(.8,1.8)*w/1024
+                    r=max(rng.uniform(.8,1.8)*w/1024,w/display_width*.10)
                     d.ellipse((x-r,y-r*.7,x+r,y+r*.7),fill=(148,122,75));grains+=1
     return np.asarray(ink), dict(curves=curves, grains=grains)
 
 
-def appearance(canvas, keyed_path, meta):
+def appearance(canvas, keyed_path, meta, display_size=None):
     stage = getattr(canvas, "_figure_growth", None)
     if stage and stage["section"] == "III":
         # Advance only at a visible placement, never at a geometry/avoidance query.
@@ -305,7 +307,8 @@ def appearance(canvas, keyed_path, meta):
     code_hash = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     inputs = dict(version=VERSION, code_sha256=code_hash, stage=stage,
                   source_sha256=meta["source_sha256"], keyed_sha256=hashlib.sha256(Path(keyed_path).read_bytes()).hexdigest(),
-                  seed=seed, spec=SPEC, anchors=ANCHORS.get(subject(meta), []))
+                  seed=seed, spec=SPEC, anchors=ANCHORS.get(subject(meta), []),
+                  display_size_pt=[round(abs(v),3) for v in display_size] if display_size else None)
     key = hashlib.sha256(json.dumps(inputs, sort_keys=True).encode()).hexdigest()[:20]
     CACHE.mkdir(parents=True, exist_ok=True)
     out = CACHE / f"{subject(meta)}-{key}.png"
@@ -316,7 +319,8 @@ def appearance(canvas, keyed_path, meta):
         field = simulate(tone, seed)
         mask, core = masks(rgb, meta, field, stage["amount"])
         cornmeal = .15 + .65*stage["amount"]
-        material, counts = render_material(rgb, field, mask, seed, cornmeal)
+        material, counts = render_material(rgb, field, mask, seed, cornmeal,
+                                           abs(display_size[0]) if display_size else None)
         # A continuous tonal bridge remains through the transition. This is
         # replacement within a mask, never a second full-opacity drawing.
         replacement = .16*rgb.astype(float)+.84*material.astype(float)
