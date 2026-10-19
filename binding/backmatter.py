@@ -86,20 +86,29 @@ def escalationum_record(paragraph):
 
 # Different books sometimes cite one source in different words. These groups
 # are merged by citation key; the citation each book used stays with its account.
+# A group replaces the merge by identical citation for its members, so it must name
+# every key that cites the source; a key left out would become a second entry.
 SAME_SOURCE=[
     {'I-II/P1','IV/M1'},   # Revisable Systems Practice, Revision 5
     {'III/D10','IV/T1'},   # Toyota's public description of its production system
+    {'I-II/G3','VI/F1'},   # Freeman's Tyranny of Structurelessness, the author's composite version
+    {'I-II/Q3','IV/Q3','VI/T2'},   # DORA's capabilities page on streamlining change approval
 ]
 
 # Working documents, packets and repository files made within the project.
 # Acc/R1-R3 are the model reviews the parable answers, filed with it.
-PROJECT_KEYS={'I-II/P0','I-II/P1','I-II/P2','I-II/P3','IV/M1','IV/E3','IV/X1','V/R0','Acc/R1','Acc/R2','Acc/R3'}
+PROJECT_KEYS={'I-II/P0','I-II/P1','I-II/P2','I-II/P3','IV/M1','IV/E3','IV/X1','V/R0','Acc/R1','Acc/R2','Acc/R3',
+              # Book VI: the project's models, case record, books and research files.
+              'VI/M1','VI/M2','VI/M3','VI/I4','VI/B1','VI/B2','VI/B3','VI/B4','VI/B5'}
 PROJECT_PREFIXES=('Claude (2026)','ChatGPT (2026)','Systematology','Revisable Systems Practice')
 
 
 # The unnumbered parables keep their sources in a register beside the manuscript.
 PARABLE_REGISTERS={'De Officio Accusatoris':'books/00_accusator/manuscript/references.json',
                    'De Matribus Noctis':'books/00_matres/manuscript/references.json'}
+# Book VI keeps its register the same way, but cites it in the text by bracketed key.
+# Its validator requires every entry to be cited, so the whole register is collected.
+BOOK_VI_REGISTER='books/06_disputationes/manuscript/references.json'
 
 
 def is_project_record(record):
@@ -143,10 +152,11 @@ def collect(books,repo=REPO):
                                         accounts=[dict(book=a['book'],status=clean(a.get('status','')),use=clean(a.get('use',''))) for a in r['accounts']],
                                         urls=list(r.get('urls',[]))))
             continue
-        if title in PARABLE_REGISTERS:
+        if title in PARABLE_REGISTERS or title=='De Potestate et Accusatione':
             # A parable cites nothing in its text; its register lists every source it
-            # draws on. Its preparation leaf moves with the production notes.
-            for r in json.loads(read(PARABLE_REGISTERS[title])):
+            # draws on. Book VI cites every entry of its register by key. Either way the
+            # preparation leaf moves with the production notes (unified.MOVE_HEADINGS).
+            for r in json.loads(read(PARABLE_REGISTERS.get(title,BOOK_VI_REGISTER))):
                 records.append(dict(citation=clean(r['citation']),keys=list(r['keys']),
                                     accounts=[dict(book=a['book'],status=clean(a.get('status','')),use=clean(a.get('use',''))) for a in r['accounts']],
                                     urls=list(r.get('urls',[]))))
@@ -287,6 +297,8 @@ def write(c,records,notes,start_page=1,repo=REPO,local_book=None):
         w.paragraph('Sources for this Septimus reading text. Keys retain the VII prefix and match the bracketed S-numbers in the text. Each account distinguishes the material accessed from the use made of it. A source entry does not certify a reproduced experiment or an independent audit. The broader research passes and the check ledger remain in the repository.','small')
     elif local_book=='Acc':
         w.paragraph('Sources the parable draws on. Keys carry the Acc prefix. The parable cites none of them in its text and asks none of them to establish a claim; each account records what was read and where the parable uses it. The model reviews it answers follow as project records.','small')
+    elif local_book=='VI':
+        w.paragraph('Sources for Book VI. Keys carry the VI prefix and match the bracketed keys in the text. Each account says what was read, by whom and how far; where this draft did not re-read a source, the account says so and names who did. Project records follow the literature as a separate list; they record where material came from and are not independent evidence for it.','small')
     elif local_book=='Mat':
         w.paragraph('Sources the parable draws on. Keys carry the Mat prefix. The parable cites none of them in its text and asks none of them to establish a claim; each account records what was read, how far it was checked, and where the parable uses it. Several are recalled rather than inspected, and say so.','small')
     else:

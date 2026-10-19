@@ -1,6 +1,6 @@
 # Tarot of Intervals
 
-Part of [Codex Intervallorum — Libri Septem](../../README.md).
+Part of [Codex Intervallorum — Libri Septem](../../README.md). Book VI until 19 October 2026, when [De Potestate et Accusatione](../06_disputationes/README.md) replaced it in both bindings; the deck and its book form are kept as a separate volume, still built and uploaded with the components.
 
 [Editable source](inventory.json) · [Builder](book/make_book.py)
 

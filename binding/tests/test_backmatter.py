@@ -46,6 +46,69 @@ class BackmatterTests(unittest.TestCase):
             self.assertEqual(internal[0]['/Dest'][0].idnum,reader.pages[2].indirect_reference.idnum)
             self.assertTrue(any(a.get('/A',{}).get('/URI')=='https://example.org' for a in annotations))
 
+    def test_book_vi_register_joins_the_end_bibliography_in_sequence(self):
+        import bind
+        register=json.loads((ROOT/backmatter.BOOK_VI_REGISTER).read_text())
+        records,notes,inputs=backmatter.collect([bind.POTESTATE])
+        self.assertEqual({k for r in records for k in r['keys']},{k for r in register for k in r['keys']})
+        self.assertIn(backmatter.BOOK_VI_REGISTER,inputs)
+        # The preparation leaf moves from the PDF (unified.MOVE_HEADINGS), not from collect().
+        self.assertEqual(notes,[])
+        # Surname-first citations sort among the other books' entries.
+        literature=[r['citation'] for r in records if not backmatter.is_project_record(r)]
+        self.assertEqual(literature,sorted(literature,key=backmatter.identity))
+        self.assertTrue(any(c.startswith('Hoorens, V., and Renders, H. (2012)') for c in literature))
+        # Freeman's composite version is one entry with I-II's, each wording kept.
+        book=json.loads((ROOT/'books/01_matricis_intervallorum/manuscript/book.json').read_text())
+        merged=backmatter.consolidate(backmatter.opening_records(book)+records)
+        freeman=[r for r in merged if 'VI/F1' in r['keys']]
+        self.assertEqual(len(freeman),1)
+        self.assertEqual(set(freeman[0]['keys']),{'I-II/G3','VI/F1'})
+        self.assertEqual(len(freeman[0]['accounts']),2)
+
+    def test_consolidation_leaves_no_two_entries_with_one_citation(self):
+        # A SAME_SOURCE group that omits a key citing the source splits the entry it joins.
+        import bind
+        records,_,_=backmatter.collect(bind.BOOKS)
+        identities=[backmatter.identity(r['citation']) for r in records]
+        self.assertEqual(len(identities),len(set(identities)))
+
+    def _book_vi_source(self,root,text):
+        from reportlab.platypus import Paragraph
+        from reportlab.lib.styles import ParagraphStyle
+        source=root/'vi.pdf';c=Canvas(str(source),pagesize=(504,720),invariant=1)
+        p=Paragraph(text,ParagraphStyle('t',fontName='Helvetica',fontSize=11,leading=14))
+        p.wrap(380,100);p.drawOn(c,66,600);c.showPage()
+        c.bookmarkPage('ref-A1');c.drawString(52,600,'VI/A1');c.drawString(52,560,'VI/B2')
+        c.bookmarkPage('ref-B2',top=560);c.showPage();c.save()
+        return source
+
+    def test_book_vi_key_links_read_through_brackets_and_target_the_new_entries(self):
+        from pypdf import PdfReader,PdfWriter
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            source=self._book_vi_source(root,'As the record shows [<a href="#ref-A1">A1</a>, <a href="#ref-B2">B2</a>].')
+            writer=PdfWriter()
+            writer.add_blank_page(504,720);writer.add_page(PdfReader(source).pages[0]);writer.add_blank_page(504,720);writer.add_blank_page(504,720)
+            log={'De Potestate et Accusatione':dict(source='vi.pdf',body_page_map={'1':2})}
+            entries=[dict(keys=['VI/A1'],start_page=3),dict(keys=['III/D05','VI/B2'],start_page=4)]
+            self.assertEqual(unified.relink(writer,log,entries,root,unified.BOOK_VI),2)
+            out=root/'bound.pdf'
+            with out.open('wb') as f:writer.write(f)
+            reader=PdfReader(out);ids=[p.indirect_reference.idnum for p in reader.pages]
+            targets=sorted(ids.index(a.get_object()['/Dest'][0].idnum)+1 for a in reader.pages[1]['/Annots'])
+            self.assertEqual(targets,[3,4])
+
+    def test_an_unreadable_book_vi_link_stops_the_binding(self):
+        from pypdf import PdfReader,PdfWriter
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            source=self._book_vi_source(root,'See <a href="#ref-A1">the register</a>.')
+            writer=PdfWriter();writer.add_blank_page(504,720);writer.add_page(PdfReader(source).pages[0])
+            log={'De Potestate et Accusatione':dict(source='vi.pdf',body_page_map={'1':2})}
+            with self.assertRaises(ValueError):
+                unified.relink(writer,log,[dict(keys=['VI/A1'],start_page=1)],root,unified.BOOK_VI)
+
     def test_shared_citation_keeps_both_keys_and_inspection_accounts(self):
         citation='Ashby, W. R. (1956). An Introduction to Cybernetics.'
         records=[dict(citation=citation,keys=[key],accounts=[dict(book=key.split('/')[0],status=status,use='Available responses.')],urls=[])

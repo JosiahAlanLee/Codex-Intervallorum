@@ -25,10 +25,18 @@ MOVE_HEADINGS={
     'Clavis':('Production and source notes',),
     'De Officio Accusatoris':('Production and source notes',),
     'De Matribus Noctis':('Production and source notes',),
+    'De Potestate et Accusatione':('Production and source notes',),
     'De Vinculis':('Production and source notes',),
 }
 # Shared-renderer components file their moved preparation leaf under the group label they set.
-NOTE_TITLES={'Clavis':'VII / preparation','De Vinculis':'VII / preparation','De Officio Accusatoris':'Accusator / preparation','De Matribus Noctis':'Matres / preparation'}
+NOTE_TITLES={'Clavis':'VII / preparation','De Vinculis':'VII / preparation','De Officio Accusatoris':'Accusator / preparation',
+             'De Matribus Noctis':'Matres / preparation','De Potestate et Accusatione':'VI / preparation'}
+# Components whose bracketed keys link to their own register: the link text, the
+# key prefix in the end bibliography. The binder points each link at the reflowed entry.
+# Book VI links the key alone, so its link box can catch part of a bracket or comma.
+CITATIONS={'Clavis':(r'\s*\[(S\d+)\]\s*','VII/'),'De Vinculis':(r'\s*\[(S\d+)\]\s*','VII/'),
+           'De Potestate et Accusatione':(r'\W*([A-Z]\d+)\W*','VI/')}
+SEPTIMUS=('Clavis','De Vinculis');BOOK_VI=('De Potestate et Accusatione',)
 DATE=re.compile(r'\b(?:\d{1,2}\s+oct(?:ober)?\s+2026|2026-\d\d-\d\d)\b',re.I)
 
 
@@ -117,9 +125,10 @@ def front(c,b,books,present,bibliography):
         'A parable of the accuser follows it; its charges are left open.',
         'The opening pair is joined; its disagreements remain available for reading.',
         'The later books retain their separate questions, figures and intervals.',
-        'The Tarot is bound as Book VI. Its commentary and image still face.',
+        'Book VI holds authority, harm and blame apart. Its plates face their sections.',
         'A parable of the night mothers precedes it; none of them is the first.',
         'De Vinculis follows as Book VII, before the collected bibliography.',
+        'The Tarot of Intervals, once Book VI, is kept as a separate volume.',
         '',
         'Citation keys remain local to their book. The source register and the',
         'workshop records are gathered in one setting at the end of the volume.',
@@ -130,21 +139,38 @@ def front(c,b,books,present,bibliography):
     c.showPage();b.paper(c);c.showPage();c.save()
 
 
-def relink_septimus(writer,log,entries,repo):
-    """Reconnect bracketed S-citations to the reflowed end bibliography."""
+def citation_links(original,title):
+    """(link, end-bibliography key) for each bracketed citation on a source leaf.
+
+    Book VI links nothing else internally, so an unreadable internal link there is
+    an error rather than a link left pointing at a register that has moved. Each
+    key read from its link box must also head an entry on the standalone register
+    leaf the link pointed to.
+    """
+    pattern,prefix=CITATIONS[title];found=[]
+    for link in original.get_links():
+        match=re.fullmatch(pattern,original.get_textbox(link['from']))
+        if title in BOOK_VI and link['kind'] in (fitz.LINK_GOTO,fitz.LINK_NAMED):
+            target=original.parent[link['page']] if match and link.get('page',-1)>=0 else None
+            labels={k for line in (target.get_text().splitlines() if target else []) for k in line.strip().split(' / ')}
+            if not match or prefix+match[1] not in labels:
+                raise ValueError(title+': unreadable citation link on source page '+str(original.number+1))
+        if match:found.append((link,prefix+match[1]))
+    return found
+
+
+def relink(writer,log,entries,repo,titles):
+    """Reconnect bracketed citations to the reflowed end bibliography."""
     destinations={key:entry['start_page'] for entry in entries for key in entry['keys']}
     count=0
-    for title in ('Clavis','De Vinculis'):
+    for title in titles:
         if title not in log:continue
         entry=log[title]
         with fitz.open(repo/entry['source']) as source:
             for local,physical in entry['body_page_map'].items():
                 original=source[int(local)-1];page=writer.pages[physical-1]
                 replacements=[]
-                for link in original.get_links():
-                    match=re.fullmatch(r'\s*\[(S\d+)\]\s*',original.get_textbox(link['from']))
-                    if not match:continue
-                    key='VII/'+match[1]
+                for link,key in citation_links(original,title):
                     if key not in destinations:raise ValueError('Missing citation destination: '+key)
                     r=link['from'];rect=(r.x0,original.rect.height-r.y1,r.x1,original.rect.height-r.y0)
                     replacements.append((rect,destinations[key]))
@@ -161,6 +187,11 @@ def relink_septimus(writer,log,entries,repo):
                     annotation['/Dest'][0]=writer.pages[target-1].indirect_reference
                     count+=1
     return count
+
+
+def relink_septimus(writer,log,entries,repo):
+    """Reconnect bracketed S-citations to the reflowed end bibliography."""
+    return relink(writer,log,entries,repo,SEPTIMUS)
 
 
 def main(b,out):
@@ -207,7 +238,8 @@ def main(b,out):
     for p in PdfReader(frontbuf).pages:w.add_page(p)
     for p in body.pages:w.add_page(p)
     for p in PdfReader(buf).pages:w.add_page(p)
-    citation_links=relink_septimus(w,log,apparatus['entries'],repo)
+    septimus_links=relink(w,log,apparatus['entries'],repo,SEPTIMUS)
+    book_vi_links=relink(w,log,apparatus['entries'],repo,BOOK_VI)
     w.add_outline_item('Title',0);w.add_outline_item('The Books',1)
     for num,title,sub,path,hand in b.BOOKS:
         if num in present:w.add_outline_item(b.label(num,title),present[num][0]-1)
@@ -215,7 +247,8 @@ def main(b,out):
     for section in apparatus['sections']:w.add_outline_item(section['title'],section['page']-1,parent=parent)
     w.add_metadata({'/Title':'Codex Intervallorum — Libri Septem','/Author':'Josiah Alan-Lee'})
     with out.open('wb') as f:w.write(f)
-    log.update(total_pages=len(w.pages),front_matter_pages=4,colophon_page=None,bibliography=bibliography,septimus_citation_links=citation_links)
+    log.update(total_pages=len(w.pages),front_matter_pages=4,colophon_page=None,bibliography=bibliography,
+               septimus_citation_links=septimus_links,book_vi_citation_links=book_vi_links)
     out.with_name('binding-log.json').write_text(json.dumps(log,indent=2)+'\n')
     out.with_name('bibliography-records.json').write_text(json.dumps(dict(references=records,production_notes=notes),ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(dict(pdf=str(out),pages=len(w.pages),references=apparatus['record_count'],bibliography_start=bib_start,production_notes=len(notes))))

@@ -49,6 +49,10 @@ def main():
     run('books/05_notoria/manuscript/check_math.py')
     run('books/05_notoria/manuscript/make_book.py', '--validate')
     run('books/06_tarot/book/make_book.py')
+    run('books/06_disputationes/plates/tabulae.py', 'all', ROOT / 'build/vi-plates')
+    run('books/06_disputationes/plates/reading.py')
+    run('books/06_disputationes/build.py')
+    run('books/06_disputationes/validate.py')
     run('books/07_septimus/build.py')
     run('books/07_septimus/validate.py')
     if not args.skip_tests:

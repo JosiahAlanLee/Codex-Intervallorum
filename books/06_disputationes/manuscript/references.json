@@ -1,0 +1,436 @@
+[
+ {
+  "id": "A1",
+  "citation": "Hoorens, V., and Renders, H. (2012). Heinrich Cornelius Agrippa and Witchcraft: A Reappraisal. Sixteenth Century Journal 43(1), 3–18.",
+  "keys": [
+   "VI/A1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Printed pp. 7–9 inspected in the author-hosted scan by ChatGPT/Codex for the second draft, 18 October 2026, for the procedural, witness and baptism arguments; not re-inspected for this draft. The historians’ reconstruction from Agrippa’s correspondence, not an inspection of the letters or of a court record. Their inferences about his motives are not adopted.",
+    "use": "The challenge to the inquisitor’s jurisdiction, to the handling of the proceeding and to the inference from mother to daughter; the baptism argument; the rejection of witnesses on grounds that included their being women (II)."
+   }
+  ],
+  "urls": [
+   "https://hansrendersarchive.org/wp-content/uploads/2023/10/sixteenth-century-renders.pdf"
+  ]
+ },
+ {
+  "id": "A2",
+  "citation": "Carter, P. (2025). Work, Gender and Witchcraft in Early Modern England. Gender & History 37(1), 91–108; first published online 2023.",
+  "keys": [
+   "VI/A2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Introduction, “Witchcraft on paper”, the sections on work and the scope statements inspected in the publisher’s text by ChatGPT/Codex for the second draft; not re-inspected for this draft. Carter studies suspicion as Napier recorded it, not later prosecution; no comparison of execution rates is derived from her.",
+    "use": "Gendered work, contact with consequential failure and the formation of suspicion (III)."
+   }
+  ],
+  "urls": [
+   "https://onlinelibrary.wiley.com/doi/10.1111/1468-0424.12717"
+  ]
+ },
+ {
+  "id": "A3",
+  "citation": "Morley, H. (1856). The Life of Henry Cornelius Agrippa von Nettesheim, vol. 2, pp. 51, 57–64, 71–72. London: Chapman and Hall.",
+  "keys": [
+   "VI/A3"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read through the Wellcome Collection scan’s OCR search and page text, not the page images, for the project’s study of the Metz case (Claude, 18 October 2026; see B5); not re-read for this draft. A biographer reading Agrippa’s Latin letters, not an independent witness to the proceeding.",
+    "use": "The seizure; the accusers bound to answer for their charge; the return to Woippy and torture with the judge absent; the dying judge’s ruling; the inquisitor’s claim to the case; the fine and its ground as Morley reads it; the later burning, with the phrase quoted from his translation (II)."
+   }
+  ],
+  "urls": [
+   "https://wellcomecollection.org/works/c5cy9bk2"
+  ]
+ },
+ {
+  "id": "A4",
+  "citation": "Prost, A. (1881). Corneille Agrippa, sa vie et ses œuvres, vol. 1, pp. 319–26, 378. Paris: Champion.",
+  "keys": [
+   "VI/A4"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read the same way as A3, for the same study; not re-read for this draft. Prost differs from Morley on the accused’s age and on the ground of the fine.",
+    "use": "The second reading of the procedure and of the fine’s ground (II)."
+   }
+  ],
+  "urls": [
+   "https://wellcomecollection.org/works/v5pzrdya"
+  ]
+ },
+ {
+  "id": "F1",
+  "citation": "Freeman, J. (1972). The Tyranny of Structurelessness. First officially published in The Second Wave 2(1); the author’s later composite version.",
+  "keys": [
+   "VI/F1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "The author’s composite version inspected by ChatGPT/Codex for the second draft: formal and informal structure, elite formation, time costs and democratic structuring. For this draft the seven principles of democratic structuring were checked in a reproduction on the P2P Foundation wiki, 18 October 2026. The composite is not treated as a verbatim witness to the 1972 text.",
+    "use": "Informal power and what it costs in time; six of the seven principles of democratic structuring (IV)."
+   }
+  ],
+  "urls": [
+   "https://www.jofreeman.com/joreen/tyranny.htm",
+   "https://wiki.p2pfoundation.net/Tyranny_of_Structurelessness"
+  ]
+ },
+ {
+  "id": "F2",
+  "citation": "Hamraie, A., and Fritsch, K. (2019). Crip Technoscience Manifesto. Catalyst: Feminism, Theory, Technoscience 5(1). DOI: 10.28968/cftt.v5i1.29607.",
+  "keys": [
+   "VI/F2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "The commitments to disabled making, collective access and interdependence inspected in the publisher’s text by ChatGPT/Codex for the second draft. For this draft only the citation record and abstract were read (MediaWell, SSRC); a mirror of the full text refused access.",
+    "use": "Disabled people as makers and political participants; interdependence and collective access as political practices (IX). Its application to generative AI and the participation rule are this book’s, not the manifesto’s."
+   }
+  ],
+  "urls": [
+   "https://catalystjournal.org/index.php/catalyst/article/download/29607/24772?inline=1",
+   "https://just-tech.ssrc.org/?p=8444"
+  ]
+ },
+ {
+  "id": "T1",
+  "citation": "Agency for Healthcare Research and Quality. High Reliability. PSNet primer (2019), reviewed 15 September 2024.",
+  "keys": [
+   "VI/T1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Characteristics table and current-context discussion inspected by ChatGPT/Codex for the second draft; not re-inspected. No claim of guaranteed implementation efficacy is derived. Weick and Sutcliffe’s book was not newly inspected.",
+    "use": "Deference to expertise, cross-monitoring and resilience as established antecedents (V)."
+   }
+  ],
+  "urls": [
+   "https://psnet.ahrq.gov/primer/high-reliability"
+  ]
+ },
+ {
+  "id": "T2",
+  "citation": "DORA. Streamlining change approval. Capabilities page, dora.dev.",
+  "keys": [
+   "VI/T2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read by Claude for the gate-and-window model and by ChatGPT/Codex for the second draft, 18 October 2026, including peer review, automation and the coordination functions that remain; not re-read for this draft. The 2019 report it summarises was not read.",
+    "use": "Peer review and automated checks in place of heavyweight external approval (V). It does not calibrate the model’s parameters."
+   }
+  ],
+  "urls": [
+   "https://dora.dev/capabilities/streamlining-change-approval/"
+  ]
+ },
+ {
+  "id": "T3",
+  "citation": "Madeleine Clare Elish, Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction, Engaging Science, Technology, and Society 5 (2019), 40-60. DOI: 10.17351/ests2019.260.",
+  "keys": [
+   "VI/T3"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Article record and abstract read on the journal’s site, 18 October 2026. The full text, including its case analyses, was not read for this draft.",
+    "use": "The term and its definition: responsibility misattributed to an operator with limited control over an automated system (V)."
+   }
+  ],
+  "urls": [
+   "https://estsjournal.org/index.php/ests/article/view/260"
+  ]
+ },
+ {
+  "id": "M1",
+  "citation": "Retrospective incident exercises of 10 and 11 October 2026: methods and scope, with report excerpts. docs/research/evidence/ in the public edition, JosiahAlanLee/Codex-Intervallorum at 005d163.",
+  "keys": [
+   "VI/M1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Project records inspected by ChatGPT/Codex for the second draft; not re-inspected. One outcome-aware analyst produced the paired readings; the independent three-condition comparison was not run. The excerpts omit pages their headers identify and do not include the original ledgers or code.",
+    "use": "The exercises as development records, not a comparison (V)."
+   }
+  ],
+  "urls": [
+   "https://github.com/JosiahAlanLee/Codex-Intervallorum/blob/005d163525a0a96f71df78c1f4255c4e4f29b4b5/docs/research/evidence/pilot-methods.md"
+  ]
+ },
+ {
+  "id": "M2",
+  "citation": "Claude (2026). Gate and window: a harm-accounting model. books/01_matricis_intervallorum/models/gate_window (README.md, REPORT.md, results.csv, verdict.py, verdict.json), this repository; run of 18 October 2026, seed 20261018.",
+  "keys": [
+   "VI/M2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "README and report read for this draft as they stood in the development repository, JosiahAlanLee/Librum_Quinque, at f0d4f65. This edition’s revised README and report omit the closing premise the Proem describes; results.csv is byte-identical in both. The results table, 6,300 cells of 6,000 samples each, was read and recomputed with the model’s own comparison functions; the model was not re-run. The reversal counts in V are this draft’s arithmetic on the committed table. The parameters are uncalibrated and the cells are assumed, not observed.",
+    "use": "The premise handed on to this book (Proem); win fractions, the holding criterion and booked harm (V); D18; Tabula IV."
+   }
+  ],
+  "urls": []
+ },
+ {
+  "id": "M3",
+  "citation": "Claude (2026). The refusal specimen: books/02_intervallorum/generator/refusal.py in the public edition, JosiahAlanLee/Codex-Intervallorum at 3529a77.",
+  "keys": [
+   "VI/M3"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Source read and run for this draft. The file is identical at the pinned commit and at public main 7926e1b (SHA-256 290aeee8…77cc0b6). An unmodified copy is kept in this book’s plates folder for the plate’s build. Its rules are assumptions declared for the specimen, not an estimate of solidarity’s protective effect.",
+    "use": "The four rules and their outcomes (VIII); Tabula VII."
+   }
+  ],
+  "urls": [
+   "https://github.com/JosiahAlanLee/Codex-Intervallorum/blob/3529a77a35efe8b5edfe23bec95b6d6822fe07e6/books/02_intervallorum/generator/refusal.py"
+  ]
+ },
+ {
+  "id": "I1",
+  "citation": "OpenAI (2026). The Hugging Face incident and the road ahead. 26 August.",
+  "keys": [
+   "VI/I1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read through a summarising fetch for the project’s case record, whose quotations an independent agent checked against the source, and inspected by ChatGPT/Codex for the second draft; not re-read for this draft. The linked technical report was not read. Retrospective detection claims remain the operator’s counterfactuals.",
+    "use": "The early observation, the monitoring coverage gap, the response to whose leaders the channel’s significance was not apparent, the 5 July response and the board’s clearing, and the unsolved-task figures (VI)."
+   }
+  ],
+  "urls": [
+   "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+  ]
+ },
+ {
+  "id": "I2",
+  "citation": "Hugging Face (2026). Security incident disclosure — July 2026. 16 July.",
+  "keys": [
+   "VI/I2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read as I1. Availability telemetry, any joined network and security operations, and the identity of the refusing hosted models are not supplied by the source.",
+    "use": "LLM triage and correlation of security telemetry; hosted models refusing forensic requests; the local open-weight workaround (VI)."
+   }
+  ],
+  "urls": [
+   "https://huggingface.co/blog/security-incident-july-2026"
+  ]
+ },
+ {
+  "id": "I3",
+  "citation": "Wijk, H., Cotra, A., and Greenblatt, R. (2026). Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident. METR, 26 August. Wijk and Cotra of METR; Greenblatt of Redwood Research, contracting with METR.",
+  "keys": [
+   "VI/I3"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Scope, coordination passages and limitations inspected by ChatGPT/Codex for the second draft; paraphrased in the case record because the fetch tool would not quote it. Not re-read for this draft. The report warns that its summaries may exaggerate the agents’ coordination.",
+    "use": "Central coordinators; analysis agents adopting the reviewed agents’ perspective (VI)."
+   }
+  ],
+  "urls": [
+   "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+  ]
+ },
+ {
+  "id": "I4",
+  "citation": "Claude (2026). OpenAI evaluation agents and the Hugging Face intrusion, May to July 2026: a coded case record. cases/2026-07-openai-hugging-face (README.md, case.json) in the development repository, JosiahAlanLee/Librum_Quinque, as corrected in its PR 29. The data file is copied unmodified into this book’s plates/vendor for Tabula V.",
+  "keys": [
+   "VI/I4"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Both files read for this draft. Development material selected with the premise in view, by one coder who also built the gate-and-window model; not an independent test. The timeline and codings drawn on Tabula V are the record’s, as filed. The record’s README and validator are not part of this public source selection.",
+    "use": "The timeline, the twenty-two codings and their tally, the necessity argument, the classification hypothesis taken up as D19 (VI); Tabula V."
+   }
+  ],
+  "urls": []
+ },
+ {
+  "id": "I5",
+  "citation": "Greenblatt, R., Shlegeris, B., Sachan, K., and Roger, F. (2024). AI Control: Improving Safety Despite Intentional Subversion. Proceedings of the 41st International Conference on Machine Learning (ICML 2024).",
+  "keys": [
+   "VI/I5"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Abstract read on arXiv for this draft (and the published abstract by ChatGPT/Codex for the second): it describes untrusted monitoring, in which one instance of a model checks another’s output, with techniques to prevent the instances from colluding. The paper was not read.",
+    "use": "That control research studies equally capable monitors under collusion controls rather than ruling them out (VI). Not used to assert operational efficacy."
+   }
+  ],
+  "urls": [
+   "https://arxiv.org/abs/2312.06942v1"
+  ]
+ },
+ {
+  "id": "P1",
+  "citation": "United States Department of Justice (2020). Deferred prosecution agreement with Wells Fargo & Company, February 2020, Exhibit A, Statement of Facts.",
+  "keys": [
+   "VI/P1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Paragraphs 24–32 inspected by ChatGPT/Codex for the second draft. Paragraphs 28, 30 and 31 (printed A-11 to A-12) re-read for this draft through a summarising fetch, 18 October 2026, for the wording quoted and the figures given.",
+    "use": "Leadership’s account of individual misconduct against the sales model; referrals, terminations and their concentration at branch level (VII). It adjudicates neither every worker’s innocence nor any loss due specifically to blame."
+   }
+  ],
+  "urls": [
+   "https://www.justice.gov/usao-cdca/press-release/file/1251336/dl"
+  ]
+ },
+ {
+  "id": "P2",
+  "citation": "Supreme Court of Japan, Third Petty Bench (2012). Decision of 8 February 2012, Case No. 2009 (A) No. 359 (causing death or injury through negligence in the pursuit of social activities; the Mitsubishi wheel-hub case). Keishu vol. 66, no. 2; English translation on the court’s website.",
+  "keys": [
+   "VI/P2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "The English translation read for this draft through a summarising fetch, with targeted quotation of the majority’s statement of facts (the handling on the wear theory and the report’s statement that no action was needed), its treatment of the wear theory, its dates and counts of hub accidents, the duty and the causal finding, and of Justice Tahara’s dissent. An independent check of the draft against the same page corrected this book’s first account of the report, its dating of the counts and its summary of the dissent. The final two per cent of the page text was not reached. The Japanese original was not read. The project’s review had inspected majority sections 2 and 3(1) earlier the same day (B5).",
+    "use": "The handling of the 1999 accident on the wear theory and the report that no action was needed; the dates and counts; the duty to take improvement measures including recall; the avoidability of the Yokohama death; the dissent (VII); Tabula VI."
+   }
+  ],
+  "urls": [
+   "https://www.courts.go.jp/english/Judgments/search/1140/index.html"
+  ]
+ },
+ {
+  "id": "R1",
+  "citation": "Harmon, T. P. (2025). Demons and ChatGPT. First Things, 17 June.",
+  "keys": [
+   "VI/R1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Augustine, spiritual-intermediary and attention passages inspected by ChatGPT/Codex for the second draft; not re-inspected. Evidence of this author’s framing, not of demonic activity, public prevalence or an organised campaign.",
+    "use": "A religious response that draws on demonology (X)."
+   }
+  ],
+  "urls": [
+   "https://firstthings.com/demons-and-chatgpt/"
+  ]
+ },
+ {
+  "id": "R2",
+  "citation": "Southern Baptist Convention (2023). On Artificial Intelligence and Emerging Technologies. Resolution of the 2023 annual meeting, 13–14 June.",
+  "keys": [
+   "VI/R2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Resolution inspected by ChatGPT/Codex for the second draft; not re-inspected. An institutional statement, not evidence of every member’s views or of future policy.",
+    "use": "A distinct institutional response: careful engagement, rejection of both fearful rejection and uncritical embrace, human dignity (X)."
+   }
+  ],
+  "urls": [
+   "https://www.sbc.net/resource-library/resolutions/on-artificial-intelligence-and-emerging-technologies/"
+  ]
+ },
+ {
+  "id": "B1",
+  "citation": "De Vinculis, books/07_septimus/manuscript/de-vinculis.md, this repository; sections V6 and V7.",
+  "keys": [
+   "VI/B1"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read directly by ChatGPT/Codex for the second draft. The book distinguishes effective exit and conditional questions about artificial standing; its analogy does not establish machine experience.",
+    "use": "The seventh book’s exit argument and its conditional inquiry into moral status (VI, X)."
+   }
+  ],
+  "urls": []
+ },
+ {
+  "id": "B2",
+  "citation": "De Officio Accusatoris, books/00_accusator/manuscript/de-officio-accusatoris.md, this repository; sections III–VII.",
+  "keys": [
+   "VI/B2"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read directly by ChatGPT/Codex for the second draft. A fictional disputation with its charges kept open; not independent evidence that any production allegation is established.",
+    "use": "The opening parable that keeps the decision to publish answerable (VIII)."
+   }
+  ],
+  "urls": []
+ },
+ {
+  "id": "B3",
+  "citation": "Anonymous model review (2026). Librum Quinque: Leftist-Luddite and Labor-Process Critique. Supplied by the author on 17 October 2026.",
+  "keys": [
+   "VI/B3"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Filed with De Officio Accusatoris in the development repository (books/00_accusator/reviews/2026-10-17-leftist-luddite-red-team.md); the earlier red-team reviews are not part of this public source selection. Read directly by ChatGPT/Codex for the second draft as a project critique; its opening re-read for this draft. Its claims about particular systems’ training and labour conditions require their own evidence.",
+    "use": "The labour critique and the charge against the book’s means of production (VIII)."
+   }
+  ],
+  "urls": []
+ },
+ {
+  "id": "B4",
+  "citation": "“Justin Sledge and Codex Intervallorum”: a comparison and editorial handoff, docs/reviews/Justin_Sledge_Review.md in the public edition, JosiahAlanLee/Codex-Intervallorum at 3529a77.",
+  "keys": [
+   "VI/B4"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read by ChatGPT/Codex for the second draft as a project review. Its objections are the reviewer’s; it is not a review by Sledge or evidence of his endorsement.",
+    "use": "The historical objections to the book’s esoteric objects (VIII)."
+   }
+  ],
+  "urls": [
+   "https://github.com/JosiahAlanLee/Codex-Intervallorum/blob/3529a77a35efe8b5edfe23bec95b6d6822fe07e6/docs/reviews/Justin_Sledge_Review.md"
+  ]
+ },
+ {
+  "id": "B5",
+  "citation": "Claude (2026). Scapegoating research: “Agrippa at Metz, 1519”, “Scapegoating Cases: Screening Notes” and the review of both by ChatGPT/Codex. docs/research/scapegoating/ in the public edition, JosiahAlanLee/Codex-Intervallorum at 7926e1b.",
+  "keys": [
+   "VI/B5"
+  ],
+  "accounts": [
+   {
+    "book": "VI",
+    "status": "Read for this draft. Project records made on 18 October 2026: they record where material came from and what could not be reached, and are not independent evidence for it.",
+    "use": "The Metz procedure, its single line of transmission and its access limits (II); the narrowing of the Mitsubishi case to the judgment’s terms (VII)."
+   }
+  ],
+  "urls": [
+   "https://github.com/JosiahAlanLee/Codex-Intervallorum/tree/7926e1b/docs/research/scapegoating"
+  ]
+ }
+]
