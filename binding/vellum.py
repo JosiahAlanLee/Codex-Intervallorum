@@ -1,6 +1,6 @@
 """Content-aware, deterministic paper finishing for reading PDFs.
 
-    python binding/vellum.py INPUT.pdf OUTPUT.pdf [--seed 17]
+    python binding/vellum.py INPUT.pdf OUTPUT.pdf [--seed 17] [--profile light|full]
 
 Low-frequency mottling, fine grain and short fibres are carried by a transparent
 image. Rendered ink strokes and source images have zero opacity. Rare ink spots
@@ -29,6 +29,7 @@ PADDING_PT = 3
 GRAIN_PADDING_PT = 1
 PIGMENT = (104, 72, 39)
 TEXT_FLAGS = fitz.TEXTFLAGS_RAWDICT & ~fitz.TEXT_PRESERVE_IMAGES
+PROFILES = ('light', 'full')
 
 
 def seed_for(identity, seed=0):
@@ -84,7 +85,9 @@ def field(rng, shape, cells):
                       dtype=np.float32) / 255
 
 
-def make_texture(page, identity, seed=0):
+def make_texture(page, identity, seed=0, *, profile='light'):
+    if profile not in PROFILES:
+        raise ValueError(f'Unknown vellum profile: {profile}')
     protected, _ = protection(page)
     h, w = protected.shape
     rng = np.random.default_rng(seed_for(identity, seed))
@@ -97,9 +100,12 @@ def make_texture(page, identity, seed=0):
     yy, xx = np.mgrid[:h, :w]
     edge = np.minimum.reduce([xx / SCALE, (w - 1 - xx) / SCALE,
                               yy / SCALE, (h - 1 - yy) / SCALE])
-    # Opacity is usually 1-5 / 255; the existing paper colour stays dominant.
+    # The full profile retains the original independent pixel noise. Smooth
+    # fields compress far better without it; light also halves the pigment.
+    micrograin = rng.normal(0, .35, (h, w))
     tone = (.3 + 2.7 * coarse + 1.4 * medium + .6 * fine
-            + rng.normal(0, .35, (h, w)) + 1.3 * np.exp(-edge / 23))
+            + (micrograin if profile == 'full' else 0)
+            + 1.3 * np.exp(-edge / 23))
     # Small, discontinuous fibres; no continuous lines or invented letters.
     fibres = Image.new('L', (w, h))
     draw = ImageDraw.Draw(fibres)
@@ -113,7 +119,8 @@ def make_texture(page, identity, seed=0):
     # Ease into the protected zones rather than cutting visible rectangular holes.
     safe = Image.fromarray((~protected).astype(np.uint8) * 255)
     fade = np.asarray(safe.filter(ImageFilter.GaussianBlur(.6 * SCALE))) / 255
-    opacity = np.rint(np.clip(tone * fade, 0, 11)).astype(np.uint8)
+    strength = .5 if profile == 'light' else 1
+    opacity = np.rint(np.clip(tone * fade * strength, 0, 11)).astype(np.uint8)
     opacity[protected] = 0
     spots = []
     if rng.random() < .14:
@@ -145,7 +152,8 @@ def make_texture(page, identity, seed=0):
                 pen.ellipse((cx - radius, cy - radius * .8,
                              cx + radius, cy + radius * .8),
                             fill=int(rng.integers(32, 75)))
-            opacity = np.maximum(opacity, np.asarray(spot))
+            spot_opacity = np.rint(np.asarray(spot) * strength).astype(np.uint8)
+            opacity = np.maximum(opacity, spot_opacity)
             spots.append([round(v, 3) for v in r])
             break
     opacity[protected] = 0
@@ -245,7 +253,9 @@ def verify_page(before, after, texture_added=False):
     return int(np.any(rgb != finished, axis=2).sum())
 
 
-def apply(pdf, output=None, *, seed=0, log_path=None):
+def apply(pdf, output=None, *, seed=0, log_path=None, profile='light'):
+    if profile not in PROFILES:
+        raise ValueError(f'Unknown vellum profile: {profile}')
     pdf = Path(pdf)
     output = Path(output or pdf)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -263,7 +273,7 @@ def apply(pdf, output=None, *, seed=0, log_path=None):
     tmp = output.with_name(output.name + '.vellum-tmp')
     try:
         for i, page in enumerate(doc):
-            result = make_texture(original[i], identity[i], seed)
+            result = make_texture(original[i], identity[i], seed, profile=profile)
             if result is not None:
                 opacity, record = result
                 add_texture(page, opacity)
@@ -297,7 +307,7 @@ def apply(pdf, output=None, *, seed=0, log_path=None):
             original.close()
         tmp.unlink(missing_ok=True)
         raise
-    report = dict(version=VERSION, seed=seed, dpi=DPI, textured_pages=len(records),
+    report = dict(version=VERSION, profile=profile, seed=seed, dpi=DPI, textured_pages=len(records),
                   ink_spot_pages=sum(bool(r['ink_spots']) for r in records),
                   verification=dict(text_exact=True, original_vector_paths_exact=True,
                                     original_images_exact=True, links_and_outline_exact=True,
@@ -313,6 +323,7 @@ if __name__ == '__main__':
     parser.add_argument('input', type=Path)
     parser.add_argument('output', type=Path, nargs='?')
     parser.add_argument('--seed', type=int, default=0)
+    parser.add_argument('--profile', choices=PROFILES, default='light')
     args = parser.parse_args()
-    apply(args.input, args.output, seed=args.seed)
+    apply(args.input, args.output, seed=args.seed, profile=args.profile)
 

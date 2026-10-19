@@ -74,14 +74,17 @@ class Book:
         return y
 
     # --------------------------------------------------------------- text --
-    def para(self, y, text, font="Fell", size=BODY, lead=LEAD, color=INK, indent=0):
+    def para(self, y, text, font="Fell", size=BODY, lead=LEAD, color=INK, indent=0, closing=False):
         c = self.c
         m = TAG.match(text)
         tag = m.group(1) if m else None
         body = text[m.end():] if m else text
         lines = wrap(body, font, size, self.width() - indent - (22 if tag else 0))
         for i, ln in enumerate(lines):
-            y = self.ensure(y, lead)
+            # A closing paragraph's last line runs the page one line long rather than
+            # turn alone onto a leaf of its own.
+            if not (closing and i == len(lines) - 1 and y >= BOTTOM):
+                y = self.ensure(y, lead)
             if i == 0 and tag:
                 c.setFont("FellSC", 8)
                 c.setFillColorRGB(*RED)
@@ -234,7 +237,7 @@ class Book:
                 y -= 6
         y -= 6
         y = self.small_caps(y, "reading the plate")
-        y = self.para(y, ch["caption"], size=10, lead=13.5)
+        y = self.para(y, ch["caption"], size=10, lead=13.5, closing=True)
         self.new_page()
 
     def back_matter(self):

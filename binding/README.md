@@ -146,6 +146,7 @@ unchanged; the reading PDF retains its text, vectors, links and outlines.
 ```bash
 python binding/vellum.py path/to/original.pdf path/to/vellum.pdf
 python binding/vellum.py path/to/original.pdf path/to/another.pdf --seed 17
+python binding/vellum.py path/to/original.pdf path/to/full-grain.pdf --profile full
 ```
 
 If present, keep `binding-log.json` beside the input to seed body pages by source
@@ -157,6 +158,11 @@ result. Checks require exact source text, paths, images, links, outline and page
 geometry, plus exact rendered protected pixels at 96 dpi. Rebuild the binding to
 change the noise or seed. Background texture adds raster data and PDF file size;
 source typography and diagrams remain at their original resolution.
+The default `light` profile uses half-strength pigment, including margin spots,
+and omits independent per-pixel noise. The smooth fields and sparse fibres remain,
+with the same protection resolution. The earlier finish is available as `full`;
+the selected profile is recorded in the log. The illustrated build accepts
+`--vellum-profile full` to select it.
 Texture images are explicitly tagged; binding validation excludes only those
 backgrounds from its illustration counts and illumination-digest comparisons.
 

@@ -16,6 +16,11 @@ The script builds the component books in dependency order, runs their existing t
 
 For one edition, use `python scripts/build.py --edition reading` or `python scripts/build.py --edition illustrated`. Individual book builders remain available in their existing directories.
 
+The illustrated edition defaults to lighter vellum: half-strength pigment and
+smooth fields without independent pixel noise, reducing texture overhead while
+keeping the existing text, cipher, diagram and artwork protection at 96 dpi.
+Use `--vellum-profile full` to reproduce the earlier, denser finishing.
+
 The [build workflow](../.github/workflows/build.yml) uploads both omnibus editions and their validation logs. It also uploads the standalone Book VI, Clavis, De Vinculis, Nota Clausa and parable PDFs, and the Tarot reading edition, now a separate volume. Download the artifact for a successful run from [GitHub Actions](https://github.com/JosiahAlanLee/Codex-Intervallorum/actions/workflows/build.yml).
 
 Generated PDFs, previews, HTML readers, build logs, and caches are ignored. One historical PDF remains a checked-in input: `books/01_matricis/pdf/Clavicula_Matricis_ereader.pdf`. The consolidated opening mounts five boards from it. Its original bytes and the inherited cipher module are retained.

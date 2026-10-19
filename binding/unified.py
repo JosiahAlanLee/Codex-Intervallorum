@@ -151,7 +151,12 @@ def citation_links(original,title):
     for link in original.get_links():
         match=re.fullmatch(pattern,original.get_textbox(link['from']))
         if title in BOOK_VI and link['kind'] in (fitz.LINK_GOTO,fitz.LINK_NAMED):
-            target=original.parent[link['page']] if match and link.get('page',-1)>=0 else None
+            number=link.get('page',-1)
+            # MuPDF exposes /Fit destinations as named links with one-based
+            # numeric strings; ordinary GOTO page numbers are zero-based ints.
+            if link['kind']==fitz.LINK_NAMED and isinstance(number,str) and number.isdecimal():
+                number=int(number)-1
+            target=original.parent[number] if match and isinstance(number,int) and 0<=number<len(original.parent) else None
             labels={k for line in (target.get_text().splitlines() if target else []) for k in line.strip().split(' / ')}
             if not match or prefix+match[1] not in labels:
                 raise ValueError(title+': unreadable citation link on source page '+str(original.number+1))

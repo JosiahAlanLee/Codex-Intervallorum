@@ -175,7 +175,8 @@ class Book:
     def titlepage(self,subtitle):
         self.start('The book','title');c=self.c;c.setFont('SVSmall',34);c.setFillColor(INK);c.drawCentredString(252,478,self.title.upper())
         c.setFont('SVItalic',15);c.drawCentredString(252,444,subtitle)
-        c.setFont('SVSmall',11);c.setFillColor(RED);c.drawCentredString(252,378,'SEPTIMUS')
+        # The Clavis opens the volume; the label belongs to De Vinculis, the seventh book.
+        if self.title!='Clavis':c.setFont('SVSmall',11);c.setFillColor(RED);c.drawCentredString(252,378,'SEPTIMUS')
         glyph(c,'key' if self.title=='Clavis' else 'bnd',252,278,37)
         self.end()
 
@@ -207,7 +208,7 @@ class Book:
             'The Clavis is a proposed entrance to the series, not personal testimony supplied by the author or a declaration of his final commitments. Both parts remain review texts. The Clavis opens the bound volume; De Vinculis follows Book VI as Book VII, before the collected bibliography. Both parts are also available as standalone reading editions. The Clavis paragraph on Book VI and its sentence on claim labels were revised by Claude on 19 October 2026, when De Potestate et Accusatione replaced the Tarot of Intervals as Book VI.',
             'The bibliography distinguishes direct passages, abstracts, indexed material and original-pass reports. The independent check is limited and no experiment was reproduced. The full research passes retain their original provenance and contested leads in the repository.',
             'The two composed raster scenes were generated with the built-in imagegen tool. On 19 October 2026, the open workshop received a furniture and instrument-support correction with the same tool; the original is retained. Prompts and image hashes are recorded with the assets. Generated imagery carries no keyed text or experimental evidence.',
-            'The inner seal hand uses the inherited Matricis substitution alphabet, drawn as native vector strokes. Position carriers and identifiers are separate. The seventy-two-name arrangement is a disclosed English adaptation, with normalized-letter recovery checked by code. The original sentences and their repeated SNO are retained as a regression fixture. Physical plotting has not been tested.'
+            'The inner seal hand uses the inherited Matricis substitution alphabet, drawn as native vector strokes. Position carriers and identifiers are separate. The seventy-two-name arrangement is a disclosed English adaptation, with normalized-letter recovery checked by code. The three sentences first used, whose names repeat SNO, are kept in the code as a regression fixture; the printed questions repeat NEN and UND, so each seal is identified by its position as well as its name. Physical plotting has not been tested.'
         ])]
         start=self.page
         # Use the same house renderer as the opening book and current omnibus.
