@@ -341,5 +341,35 @@
     "urls": [
       "https://pubmed.ncbi.nlm.nih.gov/41248244/"
     ]
+  },
+  {
+    "id": "S21",
+    "citation": "Frater Acher and José Gabriel Alegría Sabogal (2021). Clavis Goêtica: Keys to Chthonic Sorcery. Hadean Press. Paperback ISBN 9781907881527.",
+    "keys": [
+      "VII/S21"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Introduction (PDF pp. 8–10), Modern Goêteia passages on transmission and Johannes Beer (pp. 52 and 62–66), and Conclusions I–II (pp. 131–132) read directly in the author-supplied digital copy on 20 October 2026. Locators refer to that 151-page PDF, not print pagination. No independent audit of the ancient genealogy or cited historical witnesses was undertaken.",
+        "use": "A living practitioner's account of listening, service and restraint, and the tension between dialogue and human tutelage. Acher's claims about spirits are attributed to his account; the comparison concerns the process of requesting and receiving instruction."
+      }
+    ],
+    "urls": []
+  },
+  {
+    "id": "S22",
+    "citation": "Frater Acher (2013). On the Dweller on the Threshold. Author-issued digital essay; copyright 2010–2013.",
+    "keys": [
+      "VII/S22"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Preface, the discussion of perception and initiation (PDF pp. 6–9 and 15), conclusions (pp. 23–24), and copyright leaf (p. 25) read directly in the author-supplied copy on 20 October 2026. Selective reading, not a review of every cited source.",
+        "use": "The practitioner's habits and projections as objects of the work. The psychological vocabulary and claims of spiritual contact are attributed to Acher; this is not evidence of a clinical result."
+      }
+    ],
+    "urls": []
   }
 ]

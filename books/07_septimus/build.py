@@ -207,6 +207,7 @@ class Book:
             'First reading edition, 17 October 2026. Prepared for Josiah Alan-Lee. Project and text direction: Josiah Alan-Lee. Initial brief and research passes: Claude Opus 5.5. Editorial revision, Clavis and De Vinculis reading texts, native apparatus, build and opening illuminations: ChatGPT/Codex.',
             'The Clavis is a proposed entrance to the series, not personal testimony supplied by the author or a declaration of his final commitments. Both parts remain review texts. The Clavis opens the bound volume; De Vinculis follows Book VI as Book VII, before the collected bibliography. Both parts are also available as standalone reading editions. The Clavis paragraph on Book VI and its sentence on claim labels were revised by Claude on 19 October 2026, when De Potestate et Accusatione replaced the Tarot of Intervals as Book VI.',
             'The bibliography distinguishes direct passages, abstracts, indexed material and original-pass reports. The independent check is limited and no experiment was reproduced. The full research passes retain their original provenance and contested leads in the repository.',
+            'On 20 October 2026, at the author’s direction, ChatGPT/Codex added opening positions and the discussion of Acher as a practitioner interlocutor. The comparison now explicitly includes this book’s own collaboration with language-model agents. The new source accounts identify the passages read in the two supplied digital texts.',
             'The two composed raster scenes were generated with the built-in imagegen tool. On 19 October 2026, the open workshop received a furniture and instrument-support correction with the same tool; the original is retained. Prompts and image hashes are recorded with the assets. Generated imagery carries no keyed text or experimental evidence.',
             'The inner seal hand uses the inherited Matricis substitution alphabet, drawn as native vector strokes. Position carriers and identifiers are separate. The seventy-two-name arrangement is a disclosed English adaptation, with normalized-letter recovery checked by code. The three sentences first used, whose names repeat SNO, are kept in the code as a regression fixture; the printed questions repeat NEN and UND, so each seal is identified by its position as well as its name. Physical plotting has not been tested.'
         ])]
@@ -283,3 +284,4 @@ def build(out):
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,default=ROOT/'out');args=ap.parse_args();build(args.out)
+

@@ -67,7 +67,7 @@ NOTES = [
     'Third discussion draft, 18 October 2026. Developed by Claude Opus 5.5 at Josiah Alan-Lee’s request from the second draft that ChatGPT/Codex filed the same day, which is kept with its source ledger in the development repository. Claude restructured the text into the series’ tagged form, stated five claims (D15–D19, continuing the series’ numbering) with what would count against each, recomputed the gate-and-window ledgers from the committed results, and added the Wells Fargo figures, the Mitsubishi judgment, the Metz procedure from the project’s case study, and Elish. Claude also drew the plates and set the book.',
     'Read for this draft: the Mitsubishi judgment in English translation, paragraphs 28 and 30–31 of the Wells Fargo statement of facts, Elish’s article record and abstract, the AI Control abstract, Freeman’s principles in a reproduction, the gate-and-window results, the refusal specimen at its pinned commit, the case record and the project’s scapegoating research. Every other source carries the second draft’s inspection account, which names who read it. An agent that had not seen the drafting then checked the dated, counted and quoted statements against their sources; its corrections, to the account of the 1999 report, the dating of the hub counts, the summary of the dissent, one plate’s reading and several smaller phrasings, are in this text.',
     'The nine plates were drawn by procedural code written by Claude for this book, in the series’ plotter conventions: A4, stroke-only, two layers, two inks, a drawn reserved blank, the plate’s sentence in the twelve-mark hand, and its frame scale carrying in the biliteral cipher the sentence that would count against the plate’s claim. No image-generation model was used. Four carry no data; five are drawn from the records they name. The plot masters letter in the EMS Nixish stroke face; this edition in IM Fell English outlines. None has been tested on a physical plotter.',
-    'Bound as Book VI in both bindings by Claude at the author’s request, in place of the Tarot of Intervals, which is kept as a separate volume: on 18 October 2026 in the development repository, and on 19 October in this edition. The title, the claim numbers and the tag [V] on unadopted proposals remain proposals for his review. In the volume, the register joins the one end bibliography under the VI prefix, set in the series’ citation form, and the bracketed keys link to its entries there.',
+    'Bound as Book VI in both bindings by Claude at the author’s request, in place of the Tarot of Intervals, which is kept as a separate volume: on 18 October 2026 in the development repository, and on 19 October in this edition. On 20 October, at the author’s direction, ChatGPT/Codex stated the book’s opening positions and distinguished those commitments from the detailed participation procedure, which remains a proposal. In the volume, the register joins the one end bibliography under the VI prefix, set in the series’ citation form, and the bracketed keys link to its entries there.',
 ]
 
 
@@ -92,13 +92,15 @@ def parse(path=MANUSCRIPT):
     title = re.match(r'# (.+)\n', text).group(1).strip()
     meta = dict(re.findall(r'^(\w+): (.+)$', re.search(r'<!-- book\n(.*?)-->', text, re.S).group(1), re.M))
     parts = re.split(r'^## (.+)\n', text, flags=re.M)
-    book = dict(title=title, meta=meta, status=[], proem=[], claims=[], divisions=[])
+    book = dict(title=title, meta=meta, status=[], positions=[], proem=[], claims=[], divisions=[])
     for i in range(1, len(parts), 2):
         head, body = parts[i].strip(), parts[i + 1]
         plate = re.search(r'<!-- plate: (\w+) -->', body)
         ps = paragraphs(body)
         if head == 'Status':
             book['status'] = ps
+        elif head == 'The position of this book':
+            book['positions'] = ps
         elif head == 'Proem':
             book['proem'] = ps
         elif head == 'The five claims':
@@ -136,7 +138,8 @@ def parse(path=MANUSCRIPT):
 def source_blocks(book=None):
     """Every paragraph of running text the edition must carry, as written in the manuscript."""
     book = book or parse()
-    out = list(book['status']) + [re.sub(r'^\[[EDHVF]\]\s*', '', p) for p in book['proem']]
+    out = [re.sub(r'^\[[EDHVF]\]\s*', '', p) for p in book['positions']]
+    out += list(book['status']) + [re.sub(r'^\[[EDHVF]\]\s*', '', p) for p in book['proem']]
     for c in book['claims']:
         out += [t for _, t in c['parts']]
     for d in book['divisions']:
@@ -296,6 +299,15 @@ class Book:
         c.setFillColor(RED); c.setFont('VISmall', 9); c.drawCentredString(PW / 2, 70, m['edition'].upper())
         self.end()
 
+    def positions(self):
+        self.start('The position of this book', key='positions', title='The position of this book')
+        self.heading('The position of this book', size=22)
+        self.rule('positions')
+        for paragraph in self.book['positions']:
+            tag = re.match(r'\[([EDHVF])\]\s*(.*)', paragraph)
+            self.flow(tag.group(2), 'body', tag=tag.group(1))
+        self.end()
+
     def keypage(self):
         self.start('The evidence key', key='key', title='The evidence key')
         self.heading('The evidence key', size=19)
@@ -414,6 +426,7 @@ def build(out):
     tmp = out / ('_text_' + PDF)
     b = Book(tmp, book); b.platemeta = platemeta
     b.titlepage()
+    b.positions()
     b.keypage()
     b.proem()
     b.claims()
@@ -477,3 +490,4 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument('--out', type=Path, default=ROOT / 'out')
     build(ap.parse_args().out)
+

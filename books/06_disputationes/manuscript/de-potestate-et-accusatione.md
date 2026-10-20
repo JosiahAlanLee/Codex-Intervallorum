@@ -3,16 +3,24 @@
 <!-- book
 subtitle: Of power, accusation and the obligations of participation
 strap: Authority over production, exposure to harm and exposure to blame, examined separately.
-edition: Third discussion draft, 18 October 2026
+edition: Third discussion draft, revised 20 October 2026
 author: Josiah Alan-Lee
 mark: pot
 -->
 
 ## Status
 
-Third discussion draft of Book VI, 18 October 2026, developed from the second draft filed by ChatGPT/Codex the same day and bound in place of the Tarot of Intervals. It is a candidate reading text for the author’s review, not an adopted statement of his position.
+Third discussion draft of Book VI, 18 October 2026, developed from the second draft filed by ChatGPT/Codex the same day and bound in place of the Tarot of Intervals. Revised on 20 October to state the positions argued in this edition at the author's direction.
 
-Paragraphs tagged [V] are proposed values. The institutional commitments and the participation rule are offered for acceptance, amendment or refusal, and none is adopted here; on adoption the tag stands as the key defines it. Bracketed keys resolve in the register at the end. Each plate says on its reading leaf whether it carries data, and from which record.
+Paragraphs tagged [V] state normative commitments. The detailed participation rule in Part III remains a proposed procedure open to amendment. Bracketed keys resolve in the register at the end. Each plate says on its reading leaf whether it carries data, and from which record.
+
+## The position of this book
+
+[V] Those who maintain a system and bear its harms should have enforceable means to contest its purposes and conditions, with material protection against retaliation. An accusation must identify an act, permit an answer and remain open to correction.
+
+[D] Authority over production, exposure to harm and exposure to blame are different relations. An account that records only the last hand on a failure can conceal decisions about the work and the risks imposed by it.
+
+[H] This book argues that records can make proximity substitute for responsibility and that an asymmetric ledger can reward harmful delay. The following claims state how to examine those mechanisms in particular cases.
 
 ## Proem
 
@@ -158,7 +166,7 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 
 [D] Someone must prepare the food, absorb the interruption, tend the exhausted person and return to unfinished work. Treating that provision as personal generosity conceals decisions about time, money and whose project takes precedence. The thinker who appears free of dependence may have transferred its management to someone else. In the terms of D15, the household carries exposure to harm for a project whose authority it does not hold.
 
-### Proposed commitments
+### Institutional commitments
 
 [V] Care and maintenance receive resources and a place in decisions about the work they sustain. Workers have collective means to negotiate whether a system is introduced, the purposes it serves, the pace it imposes and the work it replaces. Those affected hold authority that survives an inconvenient answer: a consultation that can be ignored supplies a different power from an enforceable agreement.
 
@@ -375,3 +383,4 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 [V] The publication decision belongs on that contested record. The author owes an account of the uses retained, the alternatives examined, the injuries requiring response and the evidence that would change the decision. A declaration of discomfort supplies none of those particulars. Continued work must produce them.
 
 **Reading the plate.** The book drawn as data. Every sentence of the tagged text and the claims, from the proem to the last paragraph of this section, is a vertical stroke whose length is its word count, set in reading order across six rows like a line of type, each section opening at its label. A stroke’s foot carries its paragraph’s tag: a dot for [E], a bar for [D], an open ring for [H], a cross for [V], a curl for [F]. A sentence containing a negation (not, no, nor, neither, never, none, nothing, cannot, without) carries a red tick at its head. Decks, fiction lines and these reading leaves are not counted. The counts in the side registers are computed from this manuscript when the plate is drawn. The plate measures a habit of the prose. It is no evidence that any limit was drawn correctly.
+

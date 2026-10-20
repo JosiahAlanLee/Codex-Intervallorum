@@ -2,6 +2,20 @@
 
 A Little Key to the Work and Its Intervals
 
+## The positions of these books
+
+### Book I / Purpose and preservation
+
+[V] The purpose of a system must remain open to challenge by those who maintain it and bear its effects. Preservation should retain the means to change or end a task, as well as the means to continue it.
+
+[D] Keeping a vessel intact, sustaining its present work and preserving capacity for different work are distinct achievements. The figures of this book examine who can revise the instruction and what makes revision possible.
+
+### Book II / The cost of waiting
+
+[V] Review must be answerable for the harm of waiting as well as the harm of acting. A route of correction should end in someone able to understand the report, decide and act while action remains useful.
+
+[H] A gate whose delay is charged to no one can look protective in the actor's ledger while increasing total harm. The model exhibits that reversal under its accounting rule; its institutional prevalence and role in preserving gates remain questions for evidence.
+
 ## I. Of the One Question
 
 Can the work discover its error, and still act on it?

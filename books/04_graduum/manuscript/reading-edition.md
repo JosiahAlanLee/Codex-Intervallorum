@@ -14,6 +14,14 @@ Revised manuscript, DRAFT | premise revision, 18 October 2026
 - [V] Adopted value; no scientific derivation claimed.
 - [F] Fiction, invented device, or an instruction belonging to the artwork.
 
+## The position of this book
+
+[V] Authority to correct a fault should be organised around the knowledge, time and resources the correction requires. An office must answer for the consequences of making its permission indispensable.
+
+[D] Rank and rate are different orderings. An authorisation arriving after the useful window has closed cannot enable action within it. A route for correction must reach a recipient able to understand the report and act on it.
+
+[H] The proposals in this book ask which arrangements make correction possible in time while keeping decisions open to challenge. Each proposed delegation must earn its place against a competent alternative.
+
 ## Proem
 
 [H] This book asks whether the people permitted to act on a fault can act before its deadline, and who bears the cost when they cannot. Book III invented a building where permission rises while local competence and exposure to blame fall. This book investigates some arrangements that could produce that pattern; it does not derive a law of bureaucracy from the satire.

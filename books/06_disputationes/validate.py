@@ -60,7 +60,7 @@ def validate(out):
     for c in book['claims']:
         require(b.norm(c['name']) in body, 'missing claim: ' + c['id'])
     # the tags: every tagged paragraph's tag stands in the margin of the page that opens it
-    tagged = [re.match(r'\[([EDHVF])\]', p).group(1) for p in book['proem']]
+    tagged = [re.match(r'\[([EDHVF])\]', p).group(1) for p in book['positions'] + book['proem']]
     for d in book['divisions']:
         if d['kind'] == 'section':
             tagged += [blk[1] for blk in d['blocks'] if blk[0] == 'para']
@@ -122,3 +122,4 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument('--out', type=Path, default=ROOT / 'out')
     validate(ap.parse_args().out)
+

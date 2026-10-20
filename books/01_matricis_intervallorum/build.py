@@ -297,6 +297,16 @@ plain=importlib.util.module_from_spec(spec);spec.loader.exec_module(plain)
 ib_render=plain.render_plate
 
 
+def positions(b,book):
+    b.start('Positions of Books I and II','positions','Positions of Books I and II')
+    y=b.heading('The positions of these books')
+    for position in book['opening_positions']:
+        y=b.text('Book '+position['book']+' / '+position['title'],52,y,400,'note')
+        for paragraph in position['paragraphs']:
+            y=b.text(paragraph,52,y,400)
+    b.end()
+
+
 def front(b,book):
     b.start('The work and its intervals','title',book['title']);c=b.c
     c.setFillColor(INK);c.setFont('Title',38);c.drawCentredString(PW/2,555,'Clavicula Matricis')
@@ -312,6 +322,8 @@ def front(b,book):
     b.start('The maintained workshop','frontispiece','The Maintained Workshop')
     c.drawImage(str(ROOT/'assets/the-maintained-workshop.jpg'),31,80,442,589.33,preserveAspectRatio=True,anchor='c')
     b.text('[F] One hand checks the instrument. Another keeps the room warm.',63,65,378,'small');b.end()
+
+    positions(b,book)
 
     for part in range(2):
         b.start('Index of the tables','index' if part==0 else None,'Index of the Tables' if part==0 else None)
@@ -401,6 +413,10 @@ def appendices(b,book):
 
 def markdown(book,out):
     rows=['# '+book['title'],'',book['subtitle'],'']
+    rows+=['## The positions of these books','']
+    for position in book['opening_positions']:
+        rows+=['### Book '+position['book']+' / '+position['title'],'']
+        for paragraph in position['paragraphs']:rows+=[paragraph,'']
     for ch in book['chapters']:
         rows+=['## '+ROMAN[ch['number']-1]+'. '+ch['title'],'',ch['deck'],'','> '+ch['fiction'],'','**Reading the plate.** '+ch['caption'],'']
         for pg in ch['pages']:
@@ -501,3 +517,4 @@ def main():
 
 
 if __name__=='__main__':main()
+

@@ -6,6 +6,16 @@ Book V of Codex Intervallorum. Developmental reading edition, 17 October 2026.
 
 <!-- leaf: cover -->
 
+## The position of this book
+
+<!-- leaf: text -->
+
+Learning through a figure is a process in which the reader participates. This book takes the position that an account of that process must include the question, the material operation, the reader's contribution and what the encounter changes. The order of marks can shape an inquiry; authority for a claim must be earned in the inquiry.
+
+An instruction can act through signs. Its effects, its meaning and the identity of the being addressed are separate questions. Acher's account of initiation puts changes in the practitioner's perception and habits at the centre of the work. It supplies a practitioner's position for comparison with this book's exercises. [S10]
+
+The readings here keep their arguments attributable and allow an encounter to challenge the question with which it began. Conflicting interpretations can remain beside the figure when the available evidence does not decide between them.
+
 ## The leaf found without its reader
 
 <!-- leaf: plate; art: found; cipher: THE TEAR IS NOT A SIGN -->
@@ -464,6 +474,8 @@ All bibliography for this standalone draft is gathered here at the end. The iden
 
 **[S9] Jeff Jones, “Characteristics of pattern formation and evolution in approximations of Physarum transport networks.”** Artificial Life 16(2), 127–153, 2010. DOI: 10.1162/artl.2010.16.2.16202. Publication metadata checked against the Crossref record; the paper itself was not re-read for this draft. Supplies the sensing, turning, deposit, diffusion and one-agent-per-cell rules that the five computed notae implement in fields/physarum.py, with parameters as each plate's legend and manifest record. https://doi.org/10.1162/artl.2010.16.2.16202 .
 
+**[S10] Frater Acher (2013). On the Dweller on the Threshold. Author-issued digital essay; copyright 2010–2013.** Preface, the discussion of perception and initiation (PDF pp. 6–9 and 15), conclusions (PDF pp. 23–24), and copyright leaf (p. 25) read directly in the supplied digital copy on 20 October 2026. Used for the practitioner's account of the questioner's transformation; the psychological model and claims of spiritual contact are attributed to Acher. This inspection establishes neither a clinical result nor the historical genealogy of the practice.
+
 **[R0] “Divinatory Systems as Combinatorial Objects.”** Claude's repository research packet, 17 October 2026, at research/divination-combinatorics.md. Inspected in full. A research lead and reported assumptions, not a replacement for its cited monographs. Its supplied idealized yarrow weights are inputs to this edition's independently verified calculation. Monograph page claims and uncertain procedures stay pending.
 
 **Form and drawing.** Book I, Clavicula Matricis, supplies the stroke vocabulary, twelve-mark hand, cream ground, red intervention and interruptions by another hand; Book IV supplies the plate furniture and the frame-scale carrier. The shared page and geometry modules are reused. The found-leaf ornament is a native schematic drawing. The five notae are numerical field results drawn as pen strokes: an agent model after Jones, J. (2010), "Characteristics of pattern formation and evolution in approximations of Physarum transport networks," *Artificial Life* 16(2): 127–153, with the sensing, turning, deposit, diffusion and one-agent-per-cell rules as he states them and parameters as each plate's legend and manifest record. The model is a reproduction of a published rule, not a re-review of the fields literature.
@@ -471,5 +483,6 @@ All bibliography for this standalone draft is gathered here at the end. The iden
 **Literary debt.** The CCRU supplies a precedent for unstable collective attribution and found-document fiction. It supplies neither historical evidence for the three arts nor a warrant that fictional assertion brings about its object.
 
 **Pending shelf checks.** Dummett; Decker, Depaulis and Dummett; Rutt; Shaughnessy; Bascom; Abimbola; the full Maitre and Ogunnaike texts; Véronèse's edition. Calvino/Fabbri remains a proposed literary debt pending passage checks. The mathematical passages use direct derivation rather than attributing unchecked statements to those works.
+
 
 

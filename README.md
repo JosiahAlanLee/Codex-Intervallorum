@@ -4,6 +4,8 @@
 
 A contemporary illustrated grimoire about correction, authority, memory, interpretation, and compulsion. Its invented rites, diagrams, ciphers, and parables sit beside source accounts that distinguish evidence, interpretation, hypothesis, and fiction.
 
+Each book opens with its positions. Books I and II state theirs separately in their shared opening. Book VII compares processes of requesting and receiving instruction in Goetic practice and collaboration with language-model agents, including the making of this book. Frater Acher's practitioner accounts enter that argument through directly read passages and attributed claims.
+
 The central inquiry concerns knowledge, permission, resources, responsibility and effective challenge. The proposed instruments have not demonstrated an advantage over competent existing review. Their historical arguments, ethical commitments and artwork retain their own grounds. The [evidence review and study limits](docs/research/evidence/README.md) distinguish existing antecedents, provisional proposals and conditional model results.
 
 This is the current public source repository. The collection was previously titled *Librum Quinque*. The first two books now share a consolidated setting; the inherited I–VII identifiers and citation keys remain stable. Book VI is *De Potestate et Accusatione*; the Tarot of Intervals, Book VI until 19 October 2026, is kept as a separate volume.
@@ -52,3 +54,4 @@ Raster artwork and card images retain their original bytes. Native lettering, se
 The [migration manifest](migration-source-manifest.json) identifies the original commit and blob hash of every imported input. [SOURCES.json](SOURCES.json) retains the earlier project lineage. Exact historical prompts embedded in artwork metadata retain their original wording. [Artwork paths](docs/artwork-paths.json) connect legacy export references with current repository files.
 
 The manuscripts and artwork carry no newly assigned blanket license. Typeface license notices remain with their files. The books record their authors, collaborators, sources, and inspection limits in their own apparatus and the collected end bibliography.
+

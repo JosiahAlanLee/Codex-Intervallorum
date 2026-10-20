@@ -15,6 +15,11 @@ KEY = {
 }
 
 FRONT = {
+    "positions": [
+        "[V] Authority to correct a fault should be organised around the knowledge, time and resources the correction requires. An office must answer for the consequences of making its permission indispensable.",
+        "[D] Rank and rate are different orderings. An authorisation arriving after the useful window has closed cannot enable action within it. A route for correction must reach a recipient able to understand the report and act on it.",
+        "[H] The proposals in this book ask which arrangements make correction possible in time while keeping decisions open to challenge. Each proposed delegation must earn its place against a competent alternative."
+    ],
     "proem": [
         "[H] This book asks whether the people permitted to act on a fault can act before its deadline, and who bears the cost when they cannot. Book III invented a building where permission rises while local competence and exposure to blame fall. This book investigates some arrangements that could produce that pattern; it does not derive a law of bureaucracy from the satire.",
         "[D] Rate means a characteristic interval of a named process; rank means an ordering of permission. This book groups processes by rate for a stated task. Stable subassemblies, symbolic constraints, ecological levels and managerial time-spans are different constructions in the sources, not interchangeable definitions of hierarchy.",
@@ -281,6 +286,7 @@ def build():
     json.dump(book, open(os.path.join(HERE, "book.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     md = [f"# {book['title']}", "", book["subtitle"], "", book["strap"], "", book["edition"], "", f"*{book['status']}*", ""]
     md += [f"- [{k}] {v}" for k, v in KEY.items()] + [""]
+    md += ["## The position of this book", ""] + [p + "\n" for p in FRONT["positions"]]
     md += ["## Proem", ""] + [p + "\n" for p in FRONT["proem"]]
     md += ["## The five claims", "", "The D-numbers are retained identifiers; [H] marks hypothesis, not deduction.", "", "| Claim | Measure | Counts against it |", "| --- | --- | --- |"]
     for c in FRONT["claims"]:
@@ -306,4 +312,5 @@ def build():
 
 if __name__ == "__main__":
     build()
+
 

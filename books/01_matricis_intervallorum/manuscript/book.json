@@ -897,5 +897,23 @@
       "[D] The separate substitution cipher assigns shapes to twenty-six letters. Read a letter string with the alphabet on the following leaf, then consult the literal table inscriptions. Do not decode a diagram's labelled twelve-mark sign as an alphabetic letter.",
       "[F] The branch of the open spiral carries no hidden verdict. Ornament can recur without adding a new instruction. The legends identify which marks are being used to say something."
     ]
-  }
+  },
+  "opening_positions": [
+    {
+      "book": "I",
+      "title": "Purpose and preservation",
+      "paragraphs": [
+        "[V] The purpose of a system must remain open to challenge by those who maintain it and bear its effects. Preservation should retain the means to change or end a task, as well as the means to continue it.",
+        "[D] Keeping a vessel intact, sustaining its present work and preserving capacity for different work are distinct achievements. The figures of this book examine who can revise the instruction and what makes revision possible."
+      ]
+    },
+    {
+      "book": "II",
+      "title": "The cost of waiting",
+      "paragraphs": [
+        "[V] Review must be answerable for the harm of waiting as well as the harm of acting. A route of correction should end in someone able to understand the report, decide and act while action remains useful.",
+        "[H] A gate whose delay is charged to no one can look protective in the actor's ledger while increasing total harm. The model exhibits that reversal under its accounting rule; its institutional prevalence and role in preserving gates remain questions for evidence."
+      ]
+    }
+  ]
 }

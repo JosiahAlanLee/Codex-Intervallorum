@@ -132,6 +132,13 @@ class Book:
 
     def key_leaf(self):
         d = self.d
+        self.running = "the position of this book"
+        self.outline.append(("The position of this book", self.n))
+        y = self.heading(PH - TOP, "The position of this book", 19)
+        for paragraph in d["front"]["positions"]:
+            y = self.para(y, paragraph)
+            y -= 7
+        self.new_page()
         self.running = "the evidence key"
         y = self.heading(PH - TOP, "The evidence key", 16)
         for k, v in d["evidence_key"].items():
@@ -329,3 +336,4 @@ if __name__ == "__main__":
     bp.fonts()
     data = json.load(open(os.path.join(HERE, "manuscript", "book.json")))
     Book(data).build(sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "output", "Clavicula_Graduum.pdf"))
+

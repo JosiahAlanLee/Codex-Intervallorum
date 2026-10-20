@@ -19,7 +19,7 @@ class BackmatterTests(unittest.TestCase):
     def test_septimus_parts_share_the_register_without_repeating_accounts(self):
         books=[('Clavis','Clavis','','clavis.pdf',''),('VII','De Vinculis','','vinculis.pdf','')]
         records,_,inputs=backmatter.collect(books)
-        self.assertEqual({k for r in records for k in r['keys']},{f'VII/S{i}' for i in range(1,21)})
+        self.assertEqual({k for r in records for k in r['keys']},{f'VII/S{i}' for i in range(1,23)})
         for record in records:
             self.assertEqual(len(record['accounts']),len({json.dumps(a,sort_keys=True) for a in record['accounts']}))
         self.assertIn('books/07_septimus/manuscript/clavis.md',inputs)
@@ -136,7 +136,7 @@ class BackmatterTests(unittest.TestCase):
         self.assertTrue(waite['citation'].startswith('Waite, A. E.'))
         self.assertIn('1910',waite['citation'])
         self.assertTrue(waite['accounts'][0]['status'].startswith('Online transcription inspected'))
-        self.assertEqual({k for r in records for k in r['keys']},{f'V/S{i}' for i in range(1,10)}|{'V/R0'})
+        self.assertEqual({k for r in records for k in r['keys']},{f'V/S{i}' for i in range(1,11)}|{'V/R0'})
         jones=next(r for r in records if 'V/S9' in r['keys'])
         self.assertTrue(jones['citation'].startswith('Jones, J.'))
         self.assertIn('Artificial Life 16(2)',jones['citation'])

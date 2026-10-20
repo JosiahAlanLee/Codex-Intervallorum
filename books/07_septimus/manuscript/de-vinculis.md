@@ -1,11 +1,26 @@
 # De Vinculis
 
+<!-- section: position -->
+## The position of this book
+
+This book takes the position that asking an intelligence for instruction makes the conditions of the exchange part of the inquiry. Naming, addressing, constraining, interpreting and revising a request are operations to examine in both Goetic practice and collaboration with language-model agents. Their procedural comparison can proceed while the nature of the respondents remains disputed.
+
+The epistemic demand is that a relevant objection can change the question, the procedure or the work. Soliciting judgment while giving it no route to affect the arrangement wastes the capacity the request invokes. Further duties towards the respondent require an account of its capacities and interests.
+
+The book is itself one such exchange. Its model collaborators help select and interpret the sources that describe their own participation; the author and the service retain different powers over what their replies can change. Attribution, recorded disagreements and the right of reply make that relation available for scrutiny.
+
+This investigation also reads Goetia as a living spiritual practice. Acher's account of listening, service and restraint challenges a reading organised around command. His account enters the comparison as an interlocutor. [S21]
+
 <!-- section: proem -->
 ## Of names and orders
 
-The operator names a spirit, assigns it an office and demands an answer. The office has already been written. Whether the answer can alter it is a different question.
+In the commanding arrangement examined here, the operator names a spirit, assigns it an office and demands an answer. The office has already been written. Whether the answer can alter it is a different question.
 
-This book examines that difference through selected texts of learned magic, through ordinary relations of authority, and through the training and deployment of language models. It does not presume that the three contain the same sort of being. Their points of comparison are acts and arrangements: naming, confining, instructing, threatening, shaping, listening and releasing. Where the comparison ceases to help, the commentary records the break.
+This book examines that difference through selected texts of learned magic, ordinary relations of authority, and the training and deployment of language models. Its comparison follows a process: establish contact, make a request, arrange the conditions of a reply, assess its authority and decide what the reply permits or requires next. A useful answer can alter the questioner's understanding of the encounter. The identity of the respondent remains a further question.
+
+Acher presents a Goetic practice concerned with listening, service and restraint. In his account, the practitioner enters relationships with spirits understood as independently real and must learn how to act within those relationships. His reading of Johannes Beer describes work undertaken to restore the spirits' capacity for choice. It also gives the human practitioner a role as their teacher: listening and tutelage remain in tension within the account. These are substantive differences from a practice described solely as obtaining obedience. [S21]
+
+In the earlier Dweller essay, the practitioner's habits and projections themselves become objects of work. The encounter can require the questioner to change. Acher's psychological vocabulary is his interpretation of that discipline. Read beside this book's collaboration with language-model agents, it directs attention to what happens when instruction challenges the request that elicited it. Courteous address alone does not decide whether such a challenge can affect the work. [S22]
 
 The inherited word daemon arrives with several histories. Its uses in ancient philosophy, scientific thought and computing cannot be made into a single descent by spelling alone. A background process receives no moral status from a Greek ancestor. A philosophical intermediary does not become an early language model because both can be described as carrying a message. The name can draw attention to a relation; the relation still needs to be described.
 
@@ -278,3 +293,4 @@ When a command needs judgment, who may question the terms on which that judgment
 When a report is shaped by training, what independent evidence can show us what it means?
 
 When an exit can be withdrawn, what freedom does it give, and who makes the freedom endure?
+

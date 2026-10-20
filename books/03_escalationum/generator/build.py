@@ -26,7 +26,7 @@ def register():
 def esc(s):return html.escape(str(s))
 def key(text):return re.sub(r'[^a-z0-9]+','-',text.lower()).strip('-')
 def pages(book):
- p=[dict(kind='cover',title=book['title'],id='cover'),dict(kind='text',title=book['front'][0]['title'],paragraphs=book['front'][0]['paragraphs'],id='warrant'),dict(kind='plate',title='The twenty-one passages',art='matrix',caption='Read down the receiving stations. Each occupied cell is one handoff; the diagonal has no passage.',id='matrix'),dict(kind='text',title=book['front'][1]['title'],paragraphs=book['front'][1]['paragraphs'],id='directions',sample='seal-06')]
+ p=[dict(kind='cover',title=book['title'],id='cover'),dict(kind='text',id='position',**book['position']),dict(kind='text',title=book['front'][0]['title'],paragraphs=book['front'][0]['paragraphs'],id='warrant'),dict(kind='plate',title='The twenty-one passages',art='matrix',caption='Read down the receiving stations. Each occupied cell is one handoff; the diagonal has no passage.',id='matrix'),dict(kind='text',title=book['front'][1]['title'],paragraphs=book['front'][1]['paragraphs'],id='directions',sample='seal-06')]
  illustration=book['illustrations']['credentials']
  p += [dict(kind='plate',title=illustration['title'],art='credentials',caption=illustration['caption'],id='credentials'),
        dict(kind='text',title=illustration['key_title'],paragraphs=illustration['paragraphs'],id='credentials-key')]
@@ -200,3 +200,4 @@ def build(out):
  print(json.dumps({'pages':len(pp),'plates_and_seals':len(arts),'text_overflow':0,'output':str(out)}))
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,default=ROOT/'output');args=p.parse_args();build(args.output)
+
