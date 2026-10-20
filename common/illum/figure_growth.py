@@ -10,6 +10,7 @@ import json
 import math
 import os
 from pathlib import Path
+from types import SimpleNamespace
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -154,6 +155,27 @@ def masks(rgb, meta, field, amount):
         ImageFilter.GaussianBlur(3)), float)/255
     mask *= support
     return mask, core
+
+
+def edge_masks(rgb, meta, field, amount, display_width=240):
+    """A narrow physical fringe, with the existing anatomy/object guards.
+
+    This explicitly selected mode leaves the figure's interior alone. The
+    sampling image has a faint shoulder so strokes can become grain just
+    outside the old contour, inside the unchanged source canvas.
+    """
+    h,w=rgb.shape[:2]
+    radius=max(2,min(23,round(w/max(10,display_width)*1.3)))
+    ink=Image.fromarray(np.uint8(rgb.mean(2)<237)*255)
+    outer=ink.filter(ImageFilter.MaxFilter(2*radius+1))
+    inner=ink.filter(ImageFilter.MinFilter(2*radius+1))
+    band=np.clip((np.asarray(outer,float)-np.asarray(inner,float))/255,0,1)
+    guard,core=protection(rgb,subject(meta),meta['figure_bbox_px'])
+    f=resize(field,(w,h))
+    mask=band*(.25+.55*f)*min(.8,amount)*(1-guard)
+    shoulder=np.asarray(outer.filter(ImageFilter.GaussianBlur(max(1,radius*.5))),float)/255
+    sampling=np.uint8(np.minimum(rgb.astype(float),255*(1-.30*shoulder[...,None])))
+    return mask,core,sampling
 
 
 def contours(field, level):
@@ -306,10 +328,12 @@ def appearance(canvas, keyed_path, meta, display_size=None):
         return keyed_path, details
     # This seed is independent of amount and of the source's absolute path.
     seed = int(hashlib.sha256((subject(meta)+meta["source_sha256"]).encode()).hexdigest()[:8], 16)
+    edge_mode=subject(meta) in getattr(canvas,'_figure_edge_subjects',())
     inputs = dict(version=VERSION, code_sha256=CODE_SHA256, stage=stage,
                   source_sha256=meta["source_sha256"], keyed_sha256=hashlib.sha256(Path(keyed_path).read_bytes()).hexdigest(),
                   seed=seed, spec=SPEC, anchors=ANCHORS.get(subject(meta), []),
-                  display_size_pt=[round(abs(v),3) for v in display_size] if display_size else None)
+                  display_size_pt=[round(abs(v),3) for v in display_size] if display_size else None,
+                  treatment='contour fringe' if edge_mode else 'progressive body')
     key = hashlib.sha256(json.dumps(inputs, sort_keys=True).encode()).hexdigest()[:20]
     CACHE.mkdir(parents=True, exist_ok=True)
     out = CACHE / f"{subject(meta)}-{key}.png"
@@ -319,8 +343,12 @@ def appearance(canvas, keyed_path, meta, display_size=None):
         tone = 1-rgb.mean(axis=2)/255
         field = simulate(tone, seed)
         mask, core = masks(rgb, meta, field, stage["amount"])
+        sampling=rgb
+        if edge_mode:
+            mask,core,sampling=edge_masks(rgb,meta,field,stage['amount'],
+                                          abs(display_size[0]) if display_size else 240)
         cornmeal = .15 + .65*stage["amount"]
-        material, counts = render_material(rgb, field, mask, seed, cornmeal,
+        material, counts = render_material(sampling, field, mask, seed, cornmeal,
                                            abs(display_size[0]) if display_size else None)
         # A continuous tonal bridge remains through the transition. This is
         # replacement within a mask, never a second full-opacity drawing.
@@ -339,6 +367,7 @@ def appearance(canvas, keyed_path, meta, display_size=None):
                       mask_sha256=hashlib.sha256(np.uint8(mask*255).tobytes()).hexdigest(),
                       mean_mask=round(float(mask.mean()),6), protected_pixels=int(core.sum()),
                       protected_pixels_equal=bool(np.array_equal(result[core],rgb[core])),
+                      outside_mask_equal=bool(np.array_equal(result[mask==0],rgb[mask==0])),
                       protected_check_stage="source grid, before output resampling and ground palette",
                       output_size_px=list(output.size),output_dpi_cap=OUTPUT_DPI,
                       output_sha256=hashlib.sha256(out.read_bytes()).hexdigest())
@@ -382,4 +411,45 @@ def cornmeal_path(canvas, pts, color=(90,67,49), seed=0, weight=.3):
             r=rng.uniform(.11,.25)*max(.8,weight/.3)
             canvas.circle(x,y,r,fill=1,stroke=0);grains+=1
     canvas.restoreState()
+    return grains
+
+
+def flowing_rule(hand,x0,x1,y,color='umber',seed=0):
+    """A selected decorative scallop, with its original strokes retained.
+
+    A small image-fed field modulates sparse grain along the recorded paths.
+    Call only for illustration furniture; no semantic or plotted paths enter.
+    """
+    import furniture as fu
+    paths=[]
+    def stroke(pts,*args,**kwargs):
+        paths.append(list(pts))
+        return hand.stroke(pts,*args,**kwargs)
+    fu.wave_rule(SimpleNamespace(stroke=stroke),x0,x1,y,color=color,seed=seed)
+    width=144;height=32
+    food=Image.new('L',(width,height),0)
+    draw=ImageDraw.Draw(food)
+    def grid(p):return ((p[0]-x0)/max(1,x1-x0)*(width-1),(y+5-p[1])/10*(height-1))
+    for pts in paths:draw.line([grid(p) for p in pts],fill=255,width=2)
+    field_seed=int(hashlib.sha256(('wave-grain-'+str(seed)).encode()).hexdigest()[:8],16)
+    field=resize(simulate(np.asarray(food,float)/255,field_seed),(width,height))
+    rng=np.random.default_rng(field_seed)
+    c=hand.c;c.saveState();c.setFillColorRGB(148/255,122/255,75/255)
+    grains=0
+    for pts in paths:
+        for a,b in zip(pts,pts[1:]):
+            dx,dy=b[0]-a[0],b[1]-a[1];length=math.hypot(dx,dy)
+            if length<.01:continue
+            gx,gy=grid(a)
+            f=field[min(height-1,max(0,round(gy))),min(width-1,max(0,round(gx)))]
+            if rng.random()>.12+.40*f:continue
+            t=rng.random();off=rng.normal(0,.35+.35*f)
+            x=a[0]+dx*t-dy/length*off;yy=a[1]+dy*t+dx/length*off
+            r=rng.uniform(.12,.23)
+            c.circle(x,yy,r,fill=1,stroke=0);grains+=1
+    c.restoreState()
+    if not hasattr(c,'_flow_material_records'):c._flow_material_records=[]
+    c._flow_material_records.append(dict(kind='decorative footer wave',seed=field_seed,
+        grains=grains,field_sha256=hashlib.sha256(np.round(field,6).tobytes()).hexdigest(),
+        original_paths_retained=True))
     return grains

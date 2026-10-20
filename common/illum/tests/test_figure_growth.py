@@ -6,6 +6,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from types import SimpleNamespace
 
 import numpy as np
 from PIL import Image, ImageDraw
@@ -14,6 +15,7 @@ from reportlab.pdfgen.canvas import Canvas
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import figure_growth as fg
 import platekit as pk
+import furniture as fu
 
 
 class FigureGrowthTests(unittest.TestCase):
@@ -65,6 +67,38 @@ class FigureGrowthTests(unittest.TestCase):
             pk.draw_doc(c,doc,pk.Map((0,0,20,20),(0,0,100,100)))
             self.assertEqual(bool(getattr(c,'_cornmeal_grains',0)),expected)
             self.assertEqual(doc.layers,before)
+
+    def test_edge_mode_stays_in_fringe_and_keeps_cores(self):
+        rgb,meta=self.fixture()
+        field=fg.simulate(1-rgb.mean(2)/255,17)
+        mask,core,sampling=fg.edge_masks(rgb,meta,field,.78,80)
+        self.assertGreater(mask.sum(),0)
+        self.assertTrue(np.all(mask[core]==0))
+        # Solid lower interior and distant white background stay outside it.
+        self.assertEqual(mask[90,40],0)
+        self.assertEqual(mask[90,0],0)
+        self.assertLess(float(mask.max()),.65)
+        with tempfile.TemporaryDirectory() as td:
+            path=Path(td)/'source.png';Image.fromarray(rgb).save(path)
+            c=Canvas(io.BytesIO());fg.configure(c,'IV',9,12)
+            c._figure_edge_subjects=(fg.subject(meta),)
+            old=fg.CACHE;fg.CACHE=Path(td)/'cache'
+            try:
+                _,details=fg.appearance(c,str(path),meta)
+                self.assertEqual(details['treatment'],'contour fringe')
+                self.assertTrue(details['outside_mask_equal'])
+                self.assertTrue(details['protected_pixels_equal'])
+            finally:fg.CACHE=old
+
+    def test_decorative_grain_retains_original_wave_paths(self):
+        ordinary=[];treated=[]
+        fu.wave_rule(SimpleNamespace(stroke=lambda p,*a,**k:ordinary.append((p,a,k))),10,150,30,seed='IV')
+        c=Canvas(io.BytesIO())
+        h=SimpleNamespace(c=c,stroke=lambda p,*a,**k:treated.append((p,a,k)))
+        n=fg.flowing_rule(h,10,150,30,seed='IV')
+        self.assertEqual(ordinary,treated)
+        self.assertGreater(n,0)
+        self.assertTrue(c._flow_material_records[0]['original_paths_retained'])
 
 
 if __name__=='__main__':unittest.main()

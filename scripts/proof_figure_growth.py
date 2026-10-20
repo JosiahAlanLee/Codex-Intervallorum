@@ -63,7 +63,12 @@ def main():
         stem='tabula-'+num.lower()+'-illustrated.pdf'
         before=fitz.open(temp/'before'/stem)
         after=fitz.open(PLATES/'out/plates'/stem)
-        assert before[0].get_text()==after[0].get_text(),f'Typeset text changed in {num}'
+        before_text=before[0].get_text();after_text=after[0].get_text()
+        provenance_note=after_manifest[num].get('figure_source_note')
+        if provenance_note:
+            assert after_text.count(provenance_note+'\n')==1,(num,'missing or repeated source note')
+            after_text=after_text.replace(provenance_note+'\n','',1)
+        assert before_text==after_text,f'Typeset body text changed in {num}'
         # Compare the actual retained/decode records, not merely mark counts.
         for key in ['carrier_check','frame_rule','carrier_message','second_text','table_cells']:
             assert before_manifest[num].get(key)==after_manifest[num].get(key),(num,key)
@@ -73,7 +78,8 @@ def main():
         page.insert_text((522,17),'PROGRESSIVE FIGURE / SHARED MATERIAL',fontsize=10,color=(.22,.18,.12))
         page.show_pdf_page(fitz.Rect(0,26,504,746),before,0)
         page.show_pdf_page(fitz.Rect(504,26,1008,746),after,0)
-        checks.append(dict(plate=num,typeset_text_equal=True,carrier_records_equal=True,
+        checks.append(dict(plate=num,typeset_body_text_equal=True,added_provenance_note=provenance_note,
+            carrier_records_equal=True,
             ground=after_manifest[num]['material_ground'],
             structural_grains=after_manifest[num]['cornmeal_structural_grains']))
         before.close();after.close()
