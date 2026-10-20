@@ -180,6 +180,20 @@ This is an independently checked consequence of the stated weights. It says noth
 
 *Another hand:* A regular distribution of beginnings does not guarantee a regular distribution of endings.
 
+## A table of possible endings
+
+<!-- leaf: plate; art: transitions; cipher: THE FIGURE IS NOT ITS READING -->
+
+Read a row as a primary figure and a column as its resulting figure. Both run from zero to sixty-three in binary order: yin is zero, yang one, and the bottom line is the least significant place. This is a modern arrangement for calculation, not the received sequence or a recovered historical diagram.
+
+Each cell gives the joint weight of that pair under the preceding leaf's idealized yarrow model. The numerator multiplies six line weights; the common denominator is sixteen to the sixth power. The four weights are one, five, seven and three for old yin, young yang, young yin and old yang. Independence is an assumption of the table.
+
+Hatching groups these numerators into seven logarithmic grades, shown below the bars. The grades begin at 1, 7, 49, 343, 2,401, 16,807 and 117,649; the last is the maximum. Twice the hatching does not mean twice the probability. Red outlines mark the unchanged figures along the diagonal.
+
+The equal ticks at the left mark equal primary marginals. Below, the red bars give resulting marginals on a linear scale. The black rule is one sixty-fourth: the uniform resulting marginal under the fair three-coin model. The bars and the cell hatching use different scales.
+
+The strip reads: THE FIGURE IS NOT ITS READING. This table supplies no rule for choosing passages when several lines change.
+
 ## Ars Vestigiorum — the unoccupied address
 
 <!-- leaf: plate; art: vestigiorum; cipher: THE ADDRESS IS NOT THE VERSE -->
@@ -408,7 +422,7 @@ The brief and research were prepared by Claude. This manuscript development, its
 
 The orations, copyists, disputation, condemnation and found leaf are newly composed fiction. The reading leaves distinguish that fiction from reported history, calculations, assumptions and work still owed. No historical manuscript has been translated or reconstructed here.
 
-Five computed notae accompany the text, on the Book IV plate furniture, each regenerable from its filed manifest; the found leaf remains a cipher ornament in the place of the frontispiece. The controls the brief requires, the physical plotting, and the four raster figure briefs remain later work.
+Five computed notae accompany the text, on the Book IV plate furniture, each regenerable from its filed manifest; the found leaf remains a cipher ornament in the place of the frontispiece. A sixth plate, the table of possible endings, was implemented with ChatGPT/Codex on 20 October 2026 from Claude’s Codex palette research. It draws the stated finite calculation rather than a trace field. Its full integer weights are filed beside the SVG. The controls the brief requires, the physical plotting, and the four raster figure briefs remain later work.
 
 The three arts remain three. Their arrangement in this gathering does not supply a single history, a single epistemology, or a common promise of efficacy.
 
