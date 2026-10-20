@@ -86,7 +86,7 @@ class PortableOutput(unittest.TestCase):
    r=ET.parse(p).getroot()
    for n in r.iter():self.assertNotIn(n.tag.split('}')[-1],['text','image','foreignObject','use'])
  def test_plotter_exports_are_strokes_not_filled_type(self):
-  paths=list((ROOT/'output/plotter-a4').glob('*.svg'));self.assertEqual(len(paths),126)
+  paths=list((ROOT/'output/plotter-a4').glob('*.svg'));self.assertEqual(len(paths),129)
   for p in paths:
    r=ET.parse(p).getroot();self.assertEqual(r.get('width'),'210mm')
    for n in r.iter(NS+'path'):self.assertEqual(n.get('fill'),'none')
@@ -102,7 +102,7 @@ class PortableOutput(unittest.TestCase):
     if 'id' in a:self.ids.append(a['id'])
     if tag=='option':self.targets.append(a['value'])
   p=IDs();p.feed((ROOT/'output/Pseudomonarchia_Escalationum.html').read_text())
-  self.assertEqual(len(p.ids),len(set(p.ids)));self.assertTrue(set(p.targets)<=set(p.ids));self.assertEqual(len(p.targets),47)
+  self.assertEqual(len(p.ids),len(set(p.ids)));self.assertTrue(set(p.targets)<=set(p.ids));self.assertEqual(len(p.targets),49)
  def test_manifest_tracks_current_inputs(self):
   m=json.loads((ROOT/'output/build-manifest.json').read_text())
   for p,d in m['input_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),d,p)

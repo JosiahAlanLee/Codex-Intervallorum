@@ -22,14 +22,20 @@ def main():
     tmp = os.path.join(OUT, "_build")
     subprocess.run([sys.executable, os.path.join(PLATES, "notae.py"), "all", tmp], check=True, env=env, cwd=PLATES,
                    stdout=subprocess.DEVNULL)
-    subprocess.run([sys.executable, os.path.join(PLATES, "validate.py"), tmp], check=True, env=env, cwd=PLATES,
-                   stdout=subprocess.DEVNULL)
     import cairosvg
     from pypdf import PdfReader, PdfWriter
     pages, summary = [], []
     for d in sorted(os.listdir(tmp)):
-        meta = json.load(open(os.path.join(tmp, d, "build-meta.json")))
-        val = json.load(open(os.path.join(tmp, d, "validation.json")))
+        plate_dir = os.path.join(tmp, d)
+        # Consume the full field report immediately after validating this plate.
+        # The shared structural validator also writes validation.json; its report
+        # alone is insufficient for the reading edition's field provenance.
+        subprocess.run([sys.executable, os.path.join(PLATES, "validate.py"), plate_dir],
+                       check=True, env=env, cwd=PLATES, stdout=subprocess.DEVNULL)
+        meta = json.load(open(os.path.join(plate_dir, "build-meta.json")))
+        val = json.load(open(os.path.join(plate_dir, "validation.json")))
+        if not val.get("field", {}).get("all_passed") or not val["all_passed"]:
+            raise ValueError(f"Missing or failed field validation: {plate_dir}")
         stem = meta["stem"]
         svg = os.path.join(tmp, d, f"{stem}.svg")
         png = os.path.join(OUT, f"{stem}.png")

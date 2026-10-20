@@ -305,6 +305,20 @@ def build_art(book,out):
   path=out/('office-seal-'+str(t['id'])+'.svg');path.write_text(office_seal(t).svg());results['office-seal-'+str(t['id'])]=path
  for h in book['handoffs']:
   path=out/('seal-'+h['id']+'.svg');path.write_text(seal(h['source'],h['target'],h['name'],core=h['mark']).svg());results['seal-'+h['id']]=path
+ # The new plate reads this catalogue directly; no art-repository checkout is needed.
+ import sys
+ sys.path.insert(0,str(ROOT.parents[1]))
+ from common.illustrations.palette import credentials,station
+ plate=credentials(book,ink=INK,red=RED)
+ lettering=[label('Of the credentials',85,20,5,'roman',center=True)]
+ for t in book['tiers']:
+  angle=-math.pi/2+t['id']*math.tau/7
+  pos=station(t['id'])+[20*math.cos(angle),20*math.sin(angle)]
+  lettering.append(label(t['name'],pos[0],pos[1]+.8,2.2,'mono',center=True))
+ path=out/'credentials.svg'
+ path.write_text(plate.svg('<g id="lettering">'+''.join(lettering)+'</g>'))
+ results['credentials']=path
+ (out/'credentials-data.json').write_text(json.dumps(plate.metadata,indent=2)+'\n')
  return results
 
 def plot_export(path,out):

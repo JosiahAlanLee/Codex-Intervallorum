@@ -27,9 +27,10 @@ COMPUTED = {'vestigiorum': 'nota-i-deposit-reading', 'sense': 'nota-ii-sense-rea
             'generalis': 'nota-v-generalis-reading'}
 sys.path.insert(0, str(ROOT / 'common' / 'plot'))
 sys.path.insert(0, str(ROOT / 'common' / 'geometry'))
+sys.path.insert(0, str(ROOT))
 from bookpage import PW, PH, PAPER, INK, RED, MM, PageHand, paper, flow_rule
 from core import arc_pts, catmull
-from plotkit import PlotDoc, PlotHand
+from plotkit import PlotDoc, PlotHand, OutlineFont
 import tx
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.pdfbase import pdfmetrics
@@ -180,6 +181,58 @@ def ornament(p, index, out):
                 figure_status='constructed schematic ornament; no numerical field output')
 
 
+def transition_figure(p, out):
+    """Render the exact table and a genuine transcription strip from the same SVG."""
+    import cairosvg
+    from common.illustrations.palette import transition_table
+
+    plate = transition_table()
+    doc = PlotDoc(w=plate.width, h=plate.height)
+    hand = PlotHand(doc, random.Random(50506), 'text', amp=0)
+    face = OutlineFont(str(ROOT/'common/fonts/IMFeENrm28P.ttf'))
+    face.write(hand, p['title'], 85, 12, 3.5, align='center')
+    face.write(hand, 'resulting', 87, 21, 2.2, align='center')
+    face.write(hand, 'primary', 2, 25, 1.7)
+    for n in (*range(0, 64, 8), 63):
+        face.write(hand, str(n), 24+n*2, 26, 1.5, align='center')
+        face.write(hand, str(n), 16, 29.6+n*2, 1.5, align='right')
+    face.write(hand, 'Resulting marginals', 87, 163, 2.3, align='center')
+    rule_y = 190 - 24 * (16**6 // 64) / max(plate.metadata['yarrow']['result_marginals'])
+    face.write(hand, '1/64', 20, rule_y+.6, 1.7, align='right')
+    for n in range(1, 8):
+        face.write(hand, str(n), 33.5+(n-1)*17, 201, 1.7, align='center')
+
+    size = min(2.8, 138/tx.width(p['cipher'], 1))
+    cursor, audit = (170-tx.width(p['cipher'], size))/2, []
+    for wi, word in enumerate(tx.encode(p['cipher'])):
+        if wi:
+            cursor += .55*size
+        for base, tally in word:
+            start = len(doc.layers['text'])
+            tx.mark(hand, base, cursor, 213, size, 'orn', 'ink')
+            tx.tally(hand, tally, cursor, 213, size, 'ink')
+            first = doc.layers['text'][start]
+            doc.layers['text'][start] = first[:3] + (
+                f' data-glyph="{len(audit)}" data-word="{wi}" data-base="{base}" data-tally="{tally}"',)
+            audit.append(dict(word=wi, base=base, tally=tally))
+            cursor += tx.token_width(tally, size)
+    lettering = re.search(r'<g .*?</g>', doc.svg(layers=('text',)), re.S)[0]
+    lettering = re.sub(r' inkscape:[\w-]+="[^"]*"', '', lettering)
+    svg = plate.svg(lettering)
+    stem = 'nota-transitions'
+    (out/(stem+'.svg')).write_text(svg)
+    data = out/(stem+'-data.json')
+    data.write_text(json.dumps(plate.metadata, indent=2)+'\n')
+    pdf = out/(stem+'.pdf')
+    pdf.write_bytes(cairosvg.svg2pdf(bytestring=svg.encode()))
+    return dict(stem=stem, kind='exact', cipher=p['cipher'], tokens=audit,
+                sha256=hashlib.sha256(svg.encode()).hexdigest(),
+                data=data.name, data_sha256=hashlib.sha256(data.read_bytes()).hexdigest(),
+                pdf=str(pdf), pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),
+                physical_plotter_tested=False,
+                figure_status='exact finite joint weights under the stated independent-line model; modern binary arrangement')
+
+
 def rich(s):
     s=unicodedata.normalize('NFC',s)
     s=html.escape(s)
@@ -208,7 +261,9 @@ def build(out):
     for i,p in enumerate(pages):
         if not p.get('art'):
             continue
-        if p['art'] in COMPUTED:
+        if p['art'] == 'transitions':
+            figures[p['art']]=transition_figure(p,out)
+        elif p['art'] in COMPUTED:
             stem=COMPUTED[p['art']]
             pdf=READING/(stem+'.pdf')
             if not pdf.exists():
@@ -244,13 +299,13 @@ def build(out):
     for leaf in pages:
         number+=1
         kind,title=leaf['kind'],leaf['title']
-        if kind=='plate' and figures[leaf['art']].get('kind')=='computed':
+        if kind=='plate' and figures[leaf['art']].get('kind') in ('computed','exact'):
             # the plate takes the whole leaf (folio only); the title and its text follow on the next
             paper(c)
             c.setFont('Fell',10);c.setFillColorRGB(*INK);c.drawCentredString(PW/2,28,str(number))
             c.bookmarkPage('leaf-'+str(number));c.addOutlineEntry(title,'leaf-'+str(number),0,False)
             merges[number]=figures[leaf['art']]['pdf']
-            layout.append(dict(page=number,title=title,kind='computed-plate',boxes=[]))
+            layout.append(dict(page=number,title=title,kind=figures[leaf['art']]['kind']+'-plate',boxes=[]))
             c.showPage();number+=1
         y=start(title,kind,number)
         item=dict(page=number,title=title,kind=kind,boxes=[])
@@ -264,7 +319,7 @@ def build(out):
             c.setFont('Mono',8);c.drawCentredString(PW/2,173,'DEVELOPMENTAL EDITION / 17 OCTOBER 2026')
             c.setFont('FellIt',11);c.drawCentredString(PW/2,126,'The last blank has been left where it was drawn.')
         else:
-            if kind=='plate' and figures[leaf['art']].get('kind')=='computed':
+            if kind=='plate' and figures[leaf['art']].get('kind') in ('computed','exact'):
                 y=560
             elif kind=='plate':
                 drawing=svg2rlg(str(out/(figures[leaf['art']]['stem']+'.svg')))
@@ -318,7 +373,8 @@ def build(out):
         with open(out/'Ars_Notoria_Stigmatum_reading.pdf','wb') as f:
             w.write(f)
     manifest=dict(edition='developmental reading draft, 2026-10-17',trim_points=[PW,PH],page_count=number,
-                  computed_plate_pages=sorted(merges),
+                  computed_plate_pages=[p['page'] for p in layout if p['kind']=='computed-plate'],
+                  exact_plate_pages=[p['page'] for p in layout if p['kind']=='exact-plate'],
                   manuscript_sha256=hashlib.sha256((HERE/'reading-edition.md').read_bytes()).hexdigest(),
                   figures=figures,layout=layout,bibliography_pages=[p['page'] for p in layout if p['kind']=='sources'])
     pdf=out/'Ars_Notoria_Stigmatum_reading.pdf'
@@ -342,6 +398,9 @@ def validate(out):
             continue
         path=out/(f['stem']+'.svg')
         assert hashlib.sha256(path.read_bytes()).hexdigest()==f['sha256']
+        if f.get('kind')=='exact':
+            assert hashlib.sha256((out/f['data']).read_bytes()).hexdigest()==f['data_sha256']
+            assert hashlib.sha256(Path(f['pdf']).read_bytes()).hexdigest()==f['pdf_sha256']
         root=ET.fromstring(path.read_text())
         glyphs=sorted([e for e in root.iter() if 'data-glyph' in e.attrib],key=lambda e:int(e.attrib['data-glyph']))
         words=[]
@@ -350,7 +409,8 @@ def validate(out):
             while len(words)<=wi:words.append([])
             words[wi].append((int(e.attrib['data-base']),int(e.attrib['data-tally'])))
         assert tx.decode(words)==f['cipher']
-        colors={e.attrib['stroke'] for e in root.iter() if 'stroke' in e.attrib}
+        colors={e.attrib[k] for e in root.iter() for k in ('stroke','fill')
+                if e.attrib.get(k, 'none') != 'none'}
         assert colors <= {'#161918','#a32b24'}
         assert not any(e.tag.endswith(('image','text')) for e in root.iter())
     for p in m['layout']:

@@ -68,6 +68,9 @@ def main():
         print('+ tests: common/illum/tests', flush=True)
         subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', 'common/illum/tests', '-v'],
                        cwd=ROOT, check=True)
+        print('+ tests: common/illustrations/tests', flush=True)
+        subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', 'common/illustrations/tests', '-v'],
+                       cwd=ROOT, check=True)
     if args.edition in ['all', 'reading']:
         run('binding/bind.py')
         run('binding/validate.py', 'binding/out/Codex_Intervallorum_reading.pdf')

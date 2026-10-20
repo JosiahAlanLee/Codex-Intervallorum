@@ -27,6 +27,9 @@ def esc(s):return html.escape(str(s))
 def key(text):return re.sub(r'[^a-z0-9]+','-',text.lower()).strip('-')
 def pages(book):
  p=[dict(kind='cover',title=book['title'],id='cover'),dict(kind='text',title=book['front'][0]['title'],paragraphs=book['front'][0]['paragraphs'],id='warrant'),dict(kind='plate',title='The twenty-one passages',art='matrix',caption='Read down the receiving stations. Each occupied cell is one handoff; the diagonal has no passage.',id='matrix'),dict(kind='text',title=book['front'][1]['title'],paragraphs=book['front'][1]['paragraphs'],id='directions',sample='seal-06')]
+ illustration=book['illustrations']['credentials']
+ p += [dict(kind='plate',title=illustration['title'],art='credentials',caption=illustration['caption'],id='credentials'),
+       dict(kind='text',title=illustration['key_title'],paragraphs=illustration['paragraphs'],id='credentials-key')]
  for t in book['tiers']:
   i=t['id'];p += [dict(kind='plate',title=t['name']+' / '+t['office'],art=f'station-{i}',caption=f"{t['region']}. Permission enters the ornament; the office withdraws from view.",id=f'portrait-{i}'),dict(kind='office',title=t['name'],entry=t,id=f'office-{i}'),dict(kind='journey',title=t['region'],paragraphs=t['journey'],parable=t['parable'],station=i,id=f'region-{i}')]
   incoming=[h for h in book['handoffs'] if h['target']==i]
@@ -189,8 +192,10 @@ def build(out):
  inputs={str(p.relative_to(ROOT)):digest(p) for folder in ['generator','manuscript','fonts','tests','docs'] for p in sorted((ROOT/folder).rglob('*')) if p.is_file() and '__pycache__' not in p.parts}
  for name in ['README.md','NOTICES.md','requirements-lock.txt']:
   inputs[name]=digest(ROOT/name)
+ for shared in sorted((ROOT.parents[1]/'common/illustrations').glob('*.py')):
+  inputs['../../'+str(shared.relative_to(ROOT.parents[1]))]=digest(shared)
  outputs={str(p.relative_to(out)):digest(p) for p in sorted(out.rglob('*')) if p.is_file() and p.name not in ['build-manifest.json','layout-boxes.json']}
- manifest={'title':book['title'],'edition':book['edition'],'upstream_commit':book['source_commit'],'page_count':len(pp),'pages':[{'page':i,'id':p['id'],'kind':p['kind'],'title':p['title']} for i,p in enumerate(pp,1)],'input_sha256':inputs,'output_sha256':outputs,'dependencies':{x:version(x) for x in ['reportlab','svglib','fonttools','shapely','pillow']},'physical_plotter_tested':False,'counts':{'offices':7,'handoffs':21,'concept_and_portrait_plates':14,'office_seals':7,'handoff_seals':21},'reproducibility':'Deterministic build in pinned Python dependency environment; PDF invariant mode; no network needed.'}
+ manifest={'title':book['title'],'edition':book['edition'],'upstream_commit':book['source_commit'],'page_count':len(pp),'pages':[{'page':i,'id':p['id'],'kind':p['kind'],'title':p['title']} for i,p in enumerate(pp,1)],'input_sha256':inputs,'output_sha256':outputs,'dependencies':{x:version(x) for x in ['reportlab','svglib','fonttools','shapely','pillow','numpy']},'physical_plotter_tested':False,'counts':{'offices':7,'handoffs':21,'concept_and_portrait_plates':15,'office_seals':7,'handoff_seals':21},'reproducibility':'Deterministic build in pinned Python dependency environment; PDF invariant mode; no network needed.'}
  (out/'build-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n');(out/'layout-boxes.json').write_text(json.dumps(boxes,indent=2)+'\n')
  print(json.dumps({'pages':len(pp),'plates_and_seals':len(arts),'text_overflow':0,'output':str(out)}))
 if __name__=='__main__':
