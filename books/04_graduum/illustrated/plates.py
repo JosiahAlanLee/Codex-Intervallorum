@@ -166,6 +166,8 @@ class Leaf:
         self.c = Canvas(self.path, pagesize=(PW, PH), invariant=1, pageCompression=1)
         order = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
         figure_growth.configure(self.c, "IV", order.index(num), len(order))
+        if os.environ.get('GRIMOIRE_EDGE_GRAIN','1')!='0':
+            self.c._figure_edge_subjects={'IV':('viridon',),'X':('foras',)}.get(num,())
         self.dark = dark and num in ("VI", "VIII") and self.c._figure_growth["amount"] > 0
         if self.dark:
             self.c._figure_ground = "dark"
@@ -244,7 +246,17 @@ class Leaf:
                     cx += tx.token_width(t, 1)
             out = {"caption_cipher": {"shift": self.shift, "normalized": " ".join(tx.normalize(self.caption)),
                                       "mark_pt": s, "width_pt": w, "y_pt": 92}}
-        fu.wave_rule(self.h, PW / 2 - 70, PW / 2 + 70, 66 if cipher else 82, seed=self.num)
+        edge_grain=(os.environ.get('GRIMOIRE_EDGE_GRAIN','1')!='0'
+                    and self.c._figure_growth['amount']>0)
+        wave=figure_growth.flowing_rule if edge_grain and self.num in ('IV','VIII','X') else fu.wave_rule
+        wave(self.h, PW / 2 - 70, PW / 2 + 70, 66 if cipher else 82, seed=self.num)
+        source_note={'IV':'Viridon / after the raster portrait in Book III.',
+                     'X':'Foras / after the raster portrait in Book III.'}.get(self.num)
+        if source_note and edge_grain:
+            c.setFont('FellIt',8)
+            c.setFillColorRGB(*fu.rgb(fu.UMBER))
+            c.drawCentredString(PW/2,45,source_note)
+            out['figure_source_note']=source_note
         return out
 
     def note(self, quote, width, at, target, align="left", size=10.5, field="any"):
@@ -280,6 +292,7 @@ class Leaf:
     def save(self, meta):
         meta["figure_growth"] = getattr(self.c, "_figure_growth_records", [])
         meta["cornmeal_structural_grains"] = getattr(self.c, "_cornmeal_grains", 0)
+        meta['decorative_flow_grain']=getattr(self.c,'_flow_material_records',[])
         meta["material_ground"] = "dark" if self.dark else "paper"
         self.c.showPage()
         self.c.save()
