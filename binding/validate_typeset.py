@@ -13,6 +13,24 @@ from vellum import source_images, source_image_info
 def normalized(text):return ' '.join(text.split())
 
 
+MARK_INKS=((0xa3/255,0x2b/255,0x24/255),(0x16/255,0x19/255,0x18/255))
+
+
+def ground_ordered(page):
+    """A Nota Clausa field draws its two-point marks by row and then column, so their order says
+    nothing about which agent stands on which cell. The first seal drew them in the agents' order,
+    and its fields could be read without the key (Regula, clause 17)."""
+    last=None
+    for d in page.get_drawings():
+        items=d.get('items',[]);colour=d.get('color')
+        if len(items)!=1 or items[0][0]!='l' or colour is None:continue
+        if not any(all(abs(a-b)<.02 for a,b in zip(colour,ink)) for ink in MARK_INKS):continue
+        p,q=items[0][1],items[0][2];here=((p.y+q.y)/2,(p.x+q.x)/2)
+        if last and not (here[0]>last[0]+.5 or (abs(here[0]-last[0])<=.5 and here[1]>last[1])):return False
+        last=here
+    return last is not None
+
+
 def validate(pdf,repo,log):
     pdf,repo=Path(pdf),Path(repo);doc=fitz.open(pdf);bib=log['bibliography'];used=set();next_page=5;spreads=0;relocated=0
     septimus_spreads=0;septimus_links=0;book_vi_plates=0;book_vi_links=0
@@ -120,8 +138,15 @@ def validate(pdf,repo,log):
         for f in [p['page'] for p in meta['pages'] if p['title'].startswith('Field ')]:
             page=doc[body[f]-1]
             require(len(page.get_drawings())>7000 and not source_images(page),'Nota Clausa field is not its vector plate')
+            require(ground_ordered(page),'Nota Clausa field draws its marks in an order that can carry the reading')
             clausa_fields+=1
         require(clausa_fields==7,'Nota Clausa fields missing')
+    if 'De Vinculis' in log:
+        # The open Quaestio says every key it prints is in the end bibliography; hold it to that.
+        quaestio=(repo/'books/07_septimus/manuscript/quaestio.md').read_text()
+        for key in sorted(set(re.findall(r'\[([^\]\s]+)\]',quaestio))):
+            key=key if '/' in key else 'VII/'+key
+            require(key in destinations,'Quaestio Clausa key missing from the end bibliography: '+key)
     require(septimus_links==log.get('septimus_citation_links',0),'Septimus citation-link count differs')
     require(book_vi_links==log.get('book_vi_citation_links',0),'Book VI citation-link count differs')
     if bib['start_page']>next_page:require(not doc[next_page-1].get_text().strip(),'Back section alignment leaf is not blank')

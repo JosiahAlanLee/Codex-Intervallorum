@@ -52,7 +52,7 @@ The Semiphoras gathering in De Vinculis takes three English sentences, removes e
 
 The position is part of each seal's identity. Equal letter groups need not be made artificially different. Their recurrence can be printed honestly, while an outer position carrier and a written identifier distinguish their places. The recovery key is printed with the gathering. The reader is not required to trust the appearance of encryption.
 
-One gathering is enciphered without a printed key. The Nota Clausa closes the seventh book with seven fields grown by a rule that is printed whole. Its key is three names that the books supply, and the digests of its text are printed with the fields, so a claimed reading can be checked without trusting the person who offers it. The text is a disputation in seven articles. It cites only works already in the books' registers, and it contains no instructions.
+One gathering is enciphered without a printed key. The Nota Clausa closes the seventh book with seven fields grown by a rule that is printed whole. Its key is three names that the bound books supply, and the digests of its text are printed with the fields, so a claimed reading can be checked without trusting the person who offers it. The text is a set of objections to the Quaestio Clausa, which De Vinculis prints open just before it. The Quaestio was the first text sealed in the Nota Clausa; its marks lay in the order of the agents and gave it away without the key. The objections cite only works already in the books' registers, and they contain no instructions.
 
 ## Who or what is speaking?
 

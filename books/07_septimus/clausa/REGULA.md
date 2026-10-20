@@ -2,7 +2,7 @@
 
 The rule by which the seven fields of the Nota Clausa were grown, printed whole. It follows the rule of the notae in Book V (sense, turn, move, deposit, diffuse and evaporate, one agent to a cell) after Jones [V/S9], restated in whole numbers so that it gives the same result in any language on any machine. Nothing in it is secret. The only secret is the key, and the Tabula says where the key is.
 
-Every division below is a division of whole numbers rounding down. Every quantity divided is positive by construction. Every "mod 32" gives a heading from 0 to 31.
+Every division below is a division of whole numbers rounding down. Every quantity divided is zero or positive by construction. Every "mod 32" gives a heading from 0 to 31.
 
 ## I. The ground
 
@@ -57,7 +57,7 @@ No two agents ever hold one cell, so the last cells of the 7920 agents are 7920 
 
 ## V. The reading
 
-17. On each plate every mark stands on a cell, red or black. Red is 1, black is 0. The marks are the two-point strokes of the plot sheet's Art Paths layer; rings, contours and the reserved blank are drawn with more points, and lettering is in the Text Outlines layer. A mark's cell is the cell its stroke is centred on; the direction of the stroke is the agent's last heading and is not needed for reading. On the A4 plot sheet, measured in millimetres from its top left corner, cell (*x*, *y*) is centred at (14.35 + 0.7x, 61.35 + 0.7y), so the ground's centre is the sheet's point (105, 152). The red ring is the arena's edge. A reading edition may scale the sheet, never distort it.
+17. On each plate every mark stands on a cell, red or black. Red is 1, black is 0; on the plot sheet the red is #a32b24 and the black #161918. The marks are the two-point strokes of the plot sheet's Art Paths layer; rings, contours and the reserved blank are drawn with more points, and lettering is in the Text Outlines layer. In a copy that keeps no layers, such as a PDF or a print, the marks are the two-point strokes centred on cells of the ground; the lettering lies above and below the ground, and the two slashes in it are not marks. The sheet lists the marks in the order of their cells, by *y* and then *x*, so their order carries nothing: only the regrown field says which agent stands on which cell. A mark's cell is the cell its stroke is centred on; the direction of the stroke is the agent's last heading and is not needed for reading. On the A4 plot sheet, measured in millimetres from its top left corner, cell (*x*, *y*) is centred at (14.35 + 0.7x, 61.35 + 0.7y), so the ground's centre is the sheet's point (105, 152). The red ring is the arena's edge. A reading edition may scale the sheet, never distort it.
 18. Regrow the field from its key. For agents 0 to 7919 in order, read the colour of the mark on that agent's last cell. This gives 7920 figures.
 19. Take the figures six at a time, the first of each six the most significant. Each six is a number from 0 to 63. Read the number as a sign in this table, where ¶ is the end of a line:
 

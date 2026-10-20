@@ -66,12 +66,27 @@ def vinculis_sections():
     return out
 
 
+def quaestio_blocks():
+    """The Quaestio Clausa, printed open after the seals: (style, text) in reading order."""
+    out=[]
+    for block in (ROOT/'manuscript/quaestio.md').read_text().strip().split('\n\n'):
+        block=' '.join(block.split())
+        if block.startswith('# '):out.append(('heading',block[2:]))
+        elif block.startswith('### '):out.append(('label',block[4:]))
+        elif block.startswith('*') and block.endswith('*') and not block.startswith('**'):out.append(('small',block[1:-1]))
+        else:out.append(('body',block))
+    return out
+
+
 def all_source_blocks(kind):
     if kind=='clavis':return [p for _,ps in clavis_sections() for p in ps]
     out=[]
     for s in vinculis_sections():
         out+=s['paragraphs'] if s['kind']=='section' else s['tabula']+s['commentary']
-    return out
+    return out+[text for _,text in quaestio_blocks()]
+
+
+CITED=r'\[(?:VII/)?(S\d+)\]'
 
 
 def fonts():
@@ -83,6 +98,7 @@ def fonts():
 def markup(s):
     s=html.escape(s)
     s=re.sub(r'\*\*(.*?)\*\*',r'<font name="SVSmall" color="#a32b24">\1</font>',s)
+    s=re.sub(r'\[VII/(S\d+)\]',r'<link href="#ref-\1" color="#a32b24">[VII/\1]</link>',s)
     return re.sub(r'\[(S\d+)\]',r'<link href="#ref-\1" color="#a32b24">[\1]</link>',s)
 
 
@@ -201,11 +217,12 @@ class Book:
 
     def append_sources(self,kind):
         refs=json.loads((ROOT/'manuscript/references.json').read_text())
-        used={x for p in all_source_blocks(kind) for x in re.findall(r'\[(S\d+)\]',p)}
+        used={x for p in all_source_blocks(kind) for x in re.findall(CITED,p)}
         refs=[r for r in refs if r['id'] in used]
         notes=[dict(title='VII / preparation',paragraphs=[
             'First reading edition, 17 October 2026. Prepared for Josiah Alan-Lee. Project and text direction: Josiah Alan-Lee. Initial brief and research passes: Claude Opus 5.5. Editorial revision, Clavis and De Vinculis reading texts, native apparatus, build and opening illuminations: ChatGPT/Codex.',
             'The Clavis is a proposed entrance to the series, not personal testimony supplied by the author or a declaration of his final commitments. Both parts remain review texts. The Clavis opens the bound volume; De Vinculis follows Book VI as Book VII, before the collected bibliography. Both parts are also available as standalone reading editions. The Clavis paragraph on Book VI and its sentence on claim labels were revised by Claude on 19 October 2026, when De Potestate et Accusatione replaced the Tarot of Intervals as Book VI.',
+            'The Quaestio Clausa that closes De Vinculis was written by Claude and sealed in the Nota Clausa on 17 October 2026. Its fields listed their marks in the order of the agents and could be read without the key. On 20 October 2026, at the author\'s direction, Claude printed it open here, transcribed from the readings that matched its printed digests, revised the Clavis paragraph on the Nota Clausa, and added the institutional report the Quaestio names to the register as S21.',
             'The bibliography distinguishes direct passages, abstracts, indexed material and original-pass reports. The independent check is limited and no experiment was reproduced. The full research passes retain their original provenance and contested leads in the repository.',
             'The two composed raster scenes were generated with the built-in imagegen tool. On 19 October 2026, the open workshop received a furniture and instrument-support correction with the same tool; the original is retained. Prompts and image hashes are recorded with the assets. Generated imagery carries no keyed text or experimental evidence.',
             'The inner seal hand uses the inherited Matricis substitution alphabet, drawn as native vector strokes. Position carriers and identifiers are separate. The seventy-two-name arrangement is a disclosed English adaptation, with normalized-letter recovery checked by code. The three sentences first used, whose names repeat SNO, are kept in the code as a regression fixture; the printed questions repeat NEN and UND, so each seal is identified by its position as well as its name. Physical plotting has not been tested.'
@@ -243,6 +260,17 @@ def gathering(b):
     return data
 
 
+def quaestio(b):
+    """The first text of the Nota Clausa, printed open after the seals (20 October 2026)."""
+    blocks=quaestio_blocks();style,title=blocks[0]
+    if style!='heading':raise ValueError('quaestio.md must open with its title')
+    b.start(title,key='quaestio');b.heading(title)
+    for style,text in blocks[1:]:
+        if style=='label' and b.y<190:b.end();b.start(title)
+        b.paragraph(text,style)
+    b.end()
+
+
 def build(out):
     fonts();out=Path(out);out.mkdir(parents=True,exist_ok=True);results={}
     for kind,title,filename,subtitle in [('clavis','Clavis','Clavis_Septimus_reading.pdf','A way into the several books'),('vinculis','De Vinculis','De_Vinculis_reading.pdf','Of bonds, judgment and service')]:
@@ -271,10 +299,11 @@ def build(out):
                     b.tabula(s)
             sealdata=gathering(b)
             (out/'semiphoras.json').write_text(json.dumps(sealdata,indent=2)+'\n')
+            quaestio(b)
         apparatus=b.append_sources(kind);b.finish()
         with fitz.open(out/filename) as doc:pages=len(doc)
         results[kind]=dict(pdf=filename,pages=pages,page_map=b.pages,tabula_pairs=b.pairs,bibliography_start=b.bibliography_start,reference_keys=apparatus['keys'],sha256=sha(out/filename))
-    inputs=[ROOT/'build.py',ROOT/'manuscript/clavis.md',ROOT/'manuscript/de-vinculis.md',ROOT/'manuscript/references.json',ROOT/'semiphoras/semiphoras.py',REPO/'books/01_matricis/generator/cipher.py',REPO/'common/geometry/core.py',REPO/'binding/backmatter.py',*sorted((ROOT/'assets').glob('*'))]
+    inputs=[ROOT/'build.py',ROOT/'manuscript/clavis.md',ROOT/'manuscript/de-vinculis.md',ROOT/'manuscript/quaestio.md',ROOT/'manuscript/references.json',ROOT/'semiphoras/semiphoras.py',REPO/'books/01_matricis/generator/cipher.py',REPO/'common/geometry/core.py',REPO/'binding/backmatter.py',*sorted((ROOT/'assets').glob('*'))]
     inputs += [REPO/'common/fonts'/x for x in ['static/EBGaramond-Regular400.ttf','static/EBGaramond-Italic400.ttf','IMFeENrm28P.ttf','IMFeENsc28P.ttf','IBMPlexMono-Regular.ttf']]
     manifest=dict(schema_version=1,books=results,input_sha256={str(p.relative_to(REPO)):sha(p) for p in inputs if p.is_file()},seal_count=72,illumination_count=2)
     (out/'build-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')

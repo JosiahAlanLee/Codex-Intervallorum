@@ -30,8 +30,8 @@ The workflow generates the downloadable PDFs from the files in this repository. 
 | V | Ars Notoria Stigmatum | [Reading text](books/05_notoria/manuscript/reading-edition.md) |
 | Before VI | De Matribus Noctis | [Manuscript](books/00_matres/manuscript/de-matribus-noctis.md) |
 | VI | De Potestate et Accusatione | [Manuscript](books/06_disputationes/manuscript/de-potestate-et-accusatione.md) · [Source register](books/06_disputationes/manuscript/references.json) · [Plates](books/06_disputationes/plates/README.md) |
-| VII | De Vinculis | [Manuscript](books/07_septimus/manuscript/de-vinculis.md) |
-| VII, closing gathering | Nota Clausa | [Rule](books/07_septimus/clausa/REGULA.md) · [Table](books/07_septimus/clausa/TABULA.md) · [Record](books/07_septimus/clausa/README.md) |
+| VII | De Vinculis | [Manuscript](books/07_septimus/manuscript/de-vinculis.md) · [Quaestio Clausa, printed open](books/07_septimus/manuscript/quaestio.md) |
+| VII, closing gathering | Nota Clausa | [Rule](books/07_septimus/clausa/REGULA.md) · [Table](books/07_septimus/clausa/TABULA.md) · [Record](books/07_septimus/clausa/README.md) · [First seal](books/07_septimus/clausa/plates/README.md) |
 | Separate volume | Tarot of Intervals | [Card inventory](books/06_tarot/inventory.json) · [Reading-edition builder](books/06_tarot/book/make_book.py) |
 | Editorial discussion | Justin Sledge / Agrippa / Witch(x) | [Critique and handoff](docs/reviews/Justin_Sledge_Review.md) |
 | Project record | Objections from contributing models, with the author's dispositions | [Register](docs/objections/register.md) · [Right of reply](AGENTS.md) |

@@ -46,7 +46,7 @@ def validate(out):
         body=b.norm('\n'.join(text[:entry['bibliography_start']-1]));end=b.norm('\n'.join(text[entry['bibliography_start']-1:]))
         blocks=b.all_source_blocks(kind)
         for p in blocks:assert b.norm(p) in body,'lost source paragraph: '+p[:120]
-        cited={x for p in blocks for x in re.findall(r'\[(S\d+)\]',p)}
+        cited={x for p in blocks for x in re.findall(b.CITED,p)}
         assert cited<=ids, 'unresolved source keys'
         assert {'VII/'+x for x in cited}==set(entry['reference_keys'])
         for x in cited:assert b.norm('VII/'+x) in end, 'missing bibliography key '+x

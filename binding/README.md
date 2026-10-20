@@ -12,7 +12,11 @@ The Clavis opens both bindings. De Vinculis is Book VII, immediately after
 Book VI. Build and validate the Septimus PDFs with
 `python books/07_septimus/build.py` and `python books/07_septimus/validate.py`.
 Their common register and preparation record are consolidated once. The binder
-reconnects bracketed Septimus citations to their reflowed bibliography entries.
+reconnects bracketed Septimus citations, `[S1]` or `[VII/S1]`, to their reflowed
+bibliography entries. De Vinculis ends with the Quaestio Clausa
+(`books/07_septimus/manuscript/quaestio.md`), the Nota Clausa's first text, printed
+open after the seals; its keys from other books stay as printed and are found in the
+end bibliography.
 
 The Nota Clausa closes Book VII in both bindings (`bind.CLAUSA`): its own
 unnumbered component after De Vinculis, last before the end bibliography. Build
@@ -20,7 +24,9 @@ and validate it with `python books/07_septimus/clausa/build.py` and
 `python books/07_septimus/clausa/validate.py`. It has no register. Its README's hand
 line, what it withholds and its fairness record are filed with the production
 notes. Its leaves are excluded from pen finishing, and validation checks that it
-follows De Vinculis with its seven fields still vector plates.
+follows De Vinculis with its seven fields still vector plates, each drawing its
+marks in the order of the ground. The fields are in `clausa/fields/`; the first
+seal's sheets stay in `clausa/plates/` as a record and are not bound.
 
 De Officio Accusatoris, an unnumbered parable, follows the Clavis in both bindings
 (`bind.ACCUSATOR`). Build and validate it with `python books/00_accusator/build.py`
