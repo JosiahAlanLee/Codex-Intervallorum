@@ -144,8 +144,9 @@ def collect(books,repo=REPO):
             # Both parts share a register. Consolidation retains a shared key and
             # account once, while each included manuscript selects its own sources.
             refs=json.loads(read('books/07_septimus/manuscript/references.json'))
-            manuscript='clavis.md' if title=='Clavis' else 'de-vinculis.md'
-            used=set(re.findall(r'\[(S\d+)\]',read('books/07_septimus/manuscript/'+manuscript)))
+            # De Vinculis ends with the Quaestio Clausa, printed open, whose keys carry the VII prefix.
+            manuscripts=['clavis.md'] if title=='Clavis' else ['de-vinculis.md','quaestio.md']
+            used={k for m in manuscripts for k in re.findall(r'\[(?:VII/)?(S\d+)\]',read('books/07_septimus/manuscript/'+m))}
             for r in refs:
                 if r['id'] in used:
                     records.append(dict(citation=clean(r['citation']),keys=list(r['keys']),

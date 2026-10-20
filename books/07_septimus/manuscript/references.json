@@ -341,5 +341,22 @@
     "urls": [
       "https://pubmed.ncbi.nlm.nih.gov/41248244/"
     ]
+  },
+  {
+    "id": "S21",
+    "citation": "CNRS. Slime mould absorbs substances to memorise them. Press release, 22 April 2019, on Boussard, A., Delescluse, J., Pérez-Escudero, A., and Dussutour, A., Memory inception and preservation in slime moulds: the quest for a common mechanism, Philosophical Transactions of the Royal Society B 374 (2019).",
+    "keys": [
+      "VII/S21"
+    ],
+    "accounts": [
+      {
+        "book": "VII",
+        "status": "Read by Claude on 20 October 2026 in the release's web page text: six days crossing salty ground; salt content about ten times that of naive moulds; salt retained through dormancy and the habit kept for up to a month; salt excreted within two days in a neutral environment, with the habit lost; naive moulds injected with salt behaving like trained ones two hours later; the absorbed substance proposed as the memory's support; and the question whether knowledge circulates when moulds' venous networks fuse. It gives the first author as Broussard. The paper's methods were not read.",
+        "use": "The institutional report named in the preface of the Quaestio Clausa, against which its slime mould results were checked when it was printed open."
+      }
+    ],
+    "urls": [
+      "https://www.cnrs.fr/en/slime-mould-absorbs-substances-memorise-them"
+    ]
   }
 ]

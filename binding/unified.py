@@ -34,7 +34,7 @@ NOTE_TITLES={'Clavis':'VII / preparation','De Vinculis':'VII / preparation','De 
 # Components whose bracketed keys link to their own register: the link text, the
 # key prefix in the end bibliography. The binder points each link at the reflowed entry.
 # Book VI links the key alone, so its link box can catch part of a bracket or comma.
-CITATIONS={'Clavis':(r'\s*\[(S\d+)\]\s*','VII/'),'De Vinculis':(r'\s*\[(S\d+)\]\s*','VII/'),
+CITATIONS={'Clavis':(r'\s*\[(S\d+)\]\s*','VII/'),'De Vinculis':(r'\s*\[(?:VII/)?(S\d+)\]\s*','VII/'),
            'De Potestate et Accusatione':(r'\W*([A-Z]\d+)\W*','VI/')}
 SEPTIMUS=('Clavis','De Vinculis');BOOK_VI=('De Potestate et Accusatione',)
 DATE=re.compile(r'\b(?:\d{1,2}\s+oct(?:ober)?\s+2026|2026-\d\d-\d\d)\b',re.I)

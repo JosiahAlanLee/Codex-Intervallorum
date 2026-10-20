@@ -19,11 +19,24 @@ class BackmatterTests(unittest.TestCase):
     def test_septimus_parts_share_the_register_without_repeating_accounts(self):
         books=[('Clavis','Clavis','','clavis.pdf',''),('VII','De Vinculis','','vinculis.pdf','')]
         records,_,inputs=backmatter.collect(books)
-        self.assertEqual({k for r in records for k in r['keys']},{f'VII/S{i}' for i in range(1,21)})
+        # S21 is cited only by the Quaestio Clausa, printed open at the end of De Vinculis.
+        self.assertEqual({k for r in records for k in r['keys']},{f'VII/S{i}' for i in range(1,22)})
         for record in records:
             self.assertEqual(len(record['accounts']),len({json.dumps(a,sort_keys=True) for a in record['accounts']}))
         self.assertIn('books/07_septimus/manuscript/clavis.md',inputs)
         self.assertIn('books/07_septimus/manuscript/de-vinculis.md',inputs)
+        self.assertIn('books/07_septimus/manuscript/quaestio.md',inputs)
+
+    def test_quaestio_keys_with_the_book_prefix_select_and_link_their_entries(self):
+        import re
+        records,_,_=backmatter.collect([('VII','De Vinculis','','vinculis.pdf','')])
+        keys={k for r in records for k in r['keys']}
+        quaestio=(ROOT/'books/07_septimus/manuscript/quaestio.md').read_text()
+        for key in re.findall(r'\[VII/(S\d+)\]',quaestio):self.assertIn('VII/'+key,keys)
+        pattern,prefix=unified.CITATIONS['De Vinculis']
+        self.assertEqual(prefix+re.fullmatch(pattern,' [VII/S10] ')[1],'VII/S10')
+        self.assertEqual(prefix+re.fullmatch(pattern,'[S10]')[1],'VII/S10')
+        self.assertIsNone(re.fullmatch(pattern,'[V/S8]'))
 
     def test_relocated_septimus_citation_targets_the_new_entry_and_keeps_external_links(self):
         from pypdf import PdfReader,PdfWriter

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Reading edition of the Nota Clausa: Tabula, Regula and seven plates at 7 x 10 in.
+"""Reading edition of the Nota Clausa: Tabula, Regula and seven fields at 7 x 10 in.
 
-Builds only from public files in this folder: TABULA.md, REGULA.md and plates/*.svg.
-The plates are sealed artifacts. Nothing here can regenerate or read them without the key.
+Builds only from public files in this folder: TABULA.md, REGULA.md and fields/*.svg.
+The fields are sealed artifacts. Nothing here can regenerate or read them without the key.
+The first seal's sheets, kept in plates/, are not bound: their text is printed open at the
+end of De Vinculis.
 """
 from __future__ import annotations
 
@@ -179,7 +181,7 @@ def main():
     tab = (ROOT / 'TABULA.md').read_text()
     b.markdown(tab.split('\n', 1)[1], 'Tabula', style='tabula')
     b.markdown((ROOT / 'REGULA.md').read_text(), 'Regula')
-    plates = sorted((ROOT / 'plates').glob('nota-clausa-*.svg'), key=lambda p: int(re.search(r'(\d+)', p.stem).group(1)))
+    plates = sorted((ROOT / 'fields').glob('nota-clausa-*.svg'), key=lambda p: int(re.search(r'(\d+)', p.stem).group(1)))
     assert len(plates) == 7
     for k, svg in enumerate(plates, 1):
         b.plate(k, svg)
