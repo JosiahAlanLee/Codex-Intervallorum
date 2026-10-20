@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Public checks for the Nota Clausa. Needs no key and reads nothing.
+"""Public geometry and ordering checks for the Nota Clausa. Needs no key.
 
 1. Each plot sheet carries 7920 marks, one per cell, every cell inside the arena of the
    Regula, in the two inks only.
-2. The Tabula prints eight digests.
-3. Optionally, a proposed reading is checked against those digests:
+2. Mark paths are spatially ordered and the document-order shortcut fails to match
+   the field's published digest. The recovered shortcut text is never printed.
+3. The Tabula prints eight digests.
+4. Optionally, a proposed reading is checked against those digests:
        python validate.py --reading readings/
    where readings/ holds field-1.txt ... field-7.txt, each the 1320 signs of the
    Regula's clause 21 (line feeds as line feeds).
@@ -18,33 +20,14 @@ from pathlib import Path
 import re
 import sys
 
+from plate_order import N, document_order_digest, inside, marks_from_text, spatially_ordered
+
 ROOT = Path(__file__).resolve().parent
-INK, RED = '#161918', '#a32b24'
-G, D, N = 260, 236, 7920
-X0, Y0, PITCH = 14.35, 61.35, 0.7     # Regula, clause 17
-
-
-def inside(x, y):
-    return 0 <= x < G and 0 <= y < G and (2 * x + 1 - G) ** 2 + (2 * y + 1 - G) ** 2 <= D * D
 
 
 def marks(svg_path):
     """The marks of one plot sheet: {(x, y): bit}."""
-    s = Path(svg_path).read_text().split('inkscape:label="Text Outlines"')[0]   # marks are in Art Paths
-    out = {}
-    for colour, d in re.findall(r'<path fill="none" stroke="(#[0-9a-f]{6})" stroke-width="0\.17" d="M([^"L]+L[^"L]+)"/>', s):
-        a, b = d.split('L')
-        (x1, y1), (x2, y2) = [tuple(map(float, p.split(','))) for p in (a, b)]
-        mx, my = (x1 + x2) / 2, (y1 + y2) / 2
-        cx, cy = round((mx - X0) / PITCH), round((my - Y0) / PITCH)
-        if abs(cx * PITCH + X0 - mx) > 0.05 or abs(cy * PITCH + Y0 - my) > 0.05:
-            raise ValueError(f'{svg_path}: mark off the lattice at {mx:.2f},{my:.2f}')
-        if (cx, cy) in out:
-            raise ValueError(f'{svg_path}: two marks on cell {(cx, cy)}')
-        if colour not in (INK, RED):
-            raise ValueError(f'{svg_path}: third ink {colour}')
-        out[(cx, cy)] = 1 if colour == RED else 0
-    return out
+    return marks_from_text(Path(svg_path).read_text())
 
 
 def digests():
@@ -57,13 +40,17 @@ def main(argv):
     ap.add_argument('--reading', help='folder holding field-1.txt ... field-7.txt')
     args = ap.parse_args(argv)
     report = {'plates': {}}
+    dg = digests()
     roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']
     for k in range(1, 8):
-        m = marks(ROOT / 'plates' / f'nota-clausa-{k}.svg')
+        source = (ROOT / 'plates' / f'nota-clausa-{k}.svg').read_text()
+        m = marks_from_text(source)
         outside = [c for c in m if not inside(*c)]
+        ordered = spatially_ordered(source)
+        leaks = len(m) == N and document_order_digest(source) == dg.get(roman[k - 1])
         report['plates'][roman[k - 1]] = {'marks': len(m), 'red': sum(m.values()), 'outside_arena': len(outside),
-                                          'ok': len(m) == N and not outside}
-    dg = digests()
+                                          'spatially_ordered': ordered, 'document_order_leak': leaks,
+                                          'ok': len(m) == N and not outside and ordered and not leaks}
     report['digests_printed'] = len(dg)
     ok = all(p['ok'] for p in report['plates'].values()) and len(dg) == 8
     if args.reading:

@@ -58,6 +58,7 @@ No two agents ever hold one cell, so the last cells of the 7920 agents are 7920 
 ## V. The reading
 
 17. On each plate every mark stands on a cell, red or black. Red is 1, black is 0. The marks are the two-point strokes of the plot sheet's Art Paths layer; rings, contours and the reserved blank are drawn with more points, and lettering is in the Text Outlines layer. A mark's cell is the cell its stroke is centred on; the direction of the stroke is the agent's last heading and is not needed for reading. On the A4 plot sheet, measured in millimetres from its top left corner, cell (*x*, *y*) is centred at (14.35 + 0.7x, 61.35 + 0.7y), so the ground's centre is the sheet's point (105, 152). The red ring is the arena's edge. A reading edition may scale the sheet, never distort it.
+    In a PDF, use the same cell coordinates and arena boundary to distinguish marks from lettering: the two footer slashes lie outside the arena and are not marks. Drawing order is not the reading order.
 18. Regrow the field from its key. For agents 0 to 7919 in order, read the colour of the mark on that agent's last cell. This gives 7920 figures.
 19. Take the figures six at a time, the first of each six the most significant. Each six is a number from 0 to 63. Read the number as a sign in this table, where ¶ is the end of a line:
 

@@ -16,11 +16,23 @@ python books/07_septimus/clausa/validate.py --reading path/to/readings   # field
 
 ## What is not here
 
-The plaintext, the key, the seeds and the enciphering script are not in this repository and have never been committed to it. The author holds them. Nothing in this tree can regenerate the plates or read them without the key. This is the one place where the series' rule that every figure regenerates from its manifest is suspended, and the suspension is the point.
+The key, the seeds and the enciphering script are not supplied here. The printed rule describes recovery by key, but the original readings must be treated as disclosed: the imported SVGs exposed them through their path order. Changing the key or sorting those same plates cannot make the old readings secret again.
+
+## Ordering correction, 20 October 2026
+
+The original plate build wrote the 7920 mark paths in agent order. Reading their colours in SVG document order, six bits at a time through the Regula's existing 64-sign table, recovered all seven readings without the key. Every field digest and the combined digest matched the Tabula. The original ordering remains in public history. The readings use 47 distinct signs; this is not a defect in the 64-sign table.
+
+The plot masters now serialize the marks by cell coordinates, first y and then x. `plate_order.py` changes only the order of those paths, preserving each cell's colour, stroke geometry and all other SVG content. To order newly generated plates before committing them:
+
+```sh
+python books/07_septimus/clausa/plate_order.py books/07_septimus/clausa/plates/nota-clausa-*.svg
+```
+
+The reading builder also orders marks before rendering, so an unsorted replacement cannot leak agent order into its PDF drawing order. The validator rejects unsorted source plates and checks that the six-bit document-order shortcut does not match the corresponding published digest. The regression tests exercise that shortcut and the rendered PDF, excluding lettering by the Regula's cell geometry. These checks address this ordering leak; they are not a claim of cryptographic security. Work on replacement readings is separate from this correction.
 
 ## Fairness record
 
-On 17 October 2026, a separate agent was given only the Regula, the seven plot sheets and the key, and was told not to look at any other implementation. It wrote its own decoder from the printed rule and matched all eight digests on its first run, in about 80 seconds on two cores. It found no point where the rule was wrong. The places where it had to choose an interpretation (left and right as names, release of a cell within a step, deposit on a move inside one cell, and how to find the marks in the SVG) are now stated in the Regula. The digests confirm that its choices were the right ones.
+On 17 October 2026, a separate agent was given only the Regula, the seven plot sheets and the key, and was told not to look at any other implementation. It wrote its own decoder from the printed rule and matched all eight digests on its first run, in about 80 seconds on two cores. It found no point where the rule was wrong. The places where it had to choose an interpretation (left and right as names, release of a cell within a step, deposit on a move inside one cell, and how to find the marks in the SVG) are now stated in the Regula. The digests confirm that its choices were the right ones. That test established recovery with the supplied key; it did not test whether the key was necessary, and it missed the ordering leak recorded above.
 
 ## Placement
 

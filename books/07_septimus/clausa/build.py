@@ -2,12 +2,15 @@
 """Reading edition of the Nota Clausa: Tabula, Regula and seven plates at 7 x 10 in.
 
 Builds only from public files in this folder: TABULA.md, REGULA.md and plates/*.svg.
-The plates are sealed artifacts. Nothing here can regenerate or read them without the key.
+Mark paths are spatially ordered before rendering so drawing order cannot expose
+agent order. The original readings were disclosed by the imported SVG ordering;
+see README.md. This builder makes no claim that those readings remain secret.
 """
 from __future__ import annotations
 
 import hashlib
 import html
+from io import BytesIO
 import json
 from pathlib import Path
 import re
@@ -20,6 +23,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import Paragraph, Table, TableStyle, Preformatted
 from svglib.svglib import svg2rlg
+from plate_order import N, marks_from_text, ordered_svg
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[2]
@@ -155,7 +159,10 @@ class Book:
 
     def plate(self, k, svg):
         self.start('Field ' + ROMAN[k - 1])
-        d = svg2rlg(str(svg))
+        source = svg.read_text()
+        if len(marks_from_text(source)) != N:
+            raise ValueError(f'{svg}: expected {N} marks')
+        d = svg2rlg(BytesIO(ordered_svg(source).encode('utf-8')))
         s = min(432 / d.width, 612 / d.height)
         d.scale(s, s)
         renderPDF.draw(d, self.c, (PW - d.width * s) / 2, (PH - d.height * s) / 2 - 8)
