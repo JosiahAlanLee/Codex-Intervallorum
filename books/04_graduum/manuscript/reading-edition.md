@@ -4,9 +4,9 @@ A Little Key to the Steps
 
 A grimoire of orders, passages and keys: rates, permissions and their possible mismatches
 
-Revised manuscript, DRAFT | premise revision, 18 October 2026
+Revised reading manuscript | 21 October 2026
 
-*DRAFT. The five numbered proposals are hypotheses, not established laws. Source inspection statements are inherited from the draft; this editorial pass does not claim a fresh primary-source audit. Plate captions and encoded messages may retain earlier wording; the prose here states the revised scope.*
+*Five operational proposals, with measures and counterevidence below. Source-inspection accounts remain in the register. Earlier inscriptions are retained as text within the artwork.*
 
 - [E] Empirical or textual evidence, with a source and an inspection limit.
 - [D] Definition, conditional deduction, or worked consequence within stated assumptions.
@@ -16,13 +16,13 @@ Revised manuscript, DRAFT | premise revision, 18 October 2026
 
 ## Proem
 
-[H] This book asks whether the people permitted to act on a fault can act before its deadline, and who bears the cost when they cannot. Book III invented a building where permission rises while local competence and exposure to blame fall. This book investigates some arrangements that could produce that pattern; it does not derive a law of bureaucracy from the satire.
+[H] Permission has a timescale. This book asks whether the people authorized to act can act before the task’s deadline, and who bears the cost when they cannot. Book III makes a satire of permission rising away from the fault. Here the practical inquiry follows the approvals, signals and resources that determine an intervention’s timing.
 
 [D] Rate means a characteristic interval of a named process; rank means an ordering of permission. This book groups processes by rate for a stated task. Stable subassemblies, symbolic constraints, ecological levels and managerial time-spans are different constructions in the sources, not interchangeable definitions of hierarchy.
 
 [D] Rank and rate need not agree. A required approval that arrives after an intervention's deadline cannot authorize that intervention in time. Whether delegation would improve the outcome depends also on competence, risk and resources. The plates draw possible mismatches; the five proposals below state how to examine them.
 
-[D] Deference to relevant expertise, shared vigilance and review have existing HRO antecedents [Q1]. DORA recommends peer review and automated checks in place of heavyweight external change approval [Q3]. These sources do not measure this book's interventions; healthcare evidence on full HRO implementation remains limited [Q2]. The proposals below inherit questions, not a demonstrated comparative advantage.
+[E] HRO practice emphasizes deference to expertise [Q1]. In software delivery, DORA reports poorer performance with heavyweight external approval and found no evidence that formal external review reduced change-failure rates; it recommends peer review and automated checks [Q3]. Healthcare evidence for implementing the full HRO approach remains limited [Q2]. Evaluate the proposed intervention in its own setting.
 
 [F] The book is arranged in three parts, as the Steganographia was: Of Orders, Of Passages, and Of Keys. The working plates use three carriers, described in the Clavis. Plate XII is an announced omission rather than another encrypted result. The twelve-mark hand, the square table and the office litany are instruments of the artwork. The claims do not depend on them.
 
@@ -52,11 +52,11 @@ The word was coined for angels, and its first rule was that nothing skip a level
 
 [E] Pseudo-Dionysius coined hierarchia around 500 CE for the nine orders of angels, defining it as a sacred order, knowledge and activity in which each rank receives purification, illumination and perfection from the rank directly above it and transmits to the one directly below [H1]. The Ecclesiastical Hierarchy copied the scheme onto bishops, priests and deacons; from there the word migrated to any ranked body. The texts were read in translation and secondary commentary; no Greek was inspected.
 
-[H] The adjacent relay and the qualification by a receiver's capacity suggest a comparison with constrained channels. They do not state Ashby's requisite-variety relation. The plate borrows the descending order as a fictional architecture; it does not establish that theology anticipated cybernetics.
+[H] The plate turns the adjacent relay into a fictional architecture of constrained channels: each rank receives and passes on. Compare that arrangement with Ashby by specifying what each channel can carry. The theological source supplies the sacred order and the receiver’s qualification; the present drawing supplies the channel comparison.
 
-[D] The descending relay drawn on this plate contains no corrective return channel. That is a limit of this diagram, not proof that the theological tradition has no account of ascent or response. Ask separately what a returning signal would have to reach.
+[D] The drawn relay has no corrective return channel. Ask where a returning signal would have to go and who could act on it. The theological tradition’s accounts of ascent and response require their own reading.
 
-[H] Angels, clergy, chancery and firm supply different images of ordered mediation. The juxtaposition proposes a reading, not a demonstrated chain of transmission. The planetary ordering in Trithemius [T2] does not by itself establish that the Church treated his channels as a rival administration.
+[H] Angels, clergy, chancery and firm offer different arrangements of ordered mediation. Compare what is transmitted and who authorizes its passage. Trithemius’s planetary ordering [T2] adds another imagined administration; a historical claim about rivalry with Church authority requires evidence of its reception.
 
 [F] The plate carries the sentence in the caption strip. The nine and the seven never align because they were never counting the same thing.
 
@@ -70,11 +70,11 @@ Stable subassemblies can limit the cost of interruption.
 
 ### Near-decomposability
 
-[E] Simon's parable of Hora and Tempus argues that complex systems evolve faster when they are nearly decomposable into stable subassemblies, because an interruption costs only the unfinished subassembly rather than the whole [S1]. The 1962 paper was not re-inspected in this pass; the reprint in Pattee's 1973 collection is confirmed by its contents listing.
+[E] Simon’s watchmakers build equally complex watches under repeated interruption. Hora’s stable subassemblies survive a break; Tempus loses the unfinished whole. Simon uses the example to explain an advantage of hierarchical construction: completed intermediate work reduces what must be started again [S1, pp. 469–470].
 
-[D] Within the interrupted-assembly example, preserving completed subassemblies reduces the work lost at an interruption. That conditional result does not show that every hierarchy survives better, or that systems without such subassemblies cannot persist.
+[D] In the interrupted-assembly example, preserving completed subassemblies limits the work lost at each interruption. The gain depends on being able to complete and retain those intermediate units.
 
-[H] Stable intermediate work may help explain why some organisations retain layers. It does not explain who controls permission across those layers, or establish why a particular firm resists removing them. Those require separate evidence.
+[H] Stable intermediate work offers one reason for retaining organizational layers. Then ask who controls the permission across them: preserving work and concentrating authority are distinct features of a hierarchy.
 
 [F] The bird is the Returning Trace carried over from the fourth book's first mockups. It returns to the ring because the ring is a stable subassembly: an open centre that survives the bell.
 
@@ -88,9 +88,9 @@ A durable record can constrain a faster process.
 
 ### The epistemic cut
 
-[E] Pattee describes a control level as a set of rate-independent constraints, records and symbols, acting on rate-dependent dynamics, with the genotype as the first instance, and calls the boundary between them the epistemic cut [P1]. The 1973 collection was located by catalogue and contents; the epistemic-cut formulation was read in later secondary discussion, not in Pattee's own papers, and that limit stands until they are inspected.
+[E] Pattee distinguishes relatively quiescent symbolic records from the rate-dependent dynamics they control. His epistemic cut separates those descriptions; measurement, coding and physical interpreting structures connect them [P1, sections 8–12]. A written record becomes a control through the material process that reads and applies it.
 
-[H] A runbook offers an institutional comparison: a relatively durable record can constrain faster activity when people or machines follow it. Its resemblance to Pattee's symbolic constraints does not make a written instruction, a genotype and an organisation the same mechanism. The record remains a physical object with its own dynamics.
+[H] A runbook provides a relatively durable record that directs faster activity when people or machines follow it. This institutional comparison with Pattee turns on the record’s use. The paper, its readers and the equipment each have dynamics of their own.
 
 [D] An instruction's effect depends on its continuing use, applicability and availability. Intervallorum asks how such dependencies are maintained. This plate adds the question of who may change an instruction while it governs another person's work.
 
@@ -128,7 +128,7 @@ Two scales, no alignment imposed.
 
 [E] De septem secundeis (1508) assigns the government of the world to seven planetary intelligences in turn, each for 354 years and four months [T2]. Jaques's stratified systems theory places managerial strata at discontinuities in the time-span of discretion, with upper boundaries conventionally read as three months, one, two, five, ten, twenty and fifty years [J1]. The Trithemius text was read in Peterson's transcription; Jaques was read in secondary summaries, not in the primary works.
 
-[D] The two series share the number seven and nothing else that has been shown. One is a cycle of equal terms; the other is a logarithmic ladder of unequal ones. The plate places both on one dial and aligns neither to the other. The seven hands run at the Jaques spans from invented phases and measure nothing; they are there so that the dial is seen to be a clock and not a diagram.
+[D] Trithemius gives a cycle of equal terms; Jaques gives a ladder of unequal spans. The plate places their sevens on one dial without aligning them. Its hands run at the Jaques spans from invented phases, making the object visibly a clock.
 
 [H] Jaques supplies a contested comparison between managerial responsibility and time-span. The summaries inspected here do not establish that his strata cause delay. D6 instead asks whether actual permission dependencies create a wait that a specified delegation would avoid.
 
@@ -148,7 +148,7 @@ A useful abstraction can also withhold a needed signal.
 
 [E] Dayan and Hinton's feudal reinforcement learning builds a hierarchy of managers and sub-managers on two explicit principles: reward hiding, in which a sub-manager is rewarded for obeying its manager whether or not that serves the top goal, and information hiding, in which each level sees state only at its own granularity, hidden in both directions [DH1]. Vezhnevets and colleagues' 2017 FeUdal Networks softened reward hiding because pure hiding did not work well [V1]. Both papers were read in the original.
 
-[H] These learning architectures provide a comparison with Book III, not an implementation or proof of its fictional building. D9 asks what each interface hides and whether that helps or impairs a specified task. A result for a trained agent cannot establish a necessary design rule for human organisations.
+[H] Compare what each learning architecture hides, what that simplifies and which feedback is lost. D9 asks how the interface affects a specified task. An organizational application needs evidence about the signals, incentives and people in that organization.
 
 [H] Reward feedback and a stop-work channel both change which signals reach an actor, but they are different interventions. The plate places them beside one another; the next chapter asks about the recipient of a bypass.
 
@@ -164,9 +164,9 @@ A cord needs a mount, a receiver and a timely response.
 
 ### The algedonic channel and its recipient
 
-[E] Beer's viable system model names a channel from operations directly to the policy function, bypassing coordination and control, for signals of pain or pleasure that cannot wait, and calls it algedonic [B1]. Beer insisted the five systems are not a hierarchy. Toyota's andon cord lets a line worker stop the line [T1]. Beer was read in summaries; the andon is general knowledge; neither primary source was inspected in this pass.
+[E] Beer’s viable system model names an algedonic channel: signals of pain or pleasure go from operations directly to policy when they cannot wait [B1]. Beer was read in summaries. Toyota’s own account describes automatic abnormality stops and an operator’s stop cord, with andon notification [T1]. The manufacturer’s description states the intended arrangement; the labor accounts below examine its use.
 
-[H] D7 asks whether the channel has an available recipient with authority and resources to respond before the relevant deadline. Reviewable duties may help sustain that response; exposure to punishment is neither a demonstrated necessity nor a sufficient condition. Timely unpunished response is evidence to retain, not an exception to explain away.
+[H] Follow the channel to a recipient with authority, resources and enough time to respond. Then examine the duties that sustain the response and the cost to the sender. A prompt, unpunished response demonstrates that punishment was unnecessary in that case.
 
 [E] Labour-process accounts dispute whose stop the andon is. Parker and Slaughter describe a board on which each station shows green, yellow or red, run so that stations hover between green and yellow. A station that stays green loses resources, and a worker who pulls the cord is identified on the board and may be disciplined for not keeping up [PS1]. Slaughter reports a Mazda worker who was filmed after pulling the cord several times and, once injured, was blamed for not pulling it [SL1].
 
@@ -192,7 +192,7 @@ The decision demon hears volume, not correctness.
 
 [E] Selfridge's Pandemonium (1959) models pattern recognition as a hierarchy of demons: image demons, feature demons that shout when they see their feature, cognitive demons that shout in proportion to how many features match, and one decision demon that picks the loudest [SE1]. It is named for Milton's council. The architecture was read in secondary accounts and the 1959 symposium report, not in the paper itself.
 
-[H] In the satire, loudness has become detached from evidential reliability. That is the proposed failure, not an established defect of Selfridge's recognizer: activation strength there is intended to represent a match. An institutional comparison would need evidence that amplification changes independently of the signal's accuracy.
+[H] The satire detaches loudness from evidential reliability. Selfridge’s recognizer instead uses activation strength to represent a match. To carry the satire into an institution, establish where amplification changes independently of accuracy.
 
 [H] Selfridge offers a technical comparison with the demon hierarchies in the project's debts. This pass does not establish a direct influence on Minsky or the CCRU, or an omission from their citations.
 
@@ -212,7 +212,7 @@ The key returns the signs, not the room.
 
 [E] Reeds's 1998 paper reports deciphering the number tables in Book III of the Steganographia; the inspection record here is limited to its abstract and opening pages [R1]. Bibliographic descriptions of the 1518 Polygraphia identify its shifted alphabets and prayer-like encodings [R2]. No early printing or historical cipher table was inspected. This edition does not claim four centuries of uniform interpretation.
 
-[H] A spirit address that carries another text offers a model for an institutional message with consequences its copier may not understand. The analogy does not prove that every report hides a second text. D8 asks whether a particular record supports a particular inference; the artwork supplies a deliberately encoded case.
+[H] A spirit address carrying another text makes a copier preserve consequences they may not understand. D8 asks a related question of a particular institutional record: what can its form carry, omit or obscure? The artwork gives that question a deliberately encoded case.
 
 [D] The square table here shifts only the base mark and holds the tally, so that all twenty-six letters survive the shift and a reader can check the operation without accepting an office. The shift is an arithmetic station, not a claim that organisations have twelve levels or seven.
 
@@ -230,7 +230,7 @@ The invocation cannot be copied without the indictment.
 
 [E] Trithemius's Ave Maria cipher replaces each letter with a word so that the ciphertext reads as a prayer; consecutive tables let the result run as continuous Latin [R2]. The litany used here is a new fixed-column table of twenty-six addresses, in the manner of the Ave Maria and not a reproduction of it. No historical table was copied, and no continuous prose is claimed for the Latin.
 
-[D] In this plate's defined encoding, copying the complete litany preserves the effect line, whether or not the copier decodes it. Removing or replacing carrier words can destroy it. This is a property of the constructed cipher, not proof that institutional invocations inevitably carry their own indictment.
+[D] Copying the complete litany preserves its effect line even when the copier cannot decode it. Removing or replacing carrier words can destroy the line. The encoding gives this artwork its particular trap for reuse.
 
 [F] The six hands hold what the office is permitted to hold. The thing the office actually did is in the margins.
 
@@ -246,7 +246,7 @@ Only the file keeps the lifts.
 
 [E] The proof for this plate reversed the word paths and obtained the words in reverse order at a mean pixel difference of 0.00001 on a 0-255 scale, and collapsed the collinear runs and obtained a string of As, every count having fallen to one, at 0.002, with the printed plate unchanged to rendering precision in both cases [X1]. These are the plate's own recorded tests; they were read from the proof's validation, not re-run for this edition.
 
-[D] In this constructed carrier, path order and command counts encode a sentence that the printed appearance cannot reliably recover. Reordering or simplifying the file can change that sentence while preserving its visible shape. The example demonstrates dependence on a representation's structure; it does not establish a general law of decay ownership.
+[D] Path order and command counts carry a sentence the printed appearance cannot reliably recover. Reordering or simplifying the file can change the sentence while preserving its visible shape. Whoever controls that transformation controls this carrier’s legibility.
 
 [H] The carrier paths should be the contour bands of a figure rather than bare polygons. The cipher does not care what the paths depict, and the plate should.
 
@@ -274,7 +274,7 @@ The absence is stated; no secret result is promised.
 
 What to do on a Tuesday.
 
-[V] These are proposed local trials, not a validated package or a requirement to adopt this book's vocabulary. Record the intended benefit, protective functions, review route and harms before changing a live process. Permission, competence and responsibility must be established separately; no general competence gradient or malicious purpose is presumed.
+[V] For each local trial, record the intended benefit, protective functions, review route and possible harms before changing a live process. Establish the permission, competence and responsibility the work requires. Compare the outcome with existing practice.
 
 [H] 1. Map the critical permission path. Record when a fault was diagnosable, when action became authorized and when it became feasible. Trial bounded pre-authorization where a required wait misses the task's deadline; retain competence checks, resources and safeguards against an unsafe repair.
 
@@ -305,8 +305,8 @@ What to do on a Tuesday.
 ## Register of debts
 
 - **H1** Pseudo-Dionysius, The Celestial Hierarchy and The Ecclesiastical Hierarchy (c. 500 CE); Luibheid trans. (1987); Rorem, Pseudo-Dionysius: A Commentary (1993). — *Read in translation and secondary commentary; no Greek inspected.* Use: The sacred-order vocabulary and descending relay; the plate is not a full account of the theology.
-- **S1** Simon, H. A. (1962). The Architecture of Complexity. Proceedings of the American Philosophical Society 106(6); reprinted in Pattee (ed.), Hierarchy Theory (1973). — *Not re-inspected in this pass; reprint confirmed by the 1973 contents listing.* Use: Near-decomposability; the Hora and Tempus parable.
-- **P1** Pattee, H. H. (ed.) (1973). Hierarchy Theory: The Challenge of Complex Systems. Braziller. Pattee's later papers on the epistemic cut, collected in Laws, Language and Life (2012). — *1973 volume located by catalogue and contents; the epistemic cut read in secondary discussion only.* Use: A level as rate-independent record constraining rate-dependent dynamics.
+- **S1** Simon, H. A. (1962). The Architecture of Complexity. Proceedings of the American Philosophical Society 106(6); reprinted in Pattee (ed.), Hierarchy Theory (1973). — *Primary 1962 paper inspected selectively on 21 October 2026, especially the watchmakers and stable subassemblies, pp. 469–470. Quantitative estimates not reproduced or independently rederived.* Use: Near-decomposability; the Hora and Tempus parable. [https://www.andrew.cmu.edu/course/15-440/assets/READINGS/simon-architecture-of-complexity-1962.pdf](https://www.andrew.cmu.edu/course/15-440/assets/READINGS/simon-architecture-of-complexity-1962.pdf)
+- **P1** Pattee, H. H. (2001). The Physics of Symbols: Bridging the Epistemic Cut. BioSystems 60, 5–21. doi:10.1016/S0303-2647(01)00104-6. Alongside Pattee (ed.), Hierarchy Theory (1973). — *Primary author-posted 2001 text inspected selectively on 21 October 2026, especially sections 8–12 and note 6. The 1973 collection was located by catalogue and contents, not read in full.* Use: Symbolic memory, rate-dependent dynamics and their material coupling; the runbook is this book’s institutional comparison. [https://casci.binghamton.edu/publications/pattee/pattee.html](https://casci.binghamton.edu/publications/pattee/pattee.html)
 - **A1** Allen, T. F. H. and Starr, T. B. (1982; 2nd ed. 2017). Hierarchy: Perspectives for Ecological Complexity. University of Chicago Press. — *Read in the 1983 Nature review and later summaries; not in full.* Use: Levels defined by rate; observer dependence. [https://nature.com/articles/304094a0.pdf](https://nature.com/articles/304094a0.pdf)
 - **J1** Jaques, E. (1976). A General Theory of Bureaucracy. Heinemann. Jaques, E. (1989; 2nd ed. 1996). Requisite Organization. Cason Hall. — *Secondary summaries only; the primary texts were not inspected. The strata boundaries used here are the conventional ones and may not match Jaques's own tables.* Use: Strata as time-spans; used adversarially. [https://globalro.org/node/3543](https://globalro.org/node/3543)
 - **T2** Trithemius, J. (1508). De septem secundeis. Transcribed by J. H. Peterson, esotericarchives.com. — *Transcription inspected for the reign length and the seven names; no early printing inspected.* Use: 354 years and four months; seven keepers of intervals. [https://esotericarchives.com/tritheim/tritem.htm](https://esotericarchives.com/tritheim/tritem.htm)
@@ -315,7 +315,7 @@ What to do on a Tuesday.
 - **DH1** Dayan, P. and Hinton, G. E. (1993). Feudal Reinforcement Learning. NIPS 5, 271-278. — *Primary PDF read.* Use: Reward hiding and information hiding as stated principles. [https://www.cs.toronto.edu/~hinton/absps/dh93.pdf](https://www.cs.toronto.edu/~hinton/absps/dh93.pdf)
 - **V1** Vezhnevets, A. S. et al. (2017). FeUdal Networks for Hierarchical Reinforcement Learning. ICML. — *Primary PDF read selectively (section 3.2).* Use: The softening of reward hiding; the leak. [https://arxiv.org/pdf/1703.01161](https://arxiv.org/pdf/1703.01161)
 - **B1** Beer, S. (1972). Brain of the Firm. Allen Lane. Beer, S. (1979). The Heart of Enterprise. Wiley. — *Not inspected in this pass; the algedonic channel read in a guide and an overview.* Use: The bypass channel; the not-a-hierarchy insistence; the Cybersyn recipient problem. [https://thevsmtest.org/VSM-Guide](https://thevsmtest.org/VSM-Guide)
-- **T1** Toyota production system: andon and jidoka. — *General knowledge; no primary source inspected.* Use: The stop-work cord as the mounted case, in one sense only: someone is obliged to answer it. Who owns the stop is disputed in PS1, SL1 and AD1.
+- **T1** Toyota production system: andon and jidoka. — *Official Toyota production-system page read 21 October 2026 for jidoka, the operator stop cord and andon notification. Manufacturer account of the intended design; labor-process evidence is recorded separately.* Use: The stop-work cord as the mounted case, in one sense only: someone is obliged to answer it. Who owns the stop is disputed in PS1, SL1 and AD1. [https://global.toyota/en/company/vision-and-philosophy/production-system/](https://global.toyota/en/company/vision-and-philosophy/production-system/)
 - **PS1** Parker, M. and Slaughter, J. (1988). Choosing Sides: Unions and the Team Concept. South End Press. Excerpt: Management's 'Ideal' Concept. Against the Current 19 (March/April 1989). — *The 1989 excerpt read through a fetch tool; the book was not inspected.* Use: Management by stress; the andon board run between green and yellow; pulls identified and disciplined. [https://againstthecurrent.org/atc019/managements-ideal-concept/](https://againstthecurrent.org/atc019/managements-ideal-concept/)
 - **SL1** Slaughter, J. (1990). Management by Stress. Multinational Monitor 11(1-2), January/February 1990. — *Read through a fetch tool.* Use: The Mazda worker filmed after pulling the cord and blamed for not pulling it. [https://www.multinationalmonitor.org/hyper/issues/1990/01/slaughter.html](https://www.multinationalmonitor.org/hyper/issues/1990/01/slaughter.html)
 - **AD1** Adler, P. S. (1993). The 'Learning Bureaucracy': New United Motor Manufacturing, Inc. In B. M. Staw and L. L. Cummings (eds.), Research in Organizational Behavior 15. JAI Press. — *The author's April 1992 draft (3.1) read through a fetch tool to about its page 51; the published version and the draft's evaluation section were not inspected.* Use: Pull counts and stoppage at NUMMI; a worker critic's complaint; harder as well as smarter. [https://msbfile03.usc.edu/digitalmeasures/padler/intellcont/NUMMI%28ROB%29-1.pdf](https://msbfile03.usc.edu/digitalmeasures/padler/intellcont/NUMMI%28ROB%29-1.pdf)
@@ -328,4 +328,4 @@ What to do on a Tuesday.
 - **M1** Clavicula Matricis, Revision 5 (2026): claims D1-D5, the ten constraints, the twelve-mark hand. — *The source of the numbering and the house rules.* Use: D1 decay ownership; P1 boundary declared; P3 representations change what they represent.
 - **Q1** Agency for Healthcare Research and Quality. High Reliability. PSNet primer (2019), reviewed 15 September 2024. — *Relevant primer passages directly read on 18 October 2026. Its references identify Weick and Sutcliffe, Managing the Unexpected (2015); that book was not newly inspected.* Use: Deference to relevant expertise, shared concerns, cross-monitoring and resilience. An antecedent, not proof of this book's intervention. [https://psnet.ahrq.gov/primer/high-reliability](https://psnet.ahrq.gov/primer/high-reliability)
 - **Q2** Fricke, J., Galligan, M., Douma, C., Souder, J., Hedden-Gross, A., and Mull, N. (2025). Examining the Impact of Implementing High-Reliability Organization Principles on Patient Safety Outcomes: Rapid Review. AHRQ, Making Healthcare Safer IV. doi:10.23970/AHRQEPC_MHS4HRO. — *The authors' abstract and findings directly read in PubMed on 18 October 2026; the full report was not inspected. Its healthcare scope is retained.* Use: Limited published effectiveness evidence for HRO implementation; no numerical estimate transferred to dispatch or other institutions. [https://pubmed.ncbi.nlm.nih.gov/41248244/](https://pubmed.ncbi.nlm.nih.gov/41248244/)
-- **Q3** DORA. Streamlining change approval. Capabilities page, updated 30 October 2025. — *Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read.* Use: Peer review and automated checks as alternatives to heavyweight external approval. Supplies no gate-detection probability or incident-window calibration. [https://dora.dev/capabilities/streamlining-change-approval/](https://dora.dev/capabilities/streamlining-change-approval/)
+- **Q3** DORA. Streamlining change approval. Capabilities page, updated 30 October 2025. — *Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read. Relevant programme page rechecked 21 October 2026; the underlying 2019 study was not independently reanalyzed.* Use: Peer review and automated checks as alternatives to heavyweight external approval. Supplies no gate-detection probability or incident-window calibration. [https://dora.dev/capabilities/streamlining-change-approval/](https://dora.dev/capabilities/streamlining-change-approval/)

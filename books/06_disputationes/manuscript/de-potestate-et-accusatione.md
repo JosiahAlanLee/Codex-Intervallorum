@@ -3,14 +3,14 @@
 <!-- book
 subtitle: Of power, accusation and the obligations of participation
 strap: Authority over production, exposure to harm and exposure to blame, examined separately.
-edition: Third discussion draft, 18 October 2026
+edition: Fourth discussion draft, 21 October 2026
 author: Josiah Alan-Lee
 mark: pot
 -->
 
 ## Status
 
-Third discussion draft of Book VI, 18 October 2026, developed from the second draft filed by ChatGPT/Codex the same day and bound in place of the Tarot of Intervals. It is a candidate reading text for the author’s review, not an adopted statement of his position.
+Fourth discussion draft of Book VI, 21 October 2026, revised for direct statement from the third draft. The proposed institutional commitments remain before the author for review.
 
 Paragraphs tagged [V] are proposed values. The institutional commitments and the participation rule are offered for acceptance, amendment or refusal, and none is adopted here; on adoption the tag stands as the key defines it. Bracketed keys resolve in the register at the end. Each plate says on its reading leaf whether it carries data, and from which record.
 
@@ -20,7 +20,7 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 
 [E] The question arrives from the opening books. Their gate-and-window model compares a universal approval gate, deference to the operator, and a gate bounded by the incident’s window. Its first record ended on a narrower premise: that a universal gate applies one latency to every window, and that the harm of its delay is routed to people who cannot remove it. It called the second half a claim about blame, not hierarchy, which the model does not test, and assigned it to the project’s inquiry into scapegoating [M2]. Its README and report were read in that version for this draft, and its tables were recomputed from the committed results. The revised record in this edition omits the closing passage and keeps the results.
 
-[H] This book takes the second half as its subject. It does not inherit as a law the satire’s gradient, in which authority rises while competence falls; that record narrowed that premise, and the narrowing stands [M2]. The claim here is smaller and harder to keep: where authority, harm and blame are held apart, the account of a failure tends to settle on whoever is nearest to it and least able to answer. *Counts against it:* records in which those who set a system’s purpose are named for its failures as often as those who operate it.
+[H] Where authority, harm and blame are held apart, investigate whether the account of a failure settles on whoever is nearest to it and least able to answer. Trace the assignment against the supported contribution. The opening model supplies the timing question [M2]; the records of accusation must supply evidence about blame. *Counts against it:* records in which those who set a system’s purpose are named for its failures as often as those who operate it.
 
 [V] The book keeps the series’ rules. Every claim states what would count against it. Every source trail says what was actually inspected. An analogy prompts a claim and never replaces one. It adds a rule taken from the history it reads: an accusation must be specific, answerable and open to correction, and that holds for the accusations this book makes, including those it makes against its own production.
 
@@ -114,7 +114,7 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 
 [V] The obligation proposed here exceeds the available defence. A person should be able to contest an accusation without finding a powerful patron or adopting the patron’s approved identity. Neither social acceptability nor a successful performance of innocence should replace the accuser’s burden. The right to an answer belongs to the accused before the defence becomes attractive to a learned man. The second woman had no defender, and her record is a few lines in a friend’s letter.
 
-[H] Agrippa supplies a bounded problem, not an ancestor: what can an intervention accomplish through existing authority, and which exclusions does it carry with it? He supplies no permission slip for the author’s present work. *Counts against this reading:* a court or chapter record of the proceeding that contradicts the letters on the release or on the witnesses refused.
+[H] Agrippa’s intervention raises a continuing question: what can a defence accomplish through existing authority, and which exclusions does it carry with it? *Counts against this reading:* a court or chapter record contradicting the letters on the release or the witnesses refused.
 
 ## III. Work near misfortune
 
@@ -312,7 +312,7 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 
 ### Access and its claimants
 
-[E] Hamraie and Fritsch’s *Crip Technoscience Manifesto* treats disabled people as makers and political participants, and develops interdependence and collective access as political practices [F2]. Its account allows technological use to be examined within relations of domination. It offers no endorsement of the systems used for this book.
+[E] Hamraie and Fritsch’s *Crip Technoscience Manifesto* treats disabled people as makers and political participants, developing interdependence and collective access as political practices [F2]. It places technological use within relations of domination and makes access a question of power as well as provision.
 
 [D] An alternative must be assessed by the time, money, bodily effort, assistance and privacy it actually requires. A method can exist without being available to a particular maker. An access benefit nevertheless leaves other people’s claims intact. A disabled user can benefit from an arrangement that harms another disabled worker. Access cannot settle that conflict by naming the first beneficiary.
 
@@ -330,7 +330,7 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 
 [V] Obligations begin with the next production decision. Keep generated images, authored procedural plates, quotations and historical reconstructions distinguishable. Assess replacement, licensing or commissioning when an image has an unresolved specific provenance problem. Do not offer a generated reconstruction as a witness, imitate a living maker’s identity to deceive a reader, or conceal model assistance from anyone whose agreement depends on knowing it. Record an identified remedy as work owed, with the means and point of review needed to act on it.
 
-[E] This book’s plates follow the first of those obligations and discharge none of the others. They were drawn by procedural code that Claude wrote at the author’s request, in the series’ two-ink plotter conventions. No image-generation model was used for them, and each states on its reading leaf whether it carries data. Their code, seeds and validation records are kept in this book’s folder; the plotting kit they use is the series’ own.
+[E] Procedural code written by Claude draws this book’s plates in the series’ two-ink conventions. Each reading leaf identifies the data it carries. Code, seeds and validation records preserve the route from record to figure; obligations concerning training and labor remain for this model-assisted production too.
 
 [D] A preference for directly authored diagrams can reduce the need for some generated assets. It does not prove that the software or the rest of production has an uninjured supply chain: the code that drew these plates was written with a model whose training and labour conditions fall under the charge in the preceding section. Nor can a donation or a page devoted to workers turn a disputed method into an authorised one. Any material commitment should name the beneficiary, resource, decision and fulfilment condition. This draft invents no promise of payment, revenue sharing or affiliation for the author.
 
@@ -366,12 +366,13 @@ Paragraphs tagged [V] are proposed values. The institutional commitments and the
 
 > Every sentence was counted, and the count proved nothing but the count.
 
-### What it can and cannot do
+### What the book argues
 
-[D] The narrower premise is an illustrated inquiry into knowledge, permission, resources, responsibility and effective challenge. It can expose an assumption, document a bounded comparison and argue for an institutional commitment. It cannot certify its politics by passing a model, or turn an exploratory fit into an independent trial.
+[D] The book examines who knows, who permits, who supplies the resources, who bears the consequences and who can challenge the arrangement. Its comparisons expose assumptions; its records support particular findings; its ethical arguments demand institutional commitments. The model’s results depend on its assumptions, and the exploratory exercises leave comparative effectiveness unmeasured.
 
 [V] Its feminist demand is that the people who sustain technological work obtain resources and effective power over its conditions, including a protected capacity to refuse. Its evidential demand is that an accusation remain specific, answerable and open to correction. Neither demand guarantees agreement between the worker, the maker, the user and the person injured by the work.
 
 [V] The publication decision belongs on that contested record. The author owes an account of the uses retained, the alternatives examined, the injuries requiring response and the evidence that would change the decision. A declaration of discomfort supplies none of those particulars. Continued work must produce them.
 
 **Reading the plate.** The book drawn as data. Every sentence of the tagged text and the claims, from the proem to the last paragraph of this section, is a vertical stroke whose length is its word count, set in reading order across six rows like a line of type, each section opening at its label. A stroke’s foot carries its paragraph’s tag: a dot for [E], a bar for [D], an open ring for [H], a cross for [V], a curl for [F]. A sentence containing a negation (not, no, nor, neither, never, none, nothing, cannot, without) carries a red tick at its head. Decks, fiction lines and these reading leaves are not counted. The counts in the side registers are computed from this manuscript when the plate is drawn. The plate measures a habit of the prose. It is no evidence that any limit was drawn correctly.
+

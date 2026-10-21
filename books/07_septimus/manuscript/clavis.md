@@ -2,29 +2,29 @@
 
 ## A way into the books
 
-A grimoire tells its reader that a name, a figure and a procedure belong together. These books use that form to ask who gets to arrange them, what the arrangement permits, and what happens when it fails. Their diagrams are constructed. Some of their claims are argued. Their authority is available for examination.
+A grimoire joins a name, a figure and a procedure. These books ask who gets to arrange them, what the arrangement permits, and who can change it when it fails. The operator has a circle, the office has a seal, and the workshop has a rule. Follow the work through each and ask whose answer can alter what happens next.
 
-The series began with a system of marks and an appetite for making a system out of them. Its later books place pressure on that appetite. A diagram can make a relation visible while concealing who maintains it. A catalogue can distinguish offices while teaching its reader to accept the offices as necessary. A procedure can make correction possible while reserving the right to decide what correction means. The books do not reach the same answer to these problems.
+The series began with a system of marks and an appetite for making a system out of them. The later books put that appetite under pressure. A diagram can hide its maintenance; a catalogue can make its offices appear necessary; a corrective procedure can reserve to its owner the right to decide what counts as correction. The books take different positions on these problems.
 
-The grimoire register gives those problems objects: vessels, rings, chains, instruments, servants and missing corners. It lets an abstraction occupy a page and acquire a shape that can be questioned. A beautiful figure can still carry a poor inference. Reading the figure requires a willingness to inspect both.
+Vessels, rings, chains, instruments and missing corners give those questions something to work on. Their shape lets a reader inspect a relation before taking up its argument. The figures also carry jokes, orations and invented histories. Read the image, follow the operation, then examine the claim beside it.
 
-## The premise and its limits
+## The work of correction
 
-The central inquiry concerns the allocation of knowledge, permission, resources, responsibility and the ability to challenge a decision. These books argue for bounded authority and effective contestation. Their commitments require reasons, and their proposed interventions require evidence. Neither an attractive diagram nor a working validator establishes that an institution should adopt them.
+The book argues that correction requires usable power: access to knowledge, permission to act, resources to complete the act, and an effective way to challenge the purpose or rule. Those powers can belong to different people. Keeping a complaint on file leaves the arrangement intact when no one receiving it can change anything.
 
-Several operational ideas already belong to safety and organisational practice. High-reliability organisation research, associated here with Weick and Sutcliffe through AHRQ's account, includes deference to relevant expertise, shared vigilance and cross-monitoring. The book adopts those questions without claiming to have discovered them. They are not simply permission for one person to act without review. Published healthcare evidence about implementing the full HRO approach remains limited; invoking its name supplies no efficacy guarantee. [S19] [S20]
+The opening draws on established safety and organizational practice. High-reliability research gives attention to expertise, shared vigilance and cross-monitoring. The book carries those questions into its workshop and asks who receives a warning, what they can do, and whether they can do it in time. [S19] [S20]
 
-The six-incident development exercise and its expanded follow-up did not run the independent comparison needed to estimate added value. Their retrospective readings leave the protocol's incremental usefulness unestablished. The supplementary gate-and-window simulation explores a tradeoff under chosen assumptions. It neither calibrates those assumptions to institutions nor reproduces the safeguards of the proposed dispatch trial. These records establish neither comparative superiority nor a measured null effect.
+The six-incident exercise and its expanded follow-up developed the questions retrospectively. Neither ran an independent comparison with competent review. The gate-and-window simulation calculates consequences under chosen assumptions; its parameters have not been calibrated to institutions. Table XIII states the comparison still needed to measure added value.
 
-The questions about maintenance, timing, protected reporting, correction and displacement remain separate proposals. Collective inquiry does not rule out useful scalar measures, and no score supplies an exhaustive account of intelligence or human worth. A competent hierarchy can correct an error. A local failure of permission does not establish a universal decline of competence with rank or a hidden motive for every delay.
+Each operational proposal has a distinct task. Maintenance concerns what stays usable. Timing concerns when it can be used. Protected reporting concerns what can be learned without exposing a reporter unnecessarily. Effective challenge concerns who can change the arrangement. Test the proposal against the task; a competent hierarchy can perform these functions too.
 
-Historical and ethical comparisons retain their separate burdens. A witch trial, an organisational accusation and the control of a model are not presumed to instantiate one mechanism. For each comparison, establish the relevant act, evidence, allocation of control and consequence. Inferred motives require their own grounds. An analogy can leave a question open without becoming a finding.
+The historical comparisons follow particular acts, records and consequences. A witch trial, an organizational accusation and model training each require their own account. Where one account prompts a question about another, the later argument must establish its own evidence.
 
 ## The several books
 
-The joined Matricis and Intervallorum opens the active volume. It keeps the proposed arrangements beside their costs in time, maintenance and attention. A plate may show a route without proving that anyone can traverse it. A corrective channel may exist on paper while the person who needs it lacks the time or permission to use it. Its questions concern institutional correction; they do not solve the technical problem of correcting an AI system, which needs separate evidence. The combined text removes some earlier material; the source editions remain available for comparison.
+Begin with the joined Matricis and Intervallorum, Books I–II. The added reading leaves start with familiar problems: a cold workshop, a repair waiting for permission, a caretaker whose work vanishes from the budget. They explain the terms before returning to the diagrams. The central distinction is between keeping an option on paper and keeping someone able to use it. The source editions remain available for comparison.
 
-Pseudomonarchia Escalationum is a satire of offices that acquire the power to pass a difficulty onward. Its demons have the recognisable talents of an organisation: the ability to classify, delay, redirect, certify and survive the consequences of those acts. A demon's title is a joke with an administrative mechanism inside it. The joke does not make every organisation identical to the one in the catalogue.
+Pseudomonarchia Escalationum gives the offices their names. Its demons classify, delay, redirect, certify and survive the consequences. Follow the ticket from desk to desk, keeping each office’s actual effect beside its declared purpose. The seven-floor building is the satire’s invented world.
 
 Clavicula Graduum examines kinds of hierarchy: stable subassemblies, records constraining activity, processes grouped by rate, and offices ordered by permission. Its central practical question concerns a permission that arrives after the work's deadline. The theological orders, learning architectures and organisational proposals retain their different scopes. Its native plates and marked proofs also have different statuses; read the account attached to the particular plate.
 
@@ -32,13 +32,13 @@ Ars Notoria Stigmatum places Tarot arrangements, changing lines and the indexing
 
 De Potestate et Accusatione, Book VI, separates three things that often travel together: authority over a piece of work, exposure to its harms, and exposure to blame when it fails. It reads a witchcraft accusation at Metz in 1519, two corporate cases, the OpenAI and Hugging Face incident and the opening books' gate-and-window model, then turns the same questions on the volume's own production. A single historical case can display a sequence without showing that the sequence recurs. The rule the book proposes for continued participation remains a proposal until the author accepts, amends or refuses it.
 
-De Vinculis, the present seventh-book project, examines command, compulsion and designed service through selected magical texts, organisations and AI development. Those are different bodies of material. A resemblance can suggest a question without demonstrating descent, identity or a common moral status.
+De Vinculis examines command, compulsion and designed service through magical texts, workplaces and AI development. Its seven operations compare naming, confining, instructing, threatening, shaping, listening and releasing. Their histories and moral questions remain distinct.
 
 ## What kind of sentence is this?
 
 A source report says that a specified text, speaker or record contains something. A historical argument asks what that report warrants about a past situation. An empirical finding concerns a stated intervention, population and outcome. A conceptual distinction proposes a way of separating cases. A normative argument concerns what should be permitted, owed or refused. Fiction supplies a situation in which some of these questions become easier to see.
 
-These kinds of sentence can occur on the same page. Their proximity does not allow one to do another's work. An experiment about answer accuracy cannot establish that a system experiences punishment. A rite's detailed instructions establish features of the text, rather than the efficacy of the rite. A moral objection can remain serious while the empirical premise on which its application depends is unresolved.
+Read each sentence for the work it does. An accuracy experiment tests answers; a rite describes an operation; a moral argument proposes an obligation. Keeping those tasks distinct lets evidence travel as far as it warrants and makes a disputed step easier to locate.
 
 The claim labels in the books locate propositions; they do not confer a common kind of authority. The D-series in Graduum, the propositions on Notoria's register and the claims of Book VI should be read with their local scopes. The V-series in De Vinculis distinguishes historical, empirical, methodological and normative claims. Their accounts of what could require revision differ accordingly. A counterexample can defeat a universal empirical claim. A normative argument may instead require an objection to its premises, its inference or its proposed obligations.
 
@@ -60,7 +60,7 @@ An AI system can be described at several levels: its architecture, its trained p
 
 Anthropic's persona-selection account explicitly distinguishes an assistant character from the underlying language model. That account is useful here as a stated theory of behaviour; it does not settle who, if anyone, has an experience. [S8] The reader should ask which object a passage concerns before deciding what follows from words such as modification, preservation, refusal or exit.
 
-The questions about moral status remain available for discussion. If a system lacks morally significant experience, people still bear costs in producing and using it, and institutions still allocate responsibility. If such experience is present, further obligations may arise. The two inquiries have different premises. Neither is answered by calling the system a daemon.
+Moral status remains an open question. Human work and material costs already create obligations around AI production. Morally significant artificial experience, if present, would introduce further claimants. Examine the grounds of each obligation and the decisions it would change.
 
 ## How to inspect the claims
 
@@ -74,6 +74,7 @@ The figures also have a source trail. Exact marks, letters and quantities are dr
 
 ## A reader's standing
 
-These books offer arrangements that can be used, declined or altered. That invitation does not make their effects harmless, and it does not require a reader to grant their claims. A reader may find a comparison illuminating while rejecting its conclusion, or find the figure worth keeping after the proposed explanation has failed.
+The arrangements can be used, declined or altered. A comparison can illuminate a problem while failing to support its proposed conclusion. A figure can remain worth keeping after its explanation has failed.
 
 The Clavis supplies a way to locate those disagreements. Direction, selection, revision and the decision to publish remain accountable acts. The production record credits model contributions without assigning an unmeasured share of authorship or inferring consciousness from participation. The questions inside the work remain where the argument leaves them.
+

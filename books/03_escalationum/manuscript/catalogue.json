@@ -2,7 +2,7 @@
   "title": "Pseudomonarchia Escalationum",
   "subtitle": "The False Monarchy of Escalations",
   "author": "Josiah Alan-Lee",
-  "edition": "Third divergent grimoire / First impression / 16 October 2026",
+  "edition": "Third divergent grimoire / First impression / 16 October 2026 | prose revision, 21 October 2026",
   "source_commit": "3d2e684b4a0629a8ede056409fac603be9b29323",
   "strap": "Seven offices. Twenty-one passages. One incident.",
   "ticket": "INC-0001",
@@ -532,7 +532,7 @@
         "The working source is Clavicula Intervallorum, pinned at 3d2e684b4a0629a8ede056409fac603be9b29323. Its path vocabulary, twelve-mark transcription, fonts, earliest-completion evaluator, and portable book-building pattern are retained. The illustrated first edition supplied the material relation between diagram, seal, and marginal hand.",
         "The credentials plate and its key were added on 20 October 2026 from Claude’s Codex palette research and rose-engine module. ChatGPT/Codex prepared the catalogue mapping, composition, integration and reading key. The original module and its source references are retained in the common illustration sources.",
         "The fur and masks in the supplied images become bundles of strokes and obscured apertures. The vertical abstract work becomes a dispatch curtain. The diagram references become paired anchors, boundary marks, and returns. No photograph, painted figure, existing sacred seal, or borrowed composition is reproduced.",
-        "The seven portraits are procedural drawings. Their authority is a quantity of ornament. Their eyes disappear as the ornament grows. This is a rule for an artwork. The machine has not measured anyone's competence."
+        "The seven portraits give authority a quantity of ornament. Their eyes disappear as the ornament grows. The procedural drawing makes the satire visible."
       ]
     },
     {
@@ -541,7 +541,7 @@
         "The executable specimen begins at minute 0. Recognition takes 4 minutes. Six successive briefings take 6, 7, 8, 8, 9, and 10 minutes. The complete ordinary briefing therefore arrives at minute 52. The executive is unavailable until minute 90. His approval takes 5 minutes. Repair takes 8.",
         "The emergency briefing is ready at minute 7. It meets the same executive at the same minute 90. Ordinary and emergency repair both finish at minute 103, forty-three minutes after the deadline of 60. A shorter corridor has not made a different gate.",
         "With a delegated local permission, the same repair finishes at minute 13. With the executive continuously absent, neither gated route is executable. The code reports no executable completion for that case; a nominal arithmetic schedule is not a delivered repair.",
-        "These are invented minutes and stated dependencies. The evaluator uses AND prerequisites, release times, and unlimited parallel capacity. It contains no queueing model or estimate of a real person's behavior. The counterfactual changes who can authorize the act; it does not redeem the ticket in the story."
+        "The evaluator calculates these invented minutes from AND prerequisites, release times and unlimited parallel capacity. It omits queueing and estimates of personal behavior. Changing who can authorize the repair changes its earliest completion; the ticket in the story still waits."
       ]
     },
     {
@@ -575,7 +575,7 @@
     {
       "title": "The retained impression",
       "paragraphs": [
-        "All offices, legions, minutes, incidents, and voices in the narrative are invented. The three gradients belong to the satire. Liability means exposure to organizational blame here; the book makes no claim about legal liability. Technical competence means ability to repair this fault, not an assessment of a person's general intelligence.",
+        "The offices, legions, minutes, incidents and voices are invented. The three gradients govern this building. Liability here means exposure to organizational blame; technical competence means ability to repair the particular fault.",
         "Each catalogue entry is generated from manuscript/catalogue.json, including its final effect field. The paired seal code and the matrix use the same data. This is the book's small trap for reuse: copying the records carries the account of the damage with the operating description.",
         "The SVG masters contain vector strokes and local font outlines. Separate black and red A4 plotting sheets contain the art paths only. All are untested on a physical plotter. Dense overlaps, short strokes, pen lifts, and paper behavior require a trial before a full sheet.",
         "The PDF and standalone HTML reader are built from the same page sequence. Bundled fonts carry their own licenses. No blanket license is newly assigned to the text, artwork, or inherited code. Attribution and build instructions accompany the source.",

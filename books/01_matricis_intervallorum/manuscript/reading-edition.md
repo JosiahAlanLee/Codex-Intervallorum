@@ -10,15 +10,23 @@ Can the work discover its error, and still act on it?
 
 **Reading the plate.** Mounted from Clavicula Matricis, Tabula I. A quartered seal around an open centre. Its corners record where Revision 5 expected the practice to help before any test: little or nothing beyond a competent review for mature network and hosting reliability work; findings a generic checklist misses for agentic AI systems and for leaderless or adversarial coordination; diagnosis only where the corrective authority is itself implicated. P1 to P9 mark its starting points: four descriptive claims, four adopted commitments and one procedural wager. These were declared expectations, not results. Table XIII distinguishes the two retrospective development exercises from the independent comparison that was not run. The old expectations are preserved in the artwork; they are not this edition's findings.
 
+### The room before the rule
+
+[F] Imagine a shared workshop whose furnace cuts out each cold morning. Mara can repair it, but the stores clerk will issue a part only after the owner signs. The owner visits on Fridays. A notice tells members to report faults promptly. They do, every morning. The reports are complete; the room stays cold.
+
+[D] Separate three changes. Replacing the failed component repairs this furnace. Giving a qualified person bounded authority to obtain parts changes the repair arrangement. Deciding that the room must be warm before anyone arrives changes the standard by which the workshop judges success. Each change answers a different question.
+
+[D] This invented workshop will recur in several leaves. Follow who knows the fault, who holds the permission, who supplies the work and who endures the wait. The first table asks whether their reports can change the arrangement that keeps producing the same report.
+
 ### The question before the instrument
 
-[H] These tables ask how an institution distributes knowledge, permission, resources, responsibility and the ability to challenge a decision. An accurate diagnosis can coexist with an unusable remedy; an efficient remedy can preserve an objectionable purpose. The questions are offered for investigation, not as a new general theory of intelligence or a demonstrated improvement over competent review.
+[H] The work needs more than a correct answer. Someone must be able to use the answer to change what happens next. These tables examine how knowledge, permission, resources and responsibility come apart, and what it takes to bring them back into a working relation.
 
-[D] Separate inference, criticism, and constitution. Inference asks what follows within a model. Criticism asks whether the model describes the problem well enough. Constitution asks whether its goals, categories, standards, or participants should change. These are distinctions between questions, not ranks of intelligence. Model checking and revision have existing methodological arguments; they are not a refutation of Bayesian inference [T1] [T8].
+[D] Three questions organize the inquiry. Inference asks: given these rules and observations, what follows? Criticism asks: have we described the problem correctly? Constitution asks: who chose the purpose, the rules and the people entitled to decide? A good calculation can answer the first while leaving the other two untouched [T1] [T8].
 
 [D] Declare the condition being regulated, the range allowed, and the observation that would prompt a review. Then name who benefits, who bears the cost, and who can change the rule. A regulator can hold a specified condition very well while the condition itself remains unjustified.
 
-[V] Care is not earned by contribution. This book opposes arbitrary power and permanent hereditary outgroups. Welfare and the conditions that sustain it matter even when their bearers cannot make a useful report. These are commitments, not deductions from the behavior of clocks, fluids, or organisms [V1, V2, V3].
+[V] Care is not earned by contribution. This book opposes arbitrary power and permanent hereditary outgroups. A person unable to make a useful report still has a claim on care. These commitments govern the proposed arrangements and require ethical reasons [V1, V2, V3].
 
 ### A revision with a receiving end
 
@@ -38,21 +46,29 @@ The vessel, its work, and the possibility of another work.
 
 **Reading the plate.** Three distinct success criteria. The upper branch preserves a configuration, the middle delivers a specified function through a changed configuration, and the lower keeps several possible functions attainable. The diagram does not rank the three without a stated purpose.
 
+### What would count as saving the workshop?
+
+[F] After a flood, the members recover the workshop's tools and records. The building is unsafe. One member calls the recovery a success because the collection survived. Another asks when repairs will resume. A third wants the equipment moved into a cooperative with a different membership rule.
+
+[D] The first asks about the state of the collection, the second about its function, and the third about the capacity to reorganize. State means its arrangement at a given time. Function means the service it provides. Repertoire means the set of actions it can undertake. Those words recur in the diagram key.
+
+[D] Set a test for each purpose. Inspect the recovered tools. Complete a real repair elsewhere. Establish whether the proposed cooperative can obtain space and admit its intended members. Evidence for one achievement leaves the other questions open. The disagreement concerns what is worth saving as well as what survived.
+
 ### Three achievements, three tests
 
-[D] A configuration, a function, and a capacity to reorganize are different things to preserve. A backup may preserve bytes while losing the software that reads them. A replacement machine may deliver the same service with none of the original parts. A trained group may lose its premises yet retain the ability to establish a different service. None of these cases licenses calling every kind of persistence resilience.
+[D] Preserve the thing, preserve what it does, or preserve the ability to do something else. These are three different achievements. A backup can keep every byte while losing the software that reads them. A replacement pump can supply water with none of the original parts. A trained group can lose its premises and still know how to establish a new service.
 
-[E] Walker and colleagues distinguish resilience, adaptability, and transformability in social-ecological systems [R1]. The packet supplied for this edition separates exact state, present function, and reorganizational capacity [P0]. The three branches here are an editorial construction informed by that distinction, not a restatement of an ecological theorem.
+[E] Walker and colleagues distinguish resilience, adaptability and transformability in social-ecological systems [R1]. The three branches here adapt that distinction to questions about records, services and the capacity to reorganize [P0]. Each branch names a different object of preservation.
 
 [D] Begin by naming an outcome and a time. Is the aim to retrieve this record next winter, keep water available tonight, or preserve the ability to change who controls the supply? An intact record, a running pump, and an effective right to alter the arrangement demand different evidence. A system may satisfy one and fail the others.
 
-[V] Continued existence is not automatically success. An institution can preserve its organization by transferring damage to workers, dependents, or a habitat. This edition adopts care and contestability as constraints on what counts as an acceptable continuation. That judgment is declared; it is not deduced from the fact that organisms survive.
+[V] An institution can keep itself alive by transferring damage to workers, dependents or a habitat. Survival on those terms is open to objection. Care and an effective right to challenge the arrangement belong in the account of what deserves preservation.
 
 ### The invariant must be named
 
 [D] An invariant is something held fixed for a specified comparison. Keeping a file checksum fixed can establish one kind of sameness. It does not establish the continuing truth of the file, the usability of its instructions, or the legitimacy of the organization that owns it. Conversely, changing the file does not by itself demonstrate learning.
 
-[H] A useful audit should therefore record three outcomes separately: what remained materially intact, what function remained available, and what new actions could still be attempted. This may distinguish recoveries that a single uptime measure treats as identical. It may also prove too expensive or subjective to improve decisions; that is an empirical question.
+[H] Record three outcomes separately: what remained intact, what service remained available, and what new actions could still be attempted. Compare their usefulness with the information already collected. Extra description earns its cost when it changes a consequential judgment.
 
 [D] The lower branch of the plate remains open. It is not a promise that every preserved possibility will be valuable. Maintaining incompatible alternatives can consume the very resources needed to continue. Selection cannot be abolished by drawing more branches. It can be made explicit enough to criticize.
 
@@ -66,25 +82,33 @@ The logical clock advances. The substrate still spends time.
 
 **Reading the plate.** Normalized illustrative clocks: continuous progress s=t, slowed progress s=log(1+t), and a separate staircase with waiting intervals. The vertical rule marks an invented finite task horizon H=4. Eventual reachability can survive slowing while deadline-qualified reachability does not.
 
+### A reply after the room has closed
+
+[F] The workshop offers free machine repairs until six in the evening. An instruction reaches Mara at seven. The instruction is correct, the part is available, and the machine can be fixed in an hour. The customer needed it for a shift beginning at six.
+
+[D] Count two things: the work needed and the time left in which it can help. The instruction has preserved the possibility of a repair tomorrow. It has lost the possibility of a repair for this shift. That loss occurs even if every record, tool and skill stays intact.
+
+[D] The clock formula makes the same distinction easier to inspect. To reach progress 4 on s=log(1+t), physical time must reach exp(4)-1, about 53.6. A deadline at t=4 permits only log(5), about 1.61, units of progress. These are dimensionless illustrative clocks; the point is the changed relation to a deadline.
+
 ### What a slower clock establishes
 
-[E] The OpenAI preprint constructs forced fluid computations and uses a smooth change of time, including g(t)=log(1+t), to preserve specified reachability events while obtaining derivative decay [M1, Lemma 3.1]. Its exact-real construction explicitly has no finite-storage bound. This edition inspected the statement and the clock lemma, not every proof. The preprint is an idealized mathematical source, not evidence that an organism or institution can wait indefinitely.
+[E] The OpenAI preprint uses a smooth change of time, including g(t)=log(1+t), to preserve specified reachability events in a forced-fluid computation while obtaining derivative decay [M1, Lemma 3.1]. Its exact-real construction has no finite-storage bound. Here the relevant result is the relation between two clocks: progress through a computation and time in the system carrying it.
 
 [D] For the normalized clock s=log(1+t), reaching logical progress L requires physical time t=exp(L)-1. Every finite L has a finite corresponding t. That fact supplies no useful practical upper bound when L is large. Eventual completion and timely completion are different properties.
 
-[D] A second constraint changes the problem. Suppose a task must finish by physical time H. The available logical progress is then only log(1+H). Slowing can preserve a trajectory while moving a desired event beyond the task's horizon. This is elementary substitution, not a refutation of the fluid construction, whose assumptions and claim are different.
+[D] Now give the task a deadline H. By that time the slow clock has advanced only log(1+H). A route can remain intact while the event at its end moves beyond the time in which it matters. The deadline adds a requirement to the original reachability question.
 
-[H] The institutional question is consequently not whether inactivity contains hidden motion. It is whether relevant capacities remain usable long enough for work to resume. The proposed bridge is a deadline-and-dependency description. It does not identify political effort, metabolism, and fluid motion as one substance.
+[H] For an institution, ask whether the people, records and resources needed to resume work will remain available until the proposed return. A pause is useful only in relation to what must survive it and when that capacity will next be needed.
 
 ### The clock outside the clock
 
-[D] The precise connection is a broken invariance: an onto change of time can preserve whether an event ever occurs while changing whether it occurs before a given deadline. Preserve every route, yet slow its traversal enough, and a timely option is lost. This does not require any record to decay. A fully intact memory can still become practically too late.
+[D] Reachability means that some permitted route gets to a target. Timely reachability adds: before the deadline. Slowing can preserve the first and destroy the second. A perfectly legible instruction can arrive after the last opportunity to follow it.
 
 [D] The staircase in the plate represents a different schedule: progress occurs in bursts and stays constant during gaps. The drawing alone says nothing about how state survives a gap. An exact mathematical construction may prescribe that survival. A practical system must identify its storage medium, upkeep, and restart requirements.
 
 [H] Ask whether a proposed pause reduces costly activity, preserves useful readiness, or merely postpones visible failure. The answer requires observations from the particular system. A quiet dashboard can be compatible with all three. Activity measures cannot settle the matter without a task and a test of resumption.
 
-[F] The apprentice is not wrong to listen for the wheel. He is wrong to treat the silence as a complete instrument. On the margin, another hand has written: record the oil. The annotation is a bookkeeping instruction. Its temptation is to become a universal metaphysics; decline that promotion.
+[F] The apprentice listens for the wheel and misses the work of keeping it ready. On the margin another hand has written: record the oil.
 
 ## IV. Of the Fed Vessel
 
@@ -92,21 +116,29 @@ Dormancy has a body, a reserve, and a return condition.
 
 > The jar was sealed against the winter. Every seventh day someone warmed the room in which it stood. The account recorded that the jar had required nothing.
 
-**Reading the plate.** A conceptual reserve vessel, drawn as the Fed Vessel, with three leaks and a separate restart threshold. Internal reserves and external shelter are different supports. The curves below are illustrative quantities with arbitrary units, generated from declared equations rather than measured organisms.
+**Reading the plate.** A conceptual reserve vessel with three leaks and a separate restart threshold. Internal reserves and external shelter are different supports. The curves below are illustrative quantities with arbitrary units, generated from declared equations rather than measured organisms.
+
+### The person who keeps the room warm
+
+[F] The workshop closes for winter. One member visits every week to check for leaks, run the heater and turn the stored motors. In spring the members announce that their collective survived without operating expenses. The caretaker brings the fuel bills and a record of her hours.
+
+[D] Move the boundary of the account. Within the locked room the machines were inactive. Across the room, the caretaker and the fuel supply, maintenance continued. The statement about dormancy changes when the support enters the picture. The vessel's quietness had concealed a continuing arrangement.
+
+[V] Put the continuing work into a negotiated agreement: what is needed, who will provide it, how it will be paid for, and when the obligation ends. Visibility gives a basis for sharing the burden. Treating an indefinite personal sacrifice as a standing resource spends a life the inventory never acquired.
 
 ### Where the cost went
 
-[E] Boussard and colleagues reported habituation to salt in Physarum polycephalum that remained detectable after one month in a dormant sclerotial stage. Sodium acquired during training was retained through that stage [B1]. This is a specific experimental result about a treatment and a response. It does not establish indefinite memory, memory of every kind, or institutional survival through repression.
+[E] Boussard and colleagues found that salt habituation in Physarum polycephalum remained detectable after one month in a dormant sclerotial stage; sodium acquired during training was retained through that stage [B1]. The experiment gives a concrete case of a response surviving a period of dormancy.
 
 [D] A stored capacity depends on some material arrangement continuing to hold. The arrangement may rely on internal reserves, environmental conditions, active caretaking, or a combination. Calling the focal object inactive does not tell us whether its supporting conditions are free, stable, or inside the boundary of the account.
 
-[H] A recurring institutional error may be to count only the active organization while treating its refuge as scenery. A library's storage, a member's spare room, a volunteer's time, or a host institution's electricity may carry the supposedly dormant capacity. This is a proposed accounting diagnosis. Whether it explains a failure has to be checked against actual resource use and responsibility.
+[H] Follow the support outside the apparent boundary. A library stores the papers; a member lends a room; a volunteer keeps an address list current; a host pays for electricity. Where such work maintains a capacity, omitting it makes the account of dormancy incomplete. Establish the particular dependence from resource use and the work actually performed.
 
 [V] The supporting person is not a reserve that an institution owns. Naming unpaid care makes it visible to negotiation; it does not convert care into an unlimited obligation. The vessel cannot establish an entitlement to the keeper's life.
 
 ### A maintenance interval is a claim
 
-[D] Consider an explicitly artificial reserve R(t). Between renewals it decreases at a constant rate c; a renewal adds q, up to a capacity limit. Continuation requires R(t) to remain above a specified threshold. This toy model can show how an unchanged renewal schedule fails when c increases. It has no authority to estimate c for a real person, group, or organism.
+[D] Let R(t) stand for a reserve in a deliberately simplified example. Between renewals it falls at rate c; each renewal adds q, up to a capacity limit. If losses increase while renewal stays fixed, the reserve runs down faster. Using the model requires measuring the relevant reserve and losses in the actual case.
 
 [D] Restart can demand more than preservation. A device may retain a record with little power yet require a large current to start. A group may retain an address list yet lack meeting space or time for shared work. The plate therefore draws a storage threshold and a higher, task-specific restart threshold. Their order is an illustration, not a law: some restarts may instead cost less than ongoing preservation.
 
@@ -122,13 +154,21 @@ The record can also become the channel of the next act.
 
 **Reading the plate.** Two schematic networks share a topology. The second allocates more width to one route. Width is a designed visual analogy for unequal capacity, not experimental data. The separate register below distinguishes retaining a description from retaining a capability. The two repeated blank cells are the copied omission: preservation alone cannot tell whether the omission was warranted.
 
+### How a form remembers
+
+[F] An old workshop form has a box for the serial number and no box for intermittent faults. Repairs receive a serial number before a budget can be assigned. Mara keeps a separate notebook for faults that come and go. At year end, the official record says almost every funded job concerned a stable, easily identified failure.
+
+[D] The form did two jobs. It recorded selected observations and governed which observations could obtain resources. Its omissions then entered the evidence used to defend the funding arrangement. To reconstruct the loop, compare the form, the rejected submissions, Mara's notes and the decisions they received.
+
+[H] A counter-memory would preserve the rejected fault descriptions and the reason for rejection, with enough detail to reopen the question. Its practical value depends on a reader who can use it and a decision that remains alterable. Another unused notebook would add storage while leaving the loop intact.
+
 ### A remembered past can bias a future
 
 [E] Kramar and Alim studied how Physarum polycephalum encodes a nutrient location in a hierarchy of tube diameters. Their experiments and model connect changes in network geometry with subsequent transport and migration [B2]. The relevant example is material organization carrying information that affects later activity. The plate is newly drawn and does not reproduce their data or figures.
 
-[D] In a system where the carrier of memory also constrains action, remembering is not merely keeping a description elsewhere. Altering the carrier changes some later possibilities. The biological example demonstrates one mechanism. Extending the question to institutional routines is a comparison, not a claim that habits of administration are cytoplasmic flows.
+[D] A memory carrier can also shape the next action. In the biological example, the tubes that retain the effects of feeding also carry later flows. In an institution, investigate the particular carrier: trained habits, a form, a budget or a maintained machine. Each has its own way of making some actions easier to repeat.
 
-[H] A heavily funded procedure can become both an inherited lesson and the easiest procedure to repeat. Its repeated use then appears to confirm its merit. This is a candidate feedback loop: previous allocation influences present availability, which influences observed choice, which justifies further allocation. It requires evidence of the links, not just an uneven map.
+[H] Previous investment can become evidence for its own continuation. A funded procedure stays familiar and easy to use; its repeated selection is then cited as proof of merit. Trace the loop through allocation, availability, choice and renewed allocation. An uneven map identifies where to look; the records establish which links operated.
 
 [D] Three records are therefore useful: what alternatives were described, what alternatives were maintained, and what alternatives were actually selectable at the time. Agreement among observed choices is weak evidence of preference if most alternatives had already become unavailable.
 
@@ -136,7 +176,7 @@ The record can also become the channel of the next act.
 
 [D] An alternative is not independent merely because its drawing is different. Two routes may share the same trained operator, component, bank account, or authorization. The common dependency may matter more than the separation of lines. Conversely, shared infrastructure is not automatically a defect; independence costs resources and may be unnecessary for the specified hazards.
 
-[H] A counter-memory is a deliberately maintained record of a discarded or untried alternative, including why it was set aside and what would be needed to revive it. This edition proposes pairing that record with a small resumption test when warranted. The term names an editorial device, not an established new discipline.
+[H] Keep a counter-memory: a record of a discarded or untried alternative, why it was set aside, and what reviving it would require. Where the stakes justify the cost, pair the record with a small resumption test. This keeps a later reader from mistaking an old rejection for an eternal impossibility.
 
 [V] Keeping every alternative alive is neither feasible nor necessarily fair. The question is who decides which ones lapse, which burdens continuation places on others, and whether a consequential selection can be contested before the alternative disappears. A complete archive cannot answer those political questions by itself.
 
@@ -150,15 +190,23 @@ A stored procedure is not yet a usable option.
 
 **Reading the plate.** An AND dependency diagram and its earliest-completion schedule. Reading and staffing may overlap. Approval follows reading; restoration waits for both approval and staffing. All durations are invented. The matching executable specimen is in generator/reachability.py.
 
+### Follow one repair to completion
+
+[D] Start reading at time zero. Reading ends at two; staffing, begun at the same time, ends at three. Approval begins when reading ends. If approval takes six, it ends at eight. Repair waits for both staff and approval, so it starts at eight and finishes at ten.
+
+[D] The critical path is the chain of required tasks that determines the earliest finish: reading, approval, repair. Adding more staff leaves that chain unchanged. Shortening approval to one makes repair start at three and finish at five. The diagram tells us where a change can affect this schedule.
+
+[D] AND means every listed prerequisite must be met. Acyclic means following the dependencies never brings us back to the task we started with. Unlimited parallel capacity lets independent tasks run together. Real tasks may compete for one worker or offer alternative routes. Entering those facts changes the problem to be calculated.
+
 ### The conditional argument
 
-[D] Define a usable corrective option for a specified task as a plan whose prerequisites can be met, whose necessary actions can be completed within the relevant deadlines, and whose declared resource constraints are satisfied. This definition makes no claim about which correction is wise or just. It separates practical availability from a document's presence in an inventory.
+[D] A usable option is an action someone can actually take with the prerequisites, time and resources available to them. An inventory tells us that a procedure exists. Establishing usability requires following that procedure all the way to its result.
 
 [D] Assume a finite acyclic set of tasks, known durations and release times, AND prerequisites, unlimited parallel capacity for independent tasks, and one total cost budget. For each task, earliest start is the latest of now, its release time, and the completion times of its prerequisites. Earliest finish adds that task's duration. A deadline missed by this earliest schedule cannot be met by any later schedule under these assumptions.
 
-[D] This is an elementary scheduling observation. It is neither a new theorem of governance nor evidence that the assumed tasks describe a real institution. The proposed contribution is using it to expose what a claim of available correction leaves out: a reader, a resource, an opening, a deadline, or the ability to act.
+[D] The schedule locates the dependency that sets the earliest completion. That dependency might be a reader, a resource, an opening or a permission. The arithmetic is elementary; the consequential work is finding which dependencies the real task has.
 
-[E] Ashby's account already relates regulation to available responses and communication limits [A1, chapter 11]. The edition adds an explicit audit question: which responses remain available to this actor within this window? This is an interpretive extension of the question, not a correction to a supposedly timeless Ashby.
+[E] Ashby relates regulation to available responses and communication limits [A1, chapter 11]. Carry that question to a particular actor: which responses can this person use within this window? A response available somewhere in an organization may remain unavailable to the person facing the fault.
 
 ### An option has an appointment
 
@@ -176,13 +224,21 @@ An added route is a claim about every dependency it still retains.
 
 > The red road passed the great gate. The traveler reached the little gate below it. In the account this was entered as liberation from gates.
 
-**Reading the plate.** A new treatment of the original Closed Neck motif: the Second Neck, two necks on one stem in place of the two drawn gates. Its red thread runs from the upper chamber around the first neck; a second, separately marked branch, dashed, tests a route around the second. A blank trial box remains blank; no successful intervention is implied.
+**Reading the plate.** A new treatment of the original Closed Neck motif. The red path bypasses gate A and rejoins above gate B. A second, separately marked branch tests a route around B. A blank trial box remains blank; no successful intervention is implied.
+
+### The emergency number
+
+[F] The workshop introduces an emergency telephone number. Calls go directly to a new coordinator. The coordinator still needs the owner's signature before buying a part. On Friday the owner commends the shorter reporting time. The furnace has waited the same five days.
+
+[D] The new number bypassed the reception desk. It retained the purchase gate. Ask exactly which obstruction a reform removes, then follow the work beyond it. A change can improve one interval while leaving the completion time untouched.
+
+[H] Test the route during an ordinary shift and during the absence or refusal it was meant to survive. Name who can spend, who can enter the site, and who accepts the safety duties attached to acting. A route around a signature still needs the protective work formerly bundled with that signature.
 
 ### What the bypass bypasses
 
 [D] A bypass is relative to a named obstruction. If two routes avoid one gate but share another required gate, they are independent of the first gate and dependent on the second. This follows from the stated dependencies; it says nothing about whether either gate is desirable. Some gates carry safety checks, coordination, or rights that the new route still needs to supply.
 
-[H] Institutional reforms are often described by the obstruction they remove rather than the dependencies they leave. A new reporting line may still share the disputed manager's budget. A new review panel may still lack authority to obtain records. These are hypotheses to investigate in an actual case, not universal defects of reporting lines or panels.
+[H] Follow a reform past the obstruction it advertises removing. A new reporting line can retain the disputed manager's budget; a new panel can lack access to records. Check the dependencies the reform retains as closely as the one it removes.
 
 [D] The plate has two colors because before-and-after claims need distinguishable records. Black shows the retained arrangement. Red proposes a change. Neither color supplies evidence that anyone can use the changed route. A trial should identify an actor, prerequisites, a task, a deadline, and an observable result. Record failures and shared risks alongside successes.
 
@@ -194,11 +250,11 @@ An added route is a claim about every dependency it still retains.
 
 [H] Compare a route under ordinary cooperation with the same route when the relevant gatekeeper refuses, becomes unavailable, or disputes the evidence. These are different trials. A procedure that works only with an interested party's favourable discretion has demonstrated conditional access.
 
-[H] Organised refusal can survive a gatekeeper's refusal: when enough of the people a process needs stop together, no single name carries the stoppage. It opens the route only if they cannot be replaced before the deadline and stopping costs the gatekeeper more than granting. In 1981 replacement won: more than 11,000 striking US air traffic controllers were dismissed [L1]. The specimen is generator/refusal.py.
+[H] Collective refusal introduces a different source of power: withholding work the process needs. In the executable specimen, a refusal succeeds when replacement is too slow and waiting costs the office more than granting. Protection from individual naming is an assumed rule of that specimen. Real employers can identify and divide workers; in 1981 more than 11,000 striking US air traffic controllers were dismissed [L1].
 
 [V] A successful bypass can transfer risk to someone outside the former approval chain. Record who gains discretion, who acquires a burden, and who can challenge that distribution. Preserving a protective function does not require preserving its former keeper.
 
-[F] The lower gate need not prove that every reform fails. It may have another instruction, another keeper, or no workable route around it yet. The traveler records which. The trial field stays empty until a trial occurs.
+[F] At the second gate the traveler records its instruction, its keeper and the remaining routes. The trial field stays empty until someone tries one.
 
 ## VIII. Of an Outage Delayed by Authority
 
@@ -207,6 +263,14 @@ The first clock measures the wound; the next measures a permission.
 > The crew stood beside the tools. The dispatch waited beside the seal. Each office reported that its part was ready, and the cable remained broken.
 
 **Reading the plate.** Mounted from Clavicula Matricis, Tabula VIII. A hypothetical incident, not an account of an employer. The black route runs from the NOC through a mandatory escalation gate to an executive with no direct repair capacity, then to dispatch, the field crew and the fibre break. The red route adds a pre-authorized technical dispatch with a named owner, an alternate on-call and a timed fallback, and keeps the old route. The plate marks the disputed handoff as an unverified hypothesis. Its two brackets measure elapsed time from recognition to dispatch and from dispatch to restoration; they do not divide the outage into causes.
+
+### Three clocks in one incident
+
+[F] In the invented outage, a technician identifies a damaged cable at 09:05. Site access is arranged at 09:12. Dispatch authority arrives at 09:40. A crew leaves at 09:45 and restores service at 10:30. These times are a worked example, separate from the mounted plate's unspecified durations.
+
+[D] The service was unavailable throughout. The crew's travel and repair occupied one part of the interval. The authorization occupied another. To attribute avoidable delay, establish when dispatch could safely have occurred and what actually prevented it. An executive's late message matters causally only if another required task would not have held the same action back.
+
+[H] Compare a bounded dispatch permission with the current process. Keep training, safety coordination, notifications and a record for later review. Record mistaken dispatches and transferred risks alongside saved time. The desired result is a repaired service under acceptable conditions; rapid permission is one means to it.
 
 ### A timeline is not a cause
 
@@ -220,7 +284,7 @@ The first clock measures the wound; the next measures a permission.
 
 ### The proposed dispatch trial
 
-[E] HRO practice defers to relevant expertise while preserving shared vigilance [Q1]. DORA recommends peer review and automated checks instead of heavyweight external approval [Q3]. Neither source estimates the benefit of this dispatch proposal; healthcare evidence on HRO implementation remains limited [Q2].
+[E] HRO practice defers to relevant expertise [Q1]. DORA reports that heavyweight external approval is associated with poorer software-delivery performance and found no evidence that formal external review lowered change-failure rates; it recommends peer review and automated checks [Q3]. That software evidence supports examining approval waits. The proposed field-dispatch change needs its own trial.
 
 [H] Trial standing technical dispatch authority within stated conditions. Preserve executive notification, a shared record, safety coordination, and independent review. Name the person able to change the rule after a substantiated failure. Popularity, shame, and a good dashboard do not confer that authority.
 
@@ -236,11 +300,19 @@ A refuge preserves some capacities and selects against others.
 
 > The house remained closed to the public. Inside, the books were aired, disputes continued, and a child learned which cupboard held the ink. The census called the house empty.
 
-**Reading the plate.** Four different carriers of continuity: records, skills, relationships, and rules. Their maintenance supports are shown separately from the room that shelters them, the House Kept in Abeyance, which stands above them. The outer boundary remains permeable because a refuge can depend on institutions beyond itself.
+**Reading the plate.** Four different carriers of continuity: records, skills, relationships, and rules. Their maintenance supports are shown separately from the room that shelters them. The outer boundary remains permeable because a refuge can depend on institutions beyond itself.
+
+### What survives a quiet year?
+
+[F] A reading group stops meeting. One member holds the books, another keeps contact with former participants, and a third continues translating. When meetings resume, the address list works but the meeting rule excludes anyone unable to attend in person. The group has retained several kinds of continuity and one consequential exclusion.
+
+[D] Abeyance names a period in which an organization's activity contracts while some means of later action survive. Ask where each means is carried. Books preserve texts, practice preserves skills, relationships preserve ways of finding one another, and rules preserve distributions of permission.
+
+[H] Treat return as a decision point. Inventory the retained capacities, the unpaid work that kept them, and the inherited restrictions future participants may contest. An agreement made by caretakers can prepare that review. The new participants still need an effective voice when they arrive.
 
 ### Continuity is selective
 
-[E] Taylor's study of the US women's movement treats abeyance structures as bridges through nonreceptive political periods. Its account includes centralization and exclusiveness among the features of such continuity [H1]. It should not be read as an assurance that hidden or quieter organization is egalitarian. Verification for this edition covered the article's abstract and bibliographic identity, not every historical claim in the full paper.
+[E] Taylor describes abeyance structures that connected phases of the US women's movement through a politically unreceptive period. Centralization and exclusiveness are among the features in her account [H1]. A refuge can carry both the means of renewed action and an inherited distribution of power.
 
 [D] Continuity can preserve skills, relations, purposes, rules, and exclusions in different proportions. A meeting format can survive while its former participants disappear. A slogan can remain while the skill needed for collective work vanishes. A revived organization can retain a name without retaining its earlier accountability.
 
@@ -264,25 +336,33 @@ Who can renew a capacity may shape which future is available.
 
 > They took a vote among the four living plans. No one entered the fifth, whose only reader had been allowed to leave. The vote was unanimous.
 
-**Reading the plate.** Four independent clocks: public visibility, retained lesson, identity linkage, and usable authority. Each has its own keeper and renewal point; the Keeper of Intervals stands beside them with the thread. These are analytical distinctions, not recommended retention durations or a diagram of any living network.
+**Reading the plate.** Four independent clocks: public visibility, retained lesson, identity linkage, and usable authority. Each has its own keeper and renewal point. These are analytical distinctions, not recommended retention durations or a diagram of any living network.
+
+### The vote held too late
+
+[F] The workshop considers two repair methods. One has a maintained machine and three trained operators. The other remains in a binder; its only operator retired two years ago. Members vote for the first. The minutes record a preference between two available alternatives.
+
+[D] Reconstruct the earlier decisions: when training stopped, when the machine was retired, and whether the alternative could have been kept usable at an acceptable cost. The ballot counted present preferences. The maintenance history explains how the list of practicable choices came to be.
+
+[V] Some alternatives deserve to lapse. Keeping an unsafe machine or sustaining an abusive arrangement consumes resources and creates injury. The political question concerns who can contest a consequential withdrawal while there is still something to decide. Ask that question before the archive becomes the only remaining place where the alternative exists.
 
 ### The decision before the decision
 
-[D] If a future action requires a capacity, and maintenance determines whether that capacity remains available, maintenance can change the set of future actions without changing the eventual voting rule. This is a conditional consequence of the dependency description. It does not prove a motive in the person who controls the maintenance budget.
+[D] A decision about maintenance can decide which choices reach a later vote. If an action needs a trained reader and that skill is allowed to disappear, keeping the voting rule unchanged will not restore the missing option. Locate the capacity, its keeper and the point at which its loss closes the route.
 
 [H] Selection by maintenance: one alternative stays staffed, documented, rehearsed, and intelligible while another becomes hard to resume. A later vote can mistake unequal readiness for unequal merit. This develops Matricis's decay-ownership proposal. The keeper controls particular dependencies, not the whole future. Test whether the readiness difference actually changes the options available; record counterexamples [P1].
 
-[D] This is narrower than saying the keeper controls the future. Other routes may exist; new capacities may be invented; people may act outside a permission structure. The keeper controls particular dependencies under particular conditions. The plate uses several clocks to keep that claim local enough to check.
+[D] Follow the particular dependence. Can another reader be trained in time? Can the work move elsewhere? Does the keeper control a replaceable convenience or the last usable route? These questions distinguish influence over a future choice from control of its outcome.
 
 [E] Ulrich and Reynolds distinguish those involved in a designed system from those affected but not involved, and use boundary critique to expose judgments about inclusion and justification [G2]. Here that question is carried into time: whose later options are affected by today's decision to stop maintaining a capacity?
 
 ### The lesson, the name, and the copy
 
-[E] NASA's Aviation Safety Reporting System describes de-identifying reports before database entry and separating the reporting process from enforcement functions, with stated exceptions and limits [N1]. It is an example of retaining lessons while limiting identity exposure. It is not proof that de-identification always prevents reconstruction or that its incentive structure transfers to other institutions.
+[E] NASA's Aviation Safety Reporting System removes personal and organizational names and generalizes or removes identifying dates and times before database entry. It combines a retained safety account with protections for the reporter [N1]. Its enforcement-use and penalty-waiver protections have stated limits.
 
 [D] Visibility, retention, identifiability, and practical access are separate variables. Removing a public trace does not show that every copy disappeared. Preserving a lesson does not require retaining every identifying detail. The proper arrangement depends on purpose, rights, technical constraints, and risks. This book offers no universal retention schedule.
 
-[H] Identity-lesson separation: ask whether a lesson remains usable after unnecessary identity links are removed. Compare reporting and learning with similar incentives and access; the claim loses force if separation adds no benefit or destroys needed verification. A retained third-party copy can defeat the stated policy. No general guarantee of anonymity follows [P1].
+[H] Test identity-lesson separation by asking whether the safety lesson remains usable after unnecessary identity links are removed. Record losses of verification as well as gains in protection. A copy held elsewhere remains a separate exposure to investigate [P1].
 
 [F] The fifth plan did not vote against the others. It could no longer be read. The missing entry makes the tally incomplete as a record of the choice that had actually been made.
 
@@ -294,11 +374,19 @@ A return can change what returns, and who pays for it.
 
 **Reading the plate.** A five-axis comparison of mission, structure, membership, capabilities, and accountability. Marks show an invented before-and-after case. The axes are ordinal descriptions; their values must not be added into an overall score.
 
+### The same name on a different door
+
+[F] The workshop reopens after the flood under its old name. Its new machines can finish twice as much work. Former members cannot afford the new fee. The founding purpose remains on the wall, and a new owner decides what it means.
+
+[D] Describe the return in five sentences. What work is it for? How is it organized? Who belongs? What can it do? Who can call its decisions to account? The answers can show increased capacity beside lost access and concentrated authority. Keep those changes available for judgment.
+
+[H] A comparison becomes stronger when a second reader can reconstruct the descriptions from the same records. Keep disputed judgments visible. Where one reader sees a changed mission and another sees continuity, identify the evidence each used rather than averaging the disagreement into a reassuring number.
+
 ### Keep the dimensions separate
 
 [D] To call a recovery a return, specify a baseline. The organization's name, premises, service, membership, and governing rules may have different continuities. A single restored/not-restored field erases changes that matter to different participants. It can also treat any incidental change as a transformation.
 
-[H] The packet proposes coding recovery across mission, structure, membership, capabilities, and accountability [P0]. This edition retains that proposal with a restriction: use explicit descriptions and coder judgments, not an unexplained total score. One axis's improvement cannot automatically compensate for another axis's loss. A more capable institution can be less accountable.
+[H] Describe recovery across mission, structure, membership, capabilities and accountability [P0]. Keep the five descriptions alongside the passages supporting them. This makes a more capable but less accountable return visible instead of allowing the first change to cancel the second in a total score.
 
 [D] A coding scheme is useful only if it separates cases consistently enough for its purpose. Test agreement among coders, record uncertainty, and retain the passages that supported each judgment. If nearly every return receives the same vague label, the scheme has failed to discriminate. More dimensions can produce more words without more information.
 
@@ -308,7 +396,7 @@ A return can change what returns, and who pays for it.
 
 [D] Regulation around a chosen target and revision of that target are different operations in a model. In practice they can occur together: staff may repair a system while changing the service that repair is meant to restore. Record both operations. Do not infer an improved purpose from the mere fact that the arrangement changed.
 
-[H] A proposed comparison should ask whether the five descriptions predict any later outcome beyond ordinary measures of resources, staffing, and hazard. The test might find that resources explain the difference and the displacement coding adds nothing. That result would limit the coding's analytical value without making the descriptions meaningless.
+[H] Compare these descriptions with later outcomes and with ordinary records of resources, staffing and hazard. If the extra coding does not improve a consequential assessment, simplify it. A useful distinction need not become a permanent reporting requirement.
 
 [D] The plate's dial marks are invented. Their spacing aids comparison; it does not mean equal intervals of organizational change. The book does not compute a magnitude of revision. A comparison with no common unit should stay a set of stated differences until there is reason to aggregate it.
 
@@ -322,19 +410,27 @@ An observation becomes another instruction in the room.
 
 **Reading the plate.** A feedback loop links a published measure to a decision, changed behavior, and the next observation. Beside it, two separate registers ask about consequential power and effective correction. Their scales have no common unit and yield no single score.
 
+### When closing a ticket becomes the work
+
+[F] The workshop rewards jobs closed within a day. Staff split difficult repairs into a sequence of short tickets. Each closes on time; the customer returns all week. The dashboard improves while the time required to obtain a working machine increases.
+
+[D] The measurement has entered the activity it was meant to describe. Follow the incentive, the changed classification and the customer's outcome. Preserve the first report and link the later tickets to it. A short recorded interval can coexist with a long unresolved injury [T3].
+
+[H] The same scrutiny applies to the book's own proposed measures. An organization can improve complaint-response time by rejecting difficult complaints. Follow what happened to the reported problem, including whose costs were moved outside the counted interval. A metric remains useful when its relation to the work survives those checks.
+
 ### What the measure makes happen
 
 [D] A ranking, forecast, benchmark, or diagnosis can alter the behavior subsequently observed. Record who uses it, which decisions follow, and what people can change in anticipation. A better score may reflect better performance, changed classification, displaced costs, or preparation for the measurement.
 
-[H] Temporal legibility: a known schedule can lower coordination costs while exposing the same timing to others. Treat both effects as hypotheses about a particular setting. An unpredictable schedule may worsen coordination without improving the outcome; that counts against the proposed intervention [P1].
+[H] A known schedule helps participants find one another and lets others anticipate them. The temporal-legibility proposal asks who gains each advantage, under which conditions. Compare actual coordination and exposure before choosing a different schedule [P1].
 
-[H] Distinguish negligible, bounded, and consequential feedback, with reasons. These labels are prompts for investigation, not validated classes. Look for what the measure renders difficult to see: deferred work, unreported harm, exclusions from the denominator, or a failure moved beyond the reporting period.
+[H] Trace the feedback from measure to decision to changed behavior. Look for deferred work, unreported harm, exclusions from the denominator or a failure moved beyond the reporting period. Describe the size and consequence of the feedback before assigning it a label.
 
 [D] Keep the observation and the rule that uses it in the same account. Changing a target changes the incentive being studied. A system that learns to pass an examination has demonstrated that learning; whether it has learned the intended work is a separate question [T3].
 
 ### Power and correction remain separate
 
-[H] Directional corrigibility is a warning proposed in Matricis: consequential power may grow while the ability to discover and act on inadequacy declines. Track deployment scope or dependence separately from correction latency, successful access to an authorized recipient, and routes that survive the specified gatekeeper's refusal [P1].
+[H] Directional corrigibility asks whether effective correction keeps pace with consequential power. Track the reach of a deployment beside the time required to recognize a failure, reach an authorized recipient and act. Examine whether those routes still work when the relevant gatekeeper refuses [P1].
 
 [D] These measures have different units. Do not divide market share by appeal time and call the result a scientific threshold. More reporting channels may share one owner. Shorter response times may conceal rejection of difficult reports. The evidence must show what each series means.
 
@@ -350,15 +446,23 @@ The added question must earn its place beside the ordinary review.
 
 **Reading the plate.** Three comparison arms read matched case packets: competent review; review plus this practice; review plus an equally long generic checklist. Independent judges assess supported findings. The plate records a proposed study, not completed evidence.
 
+### A comparison that could disappoint us
+
+[H] Give three reviewers the same incident packet. One uses an established review method. One adds the questions in this book. One adds an ordinary checklist matched for reading time. Conceal the reviewers' methods from the people judging their findings.
+
+[D] Suppose all three identify a blocked approval, and only the second uses the phrase keeper of intervals. That adds a phrase. Suppose the second finds a documented loss of training that the others miss and identifies a feasible remedy. That adds a supported finding. Suppose it invents a motive for the loss. That adds an error.
+
+[H] Compare supported findings, false claims, feasible actions and effort. Preserve a disappointing result. It tells us which questions to remove, simplify or borrow from better practice. This is a proposed comparison; the project's retrospective exercises did not execute it.
+
 ### What the exercises established
 
 [D] An instrument that produces a longer report has not thereby found more. A useful comparison distinguishes supported mechanisms, unsupported claims, actionability, and effort. Asking extra questions can improve coverage even when the vocabulary of this book contributes nothing distinctive.
 
 [H] Use three arms: a competent review alone, that review supplemented by this edition's questions, and that review supplemented by a generic checklist of similar length and reading time. Keep case materials and opportunity to revise comparable. Have judges who do not know the arm assess claims against source passages. Randomize order or use independent analysts where possible.
 
-[D] The supplied reports of 10 and 11 October describe a six-incident exercise and an expanded ten-unit reading [P2] [P3]. One analyst knew the outcomes. Both say the independent three-arm comparison was not run. Incremental usefulness and a measured null effect are therefore unestablished. Independent comparison records are not included because that comparison was not executed. The reports document development work, not comparative validation.
+[D] The reports of 10 and 11 October describe a six-incident exercise and an expanded ten-unit reading [P2] [P3]. One analyst knew the outcomes. Neither ran the independent three-arm comparison. They developed the questions; they did not measure their added value. That comparison remains to be done.
 
-[H] If comparative usefulness is pursued, choose one proposed increment, obtain the evidence it needs, and specify the comparator and outcome before the test. More terminology, speculative motives, or the same recommendations at greater cost would count against added value. The present edition does not require another broad demonstration or a larger simulation to justify its historical arguments, ethical positions or artwork.
+[H] Choose one promised improvement and specify its comparator and outcome before the test. More terminology, unsupported motives or the same recommendation at greater cost count against added value. The historical arguments and ethical commitments stand or fall on their own reasons.
 
 ### Test the promised increment
 
@@ -366,7 +470,7 @@ The added question must earn its place beside the ordinary review.
 
 [E] Kelly distinguishes a method's eventual arrival at a correct answer from its ability to announce that the answer is now certainly correct. Reliability is assessed over a stated range of possible data streams. A rule for changing beliefs can be restrictive enough to block an inquiry another rule could solve [T4].
 
-[H] Apply that question here without claiming an institutional convergence theorem. Can a later record reopen a closed finding? Can an affected person challenge a category that excluded their report? Repeatedly updating a score inside fixed categories does not test those categories. A method needs an account of what it could learn from, including the records it cannot obtain.
+[H] Ask what could reopen a finding. Can a later record change the conclusion? Can a person challenge the category that excluded their report? Updating a score inside fixed categories leaves those categories in place. An inquiry needs ways to learn that it has been asking the wrong question.
 
 [H] Test the proposed increment on historical or authorized records, with exclusions and evidence standards declared. Have independent readers distinguish stored procedures from usable options before seeing a preferred reconstruction. If the distinction adds no supported finding, retain the null result. Eventual correction would also be too late for some tasks; Kelly's limiting criterion supplies no deadline guarantee.
 
@@ -378,11 +482,19 @@ A visible witness need not hold the authority others assign.
 
 **Reading the plate.** Two reporting arrangements. In one, three nominal channels converge on the same unavailable recipient. In the other, an independent route reaches a decision point with declared resources and review. A separate boundary asks who cannot enter either arrangement.
 
+### The person beside the door
+
+[F] Visitors ask who runs the workshop. The member nearest the door answers their questions. Soon invoices, press inquiries and instructions all arrive in her name. She can explain the work but cannot spend the budget. Members begin asking why she has failed to obtain the new furnace.
+
+[D] Expertise concerns what she knows. Visibility concerns who can find her. Responsibility concerns what she has undertaken. Authority concerns what she is allowed to decide. Record each relation separately and ask who assigned it. Their combination can be useful; their accidental convergence can load a person with duties she has no means to discharge.
+
+[V] People affected by the workshop also need a route into its decisions when they cannot become members or contribute labor. A neighbor exposed to smoke has a claim even if she never makes anything there. A contribution rule cannot supply the whole boundary of legitimate concern.
+
 ### Reception is not correction
 
 [D] Visibility, expertise, responsibility, and authority are different relations. A recipient may hear a complaint without controlling the rule, records, or resources needed to address it. Conversely, being quoted as a spokesperson does not establish delegation by the people described.
 
-[E] Ostrom's account of polycentric governance examines institutional arrangements beyond a single market/state division and includes monitoring and conflict-resolution questions [G1]. It offers reasons to investigate multiple decision centers and their actual rules. It does not establish that multiplying committees automatically makes a system accountable.
+[E] Ostrom examines multiple centers of decision and the rules through which they operate [G1]. Use that account to ask where monitoring, conflict resolution and authority actually reside. Counting committees leaves the relations among them unexplained.
 
 [H] For one consequential complaint, trace the route to a recipient who could change the arrangement and obtain the resources required. Record the time, cost, and conditions imposed on the complainant. Then test whether a challenge concerning that recipient can reach a different effective route. The test is specific to the hazard; it does not demand infinite independent appeals.
 
@@ -392,7 +504,7 @@ A visible witness need not hold the authority others assign.
 
 [V] Non-domination concerns exposure to uncontrolled interference, including benevolent interference. Dependence can enable that power without proving it. Claims of domination remain answerable to counterevidence, including testimony from those said to be dominated [V1].
 
-[E] Freeman's account of the star system describes public attribution of spokesperson roles where a movement had not selected official representatives [G3]. That specific account supports separating visibility from delegated authority. It does not prove that every informal group is covertly centralized or that formal authority always solves accountability.
+[E] Freeman describes a star system in which outsiders treated visible women as movement spokespeople although the movement had not selected them [G3]. Public recognition and internal delegation had come apart. Her argument makes the decision rules and the means of holding decision-makers accountable central to organization.
 
 [E] Marsh proposes stigmergic coordination in which people can initiate work without obtaining collective permission for every act. Users accept, reject, or develop contributions. This shifts attention from the person authorizing a task to the conditions under which work can proceed [T6].
 
@@ -406,6 +518,14 @@ Standing is not a reward for keeping the apparatus alive.
 
 **Reading the plate.** Mounted from Clavicula Matricis, Tabula VII. Ten numbered bindings radiate from an open centre; the plate notes that it wore through where the prohibition had been finest. They are adopted constraints, not results of calculation. The plate draws no dials. The three questions before an irreversible act are set out in the reading and share no unit.
 
+### Why care stays outside the productivity account
+
+[F] A member stops working after an injury. The workshop's contribution ledger falls to zero beside his name. Someone proposes ending his access to the heated room. The accounts are accurate about hours and silent about what is owed.
+
+[V] The second binding refuses that inference. Standing follows interests: having something at stake gives a reason to be heard and considered. The need for warmth remains when a person cannot contribute. Decisions about scarce heating still require an account of costs and competing needs; the ledger cannot decide who counts.
+
+[V] Consent and non-domination also ask different questions. A member may agree to an arrangement while depending on an owner who can change it at will. Examine the agreement, the dependence, the limits on the owner's discretion and the available means of challenge. Neither a signature nor an abstract suspicion should erase the person's own account.
+
 ### The bindings
 
 [V] 1. No subsystem speaks as Reason as a whole. 2. Standing follows interests, not usefulness. 3. Consent alone does not establish freedom from domination. 4. Claims of domination remain answerable to counterevidence, including testimony from those said to be dominated.
@@ -414,11 +534,11 @@ Standing is not a reward for keeping the apparatus alive.
 
 [V] 9. Irreversible destruction carries a proportionate burden of evidence. 10. Critical decisions require effective, affordable contestation that survives the refusal or capture of the relevant gatekeeper. The tenth binding asks about a specified hazard, not universal duplication of every dependency.
 
-[V] Care, non-domination, and plural flourishing remain contestable commitments. The traditions named in the source register do not agree about all of them. Nothing in the scheduling specimen settles those disagreements. No service should depend on adherence to this book [P1, V1, V2, V3].
+[V] Care, non-domination and plural flourishing are the commitments of these bindings. The source traditions give different reasons for them and sometimes disagree. No service should depend on adherence to this book [P1, V1, V2, V3].
 
 ### The burden before an irreversible act
 
-[H] Before destroying a condition on which lives depend, compare feasible alternatives and the costs of inaction. Ask whether the lost capacity can be rebuilt in time, who bears the loss and can contest it, and whether an effective substitute disappears. The three questions share no unit and calculate no verdict.
+[H] Before destroying a condition on which lives depend, compare feasible alternatives with the costs of inaction. Ask whether the capacity can be rebuilt in time, who bears the loss, and how they can challenge it. Give each answer its own place in the decision.
 
 [D] Testing a successor can assume a second attempt that an irreversible failure will remove. Preparedness may reduce that exposure; it cannot establish that every important trial is recoverable. The disagreement moves to judgments about irreversibility, likelihood, and burdens of proof. Those judgments remain disputable.
 
@@ -433,6 +553,14 @@ An empty receiving room is not repaired by another arrow.
 > The last appeal arrived in a room whose only door opened from the other side. The clerk copied it carefully and left a space for the reply. No reply has been entered.
 
 **Reading the plate.** Several unfinished routes reach separate reserved blanks: accountable reception, representation, retention, ownership, and allocation. They are distinct unresolved questions. The plate supplies neither a final judge nor a hidden passage joining them.
+
+### When no one can issue the remedy
+
+[F] The owner can hear the complaint, deny the purchase and dismiss the complainant. The workshop's appeal returns to the owner. Members bring better evidence. Every fact is accepted. The furnace still waits.
+
+[D] The obstruction now concerns power to alter the arrangement. More accurate reporting leaves that distribution in place. An outside regulator, collective bargaining, a change of ownership or an alternative workshop might change it. Each requires its own organization, resources and contest over authority.
+
+[V] A right written on a page becomes useful through people and institutions able to enforce it. Where those means are absent, record the absence. The members' refusal, an outsider's intervention and a new governing rule can create different obligations and different injuries. The diagram leaves those conflicts available for political judgment.
 
 ### Where the report has nowhere to go
 
@@ -478,13 +606,21 @@ Preserve the means to revise the inventory itself.
 
 **Reading the plate.** Mounted from Clavicula Matricis, Tabula XIII, a dark sheet. Twelve roundels carry their Revision 3 readings: interest-bearing being, sentience candidate, boundary, centre of decision, bottleneck, regulation, revision, additive change, substitutive change, generative substrate, reflexive loop and learned invariant. Below them is the mark, an open spiral with a branch, with notes on drawing it in meal. The other plates in this book use the cipher's simpler base forms of these signs under Intervallorum's names, such as state, function and repertoire, and write the name beside each sign where it is used.
 
+### Taking the questions out of the book
+
+[D] Begin with one consequential task. Describe the result needed and the time in which it matters. Follow the necessary people, tools, permissions and supports. Mark where a missing dependency blocks the route. Then ask who can change that dependency and who bears the cost of doing so.
+
+[H] Use the smallest record that helps someone decide. For a routine repair, an existing checklist may be sufficient. For a disputed withdrawal of capacity, the maintenance history and the affected people's accounts may matter more. Keep the extra question when it reveals something supported that ordinary practice missed.
+
+[V] The final question concerns the inventory's boundary. Who disappears when success is defined this way? A better arrangement must remain open to an answer from someone the present arrangement overlooked. The next book gives the offices their names and lets the ticket travel through them.
+
 ### What this edition claims
 
-[D] The bounded deductive claim is this: under specified dependency, timing, and resource assumptions, preserving a description of an option is insufficient to establish that the option can be used. The executable specimen makes a small instance exact. Its accuracy as a description of any practical system must be established independently.
+[D] Keeping a description of an option does not keep the option usable. Usability depends on the people, permissions, resources and time needed to act. The executable specimen shows this dependence exactly under its stated assumptions. A practical investigation must establish the dependencies it enters.
 
-[H] Maintenance, access, and institutional authority are investigated together here. Selection can occur when some capacities are renewed and others lapse before a formal choice. Whether this description adds anything beyond ordinary maintenance and governance analysis remains unestablished. Temporal legibility, protected reporting, directional corrigibility and displacement coding likewise remain distinct proposals; none inherits validation from the others.
+[H] Maintenance selects among possible futures when one capacity is renewed and another lapses before a formal choice. Trace that selection through budgets, training, access and decisions to stop upkeep. Temporal legibility, protected reporting and the pace of correction remain further questions with their own tests.
 
-[D] The cross-domain comparisons remain asymmetric. A fluid construction can establish a reachability statement in a prescribed mathematical model. A biological experiment can establish an observed effect under its treatment. A historical study can support an explanation of particular continuity. None can lend its evidential force to the others merely because a diagram resembles them.
+[D] Each comparison contributes a particular relation: a clock separates eventual from timely completion; an experiment shows a response surviving dormancy; a historical account follows continuity through political retreat. The institutional argument must establish how its own clocks, carriers and keepers work.
 
 [V] Care, non-domination, and revisability constrain the use of the instrument. They remain ethical commitments, open to argument in their own terms. The device does not derive human standing from usefulness or grant a system unlimited jurisdiction because it can keep itself alive.
 
@@ -494,9 +630,9 @@ Preserve the means to revise the inventory itself.
 
 [D] No observation needs to refute the conditional schedule when its assumptions hold. Observations can instead show that the assumptions omit what mattered. This distinction prevents a definitional result from being used as an unfalsifiable empirical theory. The book must not claim to have predicted what it only redescribed after the event.
 
-[F] The twelve marks are an invented notation. Their keyed readings are supplied. Nothing depends on discovering a hidden doctrine, and an attractive line is not a reason to obey it. Readers can use the diagrams, disagree with the commitments, or treat the object as an elaborate joke about administrative esotericism.
+[F] The twelve marks have keyed readings. Use the diagrams, dispute the commitments, or keep a figure after rejecting its argument. The key gives access to what is written; judgment about it remains with the reader.
 
-[F] The final shelf remains available for a correction the present inventory cannot name. That gesture has no causal power. Someone would still have to build the shelf, maintain the room, and let another person put something there.
+[F] The final shelf waits for a correction the present inventory cannot name. Someone must keep the room available and let the next occupant put something there.
 
 ## Three uses of marks
 
@@ -586,7 +722,7 @@ https://wulrich.com/downloads/ulrich_reynolds_2010_prepub.pdf
 
 ### [G3] Freeman, J. (1972-73). The tyranny of structurelessness. Berkeley Journal of Sociology, 17, 151-165. Author-posted composite version.
 
-Inherited inspection record from Intervallorum: Author-posted text inspected, including the star-system section. First presented as a talk in 1970.
+Inherited inspection record from Intervallorum: Author-posted text inspected, including the star-system section. First presented as a talk in 1970. Rechecked 21 October 2026: relevant official or author-posted web text read; this was a selective claim check, not an independent evaluation of outcomes.
 
 Visibility and externally attributed representation; publication date is distinguished from the earlier talk.
 
@@ -594,7 +730,7 @@ https://www.jofreeman.com/joreen/tyranny.htm
 
 ### [N1] NASA Aviation Safety Reporting System. Confidentiality and Incentives to Report. Official program description.
 
-Inherited inspection record from Intervallorum: Official program page inspected on 16 October 2026 UTC.
+Inherited inspection record from Intervallorum: Official program page inspected on 16 October 2026 UTC. Rechecked 21 October 2026: relevant official or author-posted web text read; this was a selective claim check, not an independent evaluation of outcomes.
 
 De-identification and stated reporting safeguards; no causal effect size asserted.
 
@@ -714,7 +850,7 @@ https://pubmed.ncbi.nlm.nih.gov/41248244/
 
 ### [Q3] DORA. Streamlining change approval. Capabilities page, updated 30 October 2025.
 
-Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read.
+Primary programme page directly read on 18 October 2026. The 2019 report it summarizes was not independently read. Rechecked 21 October 2026: relevant official or author-posted web text read; this was a selective claim check, not an independent evaluation of outcomes.
 
 Peer review and automated checks as alternatives to heavyweight external approval. Supplies no gate-detection probability or incident-window calibration.
 
@@ -858,7 +994,7 @@ Cloudflare (2023, 4 November). Post mortem on the Cloudflare control plane and a
 
 ## Production and preparation notes
 
-Combined reading edition | premise revision, 18 October 2026
+Expanded reading edition | 21 October 2026
 
 Text: Josiah Alan-Lee, with Claude and ChatGPT/Codex. Matricis supplies the core questions, change rules, measures, constraints, outage parable, and unresolved disputes. Intervallorum supplies the developed account of maintenance, deadlines, memory, and available correction. Consolidation, new plates, and the present setting: ChatGPT/Codex, 17 October 2026.
 
@@ -871,3 +1007,5 @@ This is a reading edition at the common seven-by-ten-inch trim. Its plates use r
 The conceptual revision develops selected antecedents beside the existing arguments: interactive resources at Table VI, limiting inquiry at XIII, stigmergic initiative at XIV, and destabilization rights at XVI. The restored Matricis boards remain mounted. A separate notation guide distinguishes the diagram vocabularies from the alphabet.
 
 Premise and source-status revision: ChatGPT/Codex, 18 October 2026. Existing safety and evaluation antecedents are credited. Comparative superiority, a measured null effect, and a unified empirical theory are not claimed. The public evidence review and report excerpts are filed under docs/research/evidence/.
+
+Approachability and prose revision: ChatGPT/Codex, 21 October 2026. Seventeen worked reading leaves added; existing arguments revised for direct statement. DORA, NASA ASRS, Jo Freeman and Toyota primary web accounts were checked selectively for this pass. Historical inspection limits remain with the relevant references. Earlier comparative validation was not performed.
