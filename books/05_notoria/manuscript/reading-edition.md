@@ -2,7 +2,7 @@
 
 *Of the Figure and Its Reader*
 
-Book V of Codex Intervallorum. Developmental reading edition, 17 October 2026.
+Book V of Codex Intervallorum. Revised reading text, 21 October 2026.
 
 <!-- leaf: cover -->
 
@@ -12,7 +12,7 @@ Book V of Codex Intervallorum. Developmental reading edition, 17 October 2026.
 
 A leaf survives with one corner missing. Three rings remain legible; the tracks within them terminate at the loss. Nothing in the surviving lines tells whether they continued. The red thread crosses the outer ring and ends at the surviving edge.
 
-This is an invented manuscript object. Its damage has no recovered original behind it.
+The found leaf and its damage were composed for this gathering.
 
 ## Collation of the surviving hands
 
@@ -26,11 +26,11 @@ The present gathering contains three arts: the placing of lots, the changing of 
 
 The first hand speaks as though the book had been found. The second records its manufacture. Neither is permitted to authenticate the other.
 
-Here the names of the copyists change. The Company of the Missing Corner signs the first oration; the Keepers of the Unturned Leaf sign the second; the Assembly at the Unoccupied Place signs the third. These are invented names for the same unstable literary device. No concealed historical society is alleged.
+The Company of the Missing Corner, the Keepers of the Unturned Leaf and the Assembly at the Unoccupied Place are this gathering’s invented copyists. Their changing names give the same unstable literary device three signatures.
 
 The medieval Ars notoria supplies the association of figures and knowledge-seeking orations. This gathering alters that promise. It offers no acquisition of an art by inspection alone. The critical edition has not been consulted in full for this draft; its ritual particulars are therefore not reconstructed here. [S1]
 
-The found-document voice owes something to the CCRU; the document is fiction and makes no claim that writing it causes its contents to become true.
+The found-document voice borrows from the CCRU. Its invented history is part of the literary form.
 
 *Another hand:* A missing source is not a licence to invent its testimony. An invented source is not a missing source.
 
@@ -94,7 +94,7 @@ One change has a readily inspectable witness. In his account of Strength, Waite 
 
 Twenty-two images can be paired with twenty-two letters. Equality of the two counts guarantees that bijections exist; it does not select one, date one, or show that a maker intended one. Nor does a later correspondence become worthless simply because it is later. Its historical claim and its artistic use require different assessments.
 
-**DOES NOT CLAIM:** that Tarot has one original sequence recoverable here; that images used in a game have no allegorical meaning; that a correspondence predicts events; or that changing an order necessarily destroys its earlier use. Separate users can retain separate arrangements.
+The arithmetic counts configurations; the historical inquiry asks how particular arrangements were used. Tarot’s game ranks, allegorical meanings and later correspondences require evidence appropriate to each use.
 
 *Another hand:* The oration's gate and crown are our examples. They are not readings attributed to a historical practitioner.
 
@@ -160,7 +160,7 @@ The earlier brief's shared history of imposed arithmetic is withdrawn. This leaf
 
 The same caution applies to a modern derivation of a sequence. A rule that reproduces every entry establishes reproducibility under that rule. Authorship requires evidence connecting the rule to the makers; uniqueness requires comparison with alternatives; explanatory value requires an account of what the derivation adds.
 
-**DOES NOT CLAIM:** that Chinese image-and-number traditions are external to the Yijing; that the received sequence is meaningless; that a mathematical description is a historical genealogy; or that its modern description exhausts the uses of a figure.
+Keep the received sequence, image-and-number traditions and the modern binary table available in their different uses. A mathematical correspondence establishes a structural relation; a genealogy requires historical witnesses.
 
 *Another hand:* To criticize an imposed reading, we first have to show that it was imposed. Calling a correspondence an imposition does not do that work.
 
@@ -242,9 +242,9 @@ The arithmetic of eight binary distinctions gives 256 configurations. It does no
 
 The brief's stronger claims about seniority and the precise ìbò selection rule remain pending checks against Bascom and Abimbola. They do not enter this draft's orations as verified procedure. Nor does failure to find an empirical cast-distribution study establish that nobody has made one.
 
-The dust surface provides an analogy of inscription and erasure. It does not establish that spatial density or adjacency functions like a simulated pheromone field. A notation written in dust can remain notation. The shared medium is insufficient evidence of a shared mechanism.
+Inscription and erasure supply the dust-surface comparison. A simulated pheromone field additionally makes density and adjacency affect movement. Establish those relations before claiming a shared mechanism.
 
-**DOES NOT CLAIM:** to teach Ifá, reproduce its corpus, decide questions of initiation, or replace practitioners' accounts with a software model. No ẹsẹ is reproduced. The nota is this book's diagram of an index, not an Ifá figure.
+The nota diagrams an index. Practitioners’ accounts, the Odù corpus and questions of initiation remain outside this diagram’s scope. No ẹsẹ is reproduced.
 
 *Another hand:* These limits describe the present author's work. They are not an assertion that a living tradition has one universal rule of access.
 
@@ -262,7 +262,7 @@ This rule also fails if it turns into a stamp applied once. A source may be insp
 
 *Disputation:* The visitor says that the index is a machine. The teacher asks what that word permits the visitor to ignore. The visitor answers that it permits counting. The teacher asks why the visitor needed to ignore anything to count.
 
-This exchange is fiction. It is not an ethnographic anecdote, a translated verse, or an account of either Ogunnaike's teaching.
+This workshop composed the visitor and teacher’s exchange as fiction.
 
 ## Nota Generalis — the field without a corpus
 
@@ -424,7 +424,7 @@ The orations, copyists, disputation, condemnation and found leaf are newly compo
 
 Five computed notae accompany the text, on the Book IV plate furniture, each regenerable from its filed manifest; the found leaf remains a cipher ornament in the place of the frontispiece. A sixth plate, the table of possible endings, was implemented with ChatGPT/Codex on 20 October 2026 from Claude’s Codex palette research. It draws the stated finite calculation rather than a trace field. Its full integer weights are filed beside the SVG. The controls the brief requires, the physical plotting, and the four raster figure briefs remain later work.
 
-The three arts remain three. Their arrangement in this gathering does not supply a single history, a single epistemology, or a common promise of efficacy.
+The three arts retain their different histories, ways of knowing and claims about what a figure can do.
 
 The Tarot of Intervals is kept as a separate volume. Its figures are not repeated here.
 
@@ -471,5 +471,6 @@ All bibliography for this standalone draft is gathered here at the end. The iden
 **Literary debt.** The CCRU supplies a precedent for unstable collective attribution and found-document fiction. It supplies neither historical evidence for the three arts nor a warrant that fictional assertion brings about its object.
 
 **Pending shelf checks.** Dummett; Decker, Depaulis and Dummett; Rutt; Shaughnessy; Bascom; Abimbola; the full Maitre and Ogunnaike texts; Véronèse's edition. Calvino/Fabbri remains a proposed literary debt pending passage checks. The mathematical passages use direct derivation rather than attributing unchecked statements to those works.
+
 
 

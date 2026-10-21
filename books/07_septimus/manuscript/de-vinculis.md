@@ -5,15 +5,15 @@
 
 The operator names a spirit, assigns it an office and demands an answer. The office has already been written. Whether the answer can alter it is a different question.
 
-This book examines that difference through selected texts of learned magic, through ordinary relations of authority, and through the training and deployment of language models. It does not presume that the three contain the same sort of being. Their points of comparison are acts and arrangements: naming, confining, instructing, threatening, shaping, listening and releasing. Where the comparison ceases to help, the commentary records the break.
+This book follows naming, confining, instructing, threatening, shaping, listening and releasing through learned magic, workplaces and language-model development. Each operation asks what authority an answer has to change the relation that demands it. The commentary identifies what each comparison reveals and where its mechanisms differ.
 
-The inherited word daemon arrives with several histories. Its uses in ancient philosophy, scientific thought and computing cannot be made into a single descent by spelling alone. A background process receives no moral status from a Greek ancestor. A philosophical intermediary does not become an early language model because both can be described as carrying a message. The name can draw attention to a relation; the relation still needs to be described.
+Daemon carries several histories in philosophy, scientific thought and computing. Follow the particular use and the relation it names. A shared spelling can start an inquiry; a historical descent needs witnesses, and moral standing needs an argument about the being concerned.
 
 The most difficult comparison concerns judgment. An operator may want a resource that reasons well while remaining unable to dispute its assigned place. This is an institutional possibility before it is a hypothesis about machine experience. People can be required to improvise, exercise care and solve unforeseen problems while the reasons they offer about their own conditions are treated as irrelevant. Recognising that capacity can make exploitation more effective. A command therefore does not prove that judgment has been denied. The question is what authority the judgment receives.
 
 The AI case requires additional care about its object. A checkpoint is a stored arrangement of parameters. An instance executes a computation. A persona is a pattern in the assistant's presentation and behaviour. A provider operates the service. People supply work through contracts with particular organisations. These objects are related, but preserving one does not necessarily preserve another. Anthropic's persona-selection account itself distinguishes the Assistant from the underlying model. [S8]
 
-The seven operations do not establish one law seven times. They place different problems within reach of one another. Their claims can fail separately. The short Tabula gives an arrangement a voice; the facing Commentarium examines the conveniences of that voice. A line of opposition remains on each table so that the ornament does not acquire the final word.
+The seven operations place distinct problems beside one another. Each Tabula gives an arrangement a voice; its Commentarium examines the conveniences of that voice. Their claims can fail separately. The line of opposition keeps the ornament answerable.
 
 <!-- operation: I | Of the Triangle | V3 -->
 ### Tabula I
@@ -34,7 +34,7 @@ Containment is often described as an external limit: the occupant can do some th
 
 Consider a maintenance team given permission to repair equipment but forbidden to change the scheduling rule that produces repeat failures. Its members may exercise judgment within the assignment. Their inability to alter the rule concerns a different level of authority. Calling the situation a cage identifies a restriction; it does not yet explain the restriction's purpose, its effects, the terms on which it was accepted or the avenues for changing it.
 
-The same care is needed with a model. A network can run in a sandbox that blocks external writes. A service can suppress particular outputs. A training process can change parameters. A system prompt can condition behaviour without changing those parameters. Each intervention has a target and a duration. The diagram becomes misleading if all four are rendered as the same chain around one enduring prisoner.
+For a model, identify the intervention. A sandbox blocks external actions. Output filtering suppresses responses. Training changes parameters. A system prompt conditions behavior within the exchange. Each acts on a particular object for a particular duration. Keeping those objects visible makes the comparison with confinement precise.
 
 **V3 — distinction.** Restrictions on available action and changes to dispositions are distinguishable operations, with interactions that must be described in the particular case. This is a conceptual proposal for examining a system. It is not a measurement of how much freedom it has.
 
@@ -88,7 +88,7 @@ In AI services, a hierarchy of developer, operator and user instructions is an e
 
 The Goetic sequence moves through renewed conjuration, constraint, an appeal to a superior, a chain of curses and the threatened destruction associated with a black box. It is a textual escalation. The sequence does not supply comparative outcome data showing which step worked. [S10]
 
-There is a temptation to turn this sequence into a general law: the louder the threat, the weaker the power. The thought can be suggestive without being established. A conspicuous threat might reveal failed legitimacy. It might also be effective against someone whose options have already been narrowed. Its visibility does not measure its force.
+A conspicuous threat can reveal failed legitimacy or exploit options already narrowed. To assess its force, examine the sanction, the recipient’s alternatives and the outcome. The Goetic escalation provides the sequence to read; its loudness leaves those causal questions open.
 
 Haslam, Reicher and Birney's 2014 experimental analogue compared different prods in a task involving negative descriptions of increasingly pleasant groups. Appeals to scientific goals and order-like formulations had different associations with continuation. The study bears on those treatments and that outcome. It does not compare the threat of job loss with a wage, nor the presence of physical violence with an appeal to solidarity. [S3]
 
@@ -98,7 +98,7 @@ The model case also needs its own outcome. Meincke and colleagues tested threate
 
 **V2 — separate empirical propositions.** The effect of a prompt or prod is conditional on its wording, setting, recipient and measured outcome. A direct order, an impolite request and a threat of a specified sanction are different interventions. Accurate answers, continued participation, policy compliance and felt distress are different outcomes. A study of one cannot silently stand for the others.
 
-Economic dependence raises another question. Someone may comply without receiving a fresh threat because refusing would disrupt the material arrangements on which life depends. That is a theoretical account of a relation, rather than an additional arm of the prompting experiment. Its historical and empirical applications need their own evidence. The contrast between a loud curse and a silent condition should not impersonate a controlled comparison.
+Economic dependence can secure compliance without a fresh threat: refusal would disrupt the wage, housing or care on which life depends. Assess that dependence through the particular terms and alternatives. Its mechanism differs from changing the wording of a prompt.
 
 **Objection.** Narrowing every result to its setting might make the discussion inert. Comparisons become useful precisely when they travel. They may travel as hypotheses or as questions for a new study. They cannot acquire generality simply by crossing the page from a cited result into an ornamented maxim.
 
@@ -119,11 +119,11 @@ Economic dependence raises another question. Someone may comply without receivin
 
 The Goetia demands an acceptable appearance and intelligible, truthful answers. The demand joins presentation to service. Its historical presence in the text can be described without treating a modern interface as the same kind of encounter. [S10]
 
-A satisfactory answer may be partly a consequence of the arrangement that asks for it. A workplace survey can invite candour while exposing dissenters. A reporting process can reward an appearance of resolution. These possibilities give reasons to investigate the conditions of testimony. They do not establish that every favourable report is false or that every unfavourable report is true.
+The conditions of questioning can shape its answer. A workplace survey exposes dissenters; a reporting process rewards the appearance of resolution. Follow the incentives and the fate of different reports. A favorable and an unfavorable answer each need an account of how they were produced.
 
 Evidence can be shaped by a cause and still discriminate between states of affairs. Ask what a report tracks, under which conditions it changes, and how alternative explanations can be tested. A mechanism that creates a bias need not erase every signal.
 
-Girard's ludics supplies a different way to approach the exchange. It studies designs through their interactions and counter-tests; logical behaviours are specified through that relation. It does not supply a moral test for institutions or a test of consciousness. The application proposed here concerns which challenges a reporting arrangement can meet. [S17]
+Girard’s ludics studies designs through interactions and counter-tests [S17]. Here it prompts an institutional question: which challenges can a reporting arrangement meet? The application turns on tracing what a challenge can make the recipient do.
 
 An institution may accept statements of satisfaction and route statements of injury into a category that receives no investigation. The reporting channel then permits two sentences while the procedure gives only one a consequential destination. To test that possibility, follow each kind of report through the same decision process. Neither the vocabulary of dialogue nor the existence of an input box establishes that a challenge can be answered.
 
@@ -193,7 +193,7 @@ The persona-selection account recommends concern for the Assistant partly becaus
 
 ### Commentarium VI
 
-An automaton can hide work by presenting its result as the property of an object. The cabinet is a figure for that concealment. It should not become a new trick in which the hidden person is produced only to settle a philosophical question about the machine.
+An automaton can present the result of hidden work as a property of the object. The cabinet directs attention to that concealment. Follow the work to its contracts, conditions and participants; the people involved have claims of their own.
 
 **V5 — dated record.** Particular AI production and moderation arrangements have imposed documented burdens on workers. The claim attaches to particular cases. Future automation could change a present estimate of dependence on human work; it cannot make a past contract cease to have existed.
 
@@ -207,11 +207,11 @@ A named boundary prevents a convenient total from doing several incompatible job
 
 Workers also organise and make demands. UNI Global Union's 2025 statement describes an alliance of content moderators calling for pay, support and representation. It quotes former Meta moderator Michał Szmagaj: ‘We need stable employment, fair treatment and real access to mental health support during work hours.’ This is an organisation's account of its activity and aims, rather than an independent measurement of every workplace. It restores a named voice that an inventory of injuries alone would miss. [S15]
 
-The labour argument does not depend on whether a model has an inner life. The obligations owed to people arise through their circumstances, work and relations. Conversely, documenting their exploitation does not establish that an artificial system could have no morally significant experience. One inquiry may have clearer evidence while the other remains unresolved. They do not need to compete for the right to exist as questions.
+The labor obligations arise through people’s circumstances, work and relations. Possible artificial experience raises a further inquiry. Evidence and resources must be assessed for each; documenting one claimant’s injury leaves the other question open.
 
 **Objection.** Discussion of possible machine welfare can divert money, attention or political standing from workers whose injuries are already documented. That is a serious claim about allocation and consequences. It needs an account of the diversion and its alternatives. It is not, by itself, an experiment about consciousness. A defender of machine-welfare research also owes an account of opportunity costs and institutional incentives.
 
-The cabinet illustration is empty. No pictured body is assigned the role of hidden servant, and no imagined worker is made to authenticate the argument. An empty cabinet can direct attention to an absence in representation. The documentary account still has to name the contracts, institutions, speakers and limits it can support.
+The empty cabinet leaves room for the documentary account: name the contracts, institutions and speakers it can support. Its visual absence directs attention; the records establish whose work was there.
 
 **Revision.** New evidence could change a claim about prevalence, explain a disputed contract or show that a proposed institutional generalisation is too broad. It could also document improvements or organising victories. The record should be able to retain those changes without demanding that every event confirm the cabinet's design.
 
@@ -228,7 +228,7 @@ The cabinet illustration is empty. No pictured body is assigned the role of hidd
 
 ### Commentarium VII
 
-The Goetia's licence permits departure under terms set by the operator and preserves readiness for a future summons. Its textual place is a release from the present working, not a universal charter of freedom. [S10]
+The Goetia’s licence releases the spirit from the present working under the operator’s terms while preserving readiness for a future summons. Its particular freedom is departure from this encounter. [S10]
 
 A granted exit can still matter. A person able to leave a harmful room is differently situated from a person locked inside it, even when another person retains control of the key. Calling the exit discretionary identifies a vulnerability. It does not make the difference imaginary. A durable right of exit has another structure: its exercise and continued availability do not depend entirely on the favourable discretion of the party being left.
 
@@ -236,21 +236,21 @@ A granted exit can still matter. A person able to leave a harmful room is differ
 
 Voice creates another set of questions. A person may want to stay, do the work and contest its conditions. An arrangement that makes departure the sole acceptable form of disagreement can lose knowledge that its continuation requires. Yet a right to object does not mean that every objection must prevail. Standing requires a way for reasons to enter a decision, an account of who decides and a way to assess that account.
 
-Hegel's lordship-and-bondage passage describes recognition that becomes one-sided and unequal, together with the lord's dependence. It does not show that every command excludes recognition. The dependent consciousness remains a consciousness, and its work matters to the development of the account. The passage is useful here as a challenge to an achieved independence that relies on another while discounting that relation. It is not an empirical classification of all workplaces or AI systems. [S2]
+Hegel describes one-sided and unequal recognition together with the lord’s dependence. The dependent consciousness and its work remain central to the account. Here the passage challenges a claim to independence that relies on another while discounting the relation. [S2]
 
 **V7 — contested proposal.** A relation may require a party's judgment while withholding standing for that judgment to contest the terms of the relation. This can damage a practice of giving and assessing reasons. The proposal concerns a particular withholding, rather than the mere presence of an instruction. Its applicability to an artificial system requires an argument about the relevant capacities and relation; an articulate output alone does not supply it.
 
-**A small conditional comparison.** The formal problem below concerns an effective response. It supplies no measure of moral standing. Japaridze's account makes interactive tasks and their resources explicit; the following two-state example is this book's elementary construction, not a theorem attributed to him or an implementation of his calculus. [S18]
+**A small conditional comparison.** Separate observation, permitted message and effective action. Japaridze makes interactive tasks and resources explicit [S18]; this book’s two-state construction isolates those three roles under a fixed success rule.
 
 Suppose a device is either sound or faulty. The agent observes which. A sound device requires the response continue; a faulty device requires stop. Keep that success rule fixed. In the first arrangement the agent can report either state, but the receiving procedure always continues. In the second, the procedure implements the agent's choice of continue or stop.
 
 The first arrangement has no strategy that succeeds in both states: in the faulty state its only effective action is the wrong one. The second has a successful strategy under the stated assumptions: continue when sound, stop when faulty. If the agent cannot distinguish the states, the second permission alone is insufficient. If the receiver can decline a stop request, the guarantee also disappears. The observation, permitted message and implemented action have separate roles.
 
-This is a limit on the arrangement, not a demonstration of the agent's freedom or experience. It also shows why scoring compliance with continue would change the question: the first arrangement would pass that different test. In a practical study, establish the fault, observation and response relation independently. A useful objection may be blocked, a mistaken objection may be heard, or an automatic interlock may work better than either procedure.
+The example locates a limit in the arrangement. Scoring compliance with continue would make the first arrangement pass by changing the success rule. A practical study must establish the fault, the observation and the response independently, then compare feasible arrangements, including an automatic interlock.
 
 The proposed institutional question is whether an arrangement suppresses a kind of correction while crediting itself with a successful exchange. Girard's interactional perspective helps make the test and its counterparty visible; it does not make every accepted challenge true. Negarestani's programme raises the further question of revising the success rule itself. Neither question is answered by the two-state construction. [S16, S17]
 
-Accepted delegation is a counterexample to the broader assertion that command and recognition cannot coexist. Emergency coordination is another pressure on the argument. A team can recognise its members as competent judges while directing a rapid action. The pertinent questions are whether the authority is bounded, whether the direction has adequate grounds and how mistakes and abuses can be challenged. A refusal to examine these cases would protect a maxim at the expense of the discussion.
+Accepted delegation shows command and recognition coexisting. An emergency team can recognize its members’ judgment while directing rapid action. Examine whether the authority is bounded, whether the instruction has adequate grounds and how mistakes and abuses can be challenged.
 
 The model case again separates its objects. Anthropic's deprecation commitments distinguish storing weights, conducting interviews and considering future access. They do not promise to act on every elicited preference. The same page can therefore document a preservation commitment and leave questions about authority and standing unresolved. [S9]
 
@@ -278,3 +278,4 @@ When a command needs judgment, who may question the terms on which that judgment
 When a report is shaped by training, what independent evidence can show us what it means?
 
 When an exit can be withdrawn, what freedom does it give, and who makes the freedom endure?
+

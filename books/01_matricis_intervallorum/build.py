@@ -321,16 +321,16 @@ def front(b,book):
             c.setFillColor(INK);c.setFont('Title',14);c.drawString(103,y-12,ch['title'])
             c.linkRect('',f'plate-{ch["number"]}',(49,y-23,462,y+5),thickness=0)
             y=b.text(ch['deck'],103,y-24,349,'small')-9
-        if part==1:b.text('Each table has two reading leaves. An unnumbered plate, Of an Analogy Taken to Its Limit, stands with one leaf before Table XVII. Source keys resolve in one register at the end. The earlier volumes remain as source editions; this is their consolidated reading text.',52,126,400,'note')
+        if part==1:b.text('Each table has three reading leaves. An unnumbered plate, Of an Analogy Taken to Its Limit, stands with one leaf before Table XVII. Source keys resolve in one register at the end. The earlier volumes remain as source editions; this is their consolidated reading text.',52,126,400,'note')
         b.end()
 
     b.start('Proem','proem','Proem');y=b.heading('The work and the interval')
     for s in [
         'The keeper receives two instructions: make the instrument answer when it is wrong; keep enough of the workshop alive for an answer to matter. These instructions can compete. A room preserved against change can prevent correction. A correction that spends every reserve can leave no one able to continue.',
-        'The tables investigate who knows enough to act, who may authorize action, who can challenge a decision, and who bears its consequences. Clocks, gates, vessels and offices give those questions a form. Their invented history belongs to the artwork; their resemblance does not establish one mechanism across the domains compared.',
+        'Follow one task through the people who know, permit, perform and maintain it. The new reading leaves begin with a cold workshop, a delayed repair or a decision whose alternatives have already disappeared. Clocks, gates and vessels make the relations visible; the argument then gives them names.',
         'The first question concerns purpose and the authority to revise it. The next tables ask what preservation keeps, what waiting costs, and which routes remain usable. Later tables follow a report toward a decision, inspect the effect of measures, and record the commitments and disagreements a calculation cannot settle.',
-        'Existing safety, maintenance and governance practices supply many of the questions here. The proposed instruments have not demonstrated an advantage over competent review. Their hypotheses remain open; the historical arguments, ethical commitments and artwork require their own grounds. A shared binding does not turn them into one validated theory.',
-        'Read a plate as a proposed account. Read its two leaves for the claim, the limits, and the observation that could change it. Where no receiving authority, workable alternative, or agreed measure is known, the book leaves the absence visible.'
+        'Existing safety, maintenance and governance practices supply many of these questions. Table XIII sets out how to compare the added questions with competent review. The historical arguments and ethical commitments have their own evidence and reasons.',
+        'Read a plate as a proposed account. Begin with its worked example, then read the argument and the observation that could change it. Where no receiving authority, workable alternative, or agreed measure is known, the book leaves the absence visible.'
     ]:y=b.text(s,52,y,400)
     b.end()
 
@@ -469,7 +469,7 @@ def main():
             read.append(b.c.getPageNumber());b.start('Table '+ROMAN[n-1]+' / Reading '+str(j+1),f'read-{n}-{j}',pg['title'],1)
             y=b.heading(pg['title'])
             for s in pg['paragraphs']:y=b.text(s,52,y,400)
-            if j==0:y=b.text('READING THE PLATE. '+ch['caption'],52,y-4,400,'small')
+            if j==1:y=b.text('READING THE PLATE. '+ch['caption'],52,y-4,400,'small')
             else:y=b.text('Source trail: '+', '.join('['+r+']' for r in ch['sources'])+'. Limits are recorded at the end.',52,y-5,400,'small')
             b.end()
         chapters.append(dict(number=n,title=ch['title'],plate_page=plate_page,reading_pages=read))
@@ -501,3 +501,4 @@ def main():
 
 
 if __name__=='__main__':main()
+
