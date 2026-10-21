@@ -25,10 +25,11 @@ class CombinedTests(unittest.TestCase):
                 for key in re.findall(r'\[([A-Z]\d+)\]',p):self.assertIn(key,[r['id'] for r in BOOK['references']])
         self.assertEqual([ch['number'] for ch in BOOK['chapters']],list(range(1,18)))
         for ch in BOOK['chapters']:
-            self.assertEqual(len(ch['pages']),2)
+            # A worked example precedes the two argument leaves.
+            self.assertEqual(len(ch['pages']),3)
         prose=' '.join(p for ch in BOOK['chapters'] for pg in ch['pages'] for p in pg['paragraphs'])
         self.assertNotIn('mostly physical repair',prose)
-        self.assertIn('comparison records are not included',prose)
+        self.assertIn('Neither ran the independent three-arm comparison',prose)
         self.assertIn('6. Investigate material dependence',prose)
         self.assertIn('10. Critical decisions require',prose)
 
