@@ -149,13 +149,49 @@ class BackmatterTests(unittest.TestCase):
         self.assertTrue(waite['citation'].startswith('Waite, A. E.'))
         self.assertIn('1910',waite['citation'])
         self.assertTrue(waite['accounts'][0]['status'].startswith('Online transcription inspected'))
-        self.assertEqual({k for r in records for k in r['keys']},{f'V/S{i}' for i in range(1,10)}|{'V/R0'})
+        self.assertEqual({k for r in records for k in r['keys']},{f'V/S{i}' for i in range(1,13)}|{'V/R0'})
         jones=next(r for r in records if 'V/S9' in r['keys'])
         self.assertTrue(jones['citation'].startswith('Jones, J.'))
         self.assertIn('Artificial Life 16(2)',jones['citation'])
         self.assertTrue(jones['accounts'][0]['status'].startswith('Publication metadata checked'))
         # Book V's own source trail is the account; no generated use line is added.
         self.assertTrue(all(not a['use'] for r in records for a in r['accounts']))
+
+    def test_book_v_ifa_sources_keep_their_editions_and_inspection_limits(self):
+        records,_,_=backmatter.collect([('V','Ars Notoria Stigmatum','','present.pdf','Claude and ChatGPT/Codex')])
+        cases=[
+            ('V/S10','Ogunnaike, O. Sufism and Ifa: Ways of Knowing in Two West African Intellectual Traditions. Doctoral dissertation, Harvard University, 2015.',
+             'Inspected passages: pp. 257–262; 280; 283–286; 316–321; 377–397.',
+             'selected passage checks, not a claim to have reviewed all 542 PDF pages',
+             'https://dash.harvard.edu/entities/publication/73120378-f5d2-6bd4-e053-0100007fdf3b'),
+            ('V/S11','Barry Hallen, “Ethical Knowledge in an African Philosophy.” Florida Philosophical Review 3(1), Summer 2003, pp. 81–90.',
+             'Article inspected, especially pp. 83–87',
+             "not an inspection of their entire joint monograph or a substitute for Ogunnaike's Ifá fieldwork",
+             'https://cah.ucf.edu/fpr/article/ethical-knowledge-in-an-african-philosophy/'),
+            ('V/S12','William Bascom, Ifa Divination: Communication Between Gods and Men in West Africa. Bloomington: Indiana University Press, 1969.',
+             'Chapter-opening excerpts inspected on JSTOR: I, p. 3; V, p. 51; VII, p. 68; XII, p. 120.',
+             "not independent inspection of Bascom's pp. 76–80",
+             'https://www.jstor.org/stable/j.ctt16gzhwk'),
+        ]
+        for key,citation,opening,limit,url in cases:
+            with self.subTest(key=key):
+                record=next(r for r in records if key in r['keys'])
+                self.assertEqual(record['keys'],[key])
+                self.assertEqual(record['citation'],citation)
+                self.assertEqual(len(record['accounts']),1)
+                account=record['accounts'][0]
+                self.assertEqual(account['book'],'V')
+                self.assertTrue(account['status'].startswith(opening))
+                self.assertIn(limit,account['status'])
+                self.assertEqual(account['use'],'')
+                self.assertEqual(record['urls'],[url])
+        # The dissertation cannot silently stand in for the uninspected book chapters.
+        book=next(r for r in records if 'V/S7' in r['keys'])
+        self.assertEqual(book['keys'],['V/S7'])
+        self.assertIn('Deep Knowledge:',book['citation'])
+        self.assertIn('Penn State University Press, 2020.',book['citation'])
+        self.assertIn('Full Ifá chapters not inspected.',book['accounts'][0]['status'])
+        self.assertIn('not substituted for this edition',book['accounts'][0]['status'])
 
     def test_escalationum_debts_split_at_their_bibliographic_heads(self):
         catalogue=json.loads((ROOT/'books/03_escalationum/manuscript/catalogue.json').read_text())
