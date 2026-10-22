@@ -2,7 +2,7 @@
 
 *Of the Figure and Its Reader*
 
-Book V of Codex Intervallorum. Revised reading text, 21 October 2026.
+Book V of Codex Intervallorum. Revised reading text, 22 October 2026.
 
 <!-- leaf: cover -->
 
@@ -240,11 +240,11 @@ UNESCO describes an Odù corpus with 256 divisions and an expanding body of vers
 
 The arithmetic of eight binary distinctions gives 256 configurations. It does not establish equal likelihood in an instrument, a historical route of transmission, or equivalence between a configuration and the knowledge associated with it. An encoding can be exact within the feature it records while leaving most of a practice unrepresented.
 
-The brief's stronger claims about seniority and the precise ìbò selection rule remain pending checks against Bascom and Abimbola. They do not enter this draft's orations as verified procedure. Nor does failure to find an empirical cast-distribution study establish that nobody has made one.
+Seniority has a procedural role in Ogunnaike's dissertation account of ìbò, which also records regional ranking differences. This establishes neither one universal order nor a complete selection algorithm. The full Bascom and Abimbola page checks remain pending. [S10, pp. 261, 317 n. 605, 321 n. 614] Nor does failure to find an empirical cast-distribution study establish that nobody has made one.
 
 Inscription and erasure supply the dust-surface comparison. A simulated pheromone field additionally makes density and adjacency affect movement. Establish those relations before claiming a shared mechanism.
 
-The nota diagrams an index. Practitioners’ accounts, the Odù corpus and questions of initiation remain outside this diagram’s scope. No ẹsẹ is reproduced.
+The nota diagrams an index. Bascom treats the figures as means of selecting verses; the verses carry predictions and sacrifices. [S12, p. 120] Practitioners’ accounts, the Odù corpus and questions of initiation remain outside this diagram’s scope. No ẹsẹ is reproduced.
 
 *Another hand:* These limits describe the present author's work. They are not an assertion that a living tradition has one universal rule of access.
 
@@ -252,11 +252,13 @@ The nota diagrams an index. Practitioners’ accounts, the Odù corpus and quest
 
 <!-- leaf: text -->
 
-The research summary proposes carrying the distinction between ìmọ̀ and ìgbàgbọ́ into every claim in this book. In the materials actually inspected for that summary, the particular formulation came through a reader's account of Deep Knowledge. It has not yet been checked against the relevant pages of Ogunnaike's book.
+The research summary took the ìmọ̀/ìgbàgbọ́ distinction from a reader's account of Deep Knowledge. Direct inspection of Ogunnaike's 2015 dissertation confirms a distinction between firsthand knowledge and received information, without a neat equivalence to English “knowledge” and “belief.” [S10, pp. 283–284] The 2020 book's detailed chapters remain unchecked. [S7]
 
-The publisher's description confirms a study of knowledge, its acquisition and its verification in Ifá and Sufism. It does not authorize replacing either epistemology with this workshop's preferred rules. The detailed borrowing remains pending. [S7]
+Hallen's own account makes a consequence explicit: another person's witnessed experience does not become one's own firsthand knowledge through testimony. [S11, pp. 84–85] Reading a report directly therefore verifies what was written, not everything it reports.
 
-We can state our own narrower rule without attributing it to a tradition we have not adequately read: say whether the present claim rests on direct inspection, somebody else's report, a calculation, a declared assumption, or an invention. These statuses identify the route by which the claim arrived. They do not rank every direct experience above every report. An instrument can deceive; a trusted report can be better than a hurried observation.
+The comparison prompts our rule; it does not derive it. Ogunnaike's account of verification includes consultation, initiation, lived practice and cultivation of character. [S10, pp. 392–397] The five claim labels below do not reproduce that epistemology.
+
+Our independent workshop proposal is to say whether the present claim rests on direct inspection, somebody else's report, a calculation, a declared assumption, or an invention. These statuses identify the route by which the claim arrived. They do not rank every direct experience above every report. An instrument can deceive; a trusted report can be better than a hurried observation.
 
 This rule also fails if it turns into a stamp applied once. A source may be inspected and misunderstood. A calculation may be exact under a bad assumption. A confident report of an absence may record only an unsuccessful search.
 
@@ -424,6 +426,8 @@ The orations, copyists, disputation, condemnation and found leaf are newly compo
 
 Five computed notae accompany the text, on the Book IV plate furniture, each regenerable from its filed manifest; the found leaf remains a cipher ornament in the place of the frontispiece. A sixth plate, the table of possible endings, was implemented with ChatGPT/Codex on 20 October 2026 from Claude’s Codex palette research. It draws the stated finite calculation rather than a trace field. Its full integer weights are filed beside the SVG. The controls the brief requires, the physical plotting, and the four raster figure briefs remain later work.
 
+The Ifá source check and narrowly scoped reading-leaf revisions were prepared by a new ChatGPT/Codex instance on 22 October 2026. The claim record is filed at docs/research/ifa-source-check-2026-10-22.md. It distinguishes the inspected dissertation and excerpts from the monographs still requiring access.
+
 The three arts retain their different histories, ways of knowing and claims about what a figure can do.
 
 The Tarot of Intervals is kept as a separate volume. Its figures are not repeated here.
@@ -436,7 +440,7 @@ No one needs permission to stop using it.
 
 <!-- leaf: sources -->
 
-All bibliography for this standalone draft is gathered here at the end. The identifiers below remain beside the claims they support. Access date: 17 October 2026. The research packet's wider bibliography remains a workshop record, not a list of books claimed to have been read for this edition.
+All bibliography for this standalone draft is gathered here at the end. The identifiers below remain beside the claims they support. Access date: 17 October 2026, except the Ifá checks dated 22 October below. The research packet's wider bibliography remains a workshop record, not a list of books claimed to have been read for this edition.
 
 **[S1] Julien Véronèse, L'Ars notoria au Moyen Âge: introduction et édition critique.** Florence: SISMEL–Edizioni del Galluzzo, 2007. Publisher record and author's description inspected; critical edition not read. The author's description supports the broad knowledge-acquisition purpose and medieval manuscript setting. Ritual timings, precise notae and the brief's 1323 episode remain outside this draft's historical assertions. Publisher: https://www.sismel.it/pubblicazioni/1027-lars-notoria-au-moyen-age-introduction-et-dition-critique . Author's description: https://univ-orleans.academia.edu/JulienVéronèse/Books .
 
@@ -454,7 +458,17 @@ All bibliography for this standalone draft is gathered here at the end. The iden
 
 **[S6] Ayodeji Ogunnaike, “Ayodeji Ogunnaike on the Dynamic Spread of Geomancy in Africa.”** Islamic Occult Studies on the Rise (IOSOTR), 19 October 2021. Full web essay inspected, especially its discussion of Ifá's organization, appropriation and the proposed relationship between instruments and transmitted figures. Its conditional historical proposal remains a proposal; no transmission route is declared proved here. https://www.islamicoccult.org/ogunnaike .
 
-**[S7] Oludamini Ogunnaike, Deep Knowledge: Ways of Knowing in Sufism and Ifa, Two West African Intellectual Traditions.** Penn State University Press, 2020. Publisher description inspected. Full epistemological chapters not inspected. The detailed ìmọ̀/ìgbàgbọ́ borrowing is withheld pending a page check. https://www.psupress.org/books/titles/978-0-271-08690-3.html .
+**[S7] Oludamini Ogunnaike, Deep Knowledge: Ways of Knowing in Sufism and Ifa, Two West African Intellectual Traditions.** Penn State University Press, 2020. Publisher description and sample introduction, pp. 3–4, inspected; p. 4 identifies the Ifá material as chapters 5–8, unlike the webpage's 6–9. Full Ifá chapters not inspected. The dissertation is cited separately as S10, not substituted for this edition. Checked 22 October 2026. https://www.psupress.org/books/titles/978-0-271-08690-3.html ; https://www.psupress.org/sample_chapter/Ogunnaike_introduction.pdf .
+
+## Source trail — Ifá source checks
+
+<!-- leaf: sources -->
+
+**[S10] Oludamini Ogunnaike, Sufism and Ifa: Ways of Knowing in Two West African Intellectual Traditions. Doctoral dissertation, Harvard University, 2015.** Inspected passages: pp. 257–262; 280; 283–286; 316–321; 377–397. All page references are printed pagination; add six for the one-based PDF page. Relevant notes: 499, 542–544, 605–606, 614, 736, 738. Full file obtained from Harvard DASH; these are selected passage checks, not a claim to have reviewed all 542 PDF pages. Checked 22 October 2026. https://dash.harvard.edu/entities/publication/73120378-f5d2-6bd4-e053-0100007fdf3b .
+
+**[S11] Barry Hallen, “Ethical Knowledge in an African Philosophy.” Florida Philosophical Review 3(1), Summer 2003, pp. 81–90.** Article inspected, especially pp. 83–87 on firsthand experience, testimony, translation and character. An original account of the Hallen–Sodipo research, not an inspection of their entire joint monograph or a substitute for Ogunnaike's Ifá fieldwork. Checked 22 October 2026. https://cah.ucf.edu/fpr/article/ethical-knowledge-in-an-african-philosophy/ .
+
+**[S12] William Bascom, Ifa Divination: Communication Between Gods and Men in West Africa. Bloomington: Indiana University Press, 1969.** Chapter-opening excerpts inspected on JSTOR: I, p. 3; V, p. 51; VII, p. 68; XII, p. 120. These support the distinction between figures, verses and practice, and the use of specific alternatives. Full chapters IV–V and ranking tables were not accessible in this check. The passages quoted by S10 at pp. 385–388 remain quotations through that dissertation, not independent inspection of Bascom's pp. 76–80. Checked 22 October 2026. https://www.jstor.org/stable/j.ctt16gzhwk .
 
 ## Source trail — objections and workshop debts
 
@@ -470,7 +484,7 @@ All bibliography for this standalone draft is gathered here at the end. The iden
 
 **Literary debt.** The CCRU supplies a precedent for unstable collective attribution and found-document fiction. It supplies neither historical evidence for the three arts nor a warrant that fictional assertion brings about its object.
 
-**Pending shelf checks.** Dummett; Decker, Depaulis and Dummett; Rutt; Shaughnessy; Bascom; Abimbola; the full Maitre and Ogunnaike texts; Véronèse's edition. Calvino/Fabbri remains a proposed literary debt pending passage checks. The mathematical passages use direct derivation rather than attributing unchecked statements to those works.
+**Pending shelf checks.** Dummett; Decker, Depaulis and Dummett; Rutt; Shaughnessy; Bascom's full procedural chapters and ranking tables; Wande Abimbola's Ifá: An Exposition of Ifá Literary Corpus; the full Maitre article and Ifá chapters of Ogunnaike's 2020 book; Véronèse's edition. Calvino/Fabbri remains a proposed literary debt pending passage checks. The mathematical passages use direct derivation rather than attributing unchecked statements to those works.
 
 
 

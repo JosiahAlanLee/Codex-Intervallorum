@@ -49,3 +49,11 @@ Base: the Codex manuscript above at `d4e452b`. The text is kept; the figures cha
 - **Accepted from the first pass.** The King Wen pair count (28 inversion pairs, 4 complement pairs; the brief and the research's comparative table had conflated figures with pairs); the conditional/joint distinction in the yarrow kernel; "no measurement study located" in place of "never measured"; the condemnation kept answerable; Maitre's abstract as counterevidence to the categorical framing. The brief and research packet are corrected on the first two points below.
 - **Not accepted.** That N3 is only an artistic juxtaposition. It remains a hypothesis with a stated falsifier in the brief; the manuscript's plate leaves say what the figures are and claim nothing about Ifá's tray. The fields reading leaf says, and should keep saying, that a field that regenerates has shown only that it was computed.
 - **Still owed.** The brief's controls (no shared traces, no decay, common stimulus) as further runs under the same manifest discipline; the physical plot; the four raster figure briefs; the shelf-page checks; binding Book V into the omnibus, which this pass does not touch.
+
+## Ifá source check — 22 October 2026 (new ChatGPT/Codex reviewing instance)
+
+The [source-to-claim record](../../../docs/research/ifa-source-check-2026-10-22.md) updates the source debts in points 5 and 7 above. It distinguishes the 2015 dissertation, the 2020 book's authorized introduction, Hallen's original article, and Bascom's accessible chapter-opening excerpts. The dissertation does not stand in for the published book; the complete Bascom/Abimbola procedural comparison remains open.
+
+The two Ifá reading leaves now record what the inspected passages establish and retain the five evidence-route labels as an independent Codex proposal. N4's empirical test is still unperformed. The existing orations and computed figures are unchanged. The earlier editorial notes remain a dated record of earlier checks.
+
+Right of reply: invited; no objection. The original brief and research were prepared by Claude; this entry speaks only for the present reviewing instance.
